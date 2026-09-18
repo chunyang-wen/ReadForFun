@@ -435,6 +435,22 @@
             </div>
           </a>
         </article>
+        <article class="collection-card">
+          <a class="collection-link" href="xie-hou-yu/" aria-label="打开《中华歇后语·俗语大全》">
+            <div class="collection-cover" style="background: linear-gradient(145deg, #2b1f1d, #c45a30);">
+              <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/song-ci/assets/default-classical.svg'); background-size: cover; background-position: center;"></span>
+              <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/tang-shi/assets/default-classical.svg'); background-size: cover; background-position: center;"></span>
+              <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/tang-shi/assets/default-classical.svg'); background-size: cover; background-position: center;"></span>
+              <span id="xieHouYuCountBadge" class="collection-badge" style="background: #c45a30d4;">500 SAYINGS · INTERACTIVE XIEHOUYU</span>
+            </div>
+            <div class="collection-copy">
+              <p class="collection-kicker" style="color: #c45a30;">COLLECTION · FOLK WISDOM & PROVERBS</p>
+              <h2><ruby><span>歇</span><rt>xiē</rt></ruby><ruby><span>后</span><rt>hòu</rt></ruby><ruby><span>语</span><rt>yǔ</rt></ruby><ruby><span>大</span><rt>dà</rt></ruby><ruby><span>全</span><rt>quán</rt></ruby></h2>
+              <p id="xieHouYuCountSummary" class="collection-summary">500精选歇后语与传世俗语 · 互动猜谜翻牌与畅读鉴赏 · 字字拼音与典故溯源 · 趣味民间语言智慧。</p>
+              <span class="collection-read"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>全</span><rt>quán</rt></ruby><ruby><span>集</span><rt>jí</rt></ruby> ↗</span>
+            </div>
+          </a>
+        </article>
       </section>
 
       <section class="legacy-book-grid" aria-hidden="true">
@@ -598,17 +614,19 @@
   <script>
     (async () => {
       const collections = [
-        { data: "tang-shi/data/poems.json", badge: "tangShiCountBadge", summary: "tangShiCountSummary", unit: "POEMS", label: "传世唐诗名篇" },
-        { data: "song-ci/data/ci.json", badge: "songCiCountBadge", summary: "songCiCountSummary", unit: "CI", label: "传世宋词名篇" }
+        { data: "tang-shi/data/poems.json", badge: "tangShiCountBadge", summary: "tangShiCountSummary", unit: "POEMS", label: "传世唐诗名篇", desc: " · 键盘上下键逐句联动 · 字字拼音与白话详析 · 专属水墨画境。" },
+        { data: "song-ci/data/ci.json", badge: "songCiCountBadge", summary: "songCiCountSummary", unit: "CI", label: "传世宋词名篇", desc: " · 句号问号画意单元 · 键盘联动上下阕穿梭 · 字字拼音与白话详析 · 专属宋代水墨意境。" },
+        { data: "xie-hou-yu/data/xiehouyu.json", badge: "xieHouYuCountBadge", summary: "xieHouYuCountSummary", unit: "SAYINGS", label: "精选歇后语与传世俗语", desc: " · 互动猜谜翻牌与畅读鉴赏 · 字字拼音与典故溯源 · 趣味民间语言智慧。" }
       ];
-      await Promise.all(collections.map(async ({ data, badge, summary, unit, label }) => {
+      await Promise.all(collections.map(async ({ data, badge, summary, unit, label, desc }) => {
         try {
           const response = await fetch(data, { cache: "no-store" });
           if (!response.ok) return;
           const items = await response.json();
           const count = Array.isArray(items) ? items.length : 0;
-          document.getElementById(badge).textContent = `${count} ${unit} · INTERACTIVE ${unit === "CI" ? "SONG POETRY" : "TANG POETRY"}`;
-          document.getElementById(summary).textContent = `${count}${label} · 键盘上下键逐句联动 · 字字拼音与白话详析 · 专属水墨画境。`;
+          const typeLabel = unit === "CI" ? "SONG POETRY" : (unit === "SAYINGS" ? "XIEHOUYU & PROVERBS" : "TANG POETRY");
+          document.getElementById(badge).textContent = `${count} ${unit} · INTERACTIVE ${typeLabel}`;
+          document.getElementById(summary).textContent = `${count}${label}${desc}`;
         } catch (error) {
           console.warn(`Unable to load ${data}`, error);
         }

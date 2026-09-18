@@ -39,7 +39,11 @@
 - [甲骨文之美 · 殷商刻辞千字典](https://chunyang-wen.github.io/ReadForFun/jia-gu-wen/) · 1203 页
   - 全本收录 1,203 个已破译甲骨文字形，每页一字一图一释，支持释义与字义全文语义检索，手书金石浓墨风格。
 
-- [唐诗之境 · 诗画合集](https://chunyang-wen.github.io/ReadForFun/tang-shi/) · 51 首
+- [唐诗之境 · 诗画合集](https://chunyang-wen.github.io/ReadForFun/tang-shi/) · 100 首
   - 精选传世唐诗名篇，字字注音，每句专属国风意境配图与白话详解。支持键盘上下键逐句联动切换，多维诗人与诗句内容检索。
 
+- [宋词之境 · 词画合集](https://chunyang-wen.github.io/ReadForFun/song-ci/) · 100 阕
+  - 精选传世宋词名篇，句号问号画意单元，上下阕键盘联动穿梭，字字注音与白话详析，专属宋代水墨意境。
 
+- [中华歇后语·俗语大全](https://chunyang-wen.github.io/ReadForFun/xie-hou-yu/) · 500 条
+  - 精选 500 条传世经典歇后语与民间哲理俗语，字字拼音标注，互动猜谜翻牌揭晓与畅读鉴赏双模式，典故溯源、语境用法与生动生活例句全景解析。支持全卷目录（快捷键 M）、即时检索（快捷键 /）、随机漫游（快捷键 R）及墨色夜间模式。
