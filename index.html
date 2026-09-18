@@ -409,12 +409,12 @@
               <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/tang-shi/images/li-shen-min-nong-qi-er/poem.webp'); background-size: cover; background-position: center;"></span>
               <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/tang-shi/images/wang-zhi-huan-deng-guan-que-lou/poem.webp'); background-size: cover; background-position: center;"></span>
               <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-wang-lu-shan-pu-bu/poem.webp'); background-size: cover; background-position: center;"></span>
-              <span class="collection-badge" style="background: #b83b26d4;">51 POEMS · INTERACTIVE TANG POETRY</span>
+              <span id="tangShiCountBadge" class="collection-badge" style="background: #b83b26d4;">100 POEMS · INTERACTIVE TANG POETRY</span>
             </div>
             <div class="collection-copy">
               <p class="collection-kicker" style="color: #b83b26;">COLLECTION · CLASSICAL TANG POETRY</p>
               <h2><ruby><span>唐</span><rt>táng</rt></ruby><ruby><span>诗</span><rt>shī</rt></ruby><ruby><span>之</span><rt>zhī</rt></ruby><ruby><span>境</span><rt>jìng</rt></ruby></h2>
-              <p class="collection-summary">51传世唐诗名篇 · 键盘上下键逐句联动 · 字字拼音与白话详析 · 每句专属水墨画境。</p>
+              <p id="tangShiCountSummary" class="collection-summary">100传世唐诗名篇 · 键盘上下键逐句联动 · 字字拼音与白话详析 · 每句专属水墨画境。</p>
               <span class="collection-read"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>全</span><rt>quán</rt></ruby><ruby><span>集</span><rt>jí</rt></ruby> ↗</span>
             </div>
           </a>
@@ -425,12 +425,12 @@
               <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-shui-diao-ge-tou/poem.webp'); background-size: cover; background-position: center;"></span>
               <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-nian-nu-jiao-chi-bi-huai-gu/poem.webp'); background-size: cover; background-position: center;"></span>
               <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-po-zhen-zi/poem.webp'); background-size: cover; background-position: center;"></span>
-              <span class="collection-badge" style="background: #2d5a63d4;">32 CI · INTERACTIVE SONG POETRY</span>
+              <span id="songCiCountBadge" class="collection-badge" style="background: #2d5a63d4;">100 CI · INTERACTIVE SONG POETRY</span>
             </div>
             <div class="collection-copy">
               <p class="collection-kicker" style="color: #2d5a63;">COLLECTION · CLASSICAL SONG POETRY</p>
               <h2><ruby><span>宋</span><rt>sòng</rt></ruby><ruby><span>词</span><rt>cí</rt></ruby><ruby><span>之</span><rt>zhī</rt></ruby><ruby><span>境</span><rt>jìng</rt></ruby></h2>
-              <p class="collection-summary">32传世宋词名篇 · 句号问号画意单元 · 键盘联动上下阕穿梭 · 字字拼音与白话详析 · 专属宋代水墨意境。</p>
+              <p id="songCiCountSummary" class="collection-summary">100传世宋词名篇 · 句号问号画意单元 · 键盘联动上下阕穿梭 · 字字拼音与白话详析 · 专属宋代水墨意境。</p>
               <span class="collection-read"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>全</span><rt>quán</rt></ruby><ruby><span>集</span><rt>jí</rt></ruby> ↗</span>
             </div>
           </a>
@@ -595,5 +595,25 @@
 
     <footer class="footer-line"><span><ruby><span>故</span><rt>gù</rt></ruby><ruby><span>事</span><rt>shì</rt></ruby><ruby><span>书</span><rt>shū</rt></ruby><ruby><span>架</span><rt>jià</rt></ruby></span><span>2026</span></footer>
   </div>
+  <script>
+    (async () => {
+      const collections = [
+        { data: "tang-shi/data/poems.json", badge: "tangShiCountBadge", summary: "tangShiCountSummary", unit: "POEMS", label: "传世唐诗名篇" },
+        { data: "song-ci/data/ci.json", badge: "songCiCountBadge", summary: "songCiCountSummary", unit: "CI", label: "传世宋词名篇" }
+      ];
+      await Promise.all(collections.map(async ({ data, badge, summary, unit, label }) => {
+        try {
+          const response = await fetch(data, { cache: "no-store" });
+          if (!response.ok) return;
+          const items = await response.json();
+          const count = Array.isArray(items) ? items.length : 0;
+          document.getElementById(badge).textContent = `${count} ${unit} · INTERACTIVE ${unit === "CI" ? "SONG POETRY" : "TANG POETRY"}`;
+          document.getElementById(summary).textContent = `${count}${label} · 键盘上下键逐句联动 · 字字拼音与白话详析 · 专属水墨画境。`;
+        } catch (error) {
+          console.warn(`Unable to load ${data}`, error);
+        }
+      }));
+    })();
+  </script>
 </body>
 </html>
