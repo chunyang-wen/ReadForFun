@@ -61,6 +61,7 @@
   const drawerFilterPills = document.getElementById("drawerFilterPills");
 
   const CJK_RE = /[\u3400-\u4dbf\u4e00-\u9fff]/;
+  const DEFAULT_IMAGE = "assets/default-classical.svg";
 
   /**
    * Render text with ruby pinyin
@@ -223,7 +224,7 @@
     });
 
     // Preload before swapping so keyboard navigation never waits on the network.
-    const imageUrl = poem.image || line.image;
+    const imageUrl = poem.image || line.image || DEFAULT_IMAGE;
     if (lineIllustrationImg.getAttribute("data-current-img") === imageUrl) {
       // Current image is already active; do not reload or flash
       artworkLineBadge.textContent = `第 ${currentLineIndex + 1} / ${poem.lines.length} 句`;
@@ -273,9 +274,11 @@
     }
     preload.then(loaded => {
       if (swapToken !== imageSwapToken) return;
-      if (!loaded) {
-        artworkLoading.classList.add("has-error", "is-visible");
-        artworkLoading.querySelector(".artwork-loading-label").textContent = "配图加载失败，请重试";
+      if (!loaded && imageUrl !== DEFAULT_IMAGE) {
+        lineIllustrationImg.src = DEFAULT_IMAGE;
+        lineIllustrationImg.setAttribute("data-current-img", DEFAULT_IMAGE);
+        lineIllustrationImg.alt = `${poem.title} - 默认意境图`;
+        artworkLoading.classList.remove("is-visible");
         lineIllustrationImg.classList.remove("is-loading");
         return;
       }

@@ -62,6 +62,7 @@
   const drawerFilterPills = document.getElementById("drawerFilterPills");
 
   const CJK_RE = /[\u3400-\u4dbf\u4e00-\u9fff]/;
+  const DEFAULT_IMAGE = "assets/default-classical.svg";
 
   /**
    * Render text with ruby pinyin
@@ -190,17 +191,6 @@
     const nextIdx = (currentCiIndex + 1) % visibleCi.length;
     prevCiTitle.textContent = visibleCi[prevIdx].title;
     nextCiTitle.textContent = visibleCi[nextIdx].title;
-
-    // Update Poem-Level Artwork (Only when poem changes!)
-    if (ci.image && sentenceIllustrationImg.getAttribute("data-current-ci-id") !== ci.id) {
-      sentenceIllustrationImg.classList.add("fade-out");
-      sentenceIllustrationImg.setAttribute("data-current-ci-id", ci.id);
-      setTimeout(() => {
-        sentenceIllustrationImg.src = ci.image;
-        sentenceIllustrationImg.alt = `《${ci.title}》· ${ci.author} - 宋词意境图`;
-        sentenceIllustrationImg.classList.remove("fade-out");
-      }, 120);
-    }
 
     // Synchronize current sentence state & explanation
     syncSentenceState();
@@ -352,7 +342,21 @@
       dot.classList.toggle("active", idx === currentSentenceIndex);
     });
 
-    // 6. Update Artwork overlay focus (Poem image stays stable, only caption updates)
+    // Keep upper/lower artwork synchronized with the active sentence.
+    const stanzaImage = sent.stanza_no === 2 ? (ci.image_lower || ci.image) : (ci.image_upper || ci.image);
+    const stanzaKey = `${ci.id}:${sent.stanza_no}`;
+    if (stanzaImage && sentenceIllustrationImg.getAttribute("data-current-ci-id") !== stanzaKey) {
+      sentenceIllustrationImg.classList.add("fade-out");
+      sentenceIllustrationImg.setAttribute("data-current-ci-id", stanzaKey);
+      setTimeout(() => {
+        sentenceIllustrationImg.src = stanzaImage;
+        sentenceIllustrationImg.alt = `《${ci.title}》· ${ci.author} - 宋词意境图`;
+        sentenceIllustrationImg.onerror = () => { sentenceIllustrationImg.onerror = null; sentenceIllustrationImg.src = DEFAULT_IMAGE; };
+        sentenceIllustrationImg.classList.remove("fade-out");
+      }, 120);
+    }
+
+    // 6. Update Artwork overlay focus
     const stObj = ci.stanzas.find(s => s.stanza_no === sent.stanza_no);
     const totalInStanza = stObj ? stObj.sentences.length : ci.sentences.length;
     artworkSentenceBadge.textContent = `${sent.stanza_name} · 第 ${sent.sentence_no} / ${totalInStanza} 句`;
