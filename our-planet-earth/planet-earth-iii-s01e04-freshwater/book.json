@@ -1,0 +1,1045 @@
+{
+  "title": "淡水：生命的血脉",
+  "subtitle": "Planet Earth III · S01E04 Freshwater",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "Planet Earth III S01E04 Freshwater，完整全片；源视频中文国配简中字幕 stream 4",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "heading": "地下的淡水迷宫",
+      "text": "在墨西哥尤卡坦半岛下面，淡水雕琢出迷宫般的洞穴。",
+      "pinyin": "zài mò xī gē yóu kǎ tǎn bàn dǎo xià miàn ，dàn shuǐ diāo zhuó chū mí gōng bān de dòng xué 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画，参考尤卡坦半岛地下淡水洞穴的纪录片质感：黑暗的石灰岩洞穴被清澈蓝绿色水流穿过，钟乳石和水面反光形成迷宫纵深，准确表现淡水雕琢地貌，柔和水粉与细腻光束，无文字、无字幕、无标志。",
+      "source_time_range": [
+        27.5,
+        47.0
+      ],
+      "visual_time_range": [
+        25.0,
+        55.0
+      ],
+      "reference_frames": [
+        "references/page_01/ref_01_031.00s.jpg",
+        "references/page_01/ref_02_040.00s.jpg",
+        "references/page_01/ref_03_049.00s.jpg"
+      ],
+      "visual_anchors": [
+        "尤卡坦半岛地下石灰岩洞穴",
+        "清澈淡水在洞穴中流动",
+        "迷宫般的地下通道与钟乳石"
+      ],
+      "key_content": {
+        "location": "墨西哥尤卡坦半岛地下洞穴",
+        "animals": [],
+        "activity": "淡水侵蚀并雕琢洞穴",
+        "stakes": "地下生命依靠淡水形成的通道和水源。",
+        "outcome": "一片隐藏的淡水世界被塑造出来。",
+        "visual_focus": "黑暗洞穴、清澈水面、钟乳石与水流纹理"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_01.webp",
+      "heading_pinyin": "dì xià de dàn shuǐ mí gōng"
+    },
+    {
+      "page": 2,
+      "heading": "淡水塑造生命",
+      "text": "淡水不只是饮水。它还塑造陆地，养育许多生命。",
+      "pinyin": "dàn shuǐ bù zhǐ shì yǐn shuǐ 。tā hái sù zào lù dì ，yǎng yù xǔ duō shēng mìng 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画，用一条清澈淡水流把地下洞穴、热带雨林、池塘、河流和湿地连接起来，画面中可见红眼蛙、鳄鱼、水鸟和鱼类的远景剪影，突出淡水塑造陆地与生命的关系，真实自然史构图，明亮水粉，无文字。",
+      "source_time_range": [
+        54.5,
+        91.0
+      ],
+      "visual_time_range": [
+        70.0,
+        100.0
+      ],
+      "reference_frames": [
+        "references/page_02/ref_01_076.00s.jpg",
+        "references/page_02/ref_02_085.00s.jpg",
+        "references/page_02/ref_03_094.00s.jpg"
+      ],
+      "visual_anchors": [
+        "淡水水流连接不同栖息地",
+        "森林和湿地由水滋养",
+        "画面中心是流动的水"
+      ],
+      "key_content": {
+        "location": "地球上的淡水环境",
+        "animals": [],
+        "activity": "淡水塑造地貌并支持生命",
+        "stakes": "没有淡水，陆地上的生命难以生存。",
+        "outcome": "后面的每个故事，都从一滴淡水开始。",
+        "visual_focus": "水流连接洞穴、森林、湿地和动物"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_02.webp",
+      "heading_pinyin": "dàn shuǐ sù zào shēng mìng"
+    },
+    {
+      "page": 3,
+      "heading": "雨季的蛙声聚会",
+      "text": "在哥斯达黎加雨林，雨季大雨刚形成池塘，数千只红眼蛙赶来集合。",
+      "pinyin": "zài gē sī dá lí jiā yǔ lín ，yǔ jì dà yǔ gāng xíng chéng chí táng ，shù qiān zhǐ hóng yǎn wā gǎn lái jí hé 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画，参考哥斯达黎加雨林雨季：暴雨后的浅池塘边聚集大量鲜绿色、红色眼睛的红眼蛙，湿叶、雨滴、苔藓和热带植物清晰可见，表现短暂而热闹的繁殖集合，真实动物比例，水粉，无文字。",
+      "source_time_range": [
+        111.5,
+        176.5
+      ],
+      "visual_time_range": [
+        145.0,
+        180.0
+      ],
+      "reference_frames": [
+        "references/page_03/ref_01_152.00s.jpg",
+        "references/page_03/ref_02_162.50s.jpg",
+        "references/page_03/ref_03_173.00s.jpg"
+      ],
+      "visual_anchors": [
+        "哥斯达黎加热带雨林",
+        "刚形成的浅池塘",
+        "大量红眼蛙聚集在池塘边"
+      ],
+      "key_content": {
+        "location": "哥斯达黎加雨林新形成的池塘",
+        "animals": [
+          "红眼蛙"
+        ],
+        "activity": "红眼蛙在雨季池塘边集合",
+        "stakes": "这场繁殖聚会只有很短时间。",
+        "outcome": "蛙群抓住雨水出现的机会。",
+        "visual_focus": "湿润热带雨林、雨滴、新池塘和成群红眼蛙"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_03.webp",
+      "heading_pinyin": "yǔ jì de wā shēng jù huì"
+    },
+    {
+      "page": 4,
+      "heading": "雌蛙挑选一片叶子",
+      "text": "雌性红眼蛙要尽快找到一片树叶，把卵产在池塘上方。",
+      "pinyin": "cí xìng hóng yǎn wā yào jǐn kuài zhǎo dào yī piàn shù yè ，bǎ luǎn chǎn zài chí táng shàng fāng 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画，近距离表现一只雌性红眼蛙在新池塘上方选择宽大的绿色树叶，叶片边缘下方就是水面，卵整齐贴在叶片上但不画夸张细节，热带雨林湿润散射光，科学准确、温和水粉，无文字。",
+      "source_time_range": [
+        184.0,
+        226.0
+      ],
+      "visual_time_range": [
+        200.0,
+        230.0
+      ],
+      "reference_frames": [
+        "references/page_04/ref_01_206.00s.jpg",
+        "references/page_04/ref_02_215.00s.jpg",
+        "references/page_04/ref_03_224.00s.jpg"
+      ],
+      "visual_anchors": [
+        "池塘上方伸出的宽叶",
+        "雌性红眼蛙贴在叶片上",
+        "叶下是清水池塘"
+      ],
+      "key_content": {
+        "location": "哥斯达黎加雨林池塘上方的树叶",
+        "animals": [
+          "雌性红眼蛙"
+        ],
+        "activity": "雌蛙选择叶片并产卵",
+        "stakes": "叶子的位置决定小蝌蚪能否落入池塘。",
+        "outcome": "雌蛙找到合适的叶片开始产卵。",
+        "visual_focus": "红眼蛙趴在池塘上方叶片，卵贴近叶面"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_04.webp",
+      "heading_pinyin": "cí wā tiāo xuǎn yī piàn yè zi"
+    },
+    {
+      "page": 5,
+      "heading": "踢开拥挤的竞争者",
+      "text": "雄蛙比雌蛙多得多，求偶场面很拥挤。雌蛙用一脚踢开捣乱者。",
+      "pinyin": "xióng wā bǐ cí wā duō dé duō ，qiú ǒu chǎng miàn hěn yōng jǐ 。cí wā yòng yī jiǎo tī kāi dǎo luàn zhě 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画，参考红眼蛙繁殖聚会的真实动作：一只雌性红眼蛙抱住叶片或水边枝条，伸出后腿踢开靠近的雄性红眼蛙，周围还有拥挤蛙群，动态清楚但不拟人化、不搞笑过度，热带湿叶与水面反光，水粉，无文字。",
+      "source_time_range": [
+        232.0,
+        338.5
+      ],
+      "visual_time_range": [
+        285.0,
+        345.0
+      ],
+      "reference_frames": [
+        "references/page_05/ref_01_297.00s.jpg",
+        "references/page_05/ref_02_315.00s.jpg",
+        "references/page_05/ref_03_333.00s.jpg"
+      ],
+      "visual_anchors": [
+        "多只雄蛙围住一只雌蛙",
+        "雌蛙伸腿踢开竞争者",
+        "雨林池塘和叶片背景"
+      ],
+      "key_content": {
+        "location": "哥斯达黎加雨林池塘边",
+        "animals": [
+          "雌性红眼蛙",
+          "雄性红眼蛙"
+        ],
+        "activity": "雌蛙在拥挤交配竞争中踢开雄蛙",
+        "stakes": "如果被其他雄蛙缠住，伴侣就无法安静繁殖。",
+        "outcome": "雌蛙清出空间，伴侣终于安静下来。",
+        "visual_focus": "一对红眼蛙与被踢开的雄蛙，动态姿态"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_05.webp",
+      "heading_pinyin": "tī kāi yōng jǐ de jìng zhēng zhě"
+    },
+    {
+      "page": 6,
+      "heading": "叶子上的育婴房",
+      "text": "卵悬挂在池塘上方。小蝌蚪孵化后，就会落进水里。",
+      "pinyin": "luǎn xuán guà zài chí táng shàng fāng 。xiǎo kē dǒu fū huà hòu ，jiù huì luò jìn shuǐ lǐ 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画，用温和的侧面剖视构图表现叶片育婴房：红眼蛙卵贴在池塘上方叶片，几只小蝌蚪刚刚落入下方清水，母蛙在附近枝叶间，热带雨林柔光，科学准确，无文字。",
+      "source_time_range": [
+        395.0,
+        436.5
+      ],
+      "visual_time_range": [
+        385.0,
+        430.0
+      ],
+      "reference_frames": [
+        "references/page_06/ref_01_394.00s.jpg",
+        "references/page_06/ref_02_407.50s.jpg",
+        "references/page_06/ref_03_421.00s.jpg"
+      ],
+      "visual_anchors": [
+        "悬在池塘上方的叶片",
+        "叶片上的透明卵团",
+        "小蝌蚪落入下方水面"
+      ],
+      "key_content": {
+        "location": "哥斯达黎加雨林池塘上方",
+        "animals": [
+          "红眼蛙卵",
+          "红眼蛙蝌蚪"
+        ],
+        "activity": "卵在叶片上发育，蝌蚪落入池塘",
+        "stakes": "卵必须留在水面上方，幼体才有机会进入水中。",
+        "outcome": "这片叶子成了小蝌蚪的育婴房。",
+        "visual_focus": "叶片上的卵、叶下池塘和落水的小蝌蚪"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_06.webp",
+      "heading_pinyin": "yè zi shàng de yù yīng fáng"
+    },
+    {
+      "page": 7,
+      "heading": "旱季的唯一水塘",
+      "text": "旱季来到斯里兰卡东南部，几公里内只剩这一处水塘。",
+      "pinyin": "hàn jì lái dào sī lǐ lán kǎ dōng nán bù ，jǐ gōng lǐ nèi zhǐ shèng zhè yī chù shuǐ táng 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画，参考斯里兰卡东南部旱季水塘：干燥金褐色草地包围一小片绿色水塘，水面下有多只沼泽鳄的眼睛和背部，远处一只斑鹿小心靠近饮水，真实纪录片尺度，水粉，无文字。",
+      "source_time_range": [
+        460.0,
+        487.5
+      ],
+      "visual_time_range": [
+        548.0,
+        606.0
+      ],
+      "reference_frames": [
+        "references/page_07/ref_01_559.60s.jpg",
+        "references/page_07/ref_02_577.00s.jpg",
+        "references/page_07/ref_03_594.40s.jpg"
+      ],
+      "visual_anchors": [
+        "斯里兰卡东南部干燥旱季",
+        "方圆数公里唯一水塘",
+        "水下隐约可见的鳄鱼眼睛"
+      ],
+      "key_content": {
+        "location": "斯里兰卡东南部旱季水塘",
+        "animals": [
+          "沼泽鳄",
+          "斑鹿"
+        ],
+        "activity": "动物来到仅存水源附近饮水和捕猎",
+        "stakes": "水塘既是生命的希望，也是危险的埋伏地。",
+        "outcome": "鳄鱼和斑鹿都被这片水吸引。",
+        "visual_focus": "干燥草地、孤立水塘、潜伏的鳄鱼和饮水的鹿"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_07.webp",
+      "heading_pinyin": "hàn jì de wéi yī shuǐ táng"
+    },
+    {
+      "page": 8,
+      "heading": "藏进淤泥的鳄鱼",
+      "text": "沼泽鳄把身体埋进淤泥，再用水面植物盖住自己，等待口渴的斑鹿。",
+      "pinyin": "zhǎo zé è bǎ shēn tǐ mái jìn yū ní ，zài yòng shuǐ miàn zhí wù gài zhù zì jǐ ，děng dài kǒu kě de bān lù 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画，低机位表现沼泽鳄的伪装伏击：大鳄鱼几乎全部埋入浑浊淤泥，只露出被水草覆盖的眼睛和背部，口渴斑鹿在水塘边靠近，紧张但不血腥，保持动物真实比例与湿地光线，水粉，无文字。",
+      "source_time_range": [
+        593.5,
+        736.5
+      ],
+      "visual_time_range": [
+        660.0,
+        745.0
+      ],
+      "reference_frames": [
+        "references/page_08/ref_01_677.00s.jpg",
+        "references/page_08/ref_02_702.50s.jpg",
+        "references/page_08/ref_03_728.00s.jpg"
+      ],
+      "visual_anchors": [
+        "沼泽鳄身体陷入泥水",
+        "水草盖住鳄鱼的鳞甲",
+        "斑鹿在水塘边低头喝水"
+      ],
+      "key_content": {
+        "location": "斯里兰卡东南部水塘边",
+        "animals": [
+          "雄性沼泽鳄",
+          "斑鹿"
+        ],
+        "activity": "鳄鱼伪装伏击到水塘喝水的斑鹿",
+        "stakes": "鳄鱼几天的捕猎机会，取决于能否不被发现。",
+        "outcome": "淤泥和植物让鳄鱼几乎隐形。",
+        "visual_focus": "覆盖水草的鳄鱼背部、泥水和靠近水边的斑鹿"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_08.webp",
+      "heading_pinyin": "cáng jìn yū ní de è yú"
+    },
+    {
+      "page": 9,
+      "heading": "沙漠里的巨大绿洲",
+      "text": "每年大量雨水流入卡拉哈里沙漠，河流把它变成奥卡万戈三角洲的巨大绿洲。",
+      "pinyin": "měi nián dà liàng yǔ shuǐ liú rù kǎ lā hā lǐ shā mò ，hé liú bǎ tā biàn chéng ào kǎ wàn gē sān jiǎo zhōu de jù dà lǜ zhōu 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画，鸟瞰卡拉哈里沙漠中的奥卡万戈三角洲：金色沙地上展开银蓝色河流和绿色湿地水网，水道像树枝一样分叉，远处有小型动物群，准确表现淡水把沙漠变成绿洲，明亮水粉，无文字。",
+      "source_time_range": [
+        873.0,
+        927.0
+      ],
+      "visual_time_range": [
+        900.0,
+        940.0
+      ],
+      "reference_frames": [
+        "references/page_09/ref_01_908.00s.jpg",
+        "references/page_09/ref_02_920.00s.jpg",
+        "references/page_09/ref_03_932.00s.jpg"
+      ],
+      "visual_anchors": [
+        "卡拉哈里沙漠金色沙地",
+        "从远方流来的河水",
+        "奥卡万戈三角洲的绿色水网"
+      ],
+      "key_content": {
+        "location": "卡拉哈里沙漠与奥卡万戈三角洲",
+        "animals": [],
+        "activity": "雨水汇成河流并在沙漠中展开",
+        "stakes": "没有这股淡水，沙漠无法养育大群动物。",
+        "outcome": "干燥沙地被水与绿色湿地连接起来。",
+        "visual_focus": "沙漠中展开的河流、湿地水道和绿色三角洲"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_09.webp",
+      "heading_pinyin": "shā mò lǐ de jù dà lǜ zhōu"
+    },
+    {
+      "page": 10,
+      "heading": "水雉爸爸教走莲叶",
+      "text": "非洲水雉爸爸要照顾四只雏鸟，还要教它们在莲叶之间走路。",
+      "pinyin": "fēi zhōu shuǐ zhì bà bà yào zhào gù sì zhǐ chú niǎo ，hái yào jiào tā men zài lián yè zhī jiān zǒu lù 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画，参考奥卡万戈洪泛平原：一只非洲水雉爸爸走在莲叶和浅水之间，四只带绒毛的雏鸟跟在后面练习踩叶，水面、莲花和湿地植物清晰，亲子关系自然不拟人化，暖色水粉，无文字。",
+      "source_time_range": [
+        994.0,
+        1103.0
+      ],
+      "visual_time_range": [
+        1035.0,
+        1110.0
+      ],
+      "reference_frames": [
+        "references/page_10/ref_01_1050.00s.jpg",
+        "references/page_10/ref_02_1072.50s.jpg",
+        "references/page_10/ref_03_1095.00s.jpg"
+      ],
+      "visual_anchors": [
+        "奥卡万戈三角洲浅水与莲叶",
+        "一只非洲水雉爸爸",
+        "四只跟随的雏鸟"
+      ],
+      "key_content": {
+        "location": "奥卡万戈三角洲洪泛水域",
+        "animals": [
+          "非洲水雉",
+          "非洲水雉雏鸟"
+        ],
+        "activity": "父亲带雏鸟练习踩过莲叶",
+        "stakes": "雏鸟六周后才能飞，暂时只能学会在水面移动。",
+        "outcome": "雏鸟在浅水和莲叶间慢慢学会行走。",
+        "visual_focus": "水雉爸爸领着四只雏鸟穿过莲叶"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_10.webp",
+      "heading_pinyin": "shuǐ zhì bà bà jiào zǒu lián yè"
+    },
+    {
+      "page": 11,
+      "heading": "用勇气引开鳄鱼",
+      "text": "鳄鱼靠近时，水雉爸爸把自己引到危险处，想让鳄鱼注意自己，雏鸟趁机安全躲开。",
+      "pinyin": "è yú kào jìn shí ，shuǐ zhì bà bà bǎ zì jǐ yǐn dào wēi xiǎn chù ，xiǎng ràng è yú zhù yì zì jǐ ，chú niǎo chèn jī ān quán duǒ kāi 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画，表现非洲水雉爸爸在奥卡万戈浅水中冒险靠近鳄鱼以转移注意力，四只雏鸟躲在后方莲叶间，画面有明确的距离和方向，紧张而不恐怖、不描绘攻击，纪录片水粉，无文字。",
+      "source_time_range": [
+        1143.0,
+        1236.5
+      ],
+      "visual_time_range": [
+        1165.0,
+        1225.0
+      ],
+      "reference_frames": [
+        "references/page_11/ref_01_1177.00s.jpg",
+        "references/page_11/ref_02_1195.00s.jpg",
+        "references/page_11/ref_03_1213.00s.jpg"
+      ],
+      "visual_anchors": [
+        "鳄鱼在水面靠近",
+        "水雉爸爸张开翅膀或快速走动",
+        "雏鸟躲在莲叶和浅水中"
+      ],
+      "key_content": {
+        "location": "奥卡万戈三角洲莲叶水面",
+        "animals": [
+          "非洲水雉",
+          "非洲水雉雏鸟",
+          "鳄鱼"
+        ],
+        "activity": "父亲靠近鳄鱼转移注意力",
+        "stakes": "不会飞的雏鸟无法迅速逃离水面危险。",
+        "outcome": "鳄鱼的注意力被父亲带走，雏鸟获得时间。",
+        "visual_focus": "水雉父亲与鳄鱼保持危险距离，雏鸟藏在莲叶间"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_11.webp",
+      "heading_pinyin": "yòng yǒng qì yǐn kāi è yú"
+    },
+    {
+      "page": 12,
+      "heading": "洪水中的猎手",
+      "text": "杂色狼通常是成功的猎手，但深水河面挡住了它们追赶驴羚的路。",
+      "pinyin": "zá sè láng tōng cháng shì chéng gōng de liè shǒu ，dàn shēn shuǐ hé miàn dǎng zhù le tā men zhuī gǎn lǘ líng de lù 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画，参考奥卡万戈三角洲：五只杂色狼站在干燥土岸边，宽阔深水河面把它们与对岸驴羚群隔开，湿地草丛和远方水道清晰，表现捕猎难题与动物尺度，紧张但不血腥，水粉，无文字。",
+      "source_time_range": [
+        1425.0,
+        1506.5
+      ],
+      "visual_time_range": [
+        1460.0,
+        1515.0
+      ],
+      "reference_frames": [
+        "references/page_12/ref_01_1471.00s.jpg",
+        "references/page_12/ref_02_1487.50s.jpg",
+        "references/page_12/ref_03_1504.00s.jpg"
+      ],
+      "visual_anchors": [
+        "五只杂色狼在干燥河岸",
+        "中间宽阔深水河面",
+        "对岸的驴羚群"
+      ],
+      "key_content": {
+        "location": "奥卡万戈三角洲深水河面两岸",
+        "animals": [
+          "杂色狼",
+          "非洲野犬",
+          "驴羚"
+        ],
+        "activity": "杂色狼追赶驴羚却被深水隔开",
+        "stakes": "五只猎手已经几天没有进食，必须找到办法过河。",
+        "outcome": "猎物和猎手在水道两边僵持。",
+        "visual_focus": "五只杂色狼、深水河道和对岸驴羚群"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_12.webp",
+      "heading_pinyin": "hóng shuǐ zhōng de liè shǒu"
+    },
+    {
+      "page": 13,
+      "heading": "把猎物赶回陆地",
+      "text": "驴羚能张开蹄子涉水，杂色狼却不会游泳。于是狼群把驴羚赶回干燥陆地。",
+      "pinyin": "lǘ líng néng zhāng kāi tí zi shè shuǐ ，zá sè láng què bú huì yóu yǒng 。yú shì láng qún bǎ lǘ líng gǎn huí gān zào lù dì 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画，动态表现杂色狼在奥卡万戈河岸改变路线：驴羚群从浅水回到干燥陆地，五只杂色狼沿岸高速追赶，水道在画面一侧形成天然边界，突出策略而非单纯速度，真实动物比例，水粉，无文字。",
+      "source_time_range": [
+        1613.0,
+        1719.5
+      ],
+      "visual_time_range": [
+        1670.0,
+        1725.0
+      ],
+      "reference_frames": [
+        "references/page_13/ref_01_1681.00s.jpg",
+        "references/page_13/ref_02_1697.50s.jpg",
+        "references/page_13/ref_03_1714.00s.jpg"
+      ],
+      "visual_anchors": [
+        "驴羚长腿涉水",
+        "杂色狼沿干燥陆地奔跑",
+        "猎物被赶向岸边"
+      ],
+      "key_content": {
+        "location": "奥卡万戈三角洲干燥陆地与水道交界",
+        "animals": [
+          "杂色狼",
+          "驴羚"
+        ],
+        "activity": "杂色狼改变追击路线，把驴羚赶向有利地形",
+        "stakes": "猎手不能在深水中取胜，必须利用地形。",
+        "outcome": "追击回到干燥陆地，狼群终于扳回一局。",
+        "visual_focus": "狼群沿岸追赶驴羚，水道在旁边形成边界"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_13.webp",
+      "heading_pinyin": "bǎ liè wù gǎn huí lù dì"
+    },
+    {
+      "page": 14,
+      "heading": "古老的马拉维湖",
+      "text": "马拉维湖的淡水已经存在数百万年，湖中有超过一千种鱼。",
+      "pinyin": "mǎ lā wéi hú de dàn shuǐ yǐ jīng cún zài shù bǎi wàn nián ，hú zhōng yǒu chāo guò yī qiān zhǒng yú 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画，上下分层展示马拉维湖：上方是辽阔蓝色湖面和非洲湖岸，下方是岩石、植物与形态颜色各异的鱼群，表现古老稳定淡水孕育多样性，科学自然史风格，水粉，无文字。",
+      "source_time_range": [
+        1791.0,
+        1835.5
+      ],
+      "visual_time_range": [
+        1814.0,
+        1845.0
+      ],
+      "reference_frames": [
+        "references/page_14/ref_01_1820.20s.jpg",
+        "references/page_14/ref_02_1829.50s.jpg",
+        "references/page_14/ref_03_1838.80s.jpg"
+      ],
+      "visual_anchors": [
+        "马拉维湖辽阔蓝色湖面",
+        "清澈水下岩石与植物",
+        "多种体形和颜色的鱼"
+      ],
+      "key_content": {
+        "location": "马拉维湖",
+        "animals": [
+          "湖中鱼类"
+        ],
+        "activity": "鱼类在古老稳定的淡水湖中分化生存",
+        "stakes": "湖中竞争激烈，每种鱼都要找到自己的办法。",
+        "outcome": "稳定的淡水孕育出惊人的多样性。",
+        "visual_focus": "辽阔湖面与水下多样鱼群"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_14.webp",
+      "heading_pinyin": "gǔ lǎo de mǎ lā wéi hú"
+    },
+    {
+      "page": 15,
+      "heading": "装死的骗术",
+      "text": "利氏雨丽鱼会把身体伪装成腐肉，再用装死骗过别的鱼。",
+      "pinyin": "lì shì yǔ lì yú huì bǎ shēn tǐ wěi zhuāng chéng fǔ ròu ，zài yòng zhuāng sǐ piàn guò bié de yú 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画，水下近景表现利氏雨丽鱼的装死伪装：斑驳灰褐色鱼体贴近马拉维湖岩石底部，姿势僵直，几条其他鱼在远处犹豫观察，不能加入文字或拟人表情，科学、克制、水粉。",
+      "source_time_range": [
+        1860.0,
+        1881.5
+      ],
+      "visual_time_range": [
+        1855.0,
+        1890.0
+      ],
+      "reference_frames": [
+        "references/page_15/ref_01_1862.00s.jpg",
+        "references/page_15/ref_02_1872.50s.jpg",
+        "references/page_15/ref_03_1883.00s.jpg"
+      ],
+      "visual_anchors": [
+        "斑驳的利氏雨丽鱼",
+        "湖底岩石和腐肉般的颜色",
+        "其他鱼在远处观察"
+      ],
+      "key_content": {
+        "location": "马拉维湖水下岩石区",
+        "animals": [
+          "利氏雨丽鱼",
+          "其他鱼类"
+        ],
+        "activity": "利氏雨丽鱼伪装腐肉并装死",
+        "stakes": "只有骗过竞争者，它才有机会靠近食物。",
+        "outcome": "伪装和静止让它成为湖中的骗术大师。",
+        "visual_focus": "斑驳鱼体贴近湖底，周围鱼群犹豫观察"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_15.webp",
+      "heading_pinyin": "zhuāng sǐ de piàn shù"
+    },
+    {
+      "page": 16,
+      "heading": "细节决定真假",
+      "text": "年轻的利氏雨丽鱼一开始装得不像。它练习得更安静，最后终于骗过了别的鱼。",
+      "pinyin": "nián qīng de lì shì yǔ lì yú yī kāi shǐ zhuāng dé bù xiàng 。tā liàn xí dé gèng ān jìng ，zuì hòu zhōng yú piàn guò le bié de yú 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画，用连续动作感表现年轻利氏雨丽鱼练习装死：前景是一条最终完全静止、斑驳如腐肉的鱼，背景中其他鱼靠近后又游开，湖底岩石和冷蓝光线保持纪录片真实感，不要分格文字，水粉，无文字。",
+      "source_time_range": [
+        1902.0,
+        2067.0
+      ],
+      "visual_time_range": [
+        2040.0,
+        2072.0
+      ],
+      "reference_frames": [
+        "references/page_16/ref_01_2046.40s.jpg",
+        "references/page_16/ref_02_2056.00s.jpg",
+        "references/page_16/ref_03_2065.60s.jpg"
+      ],
+      "visual_anchors": [
+        "年轻鱼先后改变姿态",
+        "最后一次完全贴近湖底静止",
+        "其他鱼游近后被迷惑"
+      ],
+      "key_content": {
+        "location": "马拉维湖湖底",
+        "animals": [
+          "年轻利氏雨丽鱼",
+          "其他鱼类"
+        ],
+        "activity": "幼鱼反复练习装死，屏住呼吸保持不动",
+        "stakes": "动作、颜色和停留时间只要有一点不对，就会被识破。",
+        "outcome": "一次成功的伪装背后，是漫长演化与反复练习。",
+        "visual_focus": "幼鱼完全静止贴底，鱼群被吸引后离开"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_16.webp",
+      "heading_pinyin": "xì jié jué dìng zhēn jiǎ"
+    },
+    {
+      "page": 17,
+      "heading": "虾虎鱼要去瀑布顶端",
+      "text": "比奥科岛的虾虎鱼在海里长大后，要逆着急流去瀑布顶端繁殖。",
+      "pinyin": "bǐ ào kē dǎo de xiā hǔ yú zài hǎi lǐ zhǎng dà hòu ，yào nì zháo jí liú qù pù bù dǐng duān fán zhí 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画，参考比奥科岛热带火山地貌：高耸白色瀑布从绿色山林落下，急流连接海岸，一群很小的虾虎鱼从海水方向逆流靠近，突出旅程尺度，真实生态与柔和水粉，无文字。",
+      "source_time_range": [
+        2114.5,
+        2205.0
+      ],
+      "visual_time_range": [
+        2120.0,
+        2210.0
+      ],
+      "reference_frames": [
+        "references/page_17/ref_01_2138.00s.jpg",
+        "references/page_17/ref_02_2165.00s.jpg",
+        "references/page_17/ref_03_2192.00s.jpg"
+      ],
+      "visual_anchors": [
+        "比奥科岛热带火山山地",
+        "白色急流瀑布",
+        "小虾虎鱼逆流靠近瀑布"
+      ],
+      "key_content": {
+        "location": "非洲西海岸比奥科岛瀑布",
+        "animals": [
+          "虾虎鱼"
+        ],
+        "activity": "虾虎鱼从海中回到淡水瀑布上游繁殖",
+        "stakes": "瀑布顶端没有海洋捕食者，但路途极其艰难。",
+        "outcome": "虾虎鱼踏上逆流攀登的旅程。",
+        "visual_focus": "热带火山岛急流瀑布、海水与小鱼"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_17.webp",
+      "heading_pinyin": "xiā hǔ yú yào qù pù bù dǐng duān"
+    },
+    {
+      "page": 18,
+      "heading": "变成吸盘才能攀瀑",
+      "text": "虾虎鱼会改变颜色和嘴巴，把嘴变得像吸盘一样，牢牢贴住湿滑岩石。",
+      "pinyin": "xiā hǔ yú huì gǎi biàn yán sè hé zuǐ bā ，bǎ zuǐ biàn dé xiàng xī pán yī yàng ，láo láo tiē zhù shī huá yán shí 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画，水下近景表现虾虎鱼的攀瀑适应：扁平小鱼把吸盘状嘴巴贴在湿滑深色岩石上，白色急流从两侧冲过，身体颜色斑驳、比例真实，科学图画书水粉，无文字。",
+      "source_time_range": [
+        2218.5,
+        2251.0
+      ],
+      "visual_time_range": [
+        2288.0,
+        2300.0
+      ],
+      "reference_frames": [
+        "references/page_18/ref_01_2290.40s.jpg",
+        "references/page_18/ref_02_2294.00s.jpg",
+        "references/page_18/ref_03_2297.60s.jpg"
+      ],
+      "visual_anchors": [
+        "虾虎鱼扁平的身体",
+        "像吸盘一样的嘴",
+        "急流中的湿滑黑色岩面"
+      ],
+      "key_content": {
+        "location": "比奥科岛瀑布下方岩壁",
+        "animals": [
+          "虾虎鱼"
+        ],
+        "activity": "虾虎鱼改变身体结构以附着岩石",
+        "stakes": "没有吸附能力，它就会被急流冲回大海。",
+        "outcome": "身体变化为攀瀑准备好了工具。",
+        "visual_focus": "鱼嘴贴住湿岩，水流从身体两侧冲过"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_18.webp",
+      "heading_pinyin": "biàn chéng xī pán cái néng pān pù"
+    },
+    {
+      "page": 19,
+      "heading": "三十米高的瀑布",
+      "text": "它们要爬上三十米高的瀑布，最后能到达顶端的不到百分之一。",
+      "pinyin": "tā men yào pá shàng sān shí mǐ gāo de pù bù ，zuì hòu néng dào dá dǐng duān de bú dào bǎi fēn zhī yī 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画，广角表现三十米高瀑布的尺度：巨大的白色水幕和黑色湿岩上有密集却微小的虾虎鱼向上攀爬，少数接近顶端，热带绿色背景，真实比例与运动方向，壮阔水粉，无文字。",
+      "source_time_range": [
+        2274.5,
+        2314.0
+      ],
+      "visual_time_range": [
+        2280.0,
+        2320.0
+      ],
+      "reference_frames": [
+        "references/page_19/ref_01_2288.00s.jpg",
+        "references/page_19/ref_02_2300.00s.jpg",
+        "references/page_19/ref_03_2312.00s.jpg"
+      ],
+      "visual_anchors": [
+        "三十米高白色瀑布",
+        "岩壁上密集但很小的虾虎鱼",
+        "少数鱼接近瀑布顶端"
+      ],
+      "key_content": {
+        "location": "比奥科岛三十米高瀑布",
+        "animals": [
+          "虾虎鱼"
+        ],
+        "activity": "数百万条虾虎鱼沿瀑布攀爬",
+        "stakes": "急流、岩壁和高度会淘汰绝大多数攀登者。",
+        "outcome": "少数虾虎鱼抵达顶端并准备产卵。",
+        "visual_focus": "巨大的瀑布尺度与岩壁上的微小鱼群"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_19.webp",
+      "heading_pinyin": "sān shí mǐ gāo de pù bù"
+    },
+    {
+      "page": 20,
+      "heading": "流水雕刻地球",
+      "text": "流水像一位建筑师，几亿年来不断雕刻大地，把淡水水道送向海洋。",
+      "pinyin": "liú shuǐ xiàng yī wèi jiàn zhù shī ，jǐ yì nián lái bù duàn diāo kè dà dì ，bǎ dàn shuǐ shuǐ dào sòng xiàng hǎi yáng 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画，俯瞰像外星地表一样的河流纹理：无数蜿蜒银蓝色淡水水道切过赭色大地，远处汇入海洋，表现流水作为地球建筑师的长期力量，地貌准确、诗意水粉、无文字。",
+      "source_time_range": [
+        2376.0,
+        2454.5
+      ],
+      "visual_time_range": [
+        2400.0,
+        2440.0
+      ],
+      "reference_frames": [
+        "references/page_20/ref_01_2408.00s.jpg",
+        "references/page_20/ref_02_2420.00s.jpg",
+        "references/page_20/ref_03_2432.00s.jpg"
+      ],
+      "visual_anchors": [
+        "从高处看见蜿蜒水道",
+        "流水侵蚀形成的奇特纹理",
+        "河流最终连接海洋"
+      ],
+      "key_content": {
+        "location": "地球地表淡水水道",
+        "animals": [],
+        "activity": "流水侵蚀地表并形成通往海洋的河道",
+        "stakes": "河流连接陆地、淡水和海洋，改变生命可以到达的地方。",
+        "outcome": "一条条水道在大地上留下漫长轨迹。",
+        "visual_focus": "俯瞰蜿蜒河道、冲积纹理和海洋汇入口"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_20.webp",
+      "heading_pinyin": "liú shuǐ diāo kè dì qiú"
+    },
+    {
+      "page": 21,
+      "heading": "人类控制淡水",
+      "text": "在巴基斯坦，水坝和运河组成巨大网络，把印度河的水送到农田。",
+      "pinyin": "zài bā jī sī tǎn ，shuǐ bà hé yùn hé zǔ chéng jù dà wǎng luò ，bǎ yìn dù hé de shuǐ sòng dào nóng tián 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画，鸟瞰巴基斯坦印度河灌溉系统：干燥土地上交织水坝、笔直运河和大片绿色农田，主河道与人工水网清楚可见，表现人类分配淡水的规模，同时保留自然河道的存在，真实科普水粉，无文字。",
+      "source_time_range": [
+        2510.5,
+        2606.0
+      ],
+      "visual_time_range": [
+        2540.0,
+        2620.0
+      ],
+      "reference_frames": [
+        "references/page_21/ref_01_2556.00s.jpg",
+        "references/page_21/ref_02_2580.00s.jpg",
+        "references/page_21/ref_03_2604.00s.jpg"
+      ],
+      "visual_anchors": [
+        "巴基斯坦干燥平原",
+        "水坝与笔直运河组成网状结构",
+        "绿色农田与浑浊河水"
+      ],
+      "key_content": {
+        "location": "巴基斯坦印度河灌溉系统",
+        "animals": [],
+        "activity": "人类用水坝和运河分配河水灌溉土地",
+        "stakes": "淡水要同时满足农田、居民和河流生物。",
+        "outcome": "人工水网让大片土地获得水源，也改变了河流路线。",
+        "visual_focus": "水坝、笔直运河、农田和印度河水系"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_21.webp",
+      "heading_pinyin": "rén lèi kòng zhì dàn shuǐ"
+    },
+    {
+      "page": 22,
+      "heading": "困在水渠里的印河豚",
+      "text": "一只雌性印河豚被困在离主河道二百四十公里的灌溉水渠里。",
+      "pinyin": "yī zhī cí xìng yìn hé tún bèi kùn zài lí zhǔ hé dào èr bǎi sì shí gōng lǐ de guàn gài shuǐ qú lǐ 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画，参考巴基斯坦灌溉水渠救援现场：浑浊而变浅的水渠中露出雌性印河豚背部，干燥土岸、远处运河设施和谨慎靠近的救援队同框，温和真实、不让动物离水、无文字水粉。",
+      "source_time_range": [
+        2633.0,
+        2750.0
+      ],
+      "visual_time_range": [
+        2670.0,
+        2755.0
+      ],
+      "reference_frames": [
+        "references/page_22/ref_01_2687.00s.jpg",
+        "references/page_22/ref_02_2712.50s.jpg",
+        "references/page_22/ref_03_2738.00s.jpg"
+      ],
+      "visual_anchors": [
+        "巴基斯坦干燥灌溉水渠",
+        "浑浊浅水中的印河豚背部",
+        "正在变窄的水面与救援人员"
+      ],
+      "key_content": {
+        "location": "巴基斯坦灌溉水渠与印度河支系",
+        "animals": [
+          "雌性印河豚"
+        ],
+        "activity": "印河豚在即将干涸的水渠中等待救援",
+        "stakes": "水渠会很快干涸，离开水的河豚也会迅速死亡。",
+        "outcome": "救援队成为它回到主河道的唯一希望。",
+        "visual_focus": "浑浊浅水中的印河豚、狭窄水渠和干燥岸边"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_22.webp",
+      "heading_pinyin": "kùn zài shuǐ qú lǐ de yìn hé tún"
+    },
+    {
+      "page": 23,
+      "heading": "为河豚寻找回家的路",
+      "text": "乌兹玛研究印河豚二十多年。她想用卫星追踪器了解它们怎样在水坝和运河间移动。",
+      "pinyin": "wū zī mǎ yán jiū yìn hé tún èr shí duō nián 。tā xiǎng yòng wèi xīng zhuī zōng qì liǎo jiě tā men zěn yàng zài shuǐ bà hé yùn hé jiān yí dòng 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画，表现巴基斯坦印度河保护工作：研究者在浑浊河岸观察短暂浮出水面的印河豚，旁边有简洁的卫星追踪器和河流地图作为道具但不出现文字，夕阳和干燥岸线，尊重动物、不拟人化，水粉，无文字。",
+      "source_time_range": [
+        2862.5,
+        3082.5
+      ],
+      "visual_time_range": [
+        2985.0,
+        3075.0
+      ],
+      "reference_frames": [
+        "references/page_23/ref_01_3003.00s.jpg",
+        "references/page_23/ref_02_3030.00s.jpg",
+        "references/page_23/ref_03_3057.00s.jpg"
+      ],
+      "visual_anchors": [
+        "研究者乌兹玛在印度河边工作",
+        "浑浊水面短暂浮出的印河豚",
+        "手中的卫星追踪器与地图"
+      ],
+      "key_content": {
+        "location": "巴基斯坦印度河流域",
+        "animals": [
+          "印河豚"
+        ],
+        "activity": "研究人员追踪印河豚并设计保护方法",
+        "stakes": "这种只生活在淡水中的濒危动物数量约两千只。",
+        "outcome": "长期研究带来安装卫星追踪器的新计划。",
+        "visual_focus": "研究者、浑浊河流、浮出水面的河豚和追踪设备"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_23.webp",
+      "heading_pinyin": "wèi hé tún xún zhǎo huí jiā de lù"
+    },
+    {
+      "page": 24,
+      "heading": "第一次救援遇到意外",
+      "text": "救援队终于找到印河豚，却遇到爆胎和炎热车斗。为了不让它脱水，他们只好改变路线。",
+      "pinyin": "jiù yuán duì zhōng yú zhǎo dào yìn hé tún ，què yù dào bào tāi hé yán rè chē dòu 。wèi le bù ràng tā tuō shuǐ ，tā men zhǐ hǎo gǎi biàn lù xiàn 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画，参考真实救援动作：多名救援人员用软垫和装满水的水箱小心转移印河豚到卡车，炎热干燥道路旁有人处理爆胎，画面强调谨慎与时间压力，不露出动物伤口、不让河豚离水、无文字水粉。",
+      "source_time_range": [
+        3149.0,
+        3286.5
+      ],
+      "visual_time_range": [
+        3180.0,
+        3250.0
+      ],
+      "reference_frames": [
+        "references/page_24/ref_01_3194.00s.jpg",
+        "references/page_24/ref_02_3215.00s.jpg",
+        "references/page_24/ref_03_3236.00s.jpg"
+      ],
+      "visual_anchors": [
+        "救援队用软垫托住河豚",
+        "卡车和暴露的车斗",
+        "干燥阳光下的紧急转向"
+      ],
+      "key_content": {
+        "location": "巴基斯坦灌溉水渠至释放地点的道路",
+        "animals": [
+          "印河豚",
+          "救援队"
+        ],
+        "activity": "救援队转移河豚并在途中处理爆胎和脱水风险",
+        "stakes": "运输时间越长，河豚离水和受热的风险越大。",
+        "outcome": "第一次安装追踪器的计划被迫取消。",
+        "visual_focus": "救援人员抬运水箱中的河豚、卡车和炎热道路"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_24.webp",
+      "heading_pinyin": "dì yī cì jiù yuán yù dào yì wài"
+    },
+    {
+      "page": 25,
+      "heading": "十多年后的成功",
+      "text": "几天后，乌兹玛迎来新的机会。追踪器成功装上，印河豚回到了水里。",
+      "pinyin": "jǐ tiān hòu ，wū zī mǎ yíng lái xīn de jī huì 。zhuī zōng qì chéng gōng zhuāng shàng ，yìn hé tún huí dào le shuǐ lǐ 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画，参考巴基斯坦印度河放归场景：研究者和救援队在河边共同把印河豚轻柔放回浑浊淡水，河豚身体完整、自然游开，追踪器小而不抢画面，晨光、克制喜悦、无文字水粉。",
+      "source_time_range": [
+        3297.5,
+        3350.0
+      ],
+      "visual_time_range": [
+        3305.0,
+        3345.0
+      ],
+      "reference_frames": [
+        "references/page_25/ref_01_3313.00s.jpg",
+        "references/page_25/ref_02_3325.00s.jpg",
+        "references/page_25/ref_03_3337.00s.jpg"
+      ],
+      "visual_anchors": [
+        "河岸上的研究者和救援队",
+        "印河豚被轻柔放回浑浊河水",
+        "小型追踪器固定在动物身上"
+      ],
+      "key_content": {
+        "location": "巴基斯坦印度河释放地点",
+        "animals": [
+          "印河豚",
+          "救援队"
+        ],
+        "activity": "救援队为印河豚安装卫星追踪器并放归河流",
+        "stakes": "这是研究者等待十多年的关键保护尝试。",
+        "outcome": "印河豚安全出发，追踪计划取得成功。",
+        "visual_focus": "水边放归、研究者和回到河中的河豚"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_25.webp",
+      "heading_pinyin": "shí duō nián hòu de chéng gōng"
+    },
+    {
+      "page": 26,
+      "heading": "追踪器带来新线索",
+      "text": "几周后，追踪器发现一只印河豚向上游游了大约四十六公里，还进入了支流。",
+      "pinyin": "jǐ zhōu hòu ，zhuī zōng qì fā xiàn yī zhī yìn hé tún xiàng shàng yóu yóu le dà yuē sì shí liù gōng lǐ ，hái jìn rù le zhī liú 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画，把真实河流景观与简洁路线视觉结合：浑浊的印度河分出支流，一条柔和发光的追踪路线向上游延伸，水下可见印河豚，研究者在远景观察，不能出现数字、文字或界面，科学水粉，无文字。",
+      "source_time_range": [
+        3358.0,
+        3384.0
+      ],
+      "visual_time_range": [
+        3360.0,
+        3385.0
+      ],
+      "reference_frames": [
+        "references/page_26/ref_01_3365.00s.jpg",
+        "references/page_26/ref_02_3372.50s.jpg",
+        "references/page_26/ref_03_3380.00s.jpg"
+      ],
+      "visual_anchors": [
+        "印度河主河道与分出的支流",
+        "向上游延伸的追踪路线",
+        "浑浊水中的印河豚背鳍或背部"
+      ],
+      "key_content": {
+        "location": "巴基斯坦印度河及其支流",
+        "animals": [
+          "印河豚"
+        ],
+        "activity": "卫星追踪记录印河豚长距离游动路线",
+        "stakes": "只有知道它们何时、何地被困，保护人员才能提前行动。",
+        "outcome": "新数据帮助人们更好地守护濒危印河豚。",
+        "visual_focus": "河流主干与支流、地图式路线和水中的河豚"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_26.webp",
+      "heading_pinyin": "zhuī zōng qì dài lái xīn xiàn suǒ"
+    },
+    {
+      "page": 27,
+      "heading": "淡水是地球的血脉",
+      "text": "淡水为无数物种提供家园。守护淡水，就是守护地球生命的未来。",
+      "pinyin": "dàn shuǐ wèi wú shù wù zhǒng tí gōng jiā yuán 。shǒu hù dàn shuǐ ，jiù shì shǒu hù dì qiú shēng mìng de wèi lái 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本结尾插画，以一条贯穿画面的清澈淡水网络连接森林池塘、鳄鱼水塘、奥卡万戈湿地、马拉维湖、瀑布和印度河，分别出现红眼蛙、沼泽鳄、非洲水雉、虾虎鱼和印河豚，动物自然共存、不拼贴夸张，温暖而有希望的水粉，无文字。",
+      "source_time_range": [
+        2898.5,
+        2941.5
+      ],
+      "visual_time_range": [
+        2885.0,
+        2945.0
+      ],
+      "reference_frames": [
+        "references/page_27/ref_01_2897.00s.jpg",
+        "references/page_27/ref_02_2915.00s.jpg",
+        "references/page_27/ref_03_2933.00s.jpg"
+      ],
+      "visual_anchors": [
+        "河流从山地流向湿地和湖泊",
+        "红眼蛙、鳄鱼、水雉、虾虎鱼和印河豚",
+        "水网把不同故事连接起来"
+      ],
+      "key_content": {
+        "location": "地球上的河流、湖泊与湿地",
+        "animals": [
+          "红眼蛙",
+          "沼泽鳄",
+          "非洲水雉",
+          "虾虎鱼",
+          "印河豚"
+        ],
+        "activity": "不同动物依靠淡水繁殖、捕猎、成长和迁徙",
+        "stakes": "淡水有限，许多生命离开它就无法生存。",
+        "outcome": "人类需要更谨慎地分享和保护淡水。",
+        "visual_focus": "河流、湖泊、湿地和五种动物形成的生命网络"
+      },
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_27.webp",
+      "heading_pinyin": "dàn shuǐ shì dì qiú de xuè mài"
+    }
+  ],
+  "title_pinyin": "dàn shuǐ shēng mìng de xuè mài"
+}

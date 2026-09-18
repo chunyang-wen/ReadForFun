@@ -1,0 +1,625 @@
+{
+  "title": "断章取义",
+  "subtitle": "只听一半，容易误解的故事",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "中华上下五千年之成语故事篇 第二季 第十七集",
+  "content_anchor_version": 1,
+  "visual_mode": "storyviz",
+  "pages": [
+    {
+      "page": 1,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_01.webp",
+      "heading": "一句话的两种听法",
+      "text": "电视辩论“好儿女该不该走四方”。一位嘉宾只说“父母在，不远游”，听起来像是不能远行。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        118.35,
+        154.83
+      ],
+      "visual_time_range": [
+        118.35,
+        154.83
+      ],
+      "visual_anchors": [
+        "文化宫演播厅",
+        "电视辩论",
+        "正方与反方嘉宾",
+        "大屏幕",
+        "琪琪和陈教授"
+      ],
+      "key_content": {
+        "location": "市文化宫演播厅与讲故事室",
+        "animals": [],
+        "activity": "嘉宾引用《论语》参加辩论",
+        "stakes": "只听半句话可能误解孔子原意",
+        "outcome": "读者发现一句话还没有说完",
+        "visual_focus": "电视屏幕上的辩论嘉宾与认真观看的琪琪"
+      },
+      "illustration_prompt": "Original children's-book illustration in a lively Chinese cultural palace: a friendly white robot child and a kind professor watch a television debate about whether children should travel far from home. On the screen, two human debate guests sit at a small podium beneath warm studio lights, with speech bubbles represented only by abstract shapes, no readable text. Soft gouache and pencil texture, clear educational composition, warm teal, coral, and golden palette, no subtitles, logos, watermark, or written characters.",
+      "heading_pinyin": "yī jù huà de liǎng zhǒng tīng fǎ",
+      "pinyin": "diàn shì biàn lùn hǎo ér nǚ gāi bù gāi zǒu sì fāng yī wèi jiā bīn zhǐ shuō fù mǔ zài bù yuǎn yóu tīng qǐ lái xiàng shì bù néng yuǎn xíng",
+      "reference_frames": [
+        "references/page_01/ref_01_125.65s.jpg",
+        "references/page_01/ref_02_136.59s.jpg",
+        "references/page_01/ref_03_147.53s.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_02.webp",
+      "heading": "游必有方",
+      "text": "孔子的话还有后半句：“游必有方”。它是说，出远门前要告诉父母自己要去哪里。",
+      "fact": "完整的话是“父母在，不远游，游必有方”。",
+      "layout": "image-right",
+      "source_time_range": [
+        155.68,
+        183.21
+      ],
+      "visual_time_range": [
+        170.57,
+        183.21
+      ],
+      "visual_anchors": [
+        "陈教授讲解",
+        "琪琪提问",
+        "古籍卷轴",
+        "地图",
+        "告知父母出行地点"
+      ],
+      "key_content": {
+        "location": "文化宫讲故事室",
+        "animals": [],
+        "activity": "陈教授解释“游必有方”的意思",
+        "stakes": "孩子需要理解完整引文而不是只记前半句",
+        "outcome": "知道远行要先说明去处",
+        "visual_focus": "展开的古籍、地图和指向远方的手势"
+      },
+      "illustration_prompt": "Original children's-book explainer illustration in a cozy cultural palace classroom: the kind professor opens an ancient scroll while the small white robot points to a simple map with a route and a home symbol. Show the idea of telling parents where one will go through clear visual storytelling, not written labels. Soft gouache and pencil texture, calm blue-green and warm gold palette, no readable text, subtitles, logos, watermark, or modern brand marks.",
+      "heading_pinyin": "yóu bì yǒu fāng",
+      "pinyin": "kǒng zi de huà hái yǒu hòu bàn jù yóu bì yǒu fāng tā shì shuō chū yuǎn mén qián yào gào sù fù mǔ zì jǐ yào qù nǎ lǐ",
+      "fact_pinyin": "wán zhěng de huà shì fù mǔ zài bù yuǎn yóu yóu bì yǒu fāng",
+      "reference_frames": [
+        "references/page_02/ref_01_173.10s.jpg",
+        "references/page_02/ref_02_176.89s.jpg",
+        "references/page_02/ref_03_180.68s.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_03.webp",
+      "heading": "只说一半就会误解",
+      "text": "如果只截取“父母在，不远游”，就容易忘记“游必有方”。少了后半句，大家对原话的理解就会不完整。",
+      "layout": "image-left",
+      "source_time_range": [
+        184.17,
+        220.95
+      ],
+      "visual_time_range": [
+        184.17,
+        201.84
+      ],
+      "visual_anchors": [
+        "电视重播",
+        "被截断的卷轴",
+        "前后两半的引文",
+        "琪琪恍然大悟",
+        "陈教授点头"
+      ],
+      "key_content": {
+        "location": "文化宫电视观看区",
+        "animals": [],
+        "activity": "琪琪比较名言的前半句和后半句",
+        "stakes": "不完整的引用会让听众作出错误判断",
+        "outcome": "琪琪明白完整内容很重要",
+        "visual_focus": "一卷被分成两段、重新拼合的古籍"
+      },
+      "illustration_prompt": "Original children's-book illustration: a white robot child compares two halves of an ancient scroll on a table, then slides them together while a kind professor smiles. A television in the background shows the debate as a colorful, unreadable scene. Make the metaphor of missing context immediately clear, with no actual writing. Soft gouache and pencil texture, warm classroom light, no subtitles, logos, watermark, or readable text.",
+      "heading_pinyin": "zhǐ shuō yí bàn jiù huì wù jiě",
+      "pinyin": "rú guǒ zhǐ jié qǔ fù mǔ zài bù yuǎn yóu jiù róng yì wàng jì yóu bì yǒu fāng shǎo le hòu bàn jù dà jiā duì yuán huà de lǐ jiě jiù huì bù wán zhěng",
+      "reference_frames": [
+        "references/page_03/ref_01_187.70s.jpg",
+        "references/page_03/ref_02_193.00s.jpg",
+        "references/page_03/ref_03_198.31s.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_04.webp",
+      "heading": "故事要从头听到尾",
+      "text": "琪琪请陈教授讲“断章取义”的故事。陈教授带着大家走进市文化宫演播厅，从春秋后期的齐国讲起。",
+      "layout": "image-top",
+      "source_time_range": [
+        221.67,
+        299.69
+      ],
+      "visual_time_range": [
+        249.34,
+        299.69
+      ],
+      "visual_anchors": [
+        "琪琪请求讲故事",
+        "陈教授答应",
+        "文化宫演播厅",
+        "古代故事卷轴",
+        "从现在转入春秋"
+      ],
+      "key_content": {
+        "location": "市文化宫演播厅",
+        "animals": [],
+        "activity": "陈教授开始讲成语典故",
+        "stakes": "理解成语需要听完整个故事",
+        "outcome": "故事场景转入春秋时期的齐国",
+        "visual_focus": "现代演播厅与展开的古代历史画卷连接"
+      },
+      "illustration_prompt": "Original children's-book transition illustration: in a cultural palace studio, the kind professor and small white robot stand beside a huge unfurling history scroll that transforms the modern room into an ancient Qi state palace. Use a clear visual transition from present to Spring and Autumn China, with no readable writing anywhere. Soft gouache and pencil texture, warm lantern gold, jade green, and cinnabar accents, no subtitles, logos, or watermark.",
+      "heading_pinyin": "gù shì yào cóng tóu tīng dào wěi",
+      "pinyin": "qí qí qǐng chén jiào shòu jiǎng duàn zhāng qǔ yì de gù shì chén jiào shòu dài zhe dà jiā zǒu jìn shì wén huà gōng yǎn bō tīng cóng chūn qiū hòu qī de qí guó jiǎng qǐ",
+      "reference_frames": [
+        "references/page_04/ref_01_259.41s.jpg",
+        "references/page_04/ref_02_274.51s.jpg",
+        "references/page_04/ref_03_289.62s.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_05.webp",
+      "heading": "齐国的风云",
+      "text": "春秋后期，齐国大夫崔杼和庆封合伙扳倒齐庄公，拥立庄公的异母兄弟杵臼为君，这就是齐景公。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        309.6,
+        330.68
+      ],
+      "visual_time_range": [
+        309.6,
+        330.68
+      ],
+      "visual_anchors": [
+        "春秋后期齐国",
+        "崔杼",
+        "庆封",
+        "齐庄公退场",
+        "杵臼登上君位"
+      ],
+      "key_content": {
+        "location": "春秋后期的齐国宫城",
+        "animals": [],
+        "activity": "崔杼和庆封改变齐国君位",
+        "stakes": "宫廷权力变化让忠于庄公的人失去依靠",
+        "outcome": "杵臼即位成为齐景公",
+        "visual_focus": "宫门前两位大夫与新君位的权力交接"
+      },
+      "illustration_prompt": "Original child-friendly historical illustration of late Spring and Autumn Qi: two powerful ministers, Cui Shu and Qing Feng, stand in an ancient palace courtyard as the former ruler leaves and the new ruler Chujiu takes the central throne. Keep the scene dignified and understandable, with banners and architecture but absolutely no readable text. Soft gouache and pencil texture, bronze, jade, and muted red palette, no subtitles, logos, or watermark.",
+      "heading_pinyin": "qí guó de fēng yún",
+      "pinyin": "chūn qiū hòu qī qí guó dà fū cuī zhù hé qìng fēng hé huǒ bān dǎo qí zhuāng gōng yōng lì zhuāng gōng de yì mǔ xiōng dì chǔ jiù wèi jūn zhè jiù shì qí jǐng gōng",
+      "reference_frames": [
+        "references/page_05/ref_01_313.82s.jpg",
+        "references/page_05/ref_02_320.14s.jpg",
+        "references/page_05/ref_03_326.46s.jpg"
+      ]
+    },
+    {
+      "page": 6,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_06.webp",
+      "heading": "忠诚的兄弟",
+      "text": "庄公遇害后，忠诚卫士卢蒲癸和王何逃到国外。卢蒲癸的哥哥嘱咐他：先取得庆氏信任，再找机会回国报仇。",
+      "layout": "image-right",
+      "source_time_range": [
+        331.52,
+        354.08
+      ],
+      "visual_time_range": [
+        331.52,
+        354.08
+      ],
+      "visual_anchors": [
+        "卢蒲癸",
+        "王何",
+        "逃离齐国",
+        "兄弟秘密嘱托",
+        "远方城门"
+      ],
+      "key_content": {
+        "location": "齐国边境与异国城外",
+        "animals": [],
+        "activity": "两名卫士逃亡，兄弟约定复仇计划",
+        "stakes": "他们必须隐藏身份才能等待机会",
+        "outcome": "卢蒲癸决定潜回齐国积蓄力量",
+        "visual_focus": "城门外告别的兄弟与藏在袖中的秘密计划"
+      },
+      "illustration_prompt": "Original children's-book historical illustration: at dusk outside an ancient city gate, loyal guard brothers Lu Pu Gui and Wang He prepare to flee. One older brother quietly entrusts a small rolled plan to Lu Pu Gui; distant mountains and a road suggest exile. Show courage and secrecy without violence or readable writing. Soft gouache and pencil texture, dusky blue and amber palette, no subtitles, logos, watermark, or text.",
+      "heading_pinyin": "zhōng chéng de xiōng dì",
+      "pinyin": "zhuāng gōng yù hài hòu zhōng chéng wèi shì lú pú guǐ hé wáng hé táo dào guó wài lú pú guǐ dī gē gē zhǔ fù tā xiān qǔ dé qìng shì xìn rèn zài zhǎo jī huì huí guó bào chóu",
+      "reference_frames": [
+        "references/page_06/ref_01_336.03s.jpg",
+        "references/page_06/ref_02_342.80s.jpg",
+        "references/page_06/ref_03_349.57s.jpg"
+      ]
+    },
+    {
+      "page": 7,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_07.webp",
+      "heading": "先取得信任",
+      "text": "卢蒲癸先做了庆封的家臣。他发现庆封虽是左相，却被右相崔杼压住权力，于是借崔杼家中的争斗取得庆封信任。",
+      "layout": "image-left",
+      "source_time_range": [
+        363.87,
+        422.95
+      ],
+      "visual_time_range": [
+        368.34,
+        385.14
+      ],
+      "visual_anchors": [
+        "卢蒲癸做家臣",
+        "庆封的府邸",
+        "左右相权力不平衡",
+        "崔杼家族争斗",
+        "秘密谋划"
+      ],
+      "key_content": {
+        "location": "齐国庆封府邸",
+        "animals": [],
+        "activity": "卢蒲癸观察权力矛盾并出谋划策",
+        "stakes": "身份未被信任就无法接近庆氏核心",
+        "outcome": "卢蒲癸帮助庆封扳倒崔杼一家，取得信任",
+        "visual_focus": "卢蒲癸在屏风后观察两位权臣与家族棋局"
+      },
+      "illustration_prompt": "Original children's-book historical illustration inside an ancient minister's residence: Lu Pu Gui, a clever young retainer in simple robes, studies a wooden strategy board showing two opposing groups while Qing Feng listens with growing trust. Use visual symbols rather than writing; keep the political intrigue clear but nonviolent. Soft gouache and pencil texture, jade green, dark wood, and warm lantern light, no subtitles, logos, watermark, or readable text.",
+      "heading_pinyin": "xiān qǔ dé xìn rèn",
+      "pinyin": "lú pú guǐ xiān zuò le qìng fēng de jiā chén tā fā xiàn qìng fēng suī shì zuǒ xiāng què bèi yòu xiāng cuī zhù yā zhù quán lì yú shì jiè cuī zhù jiā zhōng de zhēng dòu qǔ dé qìng fēng xìn rèn",
+      "reference_frames": [
+        "references/page_07/ref_01_371.70s.jpg",
+        "references/page_07/ref_02_376.74s.jpg",
+        "references/page_07/ref_03_381.78s.jpg"
+      ]
+    },
+    {
+      "page": 8,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_08.webp",
+      "heading": "婚姻带来新机会",
+      "text": "庆舍欣赏勇敢的卢蒲癸，还把女儿庆姜嫁给他。卢蒲癸借此回到齐国，并和王何重新成为庆舍的侍卫。",
+      "layout": "image-top",
+      "source_time_range": [
+        433.69,
+        478.06
+      ],
+      "visual_time_range": [
+        433.69,
+        453.85
+      ],
+      "visual_anchors": [
+        "卢蒲癸回国",
+        "庆舍赏识卫士",
+        "庆姜",
+        "古代婚礼",
+        "王何成为侍卫"
+      ],
+      "key_content": {
+        "location": "齐国庆舍府邸",
+        "animals": [],
+        "activity": "庆舍将庆姜嫁给卢蒲癸，卢蒲癸获得侍卫身份",
+        "stakes": "复仇计划需要安全回国并靠近庆氏",
+        "outcome": "卢蒲癸与王何都进入庆舍身边",
+        "visual_focus": "婚礼仪式与两名新侍卫守在府门"
+      },
+      "illustration_prompt": "Original children's-book historical illustration in an ancient Qi residence: a respectful wedding ceremony joins Lu Pu Gui and Qing Jiang while Qing She looks on approvingly; in the same broad composition, Wang He stands as a newly trusted guard near the palace gate. Keep costumes historically inspired, expressions thoughtful, no readable text, subtitles, logos, or watermark. Soft gouache and pencil texture, warm vermilion, cream, and jade palette.",
+      "heading_pinyin": "hūn yīn dài lái xīn jī huì",
+      "pinyin": "qìng shě xīn shǎng yǒng gǎn de lú pú guǐ hái bǎ nǚ ér qìng jiāng jià gěi tā lú pú guǐ jiè cǐ huí dào qí guó bìng hé wáng hé chóng xīn chéng wéi qìng shě de shì wèi",
+      "reference_frames": [
+        "references/page_08/ref_01_437.72s.jpg",
+        "references/page_08/ref_02_443.77s.jpg",
+        "references/page_08/ref_03_449.82s.jpg"
+      ]
+    },
+    {
+      "page": 9,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_09.webp",
+      "heading": "秘密不能随便说",
+      "text": "庆姜发现丈夫近来常常密谋，便问能不能一起商量。卢蒲癸担心她知道后会遇险，一开始不肯说出真相。",
+      "layout": "image-right",
+      "source_time_range": [
+        514.52,
+        551.22
+      ],
+      "visual_time_range": [
+        514.52,
+        551.22
+      ],
+      "visual_anchors": [
+        "庆姜询问",
+        "卢蒲癸犹豫",
+        "古代居室",
+        "紧闭的门",
+        "秘密气氛"
+      ],
+      "key_content": {
+        "location": "齐国府邸内室",
+        "animals": [],
+        "activity": "庆姜追问密谋，卢蒲癸考虑是否坦白",
+        "stakes": "泄露秘密可能让两人都遭遇危险",
+        "outcome": "卢蒲癸意识到需要判断谁能守密",
+        "visual_focus": "夫妻隔着灯案低声交谈与被遮住的密函"
+      },
+      "illustration_prompt": "Original children's-book historical illustration of a quiet ancient room at night: Qing Jiang gently asks Lu Pu Gui about his secret plan, while he hesitates beside a low lamp and a covered scroll. Their faces show concern and trust; the secret is conveyed by posture and the covered scroll, not text. Soft gouache and pencil texture, deep indigo, candle gold, and muted red, no subtitles, logos, watermark, or readable writing.",
+      "heading_pinyin": "mì mì bù néng suí biàn shuō",
+      "pinyin": "qìng jiāng fā xiàn zhàng fū jìn lái cháng cháng mì móu biàn wèn néng bù néng yì qǐ shāng liáng lú pú guǐ dān xīn tā zhī dào hòu huì yù xiǎn yī kāi shǐ bù kěn shuō chū zhēn xiàng",
+      "reference_frames": [
+        "references/page_09/ref_01_521.86s.jpg",
+        "references/page_09/ref_02_532.87s.jpg",
+        "references/page_09/ref_03_543.88s.jpg"
+      ]
+    },
+    {
+      "page": 10,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_10.webp",
+      "heading": "大义也要守密",
+      "text": "庆姜说，丈夫的事也是自己的事。她愿意帮助卢蒲癸“大义灭亲”，并保证绝不把计划告诉别人。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        561.22,
+        596.36
+      ],
+      "visual_time_range": [
+        573.54,
+        594.28
+      ],
+      "visual_anchors": [
+        "庆姜坚定承诺",
+        "夫妻并肩",
+        "大义灭亲",
+        "握手约定",
+        "温暖灯火"
+      ],
+      "key_content": {
+        "location": "齐国府邸内室",
+        "animals": [],
+        "activity": "庆姜选择支持正义并承诺守密",
+        "stakes": "她要在亲情与正义之间作出艰难选择",
+        "outcome": "卢蒲癸相信庆姜，夫妻共同策划行动",
+        "visual_focus": "灯下并肩、郑重守密的夫妻"
+      },
+      "illustration_prompt": "Original children's-book illustration: in a warm lamplit ancient room, Qing Jiang and Lu Pu Gui stand side by side with calm determined faces, hands joined in a solemn promise. A family ornament is visible in the background while the couple chooses justice, but keep the scene gentle and nonviolent. Soft gouache and pencil texture, rich amber, plum, and jade colors, no readable text, subtitles, logos, or watermark.",
+      "heading_pinyin": "dà yì yě yào shǒu mì",
+      "pinyin": "qìng jiāng shuō zhàng fū de shì yě shì zì jǐ de shì tā yuàn yì bāng zhù lú pú guǐ dà yì miè qīn bìng bǎo zhèng jué bù bǎ jì huà gào sù bié rén",
+      "reference_frames": [
+        "references/page_10/ref_01_577.69s.jpg",
+        "references/page_10/ref_02_583.91s.jpg",
+        "references/page_10/ref_03_590.13s.jpg"
+      ]
+    },
+    {
+      "page": 11,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_11.webp",
+      "heading": "把计划安排好",
+      "text": "庆封外出打猎那天，庆姜要劝父亲庆舍陪齐景公去太庙祭礼。卢蒲癸和王何准备在那里等待机会。",
+      "layout": "image-left",
+      "source_time_range": [
+        596.92,
+        614.24
+      ],
+      "visual_time_range": [
+        600.4,
+        614.24
+      ],
+      "visual_anchors": [
+        "外出打猎",
+        "庆姜安排父亲",
+        "齐景公",
+        "太庙祭礼",
+        "卢蒲癸和王何等待"
+      ],
+      "key_content": {
+        "location": "齐国太庙与城外猎场",
+        "animals": [
+          "猎马"
+        ],
+        "activity": "众人利用打猎和祭礼的时间差安排行动",
+        "stakes": "计划必须让庆舍离开防备并进入太庙",
+        "outcome": "祭礼成为行动的关键时刻",
+        "visual_focus": "远处猎场、通往太庙的队伍和守候的两名侍卫"
+      },
+      "illustration_prompt": "Original children's-book historical illustration with a wide view of ancient Qi: a hunting party with horses travels across one side of the landscape while a dignified ritual procession moves toward a temple on the other; Lu Pu Gui and Wang He wait discreetly near the temple entrance. No violence, no readable banners, no subtitles, logos, or watermark. Soft gouache and pencil texture, autumn gold, jade, and cinnabar palette.",
+      "heading_pinyin": "bǎ jì huà ān pái hǎo",
+      "pinyin": "qìng fēng wài chū dǎ liè nà tiān qìng jiāng yào quàn fù qīn qìng shě péi qí jǐng gōng qù tài miào jì lǐ lú pú guǐ hé wáng hé zhǔn bèi zài nà lǐ děng dài jī huì",
+      "reference_frames": [
+        "references/page_11/ref_01_603.17s.jpg",
+        "references/page_11/ref_02_607.32s.jpg",
+        "references/page_11/ref_03_611.47s.jpg"
+      ]
+    },
+    {
+      "page": 12,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_12.webp",
+      "heading": "太庙里的行动",
+      "text": "齐景公到太庙祭礼时，卢蒲癸和王何突然袭击庆舍，庆氏的势力因此被消灭。庆封听到消息后逃往鲁国。",
+      "layout": "image-right",
+      "source_time_range": [
+        626.92,
+        651.14
+      ],
+      "visual_time_range": [
+        626.92,
+        637.56
+      ],
+      "visual_anchors": [
+        "齐国太庙",
+        "祭礼队伍",
+        "卢蒲癸与王何",
+        "庆舍倒台",
+        "庆封逃往鲁国"
+      ],
+      "key_content": {
+        "location": "齐国太庙",
+        "animals": [],
+        "activity": "卢蒲癸和王何在祭礼时袭击庆舍",
+        "stakes": "复仇计划进入最危险的执行阶段",
+        "outcome": "庆舍被杀，庆氏势力瓦解，庆封逃往鲁国",
+        "visual_focus": "太庙门前的突发行动与四散的权力象征"
+      },
+      "illustration_prompt": "Original child-friendly historical illustration at an ancient temple ceremony: Lu Pu Gui and Wang He move decisively through a crowded ritual courtyard as Qing She is caught off guard; suggest the fall of a faction with toppled ceremonial staffs and fleeing attendants, without graphic injury. Dignified non-graphic action, soft gouache and pencil texture, dramatic temple gold and deep teal lighting, no readable text, subtitles, logos, or watermark.",
+      "heading_pinyin": "tài miào lǐ de xíng dòng",
+      "pinyin": "qí jǐng gōng dào tài miào jì lǐ shí lú pú guǐ hé wáng hé tū rán xí jī qìng shě qìng shì de shì lì yīn cǐ bèi xiāo miè qìng fēng tīng dào xiāo xī hòu táo wǎng lǔ guó",
+      "reference_frames": [
+        "references/page_12/ref_01_629.05s.jpg",
+        "references/page_12/ref_02_632.24s.jpg",
+        "references/page_12/ref_03_635.43s.jpg"
+      ]
+    },
+    {
+      "page": 13,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_13.webp",
+      "heading": "同宗就一定不能结亲吗",
+      "text": "有人问：庆氏和卢氏同为姜姓，为什么还要结亲？卢蒲癸回答，既然庆家愿意嫁女，自己为什么要躲开？",
+      "layout": "image-top",
+      "source_time_range": [
+        662.55,
+        683.34
+      ],
+      "visual_time_range": [
+        662.55,
+        679.1
+      ],
+      "visual_anchors": [
+        "同宗争论",
+        "姜姓",
+        "卢蒲癸回答",
+        "庆姜婚姻",
+        "古代庭院问答"
+      ],
+      "key_content": {
+        "location": "齐国庭院",
+        "animals": [],
+        "activity": "众人讨论同宗婚姻，卢蒲癸回答质疑",
+        "stakes": "众人要理解回答背后的取舍，而不能只抓住一个词",
+        "outcome": "对话为后面的“断章取义”比喻作铺垫",
+        "visual_focus": "庭院中围绕卢蒲癸展开的问答"
+      },
+      "illustration_prompt": "Original children's-book historical illustration in an ancient courtyard: several elders question Lu Pu Gui about a family alliance, while Lu Pu Gui answers calmly and Qing Jiang stands nearby with dignity. Show a respectful discussion with open gestures and attentive faces, no written signs or text. Soft gouache and pencil texture, pale stone, jade robes, and warm sunlight, no subtitles, logos, or watermark.",
+      "heading_pinyin": "tóng zōng jiù yí dìng bù néng jié qīn ma",
+      "pinyin": "yǒu rén wèn qìng shì hé lú shì tóng wèi jiāng xìng wèi shén me hái yào jié qīn lú pú guǐ huí dá jì rán qìng jiā yuàn yì jià nǚ zì jǐ wèi shén me yào duǒ kāi",
+      "reference_frames": [
+        "references/page_13/ref_01_665.86s.jpg",
+        "references/page_13/ref_02_670.83s.jpg",
+        "references/page_13/ref_03_675.79s.jpg"
+      ]
+    },
+    {
+      "page": 14,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_14.webp",
+      "heading": "诗句也不能只截一章",
+      "text": "卢蒲癸把这件事比作读《诗经》：有人会截取一首诗的某一章，只拿来表达自己的意思。这就是“断章取义”。",
+      "layout": "image-left",
+      "source_time_range": [
+        684.3,
+        701.7
+      ],
+      "visual_time_range": [
+        684.3,
+        701.7
+      ],
+      "visual_anchors": [
+        "《诗经》卷轴",
+        "截取一章",
+        "卢蒲癸作比",
+        "被剪开的诗篇",
+        "众人明白成语"
+      ],
+      "key_content": {
+        "location": "齐国庭院中的讲论场景",
+        "animals": [],
+        "activity": "卢蒲癸用诗篇的一章比喻取用片段",
+        "stakes": "片段脱离全文后可能改变原本意思",
+        "outcome": "众人听懂“断章取义”的出处和比喻",
+        "visual_focus": "完整诗卷与被单独取出的其中一章"
+      },
+      "illustration_prompt": "Original children's-book educational illustration: Lu Pu Gui explains an ancient poem using a long scroll, carefully lifting one separated section while the full scroll remains visible behind it. Make the contrast between the whole and the isolated excerpt immediately clear, with abstract marks only and no readable writing. Soft gouache and pencil texture, parchment cream, ink blue, and cinnabar accents, no subtitles, logos, or watermark.",
+      "heading_pinyin": "shī jù yě bù néng zhǐ jié yī zhāng",
+      "pinyin": "lú pú guǐ bǎ zhè jiàn shì bǐ zuò dú shī jīng yǒu rén huì jié qǔ yī shǒu shī de mǒu yī zhāng zhǐ ná lái biǎo dá zì jǐ de yì si zhè jiù shì duàn zhāng qǔ yì",
+      "reference_frames": [
+        "references/page_14/ref_01_687.78s.jpg",
+        "references/page_14/ref_02_693.00s.jpg",
+        "references/page_14/ref_03_698.22s.jpg"
+      ]
+    },
+    {
+      "page": 15,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_15.webp",
+      "heading": "断章取义的意思",
+      "text": "断章取义，就是不顾全篇文章或整段谈话，只拿其中一句或一段来解释。这样说出来的意思，可能和原话不一样。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        709.94,
+        727.13
+      ],
+      "visual_time_range": [
+        709.94,
+        727.13
+      ],
+      "visual_anchors": [
+        "陈教授总结",
+        "完整谈话",
+        "被单独拿出的句子",
+        "错误理解与原意对照",
+        "琪琪认真听讲"
+      ],
+      "key_content": {
+        "location": "文化宫演播厅",
+        "animals": [],
+        "activity": "陈教授总结成语定义",
+        "stakes": "脱离上下文会把原意说成另一个意思",
+        "outcome": "读者掌握“断章取义”的准确含义",
+        "visual_focus": "完整对话气泡与被单独放大的片段形成对照"
+      },
+      "illustration_prompt": "Original children's-book explainer illustration in the cultural palace: the professor presents a complete conversation represented by a connected chain of colorful speech shapes, while one isolated fragment floats separately and points in a misleading direction. The robot child studies the comparison. No readable words anywhere, soft gouache and pencil texture, crisp educational contrast, no subtitles, logos, or watermark.",
+      "heading_pinyin": "duàn zhāng qǔ yì de yì si",
+      "pinyin": "duàn zhāng qǔ yì jiù shì bù gù quán piān wén zhāng huò zhěng duàn tán huà zhǐ ná qí zhōng yī jù huò yī duàn lái jiě shì zhè yàng shuō chū lái de yì si kě néng hé yuán huà bù yí yàng",
+      "reference_frames": [
+        "references/page_15/ref_01_713.38s.jpg",
+        "references/page_15/ref_02_718.54s.jpg",
+        "references/page_15/ref_03_723.69s.jpg"
+      ]
+    },
+    {
+      "page": 16,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e17-duan-zhang-qu-yi/images/page_16.webp",
+      "heading": "听完整，再下结论",
+      "text": "说话和办事都不能只做一半、只听一半。先把前因后果听完整，再判断和行动，才能少一些误解和麻烦。",
+      "layout": "image-right",
+      "source_time_range": [
+        728.8,
+        752.08
+      ],
+      "visual_time_range": [
+        736.48,
+        752.08
+      ],
+      "visual_anchors": [
+        "琪琪点头",
+        "完整倾听",
+        "前因后果相连",
+        "避免误解",
+        "故事结束道别"
+      ],
+      "key_content": {
+        "location": "文化宫讲故事室",
+        "animals": [],
+        "activity": "琪琪和陈教授把成语道理带回日常生活",
+        "stakes": "只听一半可能造成误解甚至麻烦",
+        "outcome": "读者学会先听完整、再作判断",
+        "visual_focus": "琪琪把散开的故事卡片重新按顺序排好"
+      },
+      "illustration_prompt": "Original children's-book closing illustration in a bright cultural palace room: the small white robot carefully arranges a series of connected story cards in the correct order while the kind professor gives an approving thumbs-up. Show a clear visual lesson about listening to the whole context, with no readable writing. Soft gouache and pencil texture, hopeful turquoise, cream, and sunlight-yellow palette, no subtitles, logos, or watermark.",
+      "heading_pinyin": "tīng wán zhěng zài xià jié lùn",
+      "pinyin": "shuō huà hé bàn shì dōu bù néng zhǐ zuò yí bàn zhǐ tīng yí bàn xiān bǎ qián yīn hòu guǒ tīng wán zhěng zài pàn duàn hé xíng dòng cái néng shǎo yī xiē wù jiě hé má fán",
+      "reference_frames": [
+        "references/page_16/ref_01_739.60s.jpg",
+        "references/page_16/ref_02_744.28s.jpg",
+        "references/page_16/ref_03_748.96s.jpg"
+      ]
+    }
+  ],
+  "title_pinyin": "duàn zhāng qǔ yì",
+  "subtitle_pinyin": "zhǐ tīng yí bàn róng yì wù jiě de gù shì"
+}

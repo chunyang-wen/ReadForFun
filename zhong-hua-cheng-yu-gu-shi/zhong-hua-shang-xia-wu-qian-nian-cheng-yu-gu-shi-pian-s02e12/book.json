@@ -1,0 +1,579 @@
+{
+  "title": "死灰复燃",
+  "subtitle": "韩安国重新得到机会的故事",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E12.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "visual_mode": "hybrid-book",
+  "cover_image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/cover.webp",
+  "pages": [
+    {
+      "page": 1,
+      "heading": "文化宫里的新消息",
+      "text": "陈教授和机器人琪琪在文化宫准备讲故事。一个关于“死灰复燃”的消息，让他们想起了汉朝的往事。",
+      "illustration_prompt": "Original children's-book illustration, warm cultural palace classroom with a friendly history professor and a small white robot assistant beside an old red diary and a rolled history scroll, an inviting doorway leading toward an ancient Han palace. Soft gouache and pencil texture for ages 6–10, bright teal, coral and ochre palette, new wide viewpoint, no readable words, subtitles, logos or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        156.29,
+        237.88
+      ],
+      "visual_time_range": [
+        124.43,
+        211.14
+      ],
+      "visual_anchors": [
+        "文化宫室内",
+        "白色机器人琪琪",
+        "陈教授",
+        "厚厚的红色日记本",
+        "历史故事卷轴"
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [],
+        "activity": "陈教授和琪琪准备讲解死灰复燃",
+        "stakes": "孩子们需要先弄懂成语的真正意思",
+        "outcome": "故事从文化宫转向汉朝往事",
+        "visual_focus": "文化宫、讲述者、红色资料本和通往古代的卷轴"
+      },
+      "heading_pinyin": "wén huà gōng lǐ de xīn xiāo xī",
+      "pinyin": "chén jiào shòu hé jī qì rén qí qí zài wén huà gōng zhǔn bèi jiǎng gù shì yí gè guān yú sǐ huī fù rán de xiāo xī ràng tā men xiǎng qǐ le hàn cháo de wǎng shì",
+      "reference_frames": [
+        "references/page_01/ref_01_141.77s.jpg",
+        "references/page_01/ref_02_167.78s.jpg",
+        "references/page_01/ref_03_193.80s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_01.webp"
+    },
+    {
+      "page": 2,
+      "heading": "灰烬为什么会再燃",
+      "text": "“死灰复燃”不是说真的去放火。它比喻已经失败的恶势力，又重新活动起来。",
+      "illustration_prompt": "Original children's-book concept illustration: a small brazier of gray ash with one gentle ember glowing again, transforming into a symbolic dark vine that tries to grow back while a professor and robot observe carefully. Keep the mood educational rather than frightening, soft gouache and pencil texture, clear shapes for ages 6–10, no words or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        163.17,
+        175.49
+      ],
+      "visual_time_range": [
+        156.29,
+        175.49
+      ],
+      "visual_anchors": [
+        "琪琪提出误解",
+        "陈教授解释成语",
+        "灰烬与小火星",
+        "重新活动的象征藤蔓"
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [],
+        "activity": "陈教授解释死灰复燃的比喻义",
+        "stakes": "如果误解成语，就会弄错故事的道理",
+        "outcome": "琪琪知道它说的是失败的恶势力重新活动",
+        "visual_focus": "灰烬、小火星和重新生长的暗色藤蔓"
+      },
+      "heading_pinyin": "huī jìn wèi shén me huì zài rán",
+      "pinyin": "sǐ huī fù rán bú shì shuō zhēn de qù fàng huǒ tā bǐ yù yǐ jīng shī bài de è shì lì yòu chóng xīn huó dòng qǐ lái",
+      "reference_frames": [
+        "references/page_02/ref_01_160.13s.jpg",
+        "references/page_02/ref_02_165.89s.jpg",
+        "references/page_02/ref_03_171.65s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_02.webp"
+    },
+    {
+      "page": 3,
+      "heading": "汉朝的宫廷风波",
+      "text": "故事发生在汉朝。韩安国酒后打碎了宫内珍宝，因此被关进监狱。梁王想救他，却知道自己不能随意改变已经定下的规矩。",
+      "illustration_prompt": "Original children's-book illustration of an ancient Han palace hall after a precious ceremonial vessel has accidentally broken, with a worried Liang King receiving urgent news and a respectful messenger holding a scroll. Show the broken treasure safely, no violence, fresh three-quarter viewpoint, soft gouache and pencil texture, no written characters or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        226.6,
+        292.11
+      ],
+      "visual_time_range": [
+        251.41,
+        292.11
+      ],
+      "visual_anchors": [
+        "汉朝宫殿",
+        "梁王",
+        "着急的报信人",
+        "打碎的宫内珍宝",
+        "拘押韩安国的消息"
+      ],
+      "key_content": {
+        "location": "汉朝宫廷",
+        "animals": [],
+        "activity": "报信人告诉梁王韩安国入狱",
+        "stakes": "宫廷规矩规定冒犯珍宝的人都要入狱",
+        "outcome": "梁王暂时无法直接救出韩安国",
+        "visual_focus": "宫殿、破碎珍宝、梁王和急报卷轴"
+      },
+      "heading_pinyin": "hàn cháo de gōng tíng fēng bō",
+      "pinyin": "gù shì fā shēng zài hàn cháo hán ān guó jiǔ hòu dǎ suì le gōng nèi zhēn bǎo yīn cǐ bèi guān jìn jiān yù liáng wáng xiǎng jiù tā què zhī dào zì jǐ bù néng suí yì gǎi biàn yǐ jīng dìng xià de guī jǔ",
+      "reference_frames": [
+        "references/page_03/ref_01_259.55s.jpg",
+        "references/page_03/ref_02_271.76s.jpg",
+        "references/page_03/ref_03_283.97s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_03.webp"
+    },
+    {
+      "page": 4,
+      "heading": "想救恩人却很为难",
+      "text": "韩安国曾经帮助梁王和汉景帝缓和关系。可梁王刚和哥哥和好不久，担心开口求情会被看不起，只好先独自想办法。",
+      "illustration_prompt": "Original children's-book illustration inside a Han palace: a thoughtful Liang King stands between two distant palace doorways symbolizing his brotherly relationship and the prison, holding a sealed request scroll but hesitating. Warm afternoon light, gentle facial expressions, soft gouache and pencil texture, entirely new staging, no text or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        288.67,
+        315.92
+      ],
+      "visual_time_range": [
+        299.15,
+        314.56
+      ],
+      "visual_anchors": [
+        "梁王独自思考",
+        "两扇象征性的宫门",
+        "求情卷轴",
+        "监狱方向"
+      ],
+      "key_content": {
+        "location": "汉朝宫廷",
+        "animals": [],
+        "activity": "梁王思考怎样救韩安国",
+        "stakes": "求情可能影响他与汉景帝刚缓和的关系",
+        "outcome": "梁王没有立刻向汉景帝求助",
+        "visual_focus": "犹豫的梁王、求情卷轴和两条选择的道路"
+      },
+      "heading_pinyin": "xiǎng jiù ēn rén què hěn wéi nán",
+      "pinyin": "hán ān guó céng jīng bāng zhù liáng wáng hé hàn jǐng dì huǎn hé guān xì kě liáng wáng gāng hé gē gē hé hǎo bù jiǔ dān xīn kāi kǒu qiú qíng huì bèi kàn bù qǐ zhǐ hǎo xiān dú zì xiǎng bàn fǎ",
+      "reference_frames": [
+        "references/page_04/ref_01_302.23s.jpg",
+        "references/page_04/ref_02_306.86s.jpg",
+        "references/page_04/ref_03_311.48s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_04.webp"
+    },
+    {
+      "page": 5,
+      "heading": "监狱里的鸡腿",
+      "text": "田甲拿鸡腿逗韩安国，想让他难堪。韩安国没有接受嘲笑，宁愿吃馒头和咸菜，也守住自己的尊严。",
+      "illustration_prompt": "Original children's-book illustration in a stylized ancient prison room: dignified Han official seated calmly with a simple bowl of buns and pickles while a smug jailer holds out an oversized chicken leg as a taunt. Keep the scene nonviolent and readable for ages 6–10, warm lantern light, soft gouache and pencil texture, no words or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        339.28,
+        369.95
+      ],
+      "visual_time_range": [
+        339.28,
+        368.67
+      ],
+      "visual_anchors": [
+        "古代监狱",
+        "韩安国",
+        "田甲",
+        "鸡腿",
+        "馒头和咸菜"
+      ],
+      "key_content": {
+        "location": "汉朝监狱",
+        "animals": [],
+        "activity": "田甲用鸡腿羞辱韩安国",
+        "stakes": "韩安国面对牢狱中的轻视和刁难",
+        "outcome": "韩安国保持镇定，不用美食换取屈辱",
+        "visual_focus": "鸡腿、简单饭菜、韩安国的平静神情和田甲的挑衅"
+      },
+      "heading_pinyin": "jiān yù lǐ de jī tuǐ",
+      "pinyin": "tián jiǎ ná jī tuǐ dòu hán ān guó xiǎng ràng tā nán kān hán ān guó méi yǒu jiē shòu cháo xiào nìng yuàn chī mán tou hé xián cài yě shǒu zhù zì jǐ de zūn yán",
+      "reference_frames": [
+        "references/page_05/ref_01_345.16s.jpg",
+        "references/page_05/ref_02_353.98s.jpg",
+        "references/page_05/ref_03_362.79s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_05.webp"
+    },
+    {
+      "page": 6,
+      "heading": "熄灭的灰也会再燃吗",
+      "text": "田甲以为韩安国已经失势，故意说他只是熄灭的灰烬。韩安国回答：难道死灰就不能复燃吗？",
+      "illustration_prompt": "Original children's-book illustration in an ancient prison courtyard: a calm official shields a tiny ember in a clay brazier while a boastful jailer points and laughs, with ash beginning to glow. Dramatic but child-friendly, no threats or violence, soft gouache and pencil texture, strong warm-cool contrast, no words or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        371.51,
+        417.76
+      ],
+      "visual_time_range": [
+        371.51,
+        410.9975
+      ],
+      "visual_anchors": [
+        "监狱中的对峙",
+        "熄灭的灰烬",
+        "重新亮起的火星",
+        "韩安国镇定反问",
+        "田甲自信嘲笑"
+      ],
+      "key_content": {
+        "location": "汉朝监狱",
+        "animals": [],
+        "activity": "田甲嘲笑韩安国失势，韩安国用死灰复燃回应",
+        "stakes": "韩安国的处境看起来已经跌入低谷",
+        "outcome": "成语的形象由监狱里的对话被记住",
+        "visual_focus": "灰烬、火星、两人的神情和监狱牢门"
+      },
+      "heading_pinyin": "xī miè de huī yě huì zài rán ma",
+      "pinyin": "tián jiǎ yǐ wéi hán ān guó yǐ jīng shī shì gù yì shuō tā zhǐ shì xī miè de huī jìn hán ān guó huí dá nán dào sǐ huī jiù bù néng fù rán ma",
+      "reference_frames": [
+        "references/page_06/ref_01_379.41s.jpg",
+        "references/page_06/ref_02_391.25s.jpg",
+        "references/page_06/ref_03_403.10s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_06.webp"
+    },
+    {
+      "page": 7,
+      "heading": "窦太后听说了这件事",
+      "text": "不久，韩安国入狱的事情传到了窦太后那里。她知道韩安国只是酒后一时失手，决定替这位有功的大臣想办法。",
+      "illustration_prompt": "Original children's-book illustration of Dowager Dou in a bright Han palace chamber receiving a report, with a messenger's scroll, a small repaired treasure vessel and a thoughtful expression. Regal but warm, soft gouache and pencil texture, new composition, no readable words, subtitles or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        432.95,
+        467.78
+      ],
+      "visual_time_range": [
+        432.95,
+        467.78
+      ],
+      "visual_anchors": [
+        "汉朝宫殿",
+        "窦太后",
+        "入狱消息",
+        "报告卷轴",
+        "可修复的珍宝"
+      ],
+      "key_content": {
+        "location": "汉朝宫殿",
+        "animals": [],
+        "activity": "窦太后了解韩安国入狱的原因",
+        "stakes": "韩安国可能因一次酒后失手失去职位和自由",
+        "outcome": "窦太后决定介入相助",
+        "visual_focus": "窦太后、传来的消息和珍宝修复的象征"
+      },
+      "heading_pinyin": "dòu tài hòu tīng shuō le zhè jiàn shì",
+      "pinyin": "bù jiǔ hán ān guó rù yù de shì qíng chuán dào le dòu tài hòu nà lǐ tā zhī dào hán ān guó zhǐ shì jiǔ hòu yī shí shī shǒu jué dìng tì zhè wèi yǒu gōng de dà chén xiǎng bàn fǎ",
+      "reference_frames": [
+        "references/page_07/ref_01_439.92s.jpg",
+        "references/page_07/ref_02_450.37s.jpg",
+        "references/page_07/ref_03_460.81s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_07.webp"
+    },
+    {
+      "page": 8,
+      "heading": "母后提醒梁王",
+      "text": "梁王说自己救不了韩安国。窦太后提醒他：韩安国曾经调解他和汉景帝的矛盾，不能因为刚过几天就忘记这份恩情。",
+      "illustration_prompt": "Original children's-book illustration in a Han palace: wise Dowager Dou gently points toward a memory scroll showing two brothers reconciling, while the Liang King listens with a humbled expression. Warm interior, carved screens and layered robes, soft gouache and pencil texture, new side viewpoint, no text or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        449.77,
+        495.86
+      ],
+      "visual_time_range": [
+        449.77,
+        495.86
+      ],
+      "visual_anchors": [
+        "窦太后与梁王对话",
+        "调解兄弟矛盾的记忆卷轴",
+        "梁王惭愧",
+        "汉朝宫殿"
+      ],
+      "key_content": {
+        "location": "汉朝宫殿",
+        "animals": [],
+        "activity": "窦太后劝梁王记住韩安国的恩情",
+        "stakes": "忘记恩情会让真正有功的人受到不公平的惩罚",
+        "outcome": "梁王重新想到应该帮助韩安国",
+        "visual_focus": "劝说中的母子、和好的兄弟象征和宫殿屏风"
+      },
+      "heading_pinyin": "mǔ hòu tí xǐng liáng wáng",
+      "pinyin": "liáng wáng shuō zì jǐ jiù bù liǎo hán ān guó dòu tài hòu tí xǐng tā hán ān guó céng jīng tiáo jiě tā hé hàn jǐng dì de máo dùn bù néng yīn wèi gāng guò jǐ tiān jiù wàng jì zhè fèn ēn qíng",
+      "reference_frames": [
+        "references/page_08/ref_01_458.99s.jpg",
+        "references/page_08/ref_02_472.81s.jpg",
+        "references/page_08/ref_03_486.64s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_08.webp"
+    },
+    {
+      "page": 9,
+      "heading": "珍宝可以再造",
+      "text": "窦太后说，珍宝坏了可以重新制作，可韩安国这样的能臣只有一个。她下令释放韩安国，让他继续做梁王的内史。",
+      "illustration_prompt": "Original children's-book illustration: Dowager Dou places a repaired ceremonial treasure beside a single glowing scholar's seal, while a royal decree scroll is carried toward the prison. Ancient Han palace colors, hopeful light, soft gouache and pencil texture, clear visual metaphor, no written characters or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        496.9,
+        519.47
+      ],
+      "visual_time_range": [
+        496.9,
+        519.47
+      ],
+      "visual_anchors": [
+        "窦太后下诏",
+        "修复的珍宝",
+        "唯一的大臣印信",
+        "释放韩安国",
+        "传令卷轴"
+      ],
+      "key_content": {
+        "location": "汉朝宫殿",
+        "animals": [],
+        "activity": "窦太后下令释放韩安国",
+        "stakes": "朝廷要在守规矩和珍惜人才之间作出判断",
+        "outcome": "韩安国获释并恢复内史职位",
+        "visual_focus": "珍宝、官印、诏令卷轴和希望的光线"
+      },
+      "heading_pinyin": "zhēn bǎo kě yǐ zài zào",
+      "pinyin": "dòu tài hòu shuō zhēn bǎo huài le kě yǐ chóng xīn zhì zuò kě hán ān guó zhè yàng de néng chén zhǐ yǒu yí gè tā xià lìng shì fàng hán ān guó ràng tā jì xù zuò liáng wáng de nèi shǐ",
+      "reference_frames": [
+        "references/page_09/ref_01_501.41s.jpg",
+        "references/page_09/ref_02_508.19s.jpg",
+        "references/page_09/ref_03_514.96s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_09.webp"
+    },
+    {
+      "page": 10,
+      "heading": "韩安国真的回来了",
+      "text": "太后的命令传到监狱，韩安国终于被释放。田甲听说后害怕极了，以为韩安国一定会回来报复自己。",
+      "illustration_prompt": "Original children's-book illustration at an ancient prison gate opening into sunlight: Han Anguo steps out calmly while a startled jailer peeks from behind a post, clutching a small bundle and imagining consequences. Hopeful, nonviolent, soft gouache and pencil texture, new wide staging, no words or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        538.4,
+        553.19
+      ],
+      "visual_time_range": [
+        538.4,
+        553.19
+      ],
+      "visual_anchors": [
+        "监狱大门打开",
+        "释放诏令",
+        "韩安国走向阳光",
+        "田甲害怕逃跑"
+      ],
+      "key_content": {
+        "location": "汉朝监狱门口",
+        "animals": [],
+        "activity": "韩安国获释，田甲担心被报复",
+        "stakes": "田甲曾经羞辱韩安国，害怕承担后果",
+        "outcome": "韩安国回到梁王身边，准备处理这件旧事",
+        "visual_focus": "打开的牢门、阳光、韩安国和躲藏的田甲"
+      },
+      "heading_pinyin": "hán ān guó zhēn de huí lái le",
+      "pinyin": "tài hòu de mìng lìng chuán dào jiān yù hán ān guó zhōng yú bèi shì fàng tián jiǎ tīng shuō hòu hài pà jí le yǐ wéi hán ān guó yí dìng huì huí lái bào fù zì jǐ",
+      "reference_frames": [
+        "references/page_10/ref_01_541.36s.jpg",
+        "references/page_10/ref_02_545.80s.jpg",
+        "references/page_10/ref_03_550.23s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_10.webp"
+    },
+    {
+      "page": 11,
+      "heading": "韩安国没有记仇",
+      "text": "回到梁王身边后，韩安国说自己已经在牢狱中看尽人情冷暖，也知道错了。梁王不再责怪他，还问他有什么愿望。",
+      "illustration_prompt": "Original children's-book illustration in a Han palace garden: reunited Liang King and Han Anguo face each other respectfully, with a quiet bridge from a shadowed prison path into a sunny courtyard behind them. Gentle forgiveness mood, soft gouache and pencil texture, fresh composition, no words or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        559.91,
+        576.71
+      ],
+      "visual_time_range": [
+        559.91,
+        574.15
+      ],
+      "visual_anchors": [
+        "梁王与韩安国重逢",
+        "从阴影走向阳光",
+        "韩安国认错",
+        "梁王询问愿望"
+      ],
+      "key_content": {
+        "location": "梁王宫中",
+        "animals": [],
+        "activity": "梁王迎回韩安国并听他说愿望",
+        "stakes": "旧日的牢狱经历可能留下怨恨",
+        "outcome": "两人先放下责怪，韩安国准备提出请求",
+        "visual_focus": "重逢的君臣、阳光庭院和象征过去的阴影小路"
+      },
+      "heading_pinyin": "hán ān guó méi yǒu jì chóu",
+      "pinyin": "huí dào liáng wáng shēn biān hòu hán ān guó shuō zì jǐ yǐ jīng zài láo yù zhōng kàn jǐn rén qíng lěng nuǎn yě zhī dào cuò le liáng wáng bù zài zé guài tā hái wèn tā yǒu shén me yuàn wàng",
+      "reference_frames": [
+        "references/page_11/ref_01_562.76s.jpg",
+        "references/page_11/ref_02_567.03s.jpg",
+        "references/page_11/ref_03_571.30s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_11.webp"
+    },
+    {
+      "page": 12,
+      "heading": "他想找回田甲",
+      "text": "韩安国没有要求金银，也没有要求惩罚别人。他只请求梁王把田甲找回来。田甲听到消息，吓得逃走了。",
+      "illustration_prompt": "Original children's-book illustration: in a Han palace audience room, calm Han Anguo asks for one person while the Liang King gestures in surprise; far outside, a tiny figure of Tian Jia runs along a road, looking back nervously. Storybook scale contrast, soft gouache and pencil texture, no readable words or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        577.43,
+        596.11
+      ],
+      "visual_time_range": [
+        577.43,
+        593.15
+      ],
+      "visual_anchors": [
+        "韩安国提出愿望",
+        "梁王惊讶",
+        "传唤田甲",
+        "田甲逃跑",
+        "古代宫门与道路"
+      ],
+      "key_content": {
+        "location": "梁王宫中与宫外道路",
+        "animals": [],
+        "activity": "韩安国请求找回田甲，田甲逃跑",
+        "stakes": "田甲误以为韩安国只想报仇",
+        "outcome": "梁王放出消息，逼田甲回来面对韩安国",
+        "visual_focus": "请求的手势、惊讶的梁王和逃跑的田甲"
+      },
+      "heading_pinyin": "tā xiǎng zhǎo huí tián jiǎ",
+      "pinyin": "hán ān guó méi yǒu yāo qiú jīn yín yě méi yǒu yāo qiú chéng fá bié rén tā zhǐ qǐng qiú liáng wáng bǎ tián jiǎ zhǎo huí lái tián jiǎ tīng dào xiāo xī xià dé táo zǒu le",
+      "reference_frames": [
+        "references/page_12/ref_01_580.57s.jpg",
+        "references/page_12/ref_02_585.29s.jpg",
+        "references/page_12/ref_03_590.01s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_12.webp"
+    },
+    {
+      "page": 13,
+      "heading": "田甲回来道歉",
+      "text": "梁王说，如果田甲不回来，就要连累他的家人。田甲只好回来道歉，请求韩安国不要报复。韩安国却说，他不值得自己去报复。",
+      "illustration_prompt": "Original children's-book illustration in a palace courtyard: Tian Jia kneels and apologizes with folded hands while Han Anguo raises a calm hand to stop him from bowing too low; the Liang King watches from a respectful distance. Emphasize reconciliation, not fear or violence, soft gouache and pencil texture, no words or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        597.39,
+        647.47
+      ],
+      "visual_time_range": [
+        615.52,
+        641.94
+      ],
+      "visual_anchors": [
+        "田甲回来道歉",
+        "韩安国宽厚平静",
+        "梁王在旁观察",
+        "请求原谅",
+        "宫廷庭院"
+      ],
+      "key_content": {
+        "location": "梁王宫中庭院",
+        "animals": [],
+        "activity": "田甲向韩安国道歉，韩安国拒绝报复",
+        "stakes": "田甲害怕自己的家人受到牵连",
+        "outcome": "韩安国表示不值得为此报仇",
+        "visual_focus": "道歉的田甲、伸手宽慰的韩安国和庭院中的梁王"
+      },
+      "heading_pinyin": "tián jiǎ huí lái dào qiàn",
+      "pinyin": "liáng wáng shuō rú guǒ tián jiǎ bù huí lái jiù yào lián lěi tā de jiā rén tián jiǎ zhǐ hǎo huí lái dào qiàn qǐng qiú hán ān guó bú yào bào fù hán ān guó què shuō tā bù zhí dé zì jǐ qù bào fù",
+      "reference_frames": [
+        "references/page_13/ref_01_620.80s.jpg",
+        "references/page_13/ref_02_628.73s.jpg",
+        "references/page_13/ref_03_636.66s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_13.webp"
+    },
+    {
+      "page": 14,
+      "heading": "握手言和",
+      "text": "韩安国原谅了田甲，还让他留下来好好做事。田甲答应改头换面、重新做人。后来，他们一起为梁国效力。",
+      "illustration_prompt": "Original children's-book illustration of Han Anguo and Tian Jia shaking hands warmly in a Han palace garden, with a small new green shoot growing beside an old gray brazier to symbolize a changed beginning. Liang King smiles in the background. Soft gouache and pencil texture, hopeful ages 6–10, no words or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        644.67,
+        684.6
+      ],
+      "visual_time_range": [
+        648.51,
+        681.96
+      ],
+      "visual_anchors": [
+        "韩安国原谅田甲",
+        "两人握手",
+        "重新做人的小绿芽",
+        "梁王微笑",
+        "一起为梁国效力"
+      ],
+      "key_content": {
+        "location": "梁王宫中庭院",
+        "animals": [],
+        "activity": "韩安国与田甲握手言和并重新合作",
+        "stakes": "一次冲突之后，双方都要决定未来怎样相处",
+        "outcome": "田甲改过自新，两人共同为梁国效力",
+        "visual_focus": "握手、绿芽、灰烬和温暖的宫苑"
+      },
+      "heading_pinyin": "wò shǒu yán hé",
+      "pinyin": "hán ān guó yuán liàng le tián jiǎ hái ràng tā liú xià lái hǎo hǎo zuò shì tián jiǎ dā yìng gǎi tóu huàn miàn chóng xīn zuò rén hòu lái tā men yì qǐ wèi liáng guó xiào lì",
+      "reference_frames": [
+        "references/page_14/ref_01_655.20s.jpg",
+        "references/page_14/ref_02_665.24s.jpg",
+        "references/page_14/ref_03_675.27s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_14.webp"
+    },
+    {
+      "page": 15,
+      "heading": "别让小事再燃起来",
+      "text": "韩安国的大度让田甲重新做人。小朋友们也要记住：小事如果被忽视，可能会再次引起麻烦；面对错误，及时改正，才会有新的开始。",
+      "illustration_prompt": "Original children's-book closing illustration: children in a cultural palace classroom place a small lid over a harmless glowing brazier while a green plant grows beside it, with the professor and white robot smiling nearby and a history scroll softly in the background. Warm sunset palette, soft gouache and pencil texture, clean negative space, no words or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        682.84,
+        712.05
+      ],
+      "visual_time_range": [
+        682.84,
+        706.53
+      ],
+      "visual_anchors": [
+        "文化宫课堂",
+        "孩子们回顾故事",
+        "灰烬与新芽",
+        "陈教授和琪琪",
+        "温暖的结束"
+      ],
+      "key_content": {
+        "location": "文化宫课堂",
+        "animals": [],
+        "activity": "孩子们回顾死灰复燃并思考怎样改正错误",
+        "stakes": "被忽视的小问题可能重新变成麻烦",
+        "outcome": "孩子们理解及时改正和重新开始的意义",
+        "visual_focus": "课堂、灰烬、新芽、陈教授和琪琪"
+      },
+      "heading_pinyin": "bié ràng xiǎo shì zài rán qǐ lái",
+      "pinyin": "hán ān guó de dà dù ràng tián jiǎ chóng xīn zuò rén xiǎo péng yǒu men yě yào jì zhù xiǎo shì rú guǒ bèi hū shì kě néng huì zài cì yǐn qǐ má fán miàn duì cuò wù jí shí gǎi zhèng cái huì yǒu xīn de kāi shǐ",
+      "reference_frames": [
+        "references/page_15/ref_01_687.58s.jpg",
+        "references/page_15/ref_02_694.68s.jpg",
+        "references/page_15/ref_03_701.79s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/zhong-hua-shang-xia-wu-qian-nian-cheng-yu-gu-shi-pian-s02e12/images/page_15.webp"
+    }
+  ],
+  "title_pinyin": "sǐ huī fù rán",
+  "subtitle_pinyin": "hán ān guó chóng xīn dé dào jī huì de gù shì"
+}

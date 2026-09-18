@@ -1,0 +1,940 @@
+{
+  "title": "海洋深处的生存智慧",
+  "subtitle": "地球脉动III · 海洋",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/SeagateDisk/Planet.Earth.III.S01.1080p.BluRay.DDP7.1.x264-PuTao/Planet.Earth.III.S01E02.Ocean.1080p.BluRay.DDP7.1.x264-PuTao.mkv",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_01.webp",
+      "heading": "海洋，仍有许多秘密",
+      "text": "海洋覆盖着地球的大部分地方。每一次下潜，都可能发现新的生命。",
+      "pinyin": "hǎi yáng fù gài zhe dì qiú de dà bù fèn dì fāng 。měi yí cì xià qián ，dōu kě néng fā xiàn xīn de shēng mìng 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本开篇插画：辽阔海面从晨光延伸到深蓝海底，水面下隐约出现多种海洋生命和深海探测器，表现未知与探索，柔和水粉与细腻颗粒质感，无文字、无标签、无字幕。",
+      "source_time_range": [
+        20.5,
+        46.5
+      ],
+      "visual_time_range": [
+        20,
+        70
+      ],
+      "key_content": {
+        "location": "广阔海洋与海面下的未知世界",
+        "animals": [],
+        "activity": "探测器下潜、海洋生命在不同深度活动",
+        "stakes": "海洋中仍有大量区域和物种未被认识",
+        "outcome": "旅程带来非同寻常的发现",
+        "visual_focus": "从海面通向深海的纵向世界"
+      },
+      "reference_frames": [
+        "references/page_01/ref_01_030.00s.jpg",
+        "references/page_01/ref_02_045.00s.jpg",
+        "references/page_01/ref_03_060.00s.jpg"
+      ],
+      "visual_anchors": [
+        "海面弧线与晨光下的地球边缘",
+        "深蓝水下的探测器灯光",
+        "未知海域中若隐若现的生命轮廓"
+      ],
+      "heading_pinyin": "hǎi yáng réng yǒu xǔ duō mì mì"
+    },
+    {
+      "page": 2,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_02.webp",
+      "heading": "漂亮浅海里的生死赛",
+      "text": "热带浅海像一座花园，波涛下面却是捕猎者和猎物的竞技场。",
+      "pinyin": "rè dài qiǎn hǎi xiàng yí zuò huā yuán ，bō tāo xià miàn què shì bǔ liè zhě hé liè wù de jìng jì chǎng 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：热带浅海珊瑚礁明亮清澈，彩色鱼群穿过珊瑚和海草，画面下方用深色缝隙暗示捕猎危险，观察感强，柔和水粉，无文字。",
+      "source_time_range": [
+        108.5,
+        133.0
+      ],
+      "visual_time_range": [
+        105,
+        140
+      ],
+      "key_content": {
+        "location": "热带地区浅海水域",
+        "animals": [
+          "珊瑚礁鱼类"
+        ],
+        "activity": "鱼类在珊瑚缝隙间躲藏和觅食",
+        "stakes": "美丽环境中随时可能发生捕猎",
+        "outcome": "外表平静的浅海成为生死角逐场",
+        "visual_focus": "明亮花园与暗藏危险的对比"
+      },
+      "reference_frames": [
+        "references/page_02/ref_01_112.00s.jpg",
+        "references/page_02/ref_02_122.50s.jpg",
+        "references/page_02/ref_03_133.00s.jpg"
+      ],
+      "visual_anchors": [
+        "清澈明亮的热带浅海",
+        "珊瑚礁和鱼群的彩色层次",
+        "宁静花园下方的暗色缝隙"
+      ],
+      "heading_pinyin": "piào liàng qiǎn hǎi lǐ de shēng sǐ sài"
+    },
+    {
+      "page": 3,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_03.webp",
+      "heading": "蓑鮋的耐心陷阱",
+      "text": "蓑鮋想吃小虾，便慢慢靠近，并展开鳍棘迷惑猎物。可这一次，猎手反而成了猎物。",
+      "pinyin": "suō yóu xiǎng chī xiǎo xiā ，biàn màn màn kào jìn ，bìng zhǎn kāi qí jí mí huò liè wù 。kě zhè yí cì ，liè shǒu fǎn ér chéng le liè wù 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：热带珊瑚浅海中一条蓑鮋张开华丽鳍棘，耐心接近一只小虾；小虾警觉躲在珊瑚旁，构图表现欺骗与反转，真实物种形态，水粉质感，无文字。",
+      "source_time_range": [
+        142.0,
+        202.5
+      ],
+      "visual_time_range": [
+        140,
+        205
+      ],
+      "key_content": {
+        "location": "热带浅海珊瑚礁",
+        "animals": [
+          "蓑鮋",
+          "小虾"
+        ],
+        "activity": "蓑鮋伏击小虾并用鳍棘迷惑猎物",
+        "stakes": "猎物躲藏处多，捕食需要耐心",
+        "outcome": "蓑鮋的捕猎被小虾识破，猎手沦为猎物",
+        "visual_focus": "蓑鮋鳍棘和珊瑚缝隙中的小虾"
+      },
+      "reference_frames": [
+        "references/page_03/ref_01_153.00s.jpg",
+        "references/page_03/ref_02_172.50s.jpg",
+        "references/page_03/ref_03_192.00s.jpg"
+      ],
+      "visual_anchors": [
+        "蓑鮋张开的华丽鳍棘",
+        "珊瑚缝隙旁警觉的小虾",
+        "近距离观察式浅海构图"
+      ],
+      "heading_pinyin": "suō yóu de nài xīn xiàn jǐng"
+    },
+    {
+      "page": 4,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_04.webp",
+      "heading": "头顶的“小钓竿”",
+      "text": "大斑躄鱼头顶有一根钓竿，末端像一只小虾。猎物不上钩，它就得换地方。",
+      "pinyin": "dà bān bì yú tóu dǐng yǒu yì gēn diào gān ，mò duān xiàng yì zhī xiǎo xiā 。liè wù bù shàng gōu ，tā jiù děi huàn dì fāng 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：大斑躄鱼伪装在浅海珊瑚中，头顶细长钓竿的末端有虾形诱饵，远处一条小鱼犹豫靠近，细节清楚、色彩自然、儿童科普水粉，无文字。",
+      "source_time_range": [
+        209.0,
+        251.0
+      ],
+      "visual_time_range": [
+        205,
+        252
+      ],
+      "key_content": {
+        "location": "热带浅海珊瑚区",
+        "animals": [
+          "大斑躄鱼",
+          "小鱼"
+        ],
+        "activity": "大斑躄鱼用背鳍鳍棘演化的钓竿诱鱼",
+        "stakes": "诱饵失效后必须重新寻找垂钓地点",
+        "outcome": "它收起钓竿，准备换一个地方",
+        "visual_focus": "头顶钓竿与虾形诱饵"
+      },
+      "reference_frames": [
+        "references/page_04/ref_01_214.40s.jpg",
+        "references/page_04/ref_02_228.50s.jpg",
+        "references/page_04/ref_03_242.60s.jpg"
+      ],
+      "visual_anchors": [
+        "躄鱼与珊瑚几乎同色的身体",
+        "头顶细长钓竿和虾形诱饵",
+        "远处犹豫靠近的小鱼"
+      ],
+      "heading_pinyin": "tóu dǐng de xiǎo diào gān"
+    },
+    {
+      "page": 5,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_05.webp",
+      "heading": "用鳍走路的鱼",
+      "text": "大斑躄鱼不靠游泳移动，而是用鳍当脚，在海底慢慢行走。皮肤像珊瑚，也帮它藏好自己。",
+      "pinyin": "dà bān bì yú bù kào yóu yǒng yí dòng ，ér shì yòng qí dāng jiǎo ，zài hǎi dǐ màn màn xíng zǒu 。pí fū xiàng shān hú ，yě bāng tā cáng hǎo zì jǐ 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：大斑躄鱼贴着浅海海底，用胸鳍和腹鳍像脚一样行走，凸起皮肤与珊瑚几乎融为一体；一群鯔鱼被轻微水波吸引，水粉自然史风格，无文字。",
+      "source_time_range": [
+        255.5,
+        330.5
+      ],
+      "visual_time_range": [
+        255,
+        360
+      ],
+      "key_content": {
+        "location": "浅海珊瑚海底",
+        "animals": [
+          "大斑躄鱼",
+          "鯔鱼"
+        ],
+        "activity": "大斑躄鱼用鳍行走并挥动钓竿吸引鯔鱼",
+        "stakes": "伪装和选址决定诱捕是否成功",
+        "outcome": "它靠近猎物，目标近在咫尺",
+        "visual_focus": "像脚的鳍、珊瑚伪装和摆动诱饵"
+      },
+      "reference_frames": [
+        "references/page_05/ref_01_276.00s.jpg",
+        "references/page_05/ref_02_307.50s.jpg",
+        "references/page_05/ref_03_339.00s.jpg"
+      ],
+      "visual_anchors": [
+        "大斑躄鱼贴底用鳍行走",
+        "凸起皮肤与珊瑚的伪装纹理",
+        "被水波吸引的鯔鱼群"
+      ],
+      "heading_pinyin": "yòng qí zǒu lù de yú"
+    },
+    {
+      "page": 6,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_06.webp",
+      "heading": "十二层楼高的巨藻林",
+      "text": "北美洲沿岸的冷水海域阳光充足，巨藻长成高高的森林，为幼鲨提供庇护。",
+      "pinyin": "běi měi zhōu yán àn de lěng shuǐ hǎi yù yáng guāng chōng zú ，jù zǎo zhǎng chéng gāo gāo de sēn lín ，wèi yòu shā tí gōng bì hù 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：北美洲沿岸冷水海域的巨藻森林从海底向上伸展，像十二层楼高，金色夕阳从水面透下，一条幼年佛氏虎鲨在藻叶间穿行，蓝绿色水粉，无文字。",
+      "source_time_range": [
+        387.0,
+        452.5
+      ],
+      "visual_time_range": [
+        385,
+        455
+      ],
+      "key_content": {
+        "location": "北美洲沿岸冷水海域的巨藻林",
+        "animals": [
+          "年幼佛氏虎鲨"
+        ],
+        "activity": "幼鲨离开白天栖息地，进入巨藻林寻找食物",
+        "stakes": "幼鲨体型小，夜间要在巨藻林中躲避危险",
+        "outcome": "巨藻林成为幼鲨的庇护所",
+        "visual_focus": "高耸巨藻与穿行其中的幼鲨"
+      },
+      "reference_frames": [
+        "references/page_06/ref_01_399.00s.jpg",
+        "references/page_06/ref_02_420.00s.jpg",
+        "references/page_06/ref_03_441.00s.jpg"
+      ],
+      "visual_anchors": [
+        "巨藻从海底向水面高耸生长",
+        "蓝绿色冷水与透下来的金色阳光",
+        "幼年佛氏虎鲨在藻叶间穿行"
+      ],
+      "heading_pinyin": "shí èr céng lóu gāo de jù zǎo lín"
+    },
+    {
+      "page": 7,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_07.webp",
+      "heading": "巨藻林里的怪兽",
+      "text": "半米长的幼鲨很弱小。巨坚鳞鲈、眼斑鳗狼鱼和其他鲨鱼，都可能成为危险。",
+      "pinyin": "bàn mǐ cháng de yòu shā hěn ruò xiǎo 。jù jiān lín lú 、yǎn bān mán láng yú hé qí tā shā yú ，dōu kě néng chéng wéi wēi xiǎn 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：巨藻林的暗绿色水下空间里，半米长的年幼佛氏虎鲨在前景谨慎游动；远处出现巨大巨坚鳞鲈和长着大牙齿的眼斑鳗狼鱼，体现尺度差异但不恐怖，水粉，无文字。",
+      "source_time_range": [
+        465.0,
+        516.0
+      ],
+      "visual_time_range": [
+        460,
+        520
+      ],
+      "key_content": {
+        "location": "巨藻林中心",
+        "animals": [
+          "年幼佛氏虎鲨",
+          "巨坚鳞鲈",
+          "眼斑鳗狼鱼",
+          "皱唇鲨",
+          "扁头哈那鲨"
+        ],
+        "activity": "幼鲨在巨型动物出没的藻林中寻找食物",
+        "stakes": "体型悬殊，幼鲨可能被大型鱼类或鲨鱼捕食",
+        "outcome": "幼鲨需要保持低调",
+        "visual_focus": "小幼鲨与巨大捕食者的尺度对比"
+      },
+      "reference_frames": [
+        "references/page_07/ref_01_472.00s.jpg",
+        "references/page_07/ref_02_490.00s.jpg",
+        "references/page_07/ref_03_508.00s.jpg"
+      ],
+      "visual_anchors": [
+        "前景小巧谨慎的幼鲨",
+        "远处巨大巨坚鳞鲈",
+        "眼斑鳗狼鱼的大牙齿与暗绿藻林"
+      ],
+      "heading_pinyin": "jù zǎo lín lǐ de guài shòu"
+    },
+    {
+      "page": 8,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_08.webp",
+      "heading": "埋在沙里的扁鲨",
+      "text": "扁鲨能贴着海底，把扬起的沙子盖在身上。它静静埋伏，等猎物靠近。",
+      "pinyin": "biǎn shā néng tiē zhe hǎi dǐ ，bǎ yáng qǐ de shā zi gài zài shēn shàng 。tā jìng jìng mái fú ，děng liè wù kào jìn 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：巨藻林海底，一条扁鲨平贴沙地，气孔呼吸，细沙像薄毯覆盖身体，只露出眼睛和轮廓；背景是幽暗巨藻，强调隐蔽伏击，不血腥，无文字。",
+      "source_time_range": [
+        567.0,
+        668.0
+      ],
+      "visual_time_range": [
+        560,
+        675
+      ],
+      "key_content": {
+        "location": "巨藻林沙质海底",
+        "animals": [
+          "扁鲨"
+        ],
+        "activity": "扁鲨通过气孔呼吸并用沙子覆盖身体伏击",
+        "stakes": "隐蔽性决定能否接近猎物而不被发现",
+        "outcome": "陷阱准备完成，扁鲨等待时机",
+        "visual_focus": "沙层、气孔和半隐藏的鲨鱼轮廓"
+      },
+      "reference_frames": [
+        "references/page_08/ref_01_583.00s.jpg",
+        "references/page_08/ref_02_617.50s.jpg",
+        "references/page_08/ref_03_652.00s.jpg"
+      ],
+      "visual_anchors": [
+        "扁鲨平贴沙地的低矮轮廓",
+        "细沙覆盖身体只留下眼睛和边缘",
+        "幽暗巨藻林中的伏击氛围"
+      ],
+      "heading_pinyin": "mái zài shā lǐ de biǎn shā"
+    },
+    {
+      "page": 9,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_09.webp",
+      "heading": "眨眼完成的伏击",
+      "text": "贴近海底游动可以躲开许多猎食者。扁鲨却在眨眼间发动伏击，幼鲨只能继续小心。",
+      "pinyin": "tiē jìn hǎi dǐ yóu dòng kě yǐ duǒ kāi xǔ duō liè shí zhě 。biǎn shā què zài zhǎ yǎn jiān fā dòng fú jī ，yòu shā zhǐ néng jì xù xiǎo xīn 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：扁鲨从沙地突然冲向一条经过的鱼，海底沙粒形成动态弧线，巨藻在背景摇曳；前景保留安全距离和自然史观察感，不表现伤口，无文字。",
+      "source_time_range": [
+        680.5,
+        739.0
+      ],
+      "visual_time_range": [
+        675,
+        745
+      ],
+      "key_content": {
+        "location": "巨藻林海底",
+        "animals": [
+          "扁鲨",
+          "猎物鱼类"
+        ],
+        "activity": "扁鲨从沙中突然伏击经过的猎物",
+        "stakes": "猎物必须避开海底埋伏，幼鲨也处于危险中",
+        "outcome": "扁鲨完成快速伏击",
+        "visual_focus": "沙地突袭的瞬间和巨藻的运动感"
+      },
+      "reference_frames": [
+        "references/page_09/ref_01_689.00s.jpg",
+        "references/page_09/ref_02_710.00s.jpg",
+        "references/page_09/ref_03_731.00s.jpg"
+      ],
+      "visual_anchors": [
+        "扁鲨从沙地突然冲出",
+        "弧形扬起的海底沙粒",
+        "摇曳巨藻和保持距离的猎物"
+      ],
+      "heading_pinyin": "zhǎ yǎn wán chéng de fú jī"
+    },
+    {
+      "page": 10,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_10.webp",
+      "heading": "佛氏虎鲨的秘密武器",
+      "text": "年幼佛氏虎鲨身上的锋利尖刺，会让大多数捕食者不敢下口。它暂时可以安心捕猎。",
+      "pinyin": "nián yòu fó shì hǔ shā shēn shàng de fēng lì jiān cì ，huì ràng dà duō shù bǔ shí zhě bù gǎn xià kǒu 。tā zàn shí kě yǐ ān xīn bǔ liè 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：年幼佛氏虎鲨在巨藻林中抬起背部，清楚表现身上的锋利尖刺；远处较大的捕食者保持距离，阳光穿过藻叶，温和儿童科普水粉，无文字。",
+      "source_time_range": [
+        757.0,
+        783.5
+      ],
+      "visual_time_range": [
+        750,
+        790
+      ],
+      "key_content": {
+        "location": "巨藻林",
+        "animals": [
+          "年幼佛氏虎鲨",
+          "其他捕食者"
+        ],
+        "activity": "幼鲨展示背部尖刺，继续在藻林捕猎",
+        "stakes": "幼鲨要抵御比自己强大的捕食者",
+        "outcome": "尖刺让多数捕食者无可奈何",
+        "visual_focus": "背部尖刺与安全距离"
+      },
+      "reference_frames": [
+        "references/page_10/ref_01_758.00s.jpg",
+        "references/page_10/ref_02_770.00s.jpg",
+        "references/page_10/ref_03_782.00s.jpg"
+      ],
+      "visual_anchors": [
+        "幼年佛氏虎鲨背部清晰的尖刺",
+        "捕食者在远处不敢靠近",
+        "阳光穿过巨藻叶片的安全感"
+      ],
+      "heading_pinyin": "fú shì hǔ shā de mì mì wǔ qì"
+    },
+    {
+      "page": 11,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_11.webp",
+      "heading": "风暴把森林带向远洋",
+      "text": "冬季风暴连根拔起巨藻。到了无边的远洋，一小片漂流巨藻也变得十分珍贵。",
+      "pinyin": "dōng jì fēng bào lián gēn bá qǐ jù zǎo 。dào le wú biān de yuǎn yáng ，yì xiǎo piàn piāo liú jù zǎo yě biàn de shí fēn zhēn guì 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：强劲冬季风暴掀起海底巨藻，几大片巨藻漂向辽阔深蓝远洋；风浪和阳光形成史诗感，但保持儿童友好水粉质感，无文字。",
+      "source_time_range": [
+        814.0,
+        861.0
+      ],
+      "visual_time_range": [
+        810,
+        865
+      ],
+      "key_content": {
+        "location": "从巨藻林到远洋",
+        "animals": [],
+        "activity": "冬季风暴拔起巨藻并把它们带向海面",
+        "stakes": "远洋缺少隐蔽处，漂流巨藻十分稀少",
+        "outcome": "漂流巨藻成为海上生命的重要栖息地",
+        "visual_focus": "被风暴卷走的巨藻与空旷远洋"
+      },
+      "reference_frames": [
+        "references/page_11/ref_01_821.00s.jpg",
+        "references/page_11/ref_02_837.50s.jpg",
+        "references/page_11/ref_03_854.00s.jpg"
+      ],
+      "visual_anchors": [
+        "冬季风暴掀起的巨藻根部",
+        "巨藻漂向深蓝远洋",
+        "风浪和金色云光的强烈对比"
+      ],
+      "heading_pinyin": "fēng bào bǎ sēn lín dài xiàng yuǎn yáng"
+    },
+    {
+      "page": 12,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_12.webp",
+      "heading": "漂流巨藻上的鱼卵",
+      "text": "飞鱼把上千枚鱼卵产在漂浮巨藻上。大青鲨游了数千公里，却只吃鱼卵，不伤害成鱼。",
+      "pinyin": "fēi yú bǎ shàng qiān méi yú luǎn chǎn zài piāo fú jù zǎo shàng 。dà qīng shā yóu le shù qiān gōng lǐ ，què zhǐ chī yú luǎn ，bù shāng hài chéng yú 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：开阔远洋中一块漂浮巨藻下方，飞鱼成鱼在产卵，大青鲨张口靠近巨藻上的鱼卵但不攻击成鱼；清澈蓝色、自然比例、无文字。",
+      "source_time_range": [
+        871.0,
+        1058.5
+      ],
+      "visual_time_range": [
+        865,
+        1065
+      ],
+      "key_content": {
+        "location": "开阔远洋的漂流巨藻",
+        "animals": [
+          "飞鱼",
+          "大青鲨"
+        ],
+        "activity": "飞鱼在巨藻上产卵，大青鲨取食鱼卵",
+        "stakes": "飞鱼在远洋难找产卵地点，大青鲨也需要食物",
+        "outcome": "鱼卵数量很多，飞鱼群没有被大青鲨吃光",
+        "visual_focus": "巨藻、鱼卵、飞鱼与大青鲨的关系"
+      },
+      "reference_frames": [
+        "references/page_12/ref_01_905.00s.jpg",
+        "references/page_12/ref_02_965.00s.jpg",
+        "references/page_12/ref_03_1025.00s.jpg"
+      ],
+      "visual_anchors": [
+        "漂浮巨藻下密集的飞鱼群",
+        "大青鲨在卵团附近游动",
+        "开阔海面和成鱼、鱼卵的尺度关系"
+      ],
+      "heading_pinyin": "piāo liú jù zǎo shàng de yú luǎn"
+    },
+    {
+      "page": 13,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_13.webp",
+      "heading": "塑料漂流成了新栖息地",
+      "text": "海洋里每年进入约1200万吨塑料。废弃鱼线和渔网会缠住动物，但有些小生命把塑料当成家。",
+      "pinyin": "hǎi yáng lǐ měi nián jìn rù yuē 1200 wàn dūn sù liào 。fèi qì yú xiàn hé yú wǎng huì chán zhù dòng wù ，dàn yǒu xiē xiǎo shēng mìng bǎ sù liào dāng chéng jiā 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：海面漂浮的废弃渔网、塑料碎片与少量巨藻形成对比，一只很小的漂浮蟹抓住渔网；画面温和但清楚表达污染双面性，不出现文字标牌，无血腥。",
+      "source_time_range": [
+        1072.5,
+        1143.5
+      ],
+      "visual_time_range": [
+        1070,
+        1145
+      ],
+      "key_content": {
+        "location": "漂浮巨藻与塑料制品交替出现的远洋",
+        "animals": [
+          "小漂浮蟹",
+          "受困海洋动物"
+        ],
+        "activity": "动物利用或被废弃渔线和渔网影响",
+        "stakes": "塑料和幽灵网会成为致命陷阱",
+        "outcome": "塑料也被一些小生命当作庇护所",
+        "visual_focus": "巨藻、渔网和塑料的对照"
+      },
+      "reference_frames": [
+        "references/page_13/ref_01_1085.00s.jpg",
+        "references/page_13/ref_02_1107.50s.jpg",
+        "references/page_13/ref_03_1130.00s.jpg"
+      ],
+      "visual_anchors": [
+        "塑料和废弃渔网漂在深蓝海面",
+        "巨藻与塑料两种漂浮物的对照",
+        "极小的漂浮蟹抓住渔网"
+      ],
+      "heading_pinyin": "sù liào piāo liú chéng le xīn qī xī dì"
+    },
+    {
+      "page": 14,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_14.webp",
+      "heading": "小漂浮蟹搭便车",
+      "text": "小漂浮蟹不善游泳，独自抓着渔网漂了好几个月。路过的红海龟，给了它一个机会。",
+      "pinyin": "xiǎo piāo fú xiè bù shàn yóu yǒng ，dú zì zhuā zhe yú wǎng piāo le hǎo jǐ gè yuè 。lù guò de hóng hǎi guī ，gěi le tā yí gè jī huì 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：辽阔蓝色海面下，一只比拇指指甲还小的小漂浮蟹紧紧抓住漂浮渔网，红海龟从旁游过，蟹正尝试爬上龟背；强调小与大的尺度，水粉，无文字。",
+      "source_time_range": [
+        1147.0,
+        1269.0
+      ],
+      "visual_time_range": [
+        1145,
+        1272
+      ],
+      "key_content": {
+        "location": "开阔远洋海面",
+        "animals": [
+          "雄性小漂浮蟹",
+          "红海龟"
+        ],
+        "activity": "小漂浮蟹抓住渔网并尝试搭上红海龟",
+        "stakes": "它不会游泳，又找不到伴侣，处于孤立状态",
+        "outcome": "它成功登上红海龟，获得移动的机会",
+        "visual_focus": "微小螃蟹与红海龟背部的尺度对比"
+      },
+      "reference_frames": [
+        "references/page_14/ref_01_1170.40s.jpg",
+        "references/page_14/ref_02_1208.50s.jpg",
+        "references/page_14/ref_03_1246.60s.jpg"
+      ],
+      "visual_anchors": [
+        "比拇指指甲还小的雄性漂浮蟹",
+        "蟹紧抓漂浮渔网",
+        "红海龟从旁游过成为便车"
+      ],
+      "heading_pinyin": "xiǎo piāo fú xiè dā biàn chē"
+    },
+    {
+      "page": 15,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_15.webp",
+      "heading": "龟背上的新家",
+      "text": "红海龟背上还有一只雌性小漂浮蟹。两只螃蟹很快成为伴侣，还会帮红海龟清洁身体。",
+      "pinyin": "hóng hǎi guī bèi shàng hái yǒu yì zhī cí xìng xiǎo piāo fú xiè 。liǎng zhī páng xiè hěn kuài chéng wéi bàn lǚ ，hái huì bāng hóng hǎi guī qīng jié shēn tǐ 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：红海龟在深蓝海水中平稳游动，背上两只微小漂浮蟹靠近彼此并为龟壳做清洁，构图温暖、生态关系清楚、自然史儿童水粉，无文字。",
+      "source_time_range": [
+        1272.5,
+        1337.5
+      ],
+      "visual_time_range": [
+        1270,
+        1340
+      ],
+      "key_content": {
+        "location": "红海龟背部",
+        "animals": [
+          "红海龟",
+          "雄性和雌性小漂浮蟹"
+        ],
+        "activity": "两只小漂浮蟹交配并在龟背上生活、清洁龟体",
+        "stakes": "远洋中寻找伴侣和安全栖息地很难",
+        "outcome": "螃蟹获得家园，红海龟得到清洁服务",
+        "visual_focus": "龟背上的两只微小螃蟹与互惠关系"
+      },
+      "reference_frames": [
+        "references/page_15/ref_01_1284.00s.jpg",
+        "references/page_15/ref_02_1305.00s.jpg",
+        "references/page_15/ref_03_1326.00s.jpg"
+      ],
+      "visual_anchors": [
+        "红海龟龟壳上的两只微小漂浮蟹",
+        "螃蟹彼此靠近成为伴侣",
+        "一只螃蟹清洁龟壳的互惠动作"
+      ],
+      "heading_pinyin": "guī bèi shàng de xīn jiā"
+    },
+    {
+      "page": 16,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_16.webp",
+      "heading": "蝠鲼的跳跃聚会",
+      "text": "科尔特斯海迎来黎明，成群蝠鲼聚集并跳跃。巨大的水花，吸引来更多同伴。",
+      "pinyin": "kē ěr tè sī hǎi yíng lái lí míng ，chéng qún fú péng jù jí bìng tiào yuè 。jù dà de shuǐ huā ，xī yǐn lái gèng duō tóng bàn 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：黎明的科尔特斯海，许多蝠鲼从海面跃起，翅状胸鳍展开，巨大水花在金色晨光中闪耀，远处更多蝠鲼聚集，壮阔但柔和水粉，无文字。",
+      "source_time_range": [
+        1380.0,
+        1454.0
+      ],
+      "visual_time_range": [
+        1375,
+        1460
+      ],
+      "key_content": {
+        "location": "科尔特斯海",
+        "animals": [
+          "蝠鲼"
+        ],
+        "activity": "蝠鲼聚集、跳跃并以水花吸引同伴",
+        "stakes": "聚集可能是繁育后代的仪式，也会引来捕食者",
+        "outcome": "更多蝠鲼加入，群体越来越大",
+        "visual_focus": "黎明海面上的蝠鲼跃水水花"
+      },
+      "reference_frames": [
+        "references/page_16/ref_01_1392.00s.jpg",
+        "references/page_16/ref_02_1417.50s.jpg",
+        "references/page_16/ref_03_1443.00s.jpg"
+      ],
+      "visual_anchors": [
+        "科尔特斯海黎明金光",
+        "蝠鲼跃出海面形成巨大水花",
+        "远处逐渐聚集的蝠鲼群"
+      ],
+      "heading_pinyin": "fú fèn de tiào yuè jù huì"
+    },
+    {
+      "page": 17,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_17.webp",
+      "heading": "虎鲸妈妈的团队课程",
+      "text": "虎鲸妈妈教两头年轻虎鲸合作。它们把快速灵活的蝠鲼围到一起，再轮流发起攻击。",
+      "pinyin": "hǔ jīng mā ma jiāo liǎng tóu nián qīng hǔ jīng hé zuò 。tā men bǎ kuài sù líng huó de fú péng wéi dào yì qǐ ，zài lún liú fā qǐ gōng jī 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：科尔特斯海中一头成年雌性虎鲸带着两头年轻虎鲸组成弧形队伍，把数只蝠鲼引向海面中心；表现团队合作和学习，动作清楚、无血腥、无文字。",
+      "source_time_range": [
+        1465.5,
+        1629.5
+      ],
+      "visual_time_range": [
+        1460,
+        1635
+      ],
+      "key_content": {
+        "location": "科尔特斯海海面",
+        "animals": [
+          "雌性虎鲸",
+          "两头年轻虎鲸",
+          "蝠鲼"
+        ],
+        "activity": "虎鲸团队包围、驱赶并捕食蝠鲼",
+        "stakes": "蝠鲼速度快且灵活，虎鲸妈妈无法独自完成围捕",
+        "outcome": "年轻虎鲸学会合作，捕猎效率很高",
+        "visual_focus": "三头虎鲸的队形与被围拢的蝠鲼"
+      },
+      "reference_frames": [
+        "references/page_17/ref_01_1495.00s.jpg",
+        "references/page_17/ref_02_1547.50s.jpg",
+        "references/page_17/ref_03_1600.00s.jpg"
+      ],
+      "visual_anchors": [
+        "成年雌性虎鲸带着两头年轻虎鲸",
+        "虎鲸组成弧形队伍包围蝠鲼",
+        "海面中心被驱赶的蝠鲼"
+      ],
+      "heading_pinyin": "hǔ jīng mā mā de tuán duì kè chéng"
+    },
+    {
+      "page": 18,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_18.webp",
+      "heading": "从阳光层潜入黑暗",
+      "text": "下潜二百米后，阳光变成微光；一千米以下，阳光完全消失。这里的动物必须学会躲藏。",
+      "pinyin": "xià qián èr bǎi mǐ hòu ，yáng guāng biàn chéng wēi guāng ；yì qiān mǐ yǐ xià ，yáng guāng wán quán xiāo shī 。zhè lǐ de dòng wù bì xū xué huì duǒ cáng 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本剖面式插画：海面明亮蓝色逐层过渡到二百米弱光层，再到一千米以下的漆黑无光层，专业潜水器向下探索，深处有发光和透明动物剪影，无文字标签。",
+      "source_time_range": [
+        1707.0,
+        1758.0
+      ],
+      "visual_time_range": [
+        1700,
+        1765
+      ],
+      "key_content": {
+        "location": "海洋深海的弱光层和无光层",
+        "animals": [],
+        "activity": "专业潜水器下潜，动物在黑暗中躲藏",
+        "stakes": "阳光消失，捕食和躲藏都变得困难",
+        "outcome": "进入一个超乎想象的深海世界",
+        "visual_focus": "随深度变化的蓝色光线与黑暗分层"
+      },
+      "reference_frames": [
+        "references/page_18/ref_01_1713.00s.jpg",
+        "references/page_18/ref_02_1732.50s.jpg",
+        "references/page_18/ref_03_1752.00s.jpg"
+      ],
+      "visual_anchors": [
+        "海面亮蓝向深处渐变",
+        "潜水器灯光在黑暗中向下",
+        "弱光层与无光层的纵向分界"
+      ],
+      "heading_pinyin": "cóng yáng guāng céng qián rù hēi àn"
+    },
+    {
+      "page": 19,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_19.webp",
+      "heading": "透明的小头乌贼和大嘴鱼",
+      "text": "小头乌贼的身体几乎透明，很难被发现。宽咽鱼却能张开巨嘴，吞下比自己还大的猎物。",
+      "pinyin": "xiǎo tóu wū zéi de shēn tǐ jī hū tòu míng ，hěn nán bèi fā xiàn 。kuān yān yú què néng zhāng kāi jù zuǐ ，tūn xià bǐ zì jǐ hái dà de liè wù 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：无光深海中一只几乎透明的小头乌贼悬浮在暗处，远处宽咽鱼张开异常巨大的嘴捕捉猎物；用深蓝、紫色和微弱生物光，科学准确、无文字。",
+      "source_time_range": [
+        1842.0,
+        1942.5
+      ],
+      "visual_time_range": [
+        1835,
+        1948
+      ],
+      "key_content": {
+        "location": "一千米以下的无光层",
+        "animals": [
+          "小头乌贼",
+          "宽咽鱼"
+        ],
+        "activity": "小头乌贼依靠透明身体隐藏，宽咽鱼张大嘴捕食",
+        "stakes": "永恒黑暗中，发现猎物和躲过捕食都不容易",
+        "outcome": "不同动物用透明或夸张的身体结构生存",
+        "visual_focus": "透明身体与巨嘴的对照"
+      },
+      "reference_frames": [
+        "references/page_19/ref_01_1857.60s.jpg",
+        "references/page_19/ref_02_1891.50s.jpg",
+        "references/page_19/ref_03_1925.40s.jpg"
+      ],
+      "visual_anchors": [
+        "暗处几乎透明的小头乌贼",
+        "深海微弱蓝紫生物光",
+        "宽咽鱼突然张开的夸张巨嘴"
+      ],
+      "heading_pinyin": "tòu míng de xiǎo tóu wū zéi hé dà zuǐ yú"
+    },
+    {
+      "page": 20,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_20.webp",
+      "heading": "三千米深处的热泉",
+      "text": "三千米深处冰冷又高压，却有深海热泉。温暖的泉水让珍珠章鱼卵发育得更快。",
+      "pinyin": "sān qiān mǐ shēn chù bīng lěng yòu gāo yā ，què yǒu shēn hǎi rè quán 。wēn nuǎn de quán shuǐ ràng zhēn zhū zhāng yú luǎn fā yù de gèng kuài 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：三千米深的黑暗海底，岩石裂缝喷出温暖的深海热泉，周围有珍珠章鱼聚集和发光小生物；热泉烟雾向上升，深蓝黑色与橙色暖光对比，无文字。",
+      "source_time_range": [
+        1966.0,
+        2125.5
+      ],
+      "visual_time_range": [
+        1960,
+        2130
+      ],
+      "key_content": {
+        "location": "三千米深的海底裂缝与深海热泉",
+        "animals": [
+          "珍珠章鱼"
+        ],
+        "activity": "雌性珍珠章鱼到热泉附近产卵",
+        "stakes": "低温会让卵发育超过十年，必须找到特殊环境",
+        "outcome": "热泉把局部水温提高到约10摄氏度，加快卵的发育",
+        "visual_focus": "冰冷黑暗海底中的橙色热泉与章鱼卵"
+      },
+      "reference_frames": [
+        "references/page_20/ref_01_1994.00s.jpg",
+        "references/page_20/ref_02_2045.00s.jpg",
+        "references/page_20/ref_03_2096.00s.jpg"
+      ],
+      "visual_anchors": [
+        "黑暗海底裂缝喷出橙色热泉",
+        "珍珠章鱼在热泉附近聚集",
+        "冷蓝海水与暖色烟雾形成对比"
+      ],
+      "heading_pinyin": "sān qiān mǐ shēn chù de rè quán"
+    },
+    {
+      "page": 21,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_21.webp",
+      "heading": "守护十年的章鱼妈妈",
+      "text": "珍珠章鱼妈妈守着卵近两年，清洁它们，还喷水补充氧气。宝宝离开后，她的生命也走到尽头。",
+      "pinyin": "zhēn zhū zhāng yú mā ma shǒu zhe luǎn jìn liǎng nián ，qīng jié tā men ，hái pēn shuǐ bǔ chōng yǎng qì 。bǎo bao lí kāi hòu ，tā de shēng mìng yě zǒu dào jìn tóu 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：深海热泉旁的雌性珍珠章鱼用触手守护一大片卵，轻轻喷水让卵保持清洁和充氧，刚孵化的小章鱼向外游；画面温柔克制，不表现死亡细节，无文字。",
+      "source_time_range": [
+        2127.0,
+        2321.5
+      ],
+      "visual_time_range": [
+        2125,
+        2325
+      ],
+      "key_content": {
+        "location": "深海热泉附近的海床裂缝",
+        "animals": [
+          "雌性珍珠章鱼",
+          "珍珠章鱼幼体"
+        ],
+        "activity": "章鱼妈妈守护、清洁并给卵喷水补充氧气",
+        "stakes": "近两年不觅食的守护消耗巨大，妈妈可能无法继续生活",
+        "outcome": "幼体离开并获得在深海生存的机会",
+        "visual_focus": "触手环绕卵群、喷水和离巢幼体"
+      },
+      "reference_frames": [
+        "references/page_21/ref_01_2165.00s.jpg",
+        "references/page_21/ref_02_2225.00s.jpg",
+        "references/page_21/ref_03_2285.00s.jpg"
+      ],
+      "visual_anchors": [
+        "雌性珍珠章鱼触手环绕卵群",
+        "喷水清洁和补充氧气的细小水流",
+        "刚离开卵群的幼体"
+      ],
+      "heading_pinyin": "shǒu hù shí nián de zhāng yú mā mā"
+    },
+    {
+      "page": 22,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_22.webp",
+      "heading": "热泉养活一条海洋食物链",
+      "text": "热液羽状流把养分带到海面，浮游植物快速生长。它们和浮游动物一起，养活几乎整个海洋。",
+      "pinyin": "rè yè yǔ zhuàng liú bǎ yǎng fèn dài dào hǎi miàn ，fú yóu zhí wù kuài sù shēng zhǎng 。tā men hé fú yóu dòng wù yì qǐ ，yǎng huó jī hū zhěng gè hǎi yáng 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本科学绘景：海底热泉的矿物质羽状流向上延伸到海面，微小浮游植物在阳光层大量繁殖，浮游动物、鱼群和海狮沿着食物链连接，清晰但不放文字标签，蓝绿水粉。",
+      "source_time_range": [
+        2337.0,
+        2507.0
+      ],
+      "visual_time_range": [
+        2330,
+        2510
+      ],
+      "key_content": {
+        "location": "海底热液口到海面光照层",
+        "animals": [
+          "浮游动物",
+          "鯷鱼"
+        ],
+        "activity": "热液养分促进浮游植物生长，鯷鱼取食浮游生物",
+        "stakes": "微小生物数量决定更大动物能否获得食物",
+        "outcome": "浮游植物和浮游动物成为海洋食物链基础",
+        "visual_focus": "从热泉上升到海面的养分流与食物链"
+      },
+      "reference_frames": [
+        "references/page_22/ref_01_2366.00s.jpg",
+        "references/page_22/ref_02_2420.00s.jpg",
+        "references/page_22/ref_03_2474.00s.jpg"
+      ],
+      "visual_anchors": [
+        "热液羽状流从海底向上延伸",
+        "阳光层中密集绿色浮游植物",
+        "浮游动物、鯷鱼构成的食物链层次"
+      ],
+      "heading_pinyin": "rè quán yǎng huó yī tiáo hǎi yáng shí wù liàn"
+    },
+    {
+      "page": 23,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_23.webp",
+      "heading": "渔网里的鯷鱼和海狮",
+      "text": "南美海狮追逐鯷鱼，也学会从渔网破洞里取食。渔网越收越紧，海狮和幼崽都可能被困住。",
+      "pinyin": "nán měi hǎi shī zhuī zhú tī yú ，yě xué huì cóng yú wǎng pò dòng lǐ qǔ shí 。yú wǎng yuè shōu yuè jǐn ，hǎi shī hé yòu zǎi dōu kě néng bèi kùn zhù 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：智利太平洋沿岸，巨大的捕鱼网围住鯷鱼群，几只南美海狮在网内外等待鱼跃出水面；远处渔船和海湾，表现食物诱惑与危险，不血腥、无文字。",
+      "source_time_range": [
+        2513.0,
+        2926.0
+      ],
+      "visual_time_range": [
+        2505,
+        2928
+      ],
+      "key_content": {
+        "location": "南美洲沿岸太平洋海域与捕鱼船附近",
+        "animals": [
+          "南美海狮",
+          "海狮幼崽",
+          "鯷鱼"
+        ],
+        "activity": "海狮围绕渔网捕食鯷鱼，并寻找网洞取食",
+        "stakes": "渔网收紧会困住海狮，造成溺水和兼捕风险",
+        "outcome": "部分海狮逃脱，但幼崽和其他动物仍处在危险中",
+        "visual_focus": "渔网、鱼群跃水和海狮队列"
+      },
+      "reference_frames": [
+        "references/page_23/ref_01_2589.60s.jpg",
+        "references/page_23/ref_02_2716.50s.jpg",
+        "references/page_23/ref_03_2843.40s.jpg"
+      ],
+      "visual_anchors": [
+        "智利海湾和成排捕鱼船",
+        "长渔网围住密集鯷鱼群",
+        "南美海狮在渔网内外排队等待"
+      ],
+      "heading_pinyin": "yú wǎng lǐ de tí yú hé hǎi shī"
+    },
+    {
+      "page": 24,
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_24.webp",
+      "heading": "人类伸出援手",
+      "text": "海洋动物正在面对人类造成的新挑战。摄制组救出被渔网困住的幼崽，也提醒我们改变自己的做法。",
+      "pinyin": "hǎi yáng dòng wù zhèng zài miàn duì rén lèi zào chéng de xīn tiǎo zhàn 。shè zhì zǔ jiù chū bèi yú wǎng kùn zhù de yòu zǎi ，yě tí xǐng wǒ men gǎi biàn zì jǐ de zuò fǎ 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本结尾插画：海上救援人员小心从渔网中解救南美海狮幼崽，母海狮在水面附近等待，远处是捕鱼船和广阔海洋；温暖希望、尊重野生动物、纪录片式水粉，无文字。",
+      "source_time_range": [
+        2968.0,
+        3399.5
+      ],
+      "visual_time_range": [
+        2965,
+        3400
+      ],
+      "key_content": {
+        "location": "加那利群岛附近海域与智利太平洋沿岸",
+        "animals": [
+          "红海龟",
+          "南美海狮幼崽",
+          "母海狮"
+        ],
+        "activity": "摄制组剪断塑料绳救龟，并下水解救渔网中的海狮幼崽",
+        "stakes": "人为废弃物和捕鱼活动给动物带来生命危险",
+        "outcome": "救援让幼崽重获自由，也让人们看见改变环境的责任",
+        "visual_focus": "人与动物保持谨慎距离的救援瞬间"
+      },
+      "reference_frames": [
+        "references/page_24/ref_01_3052.00s.jpg",
+        "references/page_24/ref_02_3182.50s.jpg",
+        "references/page_24/ref_03_3313.00s.jpg"
+      ],
+      "visual_anchors": [
+        "海上救援人员在渔网附近谨慎下水",
+        "红海龟身上的塑料绳被剪断",
+        "南美海狮幼崽获救、母海狮在附近等待"
+      ],
+      "heading_pinyin": "rén lèi shēn chū yuán shǒu"
+    }
+  ],
+  "title_pinyin": "hǎi yáng shēn chù de shēng cún zhì huì",
+  "subtitle_pinyin": "dì qiú mài dòng hǎi yáng"
+}

@@ -1,0 +1,491 @@
+{
+  "title": "居安思危",
+  "title_pinyin": "jū ān sī wēi",
+  "subtitle": "魏绛劝晋悼公未雨绸缪的故事",
+  "subtitle_pinyin": "wèi jiàng quàn jìn dào gōng wèi yǔ chóu móu de gù shì",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E07.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "heading": "先懂成语",
+      "heading_pinyin": "xiān dǒng chéng yǔ",
+      "text": "居安思危，就是身处平安时，也想到可能出现的危险，并提前做好准备。故事里的琪琪觉得意思很深，陈教授决定带她走进历史。",
+      "pinyin": "jū ān sī wēi jiù shì shēn chù píng ān shí yě xiǎng dào kě néng chū xiàn de wēi xiǎn bìng tí qián zuò hǎo zhǔn bèi gù shì lǐ de qí qí jué de yì si hěn shēn chén jiào shòu jué dìng dài tā zǒu jìn lì shǐ",
+      "layout": "image-left",
+      "source_time_range": [
+        160.926,
+        186.366
+      ],
+      "visual_time_range": [
+        205.03,
+        239.141
+      ],
+      "key_content": {
+        "location": "成语故事直播间",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "陈教授解释成语并准备讲故事",
+        "stakes": "只享受眼前的平安，可能忘记未来的变化",
+        "outcome": "琪琪带着问题进入春秋时代",
+        "visual_focus": "陈教授、琪琪、书信和打开的历史画面"
+      },
+      "visual_anchors": [
+        "白发戴眼镜的陈教授",
+        "圆润白色机器人琪琪",
+        "书架与历史画面屏幕"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，参考原片的明快二维动画构图与角色比例，线条清晰，色彩温暖，画面不出现文字、字幕、标志或水印。直播间里陈教授拿着小朋友的来信，琪琪在旁边好奇地听，背后的屏幕渐渐出现古代城池和山河，明亮亲切的儿童节目气氛。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e07-ju-an-si-wei/images/page_01.webp",
+      "reference_frames": [
+        "references/page_01/ref_01_211.85s.jpg",
+        "references/page_01/ref_02_222.09s.jpg",
+        "references/page_01/ref_03_232.32s.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "heading": "十二国兵临城下",
+      "heading_pinyin": "shí èr guó bīng lín chéng xià",
+      "text": "春秋时期，诸侯国常常交战。宋、齐、晋、魏等十二国联合出兵，来到郑国城下，准备攻城。",
+      "pinyin": "chūn qiū shí qī zhū hóu guó cháng cháng jiāo zhàn sòng qí jìn wèi děng shí èr guó lián hé chū bīng lái dào zhèng guó chéng xià zhǔn bèi gōng chéng",
+      "layout": "image-top",
+      "source_time_range": [
+        242.787,
+        263.587
+      ],
+      "visual_time_range": [
+        242.787,
+        270.147
+      ],
+      "key_content": {
+        "location": "郑国城外的军营",
+        "animals": [
+          "宋国骑兵",
+          "齐国甲士",
+          "晋国将军",
+          "魏绛"
+        ],
+        "activity": "十二国联军在郑国城外集结",
+        "stakes": "城墙坚固，正面攻城可能造成很大伤亡",
+        "outcome": "将军们必须先想清楚再行动",
+        "visual_focus": "城墙、军旗、联军阵列和远处的郑国城门"
+      },
+      "visual_anchors": [
+        "高大的古代城墙与城门",
+        "不同装备的诸侯国士兵",
+        "地图前站立的魏绛"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，参考原片的明快二维动画构图与角色比例，线条清晰，色彩温暖，画面不出现文字、字幕、标志或水印。古代郑国城外，宽阔军营面对高城墙，宋国骑兵、齐国甲士和其他联军列阵，魏绛站在地图前观察，历史动画绘本构图，威严但不血腥。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e07-ju-an-si-wei/images/page_02.webp",
+      "reference_frames": [
+        "references/page_02/ref_01_248.26s.jpg",
+        "references/page_02/ref_02_256.47s.jpg",
+        "references/page_02/ref_03_264.68s.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "heading": "大家都想硬攻",
+      "heading_pinyin": "dà jiā dōu xiǎng yìng gōng",
+      "text": "宋国想用骑兵突袭，齐国想让甲士架梯，弓手也准备万箭齐发。每个人都相信自己的部下，却没有先考虑伤亡。",
+      "pinyin": "sòng guó xiǎng yòng qí bīng tū xí qí guó xiǎng ràng jiǎ shì jià tī gōng shǒu yě zhǔn bèi wàn jiàn qí fā měi gè rén dōu xiāng xìn zì jǐ de bù xià què méi yǒu xiān kǎo lǜ shāng wáng",
+      "layout": "image-right",
+      "source_time_range": [
+        271.495,
+        312.88
+      ],
+      "visual_time_range": [
+        271.495,
+        312.88
+      ],
+      "key_content": {
+        "location": "郑国城外的联军议事帐",
+        "animals": [
+          "魏绛",
+          "宋国骑兵",
+          "齐国甲士",
+          "弓手"
+        ],
+        "activity": "各国将军争论正面强攻办法",
+        "stakes": "守城容易，攻城困难，硬冲会让许多士兵受伤",
+        "outcome": "魏绛看见了计划中的危险",
+        "visual_focus": "议事桌、不同兵种和郑国城墙地图"
+      },
+      "visual_anchors": [
+        "桌上的城防地图",
+        "指向南门的骑兵将领",
+        "抬头握弓的弓手与架梯甲士"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，参考原片的明快二维动画构图与角色比例，线条清晰，色彩温暖，画面不出现文字、字幕、标志或水印。古代军帐内，各国将军围着城防地图争论，骑兵、甲士和弓手分别展示自己的办法，魏绛安静而严肃地思考，动作清楚，儿童历史插画。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e07-ju-an-si-wei/images/page_03.webp",
+      "reference_frames": [
+        "references/page_03/ref_01_279.77s.jpg",
+        "references/page_03/ref_02_292.19s.jpg",
+        "references/page_03/ref_03_304.60s.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "heading": "魏绛的巧妙计划",
+      "heading_pinyin": "wèi jiàng de qiǎo miào jì huà",
+      "text": "魏绛提出分头行动：宋国骑兵佯攻北门，魏国牵制南门，齐国甲士趁机架梯登城。分散敌人，才能减少正面冲撞。",
+      "pinyin": "wèi jiàng tí chū fēn tóu xíng dòng sòng guó qí bīng yáng gōng běi mén wèi guó qiān zhì nán mén qí guó jiǎ shì chèn jī jià tī dēng chéng fēn sàn dí rén cái néng jiǎn shǎo zhèng miàn chōng zhuàng",
+      "layout": "full-bleed",
+      "source_time_range": [
+        314.211,
+        344.122
+      ],
+      "visual_time_range": [
+        318.691,
+        334.362
+      ],
+      "key_content": {
+        "location": "郑国城下的作战地图",
+        "animals": [
+          "魏绛",
+          "宋国骑兵",
+          "魏国士兵",
+          "齐国甲士"
+        ],
+        "activity": "魏绛用佯攻和牵制分散郑国兵力",
+        "stakes": "正面强攻伤亡大，需要让每支队伍互相配合",
+        "outcome": "联军找到更周全的攻城办法",
+        "visual_focus": "魏绛指向北门与南门的分路计划"
+      },
+      "visual_anchors": [
+        "展开的城池地图",
+        "北门佯攻路线",
+        "南门架梯路线与互相配合的士兵"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，参考原片的明快二维动画构图与角色比例，线条清晰，色彩温暖，画面不出现文字、字幕、标志或水印。魏绛在军帐地图前伸手指向郑国城池的北门和南门，地图上用无文字的彩色路线表现分兵，帐外骑兵与甲士准备行动，明快二维历史动画风格。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e07-ju-an-si-wei/images/page_04.webp",
+      "reference_frames": [
+        "references/page_04/ref_01_321.83s.jpg",
+        "references/page_04/ref_02_326.53s.jpg",
+        "references/page_04/ref_03_331.23s.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "heading": "降书来得太快",
+      "heading_pinyin": "jiàng shū lái de tài kuài",
+      "text": "就在联军准备攻城时，郑国使者送来降书。将军们相信郑国是真心投降，把消息快马送给晋国国君。",
+      "pinyin": "jiù zài lián jūn zhǔn bèi gōng chéng shí zhèng guó shǐ zhě sòng lái jiàng shū jiāng jūn men xiāng xìn zhèng guó shì zhēn xīn tóu xiáng bǎ xiāo xī kuài mǎ sòng gěi jìn guó guó jūn",
+      "layout": "image-left",
+      "source_time_range": [
+        348.003,
+        399.237
+      ],
+      "visual_time_range": [
+        348.003,
+        397.637
+      ],
+      "key_content": {
+        "location": "郑国城外的联军营帐",
+        "animals": [
+          "郑国使者",
+          "魏绛",
+          "联军将军"
+        ],
+        "activity": "郑国使者递交降书，联军停止攻城准备",
+        "stakes": "突然的投降也可能是计谋，不能只看表面",
+        "outcome": "联军接受降书，故事转向晋国宫廷",
+        "visual_focus": "使者、卷起的降书和疑惑的将军们"
+      },
+      "visual_anchors": [
+        "双手托着卷轴的郑国使者",
+        "认真查看降书的魏绛",
+        "营帐外停下的兵马"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，参考原片的明快二维动画构图与角色比例，线条清晰，色彩温暖，画面不出现文字、字幕、标志或水印。郑国使者在军帐中双手递上卷轴，魏绛和几位将军低头查看，帐外骑兵暂时停下，气氛从紧张转为谨慎，画面无文字。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e07-ju-an-si-wei/images/page_05.webp",
+      "reference_frames": [
+        "references/page_05/ref_01_357.93s.jpg",
+        "references/page_05/ref_02_372.82s.jpg",
+        "references/page_05/ref_03_387.71s.jpg"
+      ]
+    },
+    {
+      "page": 6,
+      "heading": "满车的胜利礼物",
+      "heading_pinyin": "mǎn chē de shèng lì lǐ wù",
+      "text": "郑国送来黄金、白银、兵甲和钟磬，还送来乐师与歌女。晋悼公看见满车礼物，觉得这场胜利已经稳稳属于自己。",
+      "pinyin": "zhèng guó sòng lái huáng jīn bái yín bīng jiǎ hé zhōng qìng hái sòng lái yuè shī yǔ gē nǚ jìn dào gōng kàn jiàn mǎn chē lǐ wù jué de zhè chǎng shèng lì yǐ jīng wěn wěn shǔ yú zì jǐ",
+      "layout": "image-top",
+      "source_time_range": [
+        411.267,
+        488.76
+      ],
+      "visual_time_range": [
+        431.152,
+        488.76
+      ],
+      "key_content": {
+        "location": "晋国宫门与宫殿",
+        "animals": [
+          "晋悼公",
+          "魏绛",
+          "郑国使者",
+          "乐师"
+        ],
+        "activity": "郑国把礼物运进晋国宫门",
+        "stakes": "丰厚礼物容易让人只看见眼前的成功",
+        "outcome": "晋悼公开始沉浸在安乐里",
+        "visual_focus": "宫门、马车、礼物和宫殿中的君臣"
+      },
+      "visual_anchors": [
+        "装满礼物的古代马车",
+        "黄金兵甲与钟磬",
+        "宫门前迎接礼物的晋悼公和魏绛"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，参考原片的明快二维动画构图与角色比例，线条清晰，色彩温暖，画面不出现文字、字幕、标志或水印。古代晋国宫门前，数辆马车运来金银、兵甲、青铜钟磬，晋悼公在宫殿台阶上欣喜迎接，魏绛站在一旁若有所思，温暖宫廷色彩。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e07-ju-an-si-wei/images/page_06.webp",
+      "reference_frames": [
+        "references/page_06/ref_01_442.67s.jpg",
+        "references/page_06/ref_02_459.96s.jpg",
+        "references/page_06/ref_03_477.24s.jpg"
+      ]
+    },
+    {
+      "page": 7,
+      "heading": "安乐让人分心",
+      "heading_pinyin": "ān lè ràng rén fēn xīn",
+      "text": "晋悼公让钟磬奏乐，还想把歌女赏给魏绛。大家都在庆祝，只有魏绛没有忘记：战争虽然结束，国家的危险并没有消失。",
+      "pinyin": "jìn dào gōng ràng zhōng qìng zòu yuè hái xiǎng bǎ gē nǚ shǎng gěi wèi jiàng dà jiā dōu zài qìng zhù zhǐ yǒu wèi jiàng méi yǒu wàng jì zhàn zhēng suī rán jié shù guó jiā de wēi xiǎn bìng méi yǒu xiāo shī",
+      "layout": "image-right",
+      "source_time_range": [
+        489.53,
+        578.977
+      ],
+      "visual_time_range": [
+        498.73,
+        578.977
+      ],
+      "key_content": {
+        "location": "晋国宫殿的赏月宴",
+        "animals": [
+          "晋悼公",
+          "魏绛",
+          "乐师",
+          "歌女"
+        ],
+        "activity": "晋悼公在宫殿里赏月听乐并准备赏赐",
+        "stakes": "眼前的享受可能遮住未来的危险",
+        "outcome": "魏绛拒绝歌女赏赐，保持清醒",
+        "visual_focus": "钟磬、月亮、宴席和沉默的魏绛"
+      },
+      "visual_anchors": [
+        "月光下的宫殿庭院",
+        "演奏钟磬的乐师",
+        "端坐却神情严肃的魏绛"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，参考原片的明快二维动画构图与角色比例，线条清晰，色彩温暖，画面不出现文字、字幕、标志或水印。月光照进晋国宫殿庭院，乐师敲击青铜钟磬，晋悼公欣赏歌舞，魏绛端坐在一旁礼貌却严肃地摇头，画面不出现文字。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e07-ju-an-si-wei/images/page_07.webp",
+      "reference_frames": [
+        "references/page_07/ref_01_514.78s.jpg",
+        "references/page_07/ref_02_538.85s.jpg",
+        "references/page_07/ref_03_562.93s.jpg"
+      ]
+    },
+    {
+      "page": 8,
+      "heading": "功劳属于大家",
+      "heading_pinyin": "gōng láo shǔ yú dà jiā",
+      "text": "魏绛说，国家顺利要靠国君的才能，也要靠同僚齐心协力，自己没有什么特别的功劳。他不愿被安逸和赏赐冲昏头脑。",
+      "pinyin": "wèi jiàng shuō guó jiā shùn lì yào kào guó jūn de cái néng yě yào kào tóng liáo qí xīn xié lì zì jǐ méi yǒu shén me tè bié de gōng láo tā bù yuàn bèi ān yì hé shǎng cì chōng hūn tóu nǎo",
+      "layout": "image-left",
+      "source_time_range": [
+        580.897,
+        616.32
+      ],
+      "visual_time_range": [
+        580.897,
+        616.32
+      ],
+      "key_content": {
+        "location": "晋国宫殿内",
+        "animals": [
+          "魏绛",
+          "晋悼公"
+        ],
+        "activity": "魏绛谦逊地说明功劳来自共同合作",
+        "stakes": "个人受到过度夸奖，容易忘记更重要的国家大事",
+        "outcome": "魏绛保持谦逊，也保留了提醒国君的机会",
+        "visual_focus": "魏绛起身作揖，晋悼公听他说话"
+      },
+      "visual_anchors": [
+        "拒绝赏赐的魏绛",
+        "坐在高台上的晋悼公",
+        "两人之间留出的认真交谈空间"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，参考原片的明快二维动画构图与角色比例，线条清晰，色彩温暖，画面不出现文字、字幕、标志或水印。晋国宫殿里，魏绛起身作揖并谦逊拒绝歌女赏赐，晋悼公坐在席上认真看着他，钟磬安静地放在一旁，构图克制。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e07-ju-an-si-wei/images/page_08.webp",
+      "reference_frames": [
+        "references/page_08/ref_01_587.98s.jpg",
+        "references/page_08/ref_02_598.61s.jpg",
+        "references/page_08/ref_03_609.24s.jpg"
+      ]
+    },
+    {
+      "page": 9,
+      "heading": "平安时也要想危险",
+      "heading_pinyin": "píng ān shí yě yào xiǎng wēi xiǎn",
+      "text": "魏绛提醒晋悼公：享受安乐的时候，也要想一想可能出现的危险。没有了眼前的忧患，不代表将来永远安全。",
+      "pinyin": "wèi jiàng tí xǐng jìn dào gōng xiǎng shòu ān lè de shí hòu yě yào xiǎng yī xiǎng kě néng chū xiàn de wēi xiǎn méi yǒu le yǎn qián de yōu huàn bù dài biǎo jiāng lái yǒng yuǎn ān quán",
+      "layout": "image-top",
+      "source_time_range": [
+        616.72,
+        635.541
+      ],
+      "visual_time_range": [
+        616.72,
+        635.541
+      ],
+      "key_content": {
+        "location": "晋国宫殿的夜谈",
+        "animals": [
+          "魏绛",
+          "晋悼公"
+        ],
+        "activity": "魏绛在安乐宴后提醒国君思考风险",
+        "stakes": "国家局势会变化，平安不能保证永远没有意外",
+        "outcome": "晋悼公开始认真听取劝诫",
+        "visual_focus": "魏绛的手势、夜色和宫殿中渐静的乐器"
+      },
+      "visual_anchors": [
+        "魏绛坚定而平静的神情",
+        "晋悼公收起笑容",
+        "月光照在未再演奏的钟磬上"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，参考原片的明快二维动画构图与角色比例，线条清晰，色彩温暖，画面不出现文字、字幕、标志或水印。夜色中的晋国宫殿，魏绛平静地抬手劝诫，晋悼公收起笑容认真倾听，旁边的钟磬停止演奏，蓝金色光线表现从享乐转为思考。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e07-ju-an-si-wei/images/page_09.webp",
+      "reference_frames": [
+        "references/page_09/ref_01_620.48s.jpg",
+        "references/page_09/ref_02_626.13s.jpg",
+        "references/page_09/ref_03_631.78s.jpg"
+      ]
+    },
+    {
+      "page": 10,
+      "heading": "思则有备，有备无患",
+      "heading_pinyin": "sī zé yǒu bèi yǒu bèi wú huàn",
+      "text": "魏绛引用书经中的话：“居安思危，思则有备，有备无患。”晋悼公明白了，不能只享受今天，还要为将来商议国事。",
+      "pinyin": "wèi jiàng yǐn yòng shū jīng zhōng de huà jū ān sī wēi sī zé yǒu bèi yǒu bèi wú huàn jìn dào gōng míng bái le bù néng zhǐ xiǎng shòu jīn tiān hái yào wèi jiāng lái shāng yì guó shì",
+      "layout": "full-bleed",
+      "source_time_range": [
+        639.706,
+        666.625
+      ],
+      "visual_time_range": [
+        639.706,
+        666.625
+      ],
+      "key_content": {
+        "location": "晋国宫殿的议事厅",
+        "animals": [
+          "魏绛",
+          "晋悼公"
+        ],
+        "activity": "魏绛引用古书劝说晋悼公重新商议国事",
+        "stakes": "没有准备，意外来临时就会手忙脚乱",
+        "outcome": "晋悼公停止享乐，决定和魏绛一起做长远打算",
+        "visual_focus": "古书卷轴、收起的乐器和重新展开的地图"
+      },
+      "visual_anchors": [
+        "魏绛身旁展开的古书卷轴",
+        "晋悼公从宴席前起身",
+        "两人共同查看的国事地图"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，参考原片的明快二维动画构图与角色比例，线条清晰，色彩温暖，画面不出现文字、字幕、标志或水印。晋国议事厅里，魏绛展开古书卷轴并指向无文字的地图，晋悼公起身走向议事桌，宫殿的乐器被收在一旁，气氛坚定明亮。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e07-ju-an-si-wei/images/page_10.webp",
+      "reference_frames": [
+        "references/page_10/ref_01_645.09s.jpg",
+        "references/page_10/ref_02_653.17s.jpg",
+        "references/page_10/ref_03_661.24s.jpg"
+      ]
+    },
+    {
+      "page": 11,
+      "heading": "故事里的提醒",
+      "heading_pinyin": "gù shì lǐ de tí xǐng",
+      "text": "魏绛用书上的道理劝诫晋悼公，让他明白居安思危的重要性。这个成语告诉我们：顺利时别忘记观察变化，提前准备。",
+      "pinyin": "wèi jiàng yòng shū shàng de dào lǐ quàn jiè jìn dào gōng ràng tā míng bái jū ān sī wēi de zhòng yào xìng zhè ge chéng yǔ gào sù wǒ men shùn lì shí bié wàng jì guān chá biàn huà tí qián zhǔn bèi",
+      "layout": "image-right",
+      "source_time_range": [
+        668.43,
+        689.79
+      ],
+      "visual_time_range": [
+        668.43,
+        686.43
+      ],
+      "key_content": {
+        "location": "晋国宫殿与议事厅",
+        "animals": [
+          "魏绛",
+          "晋悼公"
+        ],
+        "activity": "故事讲完后回看魏绛的劝诫",
+        "stakes": "只顾眼前顺利，可能错过准备未来的机会",
+        "outcome": "居安思危从历史故事变成可以实践的提醒",
+        "visual_focus": "古代宫殿、议事地图与远处的城池"
+      },
+      "visual_anchors": [
+        "魏绛和晋悼公并肩议事",
+        "地图上象征未来的道路",
+        "宫门外安静却需要守护的城池"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，参考原片的明快二维动画构图与角色比例，线条清晰，色彩温暖，画面不出现文字、字幕、标志或水印。古代宫殿与城池的全景，魏绛和晋悼公在议事桌旁共同查看地图，远处城门安静、士兵保持警觉，画面温暖而有思考感。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e07-ju-an-si-wei/images/page_11.webp",
+      "reference_frames": [
+        "references/page_11/ref_01_672.03s.jpg",
+        "references/page_11/ref_02_677.43s.jpg",
+        "references/page_11/ref_03_682.83s.jpg"
+      ]
+    },
+    {
+      "page": 12,
+      "heading": "把成语用起来",
+      "heading_pinyin": "bǎ chéng yǔ yòng qǐ lái",
+      "text": "遇到平安顺利的日子，我们可以问自己：接下来可能发生什么？我能提前准备什么？这就是把居安思危用在生活里。",
+      "pinyin": "yù dào píng ān shùn lì de rì zi wǒ men kě yǐ wèn zì jǐ jiē xià lái kě néng fā shēng shén me wǒ néng tí qián zhǔn bèi shén me zhè jiù shì bǎ jū ān sī wēi yòng zài shēng huó lǐ",
+      "layout": "image-top",
+      "source_time_range": [
+        704.545,
+        767.655
+      ],
+      "visual_time_range": [
+        704.545,
+        767.655
+      ],
+      "key_content": {
+        "location": "成语故事直播间",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "陈教授和琪琪复述成语意思并向小朋友提问",
+        "stakes": "如果只等危险发生才行动，准备往往已经太晚",
+        "outcome": "琪琪记住成语，小朋友也能把提醒带进生活",
+        "visual_focus": "陈教授、琪琪、书信和面向读者的提问场景"
+      },
+      "visual_anchors": [
+        "陈教授伸手提问",
+        "琪琪开心点头",
+        "明亮的直播间和桌上的书信"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，参考原片的明快二维动画构图与角色比例，线条清晰，色彩温暖，画面不出现文字、字幕、标志或水印。回到明亮的成语故事直播间，陈教授面向观众提问，琪琪开心点头并举起小手，桌上放着打开的书信和历史故事书，亲切收束，不画文字。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e07-ju-an-si-wei/images/page_12.webp",
+      "reference_frames": [
+        "references/page_12/ref_01_717.17s.jpg",
+        "references/page_12/ref_02_736.10s.jpg",
+        "references/page_12/ref_03_755.03s.jpg"
+      ]
+    }
+  ]
+}

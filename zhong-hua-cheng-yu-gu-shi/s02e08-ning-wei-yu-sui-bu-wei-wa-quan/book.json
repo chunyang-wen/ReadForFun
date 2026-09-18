@@ -1,0 +1,525 @@
+{
+  "title": "宁为玉碎，不为瓦全",
+  "title_pinyin": "nìng wéi yù suì bù wéi wǎ quán",
+  "subtitle": "袁景浩守住气节的故事",
+  "subtitle_pinyin": "yuán jǐng hào shǒu zhù qì jié de gù shì",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E08.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "heading": "瓦片引出的成语",
+      "heading_pinyin": "wǎ piàn yǐn chū de chéng yǔ",
+      "text": "屋檐上的瓦片掉了下来，陈教授由此想起宁为玉碎不为瓦全。琪琪发现这个成语很长，也知道成语不一定只有四个字。",
+      "pinyin": "wū yán shàng de wǎ piàn diào le xià lái chén jiào shòu yóu cǐ xiǎng qǐ nìng wéi yù suì bù wéi wǎ quán qí qí fā xiàn zhè ge chéng yǔ hěn cháng yě zhī dào chéng yǔ bù yí dìng zhǐ yǒu sì ge zì",
+      "layout": "image-left",
+      "source_time_range": [
+        141.41,
+        203.51
+      ],
+      "visual_time_range": [
+        124.61,
+        195.79
+      ],
+      "key_content": {
+        "location": "成语故事直播间屋檐下",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "琪琪发现瓦片掉落，陈教授由瓦片联想到成语",
+        "stakes": "一个看似普通的物件也可能藏着重要的道理",
+        "outcome": "琪琪开始期待这个长成语背后的历史故事",
+        "visual_focus": "屋檐瓦片、飞起的鸟群、陈教授和琪琪"
+      },
+      "visual_anchors": [
+        "白发戴眼镜的陈教授",
+        "圆润白色机器人琪琪",
+        "屋檐与掉落的瓦片"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，参考原片明快二维动画的角色比例与色彩，线条清晰，画面不出现文字、字幕、标志或水印。文化宫直播间的屋檐下，一片瓦刚刚落地，几只小鸟从屋檐飞起，陈教授弯腰查看，白色机器人琪琪惊讶地指着瓦片，温暖亲切。",
+      "reference_frames": [
+        "references/page_01/ref_01_138.85s.jpg",
+        "references/page_01/ref_02_160.20s.jpg",
+        "references/page_01/ref_03_181.55s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e08-ning-wei-yu-sui-bu-wei-wa-quan/images/page_01.webp"
+    },
+    {
+      "page": 2,
+      "heading": "先看看时代",
+      "heading_pinyin": "xiān kàn kan shí dài",
+      "text": "公元五五零年，北朝的东魏把帝位交给高洋。从此，北齐代替了东魏，新的王朝开始了。",
+      "pinyin": "gōng yuán wǔ wǔ líng nián běi cháo de dōng wèi bǎ dì wèi jiāo gěi gāo yáng cóng cǐ běi qí dài tì le dōng wèi xīn de wáng cháo kāi shǐ le",
+      "layout": "image-top",
+      "source_time_range": [
+        265.91,
+        280.07
+      ],
+      "visual_time_range": [
+        260.0,
+        285.0
+      ],
+      "key_content": {
+        "location": "北朝宫廷",
+        "animals": [
+          "孝静帝",
+          "高洋"
+        ],
+        "activity": "东魏皇帝被迫传位，北齐建立",
+        "stakes": "政权更替让宗室和百姓面对新的不安",
+        "outcome": "高洋成为北齐皇帝",
+        "visual_focus": "宫殿、传位仪式和两面不同的王朝旗帜"
+      },
+      "visual_anchors": [
+        "北朝宫殿",
+        "身穿帝王服饰的高洋",
+        "交接象征王权的玉玺"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，明快二维历史动画构图，线条清晰，画面不出现文字、字幕、标志或水印。北朝宫殿内，高洋在群臣注视下接过象征王权的玉玺，远处两组不同颜色的宫旗表现东魏与北齐的更替，庄重但适合儿童。",
+      "reference_frames": [
+        "references/page_02/ref_01_265.00s.jpg",
+        "references/page_02/ref_02_272.50s.jpg",
+        "references/page_02/ref_03_280.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e08-ning-wei-yu-sui-bu-wei-wa-quan/images/page_02.webp"
+    },
+    {
+      "page": 3,
+      "heading": "皇帝害怕失去江山",
+      "heading_pinyin": "huáng dì hài pà shī qù jiāng shān",
+      "text": "高洋做皇帝第十年，天空出现日食。高洋把它看成不祥的预兆，担心自己的皇位也会像王莽的天下一样失去。",
+      "pinyin": "gāo yáng zuò huáng dì dì shí nián tiān kōng chū xiàn rì shí gāo yáng bǎ tā kàn chéng bù xiáng de yù zhào dān xīn zì jǐ de huáng wèi yě huì xiàng wáng mǎng de tiān xià yí yàng shī qù",
+      "layout": "image-right",
+      "source_time_range": [
+        301.44,
+        329.58
+      ],
+      "visual_time_range": [
+        301.44,
+        325.9
+      ],
+      "key_content": {
+        "location": "北齐宫殿观星台",
+        "animals": [
+          "高洋",
+          "宫廷大臣"
+        ],
+        "activity": "高洋观察日食并追问王莽失去天下的原因",
+        "stakes": "恐惧让皇帝想用极端办法保住权力",
+        "outcome": "高洋决定追查东魏宗室",
+        "visual_focus": "被黑影遮住的太阳、仰望天空的高洋和紧张的大臣"
+      },
+      "visual_anchors": [
+        "日食天空",
+        "神情不安的高洋",
+        "宫殿观星台"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，线条清晰，色彩对比鲜明，画面不出现文字、字幕、标志或水印。北齐宫殿高台上，太阳被月影遮住形成日食，高洋抬头惊惧，身旁大臣低头不敢多言，远处宫阙笼在不安的蓝紫色天光中。",
+      "reference_frames": [
+        "references/page_03/ref_01_306.33s.jpg",
+        "references/page_03/ref_02_313.67s.jpg",
+        "references/page_03/ref_03_321.01s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e08-ning-wei-yu-sui-bu-wei-wa-quan/images/page_03.webp"
+    },
+    {
+      "page": 4,
+      "heading": "斩草除根的命令",
+      "heading_pinyin": "zhǎn cǎo chú gēn de mìng lìng",
+      "text": "高洋听到王莽没有杀尽刘氏宗亲，便下令抓捕东魏宗室近亲。四十四家、七百多人被捕并被处死，恐惧很快传遍各地。",
+      "pinyin": "gāo yáng tīng dào wáng mǎng méi yǒu shā jìn liú shì zōng qīn biàn xià lìng zhuō bǔ dōng wèi zōng shì jìn qīn sì shí sì jiā qī bǎi duō rén bèi bǔ bìng bèi chǔ sǐ kǒng jù hěn kuài chuán biàn gè dì",
+      "layout": "full-bleed",
+      "source_time_range": [
+        384.75,
+        424.86
+      ],
+      "visual_time_range": [
+        398.99,
+        424.86
+      ],
+      "key_content": {
+        "location": "北齐宫门与东魏宗室居所",
+        "animals": [
+          "高洋的士兵",
+          "东魏宗室近亲"
+        ],
+        "activity": "士兵奉命抓捕宗室近亲",
+        "stakes": "无辜的宗族成员也可能突然遭遇杀身之祸",
+        "outcome": "远房宗族开始担心屠刀落到自己头上",
+        "visual_focus": "宫门传令、奔跑的士兵和紧闭的宗族大门"
+      },
+      "visual_anchors": [
+        "手持诏令的传令兵",
+        "古代宫门",
+        "惊慌关闭的大门"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。北齐宫门前传令兵举起卷轴，士兵列队向远处的宗族宅院赶去，宅院大门正在关闭，人物神情紧张，表现历史压力但不描绘血腥场面。",
+      "reference_frames": [
+        "references/page_04/ref_01_404.16s.jpg",
+        "references/page_04/ref_02_411.93s.jpg",
+        "references/page_04/ref_03_419.69s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e08-ning-wei-yu-sui-bu-wei-wa-quan/images/page_04.webp"
+    },
+    {
+      "page": 5,
+      "heading": "远房宗族商量办法",
+      "heading_pinyin": "yuǎn fáng zōng zú shāng liang bàn fǎ",
+      "text": "东魏宗室的远房宗族聚在一起商量。他们担心今天平安，明天却突然遇到危险，于是请族中有威望的袁景安想办法。",
+      "pinyin": "dōng wèi zōng shì de yuǎn fáng zōng zú jù zài yì qǐ shāng liang tā men dān xīn jīn tiān píng ān míng tiān què tū rán yù dào wēi xiǎn yú shì qǐng zú zhōng yǒu wēi wàng de yuán jǐng ān xiǎng bàn fǎ",
+      "layout": "image-left",
+      "source_time_range": [
+        426.53,
+        484.36
+      ],
+      "visual_time_range": [
+        437.17,
+        476.28
+      ],
+      "key_content": {
+        "location": "袁氏宗族议事厅",
+        "animals": [
+          "袁氏远房宗族",
+          "袁景安"
+        ],
+        "activity": "族人围坐商量如何避开高洋的猜疑",
+        "stakes": "他们无法确定危险何时到来",
+        "outcome": "袁景安提出一个看似能保命的办法",
+        "visual_focus": "围坐议事的族人、紧闭的窗门和忧虑的神情"
+      },
+      "visual_anchors": [
+        "古代宗族议事厅",
+        "围坐的袁氏族人",
+        "严肃的袁景安"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。古代宗族议事厅里，袁氏族人围着木桌焦急讨论，窗外天色渐暗，袁景安坐在一侧沉思，气氛紧张而克制。",
+      "reference_frames": [
+        "references/page_05/ref_01_444.99s.jpg",
+        "references/page_05/ref_02_456.73s.jpg",
+        "references/page_05/ref_03_468.46s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e08-ning-wei-yu-sui-bu-wei-wa-quan/images/page_05.webp"
+    },
+    {
+      "page": 6,
+      "heading": "改姓真的能保命吗",
+      "heading_pinyin": "gǎi xìng zhēn de néng bǎo mìng ma",
+      "text": "袁景安认为，大家可以请求皇帝允许他们脱离袁氏，改姓高氏。这样做也许能暂时保命，却等于抛弃自己的本宗。",
+      "pinyin": "yuán jǐng ān rèn wéi dà jiā kě yǐ qǐng qiú huáng dì yǔn xǔ tā men tuō lí yuán shì gǎi xìng gāo shì zhè yàng zuò yě xǔ néng zàn shí bǎo mìng què děng yú pāo qì zì jǐ de běn zōng",
+      "layout": "image-right",
+      "source_time_range": [
+        476.76,
+        499.61
+      ],
+      "visual_time_range": [
+        476.76,
+        499.61
+      ],
+      "key_content": {
+        "location": "袁氏宗族议事厅",
+        "animals": [
+          "袁景安",
+          "袁氏族人"
+        ],
+        "activity": "袁景安提出改姓高氏的求生办法",
+        "stakes": "保住生命与守住本宗之间发生冲突",
+        "outcome": "袁景浩明确反对改姓",
+        "visual_focus": "袁景安指向象征新姓氏的牌位，族人面面相觑"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。袁景安在议事厅内提出改姓的建议，手指向一旁象征家族传承的牌位但牌位不含文字，族人露出犹豫和不安，袁景浩挺直身体准备反驳。",
+      "reference_frames": [
+        "references/page_06/ref_01_481.33s.jpg",
+        "references/page_06/ref_02_488.19s.jpg",
+        "references/page_06/ref_03_495.04s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e08-ning-wei-yu-sui-bu-wei-wa-quan/images/page_06.webp"
+    },
+    {
+      "page": 7,
+      "heading": "玉碎还是瓦全",
+      "heading_pinyin": "yù suì hái shi wǎ quán",
+      "text": "袁景浩说，大丈夫宁可做玉器被打碎，也不愿做瓦器得到保全。他宁愿为气节牺牲，也不愿改姓后带着屈辱生活。",
+      "pinyin": "yuán jǐng hào shuō dà zhàng fu nìng kě zuò yù qì bèi dǎ suì yě bù yuàn zuò wǎ qì dé dào bǎo quán tā nìng yuàn wèi qì jié xī shēng yě bù yuàn gǎi xìng hòu dài zhe qū rǔ shēng huó",
+      "layout": "full-bleed",
+      "source_time_range": [
+        501.29,
+        536.94
+      ],
+      "visual_time_range": [
+        501.29,
+        536.94
+      ],
+      "key_content": {
+        "location": "袁氏宗族议事厅",
+        "animals": [
+          "袁景浩",
+          "袁景安",
+          "袁氏族人"
+        ],
+        "activity": "袁景浩拒绝改姓并说明自己的选择",
+        "stakes": "在死亡威胁前是否放弃家族与气节",
+        "outcome": "族人被他的坚持打动并表示不改姓",
+        "visual_focus": "袁景浩坚定发言，玉器与瓦器的象征性对照"
+      },
+      "visual_anchors": [
+        "坚定站立的袁景浩",
+        "桌上的温润玉器",
+        "旁边粗朴的瓦器"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。袁景浩在宗族议事厅中央坚定发言，桌上放着一块温润玉器和一片朴素瓦片作为象征，族人站在他身后表示支持，暖色灯光突出勇气与气节。",
+      "reference_frames": [
+        "references/page_07/ref_01_508.42s.jpg",
+        "references/page_07/ref_02_519.12s.jpg",
+        "references/page_07/ref_03_529.81s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e08-ning-wei-yu-sui-bu-wei-wa-quan/images/page_07.webp"
+    },
+    {
+      "page": 8,
+      "heading": "告密换来的官位",
+      "heading_pinyin": "gào mì huàn lái de guān wèi",
+      "text": "袁景安为了保全自己，把袁景浩的话报告给高洋。袁景浩被捕处死，袁景安却因告密被赐姓高，还升了官。",
+      "pinyin": "yuán jǐng ān wèi le bǎo quán zì jǐ bǎ yuán jǐng hào de huà bào gào gěi gāo yáng yuán jǐng hào bèi bǔ chǔ sǐ yuán jǐng ān què yīn gào mì bèi cì xìng gāo hái shēng le guān",
+      "layout": "image-left",
+      "source_time_range": [
+        563.21,
+        591.64
+      ],
+      "visual_time_range": [
+        570.89,
+        591.64
+      ],
+      "key_content": {
+        "location": "北齐宫殿与牢狱",
+        "animals": [
+          "袁景安",
+          "袁景浩",
+          "高洋"
+        ],
+        "activity": "袁景安告密，袁景浩被捕，告密者得到奖赏",
+        "stakes": "短暂的个人安全建立在背叛亲族之上",
+        "outcome": "袁景浩失去生命，袁景安得到官位却失去名节",
+        "visual_focus": "宫殿中递交密报、被带走的袁景浩和受赏的袁景安"
+      },
+      "visual_anchors": [
+        "双手递上密报的袁景安",
+        "被士兵带走的袁景浩",
+        "冷峻的高洋"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。北齐宫殿中，袁景安低头递上卷轴，士兵押着袁景浩从另一侧走过，高洋坐在高处神情冷峻，构图表现选择的代价，不描绘暴力细节。",
+      "reference_frames": [
+        "references/page_08/ref_01_575.04s.jpg",
+        "references/page_08/ref_02_581.26s.jpg",
+        "references/page_08/ref_03_587.49s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e08-ning-wei-yu-sui-bu-wei-wa-quan/images/page_08.webp"
+    },
+    {
+      "page": 9,
+      "heading": "屠杀不能挽救王朝",
+      "heading_pinyin": "tú shā bù néng wǎn jiù wáng cháo",
+      "text": "残酷的屠杀并没有让北齐变得安稳。三个月后高洋病逝，十八年后，北齐王朝也结束了。",
+      "pinyin": "cán kù de tú shā bìng méi yǒu ràng běi qí biàn de ān wěn sān gè yuè hòu gāo yáng bìng shì shí bā nián hòu běi qí wáng cháo yě jié shù le",
+      "layout": "image-top",
+      "source_time_range": [
+        610.08,
+        625.12
+      ],
+      "visual_time_range": [
+        610.08,
+        625.12
+      ],
+      "key_content": {
+        "location": "北齐宫城与历史长河",
+        "animals": [
+          "高洋",
+          "北齐百姓"
+        ],
+        "activity": "故事旁白回望高洋病逝与北齐灭亡",
+        "stakes": "用恐惧维持的权力并不稳固",
+        "outcome": "北齐最终走向结束",
+        "visual_focus": "渐暗的宫城、流逝的沙漏和远去的王朝旗帜"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。北齐宫城在暮色中渐渐远去，前景是流沙缓慢落下的沙漏，王朝旗帜被风吹向远方，画面安静地表现时间流逝与政权终结。",
+      "reference_frames": [
+        "references/page_09/ref_01_613.09s.jpg",
+        "references/page_09/ref_02_617.60s.jpg",
+        "references/page_09/ref_03_622.11s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e08-ning-wei-yu-sui-bu-wei-wa-quan/images/page_09.webp"
+    },
+    {
+      "page": 10,
+      "heading": "袁景浩守住了气节",
+      "heading_pinyin": "yuán jǐng hào shǒu zhù le qì jié",
+      "text": "袁景浩宁愿被杀，也不愿改姓高氏。他没有保住生命，却保住了不向屈辱低头的气节，这正是成语要赞美的选择。",
+      "pinyin": "yuán jǐng hào nìng yuàn bèi shā yě bù yuàn gǎi xìng gāo shì tā méi yǒu bǎo zhù shēng mìng què bǎo zhù le bù xiàng qū rǔ dī tóu de qì jié zhè zhèng shì chéng yǔ yào zàn měi de xuǎn zé",
+      "layout": "image-right",
+      "source_time_range": [
+        630.2,
+        649.88
+      ],
+      "visual_time_range": [
+        630.2,
+        649.88
+      ],
+      "key_content": {
+        "location": "成语故事回顾画面",
+        "animals": [
+          "袁景浩"
+        ],
+        "activity": "旁白评价袁景浩宁死不改姓的选择",
+        "stakes": "生命安全与正义气节无法同时保全",
+        "outcome": "袁景浩成为坚持气节的象征",
+        "visual_focus": "袁景浩站在风中，身后是完整的玉器和远去的宫城"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。袁景浩身穿朴素古代衣袍，坚定站在风中，手边是一块完整温润的玉器，远处宫城和阴云退去，金色阳光照亮他的身影，表现不屈的气节。",
+      "reference_frames": [
+        "references/page_10/ref_01_634.14s.jpg",
+        "references/page_10/ref_02_640.04s.jpg",
+        "references/page_10/ref_03_645.94s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e08-ning-wei-yu-sui-bu-wei-wa-quan/images/page_10.webp"
+    },
+    {
+      "page": 11,
+      "heading": "玉器和瓦器的比喻",
+      "heading_pinyin": "yù qì hé wǎ qì de bǐ yù",
+      "text": "玉器被打碎，仍然代表珍贵和完整的气节；瓦器虽然保全，却普通而易碎。成语用这个比喻说明，人不能为了活着就放弃正义。",
+      "pinyin": "yù qì bèi dǎ suì réng rán dài biǎo zhēn guì hé wán zhěng de qì jié wǎ qì suī rán bǎo quán què pǔ tōng ér yì suì chéng yǔ yòng zhè ge bǐ yù shuō míng rén bù néng wèi le huó zhe jiù fàng qì zhèng yì",
+      "layout": "full-bleed",
+      "source_time_range": [
+        656.94,
+        701.02
+      ],
+      "visual_time_range": [
+        663.82,
+        701.02
+      ],
+      "key_content": {
+        "location": "成语解释课堂",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "陈教授用玉器和瓦器解释成语含义",
+        "stakes": "孩子需要分清保全身体与守住正义的不同",
+        "outcome": "琪琪理解成语不只是字面上的玉和瓦",
+        "visual_focus": "陈教授展示玉器和瓦器，琪琪认真思考"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。明亮的成语故事直播间里，陈教授在桌上展示一块玉器和一片瓦器，琪琪托着下巴认真思考，背后是柔和的古代宫城插画，亲切的课堂氛围。",
+      "reference_frames": [
+        "references/page_11/ref_01_671.26s.jpg",
+        "references/page_11/ref_02_682.42s.jpg",
+        "references/page_11/ref_03_693.58s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e08-ning-wei-yu-sui-bu-wei-wa-quan/images/page_11.webp"
+    },
+    {
+      "page": 12,
+      "heading": "把意思说完整",
+      "heading_pinyin": "bǎ yì si shuō wán zhěng",
+      "text": "宁为玉碎，不为瓦全，比喻宁愿为正义事业牺牲，不愿丧失气节、苟且偷生。琪琪先说出字面意思，又补上了重要的道理。",
+      "pinyin": "nìng wéi yù suì bù wéi wǎ quán bǐ yù nìng yuàn wèi zhèng yì shì yè xī shēng bù yuàn sàng shī qì jié gǒu qiě tōu shēng qí qí xiān shuō chū zì miàn yì si yòu bǔ shàng le zhòng yào de dào lǐ",
+      "layout": "image-left",
+      "source_time_range": [
+        705.09,
+        725.09
+      ],
+      "visual_time_range": [
+        705.09,
+        725.09
+      ],
+      "key_content": {
+        "location": "成语故事直播间",
+        "animals": [
+          "琪琪",
+          "陈教授"
+        ],
+        "activity": "琪琪复述成语并补充比喻的道理",
+        "stakes": "只记住字面比喻，还不能真正理解成语",
+        "outcome": "琪琪完整说出成语含义",
+        "visual_focus": "琪琪自信回答，陈教授微笑点头"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。琪琪站在直播间中央自信回答，陈教授在旁边微笑鼓掌，桌上玉器和瓦器作为视觉线索，背景明亮温暖，表现理解后的喜悦。",
+      "reference_frames": [
+        "references/page_12/ref_01_709.09s.jpg",
+        "references/page_12/ref_02_715.09s.jpg",
+        "references/page_12/ref_03_721.09s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e08-ning-wei-yu-sui-bu-wei-wa-quan/images/page_12.webp"
+    },
+    {
+      "page": 13,
+      "heading": "遇到选择时想一想",
+      "heading_pinyin": "yù dào xuǎn zé shí xiǎng yi xiǎng",
+      "text": "这个故事提醒我们：遇到重要选择时，要想清楚什么最值得守护。眼前的方便很诱人，但正义、尊严和气节也不能轻易丢掉。",
+      "pinyin": "zhè ge gù shì tí xǐng wǒ men yù dào zhòng yào xuǎn zé shí yào xiǎng qīng chu shén me zuì zhí de shǒu hù yǎn qián de fāng biàn hěn yòu rén dàn zhèng yì zūn yán hé qì jié yě bù néng qīng yì diū diào",
+      "layout": "image-right",
+      "source_time_range": [
+        630.2,
+        740.38
+      ],
+      "visual_time_range": [
+        630.2,
+        740.38
+      ],
+      "key_content": {
+        "location": "故事回顾与现实课堂",
+        "animals": [
+          "琪琪",
+          "小朋友们"
+        ],
+        "activity": "课堂把袁景浩的选择联系到孩子的生活",
+        "stakes": "面对压力时是否坚持正确的事情",
+        "outcome": "读者获得可以带回生活的思考",
+        "visual_focus": "孩子们在两条象征不同选择的小路前思考"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。古代故事场景与现代儿童课堂巧妙融合，几个孩子站在分岔小路前思考，一边有完整玉石和金色光线，另一边有普通瓦片但道路昏暗，氛围希望而不说教。",
+      "reference_frames": [
+        "references/page_13/ref_01_652.24s.jpg",
+        "references/page_13/ref_02_685.29s.jpg",
+        "references/page_13/ref_03_718.34s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e08-ning-wei-yu-sui-bu-wei-wa-quan/images/page_13.webp"
+    },
+    {
+      "page": 14,
+      "heading": "记住这个成语",
+      "heading_pinyin": "jì zhù zhè ge chéng yǔ",
+      "text": "宁为玉碎，不为瓦全。愿我们在重要的事情面前，守住正义和气节，做一个勇敢而有原则的人。",
+      "pinyin": "nìng wéi yù suì bù wéi wǎ quán yuàn wǒ men zài zhòng yào de shì qing miàn qián shǒu zhù zhèng yì hé qì jié zuò yí ge yǒng gǎn ér yǒu yuán zé de rén",
+      "layout": "full-bleed",
+      "source_time_range": [
+        731.17,
+        748.14
+      ],
+      "visual_time_range": [
+        731.17,
+        758.43
+      ],
+      "key_content": {
+        "location": "成语故事直播间告别时刻",
+        "animals": [
+          "陈教授",
+          "琪琪",
+          "小朋友们"
+        ],
+        "activity": "陈教授和琪琪邀请孩子记住成语并告别",
+        "stakes": "把听过的故事变成自己的行动准则",
+        "outcome": "故事留下关于勇气与原则的提醒",
+        "visual_focus": "陈教授、琪琪和孩子们挥手告别，玉石在阳光下闪耀"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。陈教授和白色机器人琪琪在明亮的直播间向孩子们挥手告别，前景一块玉石在阳光中闪耀，背景有柔和的古代城墙与云朵，温暖收束全书。",
+      "reference_frames": [
+        "references/page_14/ref_01_736.62s.jpg",
+        "references/page_14/ref_02_744.80s.jpg",
+        "references/page_14/ref_03_752.98s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e08-ning-wei-yu-sui-bu-wei-wa-quan/images/page_14.webp"
+    }
+  ]
+}

@@ -1,0 +1,620 @@
+{
+  "title": "赴汤蹈火",
+  "title_pinyin": "fù tāng dǎo huǒ",
+  "subtitle": "韩松为荆州百姓探查许昌的故事",
+  "subtitle_pinyin": "hán sōng wèi jīng zhōu bǎi xìng tàn chá xǔ chāng de gù shì",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E20.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "visual_mode": "storyviz",
+  "pages": [
+    {
+      "page": 1,
+      "heading": "书架上的连环画",
+      "heading_pinyin": "shū jià shàng de lián huán huà",
+      "text": "琪琪在书架上找到一本《三国演义》连环画。画面里的成语很有气势，却让她一时想不明白。",
+      "pinyin": "qí qí zài shū jià shàng zhǎo dào yī běn sān guó yǎn yì lián huán huà huà miàn lǐ de chéng yǔ hěn yǒu qì shì què ràng tā yī shí xiǎng bù míng bái",
+      "layout": "image-left",
+      "source_time_range": [
+        123.55,
+        156.97
+      ],
+      "visual_time_range": [
+        123.55,
+        156.97
+      ],
+      "key_content": {
+        "location": "成语故事直播间的书架旁",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "琪琪翻看连环画，陈教授发现她正在研究成语",
+        "stakes": "一个陌生成语挡住了琪琪继续读故事的脚步",
+        "outcome": "陈教授决定把这个成语讲清楚",
+        "visual_focus": "书架、打开的连环画、好奇的琪琪和陈教授"
+      },
+      "visual_anchors": [
+        "彩色书架与桌面",
+        "圆润白色机器人琪琪捧着连环画",
+        "戴眼镜的陈教授侧身查看书本"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。明亮的文化宫书房里，圆润白色机器人琪琪坐在桌边翻看一本没有可读文字的古代连环画，白发戴眼镜的陈教授从旁边俯身查看，书架和几本书构成温暖背景，儿童历史绘本。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_01.webp",
+      "reference_frames": [
+        "references/page_01/ref_01_130.23s.jpg",
+        "references/page_01/ref_02_140.26s.jpg",
+        "references/page_01/ref_03_150.29s.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "heading": "赴汤蹈火是什么意思",
+      "heading_pinyin": "fù tāng dǎo huǒ shì shén me yì si",
+      "text": "赴汤蹈火，字面上像是奔向滚烫的开水、踏上熊熊烈火。它比喻不避艰险，鼓起全部勇气向前。",
+      "pinyin": "fù tāng dǎo huǒ zì miàn shàng xiàng shì bēn xiàng gǔn tàng de kāi shuǐ tà shàng xióng xióng liè huǒ tā bǐ yù bù bì jiān xiǎn gǔ qǐ quán bù yǒng qì xiàng qián",
+      "layout": "full-bleed",
+      "source_time_range": [
+        158.31,
+        184.52
+      ],
+      "visual_time_range": [
+        158.31,
+        184.52
+      ],
+      "key_content": {
+        "location": "成语故事直播间与想象画面",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "陈教授用开水和烈火解释成语的字面意思与比喻意思",
+        "stakes": "琪琪觉得画面很吓人，需要知道成语真正赞美的是什么",
+        "outcome": "成语从可怕的画面变成勇敢担当的比喻",
+        "visual_focus": "沸水、火焰与坚定向前的人物剪影"
+      },
+      "visual_anchors": [
+        "暖红火焰与金色蒸汽",
+        "抽象的向前道路",
+        "琪琪认真听讲的神情"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。以儿童友好的想象画表现成语：一条安全的石路穿过金色蒸汽与两侧火焰，前方是明亮天空；画面一角有认真听讲的白色机器人琪琪和陈教授，火焰有力量但不危险，不出现文字。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_02.webp",
+      "reference_frames": [
+        "references/page_02/ref_01_163.55s.jpg",
+        "references/page_02/ref_02_171.42s.jpg",
+        "references/page_02/ref_03_179.28s.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "heading": "荆州面临选择",
+      "heading_pinyin": "jīng zhōu miàn lín xuǎn zé",
+      "text": "东汉末年，诸侯各自占地为王。曹操和袁绍正在对峙，又同时派使者拉拢荆州牧刘表。",
+      "pinyin": "dōng hàn mò nián zhū hóu gè zì zhàn dì wèi wáng cáo cāo hé yuán shào zhèng zài duì zhì yòu tóng shí pài shǐ zhě lā lǒng jīng zhōu mù liú biǎo",
+      "layout": "image-top",
+      "source_time_range": [
+        246.27,
+        261.63
+      ],
+      "visual_time_range": [
+        246.27,
+        261.63
+      ],
+      "key_content": {
+        "location": "东汉末年的荆州议事厅",
+        "animals": [
+          "刘表",
+          "韩松",
+          "曹操",
+          "袁绍"
+        ],
+        "activity": "曹操与袁绍的使者分别来到荆州求见刘表",
+        "stakes": "荆州若选错朋友，百姓和城池都可能被卷进战争",
+        "outcome": "刘表召集臣下商量对策",
+        "visual_focus": "荆州城、两路使者和桌上的山河地图"
+      },
+      "visual_anchors": [
+        "荆州城门与远处山河",
+        "一身河北服饰的使者",
+        "一身许昌服饰的使者与中央地图"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。东汉末年荆州的古代议事厅，桌上展开无文字的山河地图，两位来自不同方向的使者在厅门两侧等待，刘表在高座上思考，红木柱与青灰天空，儿童历史绘本风格。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_03.webp",
+      "reference_frames": [
+        "references/page_03/ref_01_249.34s.jpg",
+        "references/page_03/ref_02_253.95s.jpg",
+        "references/page_03/ref_03_258.56s.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "heading": "两位使者争先求见",
+      "heading_pinyin": "liǎng wèi shǐ zhě zhēng xiān qiú jiàn",
+      "text": "河北使者和许昌使者都说自己先到，几句话就争得面红耳赤。小吏赶紧劝他们不要在荆州府门前争吵。",
+      "pinyin": "hé běi shǐ zhě hé xǔ chāng shǐ zhě dōu shuō zì jǐ xiān dào jǐ jù huà jiù zhēng de miàn hóng ěr chì xiǎo lì gǎn jǐn quàn tā men bú yào zài jīng zhōu fǔ mén qián zhēng chǎo",
+      "layout": "image-right",
+      "source_time_range": [
+        262.35,
+        287.06
+      ],
+      "visual_time_range": [
+        262.35,
+        287.06
+      ],
+      "key_content": {
+        "location": "荆州府门前",
+        "animals": [
+          "刘表",
+          "韩松",
+          "曹操",
+          "袁绍"
+        ],
+        "activity": "两位使者争抢先后，小吏在中间劝解",
+        "stakes": "争吵让本来严肃的外交来访变得更加紧张",
+        "outcome": "两位使者暂时停下，等待刘表召见",
+        "visual_focus": "府门、争论的使者与伸手劝阻的小吏"
+      },
+      "visual_anchors": [
+        "古代府门与台阶",
+        "两名相互指责的使者",
+        "小吏张开双臂劝架"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。荆州府门前，两名古代使者隔着台阶互相争论，一名穿朴素衣服的小吏伸出双手劝解；背景有城墙、旗帜和来往行人，表情夸张但不凶险，儿童历史动画绘本。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_04.webp",
+      "reference_frames": [
+        "references/page_04/ref_01_267.29s.jpg",
+        "references/page_04/ref_02_274.71s.jpg",
+        "references/page_04/ref_03_282.12s.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "heading": "有人想和袁绍结盟",
+      "heading_pinyin": "yǒu rén xiǎng hé yuán shào jié méng",
+      "text": "蔡将军认为袁绍兵多，荆州应该和袁绍结盟，两头夹击曹操。这样做看起来能分到曹操的一半城池。",
+      "pinyin": "cài jiāng jūn rèn wéi yuán shào bīng duō jīng zhōu yīng gāi hé yuán shào jié méng liǎng tóu jiā jī cáo cāo zhè yàng zuò kàn qǐ lái néng fēn dào cáo cāo de yí bàn chéng chí",
+      "layout": "image-left",
+      "source_time_range": [
+        300.4,
+        347.3
+      ],
+      "visual_time_range": [
+        315.6,
+        347.3
+      ],
+      "key_content": {
+        "location": "荆州府的议事大厅",
+        "animals": [
+          "刘表",
+          "韩松",
+          "曹操",
+          "袁绍"
+        ],
+        "activity": "蔡将军指着地图，主张荆州加入袁绍一方",
+        "stakes": "表面强大的袁绍未必真的容易取胜，贸然押注可能惹来麻烦",
+        "outcome": "刘表听见了主动出兵的建议",
+        "visual_focus": "蔡将军、袁绍方向的军旗和被分割的地图"
+      },
+      "visual_anchors": [
+        "长桌上的无文字地图",
+        "身穿甲胄的蔡将军指向地图",
+        "刘表在高座上听取意见"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。荆州议事大厅里，身穿古代甲胄的蔡将军站在无文字地图旁，手指向一侧军队和城池，刘表坐在高座上认真听讲，几名臣子在旁边观察，暖棕宫室与青蓝地图色彩。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_05.webp",
+      "reference_frames": [
+        "references/page_05/ref_01_321.94s.jpg",
+        "references/page_05/ref_02_331.45s.jpg",
+        "references/page_05/ref_03_340.96s.jpg"
+      ]
+    },
+    {
+      "page": 6,
+      "heading": "也有人主张先等等",
+      "heading_pinyin": "yě yǒu rén zhǔ zhāng xiān děng děng",
+      "text": "蒯先生提醒大家：曹操兵少，却能和袁绍对抗很久。荆州离战场很远，最好先静观其变。",
+      "pinyin": "kuǎi xiān shēng tí xǐng dà jiā cáo cāo bīng shǎo què néng hé yuán shào duì kàng hěn jiǔ jīng zhōu lí zhàn chǎng hěn yuǎn zuì hǎo xiān jìng guān qí biàn",
+      "layout": "image-top",
+      "source_time_range": [
+        350.25,
+        396.15
+      ],
+      "visual_time_range": [
+        350.25,
+        396.15
+      ],
+      "key_content": {
+        "location": "荆州府的议事大厅",
+        "animals": [
+          "刘表",
+          "韩松",
+          "曹操",
+          "袁绍"
+        ],
+        "activity": "蒯先生分析曹操与袁绍的实力，主张耐心等待",
+        "stakes": "战局变化很快，未经判断就出兵，可能把荆州推向危险",
+        "outcome": "刘表得到谨慎观望的另一种方案",
+        "visual_focus": "蒯先生展开手臂说明，众臣围着地图思考"
+      },
+      "visual_anchors": [
+        "手指地图的蒯先生",
+        "对峙的两面军旗",
+        "刘表与臣子安静思考"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。古代议事大厅中，文士蒯先生站在地图前平静分析，两面不同颜色的军旗分立地图两边，刘表和臣子们低头思索；画面用留白表达等待与判断，不出现文字。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_06.webp",
+      "reference_frames": [
+        "references/page_06/ref_01_359.43s.jpg",
+        "references/page_06/ref_02_373.20s.jpg",
+        "references/page_06/ref_03_386.97s.jpg"
+      ]
+    },
+    {
+      "page": 7,
+      "heading": "别等到城池失守",
+      "heading_pinyin": "bié děng dào chéng chí shī shǒu",
+      "text": "蔡将军觉得事情刻不容缓，应该马上起兵救援。蒯先生却劝刘表三思：眼前的战争还没有分出胜负。",
+      "pinyin": "cài jiāng jūn jué de shì qíng kè bù róng huǎn yīng gāi mǎ shàng qǐ bīng jiù yuán kuǎi xiān shēng què quàn liú biǎo sān sī yǎn qián de zhàn zhēng hái méi yǒu fēn chū shèng fù",
+      "layout": "image-right",
+      "source_time_range": [
+        397.57,
+        431.38
+      ],
+      "visual_time_range": [
+        397.57,
+        431.38
+      ],
+      "key_content": {
+        "location": "荆州府的议事大厅",
+        "animals": [
+          "刘表",
+          "韩松",
+          "曹操",
+          "袁绍"
+        ],
+        "activity": "两位将军分别催促出兵与劝说静观其变",
+        "stakes": "行动太急或等待太久，都可能让荆州失去主动",
+        "outcome": "刘表意识到这不是简单的二选一",
+        "visual_focus": "争论中的两位臣子和刘表沉着的神情"
+      },
+      "visual_anchors": [
+        "一边急切挥手的蔡将军",
+        "一边拱手劝谏的蒯先生",
+        "中央保持沉着的刘表"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。荆州议事厅里，身穿甲胄的将军急切挥手，另一侧的文士拱手劝谏，刘表坐在中央沉着思考；桌上是没有文字的战局地图，暖色宫室与冷色地图形成对比。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_07.webp",
+      "reference_frames": [
+        "references/page_07/ref_01_404.33s.jpg",
+        "references/page_07/ref_02_414.48s.jpg",
+        "references/page_07/ref_03_424.62s.jpg"
+      ]
+    },
+    {
+      "page": 8,
+      "heading": "主动权在荆州手里",
+      "heading_pinyin": "zhǔ dòng quán zài jīng zhōu shǒu lǐ",
+      "text": "韩先生说，荆州兵精粮足，帮助曹操或袁绍，任何一方都可能因此取胜；若谁都不帮，胜者也许会记恨荆州。",
+      "pinyin": "hán xiān shēng shuō jīng zhōu bīng jīng liáng zú bāng zhù cáo cāo huò yuán shào rèn hé yī fāng dōu kě néng yīn cǐ qǔ shèng ruò shéi dōu bù bāng shèng zhě yě xǔ huì jì hèn jīng zhōu",
+      "layout": "full-bleed",
+      "source_time_range": [
+        433.4,
+        485.45
+      ],
+      "visual_time_range": [
+        433.4,
+        485.45
+      ],
+      "key_content": {
+        "location": "荆州府的战略议事厅",
+        "animals": [
+          "刘表",
+          "韩松",
+          "曹操",
+          "袁绍"
+        ],
+        "activity": "韩松向刘表分析荆州的兵力、粮食与地理位置",
+        "stakes": "荆州的决定会影响战争胜负，也会影响百姓是否安宁",
+        "outcome": "刘表开始认真听取韩松的判断",
+        "visual_focus": "韩松站在地图前，荆州位于几方力量之间"
+      },
+      "visual_anchors": [
+        "韩松坚定的手势",
+        "装满粮袋的仓廪与整齐兵器",
+        "无文字的荆州及周边地图"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。宽阔古代战略议事厅，韩松站在无文字的山河地图前抬手分析，地图上以不同颜色的道路表示曹操、袁绍与荆州的位置，旁边有粮仓和整齐兵器，儿童历史绘本，构图清楚而有力量。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_08.webp",
+      "reference_frames": [
+        "references/page_08/ref_01_443.81s.jpg",
+        "references/page_08/ref_02_459.42s.jpg",
+        "references/page_08/ref_03_475.04s.jpg"
+      ]
+    },
+    {
+      "page": 9,
+      "heading": "为什么要帮曹操",
+      "heading_pinyin": "wèi shén me yào bāng cáo cāo",
+      "text": "韩松判断曹操可能以少胜多。帮助强大的袁绍只是锦上添花；帮助暂时处于劣势的曹操，却像雪中送炭。",
+      "pinyin": "hán sōng pàn duàn cáo cāo kě néng yǐ shǎo shèng duō bāng zhù qiáng dà de yuán shào zhǐ shì jǐn shàng tiān huā bāng zhù zàn shí chǔ yú liè shì de cáo cāo què xiàng xuě zhōng sòng tàn",
+      "layout": "image-left",
+      "source_time_range": [
+        485.69,
+        561.23
+      ],
+      "visual_time_range": [
+        494.01,
+        561.23
+      ],
+      "key_content": {
+        "location": "荆州府的议事大厅与想象战局",
+        "animals": [
+          "刘表",
+          "韩松",
+          "曹操",
+          "袁绍"
+        ],
+        "activity": "韩松比较帮助曹操和帮助袁绍会得到的结果",
+        "stakes": "荆州必须选择真正能改变局面的帮助，而不是跟随表面强者",
+        "outcome": "刘表看见了帮助曹操的长远价值",
+        "visual_focus": "两条援助路线、曹操以少抗多的象征画面"
+      },
+      "visual_anchors": [
+        "韩松指向两条不同颜色的路线",
+        "小股曹操军队稳住阵脚",
+        "远处数量更多但混乱的袁绍军队"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。古代战略议事厅与无文字战局想象结合：韩松指向一条通往曹操阵营的明亮道路，远处较少的曹操士兵整齐守住阵地，另一侧数量更多的袁绍军队显得杂乱；不画血腥，不出现文字。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_09.webp",
+      "reference_frames": [
+        "references/page_09/ref_01_507.45s.jpg",
+        "references/page_09/ref_02_527.62s.jpg",
+        "references/page_09/ref_03_547.79s.jpg"
+      ]
+    },
+    {
+      "page": 10,
+      "heading": "先护住荆州百姓",
+      "heading_pinyin": "xiān hù zhù jīng zhōu bǎi xìng",
+      "text": "如果袁绍打败曹操，荆州就会和袁绍的土地相邻。韩松担心战火来到荆州，让百姓流离失所，这正是唇亡齿寒。",
+      "pinyin": "rú guǒ yuán shào dǎ bài cáo cāo jīng zhōu jiù huì hé yuán shào de tǔ dì xiāng lín hán sōng dān xīn zhàn huǒ lái dào jīng zhōu ràng bǎi xìng liú lí shī suǒ zhè zhèng shì chún wáng chǐ hán",
+      "layout": "image-top",
+      "source_time_range": [
+        564.69,
+        582.61
+      ],
+      "visual_time_range": [
+        564.69,
+        582.61
+      ],
+      "key_content": {
+        "location": "荆州城与周边山河地图",
+        "animals": [
+          "刘表",
+          "韩松",
+          "曹操",
+          "袁绍"
+        ],
+        "activity": "韩松从百姓安危出发解释唇亡齿寒",
+        "stakes": "战争的胜负不只是将军的荣辱，更关系到普通百姓的家园",
+        "outcome": "刘表认同保护荆州百姓的理由",
+        "visual_focus": "安静的荆州城与逼近的战火之间的距离"
+      },
+      "visual_anchors": [
+        "无文字山河地图上的相邻边界",
+        "荆州城内的屋舍与百姓",
+        "韩松望向城外的担忧神情"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。儿童历史绘本风格的荆州山河全景，无文字地图与真实城池结合：前景是屋舍、田地和百姓安静生活，远方地平线上有乌云与军队剪影但没有战斗，韩松站在城墙上担忧守望，色彩克制。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_10.webp",
+      "reference_frames": [
+        "references/page_10/ref_01_568.27s.jpg",
+        "references/page_10/ref_02_573.65s.jpg",
+        "references/page_10/ref_03_579.03s.jpg"
+      ]
+    },
+    {
+      "page": 11,
+      "heading": "去许昌探查虚实",
+      "heading_pinyin": "qù xǔ chāng tàn chá xū shí",
+      "text": "刘表认可韩松的想法，却还不知道曹操真正有多强。于是，他请韩松亲自去许昌探查曹操的虚实。",
+      "pinyin": "liú biǎo rèn kě hán sōng de xiǎng fǎ què hái bù zhī dào cáo cāo zhēn zhèng yǒu duō qiáng yú shì tā qǐng hán sōng qīn zì qù xǔ chāng tàn chá cáo cāo de xū shí",
+      "layout": "image-right",
+      "source_time_range": [
+        583.25,
+        596.52
+      ],
+      "visual_time_range": [
+        583.25,
+        596.52
+      ],
+      "key_content": {
+        "location": "荆州府的送行厅",
+        "animals": [
+          "刘表",
+          "韩松",
+          "曹操",
+          "袁绍"
+        ],
+        "activity": "刘表把探查许昌的任务交给韩松",
+        "stakes": "这次出行路途遥远，还要面对曹操大本营的未知情况",
+        "outcome": "韩松接下任务，准备为荆州百姓寻找答案",
+        "visual_focus": "刘表交代任务，韩松拱手领命"
+      },
+      "visual_anchors": [
+        "高座上的刘表",
+        "站在厅中的韩松",
+        "桌上卷起的地图与出行包裹"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。古代荆州送行厅，刘表从高座上向韩松交代任务，韩松在厅中央拱手领命，桌上放着卷起的无文字地图和简单行囊；红柱、青灰衣袍和斜入的晨光表现认真决定。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_11.webp",
+      "reference_frames": [
+        "references/page_11/ref_01_585.90s.jpg",
+        "references/page_11/ref_02_589.88s.jpg",
+        "references/page_11/ref_03_593.87s.jpg"
+      ]
+    },
+    {
+      "page": 12,
+      "heading": "晁错说过的勇气",
+      "heading_pinyin": "cháo cuò shuō guò de yǒng qì",
+      "text": "韩松想起：汉代名臣晁错和汉孝景帝讨论边疆时，曾说士兵和百姓要愿意冒险守护边塞，哪怕奔赴沸水、踏进烈火。",
+      "pinyin": "hán sōng xiǎng qǐ hàn dài míng chén cháo cuò hé hàn xiào jǐng dì tǎo lùn biān jiāng shí céng shuō shì bīng hé bǎi xìng yào yuàn yì mào xiǎn shǒu hù biān sài nǎ pà bēn fù fèi shuǐ tà jìn liè huǒ",
+      "layout": "full-bleed",
+      "source_time_range": [
+        597.48,
+        614.32
+      ],
+      "visual_time_range": [
+        597.48,
+        614.32
+      ],
+      "key_content": {
+        "location": "荆州府的历史想象画面",
+        "animals": [
+          "刘表",
+          "韩松",
+          "曹操",
+          "袁绍"
+        ],
+        "activity": "韩松引用晁错与汉孝景帝讨论边疆的往事",
+        "stakes": "守护百姓需要的不只是计谋，还需要愿意承担风险的勇气",
+        "outcome": "韩松把古人的话变成自己的行动准则",
+        "visual_focus": "晁错、汉孝景帝、边塞与勇敢守护者的历史剪影"
+      },
+      "visual_anchors": [
+        "古代宫殿中的晁错与孝景帝",
+        "远处边塞城墙",
+        "蒸汽与火焰象征危险但不接触人物"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。古代宫殿与边塞的连续历史想象画面，身着汉代服饰的晁错在孝景帝面前拱手陈说，远处是需要守护的边塞城墙；画面边缘用安全的金色蒸汽和火焰象征冒险与勇气，不出现文字。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_12.webp",
+      "reference_frames": [
+        "references/page_12/ref_01_600.85s.jpg",
+        "references/page_12/ref_02_605.90s.jpg",
+        "references/page_12/ref_03_610.95s.jpg"
+      ]
+    },
+    {
+      "page": 13,
+      "heading": "臣愿意赴汤蹈火",
+      "heading_pinyin": "chén yuàn yì fù tāng dǎo huǒ",
+      "text": "刘表问韩松愿不愿意去。韩松回答：为了荆州百姓，自己愿意赴汤蹈火，就算死也不推辞。",
+      "pinyin": "liú biǎo wèn hán sōng yuàn bù yuàn yì qù hán sōng huí dá wèi le jīng zhōu bǎi xìng zì jǐ yuàn yì fù tāng dǎo huǒ jiù suàn sǐ yě bù tuī cí",
+      "layout": "image-left",
+      "source_time_range": [
+        620.77,
+        630.69
+      ],
+      "visual_time_range": [
+        620.77,
+        630.69
+      ],
+      "key_content": {
+        "location": "荆州府送行厅",
+        "animals": [
+          "刘表",
+          "韩松",
+          "曹操",
+          "袁绍"
+        ],
+        "activity": "韩松面对刘表郑重领命",
+        "stakes": "前往许昌探查充满未知，韩松必须把百姓的安危放在心上",
+        "outcome": "韩松坚定接受任务，明日出城",
+        "visual_focus": "韩松拱手立誓，刘表起身相送"
+      },
+      "visual_anchors": [
+        "韩松坚定的眼神与拱手姿势",
+        "刘表从座位上站起",
+        "门外通往远方的道路与晨光"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。古代荆州府送行厅，韩松面对刘表郑重拱手，神情坚定，刘表从高座上起身相送，敞开的府门外是一条通向远方的晨光道路；儿童历史绘本，勇敢而不悲壮，不出现文字。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_13.webp",
+      "reference_frames": [
+        "references/page_13/ref_01_622.75s.jpg",
+        "references/page_13/ref_02_625.73s.jpg",
+        "references/page_13/ref_03_628.71s.jpg"
+      ]
+    },
+    {
+      "page": 14,
+      "heading": "故事讲完了",
+      "heading_pinyin": "gù shì jiǎng wán le",
+      "text": "韩松为了荆州百姓，愿意到曹操的大本营许昌探查虚实。他把赴汤蹈火的勇气，真正用在了行动上。",
+      "pinyin": "hán sōng wèi le jīng zhōu bǎi xìng yuàn yì dào cáo cāo de dà běn yíng xǔ chāng tàn chá xū shí tā bǎ fù tāng dǎo huǒ de yǒng qì zhēn zhèng yòng zài le xíng dòng shàng",
+      "layout": "image-right",
+      "source_time_range": [
+        632.81,
+        658.57
+      ],
+      "visual_time_range": [
+        632.81,
+        658.57
+      ],
+      "key_content": {
+        "location": "成语故事直播间",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "陈教授和琪琪回顾韩松领命的故事",
+        "stakes": "读者要看见成语不只是口号，而是为重要的事情勇敢担当",
+        "outcome": "琪琪佩服韩松，也准备复述成语意思",
+        "visual_focus": "陈教授、琪琪、历史画面屏幕和远行的韩松"
+      },
+      "visual_anchors": [
+        "直播间书架与节目灯光",
+        "琪琪惊喜佩服的表情",
+        "屏幕中的韩松走向远方但不含文字"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。回到明亮的成语故事直播间，白色机器人琪琪双手放在胸前露出佩服的表情，陈教授站在旁边指向一块显示无文字历史剪影的屏幕，屏幕里韩松背着行囊走向远方，儿童节目气氛。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_14.webp",
+      "reference_frames": [
+        "references/page_14/ref_01_637.96s.jpg",
+        "references/page_14/ref_02_645.69s.jpg",
+        "references/page_14/ref_03_653.42s.jpg"
+      ]
+    },
+    {
+      "page": 15,
+      "heading": "把意思记住",
+      "heading_pinyin": "bǎ yì si jì zhù",
+      "text": "赴汤蹈火，比喻不避艰险，奋勇向前，为了重要的事情付出全部勇气，不留余力地前进。小朋友们，你们记住了吗？",
+      "pinyin": "fù tāng dǎo huǒ bǐ yù bù bì jiān xiǎn fèn yǒng xiàng qián wèi le zhòng yào de shì qíng fù chū quán bù yǒng qì bù liú yú lì dì qián jìn xiǎo péng yǒu men nǐ men jì zhù le ma",
+      "layout": "image-top",
+      "source_time_range": [
+        660.25,
+        739.67
+      ],
+      "visual_time_range": [
+        660.25,
+        739.67
+      ],
+      "key_content": {
+        "location": "成语故事直播间",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "琪琪复述成语意思，陈教授向小朋友提问",
+        "stakes": "如果只说勇敢却不行动，成语的力量就没有真正用起来",
+        "outcome": "孩子们能把赴汤蹈火理解成勇敢担当并记住它",
+        "visual_focus": "陈教授提问、琪琪举手、面向读者的温暖结尾"
+      },
+      "visual_anchors": [
+        "陈教授面向观众伸手提问",
+        "琪琪开心举手",
+        "桌上的历史故事书与明亮背景"
+      ],
+      "illustration_prompt": "中国古代历史儿童绘本风格，参考原片明快的二维动画构图与角色比例，线条清晰，色彩温暖，叙事动作明确，画面不出现文字、字幕、标志或水印。明亮亲切的成语故事直播间，陈教授面向读者伸手提问，圆润白色机器人琪琪开心举手复述，桌上放着打开的历史故事书，背景书架和柔和灯光，儿童绘本结尾，画面绝不出现可读文字。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e20-fu-tang-dao-huo/images/page_15.webp",
+      "reference_frames": [
+        "references/page_15/ref_01_676.13s.jpg",
+        "references/page_15/ref_02_699.96s.jpg",
+        "references/page_15/ref_03_723.79s.jpg"
+      ]
+    }
+  ]
+}

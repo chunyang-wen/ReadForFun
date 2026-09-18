@@ -1,0 +1,621 @@
+{
+  "title": "任人唯贤",
+  "subtitle": "鲍叔牙举荐管仲的故事",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E14.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "visual_mode": "hybrid-book",
+  "pages": [
+    {
+      "page": 1,
+      "heading": "一封带来喜讯的邮件",
+      "text": "文化宫里，琪琪收到一封邮件：陈教授被学校选为校长。大家说，这是因为他学术水平高，又有才德，是任人唯贤的选择。",
+      "illustration_prompt": "Original children's-book illustration, a friendly small white robot in a bright cultural palace learning room holding an opened appointment letter beside a surprised, warm-hearted professor. Through the windows, a modern cultural palace is visible; show celebration without any readable writing. Soft gouache and pencil texture, clean shapes for ages 6–10, turquoise, coral and warm gold palette, no subtitles, logos, or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        126.17,
+        202.45
+      ],
+      "visual_time_range": [
+        126.17,
+        174.04
+      ],
+      "visual_anchors": [
+        "文化宫室内",
+        "白色机器人琪琪",
+        "打开的邮件",
+        "陈教授",
+        "明亮的学习空间"
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [],
+        "activity": "琪琪把校长任命的好消息告诉陈教授",
+        "stakes": "要理解学校为什么选择陈教授",
+        "outcome": "大家用任人唯贤解释这次任命",
+        "visual_focus": "机器人递出喜讯邮件与教授的惊喜表情"
+      },
+      "reference_frames": [
+        "references/page_01/ref_01_135.74s.jpg",
+        "references/page_01/ref_02_150.10s.jpg",
+        "references/page_01/ref_03_164.47s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_01.webp",
+      "heading_pinyin": "yī fēng dài lái xǐ xùn de yóu jiàn",
+      "pinyin": "wén huà gōng lǐ qí qí shōu dào yī fēng yóu jiàn chén jiào shòu bèi xué xiào xuǎn wèi xiào zhǎng dà jiā shuō zhè shì yīn wèi tā xué shù shuǐ píng gāo yòu yǒu cái dé shì rèn rén wéi xián de xuǎn zé"
+    },
+    {
+      "page": 2,
+      "heading": "任人唯贤是什么意思",
+      "text": "任人唯贤，就是选用有才德、有本领的人。挑选人才时，不能只看亲疏和成见，而要看谁最适合把事情做好。",
+      "illustration_prompt": "Original educational children's-book illustration: the professor and the small white robot examine a calm golden balance scale, with a bright star representing ability and virtue on one side and fading tangled strings representing favoritism on the other. Cultural palace classroom, reassuring and clear for ages 6–10, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        203.73,
+        236.42
+      ],
+      "visual_time_range": [
+        192.69,
+        236.42
+      ],
+      "visual_anchors": [
+        "教授讲解成语",
+        "琪琪认真思考",
+        "代表才德的金色星星",
+        "被解开的偏见线团",
+        "课堂里的平衡秤"
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [],
+        "activity": "陈教授和琪琪解释任人唯贤",
+        "stakes": "不能把用人变成凭关系或偏见选人",
+        "outcome": "琪琪知道要依据才德和本领选择人才",
+        "visual_focus": "能力与偏见的平衡象征"
+      },
+      "reference_frames": [
+        "references/page_02/ref_01_201.44s.jpg",
+        "references/page_02/ref_02_214.56s.jpg",
+        "references/page_02/ref_03_227.67s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_02.webp",
+      "heading_pinyin": "rèn rén wéi xián shì shén me yì si",
+      "pinyin": "rèn rén wéi xián jiù shì xuǎn yòng yǒu cái dé yǒu běn lǐng de rén tiāo xuǎn rén cái shí bù néng zhǐ kàn qīn shū hé chéng jiàn ér yào kàn shuí zuì shì hé bǎ shì qíng zuò hǎo"
+    },
+    {
+      "page": 3,
+      "heading": "齐国忽然失去了国君",
+      "text": "齐襄公受伤后，公孙无知、连称和管至父带人袭击他的住所。齐襄公遇害，齐国一下子群龙无首。",
+      "illustration_prompt": "Original child-friendly historical illustration of an ancient Qi palace residence in turmoil: guards hurry through a courtyard while the wounded ruler's chamber is shown at a respectful distance, with no graphic violence. Use clear storytelling, warm red-brown palace architecture, worried faces, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        282.46,
+        333.65
+      ],
+      "visual_time_range": [
+        282.46,
+        323.25
+      ],
+      "visual_anchors": [
+        "齐国宫室",
+        "受伤的齐襄公",
+        "赶来的徒众",
+        "紧张的守卫",
+        "群龙无首的宫廷"
+      ],
+      "key_content": {
+        "location": "齐国国君住所",
+        "animals": [],
+        "activity": "叛乱者袭击齐襄公的住所",
+        "stakes": "齐国失去国君，王位出现空缺",
+        "outcome": "齐国需要重新选择国君",
+        "visual_focus": "宫廷突发变故与慌乱的守卫"
+      },
+      "reference_frames": [
+        "references/page_03/ref_01_290.62s.jpg",
+        "references/page_03/ref_02_302.86s.jpg",
+        "references/page_03/ref_03_315.09s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_03.webp",
+      "heading_pinyin": "qí guó hū rán shī qù le guó jūn",
+      "pinyin": "qí xiāng gōng shòu shāng hòu gōng sūn wú zhī lián chēng hé guǎn zhì fù dài rén xí jī tā de zhù suǒ qí xiāng gōng yù hài qí guó yī xià zi qún lóng wú shǒu"
+    },
+    {
+      "page": 4,
+      "heading": "王位只有一个",
+      "text": "齐襄公的两个弟弟公子纠和公子小白都还活着。大家想出一个办法：谁先回到齐国，谁就来做新的国君。",
+      "illustration_prompt": "Original children's-book historical illustration inside a Qi court: two distant young princes are represented by two paths leading toward one simple royal seat, while advisers discuss the difficult choice. Ancient palace hall, respectful historical clothing, clear visual metaphor, soft gouache and pencil texture, no readable writing, subtitles, logos, or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        328.21,
+        358.86
+      ],
+      "visual_time_range": [
+        328.21,
+        358.86
+      ],
+      "visual_anchors": [
+        "齐国议事厅",
+        "公子纠",
+        "公子小白",
+        "通往齐国的两条路",
+        "一个王位"
+      ],
+      "key_content": {
+        "location": "齐国宫廷",
+        "animals": [],
+        "activity": "大臣商议两位公子谁先回国",
+        "stakes": "两个有资格的人只能有一人继位",
+        "outcome": "众人决定以先回国作为选择标准",
+        "visual_focus": "两条路汇向唯一王位"
+      },
+      "reference_frames": [
+        "references/page_04/ref_01_334.34s.jpg",
+        "references/page_04/ref_02_343.53s.jpg",
+        "references/page_04/ref_03_352.73s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_04.webp",
+      "heading_pinyin": "wáng wèi zhǐ yǒu yí gè",
+      "pinyin": "qí xiāng gōng de liǎng gè dì di gōng zi jiū hé gōng zi xiǎo bái dōu hái huó zhe dà jiā xiǎng chū yí gè bàn fǎ shuí xiān huí dào qí guó shuí jiù lái zuò xīn de guó jūn"
+    },
+    {
+      "page": 5,
+      "heading": "公平竞争的箭",
+      "text": "管仲担心公子小白先回国，带人去拦截他。公子小白说，自己也有资格担当大任；他不想伤害兄弟，只希望公平竞争。",
+      "illustration_prompt": "Original children's-book historical illustration on an ancient road: Guan Zhong and attendants face Prince Xiaobai across a respectful distance, with a lowered bow and one arrow held as a tense symbol of rivalry rather than an attack. Show both sides' determination and restraint, historical robes, soft gouache and pencil texture, no graphic injury, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        359.5,
+        405.26
+      ],
+      "visual_time_range": [
+        359.5,
+        405.26
+      ],
+      "visual_anchors": [
+        "齐鲁之间的古道路",
+        "管仲带领人马",
+        "公子小白",
+        "弓与箭",
+        "保持距离的对峙"
+      ],
+      "key_content": {
+        "location": "齐国边路",
+        "animals": [],
+        "activity": "管仲拦截公子小白，双方争取回国继位",
+        "stakes": "王位竞争可能变成兄弟相残",
+        "outcome": "公子小白强调自己只想公平竞争",
+        "visual_focus": "弓箭与克制的对峙"
+      },
+      "reference_frames": [
+        "references/page_05/ref_01_368.65s.jpg",
+        "references/page_05/ref_02_382.38s.jpg",
+        "references/page_05/ref_03_396.11s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_05.webp",
+      "heading_pinyin": "gōng píng jìng zhēng de jiàn",
+      "pinyin": "guǎn zhòng dān xīn gōng zi xiǎo bái xiān huí guó dài rén qù lán jié tā gōng zi xiǎo bái shuō zì jǐ yě yǒu zī gé dān dāng dà rèn tā bù xiǎng shāng hài xiōng dì zhǐ xī wàng gōng píng jìng zhēng"
+    },
+    {
+      "page": 6,
+      "heading": "公子小白先回到了齐国",
+      "text": "管仲射中公子小白后，以为他已经死了。没想到公子小白并没有死去，还抢先回到齐国，继任了国君。",
+      "illustration_prompt": "Original children's-book historical illustration of Prince Xiaobai surviving an arrow ambush on a mountain road and then hurrying toward the distant Qi capital with determined helpers. Keep the arrow non-graphic and small, emphasize surprise, survival, and the race home, ancient landscape, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        410.22,
+        434.51
+      ],
+      "visual_time_range": [
+        410.22,
+        434.51
+      ],
+      "visual_anchors": [
+        "山路上的箭矢",
+        "没有死去的公子小白",
+        "赶路的随从",
+        "远处的齐国都城",
+        "抢先回国"
+      ],
+      "key_content": {
+        "location": "通往齐国的山路",
+        "animals": [],
+        "activity": "公子小白中箭后继续赶路回国",
+        "stakes": "谁先回国决定谁能继承王位",
+        "outcome": "公子小白先一步回到齐国",
+        "visual_focus": "意外生还与奔向都城的身影"
+      },
+      "reference_frames": [
+        "references/page_06/ref_01_415.08s.jpg",
+        "references/page_06/ref_02_422.37s.jpg",
+        "references/page_06/ref_03_429.65s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_06.webp",
+      "heading_pinyin": "gōng zi xiǎo bái xiān huí dào le qí guó",
+      "pinyin": "guǎn zhòng shè zhōng gōng zi xiǎo bái hòu yǐ wéi tā yǐ jīng sǐ le méi xiǎng dào gōng zi xiǎo bái bìng méi yǒu sǐ qù hái qiǎng xiān huí dào qí guó jì rèn le guó jūn"
+    },
+    {
+      "page": 7,
+      "heading": "战败后的条件",
+      "text": "齐鲁交战后，鲁军战败。齐国提出条件：处死公子纠，并把管仲交出来。鲁庄公想用金银求情，可齐国坚持不改主意。",
+      "illustration_prompt": "Original children's-book historical illustration in a formal ancient diplomatic hall: a Qi envoy presents firm conditions before Lu rulers, while a tray of gold remains untouched and a worried adviser gestures for mercy. No violence, no readable writing, historical robes and banners without symbols, soft gouache and pencil texture, no subtitles, logos, or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        435.39,
+        523.12
+      ],
+      "visual_time_range": [
+        446.11,
+        517.84
+      ],
+      "visual_anchors": [
+        "齐鲁外交大厅",
+        "齐国使臣",
+        "鲁庄公",
+        "未被接受的金银",
+        "严肃的谈判"
+      ],
+      "key_content": {
+        "location": "鲁国宫廷议事厅",
+        "animals": [],
+        "activity": "齐国使臣提出处置公子纠和管仲的条件",
+        "stakes": "鲁国要在交出管仲与继续冲突之间选择",
+        "outcome": "鲁庄公答应齐国条件",
+        "visual_focus": "外交谈判中的金银与坚定条件"
+      },
+      "reference_frames": [
+        "references/page_07/ref_01_460.46s.jpg",
+        "references/page_07/ref_02_481.98s.jpg",
+        "references/page_07/ref_03_503.49s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_07.webp",
+      "heading_pinyin": "zhàn bài hòu de tiáo jiàn",
+      "pinyin": "qí lǔ jiāo zhàn hòu lǔ jūn zhàn bài qí guó tí chū tiáo jiàn chǔ sǐ gōng zi jiū bìng bǎ guǎn zhòng jiāo chū lái lǔ zhuāng gōng xiǎng yòng jīn yín qiú qíng kě qí guó jiān chí bù gǎi zhǔ yì"
+    },
+    {
+      "page": 8,
+      "heading": "落难路上的管仲",
+      "text": "管仲被捆绑押往齐国，一路上又饥又渴，吃了很多苦。他走到齐吴边界，只希望守边官员给自己一些饭菜。",
+      "illustration_prompt": "Original child-friendly historical illustration of Guan Zhong traveling under guard along a dusty road toward Qi, tired and thirsty but dignified, approaching a small border station. Show the hardship gently without cruelty, with a water jar and simple meal nearby, warm afternoon light, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        525.68,
+        552.73
+      ],
+      "visual_time_range": [
+        525.68,
+        552.73
+      ],
+      "visual_anchors": [
+        "押送齐国的道路",
+        "被捆绑的管仲",
+        "疲惫与口渴",
+        "齐吴边界小站",
+        "水罐与饭菜"
+      ],
+      "key_content": {
+        "location": "齐吴边界",
+        "animals": [],
+        "activity": "管仲被押送途中请求食物",
+        "stakes": "落难中的管仲又饿又渴",
+        "outcome": "他向守边官员开口求助",
+        "visual_focus": "尘土道路、边界小站和求食的管仲"
+      },
+      "reference_frames": [
+        "references/page_08/ref_01_531.09s.jpg",
+        "references/page_08/ref_02_539.20s.jpg",
+        "references/page_08/ref_03_547.32s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_08.webp",
+      "heading_pinyin": "luò nàn lù shàng de guǎn zhòng",
+      "pinyin": "guǎn zhòng bèi kǔn bǎng yā wǎng qí guó yī lù shàng yòu jī yòu kě chī le hěn duō kǔ tā zǒu dào qí wú biān jiè zhǐ xī wàng shǒu biān guān yuán gěi zì jǐ yī xiē fàn cài"
+    },
+    {
+      "page": 9,
+      "heading": "一顿饭换不来报答",
+      "text": "守边官员早就听说管仲的威名，愿意给他饭吃。他问：如果管仲将来被任用，要怎样报答？管仲回答，他会任用贤人、使用能人、奖赏有功的人。",
+      "illustration_prompt": "Original children's-book historical illustration at a humble border station: a kind border official offers a steaming bowl and water to Guan Zhong, who answers thoughtfully while guards wait in the background. Show mutual respect, simple wooden table, evening light, soft gouache and pencil texture, no readable writing, subtitles, logos, or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        553.93,
+        590.84
+      ],
+      "visual_time_range": [
+        553.93,
+        590.84
+      ],
+      "visual_anchors": [
+        "边界守卫小站",
+        "热气腾腾的饭菜",
+        "善良的守边官员",
+        "思考中的管仲",
+        "押送队伍"
+      ],
+      "key_content": {
+        "location": "齐吴边界小站",
+        "animals": [],
+        "activity": "守边官员给落难的管仲饭吃并询问回报",
+        "stakes": "真正的报答不能只用财物衡量",
+        "outcome": "管仲承诺将来重用贤能、奖赏功劳",
+        "visual_focus": "一碗饭与任用贤能的承诺"
+      },
+      "reference_frames": [
+        "references/page_09/ref_01_561.31s.jpg",
+        "references/page_09/ref_02_572.38s.jpg",
+        "references/page_09/ref_03_583.46s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_09.webp",
+      "heading_pinyin": "yī dùn fàn huàn bù lái bào dá",
+      "pinyin": "shǒu biān guān yuán zǎo jiù tīng shuō guǎn zhòng de wēi míng yuàn yì gěi tā fàn chī tā wèn rú guǒ guǎn zhòng jiāng lái bèi rèn yòng yào zěn yàng bào dá guǎn zhòng huí dá tā huì rèn yòng xián rén shǐ yòng néng rén jiǎng shǎng yǒu gōng de rén"
+    },
+    {
+      "page": 10,
+      "heading": "齐桓公选择了管仲",
+      "text": "管仲到达齐国都城后，鲍叔牙亲自迎接。齐桓公没有只想着报仇，反而任命管仲为相国；鲍叔牙还愿意做他的副手。",
+      "illustration_prompt": "Original children's-book historical illustration in a grand Qi palace courtyard: Bao Shuya warmly welcomes Guan Zhong while Duke Huan of Qi presents an official seal appointing Guan Zhong, with Bao Shuya standing willingly at his side. Celebratory but dignified, historical architecture, red and gold accents, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        593.48,
+        609.36
+      ],
+      "visual_time_range": [
+        593.48,
+        609.36
+      ],
+      "visual_anchors": [
+        "齐国都城宫廷",
+        "鲍叔牙迎接管仲",
+        "齐桓公",
+        "相国官印",
+        "主动站在一旁的副手"
+      ],
+      "key_content": {
+        "location": "齐国都城宫廷",
+        "animals": [],
+        "activity": "齐桓公任命管仲为相国，鲍叔牙做副手",
+        "stakes": "齐桓公要在报仇和重用人才之间选择",
+        "outcome": "齐桓公不计前嫌，选择任用管仲",
+        "visual_focus": "任命官印与鲍叔牙的主动让位"
+      },
+      "reference_frames": [
+        "references/page_10/ref_01_596.66s.jpg",
+        "references/page_10/ref_02_601.42s.jpg",
+        "references/page_10/ref_03_606.18s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_10.webp",
+      "heading_pinyin": "qí huán gōng xuǎn zé le guǎn zhòng",
+      "pinyin": "guǎn zhòng dào dá qí guó dū chéng hòu bào shū yá qīn zì yíng jiē qí huán gōng méi yǒu zhǐ xiǎng zhe bào chóu fǎn ér rèn mìng guǎn zhòng wèi xiàng guó bào shū yá huán yuàn yì zuò tā de fù shǒu"
+    },
+    {
+      "page": 11,
+      "heading": "管仲不敢相信",
+      "text": "管仲曾经为了公子纠射伤齐桓公，所以他不明白：齐桓公为什么不报仇，反而让自己做相国呢？",
+      "illustration_prompt": "Original children's-book historical illustration of Guan Zhong looking astonished and humbled before Duke Huan's palace throne, with a small memory-like arrow silhouette fading behind him to symbolize the past. No graphic injury, warm respectful atmosphere, ancient hall, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        612.53,
+        621.41
+      ],
+      "visual_time_range": [
+        612.53,
+        621.41
+      ],
+      "visual_anchors": [
+        "齐国宫殿",
+        "惊讶的管仲",
+        "齐桓公的王座",
+        "淡去的箭影",
+        "放下旧怨的气氛"
+      ],
+      "key_content": {
+        "location": "齐国宫廷",
+        "animals": [],
+        "activity": "管仲回想射箭旧事并疑惑齐桓公的决定",
+        "stakes": "私人旧怨可能遮住对人才的判断",
+        "outcome": "管仲等待齐桓公解释任命原因",
+        "visual_focus": "管仲的惊讶与渐渐淡去的旧箭影"
+      },
+      "reference_frames": [
+        "references/page_11/ref_01_614.31s.jpg",
+        "references/page_11/ref_02_616.97s.jpg",
+        "references/page_11/ref_03_619.63s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_11.webp",
+      "heading_pinyin": "guǎn zhòng bù gǎn xiāng xìn",
+      "pinyin": "guǎn zhòng céng jīng wèi le gōng zi jiū shè shāng qí huán gōng suǒ yǐ tā bù míng bái qí huán gōng wèi shén me bù bào chóu fǎn ér ràng zì jǐ zuò xiàng guó ne"
+    },
+    {
+      "page": 12,
+      "heading": "鲍叔牙主动举荐",
+      "text": "鲍叔牙说，管仲有治理国家的才能，是难得的人才。只要辅佐同一个君主，就应该放下私人恩怨，把国家大事放在前面。",
+      "illustration_prompt": "Original children's-book historical illustration of Bao Shuya speaking calmly and confidently before Duke Huan and Guan Zhong, gesturing toward a large shared map of Qi while offering Guan Zhong the central official seal. Bao Shuya stands slightly behind to show humility, warm palace light, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        625.17,
+        654.34
+      ],
+      "visual_time_range": [
+        625.17,
+        654.34
+      ],
+      "visual_anchors": [
+        "鲍叔牙举荐",
+        "齐桓公与管仲",
+        "齐国地图",
+        "相国官印",
+        "主动站在后方的鲍叔牙"
+      ],
+      "key_content": {
+        "location": "齐国宫廷议事厅",
+        "animals": [],
+        "activity": "鲍叔牙举荐管仲并说明应以大局为重",
+        "stakes": "私人恩怨会阻碍国家使用真正的人才",
+        "outcome": "齐桓公接受举荐，管仲获得重用",
+        "visual_focus": "共同的国家地图与举荐人才的手势"
+      },
+      "reference_frames": [
+        "references/page_12/ref_01_631.00s.jpg",
+        "references/page_12/ref_02_639.75s.jpg",
+        "references/page_12/ref_03_648.51s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_12.webp",
+      "heading_pinyin": "bào shū yá zhǔ dòng jǔ jiàn",
+      "pinyin": "bào shū yá shuō guǎn zhòng yǒu zhì lǐ guó jiā de cái néng shì nán dé de rén cái zhǐ yào fǔ zuǒ tóng yī gè jūn zhǔ jiù yīng gāi fàng xià sī rén ēn yuàn bǎ guó jiā dà shì fàng zài qián miàn"
+    },
+    {
+      "page": 13,
+      "heading": "把人放在合适的位置",
+      "text": "鲍叔牙还说，用人要掂量每个人的才能，把人放在合适的位置上。自己不贪恋相国之位，愿意做管仲的助手，这正是任人唯贤。",
+      "illustration_prompt": "Original educational children's-book illustration of a harmonious Qi government team arranging three different tools—scroll, compass, and seal—into the hands of the people best suited to use them. Guan Zhong leads at the center while Bao Shuya stands gladly as assistant, symbolic and historical, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        634.9,
+        665.64
+      ],
+      "visual_time_range": [
+        634.9,
+        665.64
+      ],
+      "visual_anchors": [
+        "管仲与鲍叔牙同朝为官",
+        "不同才能的象征工具",
+        "合适的位置",
+        "副手身份",
+        "合作的朝廷"
+      ],
+      "key_content": {
+        "location": "齐国朝廷",
+        "animals": [],
+        "activity": "管仲和鲍叔牙按才能分工合作",
+        "stakes": "位置错配或贪恋权位会浪费人才",
+        "outcome": "鲍叔牙甘居副手，管仲答应竭尽全力",
+        "visual_focus": "不同工具交给最适合的人"
+      },
+      "reference_frames": [
+        "references/page_13/ref_01_641.05s.jpg",
+        "references/page_13/ref_02_650.27s.jpg",
+        "references/page_13/ref_03_659.49s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_13.webp",
+      "heading_pinyin": "bǎ rén fàng zài hé shì de wèi zhì",
+      "pinyin": "bào shū yá hái shuō yòng rén yào diān liáng měi gè rén de cái néng bǎ rén fàng zài hé shì de wèi zhì shàng zì jǐ bù tān liàn xiàng guó zhī wèi yuàn yì zuò guǎn zhòng de zhù shǒu zhè zhèng shì rèn rén wéi xián"
+    },
+    {
+      "page": 14,
+      "heading": "琪琪说出了道理",
+      "text": "故事讲完了，琪琪明白：任用人才时，不能带着私欲和成见，要根据每个人的才能和特长慎重挑选，才能人尽其用。",
+      "illustration_prompt": "Original children's-book illustration in the cultural palace: the small white robot confidently explains the lesson beside a wall of colorful puzzle pieces, each piece fitting a different skill into a shared picture of a thriving community. Professor listens proudly, bright gentle palette, soft gouache and pencil texture, no readable writing, subtitles, logos, or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        666.64,
+        706.93
+      ],
+      "visual_time_range": [
+        666.64,
+        706.93
+      ],
+      "visual_anchors": [
+        "文化宫课堂",
+        "琪琪总结故事",
+        "不同形状的才能拼图",
+        "陈教授认真倾听",
+        "共同建设的社区图景"
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [],
+        "activity": "琪琪总结鲍叔牙和管仲的故事道理",
+        "stakes": "成见和私欲会让人才无法发挥作用",
+        "outcome": "琪琪说出依据才能和特长用人的原则",
+        "visual_focus": "不同才能拼成共同目标"
+      },
+      "reference_frames": [
+        "references/page_14/ref_01_674.70s.jpg",
+        "references/page_14/ref_02_686.78s.jpg",
+        "references/page_14/ref_03_698.87s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_14.webp",
+      "heading_pinyin": "qí qí shuō chū le dào lǐ",
+      "pinyin": "gù shì jiǎng wán le qí qí míng bái rèn yòng rén cái shí bù néng dài zhe sī yù hé chéng jiàn yào gēn jù měi gè rén de cái néng hé tè cháng shèn zhòng tiāo xuǎn cái néng rén jǐn qí yòng"
+    },
+    {
+      "page": 15,
+      "heading": "先看特长，再作选择",
+      "text": "用人单位聘用人才时，应充分考虑个人特长，慎重选择。对自己来说，也要把专业的事做好，坚持下去，才可能有所作为。",
+      "illustration_prompt": "Original educational children's-book illustration of a friendly community workshop where several children and adults each use a different skill—measuring, painting, planting, and organizing—while a small white robot observes how every role contributes. Warm cooperative mood, clear composition, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        707.57,
+        722.63
+      ],
+      "visual_time_range": [
+        707.57,
+        722.63
+      ],
+      "visual_anchors": [
+        "合作的工作坊",
+        "不同人的特长",
+        "认真做专业的事",
+        "持续练习",
+        "共同完成的任务"
+      ],
+      "key_content": {
+        "location": "想象中的合作工作坊",
+        "animals": [],
+        "activity": "不同的人用各自特长完成任务",
+        "stakes": "只有看见特长并坚持练习，才能发挥作用",
+        "outcome": "大家理解任人唯贤也要求做好自己的专业",
+        "visual_focus": "不同分工共同完成一件事"
+      },
+      "reference_frames": [
+        "references/page_15/ref_01_710.58s.jpg",
+        "references/page_15/ref_02_715.10s.jpg",
+        "references/page_15/ref_03_719.62s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_15.webp",
+      "heading_pinyin": "xiān kàn tè cháng zài zuò xuǎn zé",
+      "pinyin": "yòng rén dān wèi pìn yòng rén cái shí yīng chōng fèn kǎo lǜ gè rén tè cháng shèn zhòng xuǎn zé duì zì jǐ lái shuō yě yào bǎ zhuān yè de shì zuò hǎo jiān chí xià qù cái kě néng yǒu suǒ zuò wéi"
+    },
+    {
+      "page": 16,
+      "heading": "被信任，也要继续学习",
+      "text": "学校选陈教授做校长，是因为看见了他的优势和特长。陈教授也知道，第一次做校长要继续学习、继续努力，不辜负这份信任。",
+      "illustration_prompt": "Original children's-book illustration back in the cultural palace: the professor studies a new stack of leadership books and plans with the cheerful small white robot, while a warm school building glows through the window. Show trust, humility, and continued learning, soft gouache and pencil texture, no readable writing, subtitles, logos, or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        723.19,
+        748.33
+      ],
+      "visual_time_range": [
+        723.19,
+        748.33
+      ],
+      "visual_anchors": [
+        "文化宫办公室",
+        "陈教授",
+        "学习资料",
+        "白色机器人琪琪",
+        "窗外的学校建筑"
+      ],
+      "key_content": {
+        "location": "文化宫办公室",
+        "animals": [],
+        "activity": "陈教授为新职位继续学习并和琪琪加油",
+        "stakes": "得到合适位置后还要承担信任和责任",
+        "outcome": "陈教授承诺继续努力，不辜负学校信任",
+        "visual_focus": "新书、学习计划与窗外的学校"
+      },
+      "reference_frames": [
+        "references/page_16/ref_01_728.22s.jpg",
+        "references/page_16/ref_02_735.76s.jpg",
+        "references/page_16/ref_03_743.30s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e14-ren-ren-wei-xian/images/page_16.webp",
+      "heading_pinyin": "bèi xìn rèn yě yào jì xù xué xí",
+      "pinyin": "xué xiào xuǎn chén jiào shòu zuò xiào zhǎng shì yīn wèi kàn jiàn le tā de yōu shì hé tè cháng chén jiào shòu yě zhī dào dì yī cì zuò xiào zhǎng yào jì xù xué xí jì xù nǔ lì bù gū fù zhè fèn xìn rèn"
+    }
+  ],
+  "title_pinyin": "rèn rén wéi xián",
+  "subtitle_pinyin": "bào shū yá jǔ jiàn guǎn zhòng de gù shì"
+}

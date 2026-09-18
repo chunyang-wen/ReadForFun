@@ -1,0 +1,531 @@
+{
+  "title": "乘风破浪",
+  "title_pinyin": "chéng fēng pò làng",
+  "subtitle": "从少年志向到实现理想的故事",
+  "subtitle_pinyin": "cóng shào nián zhì xiàng dào shí xiàn lǐ xiǎng de gù shì",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "中华上下五千年之成语故事篇 第二季 第十九集",
+  "content_anchor_version": 1,
+  "visual_mode": "storyviz",
+  "pages": [
+    {
+      "page": 1,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e19-cheng-feng-po-lang/images/page_01.webp",
+      "heading": "一句有力量的诗",
+      "heading_pinyin": "yí jù yǒu lì liàng de shī",
+      "text": "李白写道：“长风破浪会有时，直挂云帆济沧海。”这句话让人相信，困难不会永远挡住前路。",
+      "pinyin": "lǐ bái xiě dào cháng fēng pò làng huì yǒu shí zhí guà yún fān jì cāng hǎi zhè jù huà ràng rén xiāng xìn kùn nán bú huì yǒng yuǎn dǎng zhù qián lù",
+      "layout": "full-bleed",
+      "source_time_range": [
+        134.89,
+        176.95
+      ],
+      "visual_time_range": [
+        139.93,
+        181.35
+      ],
+      "visual_anchors": [
+        "陈教授与机器人琪琪",
+        "文化宫演播厅沙发",
+        "蓝色大海与云帆想象",
+        "明亮窗光"
+      ],
+      "key_content": {
+        "location": "文化宫演播厅",
+        "animals": [],
+        "activity": "陈教授和琪琪朗读并解释李白的诗句",
+        "stakes": "琪琪想知道诗句为什么能给人力量",
+        "outcome": "诗句先留下了勇敢向前的印象",
+        "visual_focus": "机器人琪琪站在书架前，想象云帆驶过大海"
+      },
+      "illustration_prompt": "文化宫演播厅里，白色圆润的机器人琪琪站在书架和柔软坐垫旁，身后浮现一幅没有文字的想象画：蓝色大海上，一艘古船扬起高高的云帆，长风推动船只破浪前行。儿童科普绘本风格，明亮青蓝与金黄色，水彩和铅笔纹理，保留琪琪的大眼黑色面罩和白色外壳，不出现任何可读文字、字幕、标志或水印。",
+      "reference_frames": [
+        "references/page_01/ref_01_148.21s.jpg",
+        "references/page_01/ref_02_160.64s.jpg",
+        "references/page_01/ref_03_173.07s.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e19-cheng-feng-po-lang/images/page_02.webp",
+      "heading": "成语是什么意思",
+      "heading_pinyin": "chéng yǔ shì shén me yì si",
+      "text": "乘风破浪，原来指船只借着风势冲破浪头。后来，人们用它比喻排除困难，勇敢向前。",
+      "pinyin": "chéng fēng pò làng yuán lái zhǐ chuán zhī jiè zhe fēng shì chōng pò làng tóu hòu lái rén men yòng tā bǐ yù pái chú kùn nán yǒng gǎn xiàng qián",
+      "layout": "image-right",
+      "source_time_range": [
+        184.57,
+        215.72
+      ],
+      "visual_time_range": [
+        184.57,
+        215.72
+      ],
+      "visual_anchors": [
+        "陈教授讲解成语",
+        "古船扬帆",
+        "连续浪头",
+        "青蓝海面"
+      ],
+      "key_content": {
+        "location": "文化宫演播厅与海上想象画",
+        "animals": [],
+        "activity": "陈教授说明成语的本义和引申义",
+        "stakes": "读者需要把船破浪和克服困难联系起来",
+        "outcome": "成语的两层意思变得清楚",
+        "visual_focus": "扬帆的船穿过连续的浪头"
+      },
+      "illustration_prompt": "一艘古代木船在深蓝海面上借风破浪，船帆鼓起，前方浪头被船首分开，远处是开阔明亮的天空；画面一角用抽象的山石和绳结象征困难，但不出现文字。儿童科普绘本风格，青蓝海水、暖金阳光、柔和水彩和铅笔纹理，无字幕、标志或水印。",
+      "reference_frames": [
+        "references/page_02/ref_01_190.80s.jpg",
+        "references/page_02/ref_02_200.14s.jpg",
+        "references/page_02/ref_03_209.49s.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e19-cheng-feng-po-lang/images/page_03.webp",
+      "heading": "河南南阳的少年",
+      "heading_pinyin": "hé nán nán yáng de shào nián",
+      "text": "南北朝时，河南南阳有个少年叫宗悫，字元干。他从小跟着父亲和叔叔练武，年纪不大，已经很有本领。",
+      "pinyin": "nán běi cháo shí hé nán nán yáng yǒu ge shào nián jiào zōng què zì yuán gān tā cóng xiǎo gēn zhe fù qīn hé shū shu liàn wǔ nián jì bù dà yǐ jīng hěn yǒu běn lǐng",
+      "layout": "image-left",
+      "source_time_range": [
+        264.06,
+        279.93
+      ],
+      "visual_time_range": [
+        264.06,
+        279.93
+      ],
+      "visual_anchors": [
+        "南阳古宅庭院",
+        "蓝衣少年宗悫",
+        "长剑与木桩",
+        "远山与瓦檐"
+      ],
+      "key_content": {
+        "location": "南北朝河南南阳的宗府练武场",
+        "animals": [],
+        "activity": "少年宗悫跟着父亲和叔叔练拳习武",
+        "stakes": "年少的宗悫要把兴趣变成真正的本领",
+        "outcome": "他在少年时代已经练出好武艺",
+        "visual_focus": "蓝衣少年宗悫在庭院中练习武术"
+      },
+      "illustration_prompt": "南北朝河南南阳的一处古宅庭院，蓝衣少年宗悫在叔叔指导下练习武术，木桩、长剑和晨光清楚可见，古朴屋檐与庭院构成背景。儿童历史绘本风格，动作姿态清晰，青蓝衣袍、暖米色建筑、水彩和铅笔纹理，不出现文字、字幕、徽记或水印。",
+      "reference_frames": [
+        "references/page_03/ref_01_267.23s.jpg",
+        "references/page_03/ref_02_272.00s.jpg",
+        "references/page_03/ref_03_276.76s.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e19-cheng-feng-po-lang/images/page_04.webp",
+      "heading": "三天练出新进步",
+      "heading_pinyin": "sān tiān liàn chū xīn jìn bù",
+      "text": "叔叔夸宗悫进步很快，还提醒他要不骄不躁。宗悫听进了这句话，把每一次练习都当成新的挑战。",
+      "pinyin": "shū shu kuā zōng què jìn bù hěn kuài hái tí xǐng tā yào bù jiāo bù zào zōng què tīng jìn le zhè jù huà bǎ měi yí cì liàn xí dōu dàng chéng xīn de tiǎo zhàn",
+      "layout": "image-top",
+      "source_time_range": [
+        289.1,
+        304.56
+      ],
+      "visual_time_range": [
+        289.1,
+        304.56
+      ],
+      "visual_anchors": [
+        "少年收剑站立",
+        "叔叔在庭院中指导",
+        "古宅石墙",
+        "落叶与练武场"
+      ],
+      "key_content": {
+        "location": "宗府练武场",
+        "animals": [],
+        "activity": "叔叔检查练习成果，宗悫继续沉着练武",
+        "stakes": "武艺进步不能变成骄傲自满",
+        "outcome": "宗悫学会在进步时保持冷静",
+        "visual_focus": "叔叔赞许地看着收剑站稳的宗悫"
+      },
+      "illustration_prompt": "古宅练武场上，年长的叔叔面带赞许地看着收剑站稳的少年宗悫；旁边有练习用的木桩和落叶，动作结束后的安静呼吸感清楚可见。儿童历史绘本风格，柔和晨光，蓝灰衣袍与暖棕庭院，水彩和铅笔纹理，无任何文字、字幕或水印。",
+      "reference_frames": [
+        "references/page_04/ref_01_292.19s.jpg",
+        "references/page_04/ref_02_296.83s.jpg",
+        "references/page_04/ref_03_301.47s.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e19-cheng-feng-po-lang/images/page_05.webp",
+      "heading": "婚宴里的热闹",
+      "heading_pinyin": "hūn yàn lǐ de rè nào",
+      "text": "哥哥的婚宴来了许多亲朋好友。宗悫忙着招呼客人，却不知道有人把热闹当成了偷窃的机会。",
+      "pinyin": "gē ge de hūn yàn lái le xǔ duō qīn péng hǎo yǒu zōng què máng zhe zhāo hū kè rén què bù zhī dào yǒu rén bǎ rè nào dàng chéng le tōu qiè de jī huì",
+      "layout": "image-right",
+      "source_time_range": [
+        305.2,
+        338.89
+      ],
+      "visual_time_range": [
+        320.32,
+        338.89
+      ],
+      "visual_anchors": [
+        "红灯笼",
+        "婚宴宾客",
+        "蓝衣少年宗悫迎客",
+        "古宅门庭"
+      ],
+      "key_content": {
+        "location": "宗府兄长的婚宴",
+        "animals": [],
+        "activity": "宾客涌入，宗悫在门前招呼来客",
+        "stakes": "人多热闹让宗府的守卫变得困难",
+        "outcome": "盗匪获得了混入府中的机会",
+        "visual_focus": "红灯笼和宾客围绕古宅门庭，宗悫迎接客人"
+      },
+      "illustration_prompt": "古代宗府婚宴的热闹门庭，红灯笼、宾客和礼盒营造喜庆气氛，蓝衣少年宗悫在门口拱手迎接来客；画面后方留出通向库房的暗处，暗示危险即将出现。儿童历史绘本风格，红金与暖棕色，水彩和铅笔纹理，不出现任何可读文字、字幕、标志或水印。",
+      "reference_frames": [
+        "references/page_05/ref_01_324.03s.jpg",
+        "references/page_05/ref_02_329.61s.jpg",
+        "references/page_05/ref_03_335.18s.jpg"
+      ]
+    },
+    {
+      "page": 6,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e19-cheng-feng-po-lang/images/page_06.webp",
+      "heading": "盗匪混进宗府",
+      "heading_pinyin": "dào fěi hùn jìn zōng fǔ",
+      "text": "盗匪趁宾客很多，悄悄分头行动：有人望风，有人守门，还有人冲向库房搬东西。",
+      "pinyin": "dào fěi chèn bīn kè hěn duō qiāo qiāo fēn tóu xíng dòng yǒu rén wàng fēng yǒu rén shǒu mén hái yǒu rén chōng xiàng kù fáng bān dōng xi",
+      "layout": "image-left",
+      "source_time_range": [
+        342.09,
+        386.91
+      ],
+      "visual_time_range": [
+        342.09,
+        386.91
+      ],
+      "visual_anchors": [
+        "蒙面盗匪",
+        "木箱与库房",
+        "深红宅院",
+        "盗匪在门边望风"
+      ],
+      "key_content": {
+        "location": "宗府前院、后院和库房",
+        "animals": [],
+        "activity": "盗匪分工望风、守门并搬走库房物品",
+        "stakes": "宗府的财物和婚宴秩序都受到威胁",
+        "outcome": "盗匪开始搬运物品，危机暴露",
+        "visual_focus": "几名盗匪在库房门口抬起箱子，另有人在远处望风"
+      },
+      "illustration_prompt": "古代宅院库房内外的紧张场景，几名穿深色短打的盗匪抬起木箱向外搬运，另一名盗匪在门边警戒，远处能看到婚宴灯笼；儿童历史绘本风格，叙事清楚但不恐怖，暖红灯光和深蓝阴影，水彩铅笔纹理，不出现文字、字幕或水印。",
+      "reference_frames": [
+        "references/page_06/ref_01_351.05s.jpg",
+        "references/page_06/ref_02_364.50s.jpg",
+        "references/page_06/ref_03_377.95s.jpg"
+      ]
+    },
+    {
+      "page": 7,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e19-cheng-feng-po-lang/images/page_07.webp",
+      "heading": "听见呼喊先别慌",
+      "heading_pinyin": "tīng jiàn hū hǎn xiān bié huāng",
+      "text": "府里有人发现盗匪，大家一下子慌了起来。宗悫让众人拿好武器，带着伙伴赶往库房。",
+      "pinyin": "fǔ lǐ yǒu rén fā xiàn dào fěi dà jiā yí xià zi huāng le qǐ lái zōng què ràng zhòng rén ná hǎo wǔ qì dài zhe huǒ bàn gǎn wǎng kù fáng",
+      "layout": "image-top",
+      "source_time_range": [
+        389.71,
+        428.08
+      ],
+      "visual_time_range": [
+        404.51,
+        428.08
+      ],
+      "visual_anchors": [
+        "宗悫举手安抚众人",
+        "惊慌的家人",
+        "库房方向",
+        "武器与红柱"
+      ],
+      "key_content": {
+        "location": "宗府院落通往库房的路上",
+        "animals": [],
+        "activity": "家人呼喊示警，宗悫集合伙伴准备迎敌",
+        "stakes": "盗匪人数众多，慌乱会让大家失去防守机会",
+        "outcome": "宗悫让大家镇定下来并主动迎战",
+        "visual_focus": "宗悫举手安抚众人，伙伴们拿着武器跟在身后"
+      },
+      "illustration_prompt": "宗府院落中，蓝衣少年宗悫举手让惊慌的人们安静下来，几名伙伴拿着木棍和长剑站到他身后，远处库房门口透出紧张的灯光。儿童历史绘本风格，人物动作和视线明确，暖金灯光、青灰夜色，水彩和铅笔纹理，无任何文字、字幕或水印。",
+      "reference_frames": [
+        "references/page_07/ref_01_409.22s.jpg",
+        "references/page_07/ref_02_416.29s.jpg",
+        "references/page_07/ref_03_423.37s.jpg"
+      ]
+    },
+    {
+      "page": 8,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e19-cheng-feng-po-lang/images/page_08.webp",
+      "heading": "少年拔剑迎敌",
+      "heading_pinyin": "shào nián bá jiàn yíng dí",
+      "text": "盗匪嘲笑宗悫年纪小。宗悫没有退缩，拔剑迎战，很快打得盗匪连连后退。",
+      "pinyin": "dào fěi cháo xiào zōng què nián jì xiǎo zōng què méi yǒu tuì suō bá jiàn yíng zhàn hěn kuài dǎ de dào fěi lián lián hòu tuì",
+      "layout": "full-bleed",
+      "source_time_range": [
+        433.68,
+        459.45
+      ],
+      "visual_time_range": [
+        433.68,
+        459.45
+      ],
+      "visual_anchors": [
+        "宗悫拔剑",
+        "盗匪持刀逼近",
+        "库房前空地",
+        "青灰夜色与剑光"
+      ],
+      "key_content": {
+        "location": "宗府库房前",
+        "animals": [],
+        "activity": "宗悫拔剑迎战并逼退盗匪",
+        "stakes": "少年必须面对人数更多、言语挑衅的盗匪",
+        "outcome": "宗悫凭武艺占据上风",
+        "visual_focus": "宗悫挥剑挡住盗匪，木箱和库房门构成战斗背景"
+      },
+      "illustration_prompt": "宗府库房前的动态战斗画面，蓝衣少年宗悫坚定挥剑挡住一名盗匪，其他盗匪踉跄后退，木箱散在一旁；儿童历史绘本风格，动作夸张但不血腥，红灯笼、青灰夜色和金色剑光，水彩铅笔纹理，不出现文字、字幕、徽记或水印。",
+      "reference_frames": [
+        "references/page_08/ref_01_438.83s.jpg",
+        "references/page_08/ref_02_446.56s.jpg",
+        "references/page_08/ref_03_454.30s.jpg"
+      ]
+    },
+    {
+      "page": 9,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e19-cheng-feng-po-lang/images/page_09.webp",
+      "heading": "他的志向像长风",
+      "heading_pinyin": "tā de zhì xiàng xiàng cháng fēng",
+      "text": "盗匪越聚越多，宗悫和伙伴及时撤回。大家夸他胆略不凡，问他长大想做什么，他回答：“愿乘长风破万里浪。”",
+      "pinyin": "dào fěi yuè jù yuè duō zōng què hé huǒ bàn jí shí chè huí dà jiā kuā tā dǎn lüè bù fán wèn tā zhǎng dà xiǎng zuò shén me tā huí dá yuàn chéng cháng fēng pò wàn lǐ làng",
+      "layout": "image-right",
+      "source_time_range": [
+        461.45,
+        487.12
+      ],
+      "visual_time_range": [
+        472.32,
+        487.12
+      ],
+      "visual_anchors": [
+        "少年宗悫抬头",
+        "庭院石墙",
+        "众人称赞",
+        "海浪与云帆想象"
+      ],
+      "key_content": {
+        "location": "宗府庭院",
+        "animals": [],
+        "activity": "众人称赞宗悫，宗悫说出自己的少年志向",
+        "stakes": "一次胜利能否变成面对更大困难的勇气",
+        "outcome": "宗悫立下乘长风破万里浪的志向",
+        "visual_focus": "少年宗悫站在庭院中央，身后展开海浪与云帆的想象"
+      },
+      "illustration_prompt": "宗府庭院里，众人围着刚刚收剑的少年宗悫，宗悫抬头望向远方；他的身后以无文字的想象画呈现宽阔海面、长风和高挂云帆，象征远大的志向。儿童历史绘本风格，暖金人物灯光与青蓝海天相融，水彩铅笔纹理，不出现任何文字、字幕或水印。",
+      "reference_frames": [
+        "references/page_09/ref_01_475.28s.jpg",
+        "references/page_09/ref_02_479.72s.jpg",
+        "references/page_09/ref_03_484.16s.jpg"
+      ]
+    },
+    {
+      "page": 10,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e19-cheng-feng-po-lang/images/page_10.webp",
+      "heading": "边境传来战报",
+      "heading_pinyin": "biān jìng chuán lái zhàn bào",
+      "text": "几年后，林邑王范阳迈侵扰边境。宗悫主动请求做先锋，凭着少年时练出的武艺和胆识，走上报国的战场。",
+      "pinyin": "jǐ nián hòu lín yì wáng fàn yáng mài qīn rǎo biān jìng zōng què zhǔ dòng qǐng qiú zuò xiān fēng píng zhe shào nián shí liàn chū de wǔ yì hé dǎn shí zǒu shàng bào guó de zhàn chǎng",
+      "layout": "image-left",
+      "source_time_range": [
+        513.05,
+        559.57
+      ],
+      "visual_time_range": [
+        541.33,
+        559.57
+      ],
+      "visual_anchors": [
+        "宫殿台阶",
+        "宗悫抱拳请战",
+        "朱红宫柱",
+        "远处山河与军旗"
+      ],
+      "key_content": {
+        "location": "南朝宋宫廷与边境战场",
+        "animals": [],
+        "activity": "宗悫主动请命担任先锋，接受出征任命",
+        "stakes": "林邑王侵扰边境，国家需要勇敢的将领",
+        "outcome": "宗悫被任为振武将军，走上战场",
+        "visual_focus": "宫殿中宗悫抱拳请战，远处展开边境山河"
+      },
+      "illustration_prompt": "南朝宋宫廷中，年轻的宗悫穿整洁战袍抱拳请战，皇帝在台阶上郑重任命他，宫门外远处是山河和即将出征的军旗；儿童历史绘本风格，庄重但明亮，朱红宫柱、青绿色山河和金色光线，水彩铅笔纹理，不出现文字、字幕或水印。",
+      "reference_frames": [
+        "references/page_10/ref_01_544.98s.jpg",
+        "references/page_10/ref_02_550.45s.jpg",
+        "references/page_10/ref_03_555.92s.jpg"
+      ]
+    },
+    {
+      "page": 11,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e19-cheng-feng-po-lang/images/page_11.webp",
+      "heading": "围住区粟城",
+      "heading_pinyin": "wéi zhù qū sù chéng",
+      "text": "宋军围困区粟城，守将范扶龙可能正在等待援兵。宗悫明白，必须先挡住援军，战事才有转机。",
+      "pinyin": "sòng jūn wéi kùn qū sù chéng shǒu jiàng fàn fú lóng kě néng zhèng zài děng dài yuán bīng zōng què míng bái bì xū xiān dǎng zhù yuán jūn zhàn shì cái yǒu zhuǎn jī",
+      "layout": "image-top",
+      "source_time_range": [
+        570.01,
+        599.73
+      ],
+      "visual_time_range": [
+        570.01,
+        599.73
+      ],
+      "visual_anchors": [
+        "古代将领议事",
+        "区粟城城墙",
+        "兵器架",
+        "无文字沙盘地图"
+      ],
+      "key_content": {
+        "location": "区粟城城外的宋军营地",
+        "animals": [],
+        "activity": "宋军围城议事，宗悫接受拦截援军的任务",
+        "stakes": "援军一到，围城计划就可能失败",
+        "outcome": "宗悫决定把兵力转向援军必经之路",
+        "visual_focus": "城墙、军营和地图共同表现围城与援军方向"
+      },
+      "illustration_prompt": "古代城墙外的宋军营地，宗悫和将领们围着无文字的沙盘地图商议，远处是被围困的区粟城城墙，山路从城外通向密林；儿童历史绘本风格，清楚表现军事计划但不出现文字，赭石城墙、深青山林、暖金营火，水彩和铅笔纹理，无字幕或水印。",
+      "reference_frames": [
+        "references/page_11/ref_01_575.95s.jpg",
+        "references/page_11/ref_02_584.87s.jpg",
+        "references/page_11/ref_03_593.79s.jpg"
+      ]
+    },
+    {
+      "page": 12,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e19-cheng-feng-po-lang/images/page_12.webp",
+      "heading": "老林子里的计策",
+      "heading_pinyin": "lǎo lín zi lǐ de jì cè",
+      "text": "援军一定会经过林道。宗悫带兵藏在老林子里，等敌军进入包围圈，再突然出击。",
+      "pinyin": "yuán jūn yí dìng huì jīng guò lín dào zōng què dài bīng cáng zài lǎo lín zi lǐ děng dí jūn jìn rù bāo wéi quān zài tū rán chū jī",
+      "layout": "image-right",
+      "source_time_range": [
+        610.33,
+        628.01
+      ],
+      "visual_time_range": [
+        610.33,
+        628.01
+      ],
+      "visual_anchors": [
+        "密林林道",
+        "宗悫与伏兵藏身",
+        "树叶遮挡",
+        "远处行军队伍"
+      ],
+      "key_content": {
+        "location": "援军必经的老林子林道",
+        "animals": [],
+        "activity": "宗悫带伏兵藏在林中等待援军进入包围圈",
+        "stakes": "伏兵若过早暴露，拦截计划就会失败",
+        "outcome": "宋军耐心埋伏，等待出击时机",
+        "visual_focus": "林道两侧的树影遮住伏兵，远处援军正在靠近"
+      },
+      "illustration_prompt": "古老密林中的狭窄林道，宋军伏兵和宗悫藏在树干、灌木与岩石后面，只露出专注的眼神；远处一队敌军沿林道靠近，阳光从树冠缝隙落下。儿童历史绘本风格，深绿、青灰和少量金色光斑，紧张但不阴暗，水彩铅笔纹理，不出现文字、字幕、徽记或水印。",
+      "reference_frames": [
+        "references/page_12/ref_01_613.87s.jpg",
+        "references/page_12/ref_02_619.17s.jpg",
+        "references/page_12/ref_03_624.47s.jpg"
+      ]
+    },
+    {
+      "page": 13,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e19-cheng-feng-po-lang/images/page_13.webp",
+      "heading": "伏兵突然出击",
+      "heading_pinyin": "fú bīng tū rán chū jī",
+      "text": "敌军走进林道后，宗悫一声令下，伏兵从四面冲出。援军来不及准备，只能慌忙撤退。",
+      "pinyin": "dí jūn zǒu jìn lín dào hòu zōng què yì shēng lìng xià fú bīng cóng sì miàn chōng chū yuán jūn lái bù jí zhǔn bèi zhǐ néng huāng máng chè tuì",
+      "layout": "full-bleed",
+      "source_time_range": [
+        631.29,
+        653.9
+      ],
+      "visual_time_range": [
+        631.29,
+        653.9
+      ],
+      "visual_anchors": [
+        "骑兵沿林道前进",
+        "两侧伏兵",
+        "突然冲出的军队",
+        "明亮天空与尘土"
+      ],
+      "key_content": {
+        "location": "老林子林道",
+        "animals": [],
+        "activity": "宗悫下令，伏兵从林道两侧包围并冲击援军",
+        "stakes": "突袭必须快而准，才能阻止援军前进",
+        "outcome": "援军措手不及，仓促撤退",
+        "visual_focus": "宗悫举剑发令，伏兵从树影中冲出，敌军转身逃跑"
+      },
+      "illustration_prompt": "老林子林道上的瞬间突袭，宗悫举剑发令，穿盔甲的宋军从道路两侧的树影中冲出，援军惊慌转身撤退；动作有方向感但不血腥，不展示伤口。儿童历史绘本风格，蓝绿色森林、红褐盔甲和穿透树冠的金色光束，水彩铅笔纹理，不出现文字、字幕、徽记或水印。",
+      "reference_frames": [
+        "references/page_13/ref_01_635.81s.jpg",
+        "references/page_13/ref_02_642.60s.jpg",
+        "references/page_13/ref_03_649.38s.jpg"
+      ]
+    },
+    {
+      "page": 14,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e19-cheng-feng-po-lang/images/page_14.webp",
+      "heading": "终于乘风破浪",
+      "heading_pinyin": "zhōng yú chéng fēng pò làng",
+      "text": "宗悫后来打了许多胜仗，被封为洮阳侯，实现了少年时的志向。只要不怕困难、勇敢前进，我们也能乘风破浪。",
+      "pinyin": "zōng què hòu lái dǎ le xǔ duō shèng zhàng bèi fēng wéi táo yáng hóu shí xiàn le shào nián shí de zhì xiàng zhǐ yào bù pà kùn nán yǒng gǎn qián jìn wǒ men yě néng chéng fēng pò làng",
+      "layout": "image-right",
+      "source_time_range": [
+        665.2,
+        693.5
+      ],
+      "visual_time_range": [
+        665.2,
+        678.32
+      ],
+      "visual_anchors": [
+        "陈教授总结故事",
+        "成年宗悫的想象剪影",
+        "胜利后的山河",
+        "远处云帆"
+      ],
+      "key_content": {
+        "location": "胜利后的古代山河与想象中的大海",
+        "animals": [],
+        "activity": "宗悫凭借长期坚持取得胜仗，实现少年志向",
+        "stakes": "远大志向需要多年努力才能实现",
+        "outcome": "宗悫立下战功并被封为洮阳侯",
+        "visual_focus": "成年宗悫站在山河前，远处云帆破浪，前后两个时代相连"
+      },
+      "illustration_prompt": "儿童历史绘本式收束画面：成年将军宗悫站在开阔山河前，身后是象征战功的军旗和温暖晨光，远处一艘古船扬起云帆破浪；画面角落以小小的回忆剪影表现少年宗悫练武，连接坚持与理想。色彩明亮、青蓝天空、金色光线、赭石山河，水彩和铅笔纹理，不出现任何文字、字幕、标志或水印。",
+      "reference_frames": [
+        "references/page_14/ref_01_667.82s.jpg",
+        "references/page_14/ref_02_671.76s.jpg",
+        "references/page_14/ref_03_675.70s.jpg"
+      ]
+    }
+  ]
+}

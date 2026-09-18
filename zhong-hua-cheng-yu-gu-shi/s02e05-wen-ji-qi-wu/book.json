@@ -1,0 +1,688 @@
+{
+  "title": "闻鸡起舞",
+  "title_pinyin": "wén jī qǐ wǔ",
+  "subtitle": "祖逖和刘琨的早起约定",
+  "subtitle_pinyin": "zǔ tì hé liú kūn de zǎo qǐ yuē dìng",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E05.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "heading": "闻鸡起舞",
+      "heading_pinyin": "wén jī qǐ wǔ",
+      "text": "天还没亮，陈教授已经起床读书。今天的故事，要从一声鸡鸣开始。",
+      "text_pinyin": "tiān hái méi liàng ， chén jiào shòu yǐ jīng qǐ chuáng dú shū 。 jīn tiān de gù shì ， yào cóng yī shēng jī míng kāi shǐ 。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        111.23,
+        173.57
+      ],
+      "visual_time_range": [
+        111.23,
+        173.57
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_01.webp",
+      "reference_frames": [
+        "references/page_01/ref_01_123.70s.jpg",
+        "references/page_01/ref_02_142.40s.jpg",
+        "references/page_01/ref_03_161.10s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本风格，深蓝清晨里一只公鸡站在屋檐上鸣叫，远处陈教授在书桌前读书，金色晨光即将出现，蓝金色温暖明亮，无文字无水印",
+      "key_content": {
+        "location": "文化宫演播台与清晨书桌",
+        "animals": [
+          "公鸡"
+        ],
+        "activity": "公鸡打鸣，陈教授早起读书",
+        "stakes": "孩子还不知道鸡鸣和故事有什么关系",
+        "outcome": "引出成语闻鸡起舞",
+        "visual_focus": "鸣叫的公鸡、书桌和黎明天空"
+      },
+      "visual_anchors": [
+        "深蓝黎明",
+        "屋檐公鸡",
+        "书桌与书卷"
+      ],
+      "pinyin": "tiān hái méi liàng chén jiào shòu yǐ jīng qǐ chuáng dú shū jīn tiān de gù shì yào cóng yī shēng jī míng kāi shǐ"
+    },
+    {
+      "page": 2,
+      "heading": "鸡叫不是鸡肉香",
+      "heading_pinyin": "jī jiào bú shì jī ròu xiāng",
+      "text": "闻鸡起舞不是闻到鸡肉的香味，而是听到鸡鸣就起床舞剑。后来，它比喻有志向的人及时奋起。",
+      "text_pinyin": "wén jī qǐ wǔ bú shì wén dào jī ròu de xiāng wèi ， ér shì tīng dào jī míng jiù qǐ chuáng wǔ jiàn 。 hòu lái ， tā bǐ yù yǒu zhì xiàng de rén jí shí fèn qǐ 。",
+      "layout": "image-right",
+      "source_time_range": [
+        176.85,
+        209.66
+      ],
+      "visual_time_range": [
+        176.85,
+        209.66
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_02.webp",
+      "reference_frames": [
+        "references/page_02/ref_01_183.41s.jpg",
+        "references/page_02/ref_02_193.25s.jpg",
+        "references/page_02/ref_03_203.10s.jpg"
+      ],
+      "illustration_prompt": "儿童科普绘本，画面左侧是孩子摇头否定鸡肉香味，右侧是古代少年听到鸡鸣后拿起木剑，晨雾和朝阳连接两个画面，无文字无水印",
+      "key_content": {
+        "location": "文化宫讲解区与古代清晨",
+        "animals": [
+          "公鸡"
+        ],
+        "activity": "辨析成语含义并听鸡鸣起身",
+        "stakes": "不能把成语按字面误解",
+        "outcome": "明白闻鸡起舞的本义和比喻义",
+        "visual_focus": "公鸡、木剑和从睡梦中起身的少年"
+      },
+      "visual_anchors": [
+        "公鸡鸣叫",
+        "木剑",
+        "晨雾朝阳"
+      ],
+      "pinyin": "wén jī qǐ wǔ bú shì wén dào jī ròu de xiāng wèi ér shì tīng dào jī míng jiù qǐ chuáng wǔ jiàn hòu lái tā bǐ yù yǒu zhì xiàng de rén jí shí fèn qǐ"
+    },
+    {
+      "page": 3,
+      "heading": "故事里的两位朋友",
+      "heading_pinyin": "gù shì lǐ de liǎng wèi péng yǒu",
+      "text": "闻鸡起舞说的是东晋人物祖逖和刘琨的故事。他们后来一起读书、讨论天下大事。",
+      "text_pinyin": "wén jī qǐ wǔ shuō de shì dōng jìn rén wù zǔ tì hé liú kūn de gù shì 。 tā men hòu lái yì qǐ dú shū 、 tǎo lùn tiān xià dà shì 。",
+      "layout": "image-left",
+      "source_time_range": [
+        254.1,
+        265.06
+      ],
+      "visual_time_range": [
+        254.1,
+        265.06
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_03.webp",
+      "reference_frames": [
+        "references/page_03/ref_01_256.29s.jpg",
+        "references/page_03/ref_02_259.58s.jpg",
+        "references/page_03/ref_03_262.87s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，两位东晋少年在书房并肩读书，桌上有书卷和木剑，窗外晨光照入，表现亲密的学习伙伴关系，无文字无水印",
+      "key_content": {
+        "location": "东晋书房",
+        "animals": [],
+        "activity": "一起读书和讨论天下大事",
+        "stakes": "两个少年要找到共同努力的方向",
+        "outcome": "祖逖和刘琨成为知己",
+        "visual_focus": "并肩读书的两位少年、书卷和木剑"
+      },
+      "visual_anchors": [
+        "东晋书房",
+        "两位少年",
+        "书卷与木剑"
+      ],
+      "pinyin": "wén jī qǐ wǔ shuō de shì dōng jìn rén wù zǔ tì hé liú kūn de gù shì tā men hòu lái yì qǐ dú shū tǎo lùn tiān xià dà shì"
+    },
+    {
+      "page": 4,
+      "heading": "集市上的小乞丐",
+      "heading_pinyin": "jí shì shàng de xiǎo qǐ gài",
+      "text": "祖逖十四五岁时不爱读书，却很讲义气。一天赶集，他看见一个饿了好几天的小乞丐。",
+      "text_pinyin": "zǔ tì shí sì wǔ suì shí bù ài dú shū ， què hěn jiǎng yì qì 。 yī tiān gǎn jí ， tā kàn jiàn yí gè è le hǎo jǐ tiān de xiǎo qǐ gài 。",
+      "layout": "image-right",
+      "source_time_range": [
+        275.3,
+        300.08
+      ],
+      "visual_time_range": [
+        282.9,
+        300.08
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_04.webp",
+      "reference_frames": [
+        "references/page_04/ref_01_286.34s.jpg",
+        "references/page_04/ref_02_291.49s.jpg",
+        "references/page_04/ref_03_296.64s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，热闹古代集市上少年祖逖发现一个瘦弱饥饿的小乞丐，包子摊和商贩在背景中，人物动作清楚但不悲惨，无文字无水印",
+      "key_content": {
+        "location": "古代集市街道",
+        "animals": [],
+        "activity": "赶集时观察饥饿的孩子",
+        "stakes": "小乞丐已经几天没有吃饭",
+        "outcome": "祖逖决定出手帮助",
+        "visual_focus": "包子摊、饥饿孩子和伸手相助的祖逖"
+      },
+      "visual_anchors": [
+        "热闹集市",
+        "包子摊",
+        "祖逖的关注目光"
+      ],
+      "pinyin": "zǔ tì shí sì wǔ suì shí bù ài dú shū què hěn jiǎng yì qì yī tiān gǎn jí tā kàn jiàn yí gè è le hǎo jǐ tiān de xiǎo qǐ gài"
+    },
+    {
+      "page": 5,
+      "heading": "先别打他",
+      "heading_pinyin": "xiān bié dǎ tā",
+      "text": "小乞丐饿得抢了包子，摊主想打他。祖逖说：他是饿急了，不能这样对待一个活生生的人。",
+      "text_pinyin": "xiǎo qǐ gài è dé qiǎng le bāo zi ， tān zhǔ xiǎng dǎ tā 。 zǔ tì shuō ： tā shì è jí le ， bù néng zhè yàng duì dài yí gè huó shēng shēng de rén 。",
+      "layout": "image-left",
+      "source_time_range": [
+        289.3,
+        323.92
+      ],
+      "visual_time_range": [
+        289.3,
+        323.92
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_05.webp",
+      "reference_frames": [
+        "references/page_05/ref_01_296.22s.jpg",
+        "references/page_05/ref_02_306.61s.jpg",
+        "references/page_05/ref_03_317.00s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，包子摊前祖逖抬手阻止生气的摊主，小乞丐护着一个包子，集市人群停下来观看，画面表现保护和劝解，无文字无水印",
+      "key_content": {
+        "location": "古代集市包子摊前",
+        "animals": [],
+        "activity": "阻止打人并解释饥饿原因",
+        "stakes": "小乞丐可能因为饥饿受罚",
+        "outcome": "祖逖为他争取到理解",
+        "visual_focus": "祖逖阻拦的手、小乞丐和包子摊主"
+      },
+      "visual_anchors": [
+        "包子摊",
+        "阻拦动作",
+        "围观人群"
+      ],
+      "pinyin": "xiǎo qǐ gài è dé qiǎng le bāo zi tān zhǔ xiǎng dǎ tā zǔ tì shuō tā shì è jí le bù néng zhè yàng duì dài yí gè huó shēng shēng de rén"
+    },
+    {
+      "page": 6,
+      "heading": "用钱买下包子",
+      "heading_pinyin": "yòng qián mǎi xià bāo zi",
+      "text": "祖逖替小乞丐付了钱，让他赶快吃。小小的帮助，先救了眼前的饥饿。",
+      "text_pinyin": "zǔ tì tì xiǎo qǐ gài fù le qián ， ràng tā gǎn kuài chī 。 xiǎo xiǎo de bāng zhù ， xiān jiù le yǎn qián de jī è 。",
+      "layout": "image-right",
+      "source_time_range": [
+        324.16,
+        336.09
+      ],
+      "visual_time_range": [
+        324.16,
+        336.09
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_06.webp",
+      "reference_frames": [
+        "references/page_06/ref_01_326.55s.jpg",
+        "references/page_06/ref_02_330.12s.jpg",
+        "references/page_06/ref_03_333.70s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，祖逖把钱递给包子摊主，再把热包子交给小乞丐，小乞丐双手接过并露出感激表情，柔和市集阳光，无文字无水印",
+      "key_content": {
+        "location": "古代集市包子摊",
+        "animals": [],
+        "activity": "付钱买包子并帮助饥饿孩子",
+        "stakes": "孩子需要马上得到食物",
+        "outcome": "小乞丐终于可以吃东西",
+        "visual_focus": "钱、热包子和交接食物的双手"
+      },
+      "visual_anchors": [
+        "热包子",
+        "递钱",
+        "感激的笑容"
+      ],
+      "pinyin": "zǔ tì tì xiǎo qǐ gài fù le qián ràng tā gǎn kuài chī xiǎo xiǎo de bāng zhù xiān jiù le yǎn qián de jī è"
+    },
+    {
+      "page": 7,
+      "heading": "只行侠仗义还不够",
+      "heading_pinyin": "zhǐ xíng xiá zhàng yì hái bù gòu",
+      "text": "祖逖的家人提醒他：扶危济困很好，但还要读书。只有增长本领，长大后才能真正报效国家。",
+      "text_pinyin": "zǔ tì de jiā rén tí xǐng tā ： fú wēi jì kùn hěn hǎo ， dàn hái yào dú shū 。 zhǐ yǒu zēng zhǎng běn lǐng ， zhǎng dà hòu cái néng zhēn zhèng bào xiào guó jiā 。",
+      "layout": "image-left",
+      "source_time_range": [
+        347.35,
+        381.72
+      ],
+      "visual_time_range": [
+        347.35,
+        381.72
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_07.webp",
+      "reference_frames": [
+        "references/page_07/ref_01_354.22s.jpg",
+        "references/page_07/ref_02_364.54s.jpg",
+        "references/page_07/ref_03_374.85s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，家中长辈指向书卷耐心劝说，少年祖逖坐在桌边认真倾听，窗外集市的热闹渐远，室内温暖安静，无文字无水印",
+      "key_content": {
+        "location": "祖逖家中的书桌旁",
+        "animals": [],
+        "activity": "劝少年把帮助别人和读书结合起来",
+        "stakes": "祖逖需要找到长久报国的方式",
+        "outcome": "他恍然大悟，决定发奋读书",
+        "visual_focus": "指向书卷的手和认真倾听的祖逖"
+      },
+      "visual_anchors": [
+        "家中书桌",
+        "打开的书卷",
+        "耐心劝说"
+      ],
+      "pinyin": "zǔ tì de jiā rén tí xǐng tā fú wēi jì kùn hěn hǎo dàn hái yào dú shū zhǐ yǒu zēng zhǎng běn lǐng zhǎng dà hòu cái néng zhēn zhèng bào xiào guó jiā"
+    },
+    {
+      "page": 8,
+      "heading": "从此发奋读书",
+      "heading_pinyin": "cóng cǐ fā fèn dú shū",
+      "text": "祖逖明白了：光有热心还不够，还要学习本领。后来，他被举荐到司州做官，认识了刘琨。",
+      "text_pinyin": "zǔ tì míng bái le ： guāng yǒu rè xīn hái bù gòu ， hái yào xué xí běn lǐng 。 hòu lái ， tā bèi jǔ jiàn dào sī zhōu zuò guān ， rèn shí le liú kūn 。",
+      "layout": "image-right",
+      "source_time_range": [
+        384.2,
+        397.24
+      ],
+      "visual_time_range": [
+        384.2,
+        397.24
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_08.webp",
+      "reference_frames": [
+        "references/page_08/ref_01_386.81s.jpg",
+        "references/page_08/ref_02_390.72s.jpg",
+        "references/page_08/ref_03_394.63s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，祖逖在书桌前专心读书，画面右侧渐变为他与刘琨在司州官署相遇，两段人生用晨光连接，无文字无水印",
+      "key_content": {
+        "location": "祖逖家中书房到司州官署",
+        "animals": [],
+        "activity": "发奋读书并被举荐做官",
+        "stakes": "祖逖能否把志向变成真正的本领",
+        "outcome": "他开始学习并遇见刘琨",
+        "visual_focus": "读书的祖逖、官署和初次相遇的朋友"
+      },
+      "visual_anchors": [
+        "书房晨光",
+        "官署门廊",
+        "初遇的两位朋友"
+      ],
+      "pinyin": "zǔ tì míng bái le guāng yǒu rè xīn hái bù gòu hái yào xué xí běn lǐng hòu lái tā bèi jǔ jiàn dào sī zhōu zuò guān rèn shí le liú kūn"
+    },
+    {
+      "page": 9,
+      "heading": "乱世里的知己",
+      "heading_pinyin": "luàn shì lǐ de zhī jǐ",
+      "text": "祖逖和刘琨常常一起读书、习武，讨论天下大事。他们约定，要在乱世中努力建功立业。",
+      "text_pinyin": "zǔ tì hé liú kūn cháng cháng yì qǐ dú shū 、 xí wǔ ， tǎo lùn tiān xià dà shì 。 tā men yuē dìng ， yào zài luàn shì zhōng nǔ lì jiàn gōng lì yè 。",
+      "layout": "image-left",
+      "source_time_range": [
+        397.74,
+        461.77
+      ],
+      "visual_time_range": [
+        429.37,
+        479.54
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_09.webp",
+      "reference_frames": [
+        "references/page_09/ref_01_439.40s.jpg",
+        "references/page_09/ref_02_454.46s.jpg",
+        "references/page_09/ref_03_469.51s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，两位年轻朋友在夜色书房讨论地图和天下大事，旁边放着两把木剑，窗外风云变幻，彼此信任而有志向，无文字无水印",
+      "key_content": {
+        "location": "司州官署的书房",
+        "animals": [],
+        "activity": "读书、习武、讨论天下并立下志向",
+        "stakes": "乱世中他们可能各为其主甚至兵戎相见",
+        "outcome": "两人珍惜知己关系并约定共同奋发",
+        "visual_focus": "地图、书卷、木剑和并肩交谈的朋友"
+      },
+      "visual_anchors": [
+        "夜色书房",
+        "展开地图",
+        "并排木剑"
+      ],
+      "pinyin": "zǔ tì hé liú kūn cháng cháng yì qǐ dú shū xí wǔ tǎo lùn tiān xià dà shì tā men yuē dìng yào zài luàn shì zhōng nǔ lì jiàn gōng lì yè"
+    },
+    {
+      "page": 10,
+      "heading": "鸡鸣，起床！",
+      "heading_pinyin": "jī míng ， qǐ chuáng ！",
+      "text": "一天夜里，公鸡打鸣了。祖逖叫刘琨起床习武，刘琨却还困得睁不开眼。",
+      "text_pinyin": "yī tiān yè lǐ ， gōng jī dǎ míng le 。 zǔ tì jiào liú kūn qǐ chuáng xí wǔ ， liú kūn què hái kùn dé zhēng bù kāi yǎn 。",
+      "layout": "image-right",
+      "source_time_range": [
+        506.88,
+        521.47
+      ],
+      "visual_time_range": [
+        506.88,
+        521.47
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_10.webp",
+      "reference_frames": [
+        "references/page_10/ref_01_509.80s.jpg",
+        "references/page_10/ref_02_514.17s.jpg",
+        "references/page_10/ref_03_518.55s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，天未亮的古代房间里公鸡站在窗边鸣叫，祖逖已经拿着木剑叫醒刘琨，刘琨从被褥中困倦坐起，蓝色夜光，无文字无水印",
+      "key_content": {
+        "location": "司州官署的卧房",
+        "animals": [
+          "公鸡"
+        ],
+        "activity": "鸡鸣时叫醒朋友起床",
+        "stakes": "早起的约定能否真正执行",
+        "outcome": "祖逖坚持马上练武",
+        "visual_focus": "窗边公鸡、木剑和刚醒的刘琨"
+      },
+      "visual_anchors": [
+        "未亮的天空",
+        "窗边公鸡",
+        "木剑"
+      ],
+      "pinyin": "yī tiān yè lǐ gōng jī dǎ míng le zǔ tì jiào liú kūn qǐ chuáng xí wǔ liú kūn què hái kùn dé zhēng bù kāi yǎn"
+    },
+    {
+      "page": 11,
+      "heading": "每天都练剑",
+      "heading_pinyin": "měi tiān dōu liàn jiàn",
+      "text": "祖逖说，鸡叫意味着天快亮了。报效国家不能只说不做，于是两人每天闻鸡起床练剑。",
+      "text_pinyin": "zǔ tì shuō ， jī jiào yì wèi zhe tiān kuài liàng le 。 bào xiào guó jiā bù néng zhǐ shuō bù zuò ， yú shì liǎng rén měi tiān wén jī qǐ chuáng liàn jiàn 。",
+      "layout": "image-left",
+      "source_time_range": [
+        522.75,
+        566.6
+      ],
+      "visual_time_range": [
+        542.56,
+        566.6
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_11.webp",
+      "reference_frames": [
+        "references/page_11/ref_01_547.37s.jpg",
+        "references/page_11/ref_02_554.58s.jpg",
+        "references/page_11/ref_03_561.79s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，黎明庭院里祖逖和刘琨并肩练剑，屋檐上公鸡再次鸣叫，地面有整齐脚印，表现日复一日的行动，无文字无水印",
+      "key_content": {
+        "location": "司州官署清晨庭院",
+        "animals": [
+          "公鸡"
+        ],
+        "activity": "闻鸡起床并坚持练剑",
+        "stakes": "志向必须通过每天行动来实现",
+        "outcome": "两人形成固定的早起练武习惯",
+        "visual_focus": "并肩舞剑、清晨公鸡和整齐脚印"
+      },
+      "visual_anchors": [
+        "清晨庭院",
+        "并肩练剑",
+        "屋檐公鸡"
+      ],
+      "pinyin": "zǔ tì shuō jī jiào yì wèi zhe tiān kuài liàng le bào xiào guó jiā bù néng zhǐ shuō bù zuò yú shì liǎng rén měi tiān wén jī qǐ chuáng liàn jiàn"
+    },
+    {
+      "page": 12,
+      "heading": "寒来暑往，从不间断",
+      "heading_pinyin": "hán lái shǔ wǎng ， cóng bù jiàn duàn",
+      "text": "春去冬来，寒来暑往，他们从不间断。功夫不负有心人，两人终于成为能文能武的人才。",
+      "text_pinyin": "chūn qù dōng lái ， hán lái shǔ wǎng ， tā men cóng bù jiàn duàn 。 gōng fu bù fù yǒu xīn rén ， liǎng rén zhōng yú chéng wéi néng wén néng wǔ de rén cái 。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        556.68,
+        573.12
+      ],
+      "visual_time_range": [
+        556.68,
+        573.12
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_12.webp",
+      "reference_frames": [
+        "references/page_12/ref_01_559.97s.jpg",
+        "references/page_12/ref_02_564.90s.jpg",
+        "references/page_12/ref_03_569.83s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本四季连续画面，祖逖和刘琨在春夏秋冬不同天气里读书练剑，最后站在晨光中自信挺立，温暖水粉质感，无文字无水印",
+      "key_content": {
+        "location": "司州官署庭院与书房",
+        "animals": [],
+        "activity": "四季坚持读书和练剑",
+        "stakes": "长期努力需要面对时间和天气的变化",
+        "outcome": "两人练成能文能武的本领",
+        "visual_focus": "四季变化、书卷、木剑和成长后的身影"
+      },
+      "visual_anchors": [
+        "春夏秋冬",
+        "书卷木剑",
+        "成长对照"
+      ],
+      "pinyin": "chūn qù dōng lái hán lái shǔ wǎng tā men cóng bù jiàn duàn gōng fu bù fù yǒu xīn rén liǎng rén zhōng yú chéng wéi néng wén néng wǔ de rén cái"
+    },
+    {
+      "page": 13,
+      "heading": "北方正在受苦",
+      "heading_pinyin": "běi fāng zhèng zài shòu kǔ",
+      "text": "八王之乱后，北方被游牧民族占领。祖逖看到百姓受苦，决心请求出兵北伐。",
+      "text_pinyin": "bā wáng zhī luàn hòu ， běi fāng bèi yóu mù mín zú zhàn lǐng 。 zǔ tì kàn dào bǎi xìng shòu kǔ ， jué xīn qǐng qiú chū bīng běi fá 。",
+      "layout": "image-right",
+      "source_time_range": [
+        578.88,
+        618.11
+      ],
+      "visual_time_range": [
+        578.88,
+        618.11
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_13.webp",
+      "reference_frames": [
+        "references/page_13/ref_01_586.73s.jpg",
+        "references/page_13/ref_02_598.50s.jpg",
+        "references/page_13/ref_03_610.26s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，祖逖站在江南城楼上望向北方地图，地图上有受苦百姓和被占领的城镇剪影，气氛庄重但适合儿童，无文字无水印",
+      "key_content": {
+        "location": "晋朝江南城楼与北方地图前",
+        "animals": [],
+        "activity": "观察北方局势并准备请命北伐",
+        "stakes": "北方百姓失去安宁，国家面临分裂",
+        "outcome": "祖逖下定决心请求出兵",
+        "visual_focus": "北方地图、城镇剪影和坚定的祖逖"
+      },
+      "visual_anchors": [
+        "城楼",
+        "展开地图",
+        "远方受苦百姓剪影"
+      ],
+      "pinyin": "bā wáng zhī luàn hòu běi fāng bèi yóu mù mín zú zhàn lǐng zǔ tì kàn dào bǎi xìng shòu kǔ jué xīn qǐng qiú chū bīng běi fá"
+    },
+    {
+      "page": 14,
+      "heading": "自己招募战士",
+      "heading_pinyin": "zì jǐ zhāo mù zhàn shì",
+      "text": "司马睿无意北伐，只给祖逖少量粮饷和布帛，让他自己招募战士、制造兵器。祖逖没有动摇。",
+      "text_pinyin": "sī mǎ ruì wú yì běi fá ， zhǐ gěi zǔ tì shǎo liàng liáng xiǎng hé bù bó ， ràng tā zì jǐ zhāo mù zhàn shì 、 zhì zào bīng qì 。 zǔ tì méi yǒu dòng yáo 。",
+      "layout": "image-left",
+      "source_time_range": [
+        629.79,
+        664.43
+      ],
+      "visual_time_range": [
+        644.94,
+        658.3
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_14.webp",
+      "reference_frames": [
+        "references/page_14/ref_01_647.61s.jpg",
+        "references/page_14/ref_02_651.62s.jpg",
+        "references/page_14/ref_03_655.63s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，宫殿中司马睿冷淡地交付简朴物资，祖逖郑重接过任命和布帛，身后是等待出发的少数伙伴，金色与冷色对比，无文字无水印",
+      "key_content": {
+        "location": "晋朝宫殿与出征准备处",
+        "animals": [],
+        "activity": "接受任命、领取物资并准备招募战士",
+        "stakes": "支持很少，北伐计划困难重重",
+        "outcome": "祖逖保持北伐决心",
+        "visual_focus": "任命文书、布帛和坚定接令的祖逖"
+      },
+      "visual_anchors": [
+        "宫殿",
+        "任命文书",
+        "简朴军需"
+      ],
+      "pinyin": "sī mǎ ruì wú yì běi fá zhǐ gěi zǔ tì shǎo liàng liáng xiǎng hé bù bó ràng tā zì jǐ zhāo mù zhàn shì zhì zào bīng qì zǔ tì méi yǒu dòng yáo"
+    },
+    {
+      "page": 15,
+      "heading": "渡江北伐",
+      "heading_pinyin": "dù jiāng běi fá",
+      "text": "祖逖带着跟随自己的宗族部曲，从京口渡过长江。他立志收复失地，绝不轻易回头。",
+      "text_pinyin": "zǔ tì dài zhe gēn suí zì jǐ de zōng zú bù qū ， cóng jīng kǒu dù guò cháng jiāng 。 tā lì zhì shōu fù shī dì ， jué bù qīng yì huí tóu 。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        665.07,
+        680.83
+      ],
+      "visual_time_range": [
+        665.07,
+        680.83
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_15.webp",
+      "reference_frames": [
+        "references/page_15/ref_01_668.22s.jpg",
+        "references/page_15/ref_02_672.95s.jpg",
+        "references/page_15/ref_03_677.68s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，黎明长江上祖逖站在船头率领少量队伍渡江北伐，江水宽阔，旗帜在风中展开，英雄而克制，无文字无水印",
+      "key_content": {
+        "location": "京口长江渡口",
+        "animals": [],
+        "activity": "率领队伍渡江北伐",
+        "stakes": "兵力很少却要收复北方失地",
+        "outcome": "祖逖毅然向北出发",
+        "visual_focus": "船头祖逖、渡江队伍和宽阔长江"
+      },
+      "visual_anchors": [
+        "长江渡口",
+        "船头身影",
+        "迎风旗帜"
+      ],
+      "pinyin": "zǔ tì dài zhe gēn suí zì jǐ de zōng zú bù qū cóng jīng kǒu dù guò cháng jiāng tā lì zhì shōu fù shī dì jué bù qīng yì huí tóu"
+    },
+    {
+      "page": 16,
+      "heading": "中流击楫",
+      "heading_pinyin": "zhōng liú jī jí",
+      "text": "渡江时，祖逖敲击船桨发誓：不能平定中原、收复失地，就像江水一样有去无回。",
+      "text_pinyin": "dù jiāng shí ， zǔ tì qiāo jī chuán jiǎng fā shì ： bù néng píng dìng zhōng yuán 、 shōu fù shī dì ， jiù xiàng jiāng shuǐ yī yàng yǒu qù wú huí 。",
+      "layout": "image-right",
+      "source_time_range": [
+        674.59,
+        694.77
+      ],
+      "visual_time_range": [
+        674.59,
+        694.77
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_16.webp",
+      "reference_frames": [
+        "references/page_16/ref_01_678.63s.jpg",
+        "references/page_16/ref_02_684.68s.jpg",
+        "references/page_16/ref_03_690.73s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，长江中央祖逖俯身用木桨击打江水，水花飞起，船上伙伴神情坚定，远处是北方岸线和晨光，无文字无水印",
+      "key_content": {
+        "location": "长江江面中央",
+        "animals": [],
+        "activity": "击打船桨并立下北伐誓言",
+        "stakes": "收复失地的决心不能半途而废",
+        "outcome": "后人用中流击楫比喻奋发图强",
+        "visual_focus": "击水的船桨、飞起的水花和坚定誓言"
+      },
+      "visual_anchors": [
+        "江面水花",
+        "木桨击水",
+        "晨光岸线"
+      ],
+      "pinyin": "dù jiāng shí zǔ tì qiāo jī chuán jiǎng fā shì bù néng píng dìng zhōng yuán shōu fù shī dì jiù xiàng jiāng shuǐ yī yàng yǒu qù wú huí"
+    },
+    {
+      "page": 17,
+      "heading": "有志向，也有困难",
+      "heading_pinyin": "yǒu zhì xiàng ， yě yǒu kùn nán",
+      "text": "祖逖一路北伐，打到河南腹地，却因孤立无援被迫南撤。努力前进时，也要看清真实的困难。",
+      "text_pinyin": "zǔ tì yī lù běi fá ， dǎ dào hé nán fù dì ， què yīn gū lì wú yuán bèi pò nán chè 。 nǔ lì qián jìn shí ， yě yào kàn qīng zhēn shí de kùn nán 。",
+      "layout": "image-left",
+      "source_time_range": [
+        695.65,
+        717.67
+      ],
+      "visual_time_range": [
+        695.65,
+        717.67
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_17.webp",
+      "reference_frames": [
+        "references/page_17/ref_01_700.05s.jpg",
+        "references/page_17/ref_02_706.66s.jpg",
+        "references/page_17/ref_03_713.27s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，祖逖带队在河南腹地前进后面对反击，队伍有序向南撤退，远处城池和大地铺开，表现勇敢与现实困难，无文字无水印",
+      "key_content": {
+        "location": "河南腹地到淮南",
+        "animals": [],
+        "activity": "北伐推进后因援军不足南撤",
+        "stakes": "孤军面对后赵反击，队伍难以继续深入",
+        "outcome": "祖逖退守淮南，但仍保住北方防线",
+        "visual_focus": "前进与撤退的队伍、城池和辽阔道路"
+      },
+      "visual_anchors": [
+        "河南大地",
+        "有序队伍",
+        "远处城池"
+      ],
+      "pinyin": "zǔ tì yī lù běi fá dǎ dào hé nán fù dì què yīn gū lì wú yuán bèi pò nán chè nǔ lì qián jìn shí yě yào kàn qīng zhēn shí de kùn nán"
+    },
+    {
+      "page": 18,
+      "heading": "把志向变成每天的行动",
+      "heading_pinyin": "bǎ zhì xiàng biàn chéng měi tiān de xíng dòng",
+      "text": "闻鸡起舞提醒我们：早睡早起，坚持不懈，有自己的目标，就要一步一步为它努力。",
+      "text_pinyin": "wén jī qǐ wǔ tí xǐng wǒ men ： zǎo shuì zǎo qǐ ， jiān chí bù xiè ， yǒu zì jǐ de mù biāo ， jiù yào yí bù yí bù wèi tā nǔ lì 。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        719.11,
+        750.77
+      ],
+      "visual_time_range": [
+        719.11,
+        750.77
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e05-wen-ji-qi-wu/images/page_18.webp",
+      "reference_frames": [
+        "references/page_18/ref_01_725.44s.jpg",
+        "references/page_18/ref_02_734.94s.jpg",
+        "references/page_18/ref_03_744.44s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本收束画面，清晨阳光下孩子们起床读书、运动和互相鼓励，屋檐公鸡鸣叫，远处有祖逖和刘琨的历史剪影，温暖明亮，无文字无水印",
+      "key_content": {
+        "location": "故事结束后的现代清晨想象空间",
+        "animals": [
+          "公鸡"
+        ],
+        "activity": "早起学习、运动并坚持目标",
+        "stakes": "孩子需要把故事中的志向落实到生活",
+        "outcome": "记住闻鸡起舞并开始每天行动",
+        "visual_focus": "清晨孩子、公鸡、书卷和运动身影"
+      },
+      "visual_anchors": [
+        "清晨阳光",
+        "屋檐公鸡",
+        "读书运动的孩子"
+      ],
+      "pinyin": "wén jī qǐ wǔ tí xǐng wǒ men zǎo shuì zǎo qǐ jiān chí bù xiè yǒu zì jǐ de mù biāo jiù yào yí bù yí bù wèi tā nǔ lì"
+    }
+  ]
+}

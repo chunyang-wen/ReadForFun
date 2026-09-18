@@ -1,0 +1,855 @@
+{
+  "title": "人类世界里的野生邻居",
+  "subtitle": "Planet Earth III · 第1季第7集 · Human",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/SeagateDisk/Planet.Earth.III.S01.1080p.BluRay.DDP7.1.x264-PuTao/Planet.Earth.III.S01E07.Human.1080p.BluRay.DDP7.1.x264-PuTao.mkv",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "heading": "穿过人类的世界",
+      "text": "在尼泊尔索拉哈，一头印度犀穿过村庄边缘去寻找食物。它没有迷路，只是必须学会走进一个先辈从未见过的世界。",
+      "pinyin": "zài ní pō ěr suǒ lā hā ， yī tóu yìn dù xī chuān guò cūn zhuāng biān yuán qù xún zhǎo shí wù 。 tā méi yǒu mí lù ， zhǐ shì bì xū xué huì zǒu jìn yí gè xiān bèi cóng wèi jiàn guò de shì jiè 。",
+      "layout": "image-left",
+      "source_time_range": [
+        15.0,
+        103.0
+      ],
+      "visual_time_range": [
+        18.0,
+        96.0
+      ],
+      "key_content": {
+        "location": "尼泊尔索拉哈的村庄边缘",
+        "animals": [
+          "印度犀"
+        ],
+        "activity": "印度犀穿过人类生活区寻找食物",
+        "stakes": "道路、房屋和人类活动改变了传统通道",
+        "outcome": "印度犀谨慎通过，继续找到食物",
+        "visual_focus": "犀牛与村庄、田地和道路的尺度对比"
+      },
+      "visual_anchors": [
+        "灰色印度犀",
+        "尼泊尔绿色田野与村屋",
+        "犀牛前方连续的人类道路"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。尼泊尔索拉哈清晨，灰色印度犀从湿润草地走向村庄边缘，田地、低矮房屋和道路环绕，动物显得庞大而谨慎，绿色与金色自然光。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_01.webp",
+      "reference_frames": [
+        "references/page_01/ref_01_033.60s.jpg",
+        "references/page_01/ref_02_057.00s.jpg",
+        "references/page_01/ref_03_080.40s.jpg"
+      ],
+      "heading_pinyin": "chuān guò rén lèi de shì jiè"
+    },
+    {
+      "page": 2,
+      "heading": "神庙里的小商人",
+      "text": "巴厘岛的食蟹猕猴每天来到乌鲁瓦图神庙。它们抢走帽子和太阳镜，却不是为了吃，而是拿来和游客交换香蕉。",
+      "pinyin": "bā lí dǎo de shí xiè mí hóu měi tiān lái dào wū lǔ wǎ tú shén miào 。 tā men qiǎng zǒu mào zi hé tài yáng jìng ， què bú shì wèi le chī ， ér shì ná lái hé yóu kè jiāo huàn xiāng jiāo 。",
+      "layout": "image-top",
+      "source_time_range": [
+        132.5,
+        231.0
+      ],
+      "visual_time_range": [
+        151.0,
+        220.0
+      ],
+      "key_content": {
+        "location": "巴厘岛乌鲁瓦图神庙",
+        "animals": [
+          "食蟹猕猴"
+        ],
+        "activity": "猕猴从游客身上取走帽子和太阳镜并交易食物",
+        "stakes": "游客带来的物品成了新的机会，也带来被发现的风险",
+        "outcome": "猕猴学会把物品换成食物",
+        "visual_focus": "猕猴、神庙石墙、帽子和太阳镜的互动"
+      },
+      "visual_anchors": [
+        "热带巴厘岛神庙石门",
+        "一只食蟹猕猴抓住太阳镜",
+        "远处游客和香蕉交换动作"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。巴厘岛乌鲁瓦图神庙石墙与热带树木，一只食蟹猕猴敏捷地拿走太阳镜，另一只在旁边等待香蕉交换，游客保持适当距离，幽默但自然。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_02.webp",
+      "reference_frames": [
+        "references/page_02/ref_01_164.80s.jpg",
+        "references/page_02/ref_02_185.50s.jpg",
+        "references/page_02/ref_03_206.20s.jpg"
+      ],
+      "heading_pinyin": "shén miào lǐ de xiǎo shāng rén"
+    },
+    {
+      "page": 3,
+      "heading": "长辈教会谈判",
+      "text": "神庙里的年长雄猕猴经验丰富。它知道手机和钱包比帽子更能换到好处，也把这套谈判本领教给年轻伙伴。",
+      "pinyin": "shén miào lǐ de nián zhǎng xióng mí hóu jīng yàn fēng fù 。 tā zhī dào shǒu jī hé qián bāo bǐ mào zi gèng néng huàn dào hǎo chù ， yě bǎ zhè tào tán pàn běn lǐng jiào gěi nián qīng huǒ bàn 。",
+      "layout": "image-right",
+      "source_time_range": [
+        295.5,
+        474.0
+      ],
+      "visual_time_range": [
+        294.0,
+        465.0
+      ],
+      "key_content": {
+        "location": "巴厘岛神庙庭院",
+        "animals": [
+          "食蟹猕猴"
+        ],
+        "activity": "年长雄猕猴示范选择物品并和人类交换",
+        "stakes": "年轻猕猴还不知道哪些物品最有价值",
+        "outcome": "知识在族群长辈之间传给后辈",
+        "visual_focus": "年长猕猴观察手机钱包，年轻猕猴靠近学习"
+      },
+      "visual_anchors": [
+        "毛色较深、体格强壮的年长雄猕猴",
+        "年轻猕猴在旁观察",
+        "神庙台阶上的手机、钱包和香蕉"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。巴厘岛神庙庭院，年长雄性食蟹猕猴坐在石阶上谨慎观察手机和钱包，年轻猕猴在身后学习，游客手中有香蕉，午后热带光线。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_03.webp",
+      "reference_frames": [
+        "references/page_03/ref_01_328.20s.jpg",
+        "references/page_03/ref_02_379.50s.jpg",
+        "references/page_03/ref_03_430.80s.jpg"
+      ],
+      "heading_pinyin": "zhǎng bèi jiào huì tán pàn"
+    },
+    {
+      "page": 4,
+      "heading": "地球被重新安排",
+      "text": "人类已经改变了地球大约百分之八十的陆地。对野生动物来说，最大的挑战是：周围的世界变化得太快了。",
+      "pinyin": "rén lèi yǐ jīng gǎi biàn le dì qiú dà yuē bǎi fēn zhī bā shí de lù dì 。 duì yě shēng dòng wù lái shuō ， zuì dà de tiǎo zhàn shì ： zhōu wéi de shì jiè biàn huà dé tài kuài le 。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        482.0,
+        516.0
+      ],
+      "visual_time_range": [
+        484.0,
+        515.0
+      ],
+      "key_content": {
+        "location": "全球城市、农田与自然地景的蒙太奇",
+        "animals": [],
+        "activity": "人类扩展城市和农田并改变自然环境",
+        "stakes": "栖息地和食物来源不断变化",
+        "outcome": "动物必须改变行为才能继续生活",
+        "visual_focus": "城市、农田、道路和自然地景交织"
+      },
+      "visual_anchors": [
+        "密集城市楼群",
+        "规则农田和道路",
+        "夹在其间的森林与野生动物"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。富有层次的地球景观蒙太奇：城市楼群、道路、农田与残存森林交织，几种小型野生动物在边缘穿行，宏大而清晰，不画文字或数字。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_04.webp",
+      "reference_frames": [
+        "references/page_04/ref_01_490.20s.jpg",
+        "references/page_04/ref_02_499.50s.jpg",
+        "references/page_04/ref_03_508.80s.jpg"
+      ],
+      "heading_pinyin": "dì qiú bèi chóng xīn ān pái"
+    },
+    {
+      "page": 5,
+      "heading": "百老汇下的侦察兵",
+      "text": "纽约市的铺道蚁沿着地下通道寻找食物。一只侦察兵发现了一大块肉，但在人行道上，巨大的脚步随时会从它身边经过。",
+      "pinyin": "niǔ yuē shì de pù dào yǐ yán zhe dì xià tōng dào xún zhǎo shí wù 。 yī zhī zhēn chá bīng fā xiàn le yī dà kuài ròu ， dàn zài rén xíng dào shàng ， jù dà de jiǎo bù suí shí huì cóng tā shēn biān jīng guò 。",
+      "layout": "image-left",
+      "source_time_range": [
+        528.5,
+        642.0
+      ],
+      "visual_time_range": [
+        548.0,
+        626.0
+      ],
+      "key_content": {
+        "location": "纽约百老汇大道人行道下",
+        "animals": [
+          "铺道蚁"
+        ],
+        "activity": "铺道蚁侦察兵从裂缝接近肉块并躲避脚步",
+        "stakes": "蚂蚁体型很小，城市脚步对它们极其危险",
+        "outcome": "侦察兵找到可以带回蚁巢的食物",
+        "visual_focus": "微小蚂蚁与鞋底、肉块的巨大尺度对比"
+      },
+      "visual_anchors": [
+        "粗糙人行道裂缝",
+        "一只铺道蚁靠近肉块",
+        "模糊而巨大的行人鞋底"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。纽约百老汇人行道的微观视角，棕黑色铺道蚁侦察兵从裂缝探出，前方是一大块肉，巨大的行人鞋底在上方掠过，紧张但不恐怖。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_05.webp",
+      "reference_frames": [
+        "references/page_05/ref_01_563.60s.jpg",
+        "references/page_05/ref_02_587.00s.jpg",
+        "references/page_05/ref_03_610.40s.jpg"
+      ],
+      "heading_pinyin": "bǎi lǎo huì xià de zhēn chá bīng"
+    },
+    {
+      "page": 6,
+      "heading": "一条气味的消息",
+      "text": "一只铺道蚁搬不动肉块，就沿路留下信息素，再把消息带回蚁巢。很快，姐妹们顺着这条看不见的路线赶来合力搬运。",
+      "pinyin": "yī zhī pù dào yǐ bān bù dòng ròu kuài ， jiù yán lù liú xià xìn xī sù ， zài bǎ xiāo xī dài huí yǐ cháo 。 hěn kuài ， jiě mèi men shùn zhe zhè tiáo kàn bú jiàn de lù xiàn gǎn lái hé lì bān yùn 。",
+      "layout": "image-right",
+      "source_time_range": [
+        642.0,
+        825.0
+      ],
+      "visual_time_range": [
+        670.0,
+        812.0
+      ],
+      "key_content": {
+        "location": "纽约人行道与地下蚁巢",
+        "animals": [
+          "铺道蚁"
+        ],
+        "activity": "工蚁用信息素召集同伴搬运加工食品",
+        "stakes": "单只工蚁力量有限，食物还可能被城市活动夺走",
+        "outcome": "蚁群合作把食物带回家",
+        "visual_focus": "蚂蚁队列、信息素路线和肉块搬运"
+      },
+      "visual_anchors": [
+        "密集铺道蚁队列",
+        "穿过裂缝的地下通道",
+        "多只蚂蚁共同抬起肉块"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。科学绘本式微观剖面，纽约人行道下的铺道蚁队列沿着弯曲通道前进，许多工蚁共同搬运肉块，空气中用淡淡金色轨迹暗示信息素但不使用文字。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_06.webp",
+      "reference_frames": [
+        "references/page_06/ref_01_698.40s.jpg",
+        "references/page_06/ref_02_741.00s.jpg",
+        "references/page_06/ref_03_783.60s.jpg"
+      ],
+      "heading_pinyin": "yī tiáo qì wèi de xiāo xī"
+    },
+    {
+      "page": 7,
+      "heading": "舌头找到猎物",
+      "text": "在印度孟加拉，一条眼镜蛇悄悄接近村庄里的蟾蜍。它伸吐分叉舌头，收集气味线索，再根据蟾蜍的移动准确定位。",
+      "pinyin": "zài yìn dù mèng jiā lā ， yī tiáo yǎn jìng shé qiāo qiāo jiē jìn cūn zhuāng lǐ de chán chú 。 tā shēn tǔ fēn chà shé tou ， shōu jí qì wèi xiàn suǒ ， zài gēn jù chán chú de yí dòng zhǔn què dìng wèi 。",
+      "layout": "image-top",
+      "source_time_range": [
+        828.5,
+        1010.0
+      ],
+      "visual_time_range": [
+        850.0,
+        1001.0
+      ],
+      "key_content": {
+        "location": "印度孟加拉村庄边缘",
+        "animals": [
+          "孟加拉眼镜蛇",
+          "蟾蜍"
+        ],
+        "activity": "眼镜蛇用分叉舌头追踪并捕食蟾蜍",
+        "stakes": "蟾蜍每次移动都会留下气味，躲藏并不容易",
+        "outcome": "眼镜蛇沿着气味线索慢慢逼近",
+        "visual_focus": "蛇的分叉舌头、蟾蜍和草地气味路径"
+      },
+      "visual_anchors": [
+        "湿润村庄草地",
+        "抬头伸舌的孟加拉眼镜蛇",
+        "藏在叶片旁的蟾蜍"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。印度孟加拉村庄边缘的湿润草地，一条孟加拉眼镜蛇低头伸出分叉舌头，前方蟾蜍藏在叶片旁，用柔和的半透明气味流线表现追踪但不写字。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_07.webp",
+      "reference_frames": [
+        "references/page_07/ref_01_880.20s.jpg",
+        "references/page_07/ref_02_925.50s.jpg",
+        "references/page_07/ref_03_970.80s.jpg"
+      ],
+      "heading_pinyin": "shé tou zhǎo dào liè wù"
+    },
+    {
+      "page": 8,
+      "heading": "村庄里的和平邻居",
+      "text": "孟加拉眼镜蛇也把印度村庄当作家。村民尊重它们，科学家发现，受到接纳的蛇移动更慢，受惊时也没有那么容易攻击。",
+      "pinyin": "mèng jiā lā yǎn jìng shé yě bǎ yìn dù cūn zhuāng dàng zuò jiā 。 cūn mín zūn zhòng tā men ， kē xué jiā fā xiàn ， shòu dào jiē nà de shé yí dòng gèng màn ， shòu jīng shí yě méi yǒu nà me róng yì gōng jī 。",
+      "layout": "image-right",
+      "source_time_range": [
+        1010.0,
+        1140.0
+      ],
+      "visual_time_range": [
+        1050.0,
+        1132.0
+      ],
+      "key_content": {
+        "location": "印度孟加拉村庄",
+        "animals": [
+          "孟加拉眼镜蛇",
+          "村民"
+        ],
+        "activity": "村民与眼镜蛇在村庄中保持距离和平共处",
+        "stakes": "蛇和人都可能因突然相遇而受伤",
+        "outcome": "尊重和熟悉让双方有机会安全相处",
+        "visual_focus": "村民、蛇、稻田和房屋之间的安全距离"
+      },
+      "visual_anchors": [
+        "印度村庄土墙与稻田",
+        "盘曲但安静的眼镜蛇",
+        "远处双手合十或退让的村民"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。印度孟加拉村庄的土墙、稻田与树荫，一条安静的孟加拉眼镜蛇在路边缓慢爬行，村民在安全距离外平静避让，画面表达尊重而非驯化。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_08.webp",
+      "reference_frames": [
+        "references/page_08/ref_01_1066.40s.jpg",
+        "references/page_08/ref_02_1091.00s.jpg",
+        "references/page_08/ref_03_1115.60s.jpg"
+      ],
+      "heading_pinyin": "cūn zhuāng lǐ de hé píng lín jū"
+    },
+    {
+      "page": 9,
+      "heading": "白天就是一根树枝",
+      "text": "墨尔本的茶色蟆口鸱是夜行鸟。白天，爸爸帮雏鸟藏在树枝间；它必须静止不动，才能像一截树皮一样不被发现。",
+      "pinyin": "mò ěr běn de chá sè má kǒu chī shì yè xíng niǎo 。 bái tiān ， bà bà bāng chú niǎo cáng zài shù zhī jiān ； tā bì xū jìng zhǐ bù dòng ， cái néng xiàng yī jié shù pí yī yàng bù bèi fā xiàn 。",
+      "layout": "image-left",
+      "source_time_range": [
+        1153.0,
+        1240.0
+      ],
+      "visual_time_range": [
+        1162.0,
+        1232.0
+      ],
+      "key_content": {
+        "location": "澳大利亚墨尔本树木与城市公园",
+        "animals": [
+          "茶色蟆口鸱雏鸟"
+        ],
+        "activity": "亲鸟帮助雏鸟在白天伪装成树枝",
+        "stakes": "雏鸟一动就会暴露给捕食者",
+        "outcome": "精巧的羽色和姿势让它融入树干",
+        "visual_focus": "雏鸟的羽毛纹理与树皮纹理几乎重合"
+      },
+      "visual_anchors": [
+        "灰褐色粗糙树干",
+        "茶色蟆口鸱雏鸟竖直贴住树枝",
+        "亲鸟在旁整理遮蔽物"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。澳大利亚墨尔本城市公园，茶色蟆口鸱雏鸟竖直贴在灰褐色树枝旁，羽毛纹理与树皮几乎融为一体，亲鸟在旁轻轻遮挡，白天柔光。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_09.webp",
+      "reference_frames": [
+        "references/page_09/ref_01_1176.00s.jpg",
+        "references/page_09/ref_02_1197.00s.jpg",
+        "references/page_09/ref_03_1218.00s.jpg"
+      ],
+      "heading_pinyin": "bái tiān jiù shì yī gēn shù zhī"
+    },
+    {
+      "page": 10,
+      "heading": "第一次飞进夜色",
+      "text": "夜晚的城市灯光像满月，茶色蟆口鸱的父母能找到足够的食物。可雏鸟第一次展翅时，家猫也在附近；它必须找到安全的休息处。",
+      "pinyin": "yè wǎn de chéng shì dēng guāng xiàng mǎn yuè ， chá sè má kǒu chī de fù mǔ néng zhǎo dào zú gòu de shí wù 。 kě chú niǎo dì yī cì zhǎn chì shí ， jiā māo yě zài fù jìn ； tā bì xū zhǎo dào ān quán de xiū xī chù 。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        1240.0,
+        1380.0
+      ],
+      "visual_time_range": [
+        1300.0,
+        1370.0
+      ],
+      "key_content": {
+        "location": "澳大利亚墨尔本夜间街区",
+        "animals": [
+          "茶色蟆口鸱雏鸟",
+          "家猫"
+        ],
+        "activity": "雏鸟第一次飞行并躲避家猫",
+        "stakes": "刚学会飞的鸟很容易在地面上成为目标",
+        "outcome": "雏鸟飞到树枝上暂时安全下来",
+        "visual_focus": "夜灯、展开的翅膀和猫的低伏身影"
+      },
+      "visual_anchors": [
+        "温暖路灯照亮的城市绿地",
+        "刚起飞的茶色蟆口鸱雏鸟",
+        "远处低伏观察的家猫"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。墨尔本夜间城市绿地，温暖路灯照亮茶色蟆口鸱雏鸟第一次展开翅膀，前方树枝可供落脚，地面远处一只家猫低伏观察，紧张但不血腥。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_10.webp",
+      "reference_frames": [
+        "references/page_10/ref_01_1314.00s.jpg",
+        "references/page_10/ref_02_1335.00s.jpg",
+        "references/page_10/ref_03_1356.00s.jpg"
+      ],
+      "heading_pinyin": "dì yī cì fēi jìn yè sè"
+    },
+    {
+      "page": 11,
+      "heading": "黑熊走进小镇",
+      "text": "太浩湖附近的美洲黑熊不必费力捕猎。下雪前，它们走进小镇，从垃圾桶和街道周围找到丰富食物，迅速长胖。",
+      "pinyin": "tài hào hú fù jìn de měi zhōu hēi xióng bù bì fèi lì bǔ liè 。 xià xuě qián ， tā men zǒu jìn xiǎo zhèn ， cóng lā jī tǒng hé jiē dào zhōu wéi zhǎo dào fēng fù shí wù ， xùn sù zhǎng pàng 。",
+      "layout": "image-right",
+      "source_time_range": [
+        1409.5,
+        1510.0
+      ],
+      "visual_time_range": [
+        1425.0,
+        1498.0
+      ],
+      "key_content": {
+        "location": "北美太浩湖附近小镇",
+        "animals": [
+          "美洲黑熊"
+        ],
+        "activity": "黑熊在城镇中寻找食物并增加体重",
+        "stakes": "冬天将至，黑熊必须储存足够能量",
+        "outcome": "城镇食物让黑熊比乡间同类更容易增重",
+        "visual_focus": "黑熊与小镇垃圾桶、街道的尺度关系"
+      },
+      "visual_anchors": [
+        "太浩湖附近松林小镇",
+        "一只健硕的美洲黑熊",
+        "安全距离外的街灯与垃圾桶"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。北美太浩湖附近的小镇边缘，健硕的美洲黑熊在夜色中靠近封闭垃圾桶，松林和街灯同框，动物真实而有分量，不鼓励接近野生动物。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_11.webp",
+      "reference_frames": [
+        "references/page_11/ref_01_1439.60s.jpg",
+        "references/page_11/ref_02_1461.50s.jpg",
+        "references/page_11/ref_03_1483.40s.jpg"
+      ],
+      "heading_pinyin": "hēi xióng zǒu jìn xiǎo zhèn"
+    },
+    {
+      "page": 12,
+      "heading": "康格的黑洞陷阱",
+      "text": "温哥华岛附近的鲱鱼变少了。座头鲸康格想出新办法：它张开大嘴浮在海面，让小鱼把嘴里当成躲避海鸟的黑洞。",
+      "pinyin": "wēn gē huá dǎo fù jìn de fēi yú biàn shǎo le 。 zuò tóu jīng kāng gé xiǎng chū xīn bàn fǎ ： tā zhāng kāi dà zuǐ fú zài hǎi miàn ， ràng xiǎo yú bǎ zuǐ lǐ dàng chéng duǒ bì hǎi niǎo de hēi dòng 。",
+      "layout": "image-top",
+      "source_time_range": [
+        1527.0,
+        1620.0
+      ],
+      "visual_time_range": [
+        1545.0,
+        1616.0
+      ],
+      "key_content": {
+        "location": "温哥华岛附近海域",
+        "animals": [
+          "座头鲸",
+          "鲱鱼",
+          "海鸟"
+        ],
+        "activity": "座头鲸利用鱼群躲避海鸟的本能捕食",
+        "stakes": "鱼群稀疏，传统捕食方法不够高效",
+        "outcome": "康格用新策略一次吞入更多鲱鱼",
+        "visual_focus": "张开的鲸口、鱼群和俯冲海鸟"
+      },
+      "visual_anchors": [
+        "冷蓝色海面",
+        "座头鲸浮出水面张开大嘴",
+        "鲱鱼群与海鸟形成上下夹击"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。温哥华岛附近冷蓝海面，座头鲸康格浮出水面张开巨大嘴巴，银色鲱鱼群游入嘴前，海鸟从上方俯冲，动态纪录片构图。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_12.webp",
+      "reference_frames": [
+        "references/page_12/ref_01_1559.20s.jpg",
+        "references/page_12/ref_02_1580.50s.jpg",
+        "references/page_12/ref_03_1601.80s.jpg"
+      ],
+      "heading_pinyin": "kāng gé de hēi dòng xiàn jǐng"
+    },
+    {
+      "page": 13,
+      "heading": "鲸粪便给大海施肥",
+      "text": "鲸捕食鲱鱼，却也把铁带回海水。浮游植物因此生长，鲱鱼有了更多食物，海鸟和海洋食物链也一起恢复活力。",
+      "pinyin": "jīng bǔ shí fēi yú ， què yě bǎ tiě dài huí hǎi shuǐ 。 fú yóu zhí wù yīn cǐ shēng zhǎng ， fēi yú yǒu le gèng duō shí wù ， hǎi niǎo hé hǎi yáng shí wù liàn yě yì qǐ huī fù huó lì 。",
+      "layout": "image-left",
+      "source_time_range": [
+        1627.0,
+        1900.0
+      ],
+      "visual_time_range": [
+        1705.0,
+        1880.0
+      ],
+      "key_content": {
+        "location": "温哥华岛近海食物链",
+        "animals": [
+          "座头鲸",
+          "浮游植物",
+          "鲱鱼",
+          "海鸟"
+        ],
+        "activity": "座头鲸排出的富铁粪便促进浮游植物生长",
+        "stakes": "海洋缺铁会限制浮游植物和整个食物链",
+        "outcome": "营养回到海水，更多生物获得食物",
+        "visual_focus": "鲸、微小浮游植物、鱼群和海鸟的生态联系"
+      },
+      "visual_anchors": [
+        "座头鲸在海面呼吸",
+        "海水中绿色浮游植物层",
+        "鲱鱼与海鸟围绕同一片海域"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。科学绘本式海洋剖面，座头鲸在海面下释放富含养分的云状物质，微小浮游植物变多，鲱鱼群和海鸟围绕它们，层次清楚，不使用标签文字。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_13.webp",
+      "reference_frames": [
+        "references/page_13/ref_01_1740.00s.jpg",
+        "references/page_13/ref_02_1792.50s.jpg",
+        "references/page_13/ref_03_1845.00s.jpg"
+      ],
+      "heading_pinyin": "jīng fèn biàn gěi dà hǎi shī féi"
+    },
+    {
+      "page": 14,
+      "heading": "夜里的玉米地",
+      "text": "肯尼亚的一头六吨重雄象闻到农田里的食物。它等到夜幕降临才越过边界，因为一个晚上就可能毁掉农民两个月的庄稼。",
+      "pinyin": "kěn ní yà de yī tóu liù dūn zhòng xióng xiàng wén dào nóng tián lǐ de shí wù 。 tā děng dào yè mù jiàng lín cái yuè guò biān jiè ， yīn wèi yí gè wǎn shàng jiù kě néng huǐ diào nóng mín liǎng gè yuè de zhuāng jià 。",
+      "layout": "image-right",
+      "source_time_range": [
+        1930.0,
+        2070.0
+      ],
+      "visual_time_range": [
+        1960.0,
+        2060.0
+      ],
+      "key_content": {
+        "location": "肯尼亚农田与灌木边界",
+        "animals": [
+          "非洲象",
+          "肯尼亚农民"
+        ],
+        "activity": "雄性非洲象夜间进入成熟农田觅食",
+        "stakes": "农民等待收获，象群也需要食物，双方都可能受损",
+        "outcome": "冲突在黑暗中变得危险",
+        "visual_focus": "象鼻伸向庄稼、农田和远处守护者"
+      },
+      "visual_anchors": [
+        "月光下成熟玉米或作物",
+        "高大的雄性非洲象",
+        "农田边缘警觉的农民"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。肯尼亚夜晚的成熟农田，魁梧雄性非洲象从灌木边缘伸鼻靠近庄稼，远处农民守护田地，月光和深蓝夜色营造风险感，不出现武器细节。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_14.webp",
+      "reference_frames": [
+        "references/page_14/ref_01_1980.00s.jpg",
+        "references/page_14/ref_02_2010.00s.jpg",
+        "references/page_14/ref_03_2040.00s.jpg"
+      ],
+      "heading_pinyin": "yè lǐ de yù mǐ dì"
+    },
+    {
+      "page": 15,
+      "heading": "把大象请回灌木丛",
+      "text": "巡护员赶来帮助农民。他们带着武器却不伤害大象，而是用靠近和爆竹把它赶回灌木丛，冲突终于和平结束。",
+      "pinyin": "xún hù yuán gǎn lái bāng zhù nóng mín 。 tā men dài zhe wǔ qì què bù shāng hài dà xiàng ， ér shì yòng kào jìn hé bào zhú bǎ tā gǎn huí guàn mù cóng ， chōng tū zhōng yú hé píng jié shù 。",
+      "layout": "image-top",
+      "source_time_range": [
+        2070.0,
+        2185.0
+      ],
+      "visual_time_range": [
+        2115.0,
+        2178.0
+      ],
+      "key_content": {
+        "location": "肯尼亚农田边缘",
+        "animals": [
+          "非洲象",
+          "巡护员"
+        ],
+        "activity": "巡护员用非致命方式驱赶大象离开农田",
+        "stakes": "大象固执停留，人与动物都处在危险距离",
+        "outcome": "大象退回灌木丛，没有人或大象受伤",
+        "visual_focus": "大象转身离开、巡护员保持安全队形"
+      },
+      "visual_anchors": [
+        "退回暗色灌木的雄象",
+        "保持距离的巡护员",
+        "被保护的农田"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。肯尼亚农田边缘，巡护员保持队形并用非致命的声音驱赶雄性非洲象，象转身走回灌木丛，农田在后方安然无恙，克制真实。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_15.webp",
+      "reference_frames": [
+        "references/page_15/ref_01_2127.60s.jpg",
+        "references/page_15/ref_02_2146.50s.jpg",
+        "references/page_15/ref_03_2165.40s.jpg"
+      ],
+      "heading_pinyin": "bǎ dà xiàng qǐng huí guàn mù cóng"
+    },
+    {
+      "page": 16,
+      "heading": "雨水唤醒蝗虫",
+      "text": "非洲东北部罕见的暴雨让沙漠蝗得到好条件。原本独居的蝗虫从沙土中孵化，身体变成鲜黄色，开始聚成队伍。",
+      "pinyin": "fēi zhōu dōng běi bù hǎn jiàn de bào yǔ ràng shā mò huáng dé dào hǎo tiáo jiàn 。 yuán běn dú jū de huáng chóng cóng shā tǔ zhōng fū huà ， shēn tǐ biàn chéng xiān huáng sè ， kāi shǐ jù chéng duì wǔ 。",
+      "layout": "image-left",
+      "source_time_range": [
+        2195.0,
+        2310.0
+      ],
+      "visual_time_range": [
+        2218.0,
+        2298.0
+      ],
+      "key_content": {
+        "location": "非洲东北部雨后的沙地",
+        "animals": [
+          "沙漠蝗"
+        ],
+        "activity": "沙漠蝗孵化并从独居变为群居",
+        "stakes": "雨水和植物让数量快速增加",
+        "outcome": "小小蝗虫组成不断扩大的群体",
+        "visual_focus": "黄色蝗虫从湿沙中出现并聚集"
+      },
+      "visual_anchors": [
+        "雨后湿润的红褐色沙土",
+        "鲜黄色沙漠蝗",
+        "从分散到聚集的视觉变化"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。非洲东北部雨后的红褐色沙地，许多鲜黄色沙漠蝗从沙土中爬出并逐渐聚集，远处新生绿色植物，微距与广角结合，科学可信。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_16.webp",
+      "reference_frames": [
+        "references/page_16/ref_01_2234.00s.jpg",
+        "references/page_16/ref_02_2258.00s.jpg",
+        "references/page_16/ref_03_2282.00s.jpg"
+      ],
+      "heading_pinyin": "yǔ shuǐ huàn xǐng huáng chóng"
+    },
+    {
+      "page": 17,
+      "heading": "会飞的蝗虫大军",
+      "text": "单只蝗虫要花一个月长出翅膀；聚成大群后，它们成熟得更快。翅膀变硬以后，每天能飞近一百公里，遮住天空。",
+      "pinyin": "dān zhǐ huáng chóng yào huā yí gè yuè zhǎng chū chì bǎng ； jù chéng dà qún hòu ， tā men chéng shú dé gèng kuài 。 chì bǎng biàn yìng yǐ hòu ， měi tiān néng fēi jìn yì bǎi gōng lǐ ， zhē zhù tiān kōng 。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        2310.0,
+        2495.0
+      ],
+      "visual_time_range": [
+        2350.0,
+        2478.0
+      ],
+      "key_content": {
+        "location": "非洲东北部沙漠与农田上空",
+        "animals": [
+          "沙漠蝗"
+        ],
+        "activity": "沙漠蝗群羽化后长途飞行并形成蝗灾",
+        "stakes": "几十亿只蝗虫会迅速消耗农作物",
+        "outcome": "蝗群越过广大农田，成为巨大的生态压力",
+        "visual_focus": "遮天蔽日的蝗群与下方农田"
+      },
+      "visual_anchors": [
+        "蝗虫从高地起飞",
+        "密集但可辨的翅膀",
+        "下方被阴影覆盖的农田"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。非洲东北部农田上空，数以百万计的沙漠蝗形成巨大飞行群，天空被橙褐色蝗群遮出阴影，下方是脆弱农田，宏大但不恐怖。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_17.webp",
+      "reference_frames": [
+        "references/page_17/ref_01_2375.60s.jpg",
+        "references/page_17/ref_02_2414.00s.jpg",
+        "references/page_17/ref_03_2452.40s.jpg"
+      ],
+      "heading_pinyin": "huì fēi de huáng chóng dà jūn"
+    },
+    {
+      "page": 18,
+      "heading": "森林变成牧场",
+      "text": "全球百分之七十的鸟类重量来自家禽。为了喂养牲畜，人类在亚马孙砍伐雨林、种大豆；树懒母子失去了越来越多的家。",
+      "pinyin": "quán qiú bǎi fēn zhī qī shí de niǎo lèi zhòng liàng lái zì jiā qín 。 wèi le wèi yǎng shēng chù ， rén lèi zài yà mǎ sūn kǎn fá yǔ lín 、 zhǒng dà dòu ； shù lǎn mǔ zi shī qù le yuè lái yuè duō de jiā 。",
+      "layout": "image-right",
+      "source_time_range": [
+        2493.0,
+        2765.0
+      ],
+      "visual_time_range": [
+        2570.0,
+        2750.0
+      ],
+      "key_content": {
+        "location": "亚马孙雨林与牧场交界",
+        "animals": [
+          "树懒",
+          "树懒幼崽"
+        ],
+        "activity": "雨林被砍伐后改作牧场和大豆田",
+        "stakes": "野生动物失去连续的树冠和食物",
+        "outcome": "树懒母子只能留在越来越破碎的森林",
+        "visual_focus": "树懒母子、砍伐空地和牧场的对比"
+      },
+      "visual_anchors": [
+        "高大潮湿的亚马孙树冠",
+        "抱着十个月幼崽的树懒母亲",
+        "森林边缘后的牧场和大豆田"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。亚马孙雨林边缘，一只树懒母亲背着幼崽停在最后一片树冠，前方雨林被切开成为牧场和大豆田，绿色与裸露土地形成清晰对比，忧伤但不煽情。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_18.webp",
+      "reference_frames": [
+        "references/page_18/ref_01_2606.00s.jpg",
+        "references/page_18/ref_02_2660.00s.jpg",
+        "references/page_18/ref_03_2714.00s.jpg"
+      ],
+      "heading_pinyin": "sēn lín biàn chéng mù chǎng"
+    },
+    {
+      "page": 19,
+      "heading": "火后的第二次生命",
+      "text": "一只卷尾豪猪逃过亚马孙火灾，得到人类救助，被送进另一片原始森林。对少数幸运动物来说，这是一次重新回家的机会。",
+      "pinyin": "yī zhī juǎn wěi háo zhū táo guò yà mǎ sūn huǒ zāi ， dé dào rén lèi jiù zhù ， bèi sòng jìn lìng yī piàn yuán shǐ sēn lín 。 duì shǎo shù xìng yùn dòng wù lái shuō ， zhè shì yī cì chóng xīn huí jiā de jī huì 。",
+      "layout": "image-left",
+      "source_time_range": [
+        2850.0,
+        2918.0
+      ],
+      "visual_time_range": [
+        2868.0,
+        2910.0
+      ],
+      "key_content": {
+        "location": "亚马孙火灾后的森林边缘",
+        "animals": [
+          "卷尾豪猪",
+          "野生动物救护人员"
+        ],
+        "activity": "救护人员照料并转移火灾幸存的卷尾豪猪",
+        "stakes": "火灾摧毁家园，受伤动物难以独自恢复",
+        "outcome": "豪猪抵达新的原始森林获得第二次生命",
+        "visual_focus": "救护人员、豪猪和新森林的温柔交接"
+      },
+      "visual_anchors": [
+        "带有灰烬的受损林地",
+        "被毯子或箱笼保护的卷尾豪猪",
+        "明亮湿润的新森林"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。亚马孙火灾后的救助场景，救护人员在森林边缘小心安置一只卷尾豪猪，背景从灰黑受损土地过渡到湿润绿色原始森林，温暖而真实。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_19.webp",
+      "reference_frames": [
+        "references/page_19/ref_01_2876.40s.jpg",
+        "references/page_19/ref_02_2889.00s.jpg",
+        "references/page_19/ref_03_2901.60s.jpg"
+      ],
+      "heading_pinyin": "huǒ hòu de dì èr cì shēng mìng"
+    },
+    {
+      "page": 20,
+      "heading": "火线里的摄制队",
+      "text": "摄制组跟随当地志愿消防队进入亚马孙火灾现场。火势和风向随时变化，他们撤到安全地带，再用无人机寻找被困动物。",
+      "pinyin": "shè zhì zǔ gēn suí dāng dì zhì yuàn xiāo fáng duì jìn rù yà mǎ sūn huǒ zāi xiàn chǎng 。 huǒ shì hé fēng xiàng suí shí biàn huà ， tā men chè dào ān quán dì dài ， zài yòng wú rén jī xún zhǎo bèi kùn dòng wù 。",
+      "layout": "image-top",
+      "source_time_range": [
+        2948.0,
+        3217.0
+      ],
+      "visual_time_range": [
+        2975.0,
+        3205.0
+      ],
+      "key_content": {
+        "location": "亚马孙雨林火灾现场",
+        "animals": [
+          "消防员",
+          "野生动物"
+        ],
+        "activity": "志愿消防员灭火并用无人机搜寻幸存动物",
+        "stakes": "大火、浓烟和变化的风向威胁人和动物",
+        "outcome": "团队安全撤离并在火后开展搜救",
+        "visual_focus": "消防队、烟雾、无人机和火后森林"
+      },
+      "visual_anchors": [
+        "橙色火线与浓烟",
+        "穿防护服的当地消防员",
+        "高空无人机俯视火场"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。亚马孙雨林火灾现场，穿防护服的当地志愿消防员在浓烟和橙色火线边缘工作，远处无人机升空侦察，构图强调危险与团队安全，不出现文字。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_20.webp",
+      "reference_frames": [
+        "references/page_20/ref_01_3021.00s.jpg",
+        "references/page_20/ref_02_3090.00s.jpg",
+        "references/page_20/ref_03_3159.00s.jpg"
+      ],
+      "heading_pinyin": "huǒ xiàn lǐ de shè zhì duì"
+    },
+    {
+      "page": 21,
+      "heading": "让土地回到自然",
+      "text": "全球超过百分之七十五的农业用地用来饲养牲畜。少吃一些肉和奶、多种一些植物，就能用更少的土地生产足够的食物。",
+      "pinyin": "quán qiú chāo guò bǎi fēn zhī qī shí wǔ de nóng yè yòng dì yòng lái sì yǎng shēng chù 。 shǎo chī yī xiē ròu hé nǎi 、 duō zhǒng yī xiē zhí wù ， jiù néng yòng gèng shǎo de tǔ dì shēng chǎn zú gòu de shí wù 。",
+      "layout": "image-right",
+      "source_time_range": [
+        3230.0,
+        3295.0
+      ],
+      "visual_time_range": [
+        3238.0,
+        3290.0
+      ],
+      "key_content": {
+        "location": "全球农田与回归自然的土地",
+        "animals": [],
+        "activity": "人类重新规划饮食和农业用地",
+        "stakes": "大量土地被饲料和牲畜占用，野生动物缺少空间",
+        "outcome": "节省的土地可以重新成为森林和草地",
+        "visual_focus": "农田、植物食物、森林和野生动物回归"
+      },
+      "visual_anchors": [
+        "整齐的农田",
+        "丰富的植物性食物",
+        "从耕地边缘恢复的森林"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。明亮的科学绘本全景：一侧是高效的植物性食物农田，另一侧是从农田边缘重新长回的森林和草地，鹿、鸟和昆虫回到绿色空间，积极而真实。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_21.webp",
+      "reference_frames": [
+        "references/page_21/ref_01_3248.40s.jpg",
+        "references/page_21/ref_02_3264.00s.jpg",
+        "references/page_21/ref_03_3279.60s.jpg"
+      ],
+      "heading_pinyin": "ràng tǔ dì huí dào zì rán"
+    },
+    {
+      "page": 22,
+      "heading": "把农场叠起来",
+      "text": "洛杉矶的垂直农场把作物一层层种在仓库里，少用百分之九十的灌溉水，也不使用农药。人类的创新，或许能让更多土地回归自然。",
+      "pinyin": "luò shān jī de chuí zhí nóng chǎng bǎ zuò wù yī céng céng zhǒng zài cāng kù lǐ ， shǎo yòng bǎi fēn zhī jiǔ shí de guàn gài shuǐ ， yě bù shǐ yòng nóng yào 。 rén lèi de chuàng xīn ， huò xǔ néng ràng gèng duō tǔ dì huí guī zì rán 。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        3293.5,
+        3360.0
+      ],
+      "visual_time_range": [
+        3298.0,
+        3358.0
+      ],
+      "key_content": {
+        "location": "洛杉矶仓库里的垂直农场",
+        "animals": [],
+        "activity": "垂直农场高效种植作物并减少水和土地使用",
+        "stakes": "传统农业占用土地、用水并影响自然",
+        "outcome": "创新农业为恢复生物多样性留下空间",
+        "visual_focus": "多层植物架、节水管线与仓库外自然"
+      },
+      "visual_anchors": [
+        "仓库内一层层绿色植物",
+        "细小灌溉管线和水滴",
+        "门外重新生长的森林与飞鸟"
+      ],
+      "illustration_prompt": "儿童科普绘本风格，真实纪录片构图，柔和的水彩与彩铅质感，动物比例和栖息地科学可信，画面不出现任何文字、字幕、标志或水印。洛杉矶仓库里的现代垂直农场，整齐多层的绿色植物架、细小灌溉管线和明亮工作灯，敞开的门外连接着重新生长的森林与飞鸟，充满希望，不出现文字。",
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_22.webp",
+      "reference_frames": [
+        "references/page_22/ref_01_3310.00s.jpg",
+        "references/page_22/ref_02_3328.00s.jpg",
+        "references/page_22/ref_03_3346.00s.jpg"
+      ],
+      "heading_pinyin": "bǎ nóng chǎng dié qǐ lái"
+    }
+  ],
+  "title_pinyin": "rén lèi shì jiè lǐ de yě shēng lín jū",
+  "subtitle_pinyin": "dì jì dì jí"
+}

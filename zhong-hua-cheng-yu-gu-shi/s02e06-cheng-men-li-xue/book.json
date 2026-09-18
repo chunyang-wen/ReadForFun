@@ -1,0 +1,567 @@
+{
+  "title": "程门立雪",
+  "title_pinyin": "chéng mén lì xuě",
+  "subtitle": "杨时在雪中求教的故事",
+  "subtitle_pinyin": "yáng shí zài xuě zhōng qiú jiào de gù shì",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E06.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "heading": "程门立雪",
+      "heading_pinyin": "chéng mén lì xuě",
+      "text": "冬天的文化宫下雪了。雪人想听一个和雪有关的成语故事。",
+      "text_pinyin": "dōng tiān de wén huà gōng xià xuě le 。 xuě rén xiǎng tīng yí gè hé xuě yǒu guān de chéng yǔ gù shì 。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        111.31,
+        180.62
+      ],
+      "visual_time_range": [
+        111.31,
+        180.62
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_01.webp",
+      "reference_frames": [
+        "references/page_01/ref_01_125.17s.jpg",
+        "references/page_01/ref_02_145.97s.jpg",
+        "references/page_01/ref_03_166.76s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本风格，文化宫庭院下着大雪，陈教授和琪琪刚堆好一个可爱的雪人，暖色茶杯和蓝白雪景相映成趣，无文字无水印",
+      "key_content": {
+        "location": "文化宫庭院",
+        "animals": [],
+        "activity": "下雪、喝热茶、堆雪人",
+        "stakes": "孩子们想知道和雪有关的成语故事",
+        "outcome": "引出程门立雪",
+        "visual_focus": "雪人、雪花、茶杯和讲故事的人"
+      },
+      "visual_anchors": [
+        "蓝白雪景",
+        "可爱雪人",
+        "文化宫庭院"
+      ],
+      "pinyin": "dōng tiān de wén huà gōng xià xuě le xuě rén xiǎng tīng yí gè hé xuě yǒu guān de chéng yǔ gù shì"
+    },
+    {
+      "page": 2,
+      "heading": "雪中的尊敬",
+      "heading_pinyin": "xuě zhōng de zūn jìng",
+      "text": "程门立雪，比喻学生恭敬地向老师求教，也表现出对学问和师长的尊敬。",
+      "text_pinyin": "chéng mén lì xuě ， bǐ yù xué shēng gōng jìng dì xiàng lǎo shī qiú jiào ， yě biǎo xiàn chū duì xué wèn hé shī zhǎng de zūn jìng 。",
+      "layout": "image-right",
+      "source_time_range": [
+        193.58,
+        235.49
+      ],
+      "visual_time_range": [
+        203.13,
+        235.49
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_02.webp",
+      "reference_frames": [
+        "references/page_02/ref_01_209.60s.jpg",
+        "references/page_02/ref_02_219.31s.jpg",
+        "references/page_02/ref_03_229.02s.jpg"
+      ],
+      "illustration_prompt": "儿童科普绘本，左侧是古代学生在雪中恭敬站立，右侧是老师在屋内讲学，雪线把两边连接起来，温暖蓝金配色，无文字无水印",
+      "key_content": {
+        "location": "文化宫讲解区与古代老师家门前",
+        "animals": [],
+        "activity": "解释成语并等待求教",
+        "stakes": "孩子需要理解成语不是简单的雪景",
+        "outcome": "明白程门立雪的比喻意义",
+        "visual_focus": "雪中学生、老师屋舍和恭敬姿态"
+      },
+      "visual_anchors": [
+        "雪中门口",
+        "恭敬站立",
+        "温暖屋内"
+      ],
+      "pinyin": "chéng mén lì xuě bǐ yù xué shēng gōng jìng dì xiàng lǎo shī qiú jiào yě biǎo xiàn chū duì xué wèn hé shī zhǎng de zūn jìng"
+    },
+    {
+      "page": 3,
+      "heading": "聪明的杨时",
+      "heading_pinyin": "cōng míng de yáng shí",
+      "text": "宋朝的杨时从小聪明，八岁就能作诗，一生立志著书立说，认真追求学问。",
+      "text_pinyin": "sòng cháo de yáng shí cóng xiǎo cōng míng ， bā suì jiù néng zuò shī ， yī shēng lì zhì zhù shū lì shuō ， rèn zhēn zhuī qiú xué wèn 。",
+      "layout": "image-left",
+      "source_time_range": [
+        247.53,
+        335.81
+      ],
+      "visual_time_range": [
+        247.53,
+        335.81
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_03.webp",
+      "reference_frames": [
+        "references/page_03/ref_01_265.19s.jpg",
+        "references/page_03/ref_02_291.67s.jpg",
+        "references/page_03/ref_03_318.15s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，年幼的杨时在古代书房里写诗读书，身旁有书卷和毛笔，窗外晨光明亮，画面表现聪明好学而不骄傲，无文字无水印",
+      "key_content": {
+        "location": "宋朝书房",
+        "animals": [],
+        "activity": "作诗、读书、立志求学",
+        "stakes": "聪明的孩子还需要找到更深的学问",
+        "outcome": "杨时成长为有志向的读书人",
+        "visual_focus": "年幼杨时、书卷、毛笔和晨光"
+      },
+      "visual_anchors": [
+        "宋朝书房",
+        "毛笔书卷",
+        "专心写诗"
+      ],
+      "pinyin": "sòng cháo de yáng shí cóng xiǎo cōng míng bā suì jiù néng zuò shī yī shēng lì zhì zhù shū lì shuō rèn zhēn zhuī qiú xué wèn"
+    },
+    {
+      "page": 4,
+      "heading": "学海没有尽头",
+      "heading_pinyin": "xué hǎi méi yǒu jìn tóu",
+      "text": "杨时虽然已经中了进士，仍觉得有许多问题想不明白。他听说程颐学问深，想拜他为师。",
+      "text_pinyin": "yáng shí suī rán yǐ jīng zhōng le jìn shì ， réng jué de yǒu xǔ duō wèn tí xiǎng bù míng bái 。 tā tīng shuō chéng yí xué wèn shēn ， xiǎng bài tā wèi shī 。",
+      "layout": "image-right",
+      "source_time_range": [
+        336.53,
+        372.62
+      ],
+      "visual_time_range": [
+        336.53,
+        372.62
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_04.webp",
+      "reference_frames": [
+        "references/page_04/ref_01_343.75s.jpg",
+        "references/page_04/ref_02_354.57s.jpg",
+        "references/page_04/ref_03_365.40s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，杨时和好友游酢在书房对着满桌书卷讨论问题，杨时指向远方洛阳的地图，游酢认真点头，暖色灯光，无文字无水印",
+      "key_content": {
+        "location": "宋朝书房",
+        "animals": [],
+        "activity": "讨论学问并决定拜师",
+        "stakes": "已有功名仍找不到问题的答案",
+        "outcome": "杨时和游酢决定去洛阳求教程颐",
+        "visual_focus": "书卷、地图、讨论中的两位朋友"
+      },
+      "visual_anchors": [
+        "满桌书卷",
+        "洛阳地图",
+        "并肩讨论"
+      ],
+      "pinyin": "yáng shí suī rán yǐ jīng zhōng le jìn shì réng jué de yǒu xǔ duō wèn tí xiǎng bù míng bái tā tīng shuō chéng yí xué wèn shēn xiǎng bài tā wèi shī"
+    },
+    {
+      "page": 5,
+      "heading": "一起去洛阳",
+      "heading_pinyin": "yì qǐ qù luò yáng",
+      "text": "杨时和游酢一同前往洛阳程颐先生的家。他们希望当面请教这位大学问家。",
+      "text_pinyin": "yáng shí hé yóu cù yī tóng qián wǎng luò yáng chéng yí xiān shēng de jiā 。 tā men xī wàng dāng miàn qǐng jiào zhè wèi dà xué wèn jiā 。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        367.66,
+        384.54
+      ],
+      "visual_time_range": [
+        367.66,
+        384.54
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_05.webp",
+      "reference_frames": [
+        "references/page_05/ref_01_371.04s.jpg",
+        "references/page_05/ref_02_376.10s.jpg",
+        "references/page_05/ref_03_381.16s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，冬日山路上杨时和游酢背着书箱结伴前往洛阳，远处城市屋檐和雪山，脚印延向前方，坚定而温暖，无文字无水印",
+      "key_content": {
+        "location": "前往洛阳的冬日山路",
+        "animals": [],
+        "activity": "结伴赶路求学",
+        "stakes": "求教的路途遥远而寒冷",
+        "outcome": "两人来到程颐家门前",
+        "visual_focus": "书箱、雪路、脚印和结伴同行"
+      },
+      "visual_anchors": [
+        "冬日山路",
+        "书箱",
+        "并肩脚印"
+      ],
+      "pinyin": "yáng shí hé yóu cù yī tóng qián wǎng luò yáng chéng yí xiān shēng de jiā tā men xī wàng dāng miàn qǐng jiào zhè wèi dà xué wèn jiā"
+    },
+    {
+      "page": 6,
+      "heading": "先生正在午睡",
+      "heading_pinyin": "xiān shēng zhèng zài wǔ shuì",
+      "text": "小书童告诉他们，程颐先生正在午睡。杨时说：先生休息时不应打扰，我们就在门外等候。",
+      "text_pinyin": "xiǎo shū tóng gào sù tā men ， chéng yí xiān shēng zhèng zài wǔ shuì 。 yáng shí shuō ： xiān shēng xiū xī shí bù yīng dǎ rǎo ， wǒ men jiù zài mén wài děng hòu 。",
+      "layout": "image-right",
+      "source_time_range": [
+        394.94,
+        429.89
+      ],
+      "visual_time_range": [
+        394.94,
+        429.89
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_06.webp",
+      "reference_frames": [
+        "references/page_06/ref_01_401.93s.jpg",
+        "references/page_06/ref_02_412.41s.jpg",
+        "references/page_06/ref_03_422.90s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，程颐家门前小书童向杨时和游酢说明老师午睡，杨时恭敬摆手表示不打扰，门内透出安静暖光，门外飘雪，无文字无水印",
+      "key_content": {
+        "location": "洛阳程颐家门前",
+        "animals": [],
+        "activity": "得知老师午睡并决定门外等候",
+        "stakes": "求学心切与尊重老师需要同时做到",
+        "outcome": "两人选择安静等待",
+        "visual_focus": "书童、闭合门扉和恭敬摆手的杨时"
+      },
+      "visual_anchors": [
+        "古宅门口",
+        "小书童",
+        "门内暖光"
+      ],
+      "pinyin": "xiǎo shū tóng gào sù tā men chéng yí xiān shēng zhèng zài wǔ shuì yáng shí shuō xiān shēng xiū xī shí bù yīng dǎ rǎo wǒ men jiù zài mén wài děng hòu"
+    },
+    {
+      "page": 7,
+      "heading": "雪越下越大",
+      "heading_pinyin": "xuě yuè xià yuè dà",
+      "text": "一个时辰过去了，雪越下越大。游酢想先回去，杨时却决定一直等到程颐先生醒来。",
+      "text_pinyin": "yí gè shí chén guò qù le ， xuě yuè xià yuè dà 。 yóu cù xiǎng xiān huí qù ， yáng shí què jué dìng yì zhí děng dào chéng yí xiān shēng xǐng lái 。",
+      "layout": "image-left",
+      "source_time_range": [
+        430.93,
+        455.41
+      ],
+      "visual_time_range": [
+        430.93,
+        455.41
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_07.webp",
+      "reference_frames": [
+        "references/page_07/ref_01_435.83s.jpg",
+        "references/page_07/ref_02_443.17s.jpg",
+        "references/page_07/ref_03_450.51s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，洛阳古宅门外大雪纷飞，杨时坚定站立，游酢在旁边担心地看着越来越厚的积雪，门槛和树枝覆满白雪，无文字无水印",
+      "key_content": {
+        "location": "洛阳程颐家门外",
+        "animals": [],
+        "activity": "在大雪中继续等候",
+        "stakes": "寒冷和等待让求教变得更加困难",
+        "outcome": "杨时没有改变决定",
+        "visual_focus": "厚雪、门槛、坚定站立的杨时和担忧的游酢"
+      },
+      "visual_anchors": [
+        "纷飞大雪",
+        "积雪门槛",
+        "两位等待者"
+      ],
+      "pinyin": "yí gè shí chén guò qù le xuě yuè xià yuè dà yóu cù xiǎng xiān huí qù yáng shí què jué dìng yì zhí děng dào chéng yí xiān shēng xǐng lái"
+    },
+    {
+      "page": 8,
+      "heading": "站成了雪人",
+      "heading_pinyin": "zhàn chéng le xuě rén",
+      "text": "几个时辰过去，杨时的一只脚冻僵了。他冷得发抖，却仍然恭敬地站在门外。",
+      "text_pinyin": "jǐ gè shí chén guò qù ， yáng shí de yī zhī jiǎo dòng jiāng le 。 tā lěng dé fā dǒu ， què réng rán gōng jìng dì zhàn zài mén wài 。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        441.97,
+        464.62
+      ],
+      "visual_time_range": [
+        441.97,
+        464.62
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_08.webp",
+      "reference_frames": [
+        "references/page_08/ref_01_446.50s.jpg",
+        "references/page_08/ref_02_453.30s.jpg",
+        "references/page_08/ref_03_460.09s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，雪已经堆到古宅门槛附近，杨时和游酢几乎被白雪覆盖仍恭敬站立，杨时脚边积雪很厚，画面安静而有力量，无文字无水印",
+      "key_content": {
+        "location": "洛阳程颐家门外雪地",
+        "animals": [],
+        "activity": "长时间站立等候",
+        "stakes": "寒冷让身体难以坚持",
+        "outcome": "杨时仍不愿打扰老师",
+        "visual_focus": "积雪、冻僵的脚和恭敬侍立的身影"
+      },
+      "visual_anchors": [
+        "没过脚面的积雪",
+        "安静古宅",
+        "被雪覆盖的衣袍"
+      ],
+      "pinyin": "jǐ gè shí chén guò qù yáng shí de yī zhī jiǎo dòng jiāng le tā lěng dé fā dǒu què réng rán gōng jìng dì zhàn zài mén wài"
+    },
+    {
+      "page": 9,
+      "heading": "为什么不叫醒我",
+      "heading_pinyin": "wèi shén me bù jiào xǐng wǒ",
+      "text": "程颐醒来后请他们进屋，问书童为什么不叫醒自己。杨时解释：拜访长者，应先得到允许。",
+      "text_pinyin": "chéng yí xǐng lái hòu qǐng tā men jìn wū ， wèn shū tóng wèi shén me bù jiào xǐng zì jǐ 。 yáng shí jiě shì ： bài fǎng zhǎng zhě ， yīng xiān dé dào yǔn xǔ 。",
+      "layout": "image-right",
+      "source_time_range": [
+        469.62,
+        499.29
+      ],
+      "visual_time_range": [
+        469.62,
+        499.29
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_09.webp",
+      "reference_frames": [
+        "references/page_09/ref_01_475.55s.jpg",
+        "references/page_09/ref_02_484.46s.jpg",
+        "references/page_09/ref_03_493.36s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，程颐在温暖书房中请杨时和游酢坐下，杨时拱手解释等待的原因，书童站在一旁，门外厚雪清晰可见，无文字无水印",
+      "key_content": {
+        "location": "程颐家温暖书房",
+        "animals": [],
+        "activity": "说明不叫醒老师的理由",
+        "stakes": "求学者要把尊重落实到具体行动",
+        "outcome": "程颐听懂了两人的恭敬",
+        "visual_focus": "书房、拱手解释、门外厚雪"
+      },
+      "visual_anchors": [
+        "温暖书房",
+        "拱手礼",
+        "门外积雪"
+      ],
+      "pinyin": "chéng yí xǐng lái hòu qǐng tā men jìn wū wèn shū tóng wèi shén me bù jiào xǐng zì jǐ yáng shí jiě shì bài fǎng zhǎng zhě yīng xiān dé dào yǔn xǔ"
+    },
+    {
+      "page": 10,
+      "heading": "请收我们为徒",
+      "heading_pinyin": "qǐng shōu wǒ men wèi tú",
+      "text": "杨时和游酢说明来意：他们专程来拜程颐为师，希望得到更深的学问。",
+      "text_pinyin": "yáng shí hé yóu cù shuō míng lái yì ： tā men zhuān chéng lái bài chéng yí wèi shī ， xī wàng dé dào gēng shēn de xué wèn 。",
+      "layout": "image-left",
+      "source_time_range": [
+        500.41,
+        517.6
+      ],
+      "visual_time_range": [
+        500.41,
+        517.6
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_10.webp",
+      "reference_frames": [
+        "references/page_10/ref_01_503.85s.jpg",
+        "references/page_10/ref_02_509.00s.jpg",
+        "references/page_10/ref_03_514.16s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，书房里杨时和游酢恭敬向程颐行礼求学，程颐坐在书案旁认真听取请求，书卷和炉火营造温暖氛围，无文字无水印",
+      "key_content": {
+        "location": "程颐家书房",
+        "animals": [],
+        "activity": "说明拜师来意并请求收徒",
+        "stakes": "长时间等待是否能换来真正的指导",
+        "outcome": "程颐理解他们求学的诚意",
+        "visual_focus": "行礼、书案、炉火和认真倾听"
+      },
+      "visual_anchors": [
+        "书案书卷",
+        "恭敬行礼",
+        "温暖炉火"
+      ],
+      "pinyin": "yáng shí hé yóu cù shuō míng lái yì tā men zhuān chéng lái bài chéng yí wèi shī xī wàng dé dào gēng shēn de xué wèn"
+    },
+    {
+      "page": 11,
+      "heading": "真诚打动老师",
+      "heading_pinyin": "zhēn chéng dǎ dòng lǎo shī",
+      "text": "程颐惊讶于他们在冰雪中等候这么久，最终愿意收杨时和游酢为徒。",
+      "text_pinyin": "chéng yí jīng yà yú tā men zài bīng xuě zhōng děng hòu zhè me jiǔ ， zuì zhōng yuàn yì shōu yáng shí hé yóu cù wèi tú 。",
+      "layout": "image-right",
+      "source_time_range": [
+        506.65,
+        523.12
+      ],
+      "visual_time_range": [
+        506.65,
+        523.12
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_11.webp",
+      "reference_frames": [
+        "references/page_11/ref_01_509.94s.jpg",
+        "references/page_11/ref_02_514.88s.jpg",
+        "references/page_11/ref_03_519.83s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，程颐面带赞许伸手扶起行礼的杨时和游酢，书房门外雪光映入，师生三人关系温暖庄重，无文字无水印",
+      "key_content": {
+        "location": "程颐家书房门内",
+        "animals": [],
+        "activity": "收徒并完成拜师礼",
+        "stakes": "真诚求学能否得到回应",
+        "outcome": "程颐收两人为徒",
+        "visual_focus": "扶起学生的老师、拜师礼和雪光"
+      },
+      "visual_anchors": [
+        "师生三人",
+        "拜师行礼",
+        "门外雪光"
+      ],
+      "pinyin": "chéng yí jīng yà yú tā men zài bīng xuě zhōng děng hòu zhè me jiǔ zuì zhōng yuàn yì shōu yáng shí hé yóu cù wèi tú"
+    },
+    {
+      "page": 12,
+      "heading": "学问需要恭敬",
+      "heading_pinyin": "xué wèn xū yào gōng jìng",
+      "text": "后来，杨时得到程颐真传，被推崇为程学正宗，世称龟山先生。",
+      "text_pinyin": "hòu lái ， yáng shí dé dào chéng yí zhēn chuán ， bèi tuī chóng wèi chéng xué zhèng zōng ， shì chēng guī shān xiān shēng 。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        525.84,
+        539.34
+      ],
+      "visual_time_range": [
+        525.84,
+        539.34
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_12.webp",
+      "reference_frames": [
+        "references/page_12/ref_01_528.54s.jpg",
+        "references/page_12/ref_02_532.59s.jpg",
+        "references/page_12/ref_03_536.64s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，成长后的杨时在书房中向学生讲学，身后书卷如山，窗外春雪融化，表现学问传承与成长，无文字无水印",
+      "key_content": {
+        "location": "宋朝讲学书房",
+        "animals": [],
+        "activity": "学习程颐学问并传授给后人",
+        "stakes": "求来的知识还需要认真传承",
+        "outcome": "杨时成为受人推崇的学者",
+        "visual_focus": "讲学的杨时、书卷和融雪春光"
+      },
+      "visual_anchors": [
+        "讲学书房",
+        "层叠书卷",
+        "融雪春光"
+      ],
+      "pinyin": "hòu lái yáng shí dé dào chéng yí zhēn chuán bèi tuī chóng wèi chéng xué zhèng zōng shì chēng guī shān xiān shēng"
+    },
+    {
+      "page": 13,
+      "heading": "尊师重道的美谈",
+      "heading_pinyin": "zūn shī zhòng dào de měi tán",
+      "text": "杨时和游酢在雪中等候老师的故事，后来成为尊师重道的千古美谈。",
+      "text_pinyin": "yáng shí hé yóu cù zài xuě zhōng děng hòu lǎo shī de gù shì ， hòu lái chéng wéi zūn shī zhòng dào de qiān gǔ měi tán 。",
+      "layout": "image-left",
+      "source_time_range": [
+        534.38,
+        562.1
+      ],
+      "visual_time_range": [
+        534.38,
+        562.1
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_13.webp",
+      "reference_frames": [
+        "references/page_13/ref_01_539.92s.jpg",
+        "references/page_13/ref_02_548.24s.jpg",
+        "references/page_13/ref_03_556.56s.jpg"
+      ],
+      "illustration_prompt": "儿童历史绘本，雪中等候的杨时和游酢与后世读书人、老师的剪影叠映在一起，古宅、雪花和书卷形成跨越时间的温暖画面，无文字无水印",
+      "key_content": {
+        "location": "历史故事与后世记忆交汇的想象空间",
+        "animals": [],
+        "activity": "回望雪中求教的故事",
+        "stakes": "一个选择能否成为值得记住的美德",
+        "outcome": "程门立雪成为尊师重道的美谈",
+        "visual_focus": "雪中身影、老师剪影和传承的书卷"
+      },
+      "visual_anchors": [
+        "跨越时间的剪影",
+        "雪花书卷",
+        "温暖记忆"
+      ],
+      "pinyin": "yáng shí hé yóu cù zài xuě zhōng děng hòu lǎo shī de gù shì hòu lái chéng wéi zūn shī zhòng dào de qiān gǔ měi tán"
+    },
+    {
+      "page": 14,
+      "heading": "尊重知识，也尊重老师",
+      "heading_pinyin": "zūn zhòng zhī shí ， yě zūn zhòng lǎo shī",
+      "text": "尊重师长，就是尊重知识、教育和人才。求学时有礼貌，也要有认真学习的行动。",
+      "text_pinyin": "zūn zhòng shī zhǎng ， jiù shì zūn zhòng zhī shí 、 jiào yù hé rén cái 。 qiú xué shí yǒu lǐ mào ， yě yào yǒu rèn zhēn xué xí de xíng dòng 。",
+      "layout": "image-right",
+      "source_time_range": [
+        563.54,
+        606.08
+      ],
+      "visual_time_range": [
+        563.54,
+        606.08
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_14.webp",
+      "reference_frames": [
+        "references/page_14/ref_01_572.05s.jpg",
+        "references/page_14/ref_02_584.81s.jpg",
+        "references/page_14/ref_03_597.57s.jpg"
+      ],
+      "illustration_prompt": "儿童科普绘本，现代课堂里孩子们认真听老师讲课、举手提问并互相帮助，窗外飘着小雪，角落有古代杨时求教的淡淡剪影，无文字无水印",
+      "key_content": {
+        "location": "现代课堂与历史想象空间",
+        "animals": [],
+        "activity": "听讲、提问、认真学习",
+        "stakes": "尊重不能只停留在口号上",
+        "outcome": "孩子理解尊师重道包含礼貌和行动",
+        "visual_focus": "现代课堂、举手提问和历史剪影"
+      },
+      "visual_anchors": [
+        "明亮课堂",
+        "举手提问",
+        "窗外小雪"
+      ],
+      "pinyin": "zūn zhòng shī zhǎng jiù shì zūn zhòng zhī shí jiào yù hé rén cái qiú xué shí yǒu lǐ mào yě yào yǒu rèn zhēn xué xí de xíng dòng"
+    },
+    {
+      "page": 15,
+      "heading": "把美德传下去",
+      "heading_pinyin": "bǎ měi dé chuán xià qù",
+      "text": "程门立雪提醒我们：求学要有诚意，待人要有礼貌，也要把尊师重道的美德传下去。",
+      "text_pinyin": "chéng mén lì xuě tí xǐng wǒ men ： qiú xué yào yǒu chéng yì ， dài rén yào yǒu lǐ mào ， yě yào bǎ zūn shī zhòng dào de měi dé chuán xià qù 。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        580.35,
+        618.17
+      ],
+      "visual_time_range": [
+        580.35,
+        618.17
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_15.webp",
+      "reference_frames": [
+        "references/page_15/ref_01_587.91s.jpg",
+        "references/page_15/ref_02_599.26s.jpg",
+        "references/page_15/ref_03_610.61s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本收束画面，现代孩子在雪后的校园里向老师礼貌行礼并一起读书，远处是温暖灯光和融雪，画面明亮、安静、有希望，无文字无水印",
+      "key_content": {
+        "location": "雪后校园",
+        "animals": [],
+        "activity": "向老师问候并一起读书",
+        "stakes": "传统美德需要在今天继续实践",
+        "outcome": "孩子愿意把尊师重道传下去",
+        "visual_focus": "礼貌行礼、共读书本和雪后校园"
+      },
+      "visual_anchors": [
+        "雪后校园",
+        "礼貌行礼",
+        "一起读书"
+      ],
+      "pinyin": "chéng mén lì xuě tí xǐng wǒ men qiú xué yào yǒu chéng yì dài rén yào yǒu lǐ mào yě yào bǎ zūn shī zhòng dào de měi dé chuán xià qù"
+    }
+  ]
+}

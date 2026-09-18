@@ -1,0 +1,633 @@
+{
+  "title": "覆水难收",
+  "subtitle": "朱买臣衣锦还乡的故事",
+  "title_pinyin": "fù shuǐ nán shōu",
+  "subtitle_pinyin": "zhū mǎi chén yì jǐn huán xiāng de gù shì",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E04.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "heading": "星空里的新故事",
+      "text": "历史像一片闪烁的星空。今天，陈教授要讲一个和水有关的成语故事。",
+      "heading_pinyin": "xīng kōng lǐ de xīn gù shì",
+      "pinyin": "lì shǐ xiàng yī piàn shǎn shuò de xīng kōng 。 jīn tiān ， chén jiào shòu yào jiǎng yí gè hé shuǐ yǒu guān de chéng yǔ gù shì 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_01.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，文化宫舞台像一片蓝金色历史星空，陈教授和机器人琪琪站在一盆清水旁，星光中隐约出现古代故事人物剪影，温暖开场，无文字、无字幕、无标志。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        111.23,
+        182.56
+      ],
+      "visual_time_range": [
+        111.23,
+        182.56
+      ],
+      "key_content": {
+        "location": "文化宫节目开场",
+        "animals": [],
+        "activity": "陈教授和琪琪引出覆水难收",
+        "stakes": "孩子还不知道今天的故事",
+        "outcome": "故事从一个小问题开始",
+        "visual_focus": "星空、舞台和一盆水"
+      },
+      "visual_anchors": [
+        "蓝色历史星空背景",
+        "文化宫舞台上的陈教授和琪琪",
+        "舞台旁的水盆"
+      ],
+      "reference_frames": [
+        "references/page_01/ref_01_125.50s.jpg",
+        "references/page_01/ref_02_146.90s.jpg",
+        "references/page_01/ref_03_168.29s.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "heading": "泼出去的水",
+      "text": "水一旦倒在地上，就很难再收回。覆水难收，比喻事情已经定局，难以挽回。",
+      "heading_pinyin": "pō chū qù de shuǐ",
+      "pinyin": "shuǐ yí dàn dǎo zài dì shàng ， jiù hěn nán zài shōu huí 。 fù shuǐ nán shōu ， bǐ yù shì qíng yǐ jīng dìng jú ， nán yǐ wǎn huí 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_02.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，文化宫演播台地面有一滩清水，机器人琪琪指着水迹思考，陈教授在旁边微笑点头，画面清楚表现水倒出后无法回盆，无文字。",
+      "layout": "image-right",
+      "source_time_range": [
+        146.36,
+        216.15
+      ],
+      "visual_time_range": [
+        146.36,
+        216.15
+      ],
+      "key_content": {
+        "location": "文化宫演播台",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "琪琪观察地上的水并理解成语",
+        "stakes": "孩子需要把抽象成语和具体现象联系起来",
+        "outcome": "琪琪说出了成语的意思",
+        "visual_focus": "水迹、水盆和认真思考的琪琪"
+      },
+      "visual_anchors": [
+        "地面上的一滩水",
+        "琪琪指向水迹",
+        "陈教授手中的空盆"
+      ],
+      "reference_frames": [
+        "references/page_02/ref_01_160.32s.jpg",
+        "references/page_02/ref_02_181.25s.jpg",
+        "references/page_02/ref_03_202.19s.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "heading": "穹窿山下的读书人",
+      "text": "西汉时，朱买臣住在会稽郡吴县穹窿山下。他每天读书，却一直没有机会做官。",
+      "heading_pinyin": "qióng lóng shān xià de dú shū rén",
+      "pinyin": "xī hàn shí ， zhū mǎi chén zhù zài huì jī jùn wú xiàn qióng lóng shān xià 。 tā měi tiān dú shū ， què yì zhí méi yǒu jī huì zuò guān 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_03.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，西汉时期会稽郡吴县穹窿山下的简朴茅屋，朱买臣在昏黄油灯下苦读竹简，远处是山影，历史场景朴素准确，无文字。",
+      "layout": "image-top",
+      "source_time_range": [
+        239.46,
+        299.21
+      ],
+      "visual_time_range": [
+        239.46,
+        299.21
+      ],
+      "key_content": {
+        "location": "会稽郡吴县穹窿山下",
+        "animals": [
+          "朱买臣"
+        ],
+        "activity": "朱买臣在贫寒中苦读诗书",
+        "stakes": "多年努力仍然没有功名",
+        "outcome": "他靠读书等待改变命运的机会",
+        "visual_focus": "山下茅屋、书卷和夜灯"
+      },
+      "visual_anchors": [
+        "穹窿山的山影",
+        "茅屋中的朱买臣与书卷",
+        "昏黄灯光和简朴生活"
+      ],
+      "reference_frames": [
+        "references/page_03/ref_01_251.41s.jpg",
+        "references/page_03/ref_02_269.33s.jpg",
+        "references/page_03/ref_03_287.26s.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "heading": "砍柴换来的小鱼",
+      "text": "家里贫寒，朱买臣只好上山砍柴。他卖柴买回米、面和一条刚钓来的小鱼。",
+      "heading_pinyin": "kǎn chái huàn lái de xiǎo yú",
+      "pinyin": "jiā lǐ pín hán ， zhū mǎi chén zhǐ hǎo shàng shān kǎn chái 。 tā mài chái mǎi huí mǐ 、 miàn hé yī tiáo gāng diào lái de xiǎo yú 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_04.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，西汉山下小屋门口，朱买臣放下柴捆和装有米面的篮子，篮中一条小鱼清晰可见，崔氏站在屋内，生活贫寒但不失温和，无文字。",
+      "layout": "image-left",
+      "source_time_range": [
+        259.46,
+        324.48
+      ],
+      "visual_time_range": [
+        259.46,
+        324.48
+      ],
+      "key_content": {
+        "location": "穹窿山与山下小屋",
+        "animals": [
+          "朱买臣",
+          "崔氏"
+        ],
+        "activity": "朱买臣砍柴卖钱并买回食物",
+        "stakes": "一家人的生活十分拮据",
+        "outcome": "他仍然想着带食物回家",
+        "visual_focus": "柴捆、米面和小鱼"
+      },
+      "visual_anchors": [
+        "朱买臣肩上的柴捆",
+        "桌上的米和面",
+        "篮子里的小鱼"
+      ],
+      "reference_frames": [
+        "references/page_04/ref_01_272.46s.jpg",
+        "references/page_04/ref_02_291.97s.jpg",
+        "references/page_04/ref_03_311.48s.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "heading": "她想学做衣服",
+      "text": "朱买臣想为妻子做饭，崔氏却要去跟邻居学做衣服，好给家里添一点收入。",
+      "heading_pinyin": "tā xiǎng xué zuò yī fú",
+      "pinyin": "zhū mǎi chén xiǎng wèi qī zǐ zuò fàn ， cuī shì què yào qù gēn lín jū xué zuò yī fú ， hǎo gěi jiā lǐ tiān yì diǎn shōu rù 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_05.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，西汉山下小屋的傍晚，崔氏拿着针线篮准备向邻居学做衣服，朱买臣在灶台旁放下食材，两人神情认真，无文字。",
+      "layout": "image-right",
+      "source_time_range": [
+        322.0,
+        351.97
+      ],
+      "visual_time_range": [
+        322.0,
+        351.97
+      ],
+      "key_content": {
+        "location": "山下小屋的傍晚",
+        "animals": [
+          "朱买臣",
+          "崔氏"
+        ],
+        "activity": "夫妻讨论做饭和学做衣服",
+        "stakes": "天快黑了，家里还没有稳定收入",
+        "outcome": "崔氏决定学习手艺补贴家用",
+        "visual_focus": "小屋、针线和灶台"
+      },
+      "visual_anchors": [
+        "傍晚的木屋门口",
+        "崔氏手边的针线篮",
+        "朱买臣放下食材"
+      ],
+      "reference_frames": [
+        "references/page_05/ref_01_327.99s.jpg",
+        "references/page_05/ref_02_336.99s.jpg",
+        "references/page_05/ref_03_345.98s.jpg"
+      ]
+    },
+    {
+      "page": 6,
+      "heading": "另一个打算",
+      "text": "日子过了十年，崔氏渐渐失去耐心。她听说邻村张木匠有手艺，开始为自己的后半生打算。",
+      "heading_pinyin": "lìng yí gè dǎ suàn",
+      "pinyin": "rì zi guò le shí nián ， cuī shì jiàn jiàn shī qù nài xīn 。 tā tīng shuō lín cūn zhāng mù jiàng yǒu shǒu yì ， kāi shǐ wèi zì jǐ de hòu bàn shēng dǎ suàn 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_06.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，西汉乡村小屋内，崔氏坐在针线旁沉思，窗外可见邻村木匠铺的木料和工具，晚霞渐暗，表现人生选择的沉重，不夸张表情，无文字。",
+      "layout": "image-top",
+      "source_time_range": [
+        357.93,
+        398.51
+      ],
+      "visual_time_range": [
+        357.93,
+        398.51
+      ],
+      "key_content": {
+        "location": "山下小屋与邻村",
+        "animals": [
+          "崔氏",
+          "张木匠"
+        ],
+        "activity": "崔氏谈起另嫁张木匠的打算",
+        "stakes": "贫困和等待让夫妻关系出现裂缝",
+        "outcome": "她决定离开朱买臣",
+        "visual_focus": "崔氏、邻村木匠铺和沉重的选择"
+      },
+      "visual_anchors": [
+        "崔氏在屋中做出决定",
+        "远处的木匠铺",
+        "窗外渐暗的天色"
+      ],
+      "reference_frames": [
+        "references/page_06/ref_01_366.05s.jpg",
+        "references/page_06/ref_02_378.22s.jpg",
+        "references/page_06/ref_03_390.39s.jpg"
+      ]
+    },
+    {
+      "page": 7,
+      "heading": "写下休书",
+      "text": "崔氏不再相信朱买臣会做官，逼他写下休书。朱买臣很难过，却答应了她。",
+      "heading_pinyin": "xiě xià xiū shū",
+      "pinyin": "cuī shì bù zài xiāng xìn zhū mǎi chén huì zuò guān ， bī tā xiě xià xiū shū 。 zhū mǎi chén hěn nán guò ， què dā yìng le tā 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_07.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，西汉简朴木屋内，朱买臣低头用毛笔写休书，崔氏站在门边，桌上有纸张和油灯，两人保持明显距离，克制而尊重历史场景，无文字。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        405.84,
+        465.4
+      ],
+      "visual_time_range": [
+        405.84,
+        465.4
+      ],
+      "key_content": {
+        "location": "穹窿山下小屋",
+        "animals": [
+          "朱买臣",
+          "崔氏"
+        ],
+        "activity": "朱买臣在压力下写休书",
+        "stakes": "夫妻十年的生活走到了分岔口",
+        "outcome": "崔氏离开，朱买臣独自留下",
+        "visual_focus": "桌上的休书、毛笔和两人的距离"
+      },
+      "visual_anchors": [
+        "朱买臣低头写字",
+        "崔氏站在门边催促",
+        "桌上摊开的纸张"
+      ],
+      "reference_frames": [
+        "references/page_07/ref_01_417.75s.jpg",
+        "references/page_07/ref_02_435.62s.jpg",
+        "references/page_07/ref_03_453.49s.jpg"
+      ]
+    },
+    {
+      "page": 8,
+      "heading": "同乡严助伸出手",
+      "text": "朱买臣去找同乡严助求助。严助答应替他向朝廷举荐，让他的才学终于有机会被看见。",
+      "heading_pinyin": "tóng xiāng yán zhù shēn chū shǒu",
+      "pinyin": "zhū mǎi chén qù zhǎo tóng xiāng yán zhù qiú zhù 。 yán zhù dā yìng tì tā xiàng cháo tíng jǔ jiàn ， ràng tā de cái xué zhōng yú yǒu jī huì bèi kàn jiàn 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_08.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，汉代书房中朱买臣向同乡严助拱手求助，严助在书案旁伸手扶起他，竹简和推荐文书放在桌上，暖色室内光，无文字。",
+      "layout": "image-left",
+      "source_time_range": [
+        480.86,
+        502.03
+      ],
+      "visual_time_range": [
+        480.86,
+        502.03
+      ],
+      "key_content": {
+        "location": "汉代同乡家舍",
+        "animals": [
+          "朱买臣",
+          "严助"
+        ],
+        "activity": "朱买臣向严助求助，严助答应举荐",
+        "stakes": "朱买臣需要一个证明自己的机会",
+        "outcome": "严助愿意全力相助",
+        "visual_focus": "书案、拜访和伸出的援手"
+      },
+      "visual_anchors": [
+        "朱买臣拱手请求",
+        "严助在书案旁回应",
+        "竹简与推荐文书"
+      ],
+      "reference_frames": [
+        "references/page_08/ref_01_485.09s.jpg",
+        "references/page_08/ref_02_491.44s.jpg",
+        "references/page_08/ref_03_497.80s.jpg"
+      ]
+    },
+    {
+      "page": 9,
+      "heading": "终于成为太守",
+      "text": "在严助推荐下，朱买臣经过重重考验，得到汉武帝重用，被任命为会稽太守。",
+      "heading_pinyin": "zhōng yú chéng wéi tài shǒu",
+      "pinyin": "zài yán zhù tuī jiàn xià ， zhū mǎi chén jīng guò chóng chóng kǎo yàn ， dé dào hàn wǔ dì zhòng yòng ， bèi rèn mìng wèi huì jī tài shǒu 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_09.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，汉代朝堂中朱买臣接受任命，案上有诏书与官印，严助站在侧后方，朱买臣神情沉稳，历史服饰朴素准确，无文字。",
+      "layout": "image-top",
+      "source_time_range": [
+        510.98,
+        520.98
+      ],
+      "visual_time_range": [
+        510.98,
+        520.98
+      ],
+      "key_content": {
+        "location": "汉代朝廷",
+        "animals": [
+          "朱买臣",
+          "汉武帝",
+          "严助"
+        ],
+        "activity": "朱买臣通过考验并被任命为会稽太守",
+        "stakes": "才学需要机会，也需要经受考验",
+        "outcome": "朱买臣获得官职，准备衣锦还乡",
+        "visual_focus": "朝廷任命、官印和长途归来"
+      },
+      "visual_anchors": [
+        "朱买臣站在朝堂上",
+        "汉代官印与诏书",
+        "严助在一旁见证"
+      ],
+      "reference_frames": [
+        "references/page_09/ref_01_512.98s.jpg",
+        "references/page_09/ref_02_515.98s.jpg",
+        "references/page_09/ref_03_518.98s.jpg"
+      ]
+    },
+    {
+      "page": 10,
+      "heading": "衣锦还乡",
+      "text": "消息传回穹窿山下：朱买臣当上太守了。乡亲们惊讶地看着他的车队回到故乡。",
+      "heading_pinyin": "yì jǐn huán xiāng",
+      "pinyin": "xiāo xī chuán huí qióng lóng shān xià ： zhū mǎi chén dāng shàng tài shǒu le 。 xiāng qīn men jīng yà dì kàn zhe tā de chē duì huí dào gù xiāng 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_10.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，汉代会稽郡吴县街道，乡亲们从两侧惊讶地看着朱买臣的太守车队，远处是穹窿山，车马与服饰符合历史氛围，无文字。",
+      "layout": "image-right",
+      "source_time_range": [
+        534.31,
+        558.94
+      ],
+      "visual_time_range": [
+        534.31,
+        558.94
+      ],
+      "key_content": {
+        "location": "会稽郡吴县街道",
+        "animals": [
+          "朱买臣",
+          "乡亲们"
+        ],
+        "activity": "乡亲们围观朱买臣的太守车队",
+        "stakes": "过去被忽视的人如今有了新身份",
+        "outcome": "朱买臣回到故乡",
+        "visual_focus": "车队、乡亲与山城街道"
+      },
+      "visual_anchors": [
+        "乡亲们从街边探看",
+        "太守车队经过街道",
+        "远处熟悉的穹窿山"
+      ],
+      "reference_frames": [
+        "references/page_10/ref_01_539.24s.jpg",
+        "references/page_10/ref_02_546.62s.jpg",
+        "references/page_10/ref_03_554.01s.jpg"
+      ]
+    },
+    {
+      "page": 11,
+      "heading": "崔氏迎上来",
+      "text": "崔氏看见朱买臣做了大官，又称他为相公，邀请他回家吃鱼。朱买臣没有立刻答应。",
+      "heading_pinyin": "cuī shì yíng shàng lái",
+      "pinyin": "cuī shì kàn jiàn zhū mǎi chén zuò le dà guān ， yòu chēng tā wèi xiàng gōng ， yāo qǐng tā huí jiā chī yú 。 zhū mǎi chén méi yǒu lì kè dā yìng 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_11.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，汉代街道上崔氏向太守车队迎来，朱买臣在车旁抬手示意停下，乡亲们保持距离旁观，画面表现重逢的复杂心情，无文字。",
+      "layout": "image-left",
+      "source_time_range": [
+        562.5,
+        591.04
+      ],
+      "visual_time_range": [
+        562.5,
+        591.04
+      ],
+      "key_content": {
+        "location": "故乡街道",
+        "animals": [
+          "朱买臣",
+          "崔氏"
+        ],
+        "activity": "崔氏在街上迎接衣锦还乡的朱买臣",
+        "stakes": "旧日离别和今天的身份形成对照",
+        "outcome": "朱买臣停下来，准备说明过去的决定",
+        "visual_focus": "两人、车队和街边人群"
+      },
+      "visual_anchors": [
+        "崔氏向车队走来",
+        "朱买臣抬手示意停下",
+        "周围乡亲安静旁观"
+      ],
+      "reference_frames": [
+        "references/page_11/ref_01_568.21s.jpg",
+        "references/page_11/ref_02_576.77s.jpg",
+        "references/page_11/ref_03_585.33s.jpg"
+      ]
+    },
+    {
+      "page": 12,
+      "heading": "已经不是夫妻",
+      "text": "朱买臣提醒她：当年是她嫌弃贫困，逼他写下休书。如今两人已经不是夫妻了。",
+      "heading_pinyin": "yǐ jīng bú shì fū qī",
+      "pinyin": "zhū mǎi chén tí xǐng tā ： dāng nián shì tā xián qì pín kùn ， bī tā xiě xià xiū shū 。 rú jīn liǎng rén yǐ jīng bú shì fū qī le 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_12.webp",
+      "illustration_prompt": "儿童绘本水粉插画，汉代街道上朱买臣平静地向崔氏说明旧日休书，崔氏低头请求，车队和乡亲们在远处，构图克制、无文字。",
+      "layout": "image-top",
+      "source_time_range": [
+        588.88,
+        625.6
+      ],
+      "visual_time_range": [
+        588.88,
+        625.6
+      ],
+      "key_content": {
+        "location": "会稽郡街道",
+        "animals": [
+          "朱买臣",
+          "崔氏"
+        ],
+        "activity": "朱买臣回忆被休并拒绝重归于好",
+        "stakes": "过去的承诺和决定不能假装没有发生",
+        "outcome": "朱买臣说清两人的关系已经改变",
+        "visual_focus": "人群、旧信和两人的距离"
+      },
+      "visual_anchors": [
+        "朱买臣平静解释",
+        "崔氏低头请求原谅",
+        "车队与围观人群形成背景"
+      ],
+      "reference_frames": [
+        "references/page_12/ref_01_596.22s.jpg",
+        "references/page_12/ref_02_607.24s.jpg",
+        "references/page_12/ref_03_618.26s.jpg"
+      ]
+    },
+    {
+      "page": 13,
+      "heading": "泼水作比喻",
+      "text": "朱买臣让人端来一盆水泼到地上，然后问崔氏：怎样才能让这些水回到盆里？",
+      "heading_pinyin": "pō shuǐ zuò bǐ yù",
+      "pinyin": "zhū mǎi chén ràng rén duān lái yī pén shuǐ pō dào dì shàng ， rán hòu wèn cuī shì ： zěn yàng cái néng ràng zhè xiē shuǐ huí dào pén lǐ ？",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_13.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，汉代街道中央朱买臣刚把一盆清水泼到地上，水花和水迹向四周展开，崔氏与乡亲们注视这一幕，动态清晰、不戏剧化过度，无文字。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        626.48,
+        645.67
+      ],
+      "visual_time_range": [
+        626.48,
+        645.67
+      ],
+      "key_content": {
+        "location": "会稽郡街道",
+        "animals": [
+          "朱买臣",
+          "崔氏"
+        ],
+        "activity": "朱买臣把盆里的水泼到地上",
+        "stakes": "他要让崔氏明白决定已经无法撤回",
+        "outcome": "水迹留在地面，众人看懂了比喻",
+        "visual_focus": "水盆、水花和惊讶的人群"
+      },
+      "visual_anchors": [
+        "朱买臣手中的空盆",
+        "地面扩散的水花",
+        "崔氏和乡亲们注视水迹"
+      ],
+      "reference_frames": [
+        "references/page_13/ref_01_630.32s.jpg",
+        "references/page_13/ref_02_636.08s.jpg",
+        "references/page_13/ref_03_641.83s.jpg"
+      ]
+    },
+    {
+      "page": 14,
+      "heading": "水回不到盆里",
+      "text": "崔氏说，泼出去的水怎么可能收得回来？朱买臣回答：既然做不到，就不要再挡路了。",
+      "heading_pinyin": "shuǐ huí bú dào pén lǐ",
+      "pinyin": "cuī shì shuō ， pō chū qù de shuǐ zěn me kě néng shōu dé huí lái ？ zhū mǎi chén huí dá ： jì rán zuò bú dào ， jiù bú yào zài dǎng lù le 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_14.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，汉代街道地面有清晰水迹和空盆，崔氏站在一旁无言，朱买臣转身走向太守车队，夕阳拉长影子，无文字。",
+      "layout": "image-right",
+      "source_time_range": [
+        646.88,
+        664.64
+      ],
+      "visual_time_range": [
+        646.88,
+        664.64
+      ],
+      "key_content": {
+        "location": "会稽郡街道地面",
+        "animals": [
+          "朱买臣",
+          "崔氏"
+        ],
+        "activity": "崔氏承认水无法回到盆中，朱买臣离开",
+        "stakes": "已经做出的选择无法恢复原样",
+        "outcome": "覆水难收的比喻变得清楚",
+        "visual_focus": "空盆、水迹和离开的车队"
+      },
+      "visual_anchors": [
+        "崔氏面对地面水迹",
+        "朱买臣转身走向车队",
+        "空盆留在画面前景"
+      ],
+      "reference_frames": [
+        "references/page_14/ref_01_650.43s.jpg",
+        "references/page_14/ref_02_655.76s.jpg",
+        "references/page_14/ref_03_661.09s.jpg"
+      ]
+    },
+    {
+      "page": 15,
+      "heading": "记住覆水难收",
+      "text": "泼出去的水绝对收不回来。覆水难收提醒我们：说过的话、做过的事，都要认真负责。",
+      "heading_pinyin": "jì zhù fù shuǐ nán shōu",
+      "pinyin": "pō chū qù de shuǐ jué duì shōu bù huí lái 。 fù shuǐ nán shōu tí xǐng wǒ men ： shuō guò de huà 、 zuò guò de shì ， dōu yào rèn zhēn fù zé 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_15.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，文化宫总结舞台上陈教授和机器人琪琪站在水盆旁，水面映出温暖星光，背景有古代故事剪影，明亮而有思考感，无文字。",
+      "layout": "image-top",
+      "source_time_range": [
+        668.36,
+        708.97
+      ],
+      "visual_time_range": [
+        668.36,
+        708.97
+      ],
+      "key_content": {
+        "location": "文化宫总结环节",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "陈教授和琪琪总结成语的道理",
+        "stakes": "孩子需要把故事带回自己的生活",
+        "outcome": "故事变成对日常选择的提醒",
+        "visual_focus": "水盆、星空和认真讨论的两位讲述者"
+      },
+      "visual_anchors": [
+        "陈教授指向水盆",
+        "琪琪认真点头",
+        "水面映出温暖星光"
+      ],
+      "reference_frames": [
+        "references/page_15/ref_01_676.48s.jpg",
+        "references/page_15/ref_02_688.66s.jpg",
+        "references/page_15/ref_03_700.85s.jpg"
+      ]
+    },
+    {
+      "page": 16,
+      "heading": "把今天的事做好",
+      "text": "陈教授鼓励小朋友多努力、多学习。做决定前想清楚，做过以后也要勇敢承担。",
+      "heading_pinyin": "bǎ jīn tiān de shì zuò hǎo",
+      "pinyin": "chén jiào shòu gǔ lì xiǎo péng yǒu duō nǔ lì 、 duō xué xí 。 zuò jué dìng qián xiǎng qīng chǔ ， zuò guò yǐ hòu yě yào yǒng gǎn chéng dān 。",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e04-fu-shui-nan-shou/images/page_16.webp",
+      "illustration_prompt": "儿童科普绘本水粉插画，文化宫舞台上陈教授和机器人琪琪向屏幕前的小朋友挥手，舞台灯光像温暖星星，画面干净明亮，无文字、无字幕。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        709.61,
+        723.21
+      ],
+      "visual_time_range": [
+        709.61,
+        723.21
+      ],
+      "key_content": {
+        "location": "文化宫告别舞台",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "陈教授和琪琪向小朋友告别",
+        "stakes": "故事结束后要留下可实践的提醒",
+        "outcome": "小朋友带着成语回到自己的生活",
+        "visual_focus": "舞台、星光和挥手告别"
+      },
+      "visual_anchors": [
+        "陈教授挥手",
+        "琪琪挥手告别",
+        "舞台灯光像星星"
+      ],
+      "reference_frames": [
+        "references/page_16/ref_01_712.33s.jpg",
+        "references/page_16/ref_02_716.41s.jpg",
+        "references/page_16/ref_03_720.49s.jpg"
+      ]
+    }
+  ]
+}

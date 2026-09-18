@@ -1,0 +1,851 @@
+{
+  "title": "海岸",
+  "subtitle": "陆地与海洋相遇的地方",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "Planet Earth III S01E01 Coasts，完整第一集，中文配音音频流内部序号 1",
+  "pages": [
+    {
+      "page": 1,
+      "heading": "人类改变了自然",
+      "text": "人类改变了自然，动物也在寻找新的生存办法。",
+      "pinyin": "rén lèi gǎi biàn le zì rán ，dòng wù yě zài xún zhǎo xīn de shēng cún bàn fǎ 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "自然纪录片儿童科普绘本插画：人类影响下的海岸与正在适应环境的动物群像，保留纪录片观察感，温和水粉质感，无文字。",
+      "source_time_range": [
+        104.65,
+        123.3
+      ],
+      "visual_time_range": [
+        95,
+        130
+      ],
+      "visual_anchors": [
+        "飞行器与成群海鸟同框，呈现人类观察自然的视角",
+        "绿色叶片、灰蓝天空和真实纪录片光线",
+        "人类设备与野生动物保持明显尺度对比"
+      ],
+      "reference_frames": [
+        "references/page_01/ref_01_102.00s.jpg",
+        "references/page_01/ref_02_112.50s.jpg",
+        "references/page_01/ref_03_123.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_01.webp",
+      "heading_pinyin": "rén lèi gǎi biàn le zì rán"
+    },
+    {
+      "page": 2,
+      "heading": "海岸是危险边界",
+      "text": "海岸环境充满危险。生命必须随机应变，才能在这里生存。",
+      "pinyin": "hǎi àn huán jìng chōng mǎn wēi xiǎn 。shēng mìng bì xū suí jī yìng biàn ，cái néng zài zhè lǐ shēng cún 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：风浪、礁石和潮湿海岸形成充满变化的边界，几种小动物在安全距离观察环境，准确自然史构图，柔和水粉，无文字。",
+      "source_time_range": [
+        264.27,
+        273.07
+      ],
+      "visual_time_range": [
+        255,
+        278
+      ],
+      "visual_anchors": [
+        "青灰色巨浪正面涌起，白色浪花占据画面",
+        "低暗海面与厚重风云形成冷色层次",
+        "海岸边界同时呈现静止岩石和运动海水"
+      ],
+      "reference_frames": [
+        "references/page_02/ref_01_259.60s.jpg",
+        "references/page_02/ref_02_266.50s.jpg",
+        "references/page_02/ref_03_273.40s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_02.webp",
+      "heading_pinyin": "hǎi àn shì wēi xiǎn biān jiè"
+    },
+    {
+      "page": 3,
+      "heading": "小海狗出发了",
+      "text": "这只南非海狗幼崽快一岁了，必须启程前往大海。",
+      "pinyin": "zhè zhǐ nán fēi hǎi gǒu yòu zǎi kuài yī suì le ，bì xū qǐ chéng qián wǎng dà hǎi 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：南非海狗幼崽站在拥挤的海岸繁殖地边缘，第一次望向翻滚的大海，保留棕色幼崽、黑色礁石、冷蓝海水和真实比例，水粉绘本，无文字。",
+      "source_time_range": [
+        303.52,
+        328.94
+      ],
+      "visual_time_range": [
+        300,
+        335
+      ],
+      "visual_anchors": [
+        "棕色南非海狗幼崽在拥挤的海狗群中抬头",
+        "深褐色身体、粗糙岩岸和暖暗光线",
+        "近距离镜头突出幼崽与群体的真实比例"
+      ],
+      "reference_frames": [
+        "references/page_03/ref_01_307.00s.jpg",
+        "references/page_03/ref_02_317.50s.jpg",
+        "references/page_03/ref_03_328.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_03.webp",
+      "heading_pinyin": "xiǎo hǎi gǒu chū fā le"
+    },
+    {
+      "page": 4,
+      "heading": "海里藏着大白鲨",
+      "text": "南非海狗每次入海觅食，都有丧命的危险。近年来，大白鲨越来越多。",
+      "pinyin": "nán fēi hǎi gǒu měi cì rù hǎi mì shí ，dōu yǒu sàng mìng de wēi xiǎn 。jìn nián lái ，dà bái shā yuè lái yuè duō 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：南非海狗在青灰海水中灵活游动，远处巨大大白鲨从浪影中靠近，紧张但不恐怖，保留纪录片海面光线与动物比例，水粉，无文字。",
+      "source_time_range": [
+        472.72,
+        504.33
+      ],
+      "visual_time_range": [
+        540,
+        610
+      ],
+      "visual_anchors": [
+        "大白鲨近距离从青绿色海水中游过",
+        "清晰的背鳍、鳃裂和灰色身体",
+        "水面反光从上方落下，远处还有第二条鲨鱼"
+      ],
+      "reference_frames": [
+        "references/page_04/ref_01_554.00s.jpg",
+        "references/page_04/ref_02_575.00s.jpg",
+        "references/page_04/ref_03_596.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_04.webp",
+      "heading_pinyin": "hǎi lǐ cáng zhe dà bái shā"
+    },
+    {
+      "page": 5,
+      "heading": "一起面对敌人",
+      "text": "南非海狗一起转身，直面大白鲨。数量多起来，局面就开始扭转。",
+      "pinyin": "nán fēi hǎi gǒu yì qǐ zhuǎn shēn ，zhí miàn dà bái shā 。shù liàng duō qǐ lái ，jú miàn jiù kāi shǐ niǔ zhuǎn 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：一群南非海狗在海面集结并转身面对大白鲨，群体由小到大形成弧线，青蓝海水、白浪和深色猎手，动态水粉，无文字。",
+      "source_time_range": [
+        675.82,
+        726.05
+      ],
+      "visual_time_range": [
+        670,
+        735
+      ],
+      "visual_anchors": [
+        "多只南非海狗在水面和浪花中聚集",
+        "俯视镜头表现群体规模与协同行动",
+        "青绿海水、深色动物和白色浪线形成动态对比"
+      ],
+      "reference_frames": [
+        "references/page_05/ref_01_683.00s.jpg",
+        "references/page_05/ref_02_702.50s.jpg",
+        "references/page_05/ref_03_722.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_05.webp",
+      "heading_pinyin": "yì qǐ miàn duì dí rén"
+    },
+    {
+      "page": 6,
+      "heading": "融化的冰雪带来淡水",
+      "text": "夏季，超过三千亿吨冰雪融化，释放出富含养分的淡水。",
+      "pinyin": "xià jì ，chāo guò sān qiān yì dūn bīng xuě róng huà ，shì fàng chū fù hán yǎng fèn de dàn shuǐ 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：北极夏季海岸，大片白色冰雪融化成清澈淡水流入海湾，蓝色冰面下有营养物质的视觉暗示，纪录片地貌比例，明亮水粉，无文字。",
+      "source_time_range": [
+        802.31,
+        835.69
+      ],
+      "visual_time_range": [
+        790,
+        850
+      ],
+      "visual_anchors": [
+        "北极白色冰架垂直落入深蓝海水",
+        "冰面边缘出现融水与冷色水体",
+        "宽阔极地海岸和低饱和蓝白色调"
+      ],
+      "reference_frames": [
+        "references/page_06/ref_01_802.00s.jpg",
+        "references/page_06/ref_02_820.00s.jpg",
+        "references/page_06/ref_03_838.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_06.webp",
+      "heading_pinyin": "róng huà de bīng xuě dài lái dàn shuǐ"
+    },
+    {
+      "page": 7,
+      "heading": "没有眼睛也能觅食",
+      "text": "冰海天使比人类的小拇指还小。它们没有视力，却能觉察水里的细微变化。",
+      "pinyin": "bīng hǎi tiān shǐ bǐ rén lèi de xiǎo mǔ zhǐ hái xiǎo 。tā men méi yǒu shì lì ，què néng jué chá shuǐ lǐ de xì wēi biàn huà 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：微小透明的冰海天使和海蝴蝶漂浮在深蓝海水中，用柔和环形水波表现它们感知细微变化，不能画成人类眼睛，科学准确，水粉，无文字。",
+      "source_time_range": [
+        855.63,
+        920.8
+      ],
+      "visual_time_range": [
+        850,
+        925
+      ],
+      "visual_anchors": [
+        "微小橙白色冰海天使漂浮在深绿蓝海水中",
+        "海面光束从上方穿透到透明身体",
+        "画面保留小体型和开阔水体的尺度感"
+      ],
+      "reference_frames": [
+        "references/page_07/ref_01_865.00s.jpg",
+        "references/page_07/ref_02_887.50s.jpg",
+        "references/page_07/ref_03_910.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_07.webp",
+      "heading_pinyin": "méi yǒu yǎn jīng yě néng mì shí"
+    },
+    {
+      "page": 8,
+      "heading": "触手陷阱",
+      "text": "冰海天使会从头部翻出触手，形成致命的陷阱。",
+      "pinyin": "bīng hǎi tiān shǐ huì cóng tóu bù fān chū chù shǒu ，xíng chéng zhì mìng de xiàn jǐng 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：冰海天使从头部展开细长触手形成捕食陷阱，猎物保持安全距离，透明橙色身体与深蓝海水，科学但不血腥，细腻水粉，无文字。",
+      "source_time_range": [
+        937.45,
+        960.53
+      ],
+      "visual_time_range": [
+        930,
+        970
+      ],
+      "visual_anchors": [
+        "透明橙色冰海天使近景",
+        "头部展开细长触手形成捕食结构",
+        "深绿色水体和柔和散射光突出透明身体"
+      ],
+      "reference_frames": [
+        "references/page_08/ref_01_938.00s.jpg",
+        "references/page_08/ref_02_950.00s.jpg",
+        "references/page_08/ref_03_962.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_08.webp",
+      "heading_pinyin": "chù shǒu xiàn jǐng"
+    },
+    {
+      "page": 9,
+      "heading": "海岸给狮子两份礼物",
+      "text": "在黑暗中，狮子能抓住海鸟。海岸不仅提供食物，还能提供庇护。",
+      "pinyin": "zài hēi àn zhōng ，shī zi néng zhuā zhù hǎi niǎo 。hǎi àn bù jǐn tí gōng shí wù ，hái néng tí gōng bì hù 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：纳米比亚黑暗海岸，两只年轻狮子在岩岸边观察休息的海鸟，月光和沙漠礁石提供庇护感，真实动物比例，深蓝金色水粉，无文字。",
+      "source_time_range": [
+        1259.69,
+        1289.24
+      ],
+      "visual_time_range": [
+        1125,
+        1295
+      ],
+      "visual_anchors": [
+        "黑暗海岸上的两只年轻狮子",
+        "海鸟在浅水和岩岸附近休息",
+        "黑白低照度画面与沙漠海岸的空旷感"
+      ],
+      "reference_frames": [
+        "references/page_09/ref_01_1159.00s.jpg",
+        "references/page_09/ref_02_1210.00s.jpg",
+        "references/page_09/ref_03_1261.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_09.webp",
+      "heading_pinyin": "hǎi àn gěi shī zi liǎng fèn lǐ wù"
+    },
+    {
+      "page": 10,
+      "heading": "鲸的长途旅行",
+      "text": "一头南露脊鲸即将结束八千公里的海洋之旅。它的目的地是阿根廷的巴尔德斯半岛。",
+      "pinyin": "yī tóu nán lù jí jīng jí jiāng jié shù bā qiān gōng lǐ de hǎi yáng zhī lǚ 。tā de mù dì dì shì ā gēn tíng de bā ěr dé sī bàn dǎo 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：南露脊鲸从辽阔海面游向阿根廷巴尔德斯半岛，宽阔海湾和远方陆地，突出长途旅行的尺度，蓝灰海水、柔和晨光，水粉，无文字。",
+      "source_time_range": [
+        1303.51,
+        1340.03
+      ],
+      "visual_time_range": [
+        1295,
+        1345
+      ],
+      "visual_anchors": [
+        "南露脊鲸巨大身体在海水下游动",
+        "辽阔海面、远方山丘和阿根廷海岸线",
+        "蓝灰色海水与明亮天空形成长途旅程的开阔感"
+      ],
+      "reference_frames": [
+        "references/page_10/ref_01_1305.00s.jpg",
+        "references/page_10/ref_02_1320.00s.jpg",
+        "references/page_10/ref_03_1335.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_10.webp",
+      "heading_pinyin": "jīng de cháng tú lǚ xíng"
+    },
+    {
+      "page": 11,
+      "heading": "浅水海湾迎来新生命",
+      "text": "雌性南露脊鲸迎来了分娩时刻。一个新生命诞生了。",
+      "pinyin": "cí xìng nán lù jí jīng yíng lái le fēn miǎn shí kè 。yí gè xīn shēng mìng dàn shēng le 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：平静浅水海湾中的南露脊鲸妈妈和刚出生的小鲸，身体在水面下轻柔相依，温暖而尊重自然，不夸张，不加文字，柔和水粉。",
+      "source_time_range": [
+        1434.61,
+        1484.13
+      ],
+      "visual_time_range": [
+        1360,
+        1490
+      ],
+      "visual_anchors": [
+        "南露脊鲸在浅水海湾中靠近沙质海底",
+        "巨大的尾部和安静水面",
+        "平静蓝绿色浅海呈现安全的生产环境"
+      ],
+      "reference_frames": [
+        "references/page_11/ref_01_1386.00s.jpg",
+        "references/page_11/ref_02_1425.00s.jpg",
+        "references/page_11/ref_03_1464.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_11.webp",
+      "heading_pinyin": "qiǎn shuǐ hǎi wān yíng lái xīn shēng mìng"
+    },
+    {
+      "page": 12,
+      "heading": "妈妈的二百升奶水",
+      "text": "南露脊鲸妈妈一天能分泌出二百升奶水。妈妈失去的能量，全都哺育给了幼崽。",
+      "pinyin": "nán lù jí jīng mā mā yī tiān néng fēn mì chū èr bǎi shēng nǎi shuǐ 。mā mā shī qù de néng liàng ，quán dōu bǔ yù gěi le yòu zǎi 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：南露脊鲸妈妈在浅海中让幼崽吃奶，庞大母鲸与小鲸比例清晰，温暖阳光穿过海水，亲子科普绘本水粉，无文字。",
+      "source_time_range": [
+        1493.49,
+        1510.72
+      ],
+      "visual_time_range": [
+        1475,
+        1520
+      ],
+      "visual_anchors": [
+        "南露脊鲸母鲸脸部白色斑纹清晰可见",
+        "母鲸与幼鲸在水下靠近",
+        "柔和水面反光和深绿海水保持纪录片质感"
+      ],
+      "reference_frames": [
+        "references/page_12/ref_01_1484.00s.jpg",
+        "references/page_12/ref_02_1497.50s.jpg",
+        "references/page_12/ref_03_1511.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_12.webp",
+      "heading_pinyin": "mā mā de èr bǎi shēng nǎi shuǐ"
+    },
+    {
+      "page": 13,
+      "heading": "海浪替鲸鱼保守秘密",
+      "text": "在近岸浅海，鲸的叫声会很快消失，还会被海浪声掩盖。",
+      "pinyin": "zài jìn àn qiǎn hǎi ，jīng de jiào shēng huì hěn kuài xiāo shī ，hái huì bèi hǎi làng shēng yǎn gài 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：浅海中的南露脊鲸发出低沉声波，声波在靠近海岸和白色浪花时变弱消失，用克制的同心线表现声音，科学绘本水粉，无文字。",
+      "source_time_range": [
+        1575.21,
+        1603.36
+      ],
+      "visual_time_range": [
+        1565,
+        1610
+      ],
+      "visual_anchors": [
+        "鲸靠近沙滩白色浪线的浅海",
+        "水下鲸体被蓝绿色海水部分遮蔽",
+        "海岸线与水中主体共同构成声音传播的空间"
+      ],
+      "reference_frames": [
+        "references/page_13/ref_01_1574.00s.jpg",
+        "references/page_13/ref_02_1587.50s.jpg",
+        "references/page_13/ref_03_1601.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_13.webp",
+      "heading_pinyin": "hǎi làng tì jīng yú bǎo shǒu mì mì"
+    },
+    {
+      "page": 14,
+      "heading": "鲸群慢慢恢复",
+      "text": "商业捕鲸被禁止后，南露脊鲸的数量如今超过一万两千头。",
+      "pinyin": "shāng yè bǔ jīng bèi jìn zhǐ hòu ，nán lù jí jīng de shù liàng rú jīn chāo guò yī wàn liǎng qiān tóu 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：平静海湾中多头南露脊鲸母子跃出水面，表现鲸群恢复但保持自然数量感，蓝绿海水和柔光，儿童科普水粉，无文字。",
+      "source_time_range": [
+        1622.68,
+        1634.03
+      ],
+      "visual_time_range": [
+        1615,
+        1645
+      ],
+      "visual_anchors": [
+        "俯视平静的海湾和浅色海岸",
+        "水面上可见成群鲸的细小暗色身影",
+        "晚霞和安静海面表现恢复中的栖息地"
+      ],
+      "reference_frames": [
+        "references/page_14/ref_01_1621.00s.jpg",
+        "references/page_14/ref_02_1630.00s.jpg",
+        "references/page_14/ref_03_1639.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_14.webp",
+      "heading_pinyin": "jīng qún màn màn huī fù"
+    },
+    {
+      "page": 15,
+      "heading": "海岸线是多样家园",
+      "text": "全世界有超过一百六十万公里的海岸线，它们构成了多样的栖息地。",
+      "pinyin": "quán shì jiè yǒu chāo guò yì bǎi liù shí wàn gōng lǐ de hǎi àn xiàn ，tā men gòu chéng le duō yàng de qī xī dì 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：从高处俯瞰多样海岸拼接成一幅连续生态景观，岛屿、潮池、森林、沙滩和海水中的动物彼此相连，真实自然史水粉，无文字。",
+      "source_time_range": [
+        1663.87,
+        1672.4
+      ],
+      "visual_time_range": [
+        1655,
+        1695
+      ],
+      "visual_anchors": [
+        "群岛、潮池除和森林海岸组成连续景观",
+        "航拍视角展现海岸线的宽度",
+        "深蓝水面、绿色森林和浅色岩岸的多样色彩"
+      ],
+      "reference_frames": [
+        "references/page_15/ref_01_1663.00s.jpg",
+        "references/page_15/ref_02_1675.00s.jpg",
+        "references/page_15/ref_03_1687.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_15.webp",
+      "heading_pinyin": "hǎi àn xiàn shì duō yàng jiā yuán"
+    },
+    {
+      "page": 16,
+      "heading": "蛇也要晒太阳",
+      "text": "丽纹束带蛇是变温动物，不能在冰冷海水里待太久。它要回到水面晒太阳。",
+      "pinyin": "lì wén shù dài shé shì biàn wēn dòng wù ，bù néng zài bīng lěng hǎi shuǐ lǐ dài tài jiǔ 。tā yào huí dào shuǐ miàn shài tài yáng 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：丽纹束带蛇从冰冷蓝色海水探出头，身体贴近阳光温暖的水面，水下食物和加拿大西海岸岩岸可见，科学准确，水粉，无文字。",
+      "source_time_range": [
+        1812.32,
+        1828.08
+      ],
+      "visual_time_range": [
+        1805,
+        1835
+      ],
+      "visual_anchors": [
+        "丽纹束带蛇在海藻覆盖的水下游动",
+        "蛇头探出水面接受阳光",
+        "冷蓝水下与暖色水面形成温度对比"
+      ],
+      "reference_frames": [
+        "references/page_16/ref_01_1811.00s.jpg",
+        "references/page_16/ref_02_1820.00s.jpg",
+        "references/page_16/ref_03_1829.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_16.webp",
+      "heading_pinyin": "shé yě yào shài tài yáng"
+    },
+    {
+      "page": 17,
+      "heading": "分叉的舌头会探路",
+      "text": "这条蛇在水下可以像在陆地一样使用分叉的舌头，探知猎物的方向。",
+      "pinyin": "zhè tiáo shé zài shuǐ xià kě yǐ xiàng zài lù dì yī yàng shǐ yòng fēn chà de shé tou ，tàn zhī liè wù de fāng xiàng 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：丽纹束带蛇在清澈海水中伸出分叉舌头，细微气味/水流以两条柔和线条指向小鱼，不能画拟人表情，水粉，无文字。",
+      "source_time_range": [
+        1847.34,
+        1859.9
+      ],
+      "visual_time_range": [
+        1840,
+        1865
+      ],
+      "visual_anchors": [
+        "丽纹束带蛇在清澈海水中穿过海藻",
+        "细长身体和自然游动姿态",
+        "绿色海藻、颗粒水体与近距离观察镜头"
+      ],
+      "reference_frames": [
+        "references/page_17/ref_01_1845.00s.jpg",
+        "references/page_17/ref_02_1852.50s.jpg",
+        "references/page_17/ref_03_1860.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_17.webp",
+      "heading_pinyin": "fēn chà de shé tou huì tàn lù"
+    },
+    {
+      "page": 18,
+      "heading": "水箭要算准",
+      "text": "射水鱼喷出的水像一支支利箭。它先估算距离，再考虑水面折射，瞄准后发射。",
+      "pinyin": "shè shuǐ yú pēn chū de shuǐ xiàng yī zhī zhī lì jiàn 。tā xiān gū suàn jù lí ，zài kǎo lǜ shuǐ miàn zhé shè ，miáo zhǔn hòu fā shè 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：红树林水面下的射水鱼向树枝上的昆虫喷出弯曲水箭，水面折射让目标位置产生视觉变化，构图清楚表现距离和角度，科学水粉，无文字。",
+      "source_time_range": [
+        1964.58,
+        2017.98
+      ],
+      "visual_time_range": [
+        1955,
+        2022
+      ],
+      "visual_anchors": [
+        "射水鱼在红树林水面下",
+        "细小水箭从鱼口射向枝头昆虫",
+        "绿叶、棕色枝条和清澈水滴形成清楚的捕食路径"
+      ],
+      "reference_frames": [
+        "references/page_18/ref_01_1968.40s.jpg",
+        "references/page_18/ref_02_1988.50s.jpg",
+        "references/page_18/ref_03_2008.60s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_18.webp",
+      "heading_pinyin": "shuǐ jiàn yào suàn zhǔn"
+    },
+    {
+      "page": 19,
+      "heading": "本领要向前辈学习",
+      "text": "射水鱼不是天生就会射水。它们要向有经验者学习。",
+      "pinyin": "shè shuǐ yú bú shì tiān shēng jiù huì shè shuǐ 。tā men yào xiàng yǒu jīng yàn zhě xué xí 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：年轻射水鱼在旁边观察经验丰富的射水鱼示范喷水捕食，红树林根系和水面倒影，动物不拟人化，温和水粉，无文字。",
+      "source_time_range": [
+        2029.97,
+        2040.13
+      ],
+      "visual_time_range": [
+        2020,
+        2055
+      ],
+      "visual_anchors": [
+        "射水鱼在红树林根系和水面之间游动",
+        "鱼群观察同一片水域中的捕食机会",
+        "自然水下光线和褐绿色根系保持真实栖息地"
+      ],
+      "reference_frames": [
+        "references/page_19/ref_01_2027.00s.jpg",
+        "references/page_19/ref_02_2037.50s.jpg",
+        "references/page_19/ref_03_2048.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_19.webp",
+      "heading_pinyin": "běn lǐng yào xiàng qián bèi xué xí"
+    },
+    {
+      "page": 20,
+      "heading": "高盐水保护了红鹳",
+      "text": "高盐度水域让许多捕食者不敢靠近，成了红鹳理想的筑巢地。",
+      "pinyin": "gāo yán dù shuǐ yù ràng xǔ duō bǔ shí zhě bù gǎn kào jìn ，chéng le hóng guàn lǐ xiǎng de zhù cháo dì 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：尤卡坦半岛无遮蔽的浅色盐湖，大片加勒比海红鹳聚集筑巢，白色盐岸与粉红鸟群形成清晰对比，热带阳光，水粉，无文字。",
+      "source_time_range": [
+        2279.81,
+        2290.94
+      ],
+      "visual_time_range": [
+        2215,
+        2305
+      ],
+      "visual_anchors": [
+        "大量加勒比海红鹳在浅色盐湖中聚集",
+        "粉红鸟群与高盐度的青绿色水面",
+        "航拍盐湖与近距离红鹳画面共同锚定繁殖地"
+      ],
+      "reference_frames": [
+        "references/page_20/ref_01_2233.00s.jpg",
+        "references/page_20/ref_02_2260.00s.jpg",
+        "references/page_20/ref_03_2287.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_20.webp",
+      "heading_pinyin": "gāo yán shuǐ bǎo hù le hóng guàn"
+    },
+    {
+      "page": 21,
+      "heading": "风暴潮冲毁鸟巢",
+      "text": "风暴提前到来，风暴潮冲毁了暴露在外围的鸟巢。",
+      "pinyin": "fēng bào tí qián dào lái ，fēng bào cháo chōng huǐ le bào lù zài wài wéi de niǎo cháo 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：热带风暴逼近红鹳繁殖地，深色风云、强风和风暴潮冲向外围鸟巢，保持自然灾害尺度但不恐怖，纪录片水粉，无文字。",
+      "source_time_range": [
+        2367.29,
+        2396.07
+      ],
+      "visual_time_range": [
+        2390,
+        2465
+      ],
+      "visual_anchors": [
+        "红鹳繁殖地的密集鸟群与绿色水面",
+        "水中暴露的鸟巢和白色鸟蛋",
+        "橙粉色羽毛、风雨后的湿润质感"
+      ],
+      "reference_frames": [
+        "references/page_21/ref_01_2405.00s.jpg",
+        "references/page_21/ref_02_2427.50s.jpg",
+        "references/page_21/ref_03_2450.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_21.webp",
+      "heading_pinyin": "fēng bào cháo chōng huǐ niǎo cháo"
+    },
+    {
+      "page": 22,
+      "heading": "雏鸟必须自救",
+      "text": "风暴过后，许多鸟巢被淹没，雏鸟又湿又冷。雏鸟必须自救。",
+      "pinyin": "fēng bào guò hòu ，xǔ duō niǎo cháo bèi yān mò ，chú niǎo yòu shī yòu lěng 。chú niǎo bì xū zì jiù 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：暴雨后的盐湖繁殖地，湿冷的加勒比海红鹳雏鸟努力从浅水中站起，成年鸟在远处，克制、关怀、不煽情，水粉，无文字。",
+      "source_time_range": [
+        2463.0,
+        2523.96
+      ],
+      "visual_time_range": [
+        2455,
+        2535
+      ],
+      "visual_anchors": [
+        "湿冷的红鹳雏鸟在浅水中努力站起",
+        "被淹没的巢区与远处成年红鹳",
+        "灰绿色风暴水面和橙粉色鸟群形成对比"
+      ],
+      "reference_frames": [
+        "references/page_22/ref_01_2471.00s.jpg",
+        "references/page_22/ref_02_2495.00s.jpg",
+        "references/page_22/ref_03_2519.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_22.webp",
+      "heading_pinyin": "chú niǎo bì xū zì jiù"
+    },
+    {
+      "page": 23,
+      "heading": "越来越强的飓风",
+      "text": "海岸很脆弱。全球气温升高，会让风暴越来越猛烈。飓风在温暖海面上积聚能量，到达海岸时释放出来。",
+      "pinyin": "hǎi àn hěn cuì ruò 。quán qiú qì wēn shēng gāo ，huì ràng fēng bào yuè lái yuè měng liè 。jù fēng zài wēn nuǎn hǎi miàn shàng jī jù néng liàng ，dào dá hǎi àn shí shì fàng chū lái 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：温暖热带海面上形成巨大的飓风旋涡，能量向海岸推进，海岸城市与湿地保持遥远小比例，科普气象构图，蓝绿灰水粉，无文字。",
+      "source_time_range": [
+        2560.12,
+        2594.09
+      ],
+      "visual_time_range": [
+        2550,
+        2610
+      ],
+      "visual_anchors": [
+        "卫星视角的巨大飓风旋涡",
+        "海浪冲击沿海建筑和海岸",
+        "深蓝海洋、白色云旋和灰色风暴光线"
+      ],
+      "reference_frames": [
+        "references/page_23/ref_01_2562.00s.jpg",
+        "references/page_23/ref_02_2580.00s.jpg",
+        "references/page_23/ref_03_2598.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_23.webp",
+      "heading_pinyin": "yuè lái yuè qiáng de jù fēng"
+    },
+    {
+      "page": 24,
+      "heading": "绿海龟的特别夜晚",
+      "text": "在几个特别的夜晚，会有两万只雌性绿海龟来到这片海滩。",
+      "pinyin": "zài jǐ gè tè bié de yè wǎn ，huì yǒu liǎng wàn zhǐ cí xìng lǜ hǎi guī lái dào zhè piàn hǎi tān 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：夜色中的雷恩岛海滩，许多雌性绿海龟从海水爬上沙滩寻找筑巢地，星空、月光、沙痕和真实比例，儿童科普水粉，无文字。",
+      "source_time_range": [
+        2667.09,
+        2679.73
+      ],
+      "visual_time_range": [
+        2630,
+        2698
+      ],
+      "visual_anchors": [
+        "雷恩岛小岛与开阔海面",
+        "夜色海滩和白色浪线",
+        "月夜蓝黑色调与绿海龟筑巢地的空旷尺度"
+      ],
+      "reference_frames": [
+        "references/page_24/ref_01_2643.60s.jpg",
+        "references/page_24/ref_02_2664.00s.jpg",
+        "references/page_24/ref_03_2684.40s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_24.webp",
+      "heading_pinyin": "lǜ hǎi guī de tè bié yè wǎn"
+    },
+    {
+      "page": 25,
+      "heading": "太阳让回家变艰难",
+      "text": "天亮后，雌性绿海龟要穿过漫长沙地返回大海。",
+      "pinyin": "tiān liàng hòu ，cí xìng lǜ hǎi guī yào chuān guò màn cháng shā dì fǎn huí dà hǎi 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：清晨渐热的雷恩岛沙滩，一只雌性绿海龟在长长沙地上艰难爬向海水，金色太阳、清晰爬痕、海水在远处，水粉，无文字。",
+      "source_time_range": [
+        2708.48,
+        2721.73
+      ],
+      "visual_time_range": [
+        2700,
+        2750
+      ],
+      "visual_anchors": [
+        "一只绿海龟在金色沙滩上缓慢爬行",
+        "沙地上清晰的长长爬痕",
+        "低角度太阳光与远处海面形成回家方向"
+      ],
+      "reference_frames": [
+        "references/page_25/ref_01_2710.00s.jpg",
+        "references/page_25/ref_02_2725.00s.jpg",
+        "references/page_25/ref_03_2740.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_25.webp",
+      "heading_pinyin": "tài yáng ràng huí jiā biàn jiān nán"
+    },
+    {
+      "page": 26,
+      "heading": "退潮的岩礁是障碍",
+      "text": "退潮后的岩礁会挡住去路，许多绿海龟因高温体力不支而死去。",
+      "pinyin": "tuì cháo hòu de yán jiāo huì dǎng zhù qù lù ，xǔ duō lǜ hǎi guī yīn gāo wēn tǐ lì bù zhī ér sǐ qù 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：退潮露出的深色岩礁挡在绿海龟回海路上，炽热沙地与远处蓝色海水形成对比，表现危险但不描绘死亡，科学水粉，无文字。",
+      "source_time_range": [
+        2761.99,
+        2782.32
+      ],
+      "visual_time_range": [
+        2755,
+        2790
+      ],
+      "visual_anchors": [
+        "多只绿海龟在退潮后的岩礁和沙地间",
+        "深色裸露岩礁横在回海路上",
+        "浅色热沙、灰岩和远方海水形成热度对比"
+      ],
+      "reference_frames": [
+        "references/page_26/ref_01_2762.00s.jpg",
+        "references/page_26/ref_02_2772.50s.jpg",
+        "references/page_26/ref_03_2783.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_26.webp",
+      "heading_pinyin": "tuì cháo de yán jiāo shì zhàng ài"
+    },
+    {
+      "page": 27,
+      "heading": "海平面上升的未来",
+      "text": "如果海平面继续上升，雷恩岛可能在未来三十年内被海水吞没。",
+      "pinyin": "rú guǒ hǎi píng miàn jì xù shàng shēng ，léi ēn dǎo kě néng zài wèi lái sān shí nián nèi bèi hǎi shuǐ tūn mò 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：雷恩岛海滩的未来感对照构图，当前沙滩与逐渐升高的海水边界，绿海龟巢穴在安全区域，克制的气候科普水粉，无文字。",
+      "source_time_range": [
+        2901.73,
+        2931.23
+      ],
+      "visual_time_range": [
+        2890,
+        2940
+      ],
+      "visual_anchors": [
+        "航拍雷恩岛细长沙滩与深蓝海水",
+        "海水边界逐渐逼近沙地",
+        "小岛在辽阔海面中的脆弱尺度"
+      ],
+      "reference_frames": [
+        "references/page_27/ref_01_2900.00s.jpg",
+        "references/page_27/ref_02_2915.00s.jpg",
+        "references/page_27/ref_03_2930.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_27.webp",
+      "heading_pinyin": "hǎi píng miàn shàng shēng de wèi lái"
+    },
+    {
+      "page": 28,
+      "heading": "温度决定幼龟性别",
+      "text": "沙土温度越高，孵出雌性绿海龟的可能性越大。如今，这里百分之九十九的幼龟都是雌性。",
+      "pinyin": "shā tǔ wēn dù yuè gāo ，fū chū cí xìng lǜ hǎi guī de kě néng xìng yuè dà 。rú jīn ，zhè lǐ bǎi fēn zhī jiǔ shí jiǔ de yòu guī dōu shì cí xìng 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：剖面式展示雷恩岛温暖沙土中的绿海龟巢穴和幼龟，太阳热量向下，幼龟安全可爱，科学准确，不加数字或文字，水粉。",
+      "source_time_range": [
+        3219.16,
+        3259.34
+      ],
+      "visual_time_range": [
+        3210,
+        3270
+      ],
+      "visual_anchors": [
+        "工作人员的手在温暖沙土中检查绿海龟巢穴",
+        "刚孵化的小绿海龟靠近巢口",
+        "沙土剖面、阳光和幼龟构成清晰科普画面"
+      ],
+      "reference_frames": [
+        "references/page_28/ref_01_3222.00s.jpg",
+        "references/page_28/ref_02_3240.00s.jpg",
+        "references/page_28/ref_03_3258.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_28.webp",
+      "heading_pinyin": "wēn dù jué dìng yòu guī xìng bié"
+    },
+    {
+      "page": 29,
+      "heading": "人们修建安全沙滩",
+      "text": "工作人员运来沙土，把安全筑巢地的面积增加了一倍。",
+      "pinyin": "gōng zuò rén yuán yùn lái shā tǔ ，bǎ ān quán zhù cháo dì de miàn jī zēng jiā le yí bèi 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：工作人员和机器把沙土运到雷恩岛海滩，正在扩建安全筑巢地，绿海龟在远处，保留真实工程与自然共存尺度，明亮水粉，无文字。",
+      "source_time_range": [
+        3318.51,
+        3343.97
+      ],
+      "visual_time_range": [
+        3280,
+        3355
+      ],
+      "visual_anchors": [
+        "黄色工程机器在海滩上堆放新沙土",
+        "新建的安全筑巢地和围护线",
+        "机械、沙丘与海岸生态保持真实比例"
+      ],
+      "reference_frames": [
+        "references/page_29/ref_01_3295.00s.jpg",
+        "references/page_29/ref_02_3317.50s.jpg",
+        "references/page_29/ref_03_3340.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_29.webp",
+      "heading_pinyin": "rén men xiū jiàn ān quán shā tān"
+    },
+    {
+      "page": 30,
+      "heading": "未来仍然不确定",
+      "text": "人们正在保护雷恩岛，但它的未来仍不确定。",
+      "pinyin": "rén men zhèng zài bǎo hù léi ēn dǎo ，dàn tā de wèi lái réng bù què dìng 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本结尾插画：暮色中的雷恩岛海滩，保护团队在远处守护新孵化的绿海龟，海天辽阔而带有不确定感，温暖克制的水粉，无文字。",
+      "source_time_range": [
+        3358.37,
+        3361.97
+      ],
+      "visual_time_range": [
+        3350,
+        3468
+      ],
+      "visual_anchors": [
+        "海滩上的保护团队成员与灰蓝海面",
+        "低云、白沙和远方海岸线",
+        "人物采访式真实镜头与暮色反光形成克制的结尾"
+      ],
+      "reference_frames": [
+        "references/page_30/ref_01_3373.60s.jpg",
+        "references/page_30/ref_02_3409.00s.jpg",
+        "references/page_30/ref_03_3444.40s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_30.webp",
+      "heading_pinyin": "wèi lái réng rán bù què dìng"
+    }
+  ],
+  "title_pinyin": "hǎi àn",
+  "subtitle_pinyin": "lù dì yǔ hǎi yáng xiàng yù de dì fāng"
+}
