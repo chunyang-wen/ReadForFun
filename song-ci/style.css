@@ -1278,6 +1278,13 @@ body:not(.pinyin-enabled) rt {
   border-color: rgba(184, 59, 38, 0.3);
 }
 
+.quiz-control-bar[hidden],
+.quiz-suboptions[hidden],
+.quiz-mastery-bar[hidden],
+.poem-mastery-badge[hidden] {
+  display: none !important;
+}
+
 /* Quiz Control Bar */
 .quiz-control-bar {
   margin: 16px 0 20px 0;
