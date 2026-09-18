@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>中华歇后语·俗语大全 · 民间妙趣与哲理精粹</title>
+  <meta name="description" content="精选500条传世经典歇后语与民间俗语，字字精准拼音，互动猜谜翻牌揭晓，典故溯源、语境用法与生动生活例句全景解析。">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-paper pinyin-enabled riddle-mode">
+
+  <!-- Paper Grain Ambient Texture -->
+  <div class="paper-texture" aria-hidden="true"></div>
+
+  <!-- App Header & Navigation -->
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand-section">
+        <a href="../" class="bookshelf-back" title="返回 ReadForFun 故事书架">
+          <span class="back-arrow">←</span>
+          <span class="back-text">书架</span>
+        </a>
+        <div class="brand-seal" aria-hidden="true">歇</div>
+        <div class="brand-titles">
+          <h1>歇后语·俗语大全</h1>
+          <span class="brand-sub">民间妙趣 · 传世哲理 · 五百精粹</span>
+        </div>
+      </div>
+
+      <!-- Search Input Container -->
+      <div class="search-section">
+        <div class="search-box">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input 
+            type="search" 
+            id="searchInput" 
+            class="search-input" 
+            placeholder="搜索歇后语、俗语、谜底、典故（如：孔夫子、豆腐、诸葛亮、一场空）" 
+            autocomplete="off"
+            aria-label="搜索歇后语与俗语"
+          >
+          <button type="button" id="clearSearchBtn" class="clear-search-btn" title="清空搜索" aria-label="清空">✕</button>
+          <kbd class="search-shortcut" title="按 / 键快速聚焦搜索">/</kbd>
+        </div>
+
+        <!-- Search Live Results Dropdown -->
+        <div id="searchResultsPanel" class="search-results-panel" hidden>
+          <div class="search-results-header">
+            <span id="searchResultCount">输入关键词即可检索</span>
+            <span class="search-tip">支持引子、谜底、释义、典故、拼音匹配</span>
+          </div>
+          <div id="searchResultsList" class="search-results-list" role="listbox"></div>
+        </div>
+      </div>
+
+      <!-- Header Action Controls -->
+      <div class="header-actions">
+        <!-- Riddle Mode / Reading Mode Toggle -->
+        <button type="button" id="modeToggleBtn" class="action-btn mode-btn" title="切换猜谜模式 / 畅读模式 (快捷键 空格键/S)">
+          <span class="btn-icon">🎭</span>
+          <span class="btn-label" id="modeLabel">猜谜模式</span>
+        </button>
+
+        <!-- Pinyin Toggle -->
+        <button type="button" id="pinyinToggleBtn" class="action-btn" title="切换拼音标注 (快捷键 P)" aria-pressed="true">
+          <span class="btn-icon">pī</span>
+          <span class="btn-label">拼音</span>
+        </button>
+
+        <!-- Catalog Drawer Button -->
+        <button type="button" id="catalogBtn" class="action-btn" title="打开全卷全览目录 (快捷键 M)">
+          <span class="btn-icon">卷</span>
+          <span class="btn-label">全卷 (500)</span>
+        </button>
+
+        <!-- Random Button -->
+        <button type="button" id="randomBtn" class="action-btn" title="随机翻阅一条 (快捷键 R)">
+          <span class="btn-icon">🎲</span>
+          <span class="btn-label">随机</span>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button type="button" id="themeToggleBtn" class="action-btn" title="切换宣纸白昼 / 幽夜墨色模式 (快捷键 D)">
+          <span class="btn-icon theme-icon">🌙</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Category Filter Chips Bar -->
+    <nav class="category-filter-bar" aria-label="按主题分类检索">
+      <div class="filter-label">分类选览：</div>
+      <div id="categoryChipsContainer" class="category-chips-scroll">
+        <button type="button" class="category-chip active" data-cat="all">全部 (500)</button>
+        <button type="button" class="category-chip" data-cat="谐音双关">谐音双关 (100)</button>
+        <button type="button" class="category-chip" data-cat="历史典故">历史典故 (100)</button>
+        <button type="button" class="category-chip" data-cat="神话名著">神话名著 (100)</button>
+        <button type="button" class="category-chip" data-cat="生肖动物">生肖动物 (55)</button>
+        <button type="button" class="category-chip" data-cat="自然物态">自然物态 (42)</button>
+        <button type="button" class="category-chip" data-cat="民间生活">民间生活 (31)</button>
+        <button type="button" class="category-chip" data-cat="传世俗语">传世俗语 (72)</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Reader Stage -->
+  <main class="reader-stage" id="readerStage">
+    
+    <!-- Left Column: Xiehouyu Card & Cultural Insights -->
+    <section class="card-column">
+      <article class="xiehouyu-card" id="xiehouyuCard">
+        
+        <!-- Header: Category & Counter & Tags -->
+        <div class="card-top-meta">
+          <div class="badge-group">
+            <span class="category-badge" id="cardCategoryBadge">谐音双关</span>
+            <span class="index-badge" id="cardIndexBadge">第 001 / 500 条</span>
+          </div>
+          <div class="tags-group" id="cardTagsGroup"></div>
+        </div>
+
+        <!-- Core Phrase Stage: Riddle (引子) & Punchline (谜底) -->
+        <div class="phrase-display-box">
+          <!-- Riddle Stage (前半截·引子) -->
+          <div class="riddle-container">
+            <div class="phrase-label"><span class="label-dot"></span> 前半句 · 引子</div>
+            <h2 class="riddle-text" id="riddleText"></h2>
+          </div>
+
+          <!-- Divider -->
+          <div class="phrase-divider" id="phraseDivider">
+            <span class="divider-line"></span>
+            <span class="divider-symbol">——</span>
+            <span class="divider-line"></span>
+          </div>
+
+          <!-- Punchline Stage (后半截·谜底) -->
+          <div class="answer-container" id="answerContainer">
+            <div class="phrase-label"><span class="label-dot accent"></span> 后半句 · 谜底</div>
+            
+            <!-- In Riddle Mode: Click to Reveal Overlay -->
+            <button type="button" class="reveal-button" id="revealBtn" title="点击或按空格键揭晓谜底">
+              <span class="reveal-icon">✦</span>
+              <span class="reveal-prompt">点击揭晓谜底</span>
+              <span class="reveal-hint">(或按空格键)</span>
+            </button>
+
+            <!-- Revealed Content Box -->
+            <div class="answer-content" id="answerContent">
+              <h3 class="answer-text" id="answerText"></h3>
+              <div class="seal-stamp" id="sealStamp" aria-hidden="true">妙绝</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Homophone Insight Box (if applicable) -->
+        <div class="homophone-box" id="homophoneBox" hidden>
+          <span class="homophone-badge">谐音妙趣</span>
+          <span class="homophone-detail" id="homophoneDetail"></span>
+        </div>
+
+        <!-- In-depth Explanation Sections -->
+        <div class="explanation-accordion">
+          <!-- 1. Meaning & Core Concept -->
+          <section class="exp-card">
+            <div class="exp-card-header">
+              <span class="exp-icon">释</span>
+              <h4>白话寓意与核心含义</h4>
+            </div>
+            <p class="exp-body-text" id="expMeaning"></p>
+          </section>
+
+          <!-- 2. Story & Etymology Origin -->
+          <section class="exp-card">
+            <div class="exp-card-header">
+              <span class="exp-icon seal-red">溯</span>
+              <h4>典故出处与民间来历</h4>
+            </div>
+            <p class="exp-body-text" id="expStory"></p>
+          </section>
+
+          <!-- 3. Usage & Context Tips -->
+          <section class="exp-card">
+            <div class="exp-card-header">
+              <span class="exp-icon seal-gold">用</span>
+              <h4>现实语境与褒贬色彩</h4>
+            </div>
+            <p class="exp-body-text" id="expUsage"></p>
+          </section>
+
+          <!-- 4. Life Example Sentence -->
+          <section class="exp-card highlight-card">
+            <div class="exp-card-header">
+              <span class="exp-icon seal-green">例</span>
+              <h4>生活语境生动例句</h4>
+            </div>
+            <p class="exp-body-text example-text" id="expExample"></p>
+          </section>
+        </div>
+
+        <!-- Card Footer Pager Buttons -->
+        <footer class="card-footer-pager">
+          <button type="button" id="prevBtn" class="pager-btn" title="上一条 (快捷键 ← 或 ↑)">
+            <span class="pager-arrow">←</span>
+            <span class="pager-text" id="prevTitle">上一条</span>
+          </button>
+          <div class="counter-display" id="counterDisplay">1 / 500</div>
+          <button type="button" id="nextBtn" class="pager-btn" title="下一条 (快捷键 → 或 ↓)">
+            <span class="pager-text" id="nextTitle">下一条</span>
+            <span class="pager-arrow">→</span>
+          </button>
+        </footer>
+
+      </article>
+    </section>
+
+    <!-- Right Column: Classical Illustration Artwork & Interactive Actions -->
+    <section class="artwork-column">
+      <div class="artwork-card">
+        <div class="artwork-frame">
+          <div class="artwork-loading" id="artworkLoading" role="status" aria-live="polite">
+            <span class="artwork-loading-spinner" aria-hidden="true"></span>
+            <span class="artwork-loading-label">意境载入中…</span>
+          </div>
+          <img 
+            id="artworkImg" 
+            class="artwork-img" 
+            src="https://readforfun-img.chunyangwen.com/tang-shi/assets/default-classical.svg" 
+            alt="歇后语水墨意境占位配图"
+          >
+          <div class="artwork-overlay">
+            <span class="artwork-badge" id="artworkBadge">经典歇后语</span>
+            <span class="artwork-caption" id="artworkCaption"></span>
+          </div>
+        </div>
+
+        <!-- Quick Interaction Actions Bar -->
+        <div class="artwork-tools">
+          <button type="button" id="copyShareBtn" class="tool-btn" title="复制当前歇后语与解析">
+            <span class="tool-icon">📋</span>
+            <span>复制典故</span>
+          </button>
+          <button type="button" id="quickRandomBtn" class="tool-btn" title="随便翻一条">
+            <span class="tool-icon">🎲</span>
+            <span>偶遇漫游</span>
+          </button>
+          <button type="button" id="quickDrawerBtn" class="tool-btn" title="打开500条目录全览">
+            <span class="tool-icon">📖</span>
+            <span>查阅全卷</span>
+          </button>
+        </div>
+
+        <!-- Classical Quote / Cultural Note Card -->
+        <div class="cultural-quote-card">
+          <div class="quote-header">
+            <span class="quote-seal">智</span>
+            <span class="quote-title">民间智慧小识</span>
+          </div>
+          <p class="quote-body">
+            歇后语是我国人民在长期的生活实践中创造出的一种特殊的语言形式。前半截是形象的比喻或设问，如引子一般；后半截则是真切的说明与点睛之笔，两相映照，妙趣横生。
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Bottom Floating Keyboard Navigation Helper -->
+  <aside class="keyboard-nav-bar" aria-label="键盘操作指引">
+    <div class="nav-hint-group">
+      <span class="hint-item"><kbd>↑</kbd> <kbd>↓</kbd> / <kbd>←</kbd> <kbd>→</kbd> 切换条目</span>
+      <span class="hint-divider">·</span>
+      <span class="hint-item"><kbd>Space</kbd> 揭晓谜底</span>
+      <span class="hint-divider">·</span>
+      <span class="hint-item"><kbd>S</kbd> 切换猜谜/畅读</span>
+      <span class="hint-divider">·</span>
+      <span class="hint-item"><kbd>/</kbd> 搜索</span>
+      <span class="hint-divider">·</span>
+      <span class="hint-item"><kbd>P</kbd> 拼音</span>
+      <span class="hint-divider">·</span>
+      <span class="hint-item"><kbd>M</kbd> 全卷目录</span>
+      <span class="hint-divider">·</span>
+      <span class="hint-item"><kbd>R</kbd> 随机</span>
+    </div>
+  </aside>
+
+  <!-- Full 500-Item Catalog Drawer Modal -->
+  <div id="catalogDrawer" class="catalog-drawer" hidden aria-hidden="true">
+    <div class="drawer-backdrop" id="drawerBackdrop"></div>
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <div class="drawer-title-group">
+          <h2>中华歇后语·俗语全卷全览</h2>
+          <span class="drawer-subtitle">五百条传世经典精粹 · 逐条品鉴</span>
+        </div>
+        <button type="button" id="closeDrawerBtn" class="close-drawer-btn" aria-label="关闭目录">✕</button>
+      </div>
+
+      <!-- Quick Filter Inside Drawer -->
+      <div class="drawer-filter-bar">
+        <div class="drawer-search-box">
+          <input 
+            type="search" 
+            id="drawerSearchInput" 
+            class="drawer-search-input" 
+            placeholder="在全卷500条中即时检索…"
+          >
+        </div>
+        <div class="drawer-filter-pills" id="drawerFilterPills">
+          <button type="button" class="drawer-pill active" data-filter="all">全部 (500)</button>
+          <button type="button" class="drawer-pill" data-filter="谐音双关">谐音双关 (100)</button>
+          <button type="button" class="drawer-pill" data-filter="历史典故">历史典故 (100)</button>
+          <button type="button" class="drawer-pill" data-filter="神话名著">神话名著 (100)</button>
+          <button type="button" class="drawer-pill" data-filter="生肖动物">生肖动物 (55)</button>
+          <button type="button" class="drawer-pill" data-filter="自然物态">自然物态 (42)</button>
+          <button type="button" class="drawer-pill" data-filter="民间生活">民间生活 (31)</button>
+          <button type="button" class="drawer-pill" data-filter="传世俗语">传世俗语 (72)</button>
+        </div>
+      </div>
+
+      <!-- Grid Cards Container -->
+      <div class="catalog-grid" id="catalogGrid" role="listbox">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toastMessage" class="toast-message" role="status" aria-live="polite" hidden></div>
+
+  <!-- Data & Application Scripts -->
+  <script src="data/xiehouyu.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
