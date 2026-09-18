@@ -15,6 +15,16 @@
   let isPinyinEnabled = true;
   let isNightTheme = false;
 
+  // Game & Quiz State
+  let appMode = "reading"; // "reading" | "quiz"
+  let quizSubMode = "title_only"; // "title_only" | "context_mask"
+  let maskRule = "half"; // "half" | "next_line" | "prev_line"
+  let isRevealed = false;
+  let maskedLineIndices = new Set();
+  let revealedLineIndices = new Set();
+  let hintLevel = 0;
+  let poemMastery = {};
+
   // DOM Elements
   const searchInput = document.getElementById("searchInput");
   const clearSearchBtn = document.getElementById("clearSearchBtn");
@@ -22,6 +32,8 @@
   const searchResultsList = document.getElementById("searchResultsList");
   const searchResultCount = document.getElementById("searchResultCount");
 
+  const gameModeToggleBtn = document.getElementById("gameModeToggleBtn");
+  const gameModeBtnLabel = document.getElementById("gameModeBtnLabel");
   const pinyinToggleBtn = document.getElementById("pinyinToggleBtn");
   const catalogBtn = document.getElementById("catalogBtn");
   const randomPoemBtn = document.getElementById("randomPoemBtn");
@@ -33,10 +45,20 @@
   const poetName = document.getElementById("poetName");
   const poetSeal = document.getElementById("poetSeal");
   const poemFormBadge = document.getElementById("poemFormBadge");
+  const poemMasteryBadge = document.getElementById("poemMasteryBadge");
   const poemTagsList = document.getElementById("poemTagsList");
   const versesList = document.getElementById("versesList");
   const lineStepper = document.getElementById("lineStepper");
   const poemAppreciationBody = document.getElementById("poemAppreciationBody");
+
+  // Quiz DOM Elements
+  const quizControlBar = document.getElementById("quizControlBar");
+  const quizSubOptions = document.getElementById("quizSubOptions");
+  const quizHintBtn = document.getElementById("quizHintBtn");
+  const quizRevealBtn = document.getElementById("quizRevealBtn");
+  const quizRevealBtnText = document.getElementById("quizRevealBtnText");
+  const quizRerollBtn = document.getElementById("quizRerollBtn");
+  const quizMasteryBar = document.getElementById("quizMasteryBar");
 
   const prevPoemBtn = document.getElementById("prevPoemBtn");
   const nextPoemBtn = document.getElementById("nextPoemBtn");
@@ -95,10 +117,246 @@
   }
 
   /**
+   * Mastery Persistence (Local Storage)
+   */
+  function loadMastery() {
+    try {
+      poemMastery = JSON.parse(localStorage.getItem("tang_poem_mastery") || "{}");
+    } catch (e) {
+      poemMastery = {};
+    }
+  }
+
+  function saveMastery(poemId, level) {
+    poemMastery[poemId] = { level, updatedAt: Date.now() };
+    try {
+      localStorage.setItem("tang_poem_mastery", JSON.stringify(poemMastery));
+    } catch (e) {}
+    updateMasteryBadge();
+    updateMasteryButtonsUI(level);
+  }
+
+  function updateMasteryBadge() {
+    if (!visiblePoems.length) return;
+    const poem = visiblePoems[currentPoemIndex];
+    if (!poem || !poemMasteryBadge) return;
+    const record = poemMastery[poem.id];
+    if (record && record.level) {
+      poemMasteryBadge.hidden = false;
+      poemMasteryBadge.className = `poem-mastery-badge ${record.level}`;
+      if (record.level === "mastered") {
+        poemMasteryBadge.textContent = "熟 · 已掌握";
+      } else if (record.level === "vague") {
+        poemMasteryBadge.textContent = "疑 · 偶有卡顿";
+      } else if (record.level === "forgot") {
+        poemMasteryBadge.textContent = "生 · 需温习";
+      }
+    } else {
+      poemMasteryBadge.hidden = true;
+    }
+  }
+
+  function updateMasteryButtonsUI(level) {
+    if (!quizMasteryBar) return;
+    const btns = quizMasteryBar.querySelectorAll(".mastery-btn");
+    btns.forEach(b => {
+      b.classList.toggle("is-selected", b.getAttribute("data-mastery") === level);
+    });
+  }
+
+  function setMastery(level) {
+    const poem = visiblePoems[currentPoemIndex];
+    if (!poem) return;
+    saveMastery(poem.id, level);
+  }
+
+  /**
+   * Quiz Mode Management
+   */
+  function toggleGameMode(explicitState) {
+    const nextMode = explicitState !== undefined ? explicitState : (appMode === "reading" ? "quiz" : "reading");
+    appMode = nextMode;
+    const isQuiz = appMode === "quiz";
+
+    if (gameModeToggleBtn) {
+      gameModeToggleBtn.setAttribute("aria-pressed", isQuiz ? "true" : "false");
+      gameModeToggleBtn.classList.toggle("is-active", isQuiz);
+      if (gameModeBtnLabel) {
+        gameModeBtnLabel.textContent = isQuiz ? "品读模式" : "背诵挑战";
+      }
+    }
+
+    const readerStage = document.getElementById("readerStage");
+    if (readerStage) {
+      readerStage.classList.toggle("quiz-mode-active", isQuiz);
+    }
+
+    if (quizControlBar) {
+      quizControlBar.hidden = !isQuiz;
+    }
+
+    if (isQuiz) {
+      generateQuizMask();
+    } else {
+      isRevealed = false;
+      maskedLineIndices.clear();
+      revealedLineIndices.clear();
+      hintLevel = 0;
+      if (lineIllustrationImg) {
+        lineIllustrationImg.classList.remove("is-artwork-masked");
+      }
+    }
+
+    renderCurrentPoem();
+  }
+
+  function setQuizSubMode(mode) {
+    if (quizSubMode === mode) return;
+    quizSubMode = mode;
+    if (quizControlBar) {
+      const tabs = quizControlBar.querySelectorAll(".quiz-tab-btn");
+      tabs.forEach(t => t.classList.toggle("active", t.getAttribute("data-quiz-mode") === mode));
+    }
+    if (quizSubOptions) {
+      quizSubOptions.hidden = (mode !== "context_mask");
+    }
+    generateQuizMask();
+    renderCurrentPoem();
+  }
+
+  function setMaskRule(rule) {
+    if (maskRule === rule) return;
+    maskRule = rule;
+    if (quizSubOptions) {
+      const pills = quizSubOptions.querySelectorAll(".subopt-pill");
+      pills.forEach(p => p.classList.toggle("active", p.getAttribute("data-rule") === rule));
+    }
+    generateQuizMask();
+    renderCurrentPoem();
+  }
+
+  function generateQuizMask() {
+    const poem = visiblePoems[currentPoemIndex];
+    if (!poem || !poem.lines || !poem.lines.length) return;
+
+    maskedLineIndices.clear();
+    revealedLineIndices.clear();
+    hintLevel = 0;
+    isRevealed = false;
+
+    if (quizRevealBtnText) quizRevealBtnText.textContent = "翻开核验";
+    if (quizRevealBtn) quizRevealBtn.classList.remove("is-active-reveal");
+    if (quizMasteryBar) quizMasteryBar.hidden = true;
+
+    const N = poem.lines.length;
+
+    if (quizSubMode === "title_only") {
+      for (let i = 0; i < N; i++) {
+        maskedLineIndices.add(i);
+      }
+    } else {
+      // Context Mask Mode
+      if (maskRule === "half") {
+        if (N <= 4) {
+          const hideSecondHalf = Math.random() > 0.5;
+          const start = hideSecondHalf ? 2 : 0;
+          const end = hideSecondHalf ? N : Math.min(2, N);
+          for (let i = start; i < end; i++) maskedLineIndices.add(i);
+        } else {
+          const choice = Math.floor(Math.random() * 3);
+          if (choice === 0) {
+            for (let i = 0; i < 4; i++) maskedLineIndices.add(i);
+          } else if (choice === 1) {
+            for (let i = 4; i < Math.min(8, N); i++) maskedLineIndices.add(i);
+          } else {
+            for (let i = 2; i < Math.min(6, N); i++) maskedLineIndices.add(i);
+          }
+        }
+      } else if (maskRule === "next_line") {
+        for (let i = 1; i < N; i += 2) {
+          maskedLineIndices.add(i);
+        }
+      } else if (maskRule === "prev_line") {
+        for (let i = 0; i < N; i += 2) {
+          maskedLineIndices.add(i);
+        }
+      }
+
+      if (maskedLineIndices.size === 0) {
+        maskedLineIndices.add(Math.floor(N / 2));
+      }
+    }
+
+    const record = poemMastery[poem.id];
+    updateMasteryButtonsUI(record ? record.level : null);
+  }
+
+  function toggleQuizReveal() {
+    if (appMode !== "quiz") return;
+    if (!isRevealed) {
+      revealQuiz();
+    } else {
+      generateQuizMask();
+      renderCurrentPoem();
+    }
+  }
+
+  function revealQuiz() {
+    isRevealed = true;
+    for (const idx of maskedLineIndices) {
+      revealedLineIndices.add(idx);
+    }
+    if (quizRevealBtnText) quizRevealBtnText.textContent = "隐藏重背";
+    if (quizRevealBtn) quizRevealBtn.classList.add("is-active-reveal");
+    if (quizMasteryBar) quizMasteryBar.hidden = false;
+    renderCurrentPoem();
+  }
+
+  function triggerQuizHint() {
+    if (appMode !== "quiz" || isRevealed) return;
+    hintLevel++;
+    if (hintLevel === 1) {
+      renderCurrentPoem();
+    } else if (hintLevel === 2) {
+      for (const idx of maskedLineIndices) {
+        if (!revealedLineIndices.has(idx)) {
+          revealedLineIndices.add(idx);
+          break;
+        }
+      }
+      renderCurrentPoem();
+    } else {
+      revealQuiz();
+    }
+  }
+
+  function revealSingleLine(lineIdx) {
+    if (appMode !== "quiz" || isRevealed) return;
+    if (maskedLineIndices.has(lineIdx)) {
+      revealedLineIndices.add(lineIdx);
+      let allDone = true;
+      for (const idx of maskedLineIndices) {
+        if (!revealedLineIndices.has(idx)) {
+          allDone = false;
+          break;
+        }
+      }
+      if (allDone) {
+        isRevealed = true;
+        if (quizRevealBtnText) quizRevealBtnText.textContent = "隐藏重背";
+        if (quizRevealBtn) quizRevealBtn.classList.add("is-active-reveal");
+        if (quizMasteryBar) quizMasteryBar.hidden = false;
+      }
+      renderCurrentPoem();
+    }
+  }
+
+  /**
    * Initialize Application
    */
   async function init() {
     try {
+      loadMastery();
       if (window.__TANG_POEMS_DATA__ && Array.isArray(window.__TANG_POEMS_DATA__)) {
         allPoems = window.__TANG_POEMS_DATA__;
       } else {
@@ -164,13 +422,50 @@
       .map(tag => `<span class="poem-tag">${escapeHtml(tag)}</span>`)
       .join("");
 
+    // Mastery & Badge
+    updateMasteryBadge();
+
+    // Ensure quiz mask if in quiz mode
+    if (appMode === "quiz" && maskedLineIndices.size === 0) {
+      generateQuizMask();
+    }
+
     // Lines list
     versesList.innerHTML = poem.lines
       .map((line, idx) => {
         const activeClass = idx === currentLineIndex ? "active" : "";
+        const isLineMasked = appMode === "quiz" && maskedLineIndices.has(idx) && !revealedLineIndices.has(idx) && !isRevealed;
+
+        if (isLineMasked) {
+          let maskedTextHtml = "";
+          const chars = Array.from(line.text);
+          chars.forEach((ch, charIdx) => {
+            if (CJK_RE.test(ch)) {
+              if (charIdx === 0 && hintLevel >= 1) {
+                maskedTextHtml += `<span class="masked-char-slot is-hinted" title="首字提示">${escapeHtml(ch)}</span>`;
+              } else {
+                maskedTextHtml += `<span class="masked-char-slot">〇</span>`;
+              }
+            } else {
+              maskedTextHtml += `<span class="masked-punct">${escapeHtml(ch)}</span>`;
+            }
+          });
+
+          return `
+            <div class="verse-line is-masked ${activeClass}" data-line-index="${idx}" role="button" tabindex="0" title="点击揭晓本句">
+              <span class="line-num-stamp">${idx + 1}</span>
+              <div class="line-text-wrap">${maskedTextHtml}</div>
+              <span class="masked-line-badge">揭晓 ▾</span>
+            </div>
+          `;
+        }
+
+        const wasMaskedAndRevealed = appMode === "quiz" && maskedLineIndices.has(idx) && (revealedLineIndices.has(idx) || isRevealed);
+        const justClass = wasMaskedAndRevealed ? "just-revealed" : "";
         const rubyHtml = renderRuby(line.text, line.pinyin);
+
         return `
-          <div class="verse-line ${activeClass}" data-line-index="${idx}" role="button" tabindex="0">
+          <div class="verse-line ${activeClass} ${justClass}" data-line-index="${idx}" role="button" tabindex="0">
             <span class="line-num-stamp">${idx + 1}</span>
             <div class="line-text-wrap">${rubyHtml}</div>
           </div>
@@ -222,6 +517,30 @@
     stepDots.forEach((el, idx) => {
       el.classList.toggle("active", idx === currentLineIndex);
     });
+
+    // Quiz Mode Artwork & Explanation Masking
+    const isArtworkMasked = appMode === "quiz" && !isRevealed;
+    lineIllustrationImg.classList.toggle("is-artwork-masked", isArtworkMasked);
+
+    let quizOverlay = document.getElementById("artworkQuizOverlay");
+    if (isArtworkMasked) {
+      if (!quizOverlay) {
+        quizOverlay = document.createElement("div");
+        quizOverlay.id = "artworkQuizOverlay";
+        quizOverlay.className = "artwork-quiz-overlay";
+        quizOverlay.innerHTML = `<span>🎴</span> <span>背诵挑战中 · 诗意暂隐</span>`;
+        const frame = document.querySelector(".artwork-frame");
+        if (frame) frame.appendChild(quizOverlay);
+      }
+      artworkLineBadge.textContent = `挑战中 · 共 ${poem.lines.length} 句`;
+      artworkPoeticFocus.textContent = "心中默背 · 翻牌核验";
+      expLineText.textContent = "背诵自测中";
+      expTranslation.textContent = "请在心中或口头默背诗文。点击单句即可揭晓对应行，或按空格键翻开核验。";
+      expWords.innerHTML = "<p>💡 锦囊：按 H 获取首字提示；按 1-3 自评掌握度；按 R 换一题。</p>";
+      return;
+    } else {
+      if (quizOverlay) quizOverlay.remove();
+    }
 
     // Preload before swapping so keyboard navigation never waits on the network.
     const imageUrl = poem.image || line.image || DEFAULT_IMAGE;
@@ -348,12 +667,18 @@
   function nextPoem() {
     currentPoemIndex = (currentPoemIndex + 1) % visiblePoems.length;
     currentLineIndex = 0;
+    if (appMode === "quiz") {
+      generateQuizMask();
+    }
     renderCurrentPoem();
   }
 
   function prevPoem() {
     currentPoemIndex = (currentPoemIndex - 1 + visiblePoems.length) % visiblePoems.length;
     currentLineIndex = 0;
+    if (appMode === "quiz") {
+      generateQuizMask();
+    }
     renderCurrentPoem();
   }
 
@@ -365,6 +690,9 @@
     }
     currentPoemIndex = nextIdx;
     currentLineIndex = 0;
+    if (appMode === "quiz") {
+      generateQuizMask();
+    }
     renderCurrentPoem();
   }
 
@@ -615,12 +943,16 @@
    * Event Listeners & Keyboard Handler
    */
   function setupEventListeners() {
-    // Click on Line to select
+    // Click on Line to select or reveal in quiz mode
     versesList.addEventListener("click", e => {
       const lineItem = e.target.closest(".verse-line");
       if (lineItem) {
         const idx = parseInt(lineItem.getAttribute("data-line-index"), 10);
-        goToLine(idx);
+        if (appMode === "quiz" && lineItem.classList.contains("is-masked")) {
+          revealSingleLine(idx);
+        } else {
+          goToLine(idx);
+        }
       }
     });
 
@@ -632,6 +964,46 @@
         goToLine(idx);
       }
     });
+
+    // Mode Toggle Button
+    if (gameModeToggleBtn) {
+      gameModeToggleBtn.addEventListener("click", () => toggleGameMode());
+    }
+
+    // Quiz Controls
+    if (quizControlBar) {
+      quizControlBar.addEventListener("click", e => {
+        const tab = e.target.closest(".quiz-tab-btn");
+        if (tab) {
+          const mode = tab.getAttribute("data-quiz-mode");
+          setQuizSubMode(mode);
+          return;
+        }
+
+        const pill = e.target.closest(".subopt-pill");
+        if (pill) {
+          const rule = pill.getAttribute("data-rule");
+          setMaskRule(rule);
+          return;
+        }
+
+        const mBtn = e.target.closest(".mastery-btn");
+        if (mBtn) {
+          const m = mBtn.getAttribute("data-mastery");
+          setMastery(m);
+          return;
+        }
+      });
+    }
+
+    if (quizHintBtn) quizHintBtn.addEventListener("click", triggerQuizHint);
+    if (quizRevealBtn) quizRevealBtn.addEventListener("click", toggleQuizReveal);
+    if (quizRerollBtn) {
+      quizRerollBtn.addEventListener("click", () => {
+        generateQuizMask();
+        renderCurrentPoem();
+      });
+    }
 
     // Prev / Next Poem Buttons
     prevPoemBtn.addEventListener("click", prevPoem);
@@ -676,6 +1048,9 @@
       if (idx !== -1) {
         currentPoemIndex = idx;
         currentLineIndex = lineIdx;
+        if (appMode === "quiz") {
+          generateQuizMask();
+        }
         renderCurrentPoem();
       }
 
@@ -711,6 +1086,48 @@
       }
 
       switch (e.key) {
+        case "g":
+        case "G":
+          e.preventDefault();
+          toggleGameMode();
+          break;
+
+        case " ":
+          if (appMode === "quiz") {
+            e.preventDefault();
+            toggleQuizReveal();
+          }
+          break;
+
+        case "h":
+        case "H":
+          if (appMode === "quiz") {
+            e.preventDefault();
+            triggerQuizHint();
+          }
+          break;
+
+        case "1":
+          if (appMode === "quiz" && isRevealed) {
+            e.preventDefault();
+            setMastery("forgot");
+          }
+          break;
+
+        case "2":
+          if (appMode === "quiz" && isRevealed) {
+            e.preventDefault();
+            setMastery("vague");
+          }
+          break;
+
+        case "3":
+          if (appMode === "quiz" && isRevealed) {
+            e.preventDefault();
+            setMastery("mastered");
+          }
+          break;
+
         case "ArrowDown":
         case "j":
         case "J":
