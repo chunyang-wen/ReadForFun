@@ -55,6 +55,12 @@
 
       <!-- Header Action Controls -->
       <div class="header-actions">
+        <!-- Game Mode Toggle -->
+        <button type="button" id="gameModeToggleBtn" class="action-btn mode-toggle-btn" title="切换背诵挑战模式 (快捷键 G)" aria-pressed="false">
+          <span class="btn-icon">🎯</span>
+          <span class="btn-label" id="gameModeBtnLabel">背诵挑战</span>
+        </button>
+
         <!-- Pinyin Toggle -->
         <button type="button" id="pinyinToggleBtn" class="action-btn" title="切换拼音标注 (快捷键 P)" aria-pressed="true">
           <span class="btn-icon">pī</span>
@@ -101,6 +107,7 @@
           <div class="ci-badge-row">
             <span class="ci-dynasty-badge" id="ciDynastyBadge">宋代</span>
             <span class="ci-form-badge" id="ciFormBadge">双调</span>
+            <span class="poem-mastery-badge" id="poemMasteryBadge" hidden></span>
             <span class="ci-tags-list" id="ciTagsList"></span>
           </div>
           
@@ -117,6 +124,59 @@
           <div class="ci-preface" id="ciPreface" hidden>
             <div class="preface-label">【小序】</div>
             <div class="preface-text" id="ciPrefaceText"></div>
+          </div>
+        </div>
+
+        <!-- Quiz Control & Action Bar (Visible only in Quiz Mode) -->
+        <div class="quiz-control-bar" id="quizControlBar" hidden>
+          <div class="quiz-modes-row">
+            <div class="quiz-mode-selector">
+              <button type="button" class="quiz-tab-btn active" data-quiz-mode="title_only">
+                <span class="tab-icon">🎴</span> 纯标题自测
+              </button>
+              <button type="button" class="quiz-tab-btn" data-quiz-mode="context_mask">
+                <span class="tab-icon">🧩</span> 上下文接龙
+              </button>
+            </div>
+
+            <!-- Context Mask Sub-options -->
+            <div class="quiz-suboptions" id="quizSubOptions" hidden>
+              <span class="subopt-label">出题：</span>
+              <div class="subopt-pills" id="suboptPills">
+                <button type="button" class="subopt-pill active" data-rule="stanza">上阕/下阕</button>
+                <button type="button" class="subopt-pill" data-rule="half">随机半首</button>
+                <button type="button" class="subopt-pill" data-rule="next_line">出上句背下句</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Action Buttons Bar in Quiz -->
+          <div class="quiz-action-bar">
+            <button type="button" id="quizHintBtn" class="quiz-btn quiz-btn-hint" title="锦囊提示 (快捷键 H)">
+              <span class="btn-icon">💡</span> 锦囊提示 <kbd class="quiz-kbd">H</kbd>
+            </button>
+            <button type="button" id="quizRevealBtn" class="quiz-btn quiz-btn-reveal" title="翻开核对答案 (快捷键 空格)">
+              <span class="btn-icon">📜</span> <span id="quizRevealBtnText">翻开核验</span> <kbd class="quiz-kbd">Space</kbd>
+            </button>
+            <button type="button" id="quizRerollBtn" class="quiz-btn quiz-btn-secondary" title="换一题 (快捷键 R)">
+              <span class="btn-icon">🎲</span> 换题 <kbd class="quiz-kbd">R</kbd>
+            </button>
+          </div>
+
+          <!-- Mastery Self-Assessment Bar (Shown upon reveal in quiz mode) -->
+          <div class="quiz-mastery-bar" id="quizMasteryBar" hidden>
+            <span class="mastery-label">背诵自评：</span>
+            <div class="mastery-buttons">
+              <button type="button" class="mastery-btn btn-forgot" data-mastery="forgot" title="忘却生疏 (快捷键 1)">
+                <span class="m-seal">生</span> 忘却生疏 <kbd class="quiz-kbd">1</kbd>
+              </button>
+              <button type="button" class="mastery-btn btn-vague" data-mastery="vague" title="偶有卡顿 (快捷键 2)">
+                <span class="m-seal">疑</span> 偶有卡顿 <kbd class="quiz-kbd">2</kbd>
+              </button>
+              <button type="button" class="mastery-btn btn-mastered" data-mastery="mastered" title="了然于胸 (快捷键 3)">
+                <span class="m-seal">熟</span> 了然于胸 <kbd class="quiz-kbd">3</kbd>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -221,17 +281,21 @@
   <!-- Bottom Floating Keyboard Navigation Helper -->
   <aside class="keyboard-nav-bar" aria-label="键盘操作指引">
     <div class="nav-hint-group">
-      <span class="hint-item"><kbd>↑</kbd> <kbd>↓</kbd> / <kbd>Space</kbd> 逐句画意</span>
+      <span class="hint-item"><kbd>G</kbd> 挑战模式</span>
       <span class="hint-divider">·</span>
-      <span class="hint-item"><kbd>Tab</kbd> / <kbd>1</kbd> <kbd>2</kbd> 跨阕切换</span>
+      <span class="hint-item"><kbd>Space</kbd> 翻开核对</span>
       <span class="hint-divider">·</span>
-      <span class="hint-item"><kbd>←</kbd> <kbd>→</kbd> 切换词作</span>
+      <span class="hint-item"><kbd>H</kbd> 提示</span>
       <span class="hint-divider">·</span>
-      <span class="hint-item"><kbd>/</kbd> 聚焦搜索</span>
+      <span class="hint-item"><kbd>1-3</kbd> 自评</span>
       <span class="hint-divider">·</span>
-      <span class="hint-item"><kbd>P</kbd> 拼音开关</span>
+      <span class="hint-item"><kbd>↑</kbd> <kbd>↓</kbd> 逐句</span>
       <span class="hint-divider">·</span>
-      <span class="hint-item"><kbd>M</kbd> 词集目录</span>
+      <span class="hint-item"><kbd>Tab</kbd> 换阕</span>
+      <span class="hint-divider">·</span>
+      <span class="hint-item"><kbd>←</kbd> <kbd>→</kbd> 切词</span>
+      <span class="hint-divider">·</span>
+      <span class="hint-item"><kbd>/</kbd> 搜索</span>
     </div>
   </aside>
 
