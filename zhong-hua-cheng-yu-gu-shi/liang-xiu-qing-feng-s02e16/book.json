@@ -1,0 +1,583 @@
+{
+  "title": "两袖清风",
+  "title_pinyin": "liǎng xiù qīng fēng",
+  "subtitle": "于谦清廉自守的故事",
+  "subtitle_pinyin": "yú qiān qīng lián zì shǒu de gù shì",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E16.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "visual_mode": "hybrid-book",
+  "pages": [
+    {
+      "page": 1,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_01.webp",
+      "heading": "石灰里的清白",
+      "heading_pinyin": "shí huī lǐ de qīng bái",
+      "text": "于谦写《石灰吟》：石灰经历敲打和烈火，也不怕粉骨碎身，只想把清白留在人间。",
+      "pinyin": "yú qiān xiě 《 shí huī yín 》 ： shí huī jīng lì qiāo dǎ hé liè huǒ ， yě bù pà fěn gǔ suì shēn ， zhǐ xiǎng bǎ qīng bái liú zài rén jiān 。",
+      "illustration_prompt": "Original children's-book illustration in a warm historical workshop: pale limestone is being quarried, hammered, and transformed by a glowing kiln, while a dignified young Yu Qian watches with calm determination. Show the metaphor of hardship and integrity through stone, sparks, and clear morning light; soft gouache and pencil texture, coherent children-science style, no readable text, subtitles, logos, or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        146.05,
+        195.01
+      ],
+      "visual_time_range": [
+        146.05,
+        195.01
+      ],
+      "visual_anchors": [
+        "于谦",
+        "石灰石",
+        "敲打取石",
+        "燃烧的窑火",
+        "清白的象征"
+      ],
+      "key_content": {
+        "location": "明代诗意的石灰窑场景",
+        "animals": [],
+        "activity": "石灰石经受敲打和烈火，诗人借此表达志向",
+        "stakes": "艰难和牺牲会考验一个人的品格",
+        "outcome": "于谦表明不怕艰难、坚守清白的理想",
+        "visual_focus": "石灰石与于谦坚定的神情同框"
+      },
+      "reference_frames": [
+        "references/page_01/ref_01_155.84s.jpg",
+        "references/page_01/ref_02_170.53s.jpg",
+        "references/page_01/ref_03_185.22s.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_02.webp",
+      "heading": "两袖清风是什么意思",
+      "heading_pinyin": "liǎng xiù qīng fēng shì shén me yì si",
+      "text": "两袖清风，字面上像是衣袖里只有清风。它比喻做官廉洁，不收受不该收的财物。",
+      "pinyin": "liǎng xiù qīng fēng ， zì miàn shàng xiàng shì yī xiù lǐ zhǐ yǒu qīng fēng 。 tā bǐ yù zuò guān lián jié ， bù shōu shòu bù gāi shōu de cái wù 。",
+      "illustration_prompt": "Original children's-book explainer illustration: Yu Qian stands in a simple ancient robe with both wide sleeves lifted, and transparent swirling wind passes through them. Nearby, a small pile of glittering gifts is left outside a closed doorway, clearly refused. Friendly historical setting, clear visual metaphor, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        199.7,
+        270.0
+      ],
+      "visual_time_range": [
+        251.0,
+        270.0
+      ],
+      "visual_anchors": [
+        "于谦",
+        "宽大的衣袖",
+        "穿过衣袖的清风",
+        "被拒绝的礼物",
+        "古代府邸"
+      ],
+      "key_content": {
+        "location": "明朝府邸与讲故事的文化宫",
+        "animals": [],
+        "activity": "用衣袖和清风解释成语含义",
+        "stakes": "孩子要分清清廉与收礼的不同",
+        "outcome": "读者知道两袖清风比喻为官廉洁",
+        "visual_focus": "清风穿过空衣袖的明白比喻"
+      },
+      "reference_frames": [
+        "references/page_02/ref_01_254.80s.jpg",
+        "references/page_02/ref_02_260.50s.jpg",
+        "references/page_02/ref_03_266.20s.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_03.webp",
+      "heading": "故事发生在明朝",
+      "heading_pinyin": "gù shì fā shēng zài míng cháo",
+      "text": "故事发生在明朝。于谦既是著名诗人，也是保卫国家的民族英雄。",
+      "pinyin": "gù shì fā shēng zài míng cháo 。 yú qiān jì shì zhù míng shī rén ， yě shì bǎo wèi guó jiā de mín zú yīng xióng 。",
+      "illustration_prompt": "Original children's-book historical illustration of Ming China: Yu Qian in modest official robes stands between a scroll of poetry and a guarded city gate, with citizens and soldiers in the background. Respectful, child-friendly portrait of a poet and national hero, warm earth palette, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        264.0,
+        270.0
+      ],
+      "visual_time_range": [
+        264.0,
+        270.0
+      ],
+      "visual_anchors": [
+        "明朝",
+        "于谦",
+        "诗卷",
+        "城门",
+        "百姓和士兵"
+      ],
+      "key_content": {
+        "location": "明朝城市",
+        "animals": [],
+        "activity": "介绍于谦的诗人与英雄身份",
+        "stakes": "理解人物身份，才能读懂他的选择",
+        "outcome": "读者认识故事主人公于谦",
+        "visual_focus": "诗卷、城门和于谦的端正形象"
+      },
+      "reference_frames": [
+        "references/page_03/ref_01_265.20s.jpg",
+        "references/page_03/ref_02_267.00s.jpg",
+        "references/page_03/ref_03_268.80s.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_04.webp",
+      "heading": "箱子里装着什么",
+      "heading_pinyin": "xiāng zi lǐ zhuāng zhe shén me",
+      "text": "几名仆人小心搬运箱子，生怕把里面的东西摔坏。旁人好奇：这些箱子到底装着什么？",
+      "pinyin": "jǐ míng pú rén xiǎo xīn bān yùn xiāng zi ， shēng pà bǎ lǐ miàn de dōng xi shuāi huài 。 páng rén hào qí ： zhè xiē xiāng zi dào dǐ zhuāng zhe shén me ？",
+      "illustration_prompt": "Original children's-book illustration of a busy Ming courtyard: three careful servants carry decorated wooden boxes with cautious steps, while a curious official leans forward to look. Show tension in their posture but keep the scene playful and clear, warm afternoon light, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        302.0,
+        350.0
+      ],
+      "visual_time_range": [
+        302.0,
+        325.0
+      ],
+      "visual_anchors": [
+        "明朝府邸庭院",
+        "三名仆人",
+        "木箱",
+        "小心搬运",
+        "好奇的官员"
+      ],
+      "key_content": {
+        "location": "明朝官员府邸的庭院",
+        "animals": [],
+        "activity": "仆人小心搬运一箱箱礼物",
+        "stakes": "箱中物品贵重，搬运者害怕损坏",
+        "outcome": "读者产生疑问，准备揭开送礼的秘密",
+        "visual_focus": "仆人紧张的脚步和沉重木箱"
+      },
+      "reference_frames": [
+        "references/page_04/ref_01_306.60s.jpg",
+        "references/page_04/ref_02_313.50s.jpg",
+        "references/page_04/ref_03_320.40s.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_05.webp",
+      "heading": "送给权贵的礼物",
+      "heading_pinyin": "sòng gěi quán guì de lǐ wù",
+      "text": "箱子里不只有金银珠宝，还有香菇、手帕等土特产。它们是官员从百姓那里搜刮来的。",
+      "pinyin": "xiāng zi lǐ bù zhǐ yǒu jīn yín zhū bǎo ， hái yǒu xiāng gū 、 shǒu pà děng tǔ tè chǎn 。 tā men shì guān yuán cóng bǎi xìng nà lǐ sōu guā lái de 。",
+      "illustration_prompt": "Original children's-book historical illustration: an opened wooden tribute chest reveals silver ingots, strings of coins, mushrooms, folded handkerchiefs, and incense. In the background, worried villagers watch officials collect goods, making the unfairness visible without frightening imagery. Ming courtyard, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        328.0,
+        350.0
+      ],
+      "visual_time_range": [
+        328.0,
+        350.0
+      ],
+      "visual_anchors": [
+        "打开的木箱",
+        "金银珠宝",
+        "香菇",
+        "手帕",
+        "被搜刮的百姓"
+      ],
+      "key_content": {
+        "location": "明朝官员府邸",
+        "animals": [],
+        "activity": "官员准备把搜刮来的财物送给权贵",
+        "stakes": "百姓的日用品被变成讨好权贵的礼物",
+        "outcome": "读者看见送礼背后的不公平",
+        "visual_focus": "礼物箱里混杂着珠宝和民用土特产"
+      },
+      "reference_frames": [
+        "references/page_05/ref_01_332.40s.jpg",
+        "references/page_05/ref_02_339.00s.jpg",
+        "references/page_05/ref_03_345.60s.jpg"
+      ]
+    },
+    {
+      "page": 6,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_06.webp",
+      "heading": "王振借权收礼",
+      "heading_pinyin": "wáng zhèn jiè quán shōu lǐ",
+      "text": "明朝正统年间，宦官王振以权谋私。各地官员为了讨好他，常常送来珠宝白银。",
+      "pinyin": "míng cháo zhèng tǒng nián jiān ， huàn guān wáng zhèn yǐ quán móu sī 。 gè dì guān yuán wèi le tǎo hǎo tā ， cháng cháng sòng lái zhū bǎo bái yín 。",
+      "illustration_prompt": "Original children's-book historical illustration inside a Ming palace residence: Wang Zhen sits behind a richly decorated desk while officials present boxes of silver and jewels with overly polite bows. Keep the moral contrast clear but non-threatening, warm gold and deep red palette, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        360.0,
+        417.0
+      ],
+      "visual_time_range": [
+        365.0,
+        417.0
+      ],
+      "visual_anchors": [
+        "王振",
+        "明朝宫府",
+        "送礼官员",
+        "珠宝白银",
+        "华丽桌案"
+      ],
+      "key_content": {
+        "location": "明朝王振府邸",
+        "animals": [],
+        "activity": "各地官员向王振献上珠宝白银",
+        "stakes": "权力和送礼形成了不正当的关系",
+        "outcome": "王振借权收礼的风气被揭示",
+        "visual_focus": "礼箱围绕着坐在高处的王振"
+      },
+      "reference_frames": [
+        "references/page_06/ref_01_375.40s.jpg",
+        "references/page_06/ref_02_391.00s.jpg",
+        "references/page_06/ref_03_406.60s.jpg"
+      ]
+    },
+    {
+      "page": 7,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_07.webp",
+      "heading": "于谦两手空空",
+      "heading_pinyin": "yú qiān liǎng shǒu kōng kōng",
+      "text": "大家都带着礼物去拜访王振，只有于谦什么也没带。朋友劝他带些土特产，他却不想攀求权贵。",
+      "pinyin": "dà jiā dōu dài zhe lǐ wù qù bài fǎng wáng zhèn ， zhǐ yǒu yú qiān shén me yě méi dài 。 péng you quàn tā dài xiē tǔ tè chǎn ， tā què bù xiǎng pān qiú quán guì 。",
+      "illustration_prompt": "Original children's-book illustration at the entrance to a Ming official residence: many officials carry colorful gift boxes, while Yu Qian arrives with empty hands and a simple robe, standing calmly beside his concerned friend. Clear visual contrast, welcoming daylight, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        426.0,
+        478.0
+      ],
+      "visual_time_range": [
+        426.0,
+        463.0
+      ],
+      "visual_anchors": [
+        "王振府邸门口",
+        "于谦",
+        "空着的双手",
+        "提礼箱的官员",
+        "劝说他的朋友"
+      ],
+      "key_content": {
+        "location": "王振府邸门口",
+        "animals": [],
+        "activity": "于谦空手拜访，朋友劝他送礼",
+        "stakes": "他可能因为不送礼而显得格格不入",
+        "outcome": "于谦坚持不攀附权贵",
+        "visual_focus": "满载礼箱的人群与于谦空手站立的对比"
+      },
+      "reference_frames": [
+        "references/page_07/ref_01_433.40s.jpg",
+        "references/page_07/ref_02_444.50s.jpg",
+        "references/page_07/ref_03_455.60s.jpg"
+      ]
+    },
+    {
+      "page": 8,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_08.webp",
+      "heading": "我带着清风",
+      "heading_pinyin": "wǒ dài zhe qīng fēng",
+      "text": "朋友问于谦送了什么。于谦抬起衣袖，笑着说：我一直带着两袖清风。",
+      "pinyin": "péng you wèn yú qiān sòng le shén me 。 yú qiān tái qǐ yī xiù ， xiào zhe shuō ： wǒ yì zhí dài zhe liǎng xiù qīng fēng 。",
+      "illustration_prompt": "Original children's-book illustration of the story's humorous turning point: Yu Qian lifts both empty sleeves with a bright smile, and visible swirling blue-green wind curls around them. His friend reacts with amused surprise; gift boxes sit in the background. Lively expressions, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        479.0,
+        510.0
+      ],
+      "visual_time_range": [
+        479.0,
+        496.0
+      ],
+      "visual_anchors": [
+        "于谦抬起衣袖",
+        "清风旋转",
+        "朋友惊讶又好笑",
+        "空礼箱背景",
+        "幽默转折"
+      ],
+      "key_content": {
+        "location": "王振府邸外",
+        "animals": [],
+        "activity": "于谦用两袖清风回答朋友的送礼问题",
+        "stakes": "空手不等于没有自己的坚持",
+        "outcome": "两袖清风成为故事中最鲜明的回答",
+        "visual_focus": "衣袖中的清风和于谦的笑容"
+      },
+      "reference_frames": [
+        "references/page_08/ref_01_482.40s.jpg",
+        "references/page_08/ref_02_487.50s.jpg",
+        "references/page_08/ref_03_492.60s.jpg"
+      ]
+    },
+    {
+      "page": 9,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_09.webp",
+      "heading": "一首《入京诗》",
+      "heading_pinyin": "yì shǒu 《 rù jīng shī 》",
+      "text": "两袖清风的故事流传下来。于谦还写了《入京诗》，把不愿送礼的心意写进诗里。",
+      "pinyin": "liǎng xiù qīng fēng de gù shì liú chuán xià lái 。 yú qiān hái xiě le 《 rù jīng shī 》 ， bǎ bù yuàn sòng lǐ de xīn yì xiě jìn shī lǐ 。",
+      "illustration_prompt": "Original children's-book illustration: Yu Qian writes a poem at a simple wooden desk in a quiet Ming study, with open sleeves moving in a gentle breeze. Beside him are a blank scroll, an ink brush, mushrooms, folded cloth, and incense left untouched. Warm lamplight, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        514.0,
+        537.0
+      ],
+      "visual_time_range": [
+        514.0,
+        537.0
+      ],
+      "visual_anchors": [
+        "于谦书房",
+        "毛笔和墨",
+        "空白诗卷",
+        "两袖清风",
+        "未送出的土特产"
+      ],
+      "key_content": {
+        "location": "于谦的明代书房",
+        "animals": [],
+        "activity": "于谦写《入京诗》表达清廉心意",
+        "stakes": "他要把个人选择变成可以流传的道理",
+        "outcome": "诗歌记录了两袖清风的态度",
+        "visual_focus": "书写中的毛笔与轻拂诗卷的清风"
+      },
+      "reference_frames": [
+        "references/page_09/ref_01_518.60s.jpg",
+        "references/page_09/ref_02_525.50s.jpg",
+        "references/page_09/ref_03_532.40s.jpg"
+      ]
+    },
+    {
+      "page": 10,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_10.webp",
+      "heading": "民用之物为何成祸",
+      "heading_pinyin": "mín yòng zhī wù wèi hé chéng huò",
+      "text": "绢帕、蘑菇和线香，本来是供百姓使用的东西。因为官吏搜刮，它们反而给百姓带来了祸殃。",
+      "pinyin": "juàn pà 、 mó gu hé xiàn xiāng ， běn lái shì gōng bǎi xìng shǐ yòng de dōng xi 。 yīn wèi guān lì sōu guā ， tā men fǎn ér gěi bǎi xìng dài lái le huò yāng 。",
+      "illustration_prompt": "Original children's-book moral illustration: ordinary villagers use a handkerchief, mushrooms, and incense in daily life, while a greedy official's collection basket pulls these goods away and leaves worried families with empty shelves. Keep the image gentle and understandable for ages 6–10, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        613.0,
+        633.0
+      ],
+      "visual_time_range": [
+        613.0,
+        633.0
+      ],
+      "visual_anchors": [
+        "百姓日常生活",
+        "绢帕",
+        "蘑菇",
+        "线香",
+        "被征调的物品"
+      ],
+      "key_content": {
+        "location": "明朝百姓生活的街巷",
+        "animals": [],
+        "activity": "官吏搜刮百姓原本日用的物品",
+        "stakes": "民用品被拿走，百姓生活受到伤害",
+        "outcome": "于谦指出搜刮让好东西变成百姓的祸殃",
+        "visual_focus": "同一件物品在百姓手中和官吏篮中的不同命运"
+      },
+      "reference_frames": [
+        "references/page_10/ref_01_617.00s.jpg",
+        "references/page_10/ref_02_623.00s.jpg",
+        "references/page_10/ref_03_629.00s.jpg"
+      ]
+    },
+    {
+      "page": 11,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_11.webp",
+      "heading": "嘲讽进贡的歪风",
+      "heading_pinyin": "cháo fěng jìn gòng de wāi fēng",
+      "text": "《入京诗》不是在夸奖送礼，而是在嘲讽用百姓物品讨好权贵的歪风。于谦不愿同流合污。",
+      "pinyin": "《 rù jīng shī 》 bù shì zài kuā jiǎng sòng lǐ ， ér shì zài cháo fěng yòng bǎi xìng wù pǐn tǎo hǎo quán guì de wāi fēng 。 yú qiān bù yuàn tóng liú hé wū 。",
+      "illustration_prompt": "Original children's-book historical illustration: Yu Qian stands apart from a crooked procession of officials offering tribute boxes to a powerful court figure. A clear straight path and a fresh breeze surround Yu Qian, symbolizing integrity and refusal to join the corrupt custom. Soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        636.0,
+        644.0
+      ],
+      "visual_time_range": [
+        636.0,
+        644.0
+      ],
+      "visual_anchors": [
+        "进贡队伍",
+        "弯曲的道路",
+        "于谦独自站立",
+        "礼箱",
+        "清新的直路"
+      ],
+      "key_content": {
+        "location": "明朝进贡队伍经过的官道",
+        "animals": [],
+        "activity": "官员排队送礼，于谦拒绝跟随",
+        "stakes": "群体习惯可能把人带进错误的道路",
+        "outcome": "于谦保持清廉，不与坏风气同流合污",
+        "visual_focus": "弯曲送礼队伍与于谦的直立身影"
+      },
+      "reference_frames": [
+        "references/page_11/ref_01_637.60s.jpg",
+        "references/page_11/ref_02_640.00s.jpg",
+        "references/page_11/ref_03_642.40s.jpg"
+      ]
+    },
+    {
+      "page": 12,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_12.webp",
+      "heading": "清廉不是一无所有",
+      "heading_pinyin": "qīng lián bù shì yì wú suǒ yǒu",
+      "text": "两袖清风不是说于谦没有本领，也不是说清官不能有正常的生活。它说的是：不拿不该拿的财物。",
+      "pinyin": "liǎng xiù qīng fēng bù shì shuō yú qiān méi yǒu běn lǐng ， yě bù shì shuō qīng guān bù néng yǒu zhèng cháng de shēng huó 。 tā shuō de shì ： bù ná bù gāi ná de cái wù 。",
+      "illustration_prompt": "Original children's-book explainer illustration: Yu Qian works at a neat desk with a book, brush, and simple meal, while a tempting gift box remains outside the doorway untouched. Emphasize that a capable honest person can live simply without accepting improper wealth, warm calm palette, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        645.0,
+        657.0
+      ],
+      "visual_time_range": [
+        645.0,
+        657.0
+      ],
+      "visual_anchors": [
+        "于谦认真工作",
+        "书卷和毛笔",
+        "简单饭食",
+        "门外未拆礼箱",
+        "朴素生活"
+      ],
+      "key_content": {
+        "location": "于谦的简朴书房",
+        "animals": [],
+        "activity": "于谦工作生活，不接受不当财物",
+        "stakes": "孩子容易把清廉误解成手头什么都没有",
+        "outcome": "读者理解清廉的关键是守住边界",
+        "visual_focus": "正常生活与被拒礼物的清楚对照"
+      },
+      "reference_frames": [
+        "references/page_12/ref_01_647.40s.jpg",
+        "references/page_12/ref_02_651.00s.jpg",
+        "references/page_12/ref_03_654.60s.jpg"
+      ]
+    },
+    {
+      "page": 13,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_13.webp",
+      "heading": "为百姓着想",
+      "heading_pinyin": "wèi bǎi xìng zhe xiǎng",
+      "text": "于谦看见绢帕、蘑菇、线香被征调搜刮，明白这些本该服务百姓的东西，不能变成权贵的礼物。",
+      "pinyin": "yú qiān kàn jiàn juàn pà 、 mó gu 、 xiàn xiāng bèi zhēng diào sōu guā ， míng bái zhè xiē běn gāi fú wù bǎi xìng de dōng xi ， bù néng biàn chéng quán guì de lǐ wù 。",
+      "illustration_prompt": "Original children's-book illustration in a Ming marketplace: Yu Qian listens to villagers and gently returns baskets of handkerchiefs, mushrooms, and incense to them, while officials step back in embarrassment. Show empathy, fairness, and community warmth, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        659.0,
+        675.55
+      ],
+      "visual_time_range": [
+        659.0,
+        675.55
+      ],
+      "visual_anchors": [
+        "明朝集市",
+        "于谦与百姓交谈",
+        "绢帕",
+        "蘑菇",
+        "线香"
+      ],
+      "key_content": {
+        "location": "明朝百姓生活的集市",
+        "animals": [],
+        "activity": "于谦理解百姓因征调搜刮而受苦",
+        "stakes": "官吏的贪求会把日用品变成百姓的灾难",
+        "outcome": "于谦选择站在百姓一边",
+        "visual_focus": "于谦把物品还给百姓的温和场景"
+      },
+      "reference_frames": [
+        "references/page_13/ref_01_662.31s.jpg",
+        "references/page_13/ref_02_667.27s.jpg",
+        "references/page_13/ref_03_672.24s.jpg"
+      ]
+    },
+    {
+      "page": 14,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_14.webp",
+      "heading": "清风两袖朝天去",
+      "heading_pinyin": "qīng fēng liǎng xiù cháo tiān qù",
+      "text": "清风两袖朝天去，免得闾阎话短长。于谦带着清白面对朝廷，也不让百姓在背后叹息议论。",
+      "pinyin": "qīng fēng liǎng xiù cháo tiān qù ， miǎn de lǘ yán huà duǎn cháng 。 yú qiān dài zhe qīng bái miàn duì cháo tíng ， yě bù ràng bǎi xìng zài bèi hòu tàn xī yì lùn 。",
+      "illustration_prompt": "Original children's-book illustration: Yu Qian walks toward a bright palace gate with both sleeves open to a clear sky, while peaceful families below watch with relief rather than worry. The composition should feel uplifting and honest, blue sky, warm gold light, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        676.0,
+        686.0
+      ],
+      "visual_time_range": [
+        676.0,
+        686.0
+      ],
+      "visual_anchors": [
+        "明朝宫门",
+        "于谦走向朝廷",
+        "展开的衣袖",
+        "晴朗天空",
+        "安心的百姓"
+      ],
+      "key_content": {
+        "location": "通往明朝朝廷的道路",
+        "animals": [],
+        "activity": "于谦带着清白上朝",
+        "stakes": "面对权力时能否保持问心无愧",
+        "outcome": "他不送礼、不亏心，也不让百姓失望",
+        "visual_focus": "展开衣袖迎着晴空走向宫门"
+      },
+      "reference_frames": [
+        "references/page_14/ref_01_678.00s.jpg",
+        "references/page_14/ref_02_681.00s.jpg",
+        "references/page_14/ref_03_684.00s.jpg"
+      ]
+    },
+    {
+      "page": 15,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_15.webp",
+      "heading": "做正直的人",
+      "heading_pinyin": "zuò zhèng zhí de rén",
+      "text": "两袖清风赞美的是于谦为官清廉、为百姓着想的品格。遇到诱惑时，我们也可以选择诚实和正直。",
+      "pinyin": "liǎng xiù qīng fēng zàn měi de shì yú qiān wéi guān qīng lián 、 wèi bǎi xìng zhe xiǎng de pǐn gé 。 yù dào yòu huò shí ， wǒ men yě kě yǐ xuǎn zé chéng shí hé zhèng zhí 。",
+      "illustration_prompt": "Original children's-book closing illustration: a friendly group of children and the small white robot Qiqi stand beside a smiling Yu Qian under a clear breeze, choosing between a shiny gift and an honest open book; they point toward the book and help one another. Joyful, hopeful, warm gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        687.0,
+        701.0
+      ],
+      "visual_time_range": [
+        687.0,
+        701.0
+      ],
+      "visual_anchors": [
+        "于谦",
+        "孩子们",
+        "白色机器人琪琪",
+        "清风",
+        "打开的书"
+      ],
+      "key_content": {
+        "location": "文化宫的故事分享现场",
+        "animals": [],
+        "activity": "孩子们理解成语并决定学习正直",
+        "stakes": "故事要从历史人物变成今天可实践的品格",
+        "outcome": "读者愿意学习于谦的清廉和爱国精神",
+        "visual_focus": "孩子们在清风中选择诚实与正直"
+      },
+      "reference_frames": [
+        "references/page_15/ref_01_689.80s.jpg",
+        "references/page_15/ref_02_694.00s.jpg",
+        "references/page_15/ref_03_698.20s.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,540 @@
+{
+  "title": "大公无私",
+  "subtitle": "祁黄羊两荐人才的故事",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E11.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "visual_mode": "hybrid-book",
+  "cover_image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/cover.webp",
+  "pages": [
+    {
+      "page": 1,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/page_01.webp",
+      "heading": "一堂成语课",
+      "text": "故事从文化宫的一堂成语课开始。琪琪和陈教授，准备给小朋友讲一个关于公正的故事。",
+      "illustration_prompt": "Use case: illustration-story. Asset type: children's book opening page. A warm cultural palace classroom opens into a story scroll, with a friendly professor and a small white robot assistant preparing lesson cards about fairness. Soft gouache and pencil texture for ages 6–10, gentle teal, ochre and coral colors, generous negative space for page text, no words, no watermark. Create a wholly original viewpoint, staging, poses and background design; do not copy any source frame composition, camera angle or character pose.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        121.55,
+        182.41
+      ],
+      "visual_time_range": [
+        121.55,
+        182.41
+      ],
+      "visual_anchors": [
+        "文化宫课堂",
+        "陈教授与机器人助手琪琪",
+        "成语课准备",
+        "公正主题的卷轴与书本"
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [],
+        "activity": "琪琪和陈教授准备成语课",
+        "stakes": "孩子们还不知道今天要学习什么道理",
+        "outcome": "引出“大公无私”故事",
+        "visual_focus": "文化宫、讲台、成语书卷和两个讲述者"
+      },
+      "heading_pinyin": "yī táng chéng yǔ kè",
+      "pinyin": "gù shì cóng wén huà gōng de yī táng chéng yǔ kè kāi shǐ qí qí hé chén jiào shòu zhǔn bèi gěi xiǎo péng yǒu jiǎng yí gè guān yú gōng zhèng de gù shì",
+      "reference_frames": [
+        "references/page_01/ref_01_133.72s.jpg",
+        "references/page_01/ref_02_151.98s.jpg",
+        "references/page_01/ref_03_170.24s.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/page_02.webp",
+      "heading": "先别乱用成语",
+      "text": "琪琪把赶蚊子说成“放虎归山”，还把蚊子当成需要保护的小客人。成语要用得准确，也要先分清是非。",
+      "illustration_prompt": "Original children's-book illustration based only on the factual evidence: a tiny mosquito near a robot assistant's cheek inside a cultural palace, with a professor gesturing in surprise. Redesign the viewpoint, staging, poses and room layout entirely. Soft gouache and pencil texture, playful but clear, ages 6–10, no words, subtitles, logos or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        188.24,
+        265.57
+      ],
+      "visual_time_range": [
+        193.2,
+        239.03
+      ],
+      "visual_anchors": [
+        "文化宫室内",
+        "白色机器人琪琪",
+        "脸旁的小蚊子",
+        "陈教授提醒成语不能滥用"
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [
+          "蚊子"
+        ],
+        "activity": "琪琪不让陈教授拍死脸旁的蚊子",
+        "stakes": "玩笑把成语和现实情境混在了一起",
+        "outcome": "大家明白成语必须准确使用",
+        "visual_focus": "蚊子、琪琪的脸和陈教授的提醒"
+      },
+      "heading_pinyin": "xiān bié luàn yòng chéng yǔ",
+      "pinyin": "qí qí bǎ gǎn wén zi shuō chéng fàng hǔ guī shān hái bǎ wén zi dàng chéng xū yào bǎo hù de xiǎo kè rén chéng yǔ yào yòng dé zhǔn què yě yào xiān fēn qīng shì fēi",
+      "reference_frames": [
+        "references/page_02/ref_01_202.37s.jpg",
+        "references/page_02/ref_02_216.12s.jpg",
+        "references/page_02/ref_03_229.86s.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/page_03.webp",
+      "heading": "春秋时代的故事",
+      "text": "春秋时代，祁黄羊在晋国担任中军尉，负责统领驾驭战车的士兵。几年征战后，晋国的军事实力变得更强。",
+      "illustration_prompt": "Original children's-book illustration using the source only as factual evidence: the Spring and Autumn period, a Chinese chariot training ground with soldiers and a dignified older military officer overseeing horses and chariots. New elevated viewpoint, new staging and newly designed background, soft gouache and pencil texture, ages 6–10, no words or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        277.45,
+        327.6
+      ],
+      "visual_time_range": [
+        304.4,
+        323.12
+      ],
+      "visual_anchors": [
+        "春秋时代",
+        "晋国军营",
+        "战车与士兵",
+        "祁黄羊统领军务"
+      ],
+      "key_content": {
+        "location": "春秋时代的晋国军营",
+        "animals": [
+          "马"
+        ],
+        "activity": "祁黄羊统领驾驭战车的士兵",
+        "stakes": "中军尉职责重大，关系军队作战",
+        "outcome": "晋国军事实力逐渐壮大，祁黄羊准备退休",
+        "visual_focus": "战车、马匹、士兵和年长将领"
+      },
+      "heading_pinyin": "chūn qiū shí dài de gù shì",
+      "pinyin": "chūn qiū shí dài qí huáng yáng zài jìn guó dān rèn zhōng jūn wèi fù zé tǒng lǐng jià yù zhàn chē dī shì bīng jǐ nián zhēng zhàn hòu jìn guó de jūn shì shí lì biàn dé gèng qiáng",
+      "reference_frames": [
+        "references/page_03/ref_01_308.14s.jpg",
+        "references/page_03/ref_02_313.76s.jpg",
+        "references/page_03/ref_03_319.38s.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/page_04.webp",
+      "heading": "祁黄羊要退休了",
+      "text": "祁黄羊年事已高，向晋平公辞行。平公担心中军尉无人接替，便请他推荐合适的人选。",
+      "illustration_prompt": "Original children's-book illustration based on factual evidence: an ancient Chinese palace audience hall, an elderly official respectfully requesting retirement before a ruler, with a scroll and an empty military post symbol nearby. Fresh side viewpoint, different poses and background arrangement from any source, soft gouache and pencil texture, ages 6–10, no text or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        323.84,
+        384.93
+      ],
+      "visual_time_range": [
+        336.58,
+        372.09
+      ],
+      "visual_anchors": [
+        "晋国宫殿",
+        "祁黄羊向晋平公辞行",
+        "退休书简",
+        "等待接替的军职"
+      ],
+      "key_content": {
+        "location": "晋国宫殿",
+        "animals": [],
+        "activity": "祁黄羊向晋平公请求告老还乡",
+        "stakes": "重要军职需要找到可靠的接替者",
+        "outcome": "晋平公请祁黄羊推荐人选",
+        "visual_focus": "宫殿、君臣对话和辞行书简"
+      },
+      "heading_pinyin": "qí huáng yáng yào tuì xiū le",
+      "pinyin": "qí huáng yáng nián shì yǐ gāo xiàng jìn píng gōng cí xíng píng gōng dān xīn zhōng jūn wèi wú rén jiē tì biàn qǐng tā tuī jiàn hé shì de rén xuǎn",
+      "reference_frames": [
+        "references/page_04/ref_01_343.68s.jpg",
+        "references/page_04/ref_02_354.33s.jpg",
+        "references/page_04/ref_03_364.99s.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/page_05.webp",
+      "heading": "第一次推荐解狐",
+      "text": "平公问谁能接替中军尉，祁黄羊推荐了解狐。可是解狐曾和他有过节，平公觉得很奇怪。",
+      "illustration_prompt": "Original children's-book illustration using only factual evidence: in an ancient palace, an elderly official points to a recommendation scroll bearing the idea of a capable successor while the ruler reacts with surprise; a distant symbolic doorway suggests the recommended man. New viewpoint, staging, poses and palace layout, soft gouache and pencil texture for ages 6–10, no written characters, no watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        374.17,
+        426.33
+      ],
+      "visual_time_range": [
+        382.13,
+        411.55
+      ],
+      "visual_anchors": [
+        "晋国宫殿",
+        "祁黄羊举荐解狐",
+        "推荐卷轴",
+        "晋平公惊讶"
+      ],
+      "key_content": {
+        "location": "晋国宫殿",
+        "animals": [],
+        "activity": "祁黄羊推荐与自己有过节的解狐",
+        "stakes": "私下的矛盾可能影响公职选择",
+        "outcome": "祁黄羊坚持只看谁适合职位",
+        "visual_focus": "推荐卷轴、惊讶的晋平公和镇定的祁黄羊"
+      },
+      "heading_pinyin": "dì yī cì tuī jiàn jiě hú",
+      "pinyin": "píng gōng wèn shuí néng jiē tì zhōng jūn wèi qí huáng yáng tuī jiàn liǎo jiě hú kě shì jiě hú céng hé tā yǒu guò jié píng gōng jué de hěn qí guài",
+      "reference_frames": [
+        "references/page_05/ref_01_388.01s.jpg",
+        "references/page_05/ref_02_396.84s.jpg",
+        "references/page_05/ref_03_405.67s.jpg"
+      ]
+    },
+    {
+      "page": 6,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/page_06.webp",
+      "heading": "只看谁最合适",
+      "text": "祁黄羊说：“主公问的是谁能担任职位，并没有问他是不是我的仇人。”他把公事和私怨分开了。",
+      "illustration_prompt": "Original children's-book illustration based on the stated facts: a calm official places two separate tokens on a palace table, one representing public duty and one representing personal grievance, while the ruler listens thoughtfully. Do not use source composition, camera, poses or background. Soft gouache and pencil texture, ages 6–10, symbolic but concrete, no words or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        402.43,
+        430.89
+      ],
+      "visual_time_range": [
+        413.39,
+        430.89
+      ],
+      "visual_anchors": [
+        "君臣在宫殿对话",
+        "公职推荐",
+        "祁黄羊镇定解释",
+        "公事与私怨分开"
+      ],
+      "key_content": {
+        "location": "晋国宫殿",
+        "animals": [],
+        "activity": "祁黄羊解释推荐解狐的理由",
+        "stakes": "如果按私怨选人，重要职位可能被耽误",
+        "outcome": "晋平公接受了祁黄羊的公正判断",
+        "visual_focus": "分开的公事与私怨象征、君臣神情"
+      },
+      "heading_pinyin": "zhǐ kàn shuí zuì hé shì",
+      "pinyin": "qí huáng yáng shuō zhǔ gōng wèn de shì shuí néng dān rèn zhí wèi bìng méi yǒu wèn tā shì bú shì wǒ de chóu rén tā bǎ gōng shì hé sī yuàn fēn kāi le",
+      "reference_frames": [
+        "references/page_06/ref_01_416.89s.jpg",
+        "references/page_06/ref_02_422.14s.jpg",
+        "references/page_06/ref_03_427.39s.jpg"
+      ]
+    },
+    {
+      "page": 7,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/page_07.webp",
+      "heading": "第二次推荐谁",
+      "text": "解狐因病去世后，朝廷又缺少一名秉公无私的法官。平公再次请祁黄羊推荐人选。",
+      "illustration_prompt": "Original children's-book illustration from factual evidence: a quiet ancient palace corridor with a vacant official seal and a ruler asking an elderly adviser for another recommendation; a closed medicine room in the far background suggests the first candidate's illness without showing death. New staging and viewpoint, soft gouache and pencil texture for children, no words or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        432.25,
+        502.02
+      ],
+      "visual_time_range": [
+        440.97,
+        497.94
+      ],
+      "visual_anchors": [
+        "晋国朝廷",
+        "空缺的法官职位",
+        "晋平公再次询问",
+        "祁黄羊再次被请来推荐"
+      ],
+      "key_content": {
+        "location": "晋国朝廷",
+        "animals": [],
+        "activity": "晋平公再次请祁黄羊推荐法官",
+        "stakes": "百姓需要一位公正办案的法官",
+        "outcome": "祁黄羊将提出第二个人选",
+        "visual_focus": "空缺职位、君臣重逢和询问推荐"
+      },
+      "heading_pinyin": "dì èr cì tuī jiàn shuí",
+      "pinyin": "jiě hú yīn bìng qù shì hòu cháo tíng yòu quē shǎo yī míng bǐng gōng wú sī de fǎ guān píng gōng zài cì qǐng qí huáng yáng tuī jiàn rén xuǎn",
+      "reference_frames": [
+        "references/page_07/ref_01_452.36s.jpg",
+        "references/page_07/ref_02_469.46s.jpg",
+        "references/page_07/ref_03_486.55s.jpg"
+      ]
+    },
+    {
+      "page": 8,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/page_08.webp",
+      "heading": "推荐自己的儿子",
+      "text": "祁黄羊推荐了自己的儿子祁午。平公很吃惊：难道父亲不会偏爱自己的孩子吗？",
+      "illustration_prompt": "Original children's-book illustration based on factual evidence: in a palace, an elderly official presents a recommendation scroll while a young man stands respectfully at a distance, and the ruler raises an astonished hand. New three-quarter viewpoint, new poses and newly designed architecture, soft gouache and pencil texture for ages 6–10, no words or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        498.82,
+        520.89
+      ],
+      "visual_time_range": [
+        502.74,
+        517.37
+      ],
+      "visual_anchors": [
+        "晋国宫殿",
+        "祁黄羊推荐祁午",
+        "晋平公惊讶",
+        "父子站在不同位置"
+      ],
+      "key_content": {
+        "location": "晋国宫殿",
+        "animals": [],
+        "activity": "祁黄羊推荐儿子祁午做法官",
+        "stakes": "亲情是否会影响对人才的判断",
+        "outcome": "平公追问他是否在徇私",
+        "visual_focus": "父亲、儿子、推荐卷轴和惊讶的国君"
+      },
+      "heading_pinyin": "tuī jiàn zì jǐ de ér zi",
+      "pinyin": "qí huáng yáng tuī jiàn le zì jǐ de ér zi qí wǔ píng gōng hěn chī jīng nán dào fù qīn bú huì piān ài zì jǐ de hái zi ma",
+      "reference_frames": [
+        "references/page_08/ref_01_505.67s.jpg",
+        "references/page_08/ref_02_510.06s.jpg",
+        "references/page_08/ref_03_514.44s.jpg"
+      ]
+    },
+    {
+      "page": 9,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/page_09.webp",
+      "heading": "父子也能分清公私",
+      "text": "祁黄羊回答：平公只问谁适合法官，并没有问那个人是不是自己的儿子。祁午公正，所以值得推荐。",
+      "illustration_prompt": "Original children's-book illustration using facts only: a balanced brass scale in an ancient palace study, with a family ribbon on one side and a judge's seal on the other, while the official explains that ability and fairness decide the job. New symbolic composition and viewpoint, soft gouache and pencil texture, ages 6–10, no words or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        515.61,
+        559.57
+      ],
+      "visual_time_range": [
+        522.01,
+        555.84
+      ],
+      "visual_anchors": [
+        "宫殿书房",
+        "祁黄羊解释推荐理由",
+        "公正的法官印",
+        "亲情与公职分开"
+      ],
+      "key_content": {
+        "location": "晋国宫殿",
+        "animals": [],
+        "activity": "祁黄羊说明祁午适合法官职位",
+        "stakes": "任人唯亲会损害公正，任人唯才才能服众",
+        "outcome": "平公明白祁黄羊没有私心",
+        "visual_focus": "法官印、公平秤和君臣的解释"
+      },
+      "heading_pinyin": "fù zǐ yě néng fēn qīng gōng sī",
+      "pinyin": "qí huáng yáng huí dá píng gōng zhǐ wèn shuí shì hé fǎ guān bìng méi yǒu wèn nà ge rén shì bú shì zì jǐ de ér zi qí wǔ gōng zhèng suǒ yǐ zhí de tuī jiàn",
+      "reference_frames": [
+        "references/page_09/ref_01_528.78s.jpg",
+        "references/page_09/ref_02_538.92s.jpg",
+        "references/page_09/ref_03_549.07s.jpg"
+      ]
+    },
+    {
+      "page": 10,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/page_10.webp",
+      "heading": "祁午秉公办案",
+      "text": "祁午做了法官，为百姓理清是非，平复了许多冤假错案。他说，秉公办案就是自己的职责。",
+      "illustration_prompt": "Original children's-book illustration based on observable facts: a young ancient Chinese judge listens to a mother and her released son in a bright public court, with documents neatly arranged and townspeople waiting calmly. New viewpoint, staging and poses, redesigned court background, soft gouache and pencil texture for ages 6–10, no words, no watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        560.29,
+        615.44
+      ],
+      "visual_time_range": [
+        576.84,
+        610.16
+      ],
+      "visual_anchors": [
+        "古代公堂",
+        "祁午审理案件",
+        "母子重逢",
+        "洗刷冤情的文书"
+      ],
+      "key_content": {
+        "location": "晋国公堂",
+        "animals": [],
+        "activity": "祁午为百姓秉公办案，帮助冤屈的人洗清罪名",
+        "stakes": "百姓的清白和家庭团聚需要公正判断",
+        "outcome": "母子重逢，祁午得到百姓爱戴",
+        "visual_focus": "公堂、母子、法官和清晰的案卷"
+      },
+      "heading_pinyin": "qí wǔ bǐng gōng bàn àn",
+      "pinyin": "qí wǔ zuò le fǎ guān wèi bǎi xìng lǐ qīng shì fēi píng fù le xǔ duō yuān jiǎ cuò àn tā shuō bǐng gōng bàn àn jiù shì zì jǐ de zhí zé",
+      "reference_frames": [
+        "references/page_10/ref_01_583.50s.jpg",
+        "references/page_10/ref_02_593.50s.jpg",
+        "references/page_10/ref_03_603.50s.jpg"
+      ]
+    },
+    {
+      "page": 11,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/page_11.webp",
+      "heading": "什么是大公无私",
+      "text": "祁黄羊不因私怨排斥解狐，也不因亲情偏爱祁午。他从集体利益出发，只推荐真正适合的人。",
+      "fact": "大公无私：办事公正，没有私心。",
+      "illustration_prompt": "Original children's-book educational illustration based on the facts: a clear path through a small ancient town, with two fair recommendation signposts leading toward capable public servants and grateful townspeople. Fresh bird's-eye viewpoint, original staging and background, soft gouache and pencil texture for ages 6–10, no words or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        616.4,
+        645.41
+      ],
+      "visual_time_range": [
+        616.4,
+        640.42
+      ],
+      "visual_anchors": [
+        "百姓传颂祁黄羊",
+        "两次推荐",
+        "公正的道路",
+        "集体利益"
+      ],
+      "key_content": {
+        "location": "晋国百姓生活的城镇",
+        "animals": [],
+        "activity": "人们传颂祁黄羊大公无私的事迹",
+        "stakes": "孩子需要把故事行动和成语含义连起来",
+        "outcome": "明确大公无私就是办事公正、没有私心",
+        "visual_focus": "百姓、两次推荐和通向公正的道路"
+      },
+      "heading_pinyin": "shén me shì dà gōng wú sī",
+      "pinyin": "qí huáng yáng bù yīn sī yuàn pái chì jiě hú yě bù yīn qīn qíng piān ài qí wǔ tā cóng jí tǐ lì yì chū fā zhǐ tuī jiàn zhēn zhèng shì hé de rén",
+      "fact_pinyin": "dà gōng wú sī bàn shì gōng zhèng méi yǒu sī xīn",
+      "reference_frames": [
+        "references/page_11/ref_01_621.20s.jpg",
+        "references/page_11/ref_02_628.41s.jpg",
+        "references/page_11/ref_03_635.62s.jpg"
+      ]
+    },
+    {
+      "page": 12,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/page_12.webp",
+      "heading": "蚊子不是好榜样",
+      "text": "琪琪说自己不让人拍蚊子，是不是也很大公无私？陈教授提醒她：做事前要先判断是非对错。",
+      "illustration_prompt": "Original children's-book illustration using factual evidence: a tiny mosquito hovering near a robot assistant while a friendly professor raises one cautioning finger; add a small thought bubble shape without text to suggest checking right and wrong. New viewpoint, staging, poses and room design, soft gouache and pencil texture for ages 6–10, no words, subtitles, logos or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        649.73,
+        681.3
+      ],
+      "visual_time_range": [
+        652.29,
+        668.37
+      ],
+      "visual_anchors": [
+        "文化宫课堂",
+        "琪琪与小蚊子",
+        "陈教授提醒判断是非",
+        "轻松的课堂笑话"
+      ],
+      "key_content": {
+        "location": "文化宫课堂",
+        "animals": [
+          "蚊子"
+        ],
+        "activity": "琪琪用蚊子的玩笑来解释成语",
+        "stakes": "善良的心意不等于每个做法都正确",
+        "outcome": "孩子们知道要先判断是非对错",
+        "visual_focus": "蚊子、琪琪和提醒中的陈教授"
+      },
+      "heading_pinyin": "wén zi bú shì hǎo bǎng yàng",
+      "pinyin": "qí qí shuō zì jǐ bù ràng rén pāi wén zi shì bú shì yě hěn dà gōng wú sī chén jiào shòu tí xǐng tā zuò shì qián yào xiān pàn duàn shì fēi duì cuò",
+      "reference_frames": [
+        "references/page_12/ref_01_655.51s.jpg",
+        "references/page_12/ref_02_660.33s.jpg",
+        "references/page_12/ref_03_665.15s.jpg"
+      ]
+    },
+    {
+      "page": 13,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/page_13.webp",
+      "heading": "选班长看本领",
+      "text": "如果和好朋友闹了矛盾，还要不要选他当班长？答案是：看他是否适合，不把朋友关系带进集体选择。",
+      "illustration_prompt": "Original children's-book illustration based on factual evidence: a cheerful classroom with children placing voting cards into a box while considering two classmates' abilities, friendship shown gently in the background but not deciding the vote. New viewpoint, staging and poses, soft gouache and pencil texture for ages 6–10, no words or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        682.1,
+        703.76
+      ],
+      "visual_time_range": [
+        682.1,
+        703.76
+      ],
+      "visual_anchors": [
+        "儿童课堂",
+        "班长选择",
+        "朋友之间有过矛盾",
+        "按能力和公心判断"
+      ],
+      "key_content": {
+        "location": "现代儿童课堂",
+        "animals": [],
+        "activity": "孩子们讨论是否选闹过矛盾的朋友当班长",
+        "stakes": "个人关系可能影响集体决定",
+        "outcome": "大家同意从集体利益出发看谁适合",
+        "visual_focus": "投票箱、孩子们的讨论和公平选择"
+      },
+      "heading_pinyin": "xuǎn bān zhǎng kàn běn lǐng",
+      "pinyin": "rú guǒ hé hǎo péng yǒu nào le máo dùn hái yào bù yào xuǎn tā dāng bān zhǎng dá àn shì kàn tā shì fǒu shì hé bù bǎ péng yǒu guān xì dài jìn jí tǐ xuǎn zé",
+      "reference_frames": [
+        "references/page_13/ref_01_686.43s.jpg",
+        "references/page_13/ref_02_692.93s.jpg",
+        "references/page_13/ref_03_699.43s.jpg"
+      ]
+    },
+    {
+      "page": 14,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e11-da-gong-wu-si/images/page_14.webp",
+      "heading": "把公心带回生活",
+      "text": "真正的大公无私，不是盲目地对谁都好，而是在每一次选择中，先想一想什么对大家最公平。",
+      "illustration_prompt": "Use case: illustration-story. Asset type: children's book closing page. A group of children walks home at sunset carrying a small glowing lantern shaped like a balanced scale; the cultural palace and ancient story scroll appear softly behind them, suggesting history guiding everyday choices. Soft gouache and pencil texture, tender warm ending for ages 6–10, original wide viewpoint and fresh staging, no text, no watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        705.2,
+        719.09
+      ],
+      "visual_time_range": [
+        705.2,
+        719.09
+      ],
+      "visual_anchors": [
+        "孩子们学会成语",
+        "公正的选择",
+        "文化宫与历史故事卷轴",
+        "温暖的回家路"
+      ],
+      "key_content": {
+        "location": "文化宫外的傍晚",
+        "animals": [],
+        "activity": "孩子们把大公无私的道理带回日常生活",
+        "stakes": "成语学习要转化为真实的判断和行动",
+        "outcome": "孩子们懂得从集体利益出发、公平选择",
+        "visual_focus": "孩子、发光的公平秤灯笼和温暖暮色"
+      },
+      "heading_pinyin": "bǎ gōng xīn dài huí shēng huó",
+      "pinyin": "zhēn zhèng de dà gōng wú sī bú shì máng mù dì duì shéi dōu hǎo ér shì zài měi yī cì xuǎn zé zhōng xiān xiǎng yī xiǎng shén me duì dà jiā zuì gōng píng",
+      "reference_frames": [
+        "references/page_14/ref_01_707.98s.jpg",
+        "references/page_14/ref_02_712.14s.jpg",
+        "references/page_14/ref_03_716.31s.jpg"
+      ]
+    }
+  ],
+  "title_pinyin": "dà gōng wú sī",
+  "subtitle_pinyin": "qí huáng yáng liǎng jiàn rén cái de gù shì"
+}

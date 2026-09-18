@@ -1,0 +1,621 @@
+{
+  "title": "改过自新",
+  "subtitle": "缇萦救父的故事",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E15.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "visual_mode": "hybrid-book",
+  "pages": [
+    {
+      "page": 1,
+      "heading": "先承认，再改变",
+      "text": "琪琪在文化宫里不小心把皮球撞到了陈教授。她先道歉，又答应以后不在屋里玩球。犯了错并不可怕，愿意改正，就能重新做好。",
+      "illustration_prompt": "Original children's-book illustration in a bright cultural palace learning room: a small friendly white robot has just stopped a red ball near a surprised but kind professor, then offers an apology. Show an open notebook safely on a table, warm turquoise and coral palette, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        127.7,
+        205.6
+      ],
+      "visual_time_range": [
+        127.7,
+        205.6
+      ],
+      "visual_anchors": [
+        "文化宫室内",
+        "白色机器人琪琪",
+        "红色皮球",
+        "陈教授",
+        "被撞到的笔记本"
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [],
+        "activity": "琪琪玩球闯祸后道歉并承诺改正",
+        "stakes": "弄坏书本和笔记，也可能让陈教授受伤",
+        "outcome": "琪琪明白改正错误仍是好孩子",
+        "visual_focus": "机器人从莽撞到认真道歉的瞬间"
+      },
+      "heading_pinyin": "xiān chéng rèn ， zài gǎi biàn",
+      "pinyin": "qí qí zài wén huà gōng lǐ bù xiǎo xīn bǎ pí qiú zhuàng dào le chén jiào shòu 。 tā xiān dào qiàn ， yòu dā yìng yǐ hòu bù zài wū lǐ wán qiú 。 fàn le cuò bìng bù kě pà ， yuàn yì gǎi zhèng ， jiù néng chóng xīn zuò hǎo 。",
+      "reference_frames": [
+        "references/page_01/ref_01_143.28s.jpg",
+        "references/page_01/ref_02_166.65s.jpg",
+        "references/page_01/ref_03_190.02s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_01.webp"
+    },
+    {
+      "page": 2,
+      "heading": "故事从汉朝说起",
+      "text": "汉朝初期，有一位著名医学家叫淳于意。他曾任齐国太仓长，人们尊称他为仓公。",
+      "illustration_prompt": "Original child-friendly historical illustration of early Han China: a thoughtful physician in simple ancient robes stands beside a granary office in Qi, holding a medicine satchel and scrolls. Include warm earth colors, clear architecture, soft gouache and pencil texture, no readable writing, subtitles, logos, or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        239.83,
+        254.31
+      ],
+      "visual_time_range": [
+        239.83,
+        254.31
+      ],
+      "visual_anchors": [
+        "汉朝初期",
+        "齐国仓库",
+        "淳于意",
+        "古代医药包",
+        "粮仓"
+      ],
+      "key_content": {
+        "location": "汉朝初期的齐国",
+        "animals": [],
+        "activity": "淳于意担任太仓长并行医",
+        "stakes": "读者要认识故事的主人公",
+        "outcome": "淳于意得到仓公这个尊称",
+        "visual_focus": "医者与齐国粮仓同框"
+      },
+      "heading_pinyin": "gù shì cóng hàn cháo shuō qǐ",
+      "pinyin": "hàn cháo chū qī ， yǒu yī wèi zhù míng yī xué jiā jiào chún yú yì 。 tā céng rèn qí guó tài cāng zhǎng ， rén men zūn chēng tā wèi cāng gōng 。",
+      "reference_frames": [
+        "references/page_02/ref_01_242.73s.jpg",
+        "references/page_02/ref_02_247.07s.jpg",
+        "references/page_02/ref_03_251.41s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_02.webp"
+    },
+    {
+      "page": 3,
+      "heading": "药到病愈的名医",
+      "text": "淳于意给人治病，常常药到病愈，很快成了名医。病人按他的医嘱喝药，身体渐渐恢复。",
+      "illustration_prompt": "Original children's-book illustration of an ancient Han consultation: kind physician Chunyu Yi checks a worried patient's pulse beside labeled-looking but unreadable herb bowls, while the patient holds a small medicine cup. Calm clinic, gentle morning light, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        259.29,
+        293.26
+      ],
+      "visual_time_range": [
+        259.29,
+        293.26
+      ],
+      "visual_anchors": [
+        "古代诊室",
+        "淳于意把脉",
+        "病人咳嗽",
+        "草药碗",
+        "按时喝药"
+      ],
+      "key_content": {
+        "location": "齐国的古代诊室",
+        "animals": [],
+        "activity": "淳于意为病人诊脉开药",
+        "stakes": "病人需要找到正确的治疗办法",
+        "outcome": "病人遵照医嘱，病情会好转",
+        "visual_focus": "医者专心把脉、病人安心服药"
+      },
+      "heading_pinyin": "yào dào bìng yù de míng yī",
+      "pinyin": "chún yú yì gěi rén zhì bìng ， cháng cháng yào dào bìng yù ， hěn kuài chéng le míng yī 。 bìng rén àn tā de yī zhǔ hē yào ， shēn tǐ jiàn jiàn huī fù 。",
+      "reference_frames": [
+        "references/page_03/ref_01_266.08s.jpg",
+        "references/page_03/ref_02_276.27s.jpg",
+        "references/page_03/ref_03_286.47s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_03.webp"
+    },
+    {
+      "page": 4,
+      "heading": "虚心拜公孙光为师",
+      "text": "淳于意年轻时就喜欢医术。他拜公孙光为师，认真学习草药和治病的方法。",
+      "illustration_prompt": "Original children's-book historical illustration: young Chunyu Yi respectfully bows to physician Gongsun Guang in a quiet study filled with herb bundles and wooden medicine boxes. The teacher points to two different herbs as the student listens carefully, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        308.24,
+        350.48
+      ],
+      "visual_time_range": [
+        308.24,
+        350.48
+      ],
+      "visual_anchors": [
+        "古代医馆",
+        "年轻的淳于意",
+        "公孙光师徒",
+        "草药束",
+        "认真求教"
+      ],
+      "key_content": {
+        "location": "古代医馆",
+        "animals": [],
+        "activity": "淳于意拜师学习草药与医术",
+        "stakes": "他要打好成为医者的基础",
+        "outcome": "淳于意从公孙光处学到治病方法",
+        "visual_focus": "师徒围着草药讲解"
+      },
+      "heading_pinyin": "xū xīn bài gōng sūn guāng wèi shī",
+      "pinyin": "chún yú yì nián qīng shí jiù xǐ huān yī shù 。 tā bài gōng sūn guāng wèi shī ， rèn zhēn xué xí cǎo yào hé zhì bìng de fāng fǎ 。",
+      "reference_frames": [
+        "references/page_04/ref_01_316.69s.jpg",
+        "references/page_04/ref_02_329.36s.jpg",
+        "references/page_04/ref_03_342.03s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_04.webp"
+    },
+    {
+      "page": 5,
+      "heading": "学会观察脉象",
+      "text": "后来，淳于意又向公乘阳庆学习。老师传给他古代脉书和诊病方法，让他学会从细微的脉象观察身体。",
+      "illustration_prompt": "Original children's-book illustration of ancient medical study: master Gongcheng Yangqing guides Chunyu Yi's fingers over a patient's wrist while open blank scrolls and herb jars rest nearby. Focus on careful observation and mentorship, warm amber interior, soft gouache and pencil texture, no readable writing, subtitles, logos, or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        354.99,
+        385.4
+      ],
+      "visual_time_range": [
+        354.99,
+        385.4
+      ],
+      "visual_anchors": [
+        "公乘阳庆",
+        "淳于意学医",
+        "手腕把脉",
+        "古代脉书",
+        "草药罐"
+      ],
+      "key_content": {
+        "location": "古代医馆",
+        "animals": [],
+        "activity": "公乘阳庆传授脉书和诊病方法",
+        "stakes": "淳于意要掌握更精细的诊断本领",
+        "outcome": "他不断积累医术",
+        "visual_focus": "手指轻按手腕、师父耐心指导"
+      },
+      "heading_pinyin": "xué huì guān chá mài xiàng",
+      "pinyin": "hòu lái ， chún yú yì yòu xiàng gōng chéng yáng qìng xué xí 。 lǎo shī chuán gěi tā gǔ dài mài shū hé zhěn bìng fāng fǎ ， ràng tā xué huì cóng xì wēi de mài xiàng guān chá shēn tǐ 。",
+      "reference_frames": [
+        "references/page_05/ref_01_361.07s.jpg",
+        "references/page_05/ref_02_370.19s.jpg",
+        "references/page_05/ref_03_379.32s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_05.webp"
+    },
+    {
+      "page": 6,
+      "heading": "医术终于学成",
+      "text": "经过多年学习，淳于意有了精湛的医术。他不只会认草药，也会用观察和思考判断病情。",
+      "illustration_prompt": "Original children's-book illustration: grown Chunyu Yi arranges herbs, a medicine bowl, and blank medical scrolls in a tidy clinic while a grateful patient sits nearby. Show confidence earned through study, bright window light, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        397.55,
+        402.43
+      ],
+      "visual_time_range": [
+        397.55,
+        402.43
+      ],
+      "visual_anchors": [
+        "淳于意成年后",
+        "整齐草药",
+        "医药卷轴",
+        "古代诊室",
+        "认真思考"
+      ],
+      "key_content": {
+        "location": "淳于意的医馆",
+        "animals": [],
+        "activity": "淳于意运用所学诊治病人",
+        "stakes": "学习是否真正变成帮助别人的本领",
+        "outcome": "淳于意成为医术精湛的名医",
+        "visual_focus": "医者在药柜前自信工作"
+      },
+      "heading_pinyin": "yī shù zhōng yú xué chéng",
+      "pinyin": "jīng guò duō nián xué xí ， chún yú yì yǒu le jīng zhàn de yī shù 。 tā bù zhǐ huì rèn cǎo yào ， yě huì yòng guān chá hé sī kǎo pàn duàn bìng qíng 。",
+      "reference_frames": [
+        "references/page_06/ref_01_398.53s.jpg",
+        "references/page_06/ref_02_399.99s.jpg",
+        "references/page_06/ref_03_401.45s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_06.webp"
+    },
+    {
+      "page": 7,
+      "heading": "他想自由行医",
+      "text": "权贵请淳于意做侍医，可他喜欢四处游历，担心失去自由，所以一次次谢绝邀请。",
+      "illustration_prompt": "Original children's-book historical illustration: Chunyu Yi stands at a crossroads outside an ancient city, gently returning an invitation scroll to a messenger while his travel bag and medicine satchel point toward an open road. Respectful expressions, warm sunset, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        403.07,
+        426.05
+      ],
+      "visual_time_range": [
+        403.07,
+        426.05
+      ],
+      "visual_anchors": [
+        "古代城门",
+        "淳于意",
+        "送信使者",
+        "被退回的信",
+        "通向远方的道路"
+      ],
+      "key_content": {
+        "location": "齐国城门外",
+        "animals": [],
+        "activity": "淳于意拒绝权贵请他做侍医",
+        "stakes": "接受邀请可能失去行医与游历的自由",
+        "outcome": "他选择保留自己的生活方式",
+        "visual_focus": "退信与开放道路形成对比"
+      },
+      "heading_pinyin": "tā xiǎng zì yóu xíng yī",
+      "pinyin": "quán guì qǐng chún yú yì zuò shì yī ， kě tā xǐ huān sì chù yóu lì ， dān xīn shī qù zì yóu ， suǒ yǐ yī cì cì xiè jué yāo qǐng 。",
+      "reference_frames": [
+        "references/page_07/ref_01_407.67s.jpg",
+        "references/page_07/ref_02_414.56s.jpg",
+        "references/page_07/ref_03_421.45s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_07.webp"
+    },
+    {
+      "page": 8,
+      "heading": "自由也有代价",
+      "text": "淳于意隐藏行踪、迁移户籍，甚至不置家产。这样的选择得罪了权贵，也埋下了危险。",
+      "illustration_prompt": "Original children's-book illustration: Chunyu Yi travels quietly through a moonlit ancient town with a medicine satchel, a small rolled mat, and no house of his own; distant palace rooftops and a shadowy official messenger suggest growing pressure without menace. Soft blue and ochre gouache, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        442.1,
+        462.87
+      ],
+      "visual_time_range": [
+        442.1,
+        462.87
+      ],
+      "visual_anchors": [
+        "夜色古城",
+        "隐藏行踪的淳于意",
+        "药箱",
+        "迁移户籍",
+        "远处权贵府邸"
+      ],
+      "key_content": {
+        "location": "齐国各地",
+        "animals": [],
+        "activity": "淳于意游历并隐藏行踪",
+        "stakes": "拒绝权贵可能带来报复",
+        "outcome": "他保持自由，却与权贵结怨",
+        "visual_focus": "独自远行与远处宫门的张力"
+      },
+      "heading_pinyin": "zì yóu yě yǒu dài jià",
+      "pinyin": "chún yú yì yǐn cáng xíng zōng 、 qiān yí hù jí ， shèn zhì bù zhì jiā chǎn 。 zhè yàng de xuǎn zé dé zuì le quán guì ， yě mái xià le wēi xiǎn 。",
+      "reference_frames": [
+        "references/page_08/ref_01_446.25s.jpg",
+        "references/page_08/ref_02_452.49s.jpg",
+        "references/page_08/ref_03_458.72s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_08.webp"
+    },
+    {
+      "page": 9,
+      "heading": "突如其来的判罚",
+      "text": "淳于意任太仓长时，有人告发了他。公元前167年，他被判肉刑，要被送往长安受刑。",
+      "illustration_prompt": "Original child-friendly historical illustration with no graphic violence: worried Chunyu Yi is escorted from a Qi administrative courtyard by guards toward a distant road to Chang'an, while a sealed accusation scroll lies on a desk behind him. Muted respectful palette, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        455.27,
+        487.88
+      ],
+      "visual_time_range": [
+        458.63,
+        483.76
+      ],
+      "visual_anchors": [
+        "齐国官署",
+        "被告发的淳于意",
+        "护送的官差",
+        "通往长安的道路",
+        "封好的文书"
+      ],
+      "key_content": {
+        "location": "齐国官署",
+        "animals": [],
+        "activity": "淳于意被告发并押送长安",
+        "stakes": "他将遭受极其痛苦的刑罚",
+        "outcome": "淳于意陷入人生最低谷",
+        "visual_focus": "官署门口的押送与远路"
+      },
+      "heading_pinyin": "tū rú qí lái de pàn fá",
+      "pinyin": "chún yú yì rèn tài cāng zhǎng shí ， yǒu rén gào fā le tā 。 gōng yuán qián 167 nián ， tā bèi pàn ròu xíng ， yào bèi sòng wǎng cháng ān shòu xíng 。",
+      "reference_frames": [
+        "references/page_09/ref_01_463.66s.jpg",
+        "references/page_09/ref_02_471.19s.jpg",
+        "references/page_09/ref_03_478.73s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_09.webp"
+    },
+    {
+      "page": 10,
+      "heading": "女儿们不舍父亲",
+      "text": "临行前，淳于意的五个女儿哭着送别。淳于意叹息家中没有儿子，似乎没人能帮他。",
+      "illustration_prompt": "Original children's-book historical illustration: five daughters in simple Han-era clothing gather tearfully around their father at a city gate, holding his sleeve and travel bundle; keep the emotion tender and non-graphic, with warm faces and soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        488.52,
+        533.28
+      ],
+      "visual_time_range": [
+        488.52,
+        516.62
+      ],
+      "visual_anchors": [
+        "长安路口",
+        "淳于意父女",
+        "五个女儿",
+        "告别行囊",
+        "悲伤但克制的表情"
+      ],
+      "key_content": {
+        "location": "齐国城门",
+        "animals": [],
+        "activity": "五个女儿哭着为父亲送别",
+        "stakes": "父亲将独自面对严厉刑罚",
+        "outcome": "最小的女儿缇萦决定站出来",
+        "visual_focus": "女儿们围住即将远行的父亲"
+      },
+      "heading_pinyin": "nǚ ér men bù shě fù qīn",
+      "pinyin": "lín xíng qián ， chún yú yì de wǔ gè nǚ ér kū zhe sòng bié 。 chún yú yì tàn xī jiā zhōng méi yǒu ér zi ， sì hū méi rén néng bāng tā 。",
+      "reference_frames": [
+        "references/page_10/ref_01_494.14s.jpg",
+        "references/page_10/ref_02_502.57s.jpg",
+        "references/page_10/ref_03_511.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_10.webp"
+    },
+    {
+      "page": 11,
+      "heading": "缇萦勇敢站出来",
+      "text": "最小的女儿缇萦说，女孩也能像男孩一样解救父亲。她决定跟着父亲一起进京。",
+      "illustration_prompt": "Original children's-book historical illustration: young Ti Ying steps forward bravely beside her father, one hand holding his travel sleeve and the other pointing toward the road to the capital. Her sisters watch with surprise and hope, ancient city gate, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        533.28,
+        567.18
+      ],
+      "visual_time_range": [
+        550.17,
+        567.18
+      ],
+      "visual_anchors": [
+        "缇萦",
+        "进京长路",
+        "父亲淳于意",
+        "坚定的小女孩",
+        "惊讶的姐妹们"
+      ],
+      "key_content": {
+        "location": "齐国城门与进京路上",
+        "animals": [],
+        "activity": "缇萦决定陪父亲进京",
+        "stakes": "父亲需要有人替他申诉",
+        "outcome": "缇萦用勇气迈出第一步",
+        "visual_focus": "小女孩站到父亲身边"
+      },
+      "heading_pinyin": "tí yíng yǒng gǎn zhàn chū lái",
+      "pinyin": "zuì xiǎo de nǚ ér tí yíng shuō ， nǚ hái yě néng xiàng nán hái yī yàng jiě jiù fù qīn 。 tā jué dìng gēn zhe fù qīn yì qǐ jìn jīng 。",
+      "reference_frames": [
+        "references/page_11/ref_01_553.57s.jpg",
+        "references/page_11/ref_02_558.67s.jpg",
+        "references/page_11/ref_03_563.78s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_11.webp"
+    },
+    {
+      "page": 12,
+      "heading": "一封情真意切的上书",
+      "text": "缇萦向汉文帝上书：受刑后身体不能恢复，即使想重新做人，也可能没有机会。她愿意入官府为奴，换父亲改过自新的机会。",
+      "illustration_prompt": "Original children's-book historical illustration: Ti Ying kneels respectfully in a Han palace before Emperor Wen, presenting a rolled letter with both hands; the emperor reads with a moved expression. No readable writing, no graphic punishment, soft gold and vermilion gouache with pencil texture, no subtitles, logos, or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        567.18,
+        608.82
+      ],
+      "visual_time_range": [
+        567.18,
+        608.82
+      ],
+      "visual_anchors": [
+        "汉宫大殿",
+        "缇萦递上书信",
+        "汉文帝",
+        "展开的竹简",
+        "庄重的申诉"
+      ],
+      "key_content": {
+        "location": "汉朝长安宫殿",
+        "animals": [],
+        "activity": "缇萦向汉文帝上书求情",
+        "stakes": "父亲将失去受罚后重新做人的机会",
+        "outcome": "她请求用自己换父亲的改过机会",
+        "visual_focus": "少女双手呈上书信"
+      },
+      "heading_pinyin": "yī fēng qíng zhēn yì qiè de shàng shū",
+      "pinyin": "tí yíng xiàng hàn wén dì shàng shū ： shòu xíng hòu shēn tǐ bù néng huī fù ， jí shǐ xiǎng chóng xīn zuò rén ， yě kě néng méi yǒu jī huì 。 tā yuàn yì rù guān fǔ wèi nú ， huàn fù qīn gǎi guò zì xīn de jī huì 。",
+      "reference_frames": [
+        "references/page_12/ref_01_575.51s.jpg",
+        "references/page_12/ref_02_588.00s.jpg",
+        "references/page_12/ref_03_600.49s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_12.webp"
+    },
+    {
+      "page": 13,
+      "heading": "汉文帝被孝心打动",
+      "text": "汉文帝读完上书，被缇萦敬爱父亲、愿意替父受罚的精神打动，决定免除淳于意的罪。",
+      "illustration_prompt": "Original children's-book historical illustration inside a Han palace: Emperor Wen rises from his seat with compassionate resolve after reading Ti Ying's letter, while ministers listen respectfully and Ti Ying looks hopeful. Warm golden light, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        608.82,
+        626.38
+      ],
+      "visual_time_range": [
+        608.82,
+        626.38
+      ],
+      "visual_anchors": [
+        "汉文帝",
+        "汉宫大殿",
+        "感动的神情",
+        "缇萦",
+        "恭敬的大臣"
+      ],
+      "key_content": {
+        "location": "汉朝宫殿",
+        "animals": [],
+        "activity": "汉文帝读信并作出决定",
+        "stakes": "是否给淳于意重新做人的机会",
+        "outcome": "汉文帝决定免除淳于意的罪",
+        "visual_focus": "读信后的温暖转折"
+      },
+      "heading_pinyin": "hàn wén dì bèi xiào xīn dǎ dòng",
+      "pinyin": "hàn wén dì dú wán shàng shū ， bèi tí yíng jìng ài fù qīn 、 yuàn yì tì fù shòu fá de jīng shén dǎ dòng ， jué dìng miǎn chú chún yú yì de zuì 。",
+      "reference_frames": [
+        "references/page_13/ref_01_612.33s.jpg",
+        "references/page_13/ref_02_617.60s.jpg",
+        "references/page_13/ref_03_622.87s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_13.webp"
+    },
+    {
+      "page": 14,
+      "heading": "残酷的肉刑被废除",
+      "text": "汉文帝下诏免除淳于意的刑罚，并在这一年废除了肉刑。缇萦的行动让更多人有了改正错误的机会。",
+      "illustration_prompt": "Original educational historical illustration: a Han palace courtyard celebrates a humane decree; Emperor Wen's messenger opens a blank decree scroll while Ti Ying and Chunyu Yi stand safely together in the background. Symbolize justice changing toward mercy, no readable text, soft gouache and pencil texture, no subtitles, logos, or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        626.38,
+        648.14
+      ],
+      "visual_time_range": [
+        626.38,
+        648.14
+      ],
+      "visual_anchors": [
+        "汉宫庭院",
+        "宣读诏令的使者",
+        "空白诏书卷轴",
+        "缇萦与父亲",
+        "由严转宽的象征"
+      ],
+      "key_content": {
+        "location": "汉朝宫殿",
+        "animals": [],
+        "activity": "汉文帝下诏废除肉刑",
+        "stakes": "严酷刑罚会让人失去重新做人的机会",
+        "outcome": "肉刑被废除，淳于意免受刑罚",
+        "visual_focus": "诏令带来的制度转折"
+      },
+      "heading_pinyin": "cán kù de ròu xíng bèi fèi chú",
+      "pinyin": "hàn wén dì xià zhào miǎn chú chún yú yì de xíng fá ， bìng zài zhè yī nián fèi chú le ròu xíng 。 tí yíng de xíng dòng ràng gèng duō rén yǒu le gǎi zhèng cuò wù de jī huì 。",
+      "reference_frames": [
+        "references/page_14/ref_01_630.73s.jpg",
+        "references/page_14/ref_02_637.26s.jpg",
+        "references/page_14/ref_03_643.79s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_14.webp"
+    },
+    {
+      "page": 15,
+      "heading": "名医重新拿起药箱",
+      "text": "免罪后，淳于意重新行医，专心研究医学，后来成为一代名医。缇萦的勇敢给了父亲改过自新的机会。",
+      "illustration_prompt": "Original children's-book historical illustration: Chunyu Yi returns to a bright clinic, opens his medicine chest, studies scrolls, and gently treats a patient; Ti Ying stands proudly at the doorway. Hopeful morning light, warm jade and gold palette, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        636.86,
+        690.53
+      ],
+      "visual_time_range": [
+        675.17,
+        690.53
+      ],
+      "visual_anchors": [
+        "重新开门的医馆",
+        "淳于意药箱",
+        "医学卷轴",
+        "缇萦",
+        "接受诊治的病人"
+      ],
+      "key_content": {
+        "location": "淳于意的医馆",
+        "animals": [],
+        "activity": "淳于意重操医业并研究医学",
+        "stakes": "他能否把失而复得的机会用好",
+        "outcome": "淳于意成为一代名医",
+        "visual_focus": "父女重逢与重新行医"
+      },
+      "heading_pinyin": "míng yī chóng xīn ná qǐ yào xiāng",
+      "pinyin": "miǎn zuì hòu ， chún yú yì chóng xīn xíng yī ， zhuān xīn yán jiū yī xué ， hòu lái chéng wéi yí dài míng yī 。 tí yíng de yǒng gǎn gěi le fù qīn gǎi guò zì xīn de jī huì 。",
+      "reference_frames": [
+        "references/page_15/ref_01_678.24s.jpg",
+        "references/page_15/ref_02_682.85s.jpg",
+        "references/page_15/ref_03_687.46s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_15.webp"
+    },
+    {
+      "page": 16,
+      "heading": "改过自新是什么意思",
+      "text": "改过自新，就是认识到错误，愿意改正，并重新开始。缇萦的勇敢和孝心，也提醒我们：每个人都值得拥有变好的机会。",
+      "illustration_prompt": "Original children's-book closing illustration: Ti Ying, Chunyu Yi, the friendly white robot, and the professor stand together in a sunny cultural palace garden beside a growing young tree and a repaired notebook. The mood is hopeful and welcoming, soft gouache and pencil texture, no readable text, subtitles, logos, or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        690.53,
+        715.5
+      ],
+      "visual_time_range": [
+        690.53,
+        715.5
+      ],
+      "visual_anchors": [
+        "文化宫花园",
+        "缇萦与淳于意",
+        "琪琪和陈教授",
+        "修好的笔记本",
+        "重新生长的小树"
+      ],
+      "key_content": {
+        "location": "文化宫花园",
+        "animals": [],
+        "activity": "陈教授和琪琪总结成语道理",
+        "stakes": "读者要把故事变成自己的行动",
+        "outcome": "理解承认错误、改正并重新开始",
+        "visual_focus": "修好的笔记本与新芽象征改变"
+      },
+      "heading_pinyin": "gǎi guò zì xīn shì shén me yì si",
+      "pinyin": "gǎi guò zì xīn ， jiù shì rèn shí dào cuò wù ， yuàn yì gǎi zhèng ， bìng zhòng xīn kāi shǐ 。 tí yíng de yǒng gǎn hé xiào xīn ， yě tí xǐng wǒ men ： měi gè rén dōu zhí de yōng yǒu biàn hǎo de jī huì 。",
+      "reference_frames": [
+        "references/page_16/ref_01_695.52s.jpg",
+        "references/page_16/ref_02_703.01s.jpg",
+        "references/page_16/ref_03_710.51s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e15-gai-guo-zi-xin/images/page_16.webp"
+    }
+  ],
+  "title_pinyin": "gǎi guò zì xīn",
+  "subtitle_pinyin": "tí yíng jiù fù de gù shì"
+}

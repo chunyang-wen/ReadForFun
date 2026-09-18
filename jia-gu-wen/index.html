@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>甲骨文之美 · 殷商刻辞千字典</title>
+  <meta name="description" content="全本收录1,203个已破译甲骨文字符，每页一字一图一释，支持字义与释义全文检索，手书浓墨金石风格。">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top App Navigation & Search Bar -->
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand-section">
+        <a href="../" class="bookshelf-back" title="返回故事书架">
+          <span>← 返回书架</span>
+        </a>
+        <div class="book-seal">契</div>
+        <div class="book-title-group">
+          <h1>甲骨文之美</h1>
+          <div class="book-subtitle">殷商刻辞千字典 · 1203字全览</div>
+        </div>
+      </div>
+
+      <!-- Explanation Search Bar -->
+      <div class="search-container">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="search" 
+            id="searchInput" 
+            class="search-input" 
+            placeholder="搜索字义与释义（例如：太阳、河流、兵器、猛兽、祭祀、婴儿……）" 
+            autocomplete="off"
+            aria-label="搜索字义与释义"
+          >
+          <button type="button" id="clearSearchBtn" class="clear-search-btn" title="清空搜索">✕</button>
+          <span class="search-shortcut">/</span>
+        </div>
+
+        <!-- Live Search Dropdown -->
+        <div id="searchResultsPanel" class="search-results-panel">
+          <div class="search-results-header">
+            <span id="searchResultCount">输入关键词即可检索1203个甲骨文字义</span>
+            <span class="search-tip">💡 专搜解释与造字本义</span>
+          </div>
+          <div id="searchResultsList" class="search-results-list"></div>
+        </div>
+      </div>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button type="button" id="openCatalogBtn" class="action-btn" title="打开1203字完整字表">
+          <span>▥ 字表全览</span>
+        </button>
+        <button type="button" id="randomCharBtn" class="action-btn" title="随机翻阅一字">
+          <span>🎲 随机一字</span>
+        </button>
+        <button type="button" id="themeToggleBtn" class="action-btn" title="切换拓片/墨书模式">
+          <span>🌗 墨色模式</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Reading Stage -->
+  <main class="book-stage">
+    
+    <!-- Cover Sheet (Page 0) -->
+    <section id="coverSheet" class="cover-sheet active">
+      <span class="cover-badge">殷墟遗珍 · 华夏文源</span>
+      <h1>甲骨文之美</h1>
+      <p class="cover-desc">
+        三千年前，殷商先民仰观天文、俯察地理、近取诸身、远取诸物，在龟甲与兽骨上镌刻下汉字的童年。<br>
+        本全书收录目前学术界已考释的全部 1,203 个甲骨文字符，每页一字一图一释，重现生生不息的中华文字基因。
+      </p>
+
+      <div class="cover-stat-grid">
+        <div class="stat-card">
+          <div class="stat-num">1,203</div>
+          <div class="stat-label">已破译完整字形收录</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">10</div>
+          <div class="stat-label">大主题天物人伦分类</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">全语义</div>
+          <div class="stat-label">支持按字义与释文深度检索</div>
+        </div>
+      </div>
+
+      <button type="button" id="startReadingBtn" class="start-reading-btn">
+        <span>翻开书卷 · 开始阅读</span>
+        <span>→</span>
+      </button>
+    </section>
+
+    <!-- Single Character Folio Sheet (Page 1..1203) -->
+    <article id="pageSheet" class="page-sheet">
+      <div class="page-layout">
+        
+        <!-- Left: Bold Black Handwriting Glyph Card -->
+        <div class="glyph-column">
+          <div class="glyph-frame" id="glyphFrame">
+            <img id="glyphImage" class="glyph-image" src="" alt="甲骨文字形">
+          </div>
+          
+          <div class="glyph-controls">
+            <button type="button" class="theme-pill-btn active" data-style="ink">浓墨手札</button>
+            <button type="button" class="theme-pill-btn" data-style="rubbing">金石拓片</button>
+            <button type="button" class="theme-pill-btn" data-style="vermilion">殷契朱砂</button>
+          </div>
+        </div>
+
+        <!-- Right: Modern Char, Explanation & Ancient Commentary -->
+        <div class="content-column">
+          <div>
+            <div class="content-header">
+              <div class="meta-badges">
+                <span id="charCategory" class="badge-cat">天文气象</span>
+                <span id="charOriginType" class="badge-type">象形</span>
+                <span id="charFolio" class="badge-page">第 1 页 · 共 1203 页</span>
+              </div>
+              <div class="char-title-row">
+                <div id="charModern" class="char-title">日</div>
+                <div id="charPinyin" class="char-pinyin">rì</div>
+                <div id="charUnicode" class="char-unicode">U+65E5</div>
+              </div>
+            </div>
+
+            <!-- Explanation Details -->
+            <div class="explanation-body">
+              <div class="section-block origin">
+                <div class="section-label">
+                  <span>✦</span>
+                  <span>造字本义与象形图解</span>
+                </div>
+                <div id="glyphDescText" class="section-text"></div>
+              </div>
+
+              <div class="section-block meaning">
+                <div class="section-label">
+                  <span>✦</span>
+                  <span>详细字义与商代应用</span>
+                </div>
+                <div id="charExplanationText" class="section-text"></div>
+              </div>
+
+              <div class="section-block shuowen">
+                <div class="section-label">
+                  <span>✦</span>
+                  <span>《说文解字》经典考据</span>
+                </div>
+                <div id="charShuowenText" class="section-text shuowen-text"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tags -->
+          <div class="tag-row" id="charTags"></div>
+        </div>
+
+      </div>
+    </article>
+
+  </main>
+
+  <!-- Bottom Reader Controls -->
+  <footer class="reader-controls">
+    <div class="controls-inner">
+      <div class="nav-buttons">
+        <button type="button" id="prevPageBtn" class="nav-btn" title="上一页 (←)">←</button>
+        <button type="button" id="nextPageBtn" class="nav-btn" title="下一页 (→)">→</button>
+      </div>
+
+      <div class="page-slider-container">
+        <input type="range" id="pageSlider" class="page-slider" min="0" max="1203" value="0" aria-label="翻页滑动条">
+      </div>
+
+      <div class="page-indicator">
+        <span>页码</span>
+        <input type="number" id="pageInput" class="page-input" min="0" max="1203" value="0">
+        <span>/ 1203</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 1203 Characters Catalog Modal -->
+  <div id="catalogModal" class="catalog-modal">
+    <div class="catalog-window">
+      <div class="catalog-header">
+        <h2>
+          <span>▥</span>
+          <span>甲骨文完整字表（1,203字全编）</span>
+        </h2>
+        <button type="button" id="closeCatalogBtn" class="close-btn" title="关闭字表">✕</button>
+      </div>
+
+      <div class="catalog-filters" id="catalogFilters">
+        <button type="button" class="filter-chip active" data-cat="all">全部 (1203)</button>
+        <button type="button" class="filter-chip" data-cat="天文气象">天文气象</button>
+        <button type="button" class="filter-chip" data-cat="山川地理">山川地理</button>
+        <button type="button" class="filter-chip" data-cat="生灵动物">生灵动物</button>
+        <button type="button" class="filter-chip" data-cat="草木禾黍">草木禾黍</button>
+        <button type="button" class="filter-chip" data-cat="人体身姿">人体身姿</button>
+        <button type="button" class="filter-chip" data-cat="农耕渔猎">农耕渔猎</button>
+        <button type="button" class="filter-chip" data-cat="器物兵戈">器物兵戈</button>
+        <button type="button" class="filter-chip" data-cat="祭祀礼乐">祭祀礼乐</button>
+        <button type="button" class="filter-chip" data-cat="宫室居停">宫室居停</button>
+        <button type="button" class="filter-chip" data-cat="数理时空">数理时空</button>
+        <button type="button" class="filter-chip" data-cat="社会礼法">社会礼法</button>
+      </div>
+
+      <div class="catalog-grid" id="catalogGrid"></div>
+    </div>
+  </div>
+
+  <script src="data/characters.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

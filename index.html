@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e8e1d5">
+  <title>ReadForFun · 故事书架</title>
+  <style>
+    :root {
+      --paper: #e8e1d5;
+      --paper-deep: #dcd2c2;
+      --ink: #1c2924;
+      --muted: #6e756c;
+      --moss: #59634b;
+      --sun: #d7a74d;
+      --line: #1c29242b;
+      --serif: "Iowan Old Style", "Baskerville", "Songti SC", "STSong", serif;
+      --sans: "Avenir Next", "Helvetica Neue", "PingFang SC", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { background: var(--paper); }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      color: var(--ink);
+      font-family: var(--sans);
+      background:
+        radial-gradient(circle at 11% 12%, #ffffff9c 0 1px, transparent 1.5px),
+        radial-gradient(circle at 78% 64%, #ffffff6b 0 1px, transparent 1.5px),
+        linear-gradient(120deg, #eee9df 0%, var(--paper) 48%, #ddd5c8 100%);
+      background-size: 23px 23px, 31px 31px, 100% 100%;
+    }
+    body::before {
+      position: fixed;
+      inset: 0;
+      z-index: 10;
+      pointer-events: none;
+      content: "";
+      opacity: .25;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.15'/%3E%3C/svg%3E");
+      mix-blend-mode: multiply;
+    }
+    a { color: inherit; }
+
+    .page-shell {
+      width: min(1320px, calc(100% - 64px));
+      min-height: 100vh;
+      margin: 0 auto;
+      padding: 30px 0 46px;
+    }
+    .topbar {
+      display: flex;
+      align-items: center;
+      padding-bottom: 22px;
+      border-bottom: 1px solid var(--line);
+    }
+    .wordmark {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--ink);
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .17em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    .wordmark::before {
+      width: 10px;
+      height: 10px;
+      content: "";
+      border-radius: 50%;
+      background: var(--sun);
+      box-shadow: 0 0 0 5px #d7a74d26;
+    }
+    .library {
+      padding: clamp(54px, 8vw, 104px) 5% clamp(60px, 9vw, 120px);
+    }
+    .library-header {
+      display: flex;
+      align-items: baseline;
+      margin-bottom: clamp(34px, 5vw, 62px);
+    }
+    h1 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(4.2rem, 8vw, 7.4rem);
+      font-weight: 400;
+      letter-spacing: -.08em;
+      line-height: .82;
+    }
+    .book-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: clamp(42px, 7vw, 100px) clamp(28px, 5vw, 76px);
+      align-items: start;
+    }
+    .book-grid:has(.book-card:only-child) { grid-template-columns: minmax(0, 780px); }
+    .book-card {
+      animation: arrive .7s cubic-bezier(.2,.8,.2,1) both;
+    }
+    .book-card:nth-child(2) { animation-delay: 110ms; }
+    .book-card:nth-child(3) { animation-delay: 220ms; }
+    .book-card:nth-child(4) { animation-delay: 330ms; }
+    .feature {
+      position: relative;
+      isolation: isolate;
+      width: 100%;
+      max-width: 720px;
+      margin: 0;
+      transform: rotate(1deg);
+      transition: transform .45s cubic-bezier(.2,.8,.2,1);
+    }
+    .feature::before,
+    .feature::after {
+      position: absolute;
+      z-index: -1;
+      content: "";
+      background: var(--paper-deep);
+      box-shadow: 0 22px 42px #3a322920;
+    }
+    .feature::before {
+      inset: 16px -20px -15px 20px;
+      transform: rotate(4deg);
+    }
+    .feature::after {
+      inset: -9px 19px 12px -14px;
+      background: #f2eee6;
+      transform: rotate(-3.2deg);
+    }
+    .feature-link {
+      position: relative;
+      display: block;
+      aspect-ratio: 1.48 / 1;
+      overflow: hidden;
+      border: 12px solid #f7f4ed;
+      background: #55766f;
+      box-shadow: 0 25px 50px #263d3738, 0 3px 0 #ffffff inset;
+      text-decoration: none;
+    }
+    .feature-image {
+      position: absolute;
+      inset: 0;
+      background-image: linear-gradient(90deg, #173d3b22, transparent 54%), url('https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_01.webp');
+      background-position: center;
+      background-size: cover;
+      transition: transform .6s cubic-bezier(.2,.8,.2,1), filter .6s ease;
+    }
+    .feature-link::after {
+      position: absolute;
+      inset: 0;
+      content: "";
+      background: linear-gradient(125deg, #122f2b3d 0%, transparent 44%, #172c2a45 100%);
+      mix-blend-mode: multiply;
+    }
+    .feature-stamp {
+      position: absolute;
+      z-index: 1;
+      top: 25px;
+      left: 25px;
+      display: grid;
+      place-items: center;
+      width: 68px;
+      height: 68px;
+      color: #f5e9ce;
+      border: 1px solid #f5e9ceaa;
+      border-radius: 50%;
+      font-size: .6rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      line-height: 1.35;
+      text-align: center;
+      text-transform: uppercase;
+      transform: rotate(-13deg);
+    }
+    .feature-caption {
+      position: absolute;
+      z-index: 1;
+      right: 27px;
+      bottom: 22px;
+      color: #f7f1e7;
+      font-family: var(--serif);
+      font-size: clamp(1.7rem, 3.6vw, 3.25rem);
+      letter-spacing: .08em;
+      text-shadow: 0 2px 12px #132e2a80;
+    }
+    .book-card:hover .feature, .book-card:has(a:focus-visible) .feature { transform: rotate(0deg) translateY(-8px); }
+    .book-card:hover .feature-image, .book-card:has(a:focus-visible) .feature-image { transform: scale(1.045); filter: saturate(1.08); }
+    .book-details {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 25px 3px 0;
+      border-top: 1px solid var(--line);
+    }
+    .book-series {
+      margin: 0 0 8px;
+      color: var(--moss);
+      font-size: .66rem;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    h2 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      font-weight: 400;
+      letter-spacing: -.04em;
+      line-height: 1;
+    }
+    ruby { ruby-position: over; ruby-align: center; margin: 0 .025em; }
+    rt {
+      font-family: "Avenir Next Rounded", "Nunito", sans-serif;
+      font-size: .4em;
+      font-weight: 600;
+      letter-spacing: 0;
+      line-height: 1;
+      color: currentColor;
+    }
+    .feature-caption rt { font-size: .34em; }
+    .book-side {
+      display: grid;
+      gap: 9px;
+      color: var(--muted);
+      font-size: .68rem;
+      letter-spacing: .1em;
+      text-align: right;
+      text-transform: uppercase;
+    }
+    .book-side a { color: var(--ink); text-decoration: none; }
+    .book-side a:hover, .book-side a:focus-visible { color: var(--moss); }
+
+    .collection-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: clamp(42px, 7vw, 100px) clamp(28px, 5vw, 76px);
+    }
+    .collection-card { animation: arrive .7s cubic-bezier(.2,.8,.2,1) both; }
+    .collection-card:nth-child(2) { animation-delay: 140ms; }
+    .collection-link { display: grid; gap: 22px; color: inherit; text-decoration: none; }
+    .collection-cover {
+      position: relative;
+      isolation: isolate;
+      aspect-ratio: 1.48 / 1;
+      overflow: hidden;
+      border: 12px solid #f7f4ed;
+      background: linear-gradient(145deg, #426e67, #d0b36c);
+      box-shadow: 0 25px 50px #263d3738, 0 3px 0 #ffffff inset;
+      transform: rotate(1deg);
+      transition: transform .45s cubic-bezier(.2,.8,.2,1), box-shadow .45s;
+    }
+    .collection-cover::before,
+    .collection-cover::after {
+      position: absolute;
+      z-index: -1;
+      inset: 10px -18px -18px 18px;
+      content: "";
+      background: #cfc1a4;
+      box-shadow: 0 22px 42px #3a322920;
+      transform: rotate(4deg);
+    }
+    .collection-cover::after { inset: -10px 16px 14px -14px; background: #f2eee6; transform: rotate(-3deg); }
+    .collection-sheet {
+      position: absolute;
+      inset: 15% 14% 12%;
+      border: 7px solid #f7f4ed;
+      background-position: center;
+      background-size: cover;
+      box-shadow: 0 18px 28px #172c2a55;
+      transition: transform .55s cubic-bezier(.2,.8,.2,1), filter .55s;
+    }
+    .collection-sheet:nth-child(1) { transform: rotate(-7deg) translate(-16px, 8px); }
+    .collection-sheet:nth-child(2) { transform: rotate(5deg) translate(12px, -8px); }
+    .collection-sheet:nth-child(3) { transform: rotate(1deg); z-index: 2; }
+    .collection-cover::marker { display: none; }
+    .collection-badge {
+      position: absolute;
+      z-index: 3;
+      top: 18px;
+      left: 20px;
+      padding: 8px 12px;
+      color: #f7f1e7;
+      border: 1px solid #f5e9ceaa;
+      border-radius: 999px;
+      font-size: .58rem;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      background: #193e3b70;
+      backdrop-filter: blur(5px);
+    }
+    .collection-copy { display: grid; gap: 9px; padding: 23px 3px 0; border-top: 1px solid var(--line); }
+    .collection-copy h2 { margin: 0; font-size: clamp(1.8rem, 3vw, 2.8rem); }
+    .collection-kicker { margin: 0; color: var(--moss); font-size: .66rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+    .collection-summary { margin: 0; color: var(--muted); line-height: 1.6; }
+    .collection-read { color: var(--ink); font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+    .collection-card:hover .collection-cover,
+    .collection-card:has(a:focus-visible) .collection-cover { transform: rotate(0) translateY(-8px); box-shadow: 0 32px 58px #263d3748, 0 3px 0 #ffffff inset; }
+    .collection-card:hover .collection-sheet:nth-child(1) { transform: rotate(-10deg) translate(-25px, 12px); }
+    .collection-card:hover .collection-sheet:nth-child(2) { transform: rotate(8deg) translate(20px, -12px); }
+    .legacy-book-grid { display: none; }
+
+    .footer-line {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 22px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      font-size: .68rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    @keyframes arrive {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: none; }
+    }
+
+    @media (max-width: 760px) {
+      .page-shell { width: min(100% - 32px, 520px); padding-top: 20px; }
+      .library {
+        padding: 62px 4px 84px;
+      }
+      .library-header { margin-bottom: 42px; }
+      h1 { font-size: clamp(4.2rem, 22vw, 7rem); }
+      .book-grid, .book-grid:has(.book-card:only-child) { grid-template-columns: 1fr; gap: 64px; }
+      .collection-grid { grid-template-columns: 1fr; gap: 64px; }
+      .feature { width: calc(100% - 12px); margin-left: 6px; }
+      .feature-link { border-width: 8px; }
+      .feature-stamp { top: 17px; left: 17px; width: 56px; height: 56px; font-size: .5rem; }
+      .feature-caption { right: 17px; bottom: 16px; }
+      .book-details { padding-top: 19px; }
+      .book-side { font-size: .6rem; }
+      .footer-line { gap: 12px; line-height: 1.5; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .book-card { animation: none; }
+      .feature, .feature-image { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="wordmark" href="./" aria-label="ReadForFun 首页">ReadForFun</a>
+    </header>
+
+    <main class="library" aria-labelledby="shelf-title">
+      <div class="library-header">
+        <h1 id="shelf-title"><ruby><span>书</span><rt>shū</rt></ruby><ruby><span>架</span><rt>jià</rt></ruby></h1>
+      </div>
+
+      <section class="collection-grid" aria-label="故事合集">
+        <article class="collection-card">
+          <a class="collection-link" href="our-planet-earth/" aria-label="打开合集《我们的星球 - 地球》">
+            <div class="collection-cover">
+              <span class="collection-sheet" style="background-image:linear-gradient(125deg,#173d3b22,transparent 54%),url('https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_01.webp')"></span>
+              <span class="collection-sheet" style="background-image:linear-gradient(125deg,#173d3b22,transparent 54%),url('https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_01.webp')"></span>
+              <span class="collection-sheet" style="background-image:linear-gradient(125deg,#173d3b22,transparent 54%),url('https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e01-coasts/images/page_01.webp')"></span>
+              <span class="collection-badge">8 BOOKS · PLANET EARTH III</span>
+            </div>
+            <div class="collection-copy">
+              <p class="collection-kicker">COLLECTION · PLANET EARTH III</p>
+              <h2><ruby><span>我</span><rt>wǒ</rt></ruby><ruby><span>们</span><rt>men</rt></ruby><ruby><span>的</span><rt>de</rt></ruby><ruby><span>星</span><rt>xīng</rt></ruby><ruby><span>球</span><rt>qiú</rt></ruby> - <ruby><span>地</span><rt>dì</rt></ruby><ruby><span>球</span><rt>qiú</rt></ruby></h2>
+              <p class="collection-summary">8 books · coast, ocean, forest, grassland and the lives they connect.</p>
+              <span class="collection-read"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>合</span><rt>hé</rt></ruby><ruby><span>集</span><rt>jí</rt></ruby> ↗</span>
+            </div>
+          </a>
+        </article>
+        <article class="collection-card">
+          <a class="collection-link" href="zhong-hua-cheng-yu-gu-shi/" aria-label="打开合集《中华成语故事》">
+            <div class="collection-cover">
+              <span class="collection-sheet" style="background-image:linear-gradient(125deg,#4f2d1b20,transparent 54%),url('https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_01.webp')"></span>
+              <span class="collection-sheet" style="background-image:linear-gradient(125deg,#4f2d1b20,transparent 54%),url('https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_01.webp')"></span>
+              <span class="collection-sheet" style="background-image:linear-gradient(125deg,#4f2d1b20,transparent 54%),url('https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_01.webp')"></span>
+              <span class="collection-sheet" style="background-image:linear-gradient(125deg,#4f2d1b20,transparent 54%),url('https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/liang-xiu-qing-feng-s02e16/images/page_01.webp')"></span>
+              <span class="collection-badge">20 BOOKS · IDIOM STORIES</span>
+            </div>
+            <div class="collection-copy">
+              <p class="collection-kicker">COLLECTION · CHINESE IDIOM STORIES</p>
+              <h2><ruby><span>中</span><rt>zhōng</rt></ruby><ruby><span>华</span><rt>huá</rt></ruby><ruby><span>成</span><rt>chéng</rt></ruby><ruby><span>语</span><rt>yǔ</rt></ruby><ruby><span>故</span><rt>gù</rt></ruby><ruby><span>事</span><rt>shì</rt></ruby></h2>
+              <p class="collection-summary">20 books · stories that turn old wisdom into something we can read today.</p>
+              <span class="collection-read"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>合</span><rt>hé</rt></ruby><ruby><span>集</span><rt>jí</rt></ruby> ↗</span>
+            </div>
+          </a>
+        </article>
+        <article class="collection-card">
+          <a class="collection-link" href="jia-gu-wen/" aria-label="打开《甲骨文之美 · 殷商刻辞千字典》">
+            <div class="collection-cover" style="background: linear-gradient(145deg, #2b3a42, #b83b26);">
+              <span class="collection-sheet" style="background-color: #fcf9f2; background-image: url('jia-gu-wen/glyphs/0585.svg'); background-size: 70%; background-repeat: no-repeat;"></span>
+              <span class="collection-sheet" style="background-color: #fcf9f2; background-image: url('jia-gu-wen/glyphs/0495.svg'); background-size: 70%; background-repeat: no-repeat;"></span>
+              <span class="collection-sheet" style="background-color: #fcf9f2; background-image: url('jia-gu-wen/glyphs/0772.svg'); background-size: 70%; background-repeat: no-repeat;"></span>
+              <span class="collection-badge" style="background: #b83b26c2;">1,203 GLYPHS · ORACLE BONE SCRIPT</span>
+            </div>
+            <div class="collection-copy">
+              <p class="collection-kicker" style="color: #b83b26;">SPECIAL EDITION · ANCIENT CHINESE SCRIPT</p>
+              <h2><ruby><span>甲</span><rt>jiǎ</rt></ruby><ruby><span>骨</span><rt>gǔ</rt></ruby><ruby><span>文</span><rt>wén</rt></ruby><ruby><span>之</span><rt>zhī</rt></ruby><ruby><span>美</span><rt>měi</rt></ruby></h2>
+              <p class="collection-summary">1,203 deciphered characters · search by explanation, explore origins and hand-written bold black inscriptions.</p>
+              <span class="collection-read"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>全</span><rt>quán</rt></ruby><ruby><span>书</span><rt>shū</rt></ruby> ↗</span>
+            </div>
+          </a>
+        </article>
+        <article class="collection-card">
+          <a class="collection-link" href="tang-shi/" aria-label="打开《唐诗之境 · 诗画合集》">
+            <div class="collection-cover" style="background: linear-gradient(145deg, #1b2d13, #b83b26);">
+              <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/tang-shi/images/li-shen-min-nong-qi-er/poem.webp'); background-size: cover; background-position: center;"></span>
+              <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/tang-shi/images/wang-zhi-huan-deng-guan-que-lou/poem.webp'); background-size: cover; background-position: center;"></span>
+              <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-wang-lu-shan-pu-bu/poem.webp'); background-size: cover; background-position: center;"></span>
+              <span class="collection-badge" style="background: #b83b26d4;">51 POEMS · INTERACTIVE TANG POETRY</span>
+            </div>
+            <div class="collection-copy">
+              <p class="collection-kicker" style="color: #b83b26;">COLLECTION · CLASSICAL TANG POETRY</p>
+              <h2><ruby><span>唐</span><rt>táng</rt></ruby><ruby><span>诗</span><rt>shī</rt></ruby><ruby><span>之</span><rt>zhī</rt></ruby><ruby><span>境</span><rt>jìng</rt></ruby></h2>
+              <p class="collection-summary">51传世唐诗名篇 · 键盘上下键逐句联动 · 字字拼音与白话详析 · 每句专属水墨画境。</p>
+              <span class="collection-read"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>全</span><rt>quán</rt></ruby><ruby><span>集</span><rt>jí</rt></ruby> ↗</span>
+            </div>
+          </a>
+        </article>
+        <article class="collection-card">
+          <a class="collection-link" href="song-ci/" aria-label="打开《宋词之境 · 词画合集》">
+            <div class="collection-cover" style="background: linear-gradient(145deg, #10232a, #2d5a63);">
+              <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-shui-diao-ge-tou/poem.webp'); background-size: cover; background-position: center;"></span>
+              <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-nian-nu-jiao-chi-bi-huai-gu/poem.webp'); background-size: cover; background-position: center;"></span>
+              <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-po-zhen-zi/poem.webp'); background-size: cover; background-position: center;"></span>
+              <span class="collection-badge" style="background: #2d5a63d4;">32 CI · INTERACTIVE SONG POETRY</span>
+            </div>
+            <div class="collection-copy">
+              <p class="collection-kicker" style="color: #2d5a63;">COLLECTION · CLASSICAL SONG POETRY</p>
+              <h2><ruby><span>宋</span><rt>sòng</rt></ruby><ruby><span>词</span><rt>cí</rt></ruby><ruby><span>之</span><rt>zhī</rt></ruby><ruby><span>境</span><rt>jìng</rt></ruby></h2>
+              <p class="collection-summary">32传世宋词名篇 · 句号问号画意单元 · 键盘联动上下阕穿梭 · 字字拼音与白话详析 · 专属宋代水墨意境。</p>
+              <span class="collection-read"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>全</span><rt>quán</rt></ruby><ruby><span>集</span><rt>jí</rt></ruby> ↗</span>
+            </div>
+          </a>
+        </article>
+      </section>
+
+      <section class="legacy-book-grid" aria-hidden="true">
+        <article class="book-card">
+          <div class="feature">
+            <a class="feature-link" href="our-planet-earth/planet-earth-iii-s01e01-coasts/" aria-label="阅读《海岸》">
+              <div class="feature-image"></div>
+              <span class="feature-stamp">Read<br>01</span>
+              <span class="feature-caption"><ruby><span>海</span><rt>hǎi</rt></ruby><ruby><span>岸</span><rt>àn</rt></ruby></span>
+            </a>
+          </div>
+          <div class="book-details">
+            <div>
+              <p class="book-series">Planet Earth III</p>
+              <h2><ruby><span>海</span><rt>hǎi</rt></ruby><ruby><span>岸</span><rt>àn</rt></ruby></h2>
+            </div>
+            <div class="book-side">
+              <span>30 pages</span>
+              <a href="our-planet-earth/planet-earth-iii-s01e01-coasts/"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>阅</span><rt>yuè</rt></ruby><ruby><span>读</span><rt>dú</rt></ruby> ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="book-card">
+          <div class="feature">
+            <a class="feature-link" href="our-planet-earth/planet-earth-iii-s01e02-ocean/" aria-label="阅读《海洋深处的生存智慧》">
+              <div class="feature-image" style="background-image: linear-gradient(90deg, #173d3b22, transparent 54%), url('https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e02-ocean/images/page_01.webp');"></div>
+              <span class="feature-stamp">Read<br>02</span>
+              <span class="feature-caption"><ruby><span>海</span><rt>hǎi</rt></ruby><ruby><span>洋</span><rt>yáng</rt></ruby></span>
+            </a>
+          </div>
+          <div class="book-details">
+            <div>
+              <p class="book-series">Planet Earth III</p>
+              <h2><ruby><span>海</span><rt>hǎi</rt></ruby><ruby><span>洋</span><rt>yáng</rt></ruby><ruby><span>深</span><rt>shēn</rt></ruby><ruby><span>处</span><rt>chù</rt></ruby><ruby><span>的</span><rt>de</rt></ruby><ruby><span>生</span><rt>shēng</rt></ruby><ruby><span>存</span><rt>cún</rt></ruby><ruby><span>智</span><rt>zhì</rt></ruby><ruby><span>慧</span><rt>huì</rt></ruby></h2>
+            </div>
+            <div class="book-side">
+              <span>24 pages</span>
+              <a href="our-planet-earth/planet-earth-iii-s01e02-ocean/"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>阅</span><rt>yuè</rt></ruby><ruby><span>读</span><rt>dú</rt></ruby> ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="book-card">
+          <div class="feature">
+            <a class="feature-link" href="our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/" aria-label="阅读《荒漠与草原的生存智慧》">
+              <div class="feature-image" style="background-image: linear-gradient(90deg, #173d3b22, transparent 54%), url('https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_01.webp');"></div>
+              <span class="feature-stamp">Read<br>03</span>
+              <span class="feature-caption"><ruby><span>荒</span><rt>huāng</rt></ruby><ruby><span>漠</span><rt>mò</rt></ruby><ruby><span>与</span><rt>yǔ</rt></ruby><ruby><span>草</span><rt>cǎo</rt></ruby><ruby><span>原</span><rt>yuán</rt></ruby></span>
+            </a>
+          </div>
+          <div class="book-details">
+            <div>
+              <p class="book-series"><ruby><span>地</span><rt>dì</rt></ruby><ruby><span>球</span><rt>qiú</rt></ruby><ruby><span>脉</span><rt>mài</rt></ruby><ruby><span>动</span><rt>dòng</rt></ruby>III</p>
+              <h2><ruby><span>荒</span><rt>huāng</rt></ruby><ruby><span>漠</span><rt>mò</rt></ruby><ruby><span>与</span><rt>yǔ</rt></ruby><ruby><span>草</span><rt>cǎo</rt></ruby><ruby><span>原</span><rt>yuán</rt></ruby><ruby><span>的</span><rt>de</rt></ruby><ruby><span>生</span><rt>shēng</rt></ruby><ruby><span>存</span><rt>cún</rt></ruby><ruby><span>智</span><rt>zhì</rt></ruby><ruby><span>慧</span><rt>huì</rt></ruby></h2>
+            </div>
+            <div class="book-side">
+              <span>24 pages</span>
+              <a href="our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>阅</span><rt>yuè</rt></ruby><ruby><span>读</span><rt>dú</rt></ruby> ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="book-card">
+          <div class="feature">
+            <a class="feature-link" href="our-planet-earth/planet-earth-iii-s01e04-freshwater/" aria-label="阅读《淡水：生命的血脉》">
+              <div class="feature-image" style="background-image: linear-gradient(90deg, #173d3b22, transparent 54%), url('https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e04-freshwater/images/page_01.webp');"></div>
+              <span class="feature-stamp">Read<br>04</span>
+              <span class="feature-caption"><ruby><span>淡</span><rt>dàn</rt></ruby><ruby><span>水</span><rt>shuǐ</rt></ruby></span>
+            </a>
+          </div>
+          <div class="book-details">
+            <div>
+              <p class="book-series"><ruby><span>地</span><rt>dì</rt></ruby><ruby><span>球</span><rt>qiú</rt></ruby><ruby><span>脉</span><rt>mài</rt></ruby><ruby><span>动</span><rt>dòng</rt></ruby>III</p>
+              <h2><ruby><span>淡</span><rt>dàn</rt></ruby><ruby><span>水</span><rt>shuǐ</rt></ruby>：<ruby><span>生</span><rt>shēng</rt></ruby><ruby><span>命</span><rt>mìng</rt></ruby><ruby><span>的</span><rt>de</rt></ruby><ruby><span>血</span><rt>xuè</rt></ruby><ruby><span>脉</span><rt>mài</rt></ruby></h2>
+            </div>
+            <div class="book-side">
+              <span>27 pages</span>
+              <a href="our-planet-earth/planet-earth-iii-s01e04-freshwater/"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>阅</span><rt>yuè</rt></ruby><ruby><span>读</span><rt>dú</rt></ruby> ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="book-card">
+          <div class="feature">
+            <a class="feature-link" href="our-planet-earth/planet-earth-iii-s01e05-forests/" aria-label="阅读《森林里的秘密联结》">
+              <div class="feature-image" style="background-image: linear-gradient(90deg, #173d3b22, transparent 54%), url('https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e05-forests/images/page_01.webp');"></div>
+              <span class="feature-stamp">Read<br>05</span>
+              <span class="feature-caption"><ruby><span>森</span><rt>sēn</rt></ruby><ruby><span>林</span><rt>lín</rt></ruby></span>
+            </a>
+          </div>
+          <div class="book-details">
+            <div>
+              <p class="book-series"><ruby><span>地</span><rt>dì</rt></ruby><ruby><span>球</span><rt>qiú</rt></ruby><ruby><span>脉</span><rt>mài</rt></ruby><ruby><span>动</span><rt>dòng</rt></ruby>III</p>
+              <h2><ruby><span>森</span><rt>sēn</rt></ruby><ruby><span>林</span><rt>lín</rt></ruby><ruby><span>里</span><rt>lǐ</rt></ruby><ruby><span>的</span><rt>de</rt></ruby><ruby><span>秘</span><rt>mì</rt></ruby><ruby><span>密</span><rt>mì</rt></ruby><ruby><span>联</span><rt>lián</rt></ruby><ruby><span>结</span><rt>jié</rt></ruby></h2>
+            </div>
+            <div class="book-side">
+              <span>26 pages</span>
+              <a href="our-planet-earth/planet-earth-iii-s01e05-forests/"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>阅</span><rt>yuè</rt></ruby><ruby><span>读</span><rt>dú</rt></ruby> ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="book-card">
+          <div class="feature">
+            <a class="feature-link" href="our-planet-earth/planet-earth-iii-s01e06-extremes/" aria-label="阅读《极端之境：地球上的生命挑战》">
+              <div class="feature-image" style="background-image: linear-gradient(90deg, #173d3b22, transparent 54%), url('https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e06-extremes/images/page_01.webp');"></div>
+              <span class="feature-stamp">Read<br>06</span>
+              <span class="feature-caption"><ruby><span>极</span><rt>jí</rt></ruby><ruby><span>端</span><rt>duān</rt></ruby><ruby><span>之</span><rt>zhī</rt></ruby><ruby><span>境</span><rt>jìng</rt></ruby></span>
+            </a>
+          </div>
+          <div class="book-details">
+            <div>
+              <p class="book-series"><ruby><span>地</span><rt>dì</rt></ruby><ruby><span>球</span><rt>qiú</rt></ruby><ruby><span>脉</span><rt>mài</rt></ruby><ruby><span>动</span><rt>dòng</rt></ruby>III</p>
+              <h2><ruby><span>极</span><rt>jí</rt></ruby><ruby><span>端</span><rt>duān</rt></ruby><ruby><span>之</span><rt>zhī</rt></ruby><ruby><span>境</span><rt>jìng</rt></ruby>：<ruby><span>地</span><rt>dì</rt></ruby><ruby><span>球</span><rt>qiú</rt></ruby><ruby><span>上</span><rt>shàng</rt></ruby><ruby><span>的</span><rt>de</rt></ruby><ruby><span>生</span><rt>shēng</rt></ruby><ruby><span>命</span><rt>mìng</rt></ruby><ruby><span>挑</span><rt>tiǎo</rt></ruby><ruby><span>战</span><rt>zhàn</rt></ruby></h2>
+            </div>
+            <div class="book-side">
+              <span>30 pages</span>
+              <a href="our-planet-earth/planet-earth-iii-s01e06-extremes/"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>阅</span><rt>yuè</rt></ruby><ruby><span>读</span><rt>dú</rt></ruby> ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="book-card">
+          <div class="feature">
+            <a class="feature-link" href="our-planet-earth/planet-earth-iii-s01e07-human/" aria-label="阅读《人类世界里的野生邻居》">
+              <div class="feature-image" style="background-image: linear-gradient(90deg, #173d3b22, transparent 54%), url('https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e07-human/images/page_01.webp');"></div>
+              <span class="feature-stamp">Read<br>07</span>
+              <span class="feature-caption"><ruby><span>人</span><rt>rén</rt></ruby><ruby><span>类</span><rt>lèi</rt></ruby><ruby><span>与</span><rt>yǔ</rt></ruby><ruby><span>野</span><rt>yě</rt></ruby><ruby><span>生</span><rt>shēng</rt></ruby><ruby><span>动</span><rt>dòng</rt></ruby><ruby><span>物</span><rt>wù</rt></ruby></span>
+            </a>
+          </div>
+          <div class="book-details">
+            <div>
+              <p class="book-series"><ruby><span>地</span><rt>dì</rt></ruby><ruby><span>球</span><rt>qiú</rt></ruby><ruby><span>脉</span><rt>mài</rt></ruby><ruby><span>动</span><rt>dòng</rt></ruby>III</p>
+              <h2><ruby><span>人</span><rt>rén</rt></ruby><ruby><span>类</span><rt>lèi</rt></ruby><ruby><span>世</span><rt>shì</rt></ruby><ruby><span>界</span><rt>jiè</rt></ruby><ruby><span>里</span><rt>lǐ</rt></ruby><ruby><span>的</span><rt>de</rt></ruby><ruby><span>野</span><rt>yě</rt></ruby><ruby><span>生</span><rt>shēng</rt></ruby><ruby><span>邻</span><rt>lín</rt></ruby><ruby><span>居</span><rt>jū</rt></ruby></h2>
+            </div>
+            <div class="book-side">
+              <span>22 pages</span>
+              <a href="our-planet-earth/planet-earth-iii-s01e07-human/"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>阅</span><rt>yuè</rt></ruby><ruby><span>读</span><rt>dú</rt></ruby> ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="book-card">
+          <div class="feature">
+            <a class="feature-link" href="our-planet-earth/planet-earth-iii-s01e08-heroes/" aria-label="阅读《Planet Earth III · Heroes》">
+              <div class="feature-image" style="background-image: linear-gradient(90deg, #173d3b22, transparent 54%), url('https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_01.webp');"></div>
+              <span class="feature-stamp">Read<br>08</span>
+              <span class="feature-caption"><ruby><span>英</span><rt>yīng</rt></ruby><ruby><span>雄</span><rt>xióng</rt></ruby></span>
+            </a>
+          </div>
+          <div class="book-details">
+            <div>
+              <p class="book-series"><ruby><span>地</span><rt>dì</rt></ruby><ruby><span>球</span><rt>qiú</rt></ruby><ruby><span>脉</span><rt>mài</rt></ruby><ruby><span>动</span><rt>dòng</rt></ruby>III</p>
+              <h2>Planet Earth III · Heroes</h2>
+            </div>
+            <div class="book-side">
+              <span>23 pages</span>
+              <a href="our-planet-earth/planet-earth-iii-s01e08-heroes/"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>阅</span><rt>yuè</rt></ruby><ruby><span>读</span><rt>dú</rt></ruby> ↗</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer-line"><span><ruby><span>故</span><rt>gù</rt></ruby><ruby><span>事</span><rt>shì</rt></ruby><ruby><span>书</span><rt>shū</rt></ruby><ruby><span>架</span><rt>jià</rt></ruby></span><span>2026</span></footer>
+  </div>
+</body>
+</html>

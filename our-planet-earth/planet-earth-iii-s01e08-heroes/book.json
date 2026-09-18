@@ -1,0 +1,897 @@
+{
+  "title": "Planet Earth III · Heroes",
+  "subtitle": "地球脉动III：守护家园的英雄",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "Planet Earth III S01E08 Heroes",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "heading": "黑犀的搬家任务",
+      "text": "黑犀是地球上最濒危的动物之一。杜米和团队要把它安全送到新的繁殖地。",
+      "illustration_prompt": "儿童科普绘本风格，南部非洲开阔灌木草原，一头健壮的黑犀在清晨金色光线中侧身行走，远处有穿着中性色野外服的保护人员和越野车，画面表现救援而非捕猎，温暖、写实又柔和，宽幅构图，无文字、无字幕、无标志。",
+      "source_time_range": [
+        20.0,
+        62.0
+      ],
+      "visual_time_range": [
+        20.0,
+        62.0
+      ],
+      "layout": "image-left",
+      "visual_anchors": [
+        "开阔金色草原与低矮灌木",
+        "黑犀粗糙深灰皮肤和尖角",
+        "远处观察的救援人员与车辆"
+      ],
+      "key_content": {
+        "location": "南部非洲的野生动物保护区",
+        "animals": [
+          "黑犀"
+        ],
+        "activity": "保护人员寻找并准备救援黑犀",
+        "stakes": "偷猎者为了犀牛角猎杀黑犀",
+        "outcome": "团队开始一次保护性的搬迁任务",
+        "visual_focus": "黑犀在草原上的体态与保护人员的谨慎行动"
+      },
+      "pinyin": "hēi xī shì dì qiú shàng zuì bīn wēi de dòng wù zhī yī 。dù mǐ hé tuán duì yào bǎ tā ān quán sòng dào xīn de fán zhí dì 。",
+      "reference_frames": [
+        "references/page_01/ref_01_028.40s.jpg",
+        "references/page_01/ref_02_041.00s.jpg",
+        "references/page_01/ref_03_053.60s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_01.webp",
+      "heading_pinyin": "hēi xī de bān jiā rèn wù"
+    },
+    {
+      "page": 2,
+      "heading": "飞向安全的新家",
+      "text": "这只雌性黑犀体重超过一吨。救援人员让它安静入睡，再用直升机把它搬到安全区域。",
+      "illustration_prompt": "儿童科普绘本风格，非洲保护区上空，直升机用安全吊带平稳转移一头沉睡的雌性黑犀，地面保护人员在开阔草地上引导，阳光穿过尘土形成金色光束，强调专业救援和动物安全，动态宽幅，无文字无标志。",
+      "source_time_range": [
+        73.5,
+        135.0
+      ],
+      "visual_time_range": [
+        81.0,
+        129.0
+      ],
+      "layout": "full-bleed",
+      "visual_anchors": [
+        "直升机与吊带形成清晰的上升动势",
+        "沉睡黑犀保持自然姿态",
+        "地面人员围绕安全区域工作"
+      ],
+      "key_content": {
+        "location": "非洲野生动物保护区上空",
+        "animals": [
+          "雌性黑犀"
+        ],
+        "activity": "麻醉后由直升机转移",
+        "stakes": "一吨多重的黑犀无法用普通方式搬家",
+        "outcome": "黑犀回到地面并开始新的安全生活",
+        "visual_focus": "空中搬迁、直升机和黑犀之间的尺度关系"
+      },
+      "pinyin": "zhè zhǐ cí xìng hēi xī tǐ zhòng chāo guò yī dūn 。jiù yuán rén yuán ràng tā ān jìng rù shuì ，zài yòng zhí shēng jī bǎ tā bān dào ān quán qū yù 。",
+      "reference_frames": [
+        "references/page_02/ref_01_090.60s.jpg",
+        "references/page_02/ref_02_105.00s.jpg",
+        "references/page_02/ref_03_119.40s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_02.webp",
+      "heading_pinyin": "fēi xiàng ān quán de xīn jiā"
+    },
+    {
+      "page": 3,
+      "heading": "守护家园的人",
+      "text": "二十多年里，许多动物变得越来越稀有，栖息地也受到威胁。幸好，新一代保护者正在行动。",
+      "illustration_prompt": "儿童科普绘本风格的世界保护者拼图式全景：不同生态系统的柔和连贯剪影，包括草原、云雾林、雨林和海洋，几位保护者在前景望向地球，画面充满希望但不夸张，清澈蓝绿金色调，无文字无标志。",
+      "source_time_range": [
+        170.5,
+        210.5
+      ],
+      "visual_time_range": [
+        149.0,
+        210.5
+      ],
+      "layout": "image-top",
+      "visual_anchors": [
+        "从荒凉远方到多种栖息地的广阔视野",
+        "保护者面向自然的背影",
+        "蓝绿地球意象但不出现文字"
+      ],
+      "key_content": {
+        "location": "世界各地的荒凉和偏远角落",
+        "animals": [],
+        "activity": "保护者跨越障碍守护野生动物",
+        "stakes": "动物和栖息地越来越稀有并面临毁灭威胁",
+        "outcome": "故事转向充满希望的保护行动",
+        "visual_focus": "多种栖息地连接成一个家园"
+      },
+      "pinyin": "èr shí duō nián lǐ ，xǔ duō dòng wù biàn dé yuè lái yuè xī yǒu ，qī xī dì yě shòu dào wēi xié 。xìng hǎo ，xīn yí dài bǎo hù zhě zhèng zài xíng dòng 。",
+      "reference_frames": [
+        "references/page_03/ref_01_161.30s.jpg",
+        "references/page_03/ref_02_179.75s.jpg",
+        "references/page_03/ref_03_198.20s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_03.webp",
+      "heading_pinyin": "shǒu hù jiā yuán de rén"
+    },
+    {
+      "page": 4,
+      "heading": "安第斯深处的蛙中心",
+      "text": "安第斯山脉深处的詹巴图研究中心，收留了可能是自己物种最后成员的蛙。",
+      "illustration_prompt": "儿童科普绘本风格，安第斯山脉深处的湿润研究中心，玻璃观察箱里有色彩丰富的树蛙，工作人员轻轻记录，背景是云雾山和蕨类植物，科学感与温柔感并存，无文字无标签。",
+      "source_time_range": [
+        221.5,
+        258.5
+      ],
+      "visual_time_range": [
+        221.5,
+        258.5
+      ],
+      "layout": "image-right",
+      "visual_anchors": [
+        "安第斯山云雾和陡峭山地",
+        "研究中心里的透明观察箱",
+        "小小蛙类与工作人员手部的尺度对比"
+      ],
+      "key_content": {
+        "location": "安第斯山脉深处的詹巴图研究中心",
+        "animals": [
+          "蛙类",
+          "树蛙"
+        ],
+        "activity": "工作人员保护并繁育稀有蛙类",
+        "stakes": "有些蛙可能是物种最后几只",
+        "outcome": "中心尝试增加这些物种的数量",
+        "visual_focus": "研究中心和被照护的蛙类"
+      },
+      "pinyin": "ān dì sī shān mài shēn chù de zhān bā tú yán jiū zhōng xīn ，shōu liú le kě néng shì zì jǐ wù zhǒng zuì hòu chéng yuán de wā 。",
+      "reference_frames": [
+        "references/page_04/ref_01_228.90s.jpg",
+        "references/page_04/ref_02_240.00s.jpg",
+        "references/page_04/ref_03_251.10s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_04.webp",
+      "heading_pinyin": "ān dì sī shēn chù de wā zhōng xīn"
+    },
+    {
+      "page": 5,
+      "heading": "孤独的桑提亚哥",
+      "text": "悲伤的桑提亚哥是多疣斑蟾中仅存的成员之一。它独自生活了四年，急需一只雌性伴侣。",
+      "illustration_prompt": "儿童科普绘本风格，安第斯研究中心的安静水池边，一只体型小巧、神情温和的稀有斑蟾独自坐在湿叶上，背景留出空位暗示孤独，细腻的雨滴与青绿色苔藓，情绪温柔不悲惨，无文字。",
+      "source_time_range": [
+        301.0,
+        364.5
+      ],
+      "visual_time_range": [
+        307.0,
+        364.5
+      ],
+      "layout": "image-left",
+      "visual_anchors": [
+        "孤独的蛙与大片安静湿叶",
+        "斑蟾独特斑纹和湿润皮肤",
+        "背景中空出的伴侣位置"
+      ],
+      "key_content": {
+        "location": "詹巴图研究中心",
+        "animals": [
+          "悲伤的桑提亚哥",
+          "多疣斑蟾"
+        ],
+        "activity": "桑提亚哥独自生活，等待雌性伴侣",
+        "stakes": "如果找不到伴侣，这个物种可能灭绝",
+        "outcome": "海梅决定去云雾林寻找雌蛙",
+        "visual_focus": "桑提亚哥独处的姿态和细小身体"
+      },
+      "pinyin": "bēi shāng de sāng tí yà gē shì duō yóu bān chán zhōng jǐn cún de chéng yuán zhī yī 。tā dú zì shēng huó le sì nián ，jí xū yī zhī cí xìng bàn lǚ 。",
+      "reference_frames": [
+        "references/page_05/ref_01_318.50s.jpg",
+        "references/page_05/ref_02_335.75s.jpg",
+        "references/page_05/ref_03_353.00s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_05.webp",
+      "heading_pinyin": "gū dú de sāng tí yà gē"
+    },
+    {
+      "page": 6,
+      "heading": "雨季里的寻找",
+      "text": "海梅、达尔文和弗朗西斯卡来到厄瓜多尔云雾林。雨水和昆虫很多，正是蛙类夜间活动的时候。",
+      "illustration_prompt": "儿童科普绘本风格，厄瓜多尔安第斯云雾林雨季的夜晚，三位蛙类探寻者穿着雨衣和头灯沿溪流缓慢前进，巨大蕨叶、湿树干、细密雨丝和闪亮昆虫包围他们，神秘而安全，无文字无标志。",
+      "source_time_range": [
+        369.0,
+        458.0
+      ],
+      "visual_time_range": [
+        425.5,
+        458.0
+      ],
+      "layout": "image-top",
+      "visual_anchors": [
+        "浓密云雾林与夜间溪流",
+        "头灯在雨幕中的小光圈",
+        "三人小心触碰周围环境"
+      ],
+      "key_content": {
+        "location": "厄瓜多尔云雾林的高山溪流",
+        "animals": [
+          "蛙类",
+          "昆虫"
+        ],
+        "activity": "探寻者在雨季夜间寻找蛙类",
+        "stakes": "要在难以抵达的山地找到稀有雌蛙",
+        "outcome": "他们开始彻夜搜寻",
+        "visual_focus": "雨季云雾、溪流和头灯探险"
+      },
+      "pinyin": "hǎi méi 、dá ěr wén hé fú lǎng xī sī kǎ lái dào è guā duō ěr yún wù lín 。yǔ shuǐ hé kūn chóng hěn duō ，zhèng shì wā lèi yè jiān huó dòng de shí hòu 。",
+      "reference_frames": [
+        "references/page_06/ref_01_432.00s.jpg",
+        "references/page_06/ref_02_441.75s.jpg",
+        "references/page_06/ref_03_451.50s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_06.webp",
+      "heading_pinyin": "yǔ jì lǐ de xún zhǎo"
+    },
+    {
+      "page": 7,
+      "heading": "为什么溪流变安静了",
+      "text": "他们找了一整夜，却听不到熟悉的蛙鸣。壶菌真菌会寄生在蛙的潮湿皮肤上，最后让蛙死亡。",
+      "illustration_prompt": "儿童科普科学绘本风格，安静的山间溪流夜景，一块湿岩石上没有蛙只有雨滴，画面一侧用非常简洁的放大镜小图示意壶菌附着在蛙的湿润皮肤表面，不使用文字标签，冷蓝色调中带一点希望。",
+      "source_time_range": [
+        477.0,
+        574.5
+      ],
+      "visual_time_range": [
+        494.5,
+        535.0
+      ],
+      "layout": "image-right",
+      "visual_anchors": [
+        "没有蛙鸣的空溪流与湿岩石",
+        "雨夜的蓝绿色寂静",
+        "壶菌与蛙皮肤的简洁科学放大意象"
+      ],
+      "key_content": {
+        "location": "厄瓜多尔云雾林溪流",
+        "animals": [
+          "蛙类"
+        ],
+        "activity": "探寻者在寂静溪流中搜寻",
+        "stakes": "蛙类减少与壶菌感染有关，许多物种面临消失",
+        "outcome": "他们理解了蛙类消失的一个重要原因",
+        "visual_focus": "寂静的溪流和壶菌影响蛙皮肤的科学意象"
+      },
+      "pinyin": "tā men zhǎo le yī zhěng yè ，què tīng bú dào shú xī de wā míng 。hú jūn zhēn jūn huì jì shēng zài wā de cháo shī pí fū shàng ，zuì hòu ràng wā sǐ wáng 。",
+      "reference_frames": [
+        "references/page_07/ref_01_502.60s.jpg",
+        "references/page_07/ref_02_514.75s.jpg",
+        "references/page_07/ref_03_526.90s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_07.webp",
+      "heading_pinyin": "wèi shén me xī liú biàn ān jìng le"
+    },
+    {
+      "page": 8,
+      "heading": "溪边的玻璃蛙",
+      "text": "一夜又一夜，他们继续寻找。终于，海梅循着嘟嘟声，在溪边找到了一只漂亮的瞻星蛙，也叫玻璃蛙。",
+      "illustration_prompt": "儿童科普绘本风格，雨夜溪流边，海梅戴着头灯小心捧起一只透明感明显、背部翠绿的玻璃蛙，叶片和水珠清晰可见，人物表情惊喜，保持自然观察而非夸张拟人，无文字无字幕。",
+      "source_time_range": [
+        581.5,
+        620.0
+      ],
+      "visual_time_range": [
+        597.0,
+        620.0
+      ],
+      "layout": "full-bleed",
+      "visual_anchors": [
+        "海梅头灯照亮手中的玻璃蛙",
+        "透明腹部与翠绿背部",
+        "湿叶、水珠和溪流反光"
+      ],
+      "key_content": {
+        "location": "云雾林溪流边",
+        "animals": [
+          "瞻星蛙",
+          "玻璃蛙"
+        ],
+        "activity": "海梅循声找到并观察玻璃蛙",
+        "stakes": "瞻星蛙也正在变得越来越稀少",
+        "outcome": "搜寻获得一个珍贵发现",
+        "visual_focus": "被头灯照亮的玻璃蛙与发现者的手"
+      },
+      "pinyin": "yī yè yòu yī yè ，tā men jì xù xún zhǎo 。zhōng yú ，hǎi méi xún zhe dū dū shēng ，zài xī biān zhǎo dào le yī zhī piào liàng de zhān xīng wā ，yě jiào bō lí wā 。",
+      "reference_frames": [
+        "references/page_08/ref_01_601.60s.jpg",
+        "references/page_08/ref_02_608.50s.jpg",
+        "references/page_08/ref_03_615.40s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_08.webp",
+      "heading_pinyin": "xī biān de bō lí wā"
+    },
+    {
+      "page": 9,
+      "heading": "希望握在手中",
+      "text": "海梅没有放弃桑提亚哥。后来，他真的找到了一只雌蛙，而且它比雄蛙还大。",
+      "illustration_prompt": "儿童科普绘本风格，湿润云雾林中，海梅双手托着一只体型较大的雌性多疣斑蟾，周围有柔和金色晨光和蕨叶，画面表现惊喜、希望与小心保护，蛙的形态自然真实，无文字。",
+      "source_time_range": [
+        642.0,
+        719.5
+      ],
+      "visual_time_range": [
+        661.5,
+        719.5
+      ],
+      "layout": "image-left",
+      "visual_anchors": [
+        "海梅发现雌蛙时的惊喜姿态",
+        "雌蛙体型明显较大",
+        "晨光穿过湿润蕨叶"
+      ],
+      "key_content": {
+        "location": "厄瓜多尔云雾林",
+        "animals": [
+          "雌性多疣斑蟾",
+          "悲伤的桑提亚哥"
+        ],
+        "activity": "海梅找到雌蛙并带回繁育计划",
+        "stakes": "这可能是桑提亚哥物种延续的机会",
+        "outcome": "新的繁殖计划有了基础",
+        "visual_focus": "被小心托住的雌蛙与发现者的希望表情"
+      },
+      "pinyin": "hǎi méi méi yǒu fàng qì sāng tí yà gē 。hòu lái ，tā zhēn de zhǎo dào le yī zhī cí wā ，ér qiě tā bǐ xióng wā hái dà 。",
+      "reference_frames": [
+        "references/page_09/ref_01_673.10s.jpg",
+        "references/page_09/ref_02_690.50s.jpg",
+        "references/page_09/ref_03_707.90s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_09.webp",
+      "heading_pinyin": "xī wàng wò zài shǒu zhōng"
+    },
+    {
+      "page": 10,
+      "heading": "小蛙的大作用",
+      "text": "蛙类不只是可爱的动物。箭毒蛙皮肤中的化学物质，正在帮助科学家寻找更强效的止痛药。",
+      "illustration_prompt": "儿童科普绘本风格，明亮的热带森林叶片上停着一只小小的鲜艳箭毒蛙，旁边以不带文字的图形表现从皮肤分子到药物研究的连接，背景延伸为绿色生命网络，科学准确、清爽无字。",
+      "source_time_range": [
+        725.0,
+        789.0
+      ],
+      "visual_time_range": [
+        740.5,
+        758.5
+      ],
+      "layout": "image-right",
+      "visual_anchors": [
+        "鲜艳但体型很小的箭毒蛙",
+        "叶片上的湿润热带环境",
+        "蛙皮肤到实验研究的非文字连接"
+      ],
+      "key_content": {
+        "location": "热带森林与科学研究环境",
+        "animals": [
+          "箭毒蛙"
+        ],
+        "activity": "科学家研究箭毒蛙皮肤中的化学物质",
+        "stakes": "失去物种也可能失去尚未发现的帮助",
+        "outcome": "人们看到保护自然与人类生活紧密相连",
+        "visual_focus": "一只小蛙连接着更大的生命支持系统"
+      },
+      "pinyin": "wā lèi bù zhǐ shì kě ài de dòng wù 。jiàn dú wā pí fū zhōng de huà xué wù zhì ，zhèng zài bāng zhù kē xué jiā xún zhǎo gèng qiáng xiào de zhǐ tòng yào 。",
+      "reference_frames": [
+        "references/page_10/ref_01_744.10s.jpg",
+        "references/page_10/ref_02_749.50s.jpg",
+        "references/page_10/ref_03_754.90s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_10.webp",
+      "heading_pinyin": "xiǎo wā de dà zuò yòng"
+    },
+    {
+      "page": 11,
+      "heading": "森林象的种子之旅",
+      "text": "非洲森林象会传播植物种子，还会踩出空地，让许多动物有地方生活。它们消失，森林也会改变。",
+      "illustration_prompt": "儿童科普绘本风格，非洲热带雨林边缘，一群非洲森林象穿过林间，成年象和小象在绿荫中前进，地面散落种子并出现由大象开出的空地，阳光斑驳、生态联系清晰，无文字无标志。",
+      "source_time_range": [
+        795.5,
+        812.5
+      ],
+      "visual_time_range": [
+        795.5,
+        812.5
+      ],
+      "layout": "image-top",
+      "visual_anchors": [
+        "非洲森林象群与小象",
+        "象群穿过热带林地",
+        "种子和林间空地暗示生态作用"
+      ],
+      "key_content": {
+        "location": "非洲热带雨林",
+        "animals": [
+          "非洲森林象",
+          "小象"
+        ],
+        "activity": "象群传播种子并创造林间空地",
+        "stakes": "森林失去重要的生态工程师",
+        "outcome": "孩子理解一种动物如何帮助整个森林",
+        "visual_focus": "象群、种子和被踩出的空地之间的关系"
+      },
+      "pinyin": "fēi zhōu sēn lín xiàng huì chuán bō zhí wù zhǒng zi ，hái huì cǎi chū kòng dì ，ràng xǔ duō dòng wù yǒu dì fāng shēng huó 。tā men xiāo shī ，sēn lín yě huì gǎi biàn 。",
+      "reference_frames": [
+        "references/page_11/ref_01_798.90s.jpg",
+        "references/page_11/ref_02_804.00s.jpg",
+        "references/page_11/ref_03_809.10s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_11.webp",
+      "heading_pinyin": "sēn lín xiàng de zhǒng zi zhī lǚ"
+    },
+    {
+      "page": 12,
+      "heading": "象牙背后的危险",
+      "text": "偷猎者为了象牙杀死了整群森林象，连小象也不放过。阮庄决定假扮买家，进入非法交易。",
+      "illustration_prompt": "儿童科普绘本风格，西非阿比让港口与阴影中的非法象牙交易线索，前景是一名勇敢的亚洲女性调查员保持严肃神情，衣服下藏着小型录像设备的暗示但不露危险细节，远处是悲伤的大象剪影，紧张克制无文字无标志。",
+      "source_time_range": [
+        819.5,
+        950.0
+      ],
+      "visual_time_range": [
+        868.5,
+        950.0
+      ],
+      "layout": "full-bleed",
+      "visual_anchors": [
+        "西非城市港口环境",
+        "阮庄严肃伪装成买家的姿态",
+        "大象剪影和象牙交易阴影"
+      ],
+      "key_content": {
+        "location": "西非科特迪瓦阿比让",
+        "animals": [
+          "非洲森林象",
+          "小象"
+        ],
+        "activity": "阮庄伪装买家调查非法象牙贸易",
+        "stakes": "卧底身份暴露可能危及生命，更多大象会被杀",
+        "outcome": "她与伊戈尔网络开始一次高风险行动",
+        "visual_focus": "调查员、港口城市和被威胁的象群"
+      },
+      "pinyin": "tōu liè zhě wèi le xiàng yá shā sǐ le zhěng qún sēn lín xiàng ，lián xiǎo xiàng yě bù fàng guò 。ruǎn zhuāng jué dìng jiǎ bàn mǎi jiā ，jìn rù fēi fǎ jiāo yì 。",
+      "reference_frames": [
+        "references/page_12/ref_01_884.80s.jpg",
+        "references/page_12/ref_02_909.25s.jpg",
+        "references/page_12/ref_03_933.70s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_12.webp",
+      "heading_pinyin": "xiàng yá bèi hòu de wēi xiǎn"
+    },
+    {
+      "page": 13,
+      "heading": "第一次会面",
+      "text": "阮庄在咖啡馆见到象牙商人，却没有立刻得到信任。她仍然继续交谈，因为每拖延一天，就可能有更多大象被杀。",
+      "illustration_prompt": "儿童科普绘本风格，阿比让一家朴素咖啡馆内，阮庄背对门坐着与一名商人交谈，桌面有咖啡杯，画面角落以小巧镜头暗示秘密摄像机，气氛紧张但不暴力，无文字无标志。",
+      "source_time_range": [
+        1082.5,
+        1182.5
+      ],
+      "visual_time_range": [
+        1082.5,
+        1161.5
+      ],
+      "layout": "image-right",
+      "visual_anchors": [
+        "咖啡馆中背对门的座位",
+        "阮庄与商人隔桌交谈",
+        "小型秘密摄像机的隐约线索"
+      ],
+      "key_content": {
+        "location": "西非阿比让的咖啡馆",
+        "animals": [
+          "大象"
+        ],
+        "activity": "卧底调查员与象牙商人试探交谈",
+        "stakes": "商人不信任她，拖延会带来更多象群伤亡",
+        "outcome": "第一次会面受挫，但行动没有结束",
+        "visual_focus": "背对门的卧底座位和谨慎谈判"
+      },
+      "pinyin": "ruǎn zhuāng zài kā fēi guǎn jiàn dào xiàng yá shāng rén ，què méi yǒu lì kè dé dào xìn rèn 。tā réng rán jì xù jiāo tán ，yīn wèi měi tuō yán yī tiān ，jiù kě néng yǒu gèng duō dà xiàng bèi shā 。",
+      "reference_frames": [
+        "references/page_13/ref_01_1098.30s.jpg",
+        "references/page_13/ref_02_1122.00s.jpg",
+        "references/page_13/ref_03_1145.70s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_13.webp",
+      "heading_pinyin": "dì yī cì huì miàn"
+    },
+    {
+      "page": 14,
+      "heading": "酒店里的陷阱",
+      "text": "三天后，交易者发来象牙视频。阮庄把他带到酒店称重，警察就在楼上等待信号。",
+      "illustration_prompt": "儿童科普绘本风格，酒店房间内的紧张调查场景，几根象牙放在秤上，阮庄保持镇定，交易者正在查看重量，门外楼上警察准备行动但不展示武器细节，室内暖光与阴影对比，无文字无标志。",
+      "source_time_range": [
+        1252.5,
+        1388.5
+      ],
+      "visual_time_range": [
+        1319.0,
+        1388.5
+      ],
+      "layout": "image-left",
+      "visual_anchors": [
+        "象牙在秤上的重量感",
+        "酒店房间与关闭的门",
+        "阮庄镇定、警察隐在楼上的双层空间"
+      ],
+      "key_content": {
+        "location": "阿比让附近的酒店房间",
+        "animals": [
+          "成年大象",
+          "小象"
+        ],
+        "activity": "象牙交易被称重，卧底等待抓捕时机",
+        "stakes": "这些象牙意味着整群大象被杀，行动必须迅速",
+        "outcome": "证据和交易现场都已准备好",
+        "visual_focus": "秤、象牙、阮庄和紧闭的门"
+      },
+      "pinyin": "sān tiān hòu ，jiāo yì zhě fā lái xiàng yá shì pín 。ruǎn zhuāng bǎ tā dài dào jiǔ diàn chēng zhòng ，jǐng chá jiù zài lóu shàng děng dài xìn hào 。",
+      "reference_frames": [
+        "references/page_14/ref_01_1332.90s.jpg",
+        "references/page_14/ref_02_1353.75s.jpg",
+        "references/page_14/ref_03_1374.60s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_14.webp",
+      "heading_pinyin": "jiǔ diàn lǐ de xiàn jǐng"
+    },
+    {
+      "page": 15,
+      "heading": "切断一环",
+      "text": "警察冲进房间抓捕交易者。阮庄也必须装成嫌疑人，不能暴露身份。全球供应链的一环被切断了。",
+      "illustration_prompt": "儿童科普绘本风格，酒店房间门突然打开，警察控制住象牙交易者，阮庄低头保持伪装，象牙被作为证据收走，画面只表现秩序与行动不表现伤害，冷暖光线交错，无文字无标志。",
+      "source_time_range": [
+        1402.0,
+        1523.0
+      ],
+      "visual_time_range": [
+        1431.0,
+        1506.5
+      ],
+      "layout": "full-bleed",
+      "visual_anchors": [
+        "打开的酒店房门和迅速进入的警察",
+        "阮庄继续伪装的克制姿态",
+        "被收缴的象牙作为证据"
+      ],
+      "key_content": {
+        "location": "阿比让酒店房间",
+        "animals": [
+          "大象"
+        ],
+        "activity": "警察抓捕交易者并收缴象牙",
+        "stakes": "卧底也会被一起逮捕，身份暴露会带来危险",
+        "outcome": "非法野生动物贸易链条的一环被切断",
+        "visual_focus": "抓捕瞬间的门、人物和证据"
+      },
+      "pinyin": "jǐng chá chōng jìn fáng jiān zhuā bǔ jiāo yì zhě 。ruǎn zhuāng yě bì xū zhuāng chéng xián yí rén ，bù néng bào lù shēn fèn 。quán qiú gōng yìng liàn de yī huán bèi qiē duàn le 。",
+      "reference_frames": [
+        "references/page_15/ref_01_1446.10s.jpg",
+        "references/page_15/ref_02_1468.75s.jpg",
+        "references/page_15/ref_03_1491.40s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_15.webp",
+      "heading_pinyin": "qiē duàn yī huán"
+    },
+    {
+      "page": 16,
+      "heading": "黄色衣服的养母",
+      "text": "在维也纳，凯塔琳娜照顾二十八只隐鹮雏鸟。她穿相同的黄色衣服，让雏鸟把她当成妈妈。",
+      "illustration_prompt": "儿童科普绘本风格，维也纳育雏房里，穿黄色连体衣的凯塔琳娜蹲在二十八只隐鹮雏鸟中间，雏鸟围着她吃食和休息，柔和晨光、干净温暖的科学照护环境，无文字无标签。",
+      "source_time_range": [
+        1638.0,
+        1726.0
+      ],
+      "visual_time_range": [
+        1664.0,
+        1726.0
+      ],
+      "layout": "image-right",
+      "visual_anchors": [
+        "黄色衣服成为养母的视觉标记",
+        "多只灰褐色隐鹮雏鸟围绕照护者",
+        "温暖整洁的育雏空间"
+      ],
+      "key_content": {
+        "location": "奥地利维也纳的隐鹮育雏房",
+        "animals": [
+          "隐鹮雏鸟"
+        ],
+        "activity": "人类养母用印随照顾并训练雏鸟",
+        "stakes": "人工出生的雏鸟需要学会成为自由的野鸟",
+        "outcome": "雏鸟开始把黄色衣服的养母当作妈妈",
+        "visual_focus": "黄色养母和二十八只雏鸟的依恋关系"
+      },
+      "pinyin": "zài wéi yě nà ，kǎi tǎ lín nà zhào gù èr shí bā zhǐ yǐn huán chú niǎo 。tā chuān xiāng tóng de huáng sè yī fú ，ràng chú niǎo bǎ tā dàng chéng mā mā 。",
+      "reference_frames": [
+        "references/page_16/ref_01_1676.40s.jpg",
+        "references/page_16/ref_02_1695.00s.jpg",
+        "references/page_16/ref_03_1713.60s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_16.webp",
+      "heading_pinyin": "huáng sè yī fú de yǎng mǔ"
+    },
+    {
+      "page": 17,
+      "heading": "跟着飞机学迁徙",
+      "text": "隐鹮是候鸟，秋天要向南飞。养母们用手势、叫声和超轻型飞机，教雏鸟记住迁徙方向。",
+      "illustration_prompt": "儿童科普绘本风格，奥地利山谷上空，一架超轻型飞机缓慢飞行，成队的隐鹮幼鸟在后方跟随，地面山谷与秋色森林铺开，队形清晰、动作安全、天空明亮，无文字无标志。",
+      "source_time_range": [
+        1795.0,
+        1980.5
+      ],
+      "visual_time_range": [
+        1882.0,
+        1980.5
+      ],
+      "layout": "image-top",
+      "visual_anchors": [
+        "超轻型飞机牵引的飞行路线",
+        "隐鹮幼鸟逐渐排成队形",
+        "秋天山谷的开阔天空"
+      ],
+      "key_content": {
+        "location": "奥地利阿尔卑斯山脉山谷",
+        "animals": [
+          "隐鹮幼鸟"
+        ],
+        "activity": "幼鸟跟随超轻型飞机练习飞行和迁徙",
+        "stakes": "雏鸟不知道方向和距离，靠自己难以完成迁徙",
+        "outcome": "经过调整，隐鹮排好队并跟上飞机",
+        "visual_focus": "飞机、鸟群队形和山谷路线"
+      },
+      "pinyin": "yǐn huán shì hòu niǎo ，qiū tiān yào xiàng nán fēi 。yǎng mǔ men yòng shǒu shì 、jiào shēng hé chāo qīng xíng fēi jī ，jiào chú niǎo jì zhù qiān xǐ fāng xiàng 。",
+      "reference_frames": [
+        "references/page_17/ref_01_1901.70s.jpg",
+        "references/page_17/ref_02_1931.25s.jpg",
+        "references/page_17/ref_03_1960.80s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_17.webp",
+      "heading_pinyin": "gēn zhe fēi jī xué qiān xǐ"
+    },
+    {
+      "page": 18,
+      "heading": "翻越岩石长城",
+      "text": "飞越奇勒塔尔阿尔卑斯山脉，是隐鹮第一次迁徙的最大挑战。它们要借助上升热气流，越过岩石和冰雪。",
+      "illustration_prompt": "儿童科普绘本风格，雄伟的奇勒塔尔阿尔卑斯山脉，超轻型飞机带领二十八只隐鹮在山脊旁盘旋上升，山间可见透明暖气流的旋转光带，一只掉队的幼鸟重新追上队伍，岩石冰雪与金色云层壮丽而安全，无文字。",
+      "source_time_range": [
+        1987.5,
+        2191.0
+      ],
+      "visual_time_range": [
+        1995.5,
+        2173.0
+      ],
+      "layout": "full-bleed",
+      "visual_anchors": [
+        "岩石和冰雪组成的山脊",
+        "飞机与鸟群围绕上升热气流盘旋",
+        "掉队幼鸟重新归队"
+      ],
+      "key_content": {
+        "location": "奇勒塔尔阿尔卑斯山脉",
+        "animals": [
+          "隐鹮幼鸟"
+        ],
+        "activity": "隐鹮跟随飞机借上升热气流翻越山脉",
+        "stakes": "首次迁徙缺乏经验，飞机和鸟群都面临高空风险",
+        "outcome": "二十八只隐鹮最终翻过最高山脊",
+        "visual_focus": "山脊、热气流、飞机和完整鸟群"
+      },
+      "pinyin": "fēi yuè qí lēi tǎ ěr ā ěr bēi sī shān mài ，shì yǐn huán dì yī cì qiān xǐ de zuì dà tiǎo zhàn 。tā men yào jiè zhù shàng shēng rè qì liú ，yuè guò yán shí hé bīng xuě 。",
+      "reference_frames": [
+        "references/page_18/ref_01_2031.00s.jpg",
+        "references/page_18/ref_02_2084.25s.jpg",
+        "references/page_18/ref_03_2137.50s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_18.webp",
+      "heading_pinyin": "fān yuè yán shí cháng chéng"
+    },
+    {
+      "page": 19,
+      "heading": "雨林是一座家",
+      "text": "亚马孙雨林既像集市，也像药房，更是许多生命的家。雨林被砍伐，动物就会失去栖息地。",
+      "illustration_prompt": "儿童科普绘本风格，亚马孙雨林的巨大绿色冠层，树木、河流、动物和当地社区彼此相连，前景有一只小蚂蚁贝拉，画面另一侧逐渐出现被砍开的空地形成对比，色彩有警醒也有希望，无文字。",
+      "source_time_range": [
+        2277.5,
+        2454.5
+      ],
+      "visual_time_range": [
+        2301.0,
+        2424.5
+      ],
+      "layout": "image-left",
+      "visual_anchors": [
+        "茂密亚马孙雨林冠层与河流",
+        "小蚂蚁与巨大森林的尺度反差",
+        "森林与被开垦农田的渐变对比"
+      ],
+      "key_content": {
+        "location": "巴西亚马孙雨林",
+        "animals": [
+          "蚂蚁",
+          "雨林动物"
+        ],
+        "activity": "雨林为人和动物提供食物、药物与栖息地",
+        "stakes": "砍伐使众多物种失去家园",
+        "outcome": "保护雨林成为保护动物的关键",
+        "visual_focus": "完整雨林与破碎栖息地的对照"
+      },
+      "pinyin": "yà mǎ sūn yǔ lín jì xiàng jí shì ，yě xiàng yào fáng ，gèng shì xǔ duō shēng mìng de jiā 。yǔ lín bèi kǎn fá ，dòng wù jiù huì shī qù qī xī dì 。",
+      "reference_frames": [
+        "references/page_19/ref_01_2325.70s.jpg",
+        "references/page_19/ref_02_2362.75s.jpg",
+        "references/page_19/ref_03_2399.80s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_19.webp",
+      "heading_pinyin": "yǔ lín shì yī zuò jiā"
+    },
+    {
+      "page": 20,
+      "heading": "小蚂蚁也能很强",
+      "text": "亚历山德拉和蒙杜鲁库人守护雨林。他们像小蚂蚁一样联合起来，走到巴西利亚为土地发声。",
+      "illustration_prompt": "儿童科普绘本风格，亚马孙原住民保护者亚历山德拉带领不同部落的人们在巴西利亚举行和平抗议，队伍中有象征性的蚂蚁图案木牌但不含文字，城市建筑和远方雨林同框，团结、坚定、明亮，无文字无标志。",
+      "source_time_range": [
+        2458.5,
+        2753.0
+      ],
+      "visual_time_range": [
+        2564.5,
+        2753.0
+      ],
+      "layout": "image-right",
+      "visual_anchors": [
+        "不同原住民群体汇成的大队伍",
+        "亚历山德拉在队伍前方",
+        "巴西利亚城市与亚马孙雨林的视觉连接"
+      ],
+      "key_content": {
+        "location": "从亚马孙到巴西利亚的抗议行动",
+        "animals": [
+          "雨林动物"
+        ],
+        "activity": "原住民联合抗议，保护传统土地和雨林",
+        "stakes": "矿工、农场和伐木者带来威胁，土地法律可能被改变",
+        "outcome": "大规模抗议后，一项法律提案被撤销",
+        "visual_focus": "团结的人群和守护雨林的共同目标"
+      },
+      "pinyin": "yà lì shān dé lā hé méng dù lǔ kù rén shǒu hù yǔ lín 。tā men xiàng xiǎo mǎ yǐ yī yàng lián hé qǐ lái ，zǒu dào bā xī lì yà wèi tǔ dì fā shēng 。",
+      "reference_frames": [
+        "references/page_20/ref_01_2602.20s.jpg",
+        "references/page_20/ref_02_2658.75s.jpg",
+        "references/page_20/ref_03_2715.30s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_20.webp",
+      "heading_pinyin": "xiǎo mǎ yǐ yě néng hěn qiáng"
+    },
+    {
+      "page": 21,
+      "heading": "气候也在改变家园",
+      "text": "栖息地破坏已经很危险，气候变化又让季节紊乱、地球变热。科学家担心升温超过二摄氏度会加速物种灭绝。",
+      "illustration_prompt": "儿童科普绘本风格的气候变化全景，左侧是干裂土地和极端天气，右侧是正在变暖的海洋、雨林和动物，中心是一颗被暖色光环包围但仍有蓝绿色生命的地球，信息清晰但无文字标签。",
+      "source_time_range": [
+        2789.5,
+        2823.5
+      ],
+      "visual_time_range": [
+        2797.0,
+        2823.5
+      ],
+      "layout": "image-top",
+      "visual_anchors": [
+        "极端天气与紊乱季节的自然场景",
+        "变暖地球的蓝绿与橙红对比",
+        "雨林、海洋和动物共同受影响"
+      ],
+      "key_content": {
+        "location": "全球生态系统",
+        "animals": [
+          "野生动物"
+        ],
+        "activity": "动物面对栖息地破坏和气候变暖",
+        "stakes": "升温可能成为物种灭绝的主要原因",
+        "outcome": "各国需要在气候大会上行动",
+        "visual_focus": "全球变暖同时影响多种家园"
+      },
+      "pinyin": "qī xī dì pò huài yǐ jīng hěn wēi xiǎn ，qì hòu biàn huà yòu ràng jì jié wěn luàn 、dì qiú biàn rè 。kē xué jiā dān xīn shēng wēn chāo guò èr shè shì dù huì jiā sù wù zhǒng miè jué 。",
+      "reference_frames": [
+        "references/page_21/ref_01_2802.30s.jpg",
+        "references/page_21/ref_02_2810.25s.jpg",
+        "references/page_21/ref_03_2818.20s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_21.webp",
+      "heading_pinyin": "qì hòu yě zài gǎi biàn jiā yuán"
+    },
+    {
+      "page": 22,
+      "heading": "珊瑚礁的临界点",
+      "text": "纳希德在气候大会上呼吁行动。海水温度升高一点五摄氏度以上，许多珊瑚可能白化、死亡，鱼类也会失去家园。",
+      "illustration_prompt": "儿童科普绘本风格，马尔代夫清澈海水中的珊瑚礁，画面从左侧鲜艳有生命的珊瑚和鱼群渐变到右侧白化的珊瑚废墟，远处一位气候倡导者站在海岛上望向海洋，悲伤但保留希望，无文字。",
+      "source_time_range": [
+        2956.0,
+        3058.5
+      ],
+      "visual_time_range": [
+        2974.5,
+        3033.0
+      ],
+      "layout": "full-bleed",
+      "visual_anchors": [
+        "马尔代夫海洋和珊瑚礁",
+        "鲜艳珊瑚到白化废墟的渐变",
+        "鱼类依赖珊瑚礁的关系"
+      ],
+      "key_content": {
+        "location": "马尔代夫珊瑚礁与格拉斯哥气候大会",
+        "animals": [
+          "珊瑚",
+          "珊瑚礁鱼类"
+        ],
+        "activity": "纳希德呼吁各国减少化石燃料并保护珊瑚",
+        "stakes": "升温超过1.5摄氏度可能令珊瑚大范围白化死亡",
+        "outcome": "孩子看到气候决定会影响海洋生命",
+        "visual_focus": "健康珊瑚与白化珊瑚的强烈对照"
+      },
+      "pinyin": "nà xī dé zài qì hòu dà huì shàng hū yù xíng dòng 。hǎi shuǐ wēn dù shēng gāo yì diǎn wǔ shè shì dù yǐ shàng ，xǔ duō shān hú kě néng bái huà 、sǐ wáng ，yú lèi yě huì shī qù jiā yuán 。",
+      "reference_frames": [
+        "references/page_22/ref_01_2986.20s.jpg",
+        "references/page_22/ref_02_3003.75s.jpg",
+        "references/page_22/ref_03_3021.30s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_22.webp",
+      "heading_pinyin": "shān hú jiāo de lín jiè diǎn"
+    },
+    {
+      "page": 23,
+      "heading": "希望需要每个人",
+      "text": "英雄们带来希望，但拯救物种不能只靠少数人。只要人类在关键时刻做出正确决定，地球上的生命仍有光明未来。",
+      "illustration_prompt": "儿童科普绘本风格，充满希望的地球家园全景：安全庇护所里的黑犀、扩大种群的蛙、飞过山脉的隐鹮、完整雨林中的象群和重生珊瑚礁共同出现在晨光中，保护者与孩子们在前景携手，温暖明亮、统一画风、无文字无标志。",
+      "source_time_range": [
+        3200.0,
+        3404.0
+      ],
+      "visual_time_range": [
+        3343.5,
+        3404.0
+      ],
+      "layout": "full-bleed",
+      "visual_anchors": [
+        "黑犀、蛙、隐鹮、森林象和珊瑚的跨场景收束",
+        "晨光中的保护者与孩子",
+        "从危险走向恢复的生态系统"
+      ],
+      "key_content": {
+        "location": "全球各地的保护现场",
+        "animals": [
+          "黑犀",
+          "蛙类",
+          "隐鹮",
+          "非洲森林象",
+          "珊瑚"
+        ],
+        "activity": "人们共同保护、繁育、迁徙和恢复物种",
+        "stakes": "许多物种的时间已经不多，不能把责任留给少数英雄",
+        "outcome": "黑犀转移、蛙类繁育、隐鹮迁徙和土地保护都出现希望",
+        "visual_focus": "多个保护成果汇成一幅明亮的地球家园"
+      },
+      "pinyin": "yīng xióng men dài lái xī wàng ，dàn zhěng jiù wù zhǒng bù néng zhǐ kào shǎo shù rén 。zhǐ yào rén lèi zài guān jiàn shí kè zuò chū zhèng què jué dìng ，dì qiú shàng de shēng mìng réng yǒu guāng míng wèi lái 。",
+      "reference_frames": [
+        "references/page_23/ref_01_3355.60s.jpg",
+        "references/page_23/ref_02_3373.75s.jpg",
+        "references/page_23/ref_03_3391.90s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e08-heroes/images/page_23.webp",
+      "heading_pinyin": "xī wàng xū yào měi gè rén"
+    }
+  ],
+  "subtitle_pinyin": "dì qiú mài dòng shǒu hù jiā yuán de yīng xióng"
+}

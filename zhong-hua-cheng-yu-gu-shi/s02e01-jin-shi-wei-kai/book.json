@@ -1,0 +1,630 @@
+{
+  "title": "金石为开",
+  "subtitle": "李广一箭射中巨石的故事",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E01.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_01.webp",
+      "heading": "星空里的故事",
+      "text": "历史像一片闪烁的星空，许多熟悉的面孔和动人的故事，正在等我们一起聆听。",
+      "illustration_prompt": "儿童绘本风格的历史星空，星星组成古代人物剪影与故事卷轴，温暖蓝金色，明亮开阔，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        15.26,
+        108.04
+      ],
+      "visual_time_range": [
+        0,
+        112
+      ],
+      "key_content": {
+        "location": "文化宫节目开场",
+        "animals": [],
+        "activity": "星空与历史故事开场",
+        "stakes": "孩子还不知道今天要听什么故事",
+        "outcome": "引出第一集《金石为开》",
+        "visual_focus": "星空、卷轴和历史人物剪影",
+        "visual_anchors": [
+          "蓝色星空背景",
+          "卷轴与古代人物剪影",
+          "金色星光汇聚"
+        ]
+      },
+      "heading_pinyin": "xīng kōng lǐ de gù shì",
+      "pinyin": "lì shǐ xiàng yī piàn shǎn shuò de xīng kōng xǔ duō shú xī de miàn kǒng hé dòng rén de gù shì zhèng zài děng wǒ men yì qǐ líng tīng",
+      "reference_frames": [
+        "references/page_01/ref_01_022.40s.jpg",
+        "references/page_01/ref_02_056.00s.jpg",
+        "references/page_01/ref_03_089.60s.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_02.webp",
+      "heading": "石头里的秘密",
+      "text": "琪琪发现了许多不同的石头。小小的石头看起来安静，里面却藏着一个有趣的秘密。",
+      "illustration_prompt": "儿童绘本风格，文化宫里的机器人助手琪琪捧着几块形状不同、纹理各异的石头，陈教授在书架旁微笑，明亮柔和，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        125.94,
+        133.38
+      ],
+      "visual_time_range": [
+        120,
+        137
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [],
+        "activity": "琪琪观察不同石头",
+        "stakes": "她想知道石头为什么特别",
+        "outcome": "故事从一块石头开始",
+        "visual_focus": "琪琪手里的石头和书架",
+        "visual_anchors": [
+          "文化宫彩色书架",
+          "琪琪双手捧石头",
+          "陈教授在旁观察"
+        ]
+      },
+      "heading_pinyin": "shí tou lǐ de mì mì",
+      "pinyin": "qí qí fā xiàn le xǔ duō bù tóng de shí tou xiǎo xiǎo de shí tou kàn qǐ lái ān jìng lǐ miàn què cáng zhe yí gè yǒu qù de mì mì",
+      "reference_frames": [
+        "references/page_02/ref_01_123.40s.jpg",
+        "references/page_02/ref_02_128.50s.jpg",
+        "references/page_02/ref_03_133.60s.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_03.webp",
+      "heading": "漂亮的鹅卵石",
+      "text": "琪琪得到一块有奇特花纹的鹅卵石。她小心地保护它，还以为它是世界上最坚硬的石头。",
+      "illustration_prompt": "儿童绘本风格的文化宫室内，机器人女孩琪琪双手珍惜地捧着一块有花纹的圆润鹅卵石，陈教授俯身观察，温暖室内光线，无文字无水印",
+      "layout": "image-left",
+      "source_time_range": [
+        162.08,
+        197.95
+      ],
+      "visual_time_range": [
+        158,
+        200
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [],
+        "activity": "琪琪展示并保护鹅卵石",
+        "stakes": "鹅卵石可能摔坏",
+        "outcome": "琪琪把它当成最坚硬的石头",
+        "visual_focus": "有纹理的鹅卵石、琪琪的双手",
+        "visual_anchors": [
+          "圆润鹅卵石的奇特纹理",
+          "琪琪珍惜地捧着石头",
+          "暖色文化宫室内"
+        ]
+      },
+      "heading_pinyin": "piào liàng de é luǎn shí",
+      "pinyin": "qí qí dé dào yī kuài yǒu qí tè huā wén de é luǎn shí tā xiǎo xīn dì bǎo hù tā hái yǐ wéi tā shì shì jiè shàng zuì jiān yìng de shí tou",
+      "reference_frames": [
+        "references/page_03/ref_01_166.40s.jpg",
+        "references/page_03/ref_02_179.00s.jpg",
+        "references/page_03/ref_03_191.60s.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_04.webp",
+      "heading": "真正坚硬的东西",
+      "text": "陈教授告诉琪琪，金刚石才是非常坚硬的东西。可是，今天的成语故事并不是在讲一块宝石。",
+      "illustration_prompt": "儿童科普绘本风格，左边是一块圆润鹅卵石，右边是一颗闪亮但简洁的金刚石，陈教授在书架前讲解，琪琪认真听讲，清晰对比，无文字无水印",
+      "layout": "image-top",
+      "source_time_range": [
+        201.31,
+        259.98
+      ],
+      "visual_time_range": [
+        198,
+        262
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [],
+        "activity": "陈教授比较鹅卵石和金刚石",
+        "stakes": "琪琪把成语和金刚石混在一起",
+        "outcome": "故事转向“金石为开”的真正含义",
+        "visual_focus": "鹅卵石与金刚石的对比",
+        "visual_anchors": [
+          "左侧圆润鹅卵石",
+          "右侧透明切面的金刚石",
+          "讲解中的陈教授与琪琪"
+        ]
+      },
+      "heading_pinyin": "zhēn zhèng jiān yìng de dōng xī",
+      "pinyin": "chén jiào shòu gào sù qí qí jīn gāng shí cái shì fēi cháng jiān yìng de dōng xī kě shì jīn tiān de chéng yǔ gù shì bìng bú shì zài jiǎng yī kuài bǎo shí",
+      "reference_frames": [
+        "references/page_04/ref_01_210.80s.jpg",
+        "references/page_04/ref_02_230.00s.jpg",
+        "references/page_04/ref_03_249.20s.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_05.webp",
+      "heading": "诚心能感动金石",
+      "text": "“精诚所至，金石为开”的意思是：只要专心诚意地去做，连坚硬的金石也仿佛会被感动。",
+      "illustration_prompt": "儿童绘本风格，陈教授在文化宫讲台前讲解，身后浮现温暖光芒、坚硬巨石和打开的心形光门，琪琪和小观众认真倾听，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        260.62,
+        298.78
+      ],
+      "visual_time_range": [
+        258,
+        300
+      ],
+      "key_content": {
+        "location": "文化宫讲解现场",
+        "animals": [],
+        "activity": "陈教授解释成语含义",
+        "stakes": "孩子需要理解“金石为开”不是魔法",
+        "outcome": "明确专心诚意、坚持做事的道理",
+        "visual_focus": "陈教授、巨石和打开的光",
+        "visual_anchors": [
+          "文化宫讲台与屏幕",
+          "陈教授抬手讲解",
+          "巨石与温暖光芒的意象"
+        ]
+      },
+      "heading_pinyin": "chéng xīn néng gǎn dòng jīn shí",
+      "pinyin": "jīng chéng suǒ zhì jīn shí wéi kāi de yì si shì zhǐ yào zhuān xīn chéng yì dì qù zuò lián jiān yìng de jīn shí yě fǎng fú huì bèi gǎn dòng",
+      "reference_frames": [
+        "references/page_05/ref_01_266.40s.jpg",
+        "references/page_05/ref_02_279.00s.jpg",
+        "references/page_05/ref_03_291.60s.jpg"
+      ]
+    },
+    {
+      "page": 6,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_06.webp",
+      "heading": "飞将军李广",
+      "text": "故事发生在西汉。著名将领李广精通骑马射箭，作战勇敢，后人称他为“飞将军”。",
+      "illustration_prompt": "儿童绘本风格的西汉将领李广，骑在战马上，身穿朴素古代铠甲，手持弓箭，旷野与远山为背景，英勇但亲切，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        301.52,
+        316.4
+      ],
+      "visual_time_range": [
+        378,
+        384
+      ],
+      "key_content": {
+        "location": "西汉郊野",
+        "animals": [],
+        "activity": "介绍李广的骑射本领",
+        "stakes": "故事需要找到成语典故的主人公",
+        "outcome": "李广登场",
+        "visual_focus": "骑马、弓箭和古代将领",
+        "visual_anchors": [
+          "李广骑黑马",
+          "红色头盔缨饰与古代铠甲",
+          "浅蓝天空和绿色原野"
+        ]
+      },
+      "heading_pinyin": "fēi jiāng jūn lǐ guǎng",
+      "pinyin": "gù shì fā shēng zài xī hàn zhù míng jiàng lǐng lǐ guǎng jīng tōng qí mǎ shè jiàn zuò zhàn yǒng gǎn hòu rén chēng tā wèi fēi jiāng jūn",
+      "reference_frames": [
+        "references/page_06/ref_01_379.20s.jpg",
+        "references/page_06/ref_02_381.00s.jpg",
+        "references/page_06/ref_03_382.80s.jpg"
+      ]
+    },
+    {
+      "page": 7,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_07.webp",
+      "heading": "传说中的一箭穿石",
+      "text": "人们都听说过：李广在野外狩猎时，一箭射进了坚硬的巨石。大家觉得这实在太不可思议了。",
+      "illustration_prompt": "儿童绘本风格的古装故事演绎场景，几位人物在厅堂中惊讶地谈论李广一箭穿石，窗外可见绿色郊野与远山，戏剧性构图，无文字无水印",
+      "layout": "image-left",
+      "source_time_range": [
+        327.83,
+        369.52
+      ],
+      "visual_time_range": [
+        324,
+        371
+      ],
+      "key_content": {
+        "location": "古装故事演绎的厅堂",
+        "animals": [],
+        "activity": "人们讨论李广一箭穿石",
+        "stakes": "传说真假难辨",
+        "outcome": "大家决定继续追查",
+        "visual_focus": "议论的人群、古装人物和窗外郊野",
+        "visual_anchors": [
+          "古装人物在厅堂交谈",
+          "木格窗与黄色帷幔",
+          "窗外绿色郊野"
+        ]
+      },
+      "heading_pinyin": "chuán shuō zhōng de yī jiàn chuān shí",
+      "pinyin": "rén men dōu tīng shuō guò lǐ guǎng zài yě wài shòu liè shí yī jiàn shè jìn le jiān yìng de jù shí dà jiā jué de zhè shí zài tài bù kě sī yì le",
+      "reference_frames": [
+        "references/page_07/ref_01_333.40s.jpg",
+        "references/page_07/ref_02_347.50s.jpg",
+        "references/page_07/ref_03_361.60s.jpg"
+      ]
+    },
+    {
+      "page": 8,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_08.webp",
+      "heading": "诗里的飞将军",
+      "text": "王昌龄在《出塞》中写道：“但使龙城飞将在，不教胡马度阴山。”这正是后人对李广的赞颂。",
+      "illustration_prompt": "儿童绘本风格，古代诗人站在边塞高地遥望长城与远山，天空有骑马持弓的李广剪影，诗意蓝金色，无文字无水印",
+      "layout": "image-top",
+      "source_time_range": [
+        378.2,
+        404.7
+      ],
+      "visual_time_range": [
+        374,
+        407
+      ],
+      "key_content": {
+        "location": "古代边塞",
+        "animals": [],
+        "activity": "诗歌赞颂飞将军李广",
+        "stakes": "李广的英勇需要被后人记住",
+        "outcome": "传说与诗歌连接起来",
+        "visual_focus": "边塞、远山、诗人和骑马将军",
+        "visual_anchors": [
+          "李广骑马持弓",
+          "远山与辽阔草原",
+          "天空中诗意的竖向光影"
+        ]
+      },
+      "heading_pinyin": "shī lǐ de fēi jiāng jūn",
+      "pinyin": "wáng chāng líng zài chū sài zhōng xiě dào dàn shǐ lóng chéng fēi jiāng zài bù jiào hú mǎ dù yīn shān zhè zhèng shì hòu rén duì lǐ guǎng de zàn sòng",
+      "reference_frames": [
+        "references/page_08/ref_01_380.60s.jpg",
+        "references/page_08/ref_02_390.50s.jpg",
+        "references/page_08/ref_03_400.40s.jpg"
+      ]
+    },
+    {
+      "page": 9,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_09.webp",
+      "heading": "草丛里的老虎",
+      "text": "狩猎时，李广忽然看见前方有一只老虎。他拉开弓，瞄准目标，准备射出一箭。",
+      "illustration_prompt": "儿童绘本风格的古代草原，李广骑马拉弓瞄准草丛中的老虎，老虎半隐在高草之间，紧张但适合儿童，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        427.1,
+        448.41
+      ],
+      "visual_time_range": [
+        420,
+        450
+      ],
+      "key_content": {
+        "location": "古代野外草原",
+        "animals": [
+          "老虎"
+        ],
+        "activity": "李广瞄准草丛中的老虎",
+        "stakes": "老虎可能突然扑出",
+        "outcome": "李广射出箭",
+        "visual_focus": "拉满的弓、草丛和老虎",
+        "visual_anchors": [
+          "开阔绿色草原",
+          "李广专注拉弓",
+          "高草丛中的老虎"
+        ]
+      },
+      "heading_pinyin": "cǎo cóng lǐ de lǎo hǔ",
+      "pinyin": "shòu liè shí lǐ guǎng hū rán kàn jiàn qián fāng yǒu yī zhī lǎo hǔ tā lā kāi gōng miáo zhǔn mù biāo zhǔn bèi shè chū yī jiàn",
+      "reference_frames": [
+        "references/page_09/ref_01_426.00s.jpg",
+        "references/page_09/ref_02_435.00s.jpg",
+        "references/page_09/ref_03_444.00s.jpg"
+      ]
+    },
+    {
+      "page": 10,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_10.webp",
+      "heading": "箭声不太对劲",
+      "text": "大家欢呼李广射中了老虎。可是李广听见的声音不对，他走近一看，目标竟然不是老虎。",
+      "illustration_prompt": "儿童绘本风格，李广和随从从远处跑向草地，刚才老虎的位置露出一块巨石，人物表情从兴奋变成疑惑，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        464.25,
+        491.99
+      ],
+      "visual_time_range": [
+        458,
+        494
+      ],
+      "key_content": {
+        "location": "古代野外草原",
+        "animals": [
+          "老虎"
+        ],
+        "activity": "众人以为射中老虎后靠近查看",
+        "stakes": "猎物和箭击中的目标都不确定",
+        "outcome": "发现目标其实是一块石头",
+        "visual_focus": "惊讶的人物、草地和巨石",
+        "visual_anchors": [
+          "李广与随从的惊讶表情",
+          "平坦绿色草地",
+          "草丛中露出的灰色巨石"
+        ]
+      },
+      "heading_pinyin": "jiàn shēng bù tài duì jìn",
+      "pinyin": "dà jiā huān hū lǐ guǎng shè zhōng le lǎo hǔ kě shì lǐ guǎng tīng jiàn de shēng yīn bú duì tā zǒu jìn yī kàn mù biāo jìng rán bú shì lǎo hǔ",
+      "reference_frames": [
+        "references/page_10/ref_01_465.20s.jpg",
+        "references/page_10/ref_02_476.00s.jpg",
+        "references/page_10/ref_03_486.80s.jpg"
+      ]
+    },
+    {
+      "page": 11,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_11.webp",
+      "heading": "箭真的进了石头",
+      "text": "巨石上没有老虎，也找不到李广的箭。大家仔细查看，才发现箭头竟然射进了坚硬的石头里面。",
+      "illustration_prompt": "儿童绘本特写，坚硬巨石表面清楚插着一支古代箭，李广和随从围在旁边惊讶查看，草地阳光，强调箭入石中的细节，无文字无水印",
+      "layout": "image-left",
+      "source_time_range": [
+        501.6,
+        538.87
+      ],
+      "visual_time_range": [
+        497,
+        541
+      ],
+      "key_content": {
+        "location": "古代野外草原",
+        "animals": [],
+        "activity": "众人检查箭入巨石",
+        "stakes": "一箭穿石似乎真的发生了",
+        "outcome": "箭头嵌入石中",
+        "visual_focus": "箭头、石面和惊讶的观察者",
+        "visual_anchors": [
+          "灰色石头上的箭",
+          "李广与士兵围看",
+          "明亮的绿色原野"
+        ]
+      },
+      "heading_pinyin": "jiàn zhēn de jìn le shí tou",
+      "pinyin": "jù shí shàng méi yǒu lǎo hǔ yě zhǎo bú dào lǐ guǎng de jiàn dà jiā zǐ xì chá kàn cái fā xiàn jiàn tóu jìng rán shè jìn le jiān yìng de shí tou lǐ miàn",
+      "reference_frames": [
+        "references/page_11/ref_01_505.80s.jpg",
+        "references/page_11/ref_02_519.00s.jpg",
+        "references/page_11/ref_03_532.20s.jpg"
+      ]
+    },
+    {
+      "page": 12,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_12.webp",
+      "heading": "李广也想不明白",
+      "text": "李广从未遇到过这样的事。他知道巨石坚硬，连宝剑也劈不开，于是决定再试几箭。",
+      "illustration_prompt": "儿童绘本风格，李广站在插着箭的巨石前皱眉思考，手里握弓，身后还有几支试射的箭，古代草原夕阳，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        549.67,
+        579.81
+      ],
+      "visual_time_range": [
+        544,
+        582
+      ],
+      "key_content": {
+        "location": "古代野外草原",
+        "animals": [],
+        "activity": "李广检查巨石并尝试再次射箭",
+        "stakes": "奇迹能否重复仍是谜",
+        "outcome": "李广自己也无法解释",
+        "visual_focus": "思考的李广、弓箭和巨石",
+        "visual_anchors": [
+          "李广皱眉思考",
+          "手中的弓与身后的箭",
+          "带有箭痕的灰色巨石"
+        ]
+      },
+      "heading_pinyin": "lǐ guǎng yě xiǎng bù míng bái",
+      "pinyin": "lǐ guǎng cóng wèi yù dào guò zhè yàng de shì tā zhī dào jù shí jiān yìng lián bǎo jiàn yě pī bù kāi yú shì jué dìng zài shì jǐ jiàn",
+      "reference_frames": [
+        "references/page_12/ref_01_551.60s.jpg",
+        "references/page_12/ref_02_563.00s.jpg",
+        "references/page_12/ref_03_574.40s.jpg"
+      ]
+    },
+    {
+      "page": 13,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_13.webp",
+      "heading": "茶馆里的杨雄",
+      "text": "后来，众人在茶馆遇见博学的杨雄。他们请杨大人解释，飞将军为什么能一箭穿石。",
+      "illustration_prompt": "儿童绘本风格的古代茶馆，杨雄坐在木桌旁，李广故事的讲述者和茶客向他请教，茶壶、书卷、木窗，温暖室内光线，无文字无水印",
+      "layout": "image-left",
+      "source_time_range": [
+        604.96,
+        635.86
+      ],
+      "visual_time_range": [
+        600,
+        638
+      ],
+      "key_content": {
+        "location": "古代茶馆",
+        "animals": [],
+        "activity": "众人请教杨雄",
+        "stakes": "大家需要一个合理的解释",
+        "outcome": "杨雄开始说明典故",
+        "visual_focus": "茶馆、茶壶、书卷和交谈人物",
+        "visual_anchors": [
+          "古代茶馆木桌",
+          "茶壶与茶杯",
+          "杨雄和茶客面对面交谈"
+        ]
+      },
+      "heading_pinyin": "chá guǎn lǐ de yáng xióng",
+      "pinyin": "hòu lái zhòng rén zài chá guǎn yù jiàn bó xué de yáng xióng tā men qǐng yáng dà rén jiě shì fēi jiāng jūn wèi shén me néng yī jiàn chuān shí",
+      "reference_frames": [
+        "references/page_13/ref_01_607.60s.jpg",
+        "references/page_13/ref_02_619.00s.jpg",
+        "references/page_13/ref_03_630.40s.jpg"
+      ]
+    },
+    {
+      "page": 14,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_14.webp",
+      "heading": "勇气和坚定",
+      "text": "杨雄说，李广看见巨石时，心中只有射中老虎的勇气和坚定。诚心诚意地做事，坚硬的金石也会仿佛被感动。",
+      "illustration_prompt": "儿童绘本风格的想象画面，李广专注拉弓，箭光连接老虎幻影与巨石，金色光芒从坚定的心中照亮茶馆，寓意清楚，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        637.46,
+        657.58
+      ],
+      "visual_time_range": [
+        635,
+        660
+      ],
+      "key_content": {
+        "location": "茶馆与李广狩猎的想象场景",
+        "animals": [
+          "老虎"
+        ],
+        "activity": "解释专心诚意与一箭穿石",
+        "stakes": "需要理解奇迹背后的精神",
+        "outcome": "勇气、坚定和诚心成为答案",
+        "visual_focus": "专注拉弓、箭光和巨石",
+        "visual_anchors": [
+          "专注的李广与拉满的弓",
+          "连接老虎幻影与巨石的箭光",
+          "金色坚定之光"
+        ]
+      },
+      "heading_pinyin": "yǒng qì hé jiān dìng",
+      "pinyin": "yáng xióng shuō lǐ guǎng kàn jiàn jù shí shí xīn zhōng zhǐ yǒu shè zhōng lǎo hǔ de yǒng qì hé jiān dìng chéng xīn chéng yì dì zuò shì jiān yìng de jīn shí yě huì fǎng fú bèi gǎn dòng",
+      "reference_frames": [
+        "references/page_14/ref_01_640.00s.jpg",
+        "references/page_14/ref_02_647.50s.jpg",
+        "references/page_14/ref_03_655.00s.jpg"
+      ]
+    },
+    {
+      "page": 15,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_15.webp",
+      "heading": "金石为开的典故",
+      "text": "大家终于明白了：这就是“金石为开”的典故。诚心诚意，就算面对坚硬的金石，也能打开一条路。",
+      "illustration_prompt": "儿童绘本风格，茶客们来到草原亲眼看见插箭巨石，巨石中央出现温暖光芒形成一道小小的打开缝隙，人物欢呼，无文字无水印",
+      "layout": "image-top",
+      "source_time_range": [
+        668.47,
+        711.14
+      ],
+      "visual_time_range": [
+        665,
+        713
+      ],
+      "key_content": {
+        "location": "古代野外与茶馆讲故事的连接场景",
+        "animals": [],
+        "activity": "大家观看巨石并理解典故",
+        "stakes": "故事的谜底即将揭开",
+        "outcome": "理解“精诚所至，金石为开”",
+        "visual_focus": "插箭巨石、欢呼的人群和温暖裂隙",
+        "visual_anchors": [
+          "箭插入灰色巨石",
+          "古装人群围观欢呼",
+          "石头中央的温暖光缝"
+        ]
+      },
+      "heading_pinyin": "jīn shí wéi kāi de diǎn gù",
+      "pinyin": "dà jiā zhōng yú míng bái le zhè jiù shì jīn shí wéi kāi de diǎn gù chéng xīn chéng yì jiù suàn miàn duì jiān yìng de jīn shí yě néng dǎ kāi yī tiáo lù",
+      "reference_frames": [
+        "references/page_15/ref_01_674.60s.jpg",
+        "references/page_15/ref_02_689.00s.jpg",
+        "references/page_15/ref_03_703.40s.jpg"
+      ]
+    },
+    {
+      "page": 16,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_16.webp",
+      "heading": "用心去做",
+      "text": "遇到看起来麻烦的事情，只要意志坚定、用心去做，就可能找到解决办法。坚持和诚意，会让困难慢慢松动。",
+      "illustration_prompt": "儿童绘本风格，孩子们面对一块写意的困难巨石，大家合作、坚持推动，石头露出明亮通道，陈教授和琪琪在旁鼓励，积极温暖，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        711.86,
+        725.86
+      ],
+      "visual_time_range": [
+        709,
+        728
+      ],
+      "key_content": {
+        "location": "故事启示的想象场景",
+        "animals": [],
+        "activity": "孩子们坚持合作解决困难",
+        "stakes": "困难看起来坚硬又麻烦",
+        "outcome": "意志坚定、用心做事带来办法",
+        "visual_focus": "孩子、巨石和打开的通道",
+        "visual_anchors": [
+          "孩子们一起面对困难巨石",
+          "合作推动的动作",
+          "石头后方明亮通道"
+        ]
+      },
+      "heading_pinyin": "yòng xīn qù zuò",
+      "pinyin": "yù dào kàn qǐ lái má fán de shì qíng zhǐ yào yì zhì jiān dìng yòng xīn qù zuò jiù kě néng zhǎo dào jiě jué bàn fǎ jiān chí hé chéng yì huì ràng kùn nán màn màn sōng dòng",
+      "reference_frames": [
+        "references/page_16/ref_01_712.80s.jpg",
+        "references/page_16/ref_02_718.50s.jpg",
+        "references/page_16/ref_03_724.20s.jpg"
+      ]
+    },
+    {
+      "page": 17,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e01-jin-shi-wei-kai/images/page_17.webp",
+      "heading": "故事讲完了",
+      "text": "今天的故事讲完了。记住“精诚所至，金石为开”，明天再一起听新的成语故事吧！",
+      "illustration_prompt": "儿童绘本风格的文化宫告别场景，陈教授和机器人助手琪琪向小朋友挥手，书架上摆着故事书，夕阳般的温暖灯光，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        727.63,
+        735.63
+      ],
+      "visual_time_range": [
+        724,
+        738
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [],
+        "activity": "陈教授和琪琪向观众告别",
+        "stakes": "故事需要有温暖收束",
+        "outcome": "邀请孩子继续听成语故事",
+        "visual_focus": "挥手告别、书架和故事书",
+        "visual_anchors": [
+          "陈教授挥手",
+          "琪琪站在身旁",
+          "文化宫书架与温暖灯光"
+        ]
+      },
+      "heading_pinyin": "gù shì jiǎng wán le",
+      "pinyin": "jīn tiān de gù shì jiǎng wán le jì zhù jīng chéng suǒ zhì jīn shí wéi kāi míng tiān zài yì qǐ tīng xīn de chéng yǔ gù shì ba",
+      "reference_frames": [
+        "references/page_17/ref_01_726.80s.jpg",
+        "references/page_17/ref_02_731.00s.jpg",
+        "references/page_17/ref_03_735.20s.jpg"
+      ]
+    }
+  ],
+  "title_pinyin": "jīn shí wéi kāi",
+  "subtitle_pinyin": "lǐ guǎng yī jiàn shè zhōng jù shí de gù shì"
+}

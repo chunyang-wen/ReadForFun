@@ -1,0 +1,624 @@
+{
+  "title": "愚公移山",
+  "subtitle": "坚持不懈的移山故事",
+  "title_pinyin": "yú gōng yí shān",
+  "subtitle_pinyin": "jiān chí bù xiè de yí shān gù shì",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "heading": "星空里的故事",
+      "text": "历史像一片闪烁的星空，许多熟悉的面孔和动人的故事，正在等我们一起聆听。",
+      "heading_pinyin": "xīng kōng lǐ de gù shì",
+      "pinyin": "lì shǐ xiàng yī piàn shǎn shuò de xīng kōng xǔ duō shú xī de miàn kǒng hé dòng rén de gù shì zhèng zài děng wǒ men yī qǐ líng tīng",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_01.webp",
+      "reference_frames": [
+        "references/page_01/ref_01_022.40s.jpg",
+        "references/page_01/ref_02_056.00s.jpg",
+        "references/page_01/ref_03_089.60s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的历史星空，星星组成古代人物剪影与故事卷轴，蓝金色温暖明亮，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        15.26,
+        108.04
+      ],
+      "visual_time_range": [
+        0,
+        112
+      ],
+      "key_content": {
+        "location": "文化宫节目开场",
+        "animals": [],
+        "activity": "星空与历史故事开场",
+        "stakes": "孩子还不知道今天要听什么故事",
+        "outcome": "引出第二集《愚公移山》",
+        "visual_focus": "星空、卷轴和历史人物剪影"
+      },
+      "visual_anchors": [
+        "蓝色星空背景",
+        "卷轴与古代人物剪影",
+        "金色星光汇聚"
+      ]
+    },
+    {
+      "page": 2,
+      "heading": "今天讲愚公移山",
+      "text": "陈教授和琪琪为大家准备了《愚公移山》的故事。这个故事要告诉我们，坚持一件事需要不少力气。",
+      "heading_pinyin": "jīn tiān jiǎng yú gōng yí shān",
+      "pinyin": "chén jiào shòu hé qí qí wèi dà jiā zhǔn bèi le yú gōng yí shān de gù shì zhè gè gù shì yào gào sù wǒ men jiān chí yī jiàn shì xū yào bù shǎo lì qì",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_02.webp",
+      "reference_frames": [
+        "references/page_02/ref_01_187.20s.jpg",
+        "references/page_02/ref_02_201.00s.jpg",
+        "references/page_02/ref_03_214.80s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的文化宫舞台，陈教授与机器人助手琪琪面对小观众介绍愚公移山，背景有山和卷轴，明亮亲切，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        178.5,
+        223.42
+      ],
+      "visual_time_range": [
+        178,
+        224
+      ],
+      "key_content": {
+        "location": "文化宫活动现场",
+        "animals": [],
+        "activity": "陈教授介绍愚公移山",
+        "stakes": "孩子要理解坚持与力气的关系",
+        "outcome": "故事正式开始",
+        "visual_focus": "陈教授、琪琪、山和小观众"
+      },
+      "visual_anchors": [
+        "文化宫舞台",
+        "琪琪的机器人外形",
+        "背景中的两座山"
+      ]
+    },
+    {
+      "page": 3,
+      "heading": "智叟来劝阻",
+      "text": "智叟听说愚公移山，专门赶来劝他。他觉得愚公年纪太大，根本不可能把大山移走。",
+      "heading_pinyin": "zhì sǒu lái quàn zǔ",
+      "pinyin": "zhì sǒu tīng shuō yú gōng yí shān zhuān mén gǎn lái quàn tā tā jué dé yú gōng nián jì tài dà gēn běn bù kě néng bǎ dà shān yí zǒu",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_03.webp",
+      "reference_frames": [
+        "references/page_03/ref_01_252.60s.jpg",
+        "references/page_03/ref_02_264.00s.jpg",
+        "references/page_03/ref_03_275.40s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，白发智叟站在山脚抬手劝阻愚公，愚公手握锄头平静听着，古代山村，表情清楚，无文字无水印",
+      "layout": "image-left",
+      "source_time_range": [
+        249.25,
+        280.1
+      ],
+      "visual_time_range": [
+        245,
+        283
+      ],
+      "key_content": {
+        "location": "两座大山脚下",
+        "animals": [],
+        "activity": "智叟劝愚公放弃移山",
+        "stakes": "愚公的计划受到质疑",
+        "outcome": "智叟认为困难无法克服",
+        "visual_focus": "劝阻的智叟、锄头和高山"
+      },
+      "visual_anchors": [
+        "白发智叟",
+        "愚公手里的锄头",
+        "山脚下的土路"
+      ]
+    },
+    {
+      "page": 4,
+      "heading": "子孙不会停止",
+      "text": "愚公回答：我老了，还有儿子；儿子老了，还有孙子。子子孙孙没有尽头，而山不会再长高。",
+      "heading_pinyin": "zi sūn bù huì tíng zhǐ",
+      "pinyin": "yú gōng huí dá wǒ lǎo le hái yǒu ér zi ér zi lǎo le hái yǒu sūn zi zi zi sūn sūn méi yǒu jǐn tóu ér shān bù huì zài zhǎng gāo",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_04.webp",
+      "reference_frames": [
+        "references/page_04/ref_01_286.60s.jpg",
+        "references/page_04/ref_02_296.50s.jpg",
+        "references/page_04/ref_03_306.40s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，愚公面对智叟伸手指向身后的儿子和孙子，层叠家人站在两座大山前，坚定温暖，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        281.38,
+        311.52
+      ],
+      "visual_time_range": [
+        280,
+        313
+      ],
+      "key_content": {
+        "location": "两座大山脚下",
+        "animals": [],
+        "activity": "愚公说明子孙接力的计划",
+        "stakes": "移山需要跨过很长的时间",
+        "outcome": "愚公相信坚持终能改变大山",
+        "visual_focus": "愚公、儿孙和层叠山峰"
+      },
+      "visual_anchors": [
+        "愚公坚定的手势",
+        "身后的儿孙",
+        "高大的太行与王屋山"
+      ]
+    },
+    {
+      "page": 5,
+      "heading": "坚持就能克服困难",
+      "text": "愚公说，只要坚持不懈，天下哪有不能克服的困难呢？智叟听完没有话说，只好走开了。",
+      "heading_pinyin": "jiān chí jiù néng kè fú kùn nán",
+      "pinyin": "yú gōng shuō zhǐ yào jiān chí bù xiè tiān xià nǎ yǒu bù néng kè fú de kùn nán ne zhì sǒu tīng wán méi yǒu huà shuō zhǐ hǎo zǒu kāi le",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_05.webp",
+      "reference_frames": [
+        "references/page_05/ref_01_310.80s.jpg",
+        "references/page_05/ref_02_321.00s.jpg",
+        "references/page_05/ref_03_331.20s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，智叟转身离开山路，愚公和家人坚定站在山前，阳光穿过云层，表现坚持的力量，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        304.08,
+        336.83
+      ],
+      "visual_time_range": [
+        304,
+        338
+      ],
+      "key_content": {
+        "location": "山脚土路",
+        "animals": [],
+        "activity": "愚公坚持自己的决定",
+        "stakes": "家人是否相信这项长期任务",
+        "outcome": "智叟被说服并离开",
+        "visual_focus": "坚定的家人和离去的智叟"
+      },
+      "visual_anchors": [
+        "穿过云层的阳光",
+        "山脚土路",
+        "智叟背影"
+      ]
+    },
+    {
+      "page": 6,
+      "heading": "大山堵住了家门",
+      "text": "太行山和王屋山又高又大，愚公的家就在山脚下。两座山挡住了门口，大家出门总要绕很远的路。",
+      "heading_pinyin": "dà shān dǔ zhù le jiā mén",
+      "pinyin": "tài xíng shān hé wáng wū shān yòu gāo yòu dà yú gōng de jiā jiù zài shān jiǎo xià liǎng zuò shān dǎng zhù le mén kǒu dà jiā chū mén zǒng yào rào hěn yuǎn de lù",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_06.webp",
+      "reference_frames": [
+        "references/page_06/ref_01_345.40s.jpg",
+        "references/page_06/ref_02_356.50s.jpg",
+        "references/page_06/ref_03_367.60s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的古代山村，两座巍峨大山紧贴房屋门口，弯曲小路绕过山体，愚公一家站在门前观察，无文字无水印",
+      "layout": "image-top",
+      "source_time_range": [
+        338.78,
+        373.16
+      ],
+      "visual_time_range": [
+        338,
+        375
+      ],
+      "key_content": {
+        "location": "太行山、王屋山脚下的家",
+        "animals": [],
+        "activity": "一家人绕山回家并观察道路",
+        "stakes": "出门绕路十分不方便",
+        "outcome": "愚公决定想办法移山",
+        "visual_focus": "堵在家门口的两座大山和弯路"
+      },
+      "visual_anchors": [
+        "山脚下的房屋",
+        "两座高山",
+        "绕山的小路"
+      ]
+    },
+    {
+      "page": 7,
+      "heading": "全家一起商量",
+      "text": "愚公想到，自己的力气虽然不够，可是家人可以一起努力。他决定把两座挡路的大山移开。",
+      "heading_pinyin": "quán jiā yī qǐ shāng liàng",
+      "pinyin": "yú gōng xiǎng dào zì jǐ de lì qì suī rán bù gòu kě shì jiā rén kě yǐ yī qǐ nǔ lì tā jué dìng bǎ liǎng zuò dǎng lù de dà shān yí kāi",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_07.webp",
+      "reference_frames": [
+        "references/page_07/ref_01_376.40s.jpg",
+        "references/page_07/ref_02_381.50s.jpg",
+        "references/page_07/ref_03_386.60s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，古代农家饭桌旁，愚公放下筷子向家人认真说明移山计划，家人惊喜倾听，暖色灯光，无文字无水印",
+      "layout": "image-left",
+      "source_time_range": [
+        374.68,
+        388.35
+      ],
+      "visual_time_range": [
+        373,
+        390
+      ],
+      "key_content": {
+        "location": "愚公家中饭桌旁",
+        "animals": [],
+        "activity": "愚公提出全家移山",
+        "stakes": "一个人力量不足以移动大山",
+        "outcome": "全家开始讨论办法",
+        "visual_focus": "饭桌、筷子、愚公和家人"
+      },
+      "visual_anchors": [
+        "木桌和饭碗",
+        "愚公放下的筷子",
+        "认真听计划的家人"
+      ]
+    },
+    {
+      "page": 8,
+      "heading": "门口的路要通出去",
+      "text": "移走大山以后，门口的小路就能直接通到外面的大路。儿子和小宝宝都愿意帮助爷爷和爸爸。",
+      "heading_pinyin": "mén kǒu de lù yào tōng chū qù",
+      "pinyin": "yí zǒu dà shān yǐ hòu mén kǒu de xiǎo lù jiù néng zhí jiē tōng dào wài miàn de dà lù ér zi hé xiǎo bǎo bǎo dōu yuàn yì bāng zhù yé yé hé bà bà",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_08.webp",
+      "reference_frames": [
+        "references/page_08/ref_01_442.80s.jpg",
+        "references/page_08/ref_02_456.00s.jpg",
+        "references/page_08/ref_03_469.20s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，愚公一家在山村门口指向通往远方的大路，儿子和小宝宝举手表示愿意帮忙，阳光明亮，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        435.64,
+        476.37
+      ],
+      "visual_time_range": [
+        434,
+        478
+      ],
+      "key_content": {
+        "location": "愚公家门口",
+        "animals": [],
+        "activity": "家人想象移山后直通大路",
+        "stakes": "山挡住了全家出行",
+        "outcome": "儿孙都愿意加入",
+        "visual_focus": "家门、两座山和远方的大路"
+      },
+      "visual_anchors": [
+        "家门口的山体",
+        "远处的大路",
+        "举手帮忙的小宝宝"
+      ]
+    },
+    {
+      "page": 9,
+      "heading": "把土石运到海边",
+      "text": "有人担心挖出的泥土和石块没有地方放。愚公一家早已想好，要把它们运到大海里。",
+      "heading_pinyin": "bǎ tǔ shí yùn dào hǎi biān",
+      "pinyin": "yǒu rén dān xīn wā chū de ní tǔ hé shí kuài méi yǒu dì fāng fàng yú gōng yī jiā zǎo yǐ xiǎng hǎo yào bǎ tā men yùn dào dà hǎi lǐ",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_09.webp",
+      "reference_frames": [
+        "references/page_09/ref_01_482.80s.jpg",
+        "references/page_09/ref_02_491.50s.jpg",
+        "references/page_09/ref_03_500.20s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，愚公一家在山脚讨论土石去处，画面一侧有装满泥土的筐，远处展开蓝色大海，构图清晰，无文字无水印",
+      "layout": "image-top",
+      "source_time_range": [
+        477.62,
+        504.16
+      ],
+      "visual_time_range": [
+        477,
+        506
+      ],
+      "key_content": {
+        "location": "山脚与远方海边的想象场景",
+        "animals": [],
+        "activity": "家人商量搬运泥土石块",
+        "stakes": "挖出的土石需要运到很远的地方",
+        "outcome": "决定把土石倒进大海",
+        "visual_focus": "土石、箩筐和远方的大海"
+      },
+      "visual_anchors": [
+        "装土石的箩筐",
+        "山脚堆起的石块",
+        "蓝色海面"
+      ]
+    },
+    {
+      "page": 10,
+      "heading": "下定决心",
+      "text": "愚公、儿子和小宝宝都下定决心：一定要把两座大山移开。家人互相鼓励，开始了移山的任务。",
+      "heading_pinyin": "xià dìng jué xīn",
+      "pinyin": "yú gōng ér zi hé xiǎo bǎo bǎo dōu xià dìng jué xīn yī dìng yào bǎ liǎng zuò dà shān yí kāi jiā rén hù xiāng gǔ lì kāi shǐ le yí shān de rèn wù",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_10.webp",
+      "reference_frames": [
+        "references/page_10/ref_01_510.60s.jpg",
+        "references/page_10/ref_02_519.00s.jpg",
+        "references/page_10/ref_03_527.40s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，愚公一家三代在山前并肩举起锄头，神情坚定，晨光照亮山路，表现全家下定决心，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        505.28,
+        531.66
+      ],
+      "visual_time_range": [
+        505,
+        533
+      ],
+      "key_content": {
+        "location": "两座大山前",
+        "animals": [],
+        "activity": "三代家人共同下定决心",
+        "stakes": "移山是一项漫长而辛苦的任务",
+        "outcome": "爷孙三人正式开始移山",
+        "visual_focus": "三代人、锄头和坚定的姿态"
+      },
+      "visual_anchors": [
+        "三代人的队伍",
+        "举起的锄头",
+        "清晨山路"
+      ]
+    },
+    {
+      "page": 11,
+      "heading": "一天又一天",
+      "text": "爷孙三人日复一日、年复一年地挖山。不管是炎热的夏天，还是寒冷的冬天，他们从来没有停下。",
+      "heading_pinyin": "yī tiān yòu yī tiān",
+      "pinyin": "yé sūn sān rén rì fù yī rì nián fù yī nián dì wā shān bù guǎn shì yán rè de xià tiān hái shì hán lěng de dōng tiān tā men cóng lái méi yǒu tíng xià",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_11.webp",
+      "reference_frames": [
+        "references/page_11/ref_01_535.80s.jpg",
+        "references/page_11/ref_02_541.50s.jpg",
+        "references/page_11/ref_03_547.20s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的连续时间画面，同一座大山前爷孙三人在夏日烈日和冬日飘雪中轮流挖土，画面温暖有节奏，无文字无水印",
+      "layout": "image-left",
+      "source_time_range": [
+        533.5,
+        548.86
+      ],
+      "visual_time_range": [
+        532,
+        551
+      ],
+      "key_content": {
+        "location": "太行、王屋山脚下",
+        "animals": [],
+        "activity": "爷孙三人持续挖山",
+        "stakes": "季节变化和劳累会让人想放弃",
+        "outcome": "他们一直没有停歇",
+        "visual_focus": "夏冬对照、锄头和坚持的动作"
+      },
+      "visual_anchors": [
+        "烈日下的山坡",
+        "雪天的同一条路",
+        "持续挥动的锄头"
+      ]
+    },
+    {
+      "page": 12,
+      "heading": "辛苦后的大饼",
+      "text": "忙了一天，奶奶做好肉馅大饼，叫大家回来吃饭。热腾腾的食物让辛苦的家人重新有了力气。",
+      "heading_pinyin": "xīn kǔ hòu de dà bǐng",
+      "pinyin": "máng le yī tiān nǎi nǎi zuò hǎo ròu xiàn dà bǐng jiào dà jiā huí lái chī fàn rè téng téng de shí wù ràng xīn kǔ de jiā rén zhòng xīn yǒu le lì qì",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_12.webp",
+      "reference_frames": [
+        "references/page_12/ref_01_567.20s.jpg",
+        "references/page_12/ref_02_578.00s.jpg",
+        "references/page_12/ref_03_588.80s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，古代农家院里奶奶端出热腾腾的肉馅大饼，爷孙三人放下锄头围坐吃饭，暖色灯光，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        561.64,
+        594.76
+      ],
+      "visual_time_range": [
+        560,
+        596
+      ],
+      "key_content": {
+        "location": "愚公家的农家院",
+        "animals": [],
+        "activity": "家人吃饭补充力气",
+        "stakes": "辛苦劳作后需要休息和支持",
+        "outcome": "家人的关心让移山继续下去",
+        "visual_focus": "热腾腾的大饼、饭桌和疲惫的家人"
+      },
+      "visual_anchors": [
+        "奶奶端来的大饼",
+        "围坐的家人",
+        "放在一旁的锄头"
+      ]
+    },
+    {
+      "page": 13,
+      "heading": "天帝看见了坚持",
+      "text": "愚公带着儿子们每天挖山不止，这份坚持感动了天帝。天帝决定派大力神来帮助他们。",
+      "heading_pinyin": "tiān dì kàn jiàn le jiān chí",
+      "pinyin": "yú gōng dài zhe ér zi men měi tiān wā shān bù zhǐ zhè fèn jiān chí gǎn dòng le tiān dì tiān dì jué dìng pài dà lì shén lái bāng zhù tā men",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_13.webp",
+      "reference_frames": [
+        "references/page_13/ref_01_603.00s.jpg",
+        "references/page_13/ref_02_607.50s.jpg",
+        "references/page_13/ref_03_612.00s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，云端的天帝俯视山脚下坚持挖山的愚公一家，金色光芒召唤大力神，神话感但适合儿童，无文字无水印",
+      "layout": "image-top",
+      "source_time_range": [
+        601.76,
+        613.28
+      ],
+      "visual_time_range": [
+        600,
+        615
+      ],
+      "key_content": {
+        "location": "山脚与云端天界",
+        "animals": [],
+        "activity": "天帝观察愚公一家并派大力神",
+        "stakes": "漫长的移山需要新的帮助",
+        "outcome": "神力加入移山行动",
+        "visual_focus": "坚持挖山的人、天帝和金色云光"
+      },
+      "visual_anchors": [
+        "云端天帝",
+        "山脚下的挖山队伍",
+        "金色召唤光芒"
+      ]
+    },
+    {
+      "page": 14,
+      "heading": "两座山被移走了",
+      "text": "大力神帮助愚公搬走了太行山和王屋山。原来挡住家门的山路，终于变得开阔起来。",
+      "heading_pinyin": "liǎng zuò shān bèi yí zǒu le",
+      "pinyin": "dà lì shén bāng zhù yú gōng bān zǒu le tài xíng shān hé wáng wū shān yuán lái dǎng zhù jiā mén de shān lù zhōng yú biàn dé kāi kuò qǐ lái",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_14.webp",
+      "reference_frames": [
+        "references/page_14/ref_01_611.60s.jpg",
+        "references/page_14/ref_02_615.50s.jpg",
+        "references/page_14/ref_03_619.40s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，大力神托起两座山搬向远方，愚公一家站在敞开的道路旁欢呼，天空明亮开阔，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        601.76,
+        619.44
+      ],
+      "visual_time_range": [
+        609,
+        622
+      ],
+      "key_content": {
+        "location": "愚公家门口的新道路",
+        "animals": [],
+        "activity": "大力神搬走两座大山",
+        "stakes": "家门口的道路能否真正打开",
+        "outcome": "道路终于开阔畅通",
+        "visual_focus": "大力神、被搬走的山和欢呼家人"
+      },
+      "visual_anchors": [
+        "托起山峰的大力神",
+        "敞开的道路",
+        "欢呼的愚公一家"
+      ]
+    },
+    {
+      "page": 15,
+      "heading": "愚公是什么样的人",
+      "text": "愚公不畏艰难，坚持不懈。他知道一件大事不能一下完成，却愿意每天认真做一点。",
+      "heading_pinyin": "yú gōng shì shén me yàng de rén",
+      "pinyin": "yú gōng bù wèi jiān nán jiān chí bù xiè tā zhī dào yī jiàn dà shì bù néng yī xià wán chéng què yuàn yì měi tiān rèn zhēn zuò yī diǎn",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_15.webp",
+      "reference_frames": [
+        "references/page_15/ref_01_624.00s.jpg",
+        "references/page_15/ref_02_631.50s.jpg",
+        "references/page_15/ref_03_639.00s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，愚公站在开阔道路旁，身后是远去的山和一家人，阳光照亮他的锄头，表现不畏艰难，无文字无水印",
+      "layout": "image-left",
+      "source_time_range": [
+        620.08,
+        641.74
+      ],
+      "visual_time_range": [
+        619,
+        644
+      ],
+      "key_content": {
+        "location": "开阔的山村道路",
+        "animals": [],
+        "activity": "孩子们讨论愚公的品质",
+        "stakes": "孩子需要找到故事真正的启发",
+        "outcome": "理解不畏艰难、坚持不懈",
+        "visual_focus": "愚公、锄头、家人和开阔道路"
+      },
+      "visual_anchors": [
+        "愚公手里的锄头",
+        "远去的山峰",
+        "站在道路上的家人"
+      ]
+    },
+    {
+      "page": 16,
+      "heading": "把精神用在学习上",
+      "text": "我们也可以学习愚公的精神，把大目标分成每天的小行动。只要不怕困难，坚持下去，就会一步步接近成功。",
+      "heading_pinyin": "bǎ jīng shén yòng zài xué xí shàng",
+      "pinyin": "wǒ men yě kě yǐ xué xí yú gōng de jīng shén bǎ dà mù biāo fēn chéng měi tiān de xiǎo xíng dòng zhǐ yào bù pà kùn nán jiān chí xià qù jiù huì yī bù bù jiē jìn chéng gōng",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_16.webp",
+      "reference_frames": [
+        "references/page_16/ref_01_643.80s.jpg",
+        "references/page_16/ref_02_648.00s.jpg",
+        "references/page_16/ref_03_652.20s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，陈教授和琪琪鼓励孩子们一步步搬开写意的小石块，石块后出现明亮的学习道路，积极温暖，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        642.61,
+        653.97
+      ],
+      "visual_time_range": [
+        641,
+        655
+      ],
+      "key_content": {
+        "location": "文化宫的启示场景",
+        "animals": [],
+        "activity": "孩子们把愚公精神用到学习上",
+        "stakes": "学习中的困难可能让人想放弃",
+        "outcome": "用每天的坚持靠近目标",
+        "visual_focus": "孩子、学习道路和被搬开的石块"
+      },
+      "visual_anchors": [
+        "文化宫里的陈教授和琪琪",
+        "孩子们合力搬石块",
+        "通往光明的学习道路"
+      ]
+    },
+    {
+      "page": 17,
+      "heading": "坚持到底",
+      "text": "《愚公移山》的故事讲完了。记住：不畏艰难，坚持不懈，许多看似不可能的事情也会慢慢改变。",
+      "heading_pinyin": "jiān chí dào dǐ",
+      "pinyin": "yú gōng yí shān de gù shì jiǎng wán le jì zhù bù wèi jiān nán jiān chí bù xiè xǔ duō kàn shì bù kě néng de shì qíng yě huì màn màn gǎi biàn",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e02-yu-gong-yi-shan/images/page_17.webp",
+      "reference_frames": [
+        "references/page_17/ref_01_657.20s.jpg",
+        "references/page_17/ref_02_660.50s.jpg",
+        "references/page_17/ref_03_663.80s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的文化宫告别场景，陈教授和琪琪向小朋友挥手，背后是开阔山路和故事书，温暖收束，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        656.61,
+        663.97
+      ],
+      "visual_time_range": [
+        655,
+        666
+      ],
+      "key_content": {
+        "location": "文化宫告别现场",
+        "animals": [],
+        "activity": "陈教授和琪琪总结并告别",
+        "stakes": "故事需要留下清晰的行动启示",
+        "outcome": "孩子们带着坚持的信念结束阅读",
+        "visual_focus": "挥手告别、故事书和开阔山路"
+      },
+      "visual_anchors": [
+        "陈教授挥手",
+        "琪琪站在身旁",
+        "温暖的故事书与山路"
+      ]
+    }
+  ]
+}

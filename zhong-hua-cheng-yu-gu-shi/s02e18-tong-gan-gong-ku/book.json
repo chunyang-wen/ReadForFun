@@ -1,0 +1,536 @@
+{
+  "title": "同甘共苦",
+  "title_pinyin": "tóng gān gòng kǔ",
+  "subtitle": "一起分享快乐，也一起面对困难的故事",
+  "subtitle_pinyin": "yì qǐ fēn xiǎng kuài lè yě yì qǐ miàn duì kùn nán de gù shì",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "中华上下五千年之成语故事篇 第二季 第十八集",
+  "content_anchor_version": 1,
+  "visual_mode": "storyviz",
+  "pages": [
+    {
+      "page": 1,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e18-tong-gan-gong-ku/images/page_01.webp",
+      "heading": "一起面对风雨",
+      "heading_pinyin": "yì qǐ miàn duì fēng yǔ",
+      "text": "同甘共苦，就是一起享受安乐，也一起面对困难。今天，我们走进战国时期燕国的故事。",
+      "pinyin": "tóng gān gòng kǔ jiù shì yì qǐ xiǎng shòu ān lè yě yì qǐ miàn duì kùn nán jīn tiān wǒ men zǒu jìn zhàn guó shí qī yàn guó de gù shì",
+      "layout": "full-bleed",
+      "source_time_range": [
+        167.25,
+        180.93
+      ],
+      "visual_time_range": [
+        167.25,
+        180.93
+      ],
+      "visual_anchors": [
+        "琪琪和陈教授",
+        "文化宫演播厅",
+        "故事卷轴",
+        "温暖灯光"
+      ],
+      "key_content": {
+        "location": "文化宫演播厅与故事卷轴",
+        "animals": [],
+        "activity": "琪琪介绍今天的成语故事",
+        "stakes": "小朋友带着问题进入燕国的历史",
+        "outcome": "故事即将开始",
+        "visual_focus": "故事即将开始"
+      },
+      "illustration_prompt": "琪琪与陈教授在文化宫演播厅打开一卷发光的历史卷轴，卷轴里浮现古代燕国城池和山岭。儿童科普绘本风格，柔和水彩与铅笔纹理，温暖金色和青绿色，画面干净，不出现任何可读文字、字幕、标志或水印。",
+      "reference_frames": [
+        "references/page_01/ref_01_169.99s.jpg",
+        "references/page_01/ref_02_174.09s.jpg",
+        "references/page_01/ref_03_178.19s.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e18-tong-gan-gong-ku/images/page_02.webp",
+      "heading": "燕国突然大乱",
+      "heading_pinyin": "yàn guó tū rán dà luàn",
+      "text": "战国时，燕王哙把王位让给相国子之。子之想除掉太子的亲信，燕国因此陷入大乱。",
+      "pinyin": "zhàn guó shí yàn wáng kuài bǎ wáng wèi ràng gěi xiàng guó zi zhī zi zhī xiǎng chú diào tài zi de qīn xìn yàn guó yīn cǐ xiàn rù dà luàn",
+      "layout": "image-right",
+      "source_time_range": [
+        186.75,
+        229.76
+      ],
+      "visual_time_range": [
+        186.75,
+        229.76
+      ],
+      "visual_anchors": [
+        "战国燕国城池",
+        "燕王宫殿",
+        "混乱的街巷",
+        "远处的齐国军队"
+      ],
+      "key_content": {
+        "location": "战国时期的燕国",
+        "animals": [],
+        "activity": "王位更替引发冲突，齐国趁机进攻",
+        "stakes": "燕国失去秩序，百姓和王室都陷入危险",
+        "outcome": "燕王哙死去，燕国国土被齐国侵占",
+        "visual_focus": "燕王哙死去，燕国国土被齐国侵占"
+      },
+      "illustration_prompt": "古代燕国城池在风暴般的战争阴影下，宫殿、城墙、奔走的百姓与远处的军旗形成叙事层次；儿童历史绘本，柔和但有张力的水彩，不能出现文字或徽记。",
+      "reference_frames": [
+        "references/page_02/ref_01_195.35s.jpg",
+        "references/page_02/ref_02_208.25s.jpg",
+        "references/page_02/ref_03_221.16s.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e18-tong-gan-gong-ku/images/page_03.webp",
+      "heading": "太子躲进吴中山",
+      "heading_pinyin": "tài zi duǒ jìn wú zhōng shān",
+      "text": "太子平和谋士郭隗逃到吴中山避难。山下的燕国百姓没有放弃，他们开始寻找太子的下落。",
+      "pinyin": "tài zi píng hé móu shì guō kuí táo dào wú zhōng shān bì nàn shān xià de yàn guó bǎi xìng méi yǒu fàng qì tā men kāi shǐ xún zhǎo tài zi de xià luò",
+      "layout": "image-left",
+      "source_time_range": [
+        231.44,
+        300.06
+      ],
+      "visual_time_range": [
+        231.44,
+        300.06
+      ],
+      "visual_anchors": [
+        "吴中山",
+        "山间茅屋",
+        "太子平",
+        "郭隗",
+        "山下的百姓"
+      ],
+      "key_content": {
+        "location": "吴中山",
+        "animals": [],
+        "activity": "太子与郭隗在山中商议燕国形势",
+        "stakes": "燕国大半土地被占，太子无法保护百姓",
+        "outcome": "太子决心成为有作为的明君",
+        "visual_focus": "太子决心成为有作为的明君"
+      },
+      "illustration_prompt": "雾气缭绕的吴中山，山间茅屋里年轻太子平与郭隗望向远方的燕国地图轮廓，山脚有百姓结伴寻找；温暖的儿童科普插画，人物表情清楚，地图不含文字。",
+      "reference_frames": [
+        "references/page_03/ref_01_245.16s.jpg",
+        "references/page_03/ref_02_265.75s.jpg",
+        "references/page_03/ref_03_286.34s.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e18-tong-gan-gong-ku/images/page_04.webp",
+      "heading": "百姓把太子找回来",
+      "heading_pinyin": "bǎi xìng bǎ tài zi zhǎo huí lái",
+      "text": "燕国百姓坚持抵抗齐国。经过多地寻找，他们终于在吴中山找到了太子平，燕国也重新看见了希望。",
+      "pinyin": "yàn guó bǎi xìng jiān chí dǐ kàng qí guó jīng guò duō dì xún zhǎo tā men zhōng yú zài wú zhōng shān zhǎo dào le tài zi píng yàn guó yě chóng xīn kàn jiàn le xī wàng",
+      "layout": "image-top",
+      "source_time_range": [
+        313.28,
+        353.91
+      ],
+      "visual_time_range": [
+        313.28,
+        353.91
+      ],
+      "visual_anchors": [
+        "吴中山山脚",
+        "报信的使者",
+        "燕国百姓",
+        "太子平",
+        "胜利宴席"
+      ],
+      "key_content": {
+        "location": "吴中山山脚与燕国宫廷",
+        "animals": [],
+        "activity": "使者报告百姓找到太子，燕国暂时赢得胜利",
+        "stakes": "燕国国力已经受到重创",
+        "outcome": "太子平回到人群中，准备重建燕国",
+        "visual_focus": "太子平回到人群中，准备重建燕国"
+      },
+      "illustration_prompt": "吴中山山脚，急切的使者向太子报告消息，山下百姓举手欢呼；画面后景转为简洁的燕国宫廷庆祝场面，儿童历史绘本风格，明亮金色阳光，无文字。",
+      "reference_frames": [
+        "references/page_04/ref_01_321.41s.jpg",
+        "references/page_04/ref_02_333.60s.jpg",
+        "references/page_04/ref_03_345.78s.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e18-tong-gan-gong-ku/images/page_05.webp",
+      "heading": "危机中的求贤办法",
+      "heading_pinyin": "wēi jī zhōng de qiú xián bàn fǎ",
+      "text": "燕昭王知道，燕国虽然暂时太平，国力却远不如从前。他请大臣想办法，让燕国重新强盛起来。",
+      "pinyin": "yàn zhāo wáng zhī dào yàn guó suī rán zàn shí tài píng guó lì què yuǎn bù rú cóng qián tā qǐng dà chén xiǎng bàn fǎ ràng yàn guó chóng xīn qiáng shèng qǐ lái",
+      "layout": "image-right",
+      "source_time_range": [
+        356.63,
+        416.15
+      ],
+      "visual_time_range": [
+        356.63,
+        416.15
+      ],
+      "visual_anchors": [
+        "燕国宫廷",
+        "燕昭王",
+        "群臣",
+        "空旷的王座大厅"
+      ],
+      "key_content": {
+        "location": "燕国宫廷",
+        "animals": [],
+        "activity": "燕昭王召集群臣商议国力恢复",
+        "stakes": "国土和国力受损，燕国需要人才",
+        "outcome": "群臣想起足智多谋的郭隗",
+        "visual_focus": "群臣想起足智多谋的郭隗"
+      },
+      "illustration_prompt": "燕昭王在受损但庄重的燕国宫廷里召集群臣，长桌上放着象征空缺人才的卷轴和灯盏；儿童科普绘本，蓝绿色阴影与金色光线对比，不出现文字。",
+      "reference_frames": [
+        "references/page_05/ref_01_368.53s.jpg",
+        "references/page_05/ref_02_386.39s.jpg",
+        "references/page_05/ref_03_404.25s.jpg"
+      ]
+    },
+    {
+      "page": 6,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e18-tong-gan-gong-ku/images/page_06.webp",
+      "heading": "先重用郭隗",
+      "heading_pinyin": "xiān zhòng yòng guō kuí",
+      "text": "郭隗建议燕昭王广泛选拔贤能，还说：先重用我这个本领平平的人吧。这样，天下贤士才会相信大王求贤的诚意。",
+      "pinyin": "guō kuí jiàn yì yàn zhāo wáng guǎng fàn xuǎn bá xián néng hái shuō xiān zhòng yòng wǒ zhè ge běn lǐng píng píng de rén ba zhè yàng tiān xià xián shì cái huì xiāng xìn dà wáng qiú xián de chéng yì",
+      "layout": "image-left",
+      "source_time_range": [
+        417.14,
+        456.3
+      ],
+      "visual_time_range": [
+        417.14,
+        456.3
+      ],
+      "visual_anchors": [
+        "燕国宫廷",
+        "燕昭王",
+        "郭隗",
+        "求贤的卷轴"
+      ],
+      "key_content": {
+        "location": "燕国宫廷",
+        "animals": [],
+        "activity": "郭隗为燕昭王分析招揽人才的办法",
+        "stakes": "远方贤士是否愿意来到燕国",
+        "outcome": "燕昭王明白，求贤必须先拿出诚意",
+        "visual_focus": "燕昭王明白，求贤必须先拿出诚意"
+      },
+      "illustration_prompt": "郭隗在宫廷中诚恳地向燕昭王献策，手指向远方道路和一盏盏将被点亮的灯，燕昭王认真倾听；儿童历史绘本，人物动作明确，无可读文字。",
+      "reference_frames": [
+        "references/page_06/ref_01_424.97s.jpg",
+        "references/page_06/ref_02_436.72s.jpg",
+        "references/page_06/ref_03_448.47s.jpg"
+      ]
+    },
+    {
+      "page": 7,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e18-tong-gan-gong-ku/images/page_07.webp",
+      "heading": "国王把贤者当老师",
+      "heading_pinyin": "guó wáng bǎ xián zhě dāng lǎo shī",
+      "text": "燕昭王听取郭隗的建议，尊重他、为他建造宅邸，还把他当作老师。求贤的诚意终于被大家看见了。",
+      "pinyin": "yàn zhāo wáng tīng qǔ guō kuí de jiàn yì zūn zhòng tā wèi tā jiàn zào zhái dǐ hái bǎ tā dàng zuò lǎo shī qiú xián de chéng yì zhōng yú bèi dà jiā kàn jiàn le",
+      "layout": "full-bleed",
+      "source_time_range": [
+        461.09,
+        469.81
+      ],
+      "visual_time_range": [
+        461.09,
+        469.81
+      ],
+      "visual_anchors": [
+        "燕国宫廷",
+        "郭隗宅邸",
+        "燕昭王行礼",
+        "师生相对"
+      ],
+      "key_content": {
+        "location": "燕国宫廷与郭隗宅邸",
+        "animals": [],
+        "activity": "燕昭王郑重拜郭隗为师",
+        "stakes": "如果国王只说不做，贤士不会相信他",
+        "outcome": "尊重贤者的行动向天下发出了信号",
+        "visual_focus": "尊重贤者的行动向天下发出了信号"
+      },
+      "illustration_prompt": "燕昭王在新建宅邸前向郭隗行礼，郭隗谦逊回礼，周围侍从捧着木匾和灯笼但不含文字；明亮温暖的儿童绘本，体现尊师与诚意。",
+      "reference_frames": [
+        "references/page_07/ref_01_462.83s.jpg",
+        "references/page_07/ref_02_465.45s.jpg",
+        "references/page_07/ref_03_468.07s.jpg"
+      ]
+    },
+    {
+      "page": 8,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e18-tong-gan-gong-ku/images/page_08.webp",
+      "heading": "得民心，才会强盛",
+      "heading_pinyin": "dé mín xīn cái huì qiáng shèng",
+      "text": "郭隗还提醒燕昭王：想让国力强盛，必须尊重和爱护百姓。得民心，才能得到天下人的支持。",
+      "pinyin": "guō kuí hái tí xǐng yàn zhāo wáng xiǎng ràng guó lì qiáng shèng bì xū zūn zhòng hé ài hù bǎi xìng dé mín xīn cái néng dé dào tiān xià rén de zhī chí",
+      "layout": "image-right",
+      "source_time_range": [
+        470.37,
+        491.31
+      ],
+      "visual_time_range": [
+        470.37,
+        491.31
+      ],
+      "visual_anchors": [
+        "燕国宫廷",
+        "燕国城镇",
+        "百姓",
+        "燕昭王与郭隗"
+      ],
+      "key_content": {
+        "location": "燕国宫廷与燕国城镇",
+        "animals": [],
+        "activity": "郭隗讲述尊重百姓的重要性",
+        "stakes": "燕国能否从战争创伤中恢复",
+        "outcome": "燕昭王记住了爱护百姓的提醒",
+        "visual_focus": "燕昭王记住了爱护百姓的提醒"
+      },
+      "illustration_prompt": "郭隗与燕昭王站在宫殿台阶上俯瞰城镇，百姓在集市互相帮助，画面用一条明亮的道路连接宫廷与民间；儿童科普插画，温暖而克制，无文字。",
+      "reference_frames": [
+        "references/page_08/ref_01_474.56s.jpg",
+        "references/page_08/ref_02_480.84s.jpg",
+        "references/page_08/ref_03_487.12s.jpg"
+      ]
+    },
+    {
+      "page": 9,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e18-tong-gan-gong-ku/images/page_09.webp",
+      "heading": "贤士从四方而来",
+      "heading_pinyin": "xián shì cóng sì fāng ér lái",
+      "text": "消息传开后，乐毅、邹衍、剧辛等有才能的人，纷纷从魏、齐、赵等国来到燕国。燕昭王把他们安排到重要位置。",
+      "pinyin": "xiāo xī chuán kāi hòu yuè yì zōu yǎn jù xīn děng yǒu cái néng de rén fēn fēn cóng wèi qí zhào děng guó lái dào yàn guó yàn zhāo wáng bǎ tā men ān pái dào zhòng yào wèi zhì",
+      "layout": "image-top",
+      "source_time_range": [
+        492.83,
+        506.99
+      ],
+      "visual_time_range": [
+        492.83,
+        506.99
+      ],
+      "visual_anchors": [
+        "燕国城门",
+        "来自魏齐赵的贤士",
+        "乐毅",
+        "邹衍",
+        "剧辛",
+        "燕昭王"
+      ],
+      "key_content": {
+        "location": "燕国城门",
+        "animals": [],
+        "activity": "各国贤士沿道路来到燕国，燕昭王任用他们",
+        "stakes": "燕国能否聚集真正的人才",
+        "outcome": "燕国终于拥有了新的贤能队伍",
+        "visual_focus": "燕国终于拥有了新的贤能队伍"
+      },
+      "illustration_prompt": "燕国城门前，来自不同方向的贤士带着书卷和行囊汇聚，燕昭王在门内迎接他们；儿童历史绘本，人物群像清楚，旗帜只用抽象色块，不出现文字。",
+      "reference_frames": [
+        "references/page_09/ref_01_495.66s.jpg",
+        "references/page_09/ref_02_499.91s.jpg",
+        "references/page_09/ref_03_504.16s.jpg"
+      ]
+    },
+    {
+      "page": 10,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e18-tong-gan-gong-ku/images/page_10.webp",
+      "heading": "君王和百姓一起过日子",
+      "heading_pinyin": "jūn wáng hé bǎi xìng yì qǐ guò rì zi",
+      "text": "燕昭王关怀百姓，把燕国治理得国富民强。无论谁家有喜事或难事，他都派人去问候，和百姓同享安乐、共度苦难。",
+      "pinyin": "yàn zhāo wáng guān huái bǎi xìng bǎ yàn guó zhì lǐ dé guó fù mín qiáng wú lùn shuí jiā yǒu xǐ shì huò nán shì tā dōu pài rén qù wèn hòu hé bǎi xìng tóng xiǎng ān lè gòng dù kǔ nàn",
+      "layout": "image-left",
+      "source_time_range": [
+        507.92,
+        537.72
+      ],
+      "visual_time_range": [
+        507.92,
+        537.72
+      ],
+      "visual_anchors": [
+        "燕国城镇",
+        "百姓家门",
+        "燕昭王派出的官员",
+        "婚礼与援助场景"
+      ],
+      "key_content": {
+        "location": "燕国城镇与百姓家门",
+        "animals": [],
+        "activity": "官员走访百姓家庭，燕昭王关注民间生活",
+        "stakes": "百姓能否感受到君王的关心",
+        "outcome": "君王与百姓建立了共同生活的信任",
+        "visual_focus": "君王与百姓建立了共同生活的信任"
+      },
+      "illustration_prompt": "燕国城镇的连续场景：官员在一户人家门前问候，邻里分享食物，远处有喜庆的红灯笼和帮助灾民的队伍；儿童绘本水彩，不出现任何文字。",
+      "reference_frames": [
+        "references/page_10/ref_01_513.88s.jpg",
+        "references/page_10/ref_02_522.82s.jpg",
+        "references/page_10/ref_03_531.76s.jpg"
+      ]
+    },
+    {
+      "page": 11,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e18-tong-gan-gong-ku/images/page_11.webp",
+      "heading": "郭隗也收获了机会",
+      "heading_pinyin": "guō kuí yě shōu huò le jī huì",
+      "text": "郭隗说，自己因为建言献策，既得到了富贵和权势，也帮助燕昭王招来了贤士，真是一举两得。",
+      "pinyin": "guō kuí shuō zì jǐ yīn wèi jiàn yán xiàn cè jì dé dào le fù guì hé quán shì yě bāng zhù yàn zhāo wáng zhāo lái le xián shì zhēn shì yī jǔ liǎng dé",
+      "layout": "image-right",
+      "source_time_range": [
+        518.72,
+        526.68
+      ],
+      "visual_time_range": [
+        518.72,
+        526.68
+      ],
+      "visual_anchors": [
+        "郭隗宅邸",
+        "燕国宫廷",
+        "贤士名册的抽象卷轴",
+        "郭隗"
+      ],
+      "key_content": {
+        "location": "郭隗宅邸与燕国宫廷",
+        "animals": [],
+        "activity": "郭隗回顾自己的建议带来的两种收获",
+        "stakes": "个人和国家如何同时受益",
+        "outcome": "郭隗与燕国都因求贤而改变",
+        "visual_focus": "郭隗与燕国都因求贤而改变"
+      },
+      "illustration_prompt": "郭隗站在宅邸与宫廷之间，左右两边分别是温暖的家园和远道而来的贤士，中央用两盏平衡的灯表现一举两得；儿童科普插画，无文字。",
+      "reference_frames": [
+        "references/page_11/ref_01_520.31s.jpg",
+        "references/page_11/ref_02_522.70s.jpg",
+        "references/page_11/ref_03_525.09s.jpg"
+      ]
+    },
+    {
+      "page": 12,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e18-tong-gan-gong-ku/images/page_12.webp",
+      "heading": "燕国击败强齐",
+      "heading_pinyin": "yàn guó jī bài qiáng qí",
+      "text": "后来，燕昭王抓住时机，派乐毅联合诸侯攻打齐国，攻破了齐国七十多座城池。弱小的燕国让天下人惊讶。",
+      "pinyin": "hòu lái yàn zhāo wáng zhuā zhù shí jī pài yuè yì lián hé zhū hóu gōng dǎ qí guó gōng pò le qí guó qī shí duō zuò chéng chí ruò xiǎo de yàn guó ràng tiān xià rén jīng yà",
+      "layout": "full-bleed",
+      "source_time_range": [
+        574.09,
+        598.91
+      ],
+      "visual_time_range": [
+        574.09,
+        598.91
+      ],
+      "visual_anchors": [
+        "燕国军营",
+        "乐毅",
+        "诸侯联军",
+        "齐国城池",
+        "战后天空"
+      ],
+      "key_content": {
+        "location": "战国齐燕边境",
+        "animals": [],
+        "activity": "乐毅率军联合诸侯攻打齐国",
+        "stakes": "燕国能否摆脱被侵略的命运",
+        "outcome": "燕国反守为攻，取得震动天下的胜利",
+        "visual_focus": "燕国反守为攻，取得震动天下的胜利"
+      },
+      "illustration_prompt": "远景展示燕国与诸侯联军在旷野上行进，乐毅立于前方，远处齐国城池在晨光中屹立但没有破坏性细节；儿童历史绘本，壮阔、明亮、无文字。",
+      "reference_frames": [
+        "references/page_12/ref_01_579.05s.jpg",
+        "references/page_12/ref_02_586.50s.jpg",
+        "references/page_12/ref_03_593.95s.jpg"
+      ]
+    },
+    {
+      "page": 13,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e18-tong-gan-gong-ku/images/page_13.webp",
+      "heading": "你最喜欢谁",
+      "heading_pinyin": "nǐ zuì xǐ huān shuí",
+      "text": "郭隗用智慧改变了自己的命运，也帮助燕国招纳贤才。燕昭王一心为民、善于学习，他们都值得我们学习。",
+      "pinyin": "guō kuí yòng zhì huì gǎi biàn le zì jǐ de mìng yùn yě bāng zhù yàn guó zhāo nà xián cái yàn zhāo wáng yī xīn wèi mín shàn yú xué xí tā men dōu zhí de wǒ men xué xí",
+      "layout": "image-top",
+      "source_time_range": [
+        603.2,
+        653.74
+      ],
+      "visual_time_range": [
+        603.2,
+        653.74
+      ],
+      "visual_anchors": [
+        "文化宫演播厅",
+        "琪琪",
+        "陈教授",
+        "郭隗与燕昭王的历史剪影"
+      ],
+      "key_content": {
+        "location": "文化宫演播厅与历史想象空间",
+        "animals": [],
+        "activity": "琪琪和陈教授讨论故事人物的品格",
+        "stakes": "小朋友能否从人物选择中发现品格",
+        "outcome": "读者看见足智多谋、为民学习等品质",
+        "visual_focus": "读者看见足智多谋、为民学习等品质"
+      },
+      "illustration_prompt": "琪琪和陈教授在演播厅讨论故事，身后用柔和的历史剪影表现郭隗献策与燕昭王亲民，两位角色面带思考和欣赏；儿童科普插画，不出现文字。",
+      "reference_frames": [
+        "references/page_13/ref_01_613.31s.jpg",
+        "references/page_13/ref_02_628.47s.jpg",
+        "references/page_13/ref_03_643.63s.jpg"
+      ]
+    },
+    {
+      "page": 14,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e18-tong-gan-gong-ku/images/page_14.webp",
+      "heading": "同甘共苦怎么用",
+      "heading_pinyin": "tóng gān gòng kǔ zěn me yòng",
+      "text": "同甘共苦，指一起享受安乐，也一起承担困难。和别人相处时，不能只在顺利时分享快乐，也要在困难时互相帮助。",
+      "pinyin": "tóng gān gòng kǔ zhǐ yì qǐ xiǎng shòu ān lè yě yì qǐ chéng dān kùn nán hé bié rén xiāng chǔ shí bù néng zhǐ zài shùn lì shí fēn xiǎng kuài lè yě yào zài kùn nán shí hù xiāng bāng zhù",
+      "layout": "image-right",
+      "source_time_range": [
+        668.88,
+        676.08
+      ],
+      "visual_time_range": [
+        668.88,
+        676.08
+      ],
+      "visual_anchors": [
+        "文化宫演播厅",
+        "小朋友互相帮助",
+        "琪琪和陈教授",
+        "发光的成语图形"
+      ],
+      "key_content": {
+        "location": "文化宫演播厅",
+        "animals": [],
+        "activity": "陈教授总结成语含义，孩子们互相帮助",
+        "stakes": "读者能否把成语用到生活中",
+        "outcome": "小朋友理解并准备在生活中正确使用成语",
+        "visual_focus": "小朋友理解并准备在生活中正确使用成语"
+      },
+      "illustration_prompt": "文化宫演播厅里，几个小朋友一起抬起一只装满书的箱子，琪琪和陈教授在旁边鼓励，背景有抽象的四块发光印章形状但没有汉字；明快儿童绘本风格，无文字。",
+      "reference_frames": [
+        "references/page_14/ref_01_670.32s.jpg",
+        "references/page_14/ref_02_672.48s.jpg",
+        "references/page_14/ref_03_674.64s.jpg"
+      ]
+    }
+  ]
+}

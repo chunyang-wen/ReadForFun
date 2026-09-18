@@ -1,0 +1,3057 @@
+[
+  {
+    "id": "li-shen-min-nong-qi-er",
+    "title": "悯农·其二",
+    "title_pinyin": "mǐn nóng qí èr",
+    "poet": "李绅",
+    "poet_pinyin": "lǐ shēn",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "勤俭",
+      "田园",
+      "耕作",
+      "小学必背"
+    ],
+    "appreciation": "这首诗描绘了烈日当空下农民辛勤耕作的真实图景，以通俗质朴而极具张力的语言，揭示了每一粒粮食都饱含血汗的深刻道理。全诗语言真切，发人深省，千百年来成为戒奢尚俭、体恤民力的传世警句。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "锄禾日当午",
+        "pinyin": "chú hé rì dāng wǔ",
+        "translation": "农夫顶着烈日正午在田地里给禾苗锄草松土。",
+        "explanation": "【锄禾】用锄头松土除草以利禾苗生长。【日当午】正当正午，烈日当空，气温最高之时。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shen-min-nong-qi-er/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 锄禾日当午, mood of 悯农·其二, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "汗滴禾下土",
+        "pinyin": "hàn dī hé xià tǔ",
+        "translation": "一颗颗晶莹滚烫的汗珠，滴落在禾苗下的泥土深处。",
+        "explanation": "【汗滴】汗珠滴落，写出劳作的极度艰辛与体能消耗。【禾下土】禾苗根部的土壤。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shen-min-nong-qi-er/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 汗滴禾下土, mood of 悯农·其二, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "谁知盘中餐",
+        "pinyin": "shuí zhī pán zhōng cān",
+        "translation": "有谁能真正想到，我们饭桌盘中的每一餐饭食，",
+        "explanation": "【盘中餐】盛在盘子里的食物饭菜，代指人们日常享用的每一餐。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shen-min-nong-qi-er/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 谁知盘中餐, mood of 悯农·其二, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "粒粒皆辛苦",
+        "pinyin": "lì lì jiē xīn kǔ",
+        "translation": "每一粒米饭都凝聚着耕作者无尽的辛劳与汗水！",
+        "explanation": "【粒粒】每一颗粮食。【皆】全都是。【辛苦】辛勤与劳苦。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shen-min-nong-qi-er/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 粒粒皆辛苦, mood of 悯农·其二, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shen-min-nong-qi-er/poem.webp"
+  },
+  {
+    "id": "li-shen-min-nong-qi-yi",
+    "title": "悯农·其一",
+    "title_pinyin": "mǐn nóng qí yī",
+    "poet": "李绅",
+    "poet_pinyin": "lǐ shēn",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "田园",
+      "耕作",
+      "社会",
+      "小学必背"
+    ],
+    "appreciation": "春种秋收本是丰收景象，然而在严酷的赋税与剥削下，四海无闲田，农夫犹饿死，深刻揭露了当时社会极不平等的残酷现实。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "春种一粒粟",
+        "pinyin": "chūn zhòng yī lì sù",
+        "translation": "春天在田里播下一颗小小的谷物种子。",
+        "explanation": "【粟】谷子，指代农作物的种子。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shen-min-nong-qi-yi/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 春种一粒粟, mood of 悯农·其一, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "秋收万颗子",
+        "pinyin": "qiū shōu wàn kē zi",
+        "translation": "到了秋天便能收获上万颗金黄饱满的粮食。",
+        "explanation": "【万颗子】形容果实极其丰盛。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shen-min-nong-qi-yi/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 秋收万颗子, mood of 悯农·其一, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "四海无闲田",
+        "pinyin": "sì hǎi wú xián tián",
+        "translation": "普天之下举目皆是绿油油的耕地，没有一块荒芜的田野。",
+        "explanation": "【四海】普天下、全国各地。【闲田】荒芜不种的田地。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shen-min-nong-qi-yi/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 四海无闲田, mood of 悯农·其一, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "农夫犹饿死",
+        "pinyin": "nóng fū yóu è sǐ",
+        "translation": "然而辛勤劳作终年的老农，却依然免不了被活活饿死！",
+        "explanation": "【犹】仍然，还是。形成极为震撼的悲剧对比。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shen-min-nong-qi-yi/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 农夫犹饿死, mood of 悯农·其一, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shen-min-nong-qi-yi/poem.webp"
+  },
+  {
+    "id": "bai-ju-yi-chi-shang",
+    "title": "池上",
+    "title_pinyin": "chí shàng",
+    "poet": "白居易",
+    "poet_pinyin": "bái jū yì",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "童趣",
+      "生活",
+      "初夏",
+      "小学必背"
+    ],
+    "appreciation": "诗人以白描的手法，生动活泼地描绘了一个天真烂漫的小孩偷采白莲的情景。小娃不懂得掩饰行迹，留下一道浮萍水痕，童趣盎然，栩栩如生。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "小娃撑小艇",
+        "pinyin": "xiǎo wá chēng xiǎo tǐng",
+        "translation": "天真活泼的小孩独自划着一叶小小的木舟。",
+        "explanation": "【小娃】男孩、幼童。【小艇】轻便的小船。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-chi-shang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 小娃撑小艇, mood of 池上, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "偷采白莲回",
+        "pinyin": "tōu cǎi bái lián huí",
+        "translation": "悄悄摘采了池塘里的新鲜白莲，满载欢喜划船归来。",
+        "explanation": "【偷采】瞒着大人采摘，表现孩童的淘气烂漫。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-chi-shang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 偷采白莲回, mood of 池上, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "不解藏踪迹",
+        "pinyin": "bù jiě cáng zōng jì",
+        "translation": "小孩子还不懂得如何去隐匿自己的行踪，",
+        "explanation": "【不解】不懂得、不知道。【踪迹】行动留下的痕迹。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-chi-shang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 不解藏踪迹, mood of 池上, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "浮萍一道开",
+        "pinyin": "fú píng yī dào kāi",
+        "translation": "水面密密匝匝的绿色浮萍，顺着小艇荡开了一条清晰的水路！",
+        "explanation": "【浮萍】水生植物，浮在水面。【开】被船头划破分向两边。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-chi-shang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 浮萍一道开, mood of 池上, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-chi-shang/poem.webp"
+  },
+  {
+    "id": "luo-bin-wang-yong-e",
+    "title": "咏鹅",
+    "title_pinyin": "yǒng é",
+    "poet": "骆宾王",
+    "poet_pinyin": "luò bīn wáng",
+    "dynasty": "唐",
+    "form": "五言古诗",
+    "tags": [
+      "启蒙",
+      "动物",
+      "童趣",
+      "小学必背"
+    ],
+    "appreciation": "相传是骆宾王七岁时的神童之作。开篇三字呼告，生动传神，红掌清波，白羽绿水，色彩明丽，极具动感与画面美。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "鹅鹅鹅",
+        "pinyin": "é é é",
+        "translation": "大白鹅啊大白鹅！欢快地引吭高歌。",
+        "explanation": "【鹅】摹拟白鹅欢畅的鸣叫声与呼唤。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/luo-bin-wang-yong-e/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 鹅鹅鹅, mood of 咏鹅, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "曲项向天歌",
+        "pinyin": "qū xiàng xiàng tiān gē",
+        "translation": "弯曲着长长的白颈，对着蔚蓝的天空欢快鸣唱。",
+        "explanation": "【曲项】弯曲的颈项。【向天歌】昂首鸣叫。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/luo-bin-wang-yong-e/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 曲项向天歌, mood of 咏鹅, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "白毛浮绿水",
+        "pinyin": "bái máo fú lǜ shuǐ",
+        "translation": "雪白的羽毛静静漂浮在碧绿清澈的水面上。",
+        "explanation": "【白毛】雪白羽毛。【绿水】清碧池水，色彩鲜明对照。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/luo-bin-wang-yong-e/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 白毛浮绿水, mood of 咏鹅, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "红掌拨清波",
+        "pinyin": "hóng zhǎng bō qīng bō",
+        "translation": "红色的脚掌轻轻划动着碧波荡漾的涟漪。",
+        "explanation": "【红掌】鹅鲜红的蹼掌。【拨】划动。【清波】清澈的水波。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/luo-bin-wang-yong-e/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 红掌拨清波, mood of 咏鹅, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/luo-bin-wang-yong-e/poem.webp"
+  },
+  {
+    "id": "meng-hao-ran-guo-gu-ren-zhuang",
+    "title": "过故人庄",
+    "title_pinyin": "guò gù rén zhuāng",
+    "poet": "孟浩然",
+    "poet_pinyin": "mèng hào rán",
+    "dynasty": "唐",
+    "form": "五言律诗",
+    "tags": [
+      "田园",
+      "友情",
+      "自然",
+      "初中必背"
+    ],
+    "appreciation": "孟浩然隐逸田园的代表作。全诗如话家常，语言平淡却蕴含浓郁真挚的友谊与淳朴的乡村风情，青山郭外，绿树村边，令人心驰神往。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "故人具鸡黍",
+        "pinyin": "gù rén jù jī shǔ",
+        "translation": "老朋友备好了丰盛的农家饭菜与醇香黄米饭，",
+        "explanation": "【故人】老朋友。【具】准备。【鸡黍】杀鸡做黄米饭，农家待客至诚之礼。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-guo-gu-ren-zhuang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 故人具鸡黍, mood of 过故人庄, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "邀我至田家",
+        "pinyin": "yāo wǒ zhì tián jiā",
+        "translation": "热情邀请我到他质朴宁静的农家作客。",
+        "explanation": "【田家】田野间的农家住所。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-guo-gu-ren-zhuang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 邀我至田家, mood of 过故人庄, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "绿树村边合",
+        "pinyin": "lǜ shù cūn biān hé",
+        "translation": "翠绿茂密的树木环绕在村庄四周，",
+        "explanation": "【合】环绕，簇拥成荫。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-guo-gu-ren-zhuang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 绿树村边合, mood of 过故人庄, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "青山郭外斜",
+        "pinyin": "qīng shān guō wài xié",
+        "translation": "青翠连绵的山峰在村外城郭旁横卧斜倚。",
+        "explanation": "【郭】古代城墙外围的城郭，此指村庄外围。【斜】倾斜、横亘延绵。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-guo-gu-ren-zhuang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 青山郭外斜, mood of 过故人庄, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 5,
+        "text": "开轩面场圃",
+        "pinyin": "kāi xuān miàn chǎng pǔ",
+        "translation": "推开雕花窗户，正对着打谷场与菜园圃地，",
+        "explanation": "【开轩】推开窗户。【场圃】打谷平场与蔬菜园子。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-guo-gu-ren-zhuang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 开轩面场圃, mood of 过故人庄, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 6,
+        "text": "把酒话桑麻",
+        "pinyin": "bǎ jiǔ huà sāng má",
+        "translation": "手端着农家美酒，促膝笑谈农桑麻麦的长势。",
+        "explanation": "【把酒】端起酒杯。【话桑麻】谈论农桑作物的耕作收成。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-guo-gu-ren-zhuang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 把酒话桑麻, mood of 过故人庄, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 7,
+        "text": "待到重阳日",
+        "pinyin": "dài dào chóng yáng rì",
+        "translation": "等到九月九日重阳佳节到来的那一天，",
+        "explanation": "【重阳日】农历九月初九重阳节，登高赏菊之时。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-guo-gu-ren-zhuang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 待到重阳日, mood of 过故人庄, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 8,
+        "text": "还来就菊花",
+        "pinyin": "hái lái jiù jú huā",
+        "translation": "我一定还要再来你这里，一边饮酒一边共赏灿烂秋菊！",
+        "explanation": "【还】再、又。【就菊花】走近菊花，指饮菊花酒赏秋菊。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-guo-gu-ren-zhuang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 还来就菊花, mood of 过故人庄, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-guo-gu-ren-zhuang/poem.webp"
+  },
+  {
+    "id": "wang-zhi-huan-deng-guan-que-lou",
+    "title": "登鹳雀楼",
+    "title_pinyin": "dēng guàn què lóu",
+    "poet": "王之涣",
+    "poet_pinyin": "wáng zhī huàn",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "登高",
+      "哲理",
+      "壮美",
+      "小学必背"
+    ],
+    "appreciation": "前两句写景，落日依山、黄河奔海，气魄雄浑吞吐天地；后两句入理，欲穷千里、更上一层，展现出勇攀高峰、开阔胸襟的崇高人生境界。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "白日依山尽",
+        "pinyin": "bái rì yī shān jǐn",
+        "translation": "灿烂耀眼的落日贴着连绵起伏的群山缓缓沉落，",
+        "explanation": "【白日】傍晚仍耀眼的日光。【依】依傍、靠着。【尽】沉没隐没。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-zhi-huan-deng-guan-que-lou/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 白日依山尽, mood of 登鹳雀楼, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "黄河入海流",
+        "pinyin": "huáng hé rù hǎi liú",
+        "translation": "浩瀚奔腾的黄河水奔流东去，滚滚汇入茫茫大海。",
+        "explanation": "【黄河】中华母亲河。【入海流】浩浩荡荡奔流入海。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-zhi-huan-deng-guan-que-lou/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 黄河入海流, mood of 登鹳雀楼, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "欲穷千里目",
+        "pinyin": "yù qióng qiān lǐ mù",
+        "translation": "若是想要极目远眺，看尽千里辽阔的壮丽江山，",
+        "explanation": "【欲】想要。【穷】穷尽、看透。【千里目】极目远望的视线。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-zhi-huan-deng-guan-que-lou/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 欲穷千里目, mood of 登鹳雀楼, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "更上一层楼",
+        "pinyin": "gèng shàng yī céng lóu",
+        "translation": "那就必须打起精神，再登上更高一层楼台！",
+        "explanation": "【更】再。【更上一层楼】更上一层，喻指不断进取超越。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-zhi-huan-deng-guan-que-lou/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 更上一层楼, mood of 登鹳雀楼, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-zhi-huan-deng-guan-que-lou/poem.webp"
+  },
+  {
+    "id": "li-bai-wang-lu-shan-pu-bu",
+    "title": "望庐山瀑布",
+    "title_pinyin": "wàng lú shān pù bù",
+    "poet": "李白",
+    "poet_pinyin": "lǐ bái",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "自然",
+      "豪迈",
+      "瀑布",
+      "小学必背"
+    ],
+    "appreciation": "李白浪漫主义诗歌的巅峰之作。生紫烟、挂前川、三千尺、落九天，奇思妙想，飞扬跋扈，将庐山瀑布的磅礴气势写得如梦似幻、气吞山河。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "日照香炉生紫烟",
+        "pinyin": "rì zhào xiāng lú shēng zǐ yān",
+        "translation": "金色的阳光普照在香炉峰上，水气弥漫蒸腾起如梦似幻的紫色云烟，",
+        "explanation": "【香炉】香炉峰，庐山名峰。【生紫烟】阳光折射云气呈现出紫气。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-wang-lu-shan-pu-bu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 日照香炉生紫烟, mood of 望庐山瀑布, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "遥看瀑布挂前川",
+        "pinyin": "yáo kàn pù bù guà qián chuān",
+        "translation": "远远望去，壮丽的瀑布犹如一条晶莹的白练高悬在山川江水前方。",
+        "explanation": "【遥看】远远观望。【挂前川】如白绢高高悬挂于山川江流之间。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-wang-lu-shan-pu-bu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 遥看瀑布挂前川, mood of 望庐山瀑布, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "飞流直下三千尺",
+        "pinyin": "fēi liú zhí xià sān qiān chǐ",
+        "translation": "湍急凶猛的水流从高崖陡壁笔直奔泻而下数千尺，",
+        "explanation": "【飞流直下】形容水势迅疾奔涌直落。【三千尺】极言崖壁之高深险峻。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-wang-lu-shan-pu-bu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 飞流直下三千尺, mood of 望庐山瀑布, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "疑是银河落九天",
+        "pinyin": "yí shì yín hé luò jiǔ tiān",
+        "translation": "恍惚间真让人怀疑是那璀璨的九天银河从最高苍穹跌落人间！",
+        "explanation": "【疑是】令人怀疑、仿佛是。【银河】天河。【九天】古代称天有九重，指极高之天空。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-wang-lu-shan-pu-bu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 疑是银河落九天, mood of 望庐山瀑布, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-wang-lu-shan-pu-bu/poem.webp"
+  },
+  {
+    "id": "li-bai-zao-fa-bai-di-cheng",
+    "title": "早发白帝城",
+    "title_pinyin": "zǎo fā bái dì chéng",
+    "poet": "李白",
+    "poet_pinyin": "lǐ bái",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "羁旅",
+      "江峡",
+      "行舟",
+      "小学必背"
+    ],
+    "appreciation": "公元759年李白流放夜郎途中遇赦，心情狂喜，放舟东下江陵。全诗节奏欢快轻捷，舟行若飞，猿啼岸走，把遇赦后绝处逢生的快意抒发得淋漓尽致。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "朝辞白帝彩云间",
+        "pinyin": "cháo cí bái dì cǎi yún jiān",
+        "translation": "清晨我辞别高耸入云、彩霞缭绕的白帝城，",
+        "explanation": "【朝】清晨。【辞】告别。【彩云间】形容白帝城地势极高，高插云霄。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-zao-fa-bai-di-cheng/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 朝辞白帝彩云间, mood of 早发白帝城, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "千里江陵一日还",
+        "pinyin": "qiān lǐ jiāng líng yī rì hái",
+        "translation": "顺江而下远在千里之外的江陵，轻舟一日便能飞渡抵还！",
+        "explanation": "【千里】极言路途遥远。【一日还】一天就能返回，极写船行之神速与心境之轻快。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-zao-fa-bai-di-cheng/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 千里江陵一日还, mood of 早发白帝城, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "两岸猿声啼不住",
+        "pinyin": "liǎng àn yuán shēng tí bú zhù",
+        "translation": "两岸高峡深谷之间，猿猴凄厉清脆的啼叫声还在耳边回荡不休，",
+        "explanation": "【啼不住】啼叫声绵延不断。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-zao-fa-bai-di-cheng/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 两岸猿声啼不住, mood of 早发白帝城, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "轻舟已过万重山",
+        "pinyin": "qīng zhōu yǐ guò wàn zhòng shān",
+        "translation": "那轻捷迅疾的小船，早已穿过层层叠叠的万座崇山峻岭！",
+        "explanation": "【轻舟】轻便轻快的小船。【万重山】层峦叠嶂的重重山峰。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-zao-fa-bai-di-cheng/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 轻舟已过万重山, mood of 早发白帝城, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-zao-fa-bai-di-cheng/poem.webp"
+  },
+  {
+    "id": "meng-hao-ran-chun-xiao",
+    "title": "春晓",
+    "title_pinyin": "chūn xiǎo",
+    "poet": "孟浩然",
+    "poet_pinyin": "mèng hào rán",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "春天",
+      "自然",
+      "抒情",
+      "小学必背"
+    ],
+    "appreciation": "没有华丽辞藻，孟浩然抓住春晨刚刚醒来那一瞬间的听觉与心理感受，写出春光的明媚、风雨的洗礼与对落花的怜惜，自然天成，情趣盎然。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "春眠不觉晓",
+        "pinyin": "chūn mián bù jué xiǎo",
+        "translation": "春日夜色沉沉睡得十分香甜，不知不觉天已破晓拂晓，",
+        "explanation": "【不觉晓】不知不觉天已经亮了。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-chun-xiao/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 春眠不觉晓, mood of 春晓, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "处处闻啼鸟",
+        "pinyin": "chù chù wén tí niǎo",
+        "translation": "醒来时只听见庭院树丛到处都是鸟儿清脆欢快的啼鸣。",
+        "explanation": "【闻】听见。【啼鸟】鸟鸣声。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-chun-xiao/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 处处闻啼鸟, mood of 春晓, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "夜来风雨声",
+        "pinyin": "yè lái fēng yǔ shēng",
+        "translation": "回想昨夜枕边依稀听见的那阵阵风吹雨落的声响，",
+        "explanation": "【夜来】昨夜、夜里。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-chun-xiao/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 夜来风雨声, mood of 春晓, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "花落知多少",
+        "pinyin": "huā luò zhī duō shǎo",
+        "translation": "不知那枝头盛开的娇艳花朵，又被打落了多少朵呢？",
+        "explanation": "【知多少】不知有多少，表达诗人对烂漫春光的深情与怜惜。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-chun-xiao/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 花落知多少, mood of 春晓, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-chun-xiao/poem.webp"
+  },
+  {
+    "id": "li-bai-du-zuo-jing-ting-shan",
+    "title": "独坐敬亭山",
+    "title_pinyin": "dú zuò jìng tíng shān",
+    "poet": "李白",
+    "poet_pinyin": "lǐ bái",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "山水",
+      "孤独",
+      "心境",
+      "经典"
+    ],
+    "appreciation": "李白晚年漂泊宣城时所作。群鸟飞尽，孤云独去，人与自然在此刻达成了至深的情感共鸣，相看两不厌，唯有敬亭山，物我两忘，意境超拔。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "众鸟高飞尽",
+        "pinyin": "zhòng niǎo gāo fēi jǐn",
+        "translation": "成群飞鸣的鸟儿都已高高飞向远方，消失不见，",
+        "explanation": "【尽】消失殆尽。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-du-zuo-jing-ting-shan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 众鸟高飞尽, mood of 独坐敬亭山, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "孤云独去闲",
+        "pinyin": "gū yún dú qù xián",
+        "translation": "天边一片孤单的白云，也独自悠闲自在地飘向远方。",
+        "explanation": "【独去】独自飘散。【闲】悠闲、从容。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-du-zuo-jing-ting-shan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 孤云独去闲, mood of 独坐敬亭山, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "相看两不厌",
+        "pinyin": "xiāng kàn liǎng bù yàn",
+        "translation": "在这寂静的天地间，我看着青山，青山凝望着我，彼此久看也不觉得厌倦，",
+        "explanation": "【两不厌】彼此互相看着都不会感到厌烦。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-du-zuo-jing-ting-shan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 相看两不厌, mood of 独坐敬亭山, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "只有敬亭山",
+        "pinyin": "zhǐ yǒu jìng tíng shān",
+        "translation": "能够这般相知相伴相守的，如今也只有眼前巍峨的敬亭山了！",
+        "explanation": "【敬亭山】在今安徽宣城，诗人借山寄托孤高傲岸之情。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-du-zuo-jing-ting-shan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 只有敬亭山, mood of 独坐敬亭山, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-du-zuo-jing-ting-shan/poem.webp"
+  },
+  {
+    "id": "du-fu-wang-yue",
+    "title": "望岳",
+    "title_pinyin": "wàng yuè",
+    "poet": "杜甫",
+    "poet_pinyin": "dù fǔ",
+    "dynasty": "唐",
+    "form": "五言律诗",
+    "tags": [
+      "泰山",
+      "豪迈",
+      "登高",
+      "初中必背"
+    ],
+    "appreciation": "青年杜甫漫游齐赵，眺望东岳泰山所作。全诗没有一个“爬”字，却将泰山的磅礴气势与神奇造化写尽，结句“会当凌绝顶，一览众山小”成为千古昂扬进取的座右铭。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "岱宗夫如何",
+        "pinyin": "dài zōng fū rú hé",
+        "translation": "那五岳之首的东岳泰山究竟是怎样一副雄奇非凡的模样呢？",
+        "explanation": "【岱宗】泰山的尊称，居五岳之首。【夫如何】到底怎么样呢。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-wang-yue/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 岱宗夫如何, mood of 望岳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "齐鲁青未了",
+        "pinyin": "qí lǔ qīng wèi liǎo",
+        "translation": "横跨齐鲁大地，那苍翠青碧的山色连绵无际，永无止境！",
+        "explanation": "【齐鲁】古代齐国与鲁国之地。【未了】没有尽头，极言山色之辽阔苍茫。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-wang-yue/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 齐鲁青未了, mood of 望岳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "造化钟神秀",
+        "pinyin": "zào huà zhōng shén xiù",
+        "translation": "大自然造化把天地间最神异秀丽的景色都凝聚在此，",
+        "explanation": "【造化】天地大自然。【钟】集聚、赋予。【神秀】神妙秀美。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-wang-yue/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 造化钟神秀, mood of 望岳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "阴阳割昏晓",
+        "pinyin": "yīn yáng gē hūn xiǎo",
+        "translation": "高耸入云的山峰巍然耸立，将山南的明媚与山北的昏暗清晰割裂！",
+        "explanation": "【阴阳】山北为阴，山南为阳。【割】分割。【昏晓】黄昏与早晨。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-wang-yue/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 阴阳割昏晓, mood of 望岳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 5,
+        "text": "荡胸生曾云",
+        "pinyin": "dàng xiōng shēng céng yún",
+        "translation": "山间层层叠叠涌动的白云，荡涤着我的胸怀让人顿觉胸襟大开，",
+        "explanation": "【曾云】曾同“层”，层层重叠的云雾。【荡胸】洗涤心胸。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-wang-yue/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 荡胸生曾云, mood of 望岳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 6,
+        "text": "决眦入归鸟",
+        "pinyin": "jué zì rù guī niǎo",
+        "translation": "我睁大眼睛极目远眺，看那些倦飞归林的鸟儿渐渐没入暮霭云壑深处。",
+        "explanation": "【决眦】眼眶睁得极大，极言凝神远眺。【归鸟】归巢的飞鸟。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-wang-yue/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 决眦入归鸟, mood of 望岳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 7,
+        "text": "会当凌绝顶",
+        "pinyin": "huì dāng líng jué dǐng",
+        "translation": "有朝一日我一定要攀登上泰山的最高峰顶，",
+        "explanation": "【会当】一定要、终当。【凌】登上、高居。【绝顶】最高顶峰。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-wang-yue/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 会当凌绝顶, mood of 望岳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 8,
+        "text": "一览众山小",
+        "pinyin": "yī lǎn zhòng shān xiǎo",
+        "translation": "俯瞰脚下的群山，它们都会显得如此渺小！",
+        "explanation": "【一览】一眼望去。【众山小】群山均显得矮小，化用《孟子》孔子登泰山而小天下。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-wang-yue/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 一览众山小, mood of 望岳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-wang-yue/poem.webp"
+  },
+  {
+    "id": "du-fu-jue-ju-liang-ge-huang-li-ming-cui-liu",
+    "title": "绝句·两个黄鹂鸣翠柳",
+    "title_pinyin": "jué jù liǎng gè huáng lí míng cuì liǔ",
+    "poet": "杜甫",
+    "poet_pinyin": "dù fǔ",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "春天",
+      "草堂",
+      "写景",
+      "小学必背"
+    ],
+    "appreciation": "杜甫寓居成都浣花溪草堂时所作。全诗四句四景，两黄鹂、白鹭、千秋雪、万里船，声色交织，动静相宜，空间由近及远由古及今，工整优美，堪称七绝绝唱。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "两个黄鹂鸣翠柳",
+        "pinyin": "liǎng gè huáng lí míng cuì liǔ",
+        "translation": "两只娇小可爱的黄鹂鸟在翠绿如烟的柳枝间欢快鸣叫，",
+        "explanation": "【黄鹂】黄莺鸟。【鸣】婉转啼鸣。【翠柳】青绿柳树。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jue-ju-liang-ge-huang-li-ming-cui-liu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 两个黄鹂鸣翠柳, mood of 绝句·两个黄鹂鸣翠柳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "一行白鹭上青天",
+        "pinyin": "yī xíng bái lù shàng qīng tiān",
+        "translation": "一行雪白优雅的白鹭振翅高飞，飞向湛蓝纯净的青天苍穹。",
+        "explanation": "【白鹭】水鸟，羽毛纯白。【青天】湛蓝蔚蓝的天空。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jue-ju-liang-ge-huang-li-ming-cui-liu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 一行白鹭上青天, mood of 绝句·两个黄鹂鸣翠柳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "窗含西岭千秋雪",
+        "pinyin": "chuāng hán xī lǐng qiān qiū xuě",
+        "translation": "雕花木窗宛如精致画框，嵌映着西岭积聚千年的皑皑白雪，",
+        "explanation": "【西岭】成都西部的岷山。【千秋雪】千百年不化的积雪。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jue-ju-liang-ge-huang-li-ming-cui-liu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 窗含西岭千秋雪, mood of 绝句·两个黄鹂鸣翠柳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "门泊东吴万里船",
+        "pinyin": "mén pō dōng wú wàn lǐ chuán",
+        "translation": "门前码头边静静停泊着即将顺流东下、开往万里之外东吴的客船。",
+        "explanation": "【门泊】门前停靠。【东吴】古代长江下游江苏一带。【万里船】航行万里的大船。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jue-ju-liang-ge-huang-li-ming-cui-liu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 门泊东吴万里船, mood of 绝句·两个黄鹂鸣翠柳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jue-ju-liang-ge-huang-li-ming-cui-liu/poem.webp"
+  },
+  {
+    "id": "du-fu-jue-ju-chi-ri-jiang-shan-li",
+    "title": "绝句·迟日江山丽",
+    "title_pinyin": "jué jù chí rì jiāng shān lì",
+    "poet": "杜甫",
+    "poet_pinyin": "dù fǔ",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "春景",
+      "自然",
+      "小学必背"
+    ],
+    "appreciation": "杜甫写春天的又一名篇。春日融融，江山秀美，春风轻拂，花草飘香。燕子衔泥筑巢，鸳鸯沙滩安歇，一动一静，和谐生动，洋溢着春回大地的欣悦。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "迟日江山丽",
+        "pinyin": "chí rì jiāng shān lì",
+        "translation": "温暖明媚的春日普照之下，大好江山展现出格外秀丽的姿容，",
+        "explanation": "【迟日】春季白天渐长，阳光温和。【丽】秀美明媚。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jue-ju-chi-ri-jiang-shan-li/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 迟日江山丽, mood of 绝句·迟日江山丽, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "春风花草香",
+        "pinyin": "chūn fēng huā cǎo xiāng",
+        "translation": "柔和的春风徐徐吹来，送来阵阵百花盛开、绿草萌发的幽香。",
+        "explanation": "【花草香】花草散发的芬芳清香。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jue-ju-chi-ri-jiang-shan-li/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 春风花草香, mood of 绝句·迟日江山丽, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "泥融飞燕子",
+        "pinyin": "ní róng fēi yàn zi",
+        "translation": "溪边的泥土渐渐化冻松软湿润，灵巧的燕子正忙着衔泥筑巢，",
+        "explanation": "【泥融】春暖泥土湿润松软。【飞燕子】燕子欢飞。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jue-ju-chi-ri-jiang-shan-li/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 泥融飞燕子, mood of 绝句·迟日江山丽, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "沙暖睡鸳鸯",
+        "pinyin": "shā nuǎn shuì yuān yāng",
+        "translation": "温暖干燥的沙滩上，成双成对的鸳鸯正静静依偎着安睡。",
+        "explanation": "【沙暖】春阳照耀下沙滩温热。【鸳鸯】水鸟，常成双栖息。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jue-ju-chi-ri-jiang-shan-li/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 沙暖睡鸳鸯, mood of 绝句·迟日江山丽, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jue-ju-chi-ri-jiang-shan-li/poem.webp"
+  },
+  {
+    "id": "du-fu-chun-ye-xi-yu",
+    "title": "春夜喜雨",
+    "title_pinyin": "chūn yè xǐ yǔ",
+    "poet": "杜甫",
+    "poet_pinyin": "dù fǔ",
+    "dynasty": "唐",
+    "form": "五言律诗",
+    "tags": [
+      "春雨",
+      "自然",
+      "草堂",
+      "小学必背"
+    ],
+    "appreciation": "杜甫久旱逢甘霖的欣喜之作。好雨知时节，潜入夜，润物细无声。全诗没有一个“喜”字，却处处流露出喜悦关切之情，拟人手法出神入化。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "好雨知时节",
+        "pinyin": "hǎo yǔ zhī shí jié",
+        "translation": "这一场及时的好雨仿佛通晓季节的需要，",
+        "explanation": "【好雨】及时雨。【时节】节气、农时。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-chun-ye-xi-yu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 好雨知时节, mood of 春夜喜雨, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "当春乃发生",
+        "pinyin": "dāng chūn nǎi fā shēng",
+        "translation": "正值生机勃发的万物春季，便悄然降临人间润泽大地。",
+        "explanation": "【发生】萌发生长、降临催生。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-chun-ye-xi-yu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 当春乃发生, mood of 春夜喜雨, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "随风潜入夜",
+        "pinyin": "suí fēng qián rù yè",
+        "translation": "伴随着柔和的夜风在不知不觉间潜入漫漫长夜，",
+        "explanation": "【潜】暗暗地、悄悄无声。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-chun-ye-xi-yu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 随风潜入夜, mood of 春夜喜雨, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "润物细无声",
+        "pinyin": "rùn wù xì wú shēng",
+        "translation": "无声无息、细密绵长地滋润着世间生机勃勃的万事万物。",
+        "explanation": "【润物】滋养万物生长。【细无声】细密轻柔毫无喧嚣。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-chun-ye-xi-yu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 润物细无声, mood of 春夜喜雨, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 5,
+        "text": "野径云俱黑",
+        "pinyin": "yě jìng yún jù hēi",
+        "translation": "田野间蜿蜒的小径与天际浓厚的乌云融为一体，一片漆黑，",
+        "explanation": "【野径】田野小路。【俱】都。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-chun-ye-xi-yu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 野径云俱黑, mood of 春夜喜雨, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 6,
+        "text": "江船火独明",
+        "pinyin": "jiāng chuán huǒ dú míng",
+        "translation": "唯有浩渺江面上停泊的渔船上，闪烁着一点孤单微弱的灯火。",
+        "explanation": "【火独明】唯有一点渔火独自明亮。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-chun-ye-xi-yu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 江船火独明, mood of 春夜喜雨, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 7,
+        "text": "晓看红湿处",
+        "pinyin": "xiǎo kàn hóng shī chù",
+        "translation": "等到清晨拂晓时分再去观瞧那红艳艳、湿漉漉的地方，",
+        "explanation": "【晓】清晨破晓。【红湿处】带雨湿润的红花丛。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-chun-ye-xi-yu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 晓看红湿处, mood of 春夜喜雨, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 8,
+        "text": "花重锦官城",
+        "pinyin": "huā zhòng jǐn guān chéng",
+        "translation": "那重重锦绣花朵饱含雨水，必将开遍整个锦官城！",
+        "explanation": "【花重】花朵沾满雨水沉甸甸。【锦官城】成都的别称。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-chun-ye-xi-yu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 花重锦官城, mood of 春夜喜雨, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-chun-ye-xi-yu/poem.webp"
+  },
+  {
+    "id": "liu-zong-yuan-jiang-xue",
+    "title": "江雪",
+    "title_pinyin": "jiāng xuě",
+    "poet": "柳宗元",
+    "poet_pinyin": "liǔ zōng yuán",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "冬雪",
+      "孤傲",
+      "意境",
+      "小学必背"
+    ],
+    "appreciation": "柳宗元被贬永州时的托物言志绝唱。千山无鸟，万径无人，冰雪极寒之中，唯有一位蓑笠老翁独钓寒江。表现出诗人在逆境中不妥协、傲岸不屈的高洁灵魂。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "千山鸟飞绝",
+        "pinyin": "qiān shān niǎo fēi jué",
+        "translation": "群山连绵千里，所有的飞鸟都已经绝迹不见，",
+        "explanation": "【绝】断绝、消失。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-zong-yuan-jiang-xue/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 千山鸟飞绝, mood of 江雪, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "万径人踪灭",
+        "pinyin": "wàn jìng rén zōng miè",
+        "translation": "千条万条大路小径上，所有行人的足迹都已被风雪掩埋。",
+        "explanation": "【人踪】行人的脚印踪迹。【灭】消失无影。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-zong-yuan-jiang-xue/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 万径人踪灭, mood of 江雪, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "孤舟蓑笠翁",
+        "pinyin": "gū zhōu suō lì wēng",
+        "translation": "孤零零的一叶轻舟上，一位身披草蓑、头戴斗笠的渔翁，",
+        "explanation": "【孤舟】孤单的小船。【蓑笠翁】穿蓑衣戴斗笠的老渔翁。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-zong-yuan-jiang-xue/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 孤舟蓑笠翁, mood of 江雪, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "独钓寒江雪",
+        "pinyin": "dú diào hán jiāng xuě",
+        "translation": "独自冒着漫天冰雪，在冰冷刺骨的江面上垂钓！",
+        "explanation": "【独钓】独自垂钓。【寒江雪】冰封雪锁的寒江。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-zong-yuan-jiang-xue/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 独钓寒江雪, mood of 江雪, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-zong-yuan-jiang-xue/poem.webp"
+  },
+  {
+    "id": "du-mu-shan-xing",
+    "title": "山行",
+    "title_pinyin": "shān xíng",
+    "poet": "杜牧",
+    "poet_pinyin": "dù mù",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "秋天",
+      "红叶",
+      "枫林",
+      "小学必背"
+    ],
+    "appreciation": "杜牧秋日漫游的经典。石径斜、白云深处、枫林晚、红于二月花，将秋天的生机与艳丽写得比春天还要明媚灿烂，展现出昂扬豁达的审美情趣。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "远上寒山石径斜",
+        "pinyin": "yuǎn shàng hán shān shí jìng xié",
+        "translation": "沿着崎岖蜿蜒的石头小径，远远攀登向深秋清凉的山顶，",
+        "explanation": "【寒山】深秋时节的山峦。【石径斜】石头小路蜿蜒倾斜盘旋。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-shan-xing/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 远上寒山石径斜, mood of 山行, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "白云生处有人家",
+        "pinyin": "bái yún shēng chù yǒu rén jiā",
+        "translation": "在白云缭绕升腾的深山隐秘之处，隐约可见几户山民人家。",
+        "explanation": "【白云生处】浮云涌动升起的高处。【人家】山民居所。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-shan-xing/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 白云生处有人家, mood of 山行, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "停车坐爱枫林晚",
+        "pinyin": "tíng chē zuò ài fēng lín wǎn",
+        "translation": "停下行进的马车，只因为深深迷恋这夕阳晚照下如火如荼的枫林，",
+        "explanation": "【坐】因为。【爱】喜爱。【枫林晚】傍晚夕阳映照下的枫树林。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-shan-xing/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 停车坐爱枫林晚, mood of 山行, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "霜叶红于二月花",
+        "pinyin": "shuāng yè hóng yú èr yuè huā",
+        "translation": "那经受了秋霜浸染的枫叶，比早春二月盛开的鲜花还要艳丽通红！",
+        "explanation": "【霜叶】霜打过的枫叶。【红于】比……更红。【二月花】仲春二月的春花。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-shan-xing/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 霜叶红于二月花, mood of 山行, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-shan-xing/poem.webp"
+  },
+  {
+    "id": "he-zhi-zhang-yong-liu",
+    "title": "咏柳",
+    "title_pinyin": "yǒng liǔ",
+    "poet": "贺知章",
+    "poet_pinyin": "hè zhī zhāng",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "春天",
+      "柳树",
+      "自然",
+      "小学必背"
+    ],
+    "appreciation": "通过巧妙的拟人与设问，将初春柳树的新绿与柔韧写得神采飞扬。末两句以“不知细叶谁裁出，二月春风似剪刀”出人意表，把无形的春风具象化，灵动神妙。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "碧玉妆成一树高",
+        "pinyin": "bì yù zhuāng chéng yī shù gāo",
+        "translation": "高高的柳树宛如亭亭玉立的少女，被碧绿无瑕的美玉装扮一新，",
+        "explanation": "【碧玉】青绿色的美玉，比喻新绿柳叶。【妆成】装扮打扮而成。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/he-zhi-zhang-yong-liu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 碧玉妆成一树高, mood of 咏柳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 2,
+        "text": "万条垂下绿丝绦",
+        "pinyin": "wàn tiáo chuí xià lǜ sī tāo",
+        "translation": "千万条柔嫩纤细的柳枝袅袅下垂，宛如垂悬的绿色丝织飘带。",
+        "explanation": "【万条】无数柳枝。【绿丝绦】绿色的丝织带子。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/he-zhi-zhang-yong-liu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 万条垂下绿丝绦, mood of 咏柳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 3,
+        "text": "不知细叶谁裁出",
+        "pinyin": "bù zhī xì yè shuí cái chū",
+        "translation": "真不知道这细巧精致的柳叶究竟出自哪位巧手之人的裁剪？",
+        "explanation": "【裁出】裁剪出来。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/he-zhi-zhang-yong-liu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 不知细叶谁裁出, mood of 咏柳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      },
+      {
+        "line_no": 4,
+        "text": "二月春风似剪刀",
+        "pinyin": "èr yuè chūn fēng shì jiǎn dāo",
+        "translation": "原来正是那二月里轻拂大地的暖暖春风，宛如一把神奇灵巧的剪刀！",
+        "explanation": "【二月春风】仲春早春的和风。【似剪刀】比作神奇的裁锦剪刀。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/he-zhi-zhang-yong-liu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 二月春风似剪刀, mood of 咏柳, oriental aesthetic, masterwork watercolor. Consistent character reference applied across this poem."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/he-zhi-zhang-yong-liu/poem.webp"
+  },
+  {
+    "id": "du-mu-jiang-nan-chun",
+    "title": "江南春",
+    "title_pinyin": "jiāng nán chūn",
+    "poet": "杜牧",
+    "poet_pinyin": "dù mù",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "江南",
+      "春天",
+      "怀古",
+      "小学必背"
+    ],
+    "appreciation": "千里江南春景尽收笔底。莺啼绿红、水村山郭、酒旗掩映，又引出南朝四百八十寺在烟雨楼台中的历史兴衰感，意境开阔，画卷壮美。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "千里莺啼绿映红",
+        "pinyin": "qiān lǐ yīng tí lǜ yìng hóng",
+        "translation": "千里辽阔的江南水乡到处是黄莺啼鸣，红花绿叶交相辉映，",
+        "explanation": "【莺啼】黄莺欢鸣。【绿映红】红绿交映，形容江南春意极浓。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-jiang-nan-chun/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 千里莺啼绿映红, mood of 江南春, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "水村山郭酒旗风",
+        "pinyin": "shuǐ cūn shān guō jiǔ qí fēng",
+        "translation": "临水的村庄、依山的城郭旁，酒家的旗幡在春风中高高飘展。",
+        "explanation": "【水村】滨水渔村。【山郭】依山城郭。【酒旗】酒家招牌旗帜。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-jiang-nan-chun/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 水村山郭酒旗风, mood of 江南春, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "南朝四百八十寺",
+        "pinyin": "nán cháo sì bǎi bā shí sì",
+        "translation": "南朝当年修建的数以千计的庄严佛寺寺院，",
+        "explanation": "【南朝】宋齐梁陈四朝。【四百八十寺】虚指寺庙极其繁多。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-jiang-nan-chun/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 南朝四百八十寺, mood of 江南春, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "多少楼台烟雨中",
+        "pinyin": "duō shǎo lóu tái yān yǔ zhōng",
+        "translation": "如今有多少重重殿宇楼台，正笼罩在茫茫无际的蒙蒙烟雨之中！",
+        "explanation": "【楼台】殿堂楼阁。【烟雨】蒙蒙春雨与水雾。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-jiang-nan-chun/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 多少楼台烟雨中, mood of 江南春, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-jiang-nan-chun/poem.webp"
+  },
+  {
+    "id": "du-mu-qing-ming",
+    "title": "清明",
+    "title_pinyin": "qīng míng",
+    "poet": "杜牧",
+    "poet_pinyin": "dù mù",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "清明",
+      "烟雨",
+      "传统节日",
+      "小学必背"
+    ],
+    "appreciation": "传世清明第一绝唱。雨纷纷、欲断魂、借问酒家、牧童遥指杏花村。短短四句情景交融，起承转合自然天成，成为千百年来清明节最深沉温暖的文化符号。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "清明时节雨纷纷",
+        "pinyin": "qīng míng shí jié yǔ fēn fēn",
+        "translation": "清明节气到来的时候，绵绵密密的春雨淅淅沥沥下个不停，",
+        "explanation": "【清明时节】农历清明前后扫墓踏青之时。【雨纷纷】细雨连绵不绝。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-qing-ming/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 清明时节雨纷纷, mood of 清明, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "路上行人欲断魂",
+        "pinyin": "lù shàng xíng rén yù duàn hún",
+        "translation": "泥泞古道上冒雨奔波的旅人，神情凄迷恍惚、思亲之痛伤感欲绝。",
+        "explanation": "【断魂】形容极度悲伤凄凉，精神迷惘。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-qing-ming/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 路上行人欲断魂, mood of 清明, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "借问酒家何处有",
+        "pinyin": "jiè wèn jiǔ jiā hé chù yǒu",
+        "translation": "急切地询问路旁的放牛牧童：请问这附近哪儿有歇脚饮酒的小店？",
+        "explanation": "【借问】向人打听询问。【酒家】卖酒的客栈店铺。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-qing-ming/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 借问酒家何处有, mood of 清明, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "牧童遥指杏花村",
+        "pinyin": "mù tóng yáo zhǐ xìng huā cūn",
+        "translation": "牧童骑在牛背上抬起手来，远远指向那繁花似锦的杏花村庄。",
+        "explanation": "【牧童】放牧的小童。【遥指】远远指向。【杏花村】盛开杏花的村落。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-qing-ming/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 牧童遥指杏花村, mood of 清明, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-qing-ming/poem.webp"
+  },
+  {
+    "id": "liu-yu-xi-wang-dong-ting",
+    "title": "望洞庭",
+    "title_pinyin": "wàng dòng tíng",
+    "poet": "刘禹锡",
+    "poet_pinyin": "liú yǔ xī",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "山水",
+      "洞庭湖",
+      "月色",
+      "小学必背"
+    ],
+    "appreciation": "刘禹锡赴任途经洞庭湖所作。月光如水，湖面平如未磨之镜；青翠君山宛如白银盘中的青螺。比喻新奇巧妙，笔调清新空灵，勾勒出洞庭秋夜的宁静祥和。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "湖光秋月两相和",
+        "pinyin": "hú guāng qiū yuè liǎng xiāng hé",
+        "translation": "秋夜里清澈的洞庭湖水波光与皎洁月色融洽相合，",
+        "explanation": "【两相和】水光与月色和谐交融，融为一体。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-yu-xi-wang-dong-ting/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 湖光秋月两相和, mood of 望洞庭, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "潭面无风镜未磨",
+        "pinyin": "tán miàn wú fēng jìng wèi mó",
+        "translation": "平静的湖面上没有一丝微风，如同一面尚未打磨的巨大铜镜。",
+        "explanation": "【潭面】湖水表面。【镜未磨】古铜镜未经磨砺表面微朦，比喻湖面平柔无波。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-yu-xi-wang-dong-ting/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 潭面无风镜未磨, mood of 望洞庭, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "遥望洞庭山水翠",
+        "pinyin": "yáo wàng dòng tíng shān shuǐ cuì",
+        "translation": "远远眺望洞庭湖青山绿水的开阔胜景，",
+        "explanation": "【山水翠】指湖水与君山青翠碧绿。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-yu-xi-wang-dong-ting/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 遥望洞庭山水翠, mood of 望洞庭, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "白银盘里一青螺",
+        "pinyin": "bái yín pán lǐ yī qīng luó",
+        "translation": "那君山宛如在一只巨大的白银托盘中，安放着一枚小巧玲珑的青翠青螺。",
+        "explanation": "【白银盘】比喻皎洁波光的洞庭湖。【青螺】青色螺蛳，比喻湖中君山。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-yu-xi-wang-dong-ting/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 白银盘里一青螺, mood of 望洞庭, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-yu-xi-wang-dong-ting/poem.webp"
+  },
+  {
+    "id": "wei-ying-wu-chu-zhou-xi-jian",
+    "title": "滁州西涧",
+    "title_pinyin": "chú zhōu xī jiàn",
+    "poet": "韦应物",
+    "poet_pinyin": "wéi yīng wù",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "幽静",
+      "春景",
+      "自然",
+      "小学必背"
+    ],
+    "appreciation": "韦应物任滁州刺史时的写景绝唱。独怜幽草、深树黄鹂、春潮带雨、野渡无人舟自横。后两句意境极幽深悠远，表现出一种遗世独立的恬淡之美。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "独怜幽草涧边生",
+        "pinyin": "dú lián yōu cǎo jiàn biān shēng",
+        "translation": "我唯独喜爱那在溪涧水边静静萌生的小草，幽静而充满生机，",
+        "explanation": "【独怜】唯独喜爱。【幽草】幽僻清净处生长的小草。【涧】山谷小溪。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wei-ying-wu-chu-zhou-xi-jian/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 独怜幽草涧边生, mood of 滁州西涧, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "上有黄鹂深树鸣",
+        "pinyin": "shàng yǒu huáng lí shēn shù míng",
+        "translation": "幽草上方那浓密葱郁的深林树冠中，传来黄鹂鸟婉转清脆的啼叫。",
+        "explanation": "【深树】枝叶茂密的树林。【鸣】啼叫鸣唱。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wei-ying-wu-chu-zhou-xi-jian/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 上有黄鹂深树鸣, mood of 滁州西涧, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "春潮带雨晚来急",
+        "pinyin": "chūn cháo dài yǔ wǎn lái jí",
+        "translation": "傍晚时分春潮伴随着暴雨汹涌而至，溪水漫溢湍急奔腾，",
+        "explanation": "【春潮】春汛上涨的潮水。【晚来急】傍晚水势越来越凶急。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wei-ying-wu-chu-zhou-xi-jian/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 春潮带雨晚来急, mood of 滁州西涧, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "野渡无人舟自横",
+        "pinyin": "yě dù wú rén zhōu zì héng",
+        "translation": "荒野渡口上空无一人，只有一叶孤舟在水波拍击中自在地横斜漂泊。",
+        "explanation": "【野渡】荒郊外的野渡口。【舟自横】无人撑船，木船自由横斜漂浮。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wei-ying-wu-chu-zhou-xi-jian/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 野渡无人舟自横, mood of 滁州西涧, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wei-ying-wu-chu-zhou-xi-jian/poem.webp"
+  },
+  {
+    "id": "bai-ju-yi-mu-jiang-yin",
+    "title": "暮江吟",
+    "title_pinyin": "mù jiāng yín",
+    "poet": "白居易",
+    "poet_pinyin": "bái jū yì",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "秋夕",
+      "自然",
+      "夕阳",
+      "小学必背"
+    ],
+    "appreciation": "白居易赴任杭州途中所作。一道残阳铺水中，半江瑟瑟半江红；可怜九月初三夜，露似真珠月似弓。观察入微，色彩浓淡相谐，语言浅近如话，令人沉醉。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "一道残阳铺水中",
+        "pinyin": "yī dào cán yáng pù shuǐ zhōng",
+        "translation": "一抹绚丽的落日晚霞斜斜铺展倾洒在江水中央，",
+        "explanation": "【残阳】快要落山的夕阳。【铺】斜照在水面，体现夕阳低斜广阔。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-mu-jiang-yin/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 一道残阳铺水中, mood of 暮江吟, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "半江瑟瑟半江红",
+        "pinyin": "bàn jiāng sè sè bàn jiāng hóng",
+        "translation": "半边江水呈现出幽静碧绿的颜色，另外半边江水被夕阳染得一片通红！",
+        "explanation": "【瑟瑟】碧绿、深青色宝石名，这里指江水深绿。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-mu-jiang-yin/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 半江瑟瑟半江红, mood of 暮江吟, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "可怜九月初三夜",
+        "pinyin": "kě lián jiǔ yuè chū sān yè",
+        "translation": "最是令人怜爱迷醉的，当属这农历九月初三的宁静秋夜，",
+        "explanation": "【可怜】可爱、令人怜爱。【九月初三】农历初三，弯月初升之时。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-mu-jiang-yin/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 可怜九月初三夜, mood of 暮江吟, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "露似真珠月似弓",
+        "pinyin": "lù shì zhēn zhū yuè shì gōng",
+        "translation": "滴滴夜露宛如圆润璀璨的珍珠，天边初升的新月宛若一张精致弯弓！",
+        "explanation": "【真珠】即珍珠。【月似弓】初三弯月如弓。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-mu-jiang-yin/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 露似真珠月似弓, mood of 暮江吟, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-mu-jiang-yin/poem.webp"
+  },
+  {
+    "id": "meng-hao-ran-su-jian-de-jiang",
+    "title": "宿建德江",
+    "title_pinyin": "sù jiàn dé jiāng",
+    "poet": "孟浩然",
+    "poet_pinyin": "mèng hào rán",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "羁旅",
+      "江月",
+      "秋夜",
+      "小学必背"
+    ],
+    "appreciation": "移舟泊烟渚，日暮客愁新。野旷天低树，江清月近人。字字洗炼，客子孤舟夜泊，在空旷无边的天地间，唯有江中明月与人相伴，诗意空灵幽渺。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "移舟泊烟渚",
+        "pinyin": "yí zhōu pō yān zhǔ",
+        "translation": "将船划动靠岸，停泊在薄雾轻烟笼罩的小洲水渚旁，",
+        "explanation": "【移舟】摇动小船靠近岸边。【烟渚】烟雾笼罩的水中小洲。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-su-jian-de-jiang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 移舟泊烟渚, mood of 宿建德江, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "日暮客愁新",
+        "pinyin": "rì mù kè chóu xīn",
+        "translation": "暮色苍茫黄昏降临，羁旅异乡的心头又涌上阵阵崭新的离愁。",
+        "explanation": "【日暮】黄昏日落。【客愁】旅居在外游子的愁思。【新】新添生发。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-su-jian-de-jiang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 日暮客愁新, mood of 宿建德江, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "野旷天低树",
+        "pinyin": "yě kuàng tiān dī shù",
+        "translation": "极目远望原野一片空旷辽阔，远方的苍穹显得比树梢还要低垂，",
+        "explanation": "【野旷】原野旷远空阔。【天低树】天幕下垂，仿佛比树冠还低。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-su-jian-de-jiang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 野旷天低树, mood of 宿建德江, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "江清月近人",
+        "pinyin": "jiāng qīng yuè jìn rén",
+        "translation": "江水澄澈清亮，倒映在水中的明月仿佛与舟中孤独的人格外亲近！",
+        "explanation": "【江清】江水清澈。【月近人】倒映水中的月亮仿佛与人相伴咫尺。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-su-jian-de-jiang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 江清月近人, mood of 宿建德江, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/meng-hao-ran-su-jian-de-jiang/poem.webp"
+  },
+  {
+    "id": "du-fu-jiang-pan-du-bu-xun-hua",
+    "title": "江畔独步寻花",
+    "title_pinyin": "jiāng pàn dú bù xún huā",
+    "poet": "杜甫",
+    "poet_pinyin": "dù fǔ",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "春天",
+      "繁花",
+      "草堂",
+      "小学必背"
+    ],
+    "appreciation": "杜甫草堂春日寻花的欢畅名作。黄四娘家花满蹊，千朵万朵压枝低。留连戏蝶时时舞，自在娇莺恰恰啼。充满对生活与春光的热爱。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "黄四娘家花满蹊",
+        "pinyin": "huáng sì niáng jiā huā mǎn qī",
+        "translation": "黄四娘家周围的花儿开得茂密繁盛，把整个院外的小路都挤满了，",
+        "explanation": "【黄四娘】杜甫在草堂附近的邻居妇人。【蹊】小路、花径。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jiang-pan-du-bu-xun-hua/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 黄四娘家花满蹊, mood of 江畔独步寻花, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "千朵万朵压枝低",
+        "pinyin": "qiān duǒ wàn duǒ yā zhī dī",
+        "translation": "千朵万朵怒放的花儿繁密沉甸，将柔软的枝条都压得低垂下来。",
+        "explanation": "【千朵万朵】极言花朵之多。【压枝低】花重压低枝头。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jiang-pan-du-bu-xun-hua/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 千朵万朵压枝低, mood of 江畔独步寻花, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "留连戏蝶时时舞",
+        "pinyin": "liú lián xì dié shí shí wǔ",
+        "translation": "恋恋不舍的彩蝶在花间欢畅嬉戏，时时翩翩起舞，",
+        "explanation": "【留连】依依不舍。【戏蝶】嬉戏的蝴蝶。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jiang-pan-du-bu-xun-hua/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 留连戏蝶时时舞, mood of 江畔独步寻花, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "自在娇莺恰恰啼",
+        "pinyin": "zì zài jiāo yīng qià qià tí",
+        "translation": "自由自在娇小玲珑的黄莺，正发出恰到好处、清脆宛转的欢鸣！",
+        "explanation": "【娇莺】可爱可人的黄莺鸟。【恰恰啼】鸣叫声音和谐适意。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jiang-pan-du-bu-xun-hua/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 自在娇莺恰恰啼, mood of 江畔独步寻花, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-fu-jiang-pan-du-bu-xun-hua/poem.webp"
+  },
+  {
+    "id": "li-bai-jing-ye-si",
+    "title": "静夜思",
+    "title_pinyin": "jìng yè sī",
+    "poet": "李白",
+    "poet_pinyin": "lǐ bái",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "思乡",
+      "明月",
+      "传世名篇",
+      "小学必背"
+    ],
+    "appreciation": "千百年来全球华人最耳熟能详的绝唱。不假雕饰，直抒胸臆，借客舍床前的清冷月色，唤起最深切普遍的故乡之思，言简意赅，韵味悠长。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "床前明月光",
+        "pinyin": "chuáng qián míng yuè guāng",
+        "translation": "皎洁明亮的月光静静洒落在床榻前地面上，",
+        "explanation": "【床前】床榻或井栏前。【明月光】皎洁的月光。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-jing-ye-si/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 床前明月光, mood of 静夜思, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "疑是地上霜",
+        "pinyin": "yí shì dì shàng shuāng",
+        "translation": "清冷银白的光芒，恍惚间让人怀疑是初冬洒满地面的严霜。",
+        "explanation": "【疑是】好像是、怀疑是。【地上霜】清冷秋霜。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-jing-ye-si/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 疑是地上霜, mood of 静夜思, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "举头望明月",
+        "pinyin": "jǔ tóu wàng míng yuè",
+        "translation": "忍不住抬起头来，凝望着夜空中那轮高悬的明月，",
+        "explanation": "【举头】抬头。【望】远望凝视。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-jing-ye-si/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 举头望明月, mood of 静夜思, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "低头思故乡",
+        "pinyin": "dī tóu sī gù xiāng",
+        "translation": "默默低下头来，对远方故乡与亲人的深切思念涌上心头！",
+        "explanation": "【思】思念牵挂。【故乡】家乡。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-jing-ye-si/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 低头思故乡, mood of 静夜思, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-jing-ye-si/poem.webp"
+  },
+  {
+    "id": "li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling",
+    "title": "黄鹤楼送孟浩然之广陵",
+    "title_pinyin": "huáng hè lóu sòng mèng hào rán zhī guǎng líng",
+    "poet": "李白",
+    "poet_pinyin": "lǐ bái",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "送别",
+      "友情",
+      "长江",
+      "小学必背"
+    ],
+    "appreciation": "李白送别好友孟浩然的名作。故人西辞、烟花三月、孤帆远影、唯见长江。全诗将深厚纯真的友情融入繁华春景与滚滚江流之中，意境浩瀚，神采飞扬。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "故人西辞黄鹤楼",
+        "pinyin": "gù rén xī cí huáng hè lóu",
+        "translation": "老朋友孟浩然在西面的黄鹤楼向我挥手告别，",
+        "explanation": "【故人】老友，指孟浩然。【西辞】在西边的黄鹤楼告别东行。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 故人西辞黄鹤楼, mood of 黄鹤楼送孟浩然之广陵, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "烟花三月下扬州",
+        "pinyin": "yān huā sān yuè xià yáng zhōu",
+        "translation": "在这春光明媚、如烟似霞的三月阳春，顺江东下前往繁华的扬州。",
+        "explanation": "【烟花三月】繁花似锦、柳絮如烟的三月阳春。【下扬州】顺江而下去扬州（广陵）。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 烟花三月下扬州, mood of 黄鹤楼送孟浩然之广陵, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "孤帆远影碧空尽",
+        "pinyin": "gū fān yuǎn yǐng bì kōng jǐn",
+        "translation": "那载着好友的一叶孤舟影子越走越远，终于消失在蔚蓝晴空的尽头，",
+        "explanation": "【孤帆】孤舟船帆。【碧空尽】在碧蓝水天交界处隐没消失。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 孤帆远影碧空尽, mood of 黄鹤楼送孟浩然之广陵, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "唯见长江天际流",
+        "pinyin": "wéi jiàn zhǎng jiāng tiān jì liú",
+        "translation": "眼前只见浩浩荡荡的长江水，奔流不息地涌向浩渺无际的天边！",
+        "explanation": "【唯见】只见。【天际流】流向天边，借滔滔江水寄托无限依依惜别之情。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 唯见长江天际流, mood of 黄鹤楼送孟浩然之广陵, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling/poem.webp"
+  },
+  {
+    "id": "li-bai-zeng-wang-lun",
+    "title": "赠汪伦",
+    "title_pinyin": "zèng wāng lún",
+    "poet": "李白",
+    "poet_pinyin": "lǐ bái",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "友情",
+      "送别",
+      "真挚",
+      "小学必背"
+    ],
+    "appreciation": "李白游安徽泾县桃花潭时所作。李白乘舟将行，汪伦踏歌送别，桃花潭水深千尺，不及汪伦送我情。比喻纯粹真切，自然率真，友情万古流芳。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "李白乘舟将欲行",
+        "pinyin": "lǐ bái chéng zhōu jiāng yù xíng",
+        "translation": "我李白正坐上小船准备起锚远行，",
+        "explanation": "【乘舟】坐船。【将欲行】正要出发前行。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-zeng-wang-lun/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 李白乘舟将欲行, mood of 赠汪伦, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "忽闻岸上踏歌声",
+        "pinyin": "hū wén àn shàng tà gē shēng",
+        "translation": "忽然听见岸上传来伴着节拍踏地而歌的欢快歌声。",
+        "explanation": "【忽闻】忽然听见。【踏歌】民间一边唱歌一边用脚踏地打拍子。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-zeng-wang-lun/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 忽闻岸上踏歌声, mood of 赠汪伦, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "桃花潭水深千尺",
+        "pinyin": "táo huā tán shuǐ shēn qiān chǐ",
+        "translation": "纵然那桃花潭的潭水有上千尺那样深邃幽远，",
+        "explanation": "【桃花潭】在今安徽泾县西南。【深千尺】极言潭水极深。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-zeng-wang-lun/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 桃花潭水深千尺, mood of 赠汪伦, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "不及汪伦送我情",
+        "pinyin": "bù jí wāng lún sòng wǒ qíng",
+        "translation": "也远远比不上老朋友汪伦前来为我送行的深情厚谊！",
+        "explanation": "【不及】比不上。【送我情】汪伦送别的情谊。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-zeng-wang-lun/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 不及汪伦送我情, mood of 赠汪伦, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-zeng-wang-lun/poem.webp"
+  },
+  {
+    "id": "wang-wei-jiu-yue-jiu-ri-yi-shan-dong-xiong-di",
+    "title": "九月九日忆山东兄弟",
+    "title_pinyin": "jiǔ yuè jiǔ rì yì shān dōng xiōng dì",
+    "poet": "王维",
+    "poet_pinyin": "wáng wéi",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "重阳",
+      "思亲",
+      "思乡",
+      "小学必背"
+    ],
+    "appreciation": "少年王维十七岁漫游长安时所作。独在异乡为异客，每逢佳节倍思亲。遥知兄弟登高处，遍插茱萸少一人。全诗直抒胸臆，成为千古佳节思亲代名词。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "独在异乡为异客",
+        "pinyin": "dú zài yì xiāng wèi yì kè",
+        "translation": "我独自一人漂泊远离家乡，在这陌生的异地做客，",
+        "explanation": "【独】独自一人。【异乡】他乡。【异客】寄居在外的客人。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-jiu-yue-jiu-ri-yi-shan-dong-xiong-di/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 独在异乡为异客, mood of 九月九日忆山东兄弟, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "每逢佳节倍思亲",
+        "pinyin": "měi féng jiā jié bèi sī qīn",
+        "translation": "每当遇到欢聚团圆的良辰佳节，内心便成倍地思念远方的亲人。",
+        "explanation": "【佳节】美好的节日（如重阳）。【倍】加倍、更加。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-jiu-yue-jiu-ri-yi-shan-dong-xiong-di/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 每逢佳节倍思亲, mood of 九月九日忆山东兄弟, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "遥知兄弟登高处",
+        "pinyin": "yáo zhī xiōng dì dēng gāo chù",
+        "translation": "远远想到远方的家乡兄弟们，一定正按照习俗登临高山峰顶，",
+        "explanation": "【遥知】远远想见。【登高】重阳节登高辟邪之风俗。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-jiu-yue-jiu-ri-yi-shan-dong-xiong-di/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 遥知兄弟登高处, mood of 九月九日忆山东兄弟, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "遍插茱萸少一人",
+        "pinyin": "biàn chā zhū yú shǎo yī rén",
+        "translation": "大家都佩戴着避邪的鲜红茱萸，却发现席间唯独少了我一个人！",
+        "explanation": "【茱萸】一种香气浓烈的植物，古人重阳佩戴以辟邪。【少一人】单单缺少我一个。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-jiu-yue-jiu-ri-yi-shan-dong-xiong-di/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 遍插茱萸少一人, mood of 九月九日忆山东兄弟, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-jiu-yue-jiu-ri-yi-shan-dong-xiong-di/poem.webp"
+  },
+  {
+    "id": "wang-wei-song-yuan-er-shi-an-xi",
+    "title": "送元二使安西",
+    "title_pinyin": "sòng yuán èr shǐ ān xī",
+    "poet": "王维",
+    "poet_pinyin": "wáng wéi",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "送别",
+      "西域",
+      "友情",
+      "小学必背"
+    ],
+    "appreciation": "又名《阳关三叠》《渭城曲》。朝雨浥尘、客舍青青、劝君更尽一杯酒，西出阳关无故人。真挚温润，后来被谱入古琴名曲，千古流传。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "渭城朝雨浥轻尘",
+        "pinyin": "wèi chéng cháo yǔ yì qīng chén",
+        "translation": "清晨渭城的一场细雨，湿润了驿道上飞扬的轻尘，",
+        "explanation": "【渭城】在今陕西咸阳东北。【朝雨】早晨的雨。【浥】湿润、沾湿。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-song-yuan-er-shi-an-xi/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 渭城朝雨浥轻尘, mood of 送元二使安西, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "客舍青青柳色新",
+        "pinyin": "kè shě qīng qīng liǔ sè xīn",
+        "translation": "客栈旅舍周围青翠欲滴，柳树的枝叶被春雨洗刷得焕然一新。",
+        "explanation": "【客舍】旅馆驿舍。【柳色新】柳树抽新芽，古人折柳送别。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-song-yuan-er-shi-an-xi/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 客舍青青柳色新, mood of 送元二使安西, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "劝君更尽一杯酒",
+        "pinyin": "quàn jūn gèng jǐn yī bēi jiǔ",
+        "translation": "再真诚地劝好友你饮尽这杯离别的醇厚美酒，",
+        "explanation": "【劝君】劝你。【更尽】再喝光。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-song-yuan-er-shi-an-xi/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 劝君更尽一杯酒, mood of 送元二使安西, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "西出阳关无故人",
+        "pinyin": "xī chū yáng guān wú gù rén",
+        "translation": "因为向西一旦出了荒凉险远的阳关古隘，就再也没有亲近的老朋友了！",
+        "explanation": "【阳关】古关名，在今甘肃敦煌西南。【无故人】没有老朋友，点出塞外苍茫与别情之深。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-song-yuan-er-shi-an-xi/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 西出阳关无故人, mood of 送元二使安西, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-song-yuan-er-shi-an-xi/poem.webp"
+  },
+  {
+    "id": "he-zhi-zhang-hui-xiang-ou-shu",
+    "title": "回乡偶书",
+    "title_pinyin": "huí xiāng ǒu shū",
+    "poet": "贺知章",
+    "poet_pinyin": "hè zhī zhāng",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "思乡",
+      "归乡",
+      "岁月",
+      "小学必背"
+    ],
+    "appreciation": "八十六岁高龄告老还乡的贺知章所作。离家半个多世纪，鬓发已白乡音未改，村童相迎却当作远方来客笑问何来。平淡质朴中饱含深沉浩叹，沧桑动人。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "少小离家老大回",
+        "pinyin": "shào xiǎo lí jiā lǎo dà huí",
+        "translation": "少年轻狂时离家远行求仕，如今年迈衰老才得以返回家乡，",
+        "explanation": "【少小】年轻幼小时。【老大】年老长者。【回】回到故乡。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/he-zhi-zhang-hui-xiang-ou-shu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 少小离家老大回, mood of 回乡偶书, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "乡音无改鬓毛衰",
+        "pinyin": "xiāng yīn wú gǎi bìn máo shuāi",
+        "translation": "家乡亲切的口音虽然未曾改变，两鬓的斑白头发却早已稀疏零落。",
+        "explanation": "【乡音】家乡方言口音。【鬓毛衰】两鬓头发稀疏变白，读音cuī。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/he-zhi-zhang-hui-xiang-ou-shu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 乡音无改鬓毛衰, mood of 回乡偶书, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "儿童相见不相识",
+        "pinyin": "ér tóng xiāng jiàn bù xiāng shí",
+        "translation": "村里嬉戏天真的孩童们看见我，都不认识我这个白发老人，",
+        "explanation": "【不相识】不认得、不知道是谁。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/he-zhi-zhang-hui-xiang-ou-shu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 儿童相见不相识, mood of 回乡偶书, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "笑问客从何处来",
+        "pinyin": "xiào wèn kè cóng hé chù lái",
+        "translation": "他们天真地笑着迎上来打听询问：老客人，您是从什么地方来的呀？",
+        "explanation": "【客】客人，老归故乡却被当作外来客人，悲喜交集。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/he-zhi-zhang-hui-xiang-ou-shu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 笑问客从何处来, mood of 回乡偶书, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/he-zhi-zhang-hui-xiang-ou-shu/poem.webp"
+  },
+  {
+    "id": "bai-ju-yi-fu-de-gu-yuan-cao-song-bie",
+    "title": "赋得古原草送别",
+    "title_pinyin": "fù dé gǔ yuán cǎo sòng bié",
+    "poet": "白居易",
+    "poet_pinyin": "bái jū yì",
+    "dynasty": "唐",
+    "form": "五言律诗",
+    "tags": [
+      "送别",
+      "草",
+      "生命力",
+      "小学必背"
+    ],
+    "appreciation": "白居易十六岁应考成名作。“野火烧不尽，春风吹又生”成为歌颂顽强不屈生命力的千古格言，后半首融入古道斜阳送别王孙的依依别情，格调高古。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "离离原上草",
+        "pinyin": "lí lí yuán shàng cǎo",
+        "translation": "原野上青草长得茂盛而绵延不绝，",
+        "explanation": "【离离】草木茂盛连绵的样子。【原】辽阔的原野。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-fu-de-gu-yuan-cao-song-bie/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 离离原上草, mood of 赋得古原草送别, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "一岁一枯荣",
+        "pinyin": "yī suì yī kū róng",
+        "translation": "每年秋冬枯萎凋零，每到春夏又重新繁荣蓬勃。",
+        "explanation": "【岁】年。【枯】干枯凋零。【荣】茂盛繁衍。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-fu-de-gu-yuan-cao-song-bie/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 一岁一枯荣, mood of 赋得古原草送别, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "野火烧不尽",
+        "pinyin": "yě huǒ shāo bù jìn",
+        "translation": "即便无情的荒野大火将地面烧成灰烬，",
+        "explanation": "【野火】荒原焚烧之火。【不尽】无法将其根须彻底烧绝。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-fu-de-gu-yuan-cao-song-bie/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 野火烧不尽, mood of 赋得古原草送别, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "春风吹又生",
+        "pinyin": "chūn fēng chuī yòu shēng",
+        "translation": "待到明媚的春风徐徐吹拂，那绿意又会破土重生！",
+        "explanation": "【又生】再度蓬勃萌发，极写生命力之坚韧。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-fu-de-gu-yuan-cao-song-bie/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 春风吹又生, mood of 赋得古原草送别, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 5,
+        "text": "远芳侵古道",
+        "pinyin": "yuǎn fāng qīn gǔ dào",
+        "translation": "野草散发的清芬芳香蔓延侵占了荒凉的古驿道，",
+        "explanation": "【远芳】蔓延向远方的芳草。【侵】蔓延遮盖。【古道】古代驿道。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-fu-de-gu-yuan-cao-song-bie/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 远芳侵古道, mood of 赋得古原草送别, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 6,
+        "text": "晴翠接荒城",
+        "pinyin": "qíng cuì jiē huāng chéng",
+        "translation": "阳光下青翠欲滴的草色连接着残破废弃的荒凉古城。",
+        "explanation": "【晴翠】晴阳照耀下的翠绿草色。【荒城】荒凉的旧城池。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-fu-de-gu-yuan-cao-song-bie/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 晴翠接荒城, mood of 赋得古原草送别, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 7,
+        "text": "又送王孙去",
+        "pinyin": "yòu sòng wáng sūn qù",
+        "translation": "如今我在这漫漫青草地上，又要送别亲密的好友远行而去，",
+        "explanation": "【王孙】古代对贵族子弟或尊贵友人的泛称。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-fu-de-gu-yuan-cao-song-bie/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 又送王孙去, mood of 赋得古原草送别, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 8,
+        "text": "萋萋满别情",
+        "pinyin": "qī qī mǎn bié qíng",
+        "translation": "那茂盛丰盈的青草芳甸，仿佛也填满了无尽的离别深情！",
+        "explanation": "【萋萋】草木茂密的样子。【满别情】芳草无尽，离情亦无尽。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-fu-de-gu-yuan-cao-song-bie/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 萋萋满别情, mood of 赋得古原草送别, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-fu-de-gu-yuan-cao-song-bie/poem.webp"
+  },
+  {
+    "id": "zhang-ji-feng-qiao-ye-po",
+    "title": "枫桥夜泊",
+    "title_pinyin": "fēng qiáo yè pō",
+    "poet": "张继",
+    "poet_pinyin": "zhāng jì",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "羁旅",
+      "夜泊",
+      "寒山寺",
+      "小学必背"
+    ],
+    "appreciation": "安史之乱后避难江南所作。月落乌啼、霜满天、江枫渔火、对愁眠，夜半钟声到客船。秋夜凄清，羁旅失眠，寒山寺悠扬空灵的钟声穿透千年，成为水乡夜景绝响。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "月落乌啼霜满天",
+        "pinyin": "yuè luò wū tí shuāng mǎn tiān",
+        "translation": "残月渐渐沉落，乌鸦在枝头发出阵阵啼鸣，天地间弥漫着清冷冰凉的寒霜，",
+        "explanation": "【乌啼】乌鸦啼叫。【霜满天】秋霜弥漫天地，形容寒意浓重。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/zhang-ji-feng-qiao-ye-po/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 月落乌啼霜满天, mood of 枫桥夜泊, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "江枫渔火对愁眠",
+        "pinyin": "jiāng fēng yú huǒ duì chóu mián",
+        "translation": "面对着江边的红枫树与江面上渔舟闪烁的点点灯火，舟中人满怀羁旅愁思难以入眠。",
+        "explanation": "【江枫】江边的枫树。【渔火】渔船上的灯火。【对愁眠】伴着满腹愁绪难以入睡。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/zhang-ji-feng-qiao-ye-po/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 江枫渔火对愁眠, mood of 枫桥夜泊, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "姑苏城外寒山寺",
+        "pinyin": "gū sū chéng wài hán shān sì",
+        "translation": "在姑苏城外那座古老幽静的寒山寺院里，",
+        "explanation": "【姑苏】苏州古称。【寒山寺】苏州阊门外的千年古刹。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/zhang-ji-feng-qiao-ye-po/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 姑苏城外寒山寺, mood of 枫桥夜泊, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "夜半钟声到客船",
+        "pinyin": "yè bàn zhōng shēng dào kè chuán",
+        "translation": "半夜里敲响的那悠扬深沉的青铜钟声，飘荡着传到了我这叶孤舟客船上来！",
+        "explanation": "【夜半钟声】半夜古寺敲响的幽深钟鸣。【客船】旅人乘坐的客舟。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/zhang-ji-feng-qiao-ye-po/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 夜半钟声到客船, mood of 枫桥夜泊, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/zhang-ji-feng-qiao-ye-po/poem.webp"
+  },
+  {
+    "id": "gao-shi-bie-dong-da",
+    "title": "别董大",
+    "title_pinyin": "bié dǒng dà",
+    "poet": "高适",
+    "poet_pinyin": "gāo shì",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "送别",
+      "豪迈",
+      "知己",
+      "小学必背"
+    ],
+    "appreciation": "高适与著名琴师董庭兰临别之作。千里黄云白日曛，北风吹雁雪纷纷。莫愁前路无知己，天下谁人不识君！慷慨激昂，扫尽送别诗的儿女情长，豪迈博大。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "千里黄云白日曛",
+        "pinyin": "qiān lǐ huáng yún bái rì xūn",
+        "translation": "千里苍穹遮蔽着昏黄的阴云，红日在大风沙尘中显得一片昏暗，",
+        "explanation": "【黄云】荒漠风沙卷起的黄色沙云。【曛】昏暗日落之色。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/gao-shi-bie-dong-da/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 千里黄云白日曛, mood of 别董大, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "北风吹雁雪纷纷",
+        "pinyin": "běi fēng chuī yàn xuě fēn fēn",
+        "translation": "凛冽刺骨的北风呼啸吹卷，南飞的大雁排空而过，漫天大雪纷纷扬扬。",
+        "explanation": "【吹雁】吹卷飞雁。【雪纷纷】大雪飘落之貌。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/gao-shi-bie-dong-da/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 北风吹雁雪纷纷, mood of 别董大, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "莫愁前路无知己",
+        "pinyin": "mò chóu qián lù wú zhī jǐ",
+        "translation": "不要忧虑未来的漫漫前路上没有理解自己的知心好友，",
+        "explanation": "【莫愁】不要担忧发愁。【知己】知心知音的好友。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/gao-shi-bie-dong-da/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 莫愁前路无知己, mood of 别董大, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "天下谁人不识君",
+        "pinyin": "tiān xià shuí rén bù shí jūn",
+        "translation": "普天之下举目四海，有哪一个人不敬仰认识先生您的高超才华呢！",
+        "explanation": "【识君】赏识知晓你。豪迈豁达，给予友人莫大鼓舞。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/gao-shi-bie-dong-da/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 天下谁人不识君, mood of 别董大, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/gao-shi-bie-dong-da/poem.webp"
+  },
+  {
+    "id": "wang-chang-ling-fu-rong-lou-song-xin-jian",
+    "title": "芙蓉楼送辛渐",
+    "title_pinyin": "fú róng lóu sòng xīn jiàn",
+    "poet": "王昌龄",
+    "poet_pinyin": "wáng chāng líng",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "送别",
+      "高洁",
+      "冰心",
+      "小学必背"
+    ],
+    "appreciation": "寒雨连江夜入吴，平明送客楚山孤。洛阳亲友如相问，一片冰心在玉壶。王昌龄借清澈无瑕的冰心玉壶，表达自己清正廉洁、坚贞不屈的高洁情操。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "寒雨连江夜入吴",
+        "pinyin": "hán yǔ lián jiāng yè rù wú",
+        "translation": "迷蒙清冷的夜雨连绵笼罩长江，在漫漫长夜里悄悄注入这吴地江山，",
+        "explanation": "【寒雨】清冷秋雨。【连江】烟雨笼罩江天。【吴】江南吴地镇江一带。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-chang-ling-fu-rong-lou-song-xin-jian/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 寒雨连江夜入吴, mood of 芙蓉楼送辛渐, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "平明送客楚山孤",
+        "pinyin": "píng míng sòng kè chǔ shān gū",
+        "translation": "清晨破晓时分在江楼送别挚友，举目望去楚地群山显得格外孤单寂寥。",
+        "explanation": "【平明】天亮拂晓。【楚山孤】以楚山的孤独映衬离别的寂寞孤清。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-chang-ling-fu-rong-lou-song-xin-jian/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 平明送客楚山孤, mood of 芙蓉楼送辛渐, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "洛阳亲友如相问",
+        "pinyin": "luò yáng qīn yǒu rú xiāng wèn",
+        "translation": "到了洛阳之后，如果那里的亲朋好友问起我的近况，",
+        "explanation": "【相问】打听问候。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-chang-ling-fu-rong-lou-song-xin-jian/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 洛阳亲友如相问, mood of 芙蓉楼送辛渐, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "一片冰心在玉壶",
+        "pinyin": "yī piàn bīng xīn zài yù hú",
+        "translation": "请告诉他们：我依然如从前一样，一片纯洁坚贞的冰心，安放在晶莹剔透的玉壶之中！",
+        "explanation": "【冰心】晶莹纯洁如冰的心。【玉壶】纯净玉质的容器，比喻品格冰清玉洁。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-chang-ling-fu-rong-lou-song-xin-jian/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 一片冰心在玉壶, mood of 芙蓉楼送辛渐, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-chang-ling-fu-rong-lou-song-xin-jian/poem.webp"
+  },
+  {
+    "id": "li-shang-yin-ye-yu-ji-bei",
+    "title": "夜雨寄北",
+    "title_pinyin": "yè yǔ jì běi",
+    "poet": "李商隐",
+    "poet_pinyin": "lǐ shāng yǐn",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "思念",
+      "秋雨",
+      "寄怀",
+      "初中必背"
+    ],
+    "appreciation": "君问归期未有期，巴山夜雨涨秋池。何当共剪西窗烛，却话巴山夜雨时。时空交错，虚实相生，把巴山夜雨的孤寂与未来相聚的温情写得百转千回，深情动人。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "君问归期未有期",
+        "pinyin": "jūn wèn guī qī wèi yǒu qī",
+        "translation": "你来信询问我何时能够归来，可我归家的日期如今仍无法确定，",
+        "explanation": "【君】妻子或好友。【归期】回家的日期。【未有期】没有确定之时。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shang-yin-ye-yu-ji-bei/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 君问归期未有期, mood of 夜雨寄北, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "巴山夜雨涨秋池",
+        "pinyin": "bā shān yè yǔ zhǎng qiū chí",
+        "translation": "此刻巴山漫漫长夜里秋雨连绵倾盆，早已涨满了院中的池塘。",
+        "explanation": "【巴山】大巴山一带。【涨秋池】秋雨磅礴使得池水涨满溢出。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shang-yin-ye-yu-ji-bei/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 巴山夜雨涨秋池, mood of 夜雨寄北, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "何当共剪西窗烛",
+        "pinyin": "hé dāng gòng jiǎn xī chuāng zhú",
+        "translation": "究竟何时我们才能重聚在西窗之下，一起亲手修剪那明亮的蜡烛芯，",
+        "explanation": "【何当】什么时候能够。【共剪西窗烛】夫妻知己促膝长谈之温情。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shang-yin-ye-yu-ji-bei/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 何当共剪西窗烛, mood of 夜雨寄北, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "却话巴山夜雨时",
+        "pinyin": "què huà bā shān yè yǔ shí",
+        "translation": "到那时再回过头来，向你细细诉说今夜我在巴山深处听雨时的无尽相思！",
+        "explanation": "【却话】再谈论回叙。【巴山夜雨时】回首今夜巴山孤寂之雨境。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shang-yin-ye-yu-ji-bei/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 却话巴山夜雨时, mood of 夜雨寄北, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shang-yin-ye-yu-ji-bei/poem.webp"
+  },
+  {
+    "id": "wang-wei-xiang-si",
+    "title": "相思",
+    "title_pinyin": "xiāng sī",
+    "poet": "王维",
+    "poet_pinyin": "wáng wéi",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "红豆",
+      "相思",
+      "深情",
+      "小学必背"
+    ],
+    "appreciation": "红豆生南国，春来发几枝。愿君多采撷，此物最相思。以象征相思的南国红豆起兴，语浅情深，委婉含蓄，成为千古寄托相思真情的绝美诗章。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "红豆生南国",
+        "pinyin": "hóng dòu shēng nán guó",
+        "translation": "象征相思情深的红豆，生长在温润明媚的南方土地上，",
+        "explanation": "【红豆】相思子，南国红豆果实鲜红光润，古来象征纯真爱恋相思。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-xiang-si/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 红豆生南国, mood of 相思, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "春来发几枝",
+        "pinyin": "chūn lái fā jǐ zhī",
+        "translation": "当春天到来的时候，它又悄然萌发出了多少嫩绿的枝条呢？",
+        "explanation": "【发几枝】生长抽出几根新枝，寄托生机与情意。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-xiang-si/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 春来发几枝, mood of 相思, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "愿君多采撷",
+        "pinyin": "yuàn jūn duō cǎi xié",
+        "translation": "希望你远在南方的朋友能够多多采摘那些娇艳的红豆，",
+        "explanation": "【采撷】采摘、摘取。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-xiang-si/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 愿君多采撷, mood of 相思, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "此物最相思",
+        "pinyin": "cǐ wù zuì xiāng sī",
+        "translation": "因为这种小巧鲜红的植物，最能寄托人世间最深切真挚的相思！",
+        "explanation": "【相思】牵挂思念，情深意重。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-xiang-si/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 此物最相思, mood of 相思, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-xiang-si/poem.webp"
+  },
+  {
+    "id": "wang-wei-lu-chai",
+    "title": "鹿柴",
+    "title_pinyin": "lù chái",
+    "poet": "王维",
+    "poet_pinyin": "wáng wéi",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "禅意",
+      "空山",
+      "山水",
+      "小学必背"
+    ],
+    "appreciation": "空山不见人，但闻人语响。返景入深林，复照青苔上。以动衬静，以声衬幽，在幽深空寂的山林之中，一抹夕阳返照在青苔之上，充满了禅境的空灵澄澈。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "空山不见人",
+        "pinyin": "kōng shān bú jiàn rén",
+        "translation": "空旷幽深的山林之中看不见半个人影，",
+        "explanation": "【空山】空旷寂静的深山。【鹿柴】读音lù zhài，王维辋川别业胜景之一。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-lu-chai/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 空山不见人, mood of 鹿柴, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "但闻人语响",
+        "pinyin": "dàn wén rén yǔ xiǎng",
+        "translation": "只是偶尔隐隐约约听见不知何处传来的人们说笑的话音。",
+        "explanation": "【但闻】只听见。【人语响】隐约人声回响，更显山谷空旷幽寂。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-lu-chai/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 但闻人语响, mood of 鹿柴, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "返景入深林",
+        "pinyin": "fǎn jǐng rù shēn lín",
+        "translation": "夕阳返照的一抹绚丽光芒穿透繁茂的枝叶，洒入幽暗深邃的树林深处，",
+        "explanation": "【返景】夕阳回照之光，景同“影”。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-lu-chai/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 返景入深林, mood of 鹿柴, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "复照青苔上",
+        "pinyin": "fù zhào qīng tái shàng",
+        "translation": "又静静照耀在岩石斑驳碧绿的潮湿青苔之上。",
+        "explanation": "【复照】再次照亮。【青苔】阴湿地生长的苔藓，幽光与青苔相互映衬。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-lu-chai/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 复照青苔上, mood of 鹿柴, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-lu-chai/poem.webp"
+  },
+  {
+    "id": "wang-wei-zhu-li-guan",
+    "title": "竹里馆",
+    "title_pinyin": "zhú lǐ guǎn",
+    "poet": "王维",
+    "poet_pinyin": "wáng wéi",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "弹琴",
+      "修竹",
+      "月色",
+      "初中必背"
+    ],
+    "appreciation": "独坐幽篁里，弹琴复长啸。深林人不知，明月来相照。王维隐居辋川的自适之作。高雅绝俗，以琴声、长啸、修竹、明月构筑起超脱尘世的宁静心境。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "独坐幽篁里",
+        "pinyin": "dú zuò yōu huáng lǐ",
+        "translation": "我独自一人静静坐在幽深茂密的翠竹林间，",
+        "explanation": "【幽篁】幽深茂密的竹林。【独坐】安详静坐。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-zhu-li-guan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 独坐幽篁里, mood of 竹里馆, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "弹琴复长啸",
+        "pinyin": "tán qín fù cháng xiào",
+        "translation": "一边轻抚古琴弹奏高雅的曲调，一边昂首发出悠长畅快的长啸。",
+        "explanation": "【弹琴】弹奏七弦古琴。【长啸】高歌、长舒胸中清气。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-zhu-li-guan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 弹琴复长啸, mood of 竹里馆, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "深林人不知",
+        "pinyin": "shēn lín rén bù zhī",
+        "translation": "这深邃竹林清幽隐秘，世俗之人都不知道我在这儿，",
+        "explanation": "【深林】深邃林壑。【人不知】尘世无人知晓打扰。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-zhu-li-guan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 深林人不知, mood of 竹里馆, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "明月来相照",
+        "pinyin": "míng yuè lái xiāng zhào",
+        "translation": "唯有夜空中那轮晶莹清澈的明月，穿透竹梢静静前来相伴映照！",
+        "explanation": "【来相照】照拂相伴，把明月当得知己知音。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-zhu-li-guan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 明月来相照, mood of 竹里馆, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-zhu-li-guan/poem.webp"
+  },
+  {
+    "id": "wang-wei-shan-ju-qiu-ming",
+    "title": "山居秋暝",
+    "title_pinyin": "shān jū qiū míng",
+    "poet": "王维",
+    "poet_pinyin": "wáng wéi",
+    "dynasty": "唐",
+    "form": "五言律诗",
+    "tags": [
+      "秋山",
+      "山居",
+      "禅意",
+      "高中必背"
+    ],
+    "appreciation": "空山新雨后，天气晚来秋。明月松间照，清泉石上流。竹喧归浣女，莲动下渔舟。随意春芳歇，王孙自可留。王维山水田园诗集大成之作，诗中有画，画中有诗。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "空山新雨后",
+        "pinyin": "kōng shān xīn yǔ hòu",
+        "translation": "空旷寂静的群山刚刚沐浴过一场清新的初秋细雨，",
+        "explanation": "【新雨】初下的雨水。【空山】空明寂静的山野。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-shan-ju-qiu-ming/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 空山新雨后, mood of 山居秋暝, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "天气晚来秋",
+        "pinyin": "tiān qì wǎn lái qiū",
+        "translation": "傍晚时分山风徐徐吹来，天气透出阵阵舒爽宜人的秋意。",
+        "explanation": "【晚来秋】傍晚带来了浓浓的秋天凉爽气息。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-shan-ju-qiu-ming/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 天气晚来秋, mood of 山居秋暝, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "明月松间照",
+        "pinyin": "míng yuè sōng jiān zhào",
+        "translation": "皎洁清幽的明月穿过苍翠松针枝柯，将银辉洒满林间，",
+        "explanation": "【明月】皎洁秋月。【松间照】透过苍松林隙洒下银光。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-shan-ju-qiu-ming/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 明月松间照, mood of 山居秋暝, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "清泉石上流",
+        "pinyin": "qīng quán shí shàng liú",
+        "translation": "澄澈碧透的泉水在青苔卵石上潺潺流淌，发出清脆悦耳的叮咚声。",
+        "explanation": "【清泉】清澈泉水。【石上流】在山石间欢畅流淌。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-shan-ju-qiu-ming/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 清泉石上流, mood of 山居秋暝, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 5,
+        "text": "竹喧归浣女",
+        "pinyin": "zhú xuān guī huàn nǚ",
+        "translation": "翠竹林中传来阵阵欢声笑语，那是洗完衣裳的洗衣姑娘们结伴归家，",
+        "explanation": "【竹喧】竹林里的笑语喧哗。【浣女】洗衣服的纯朴女子。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-shan-ju-qiu-ming/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 竹喧归浣女, mood of 山居秋暝, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 6,
+        "text": "莲动下渔舟",
+        "pinyin": "lián dòng xià yú zhōu",
+        "translation": "水面荷叶摇摆莲花晃动，原来是顺流而下的打渔小舟正穿过荷塘。",
+        "explanation": "【莲动】荷叶荷花摇曳。【下渔舟】顺流而下的小渔船。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-shan-ju-qiu-ming/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 莲动下渔舟, mood of 山居秋暝, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 7,
+        "text": "随意春芳歇",
+        "pinyin": "suí yì chūn fāng xiē",
+        "translation": "任凭春天的芳菲花草随着季节变换自然凋零褪去，",
+        "explanation": "【随意】任凭。【春芳歇】春天的花草凋零消歇。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-shan-ju-qiu-ming/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 随意春芳歇, mood of 山居秋暝, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 8,
+        "text": "王孙自可留",
+        "pinyin": "wáng sūn zì kě liú",
+        "translation": "秋日山居这般安闲高洁，归隐的雅士自当长久留连居停！",
+        "explanation": "【王孙】这里代指诗人自己。【留】留居山林归隐。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-shan-ju-qiu-ming/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 王孙自可留, mood of 山居秋暝, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-wei-shan-ju-qiu-ming/poem.webp"
+  },
+  {
+    "id": "jia-dao-xun-yin-zhe-bu-yu",
+    "title": "寻隐者不遇",
+    "title_pinyin": "xún yǐn zhě bù yù",
+    "poet": "贾岛",
+    "poet_pinyin": "jiǎ dǎo",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "隐者",
+      "松下",
+      "问答",
+      "小学必背"
+    ],
+    "appreciation": "松下问童子，言师采药去。只在此山中，云深不知处。全诗纯用问答对话结构，言简意赅，把寻隐者的期望、失望与对深山高人的仰慕表达得如入画中。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "松下问童子",
+        "pinyin": "sōng xià wèn tóng zi",
+        "translation": "在一棵苍劲的青松树下，我向隐者的小弟子打听询问，",
+        "explanation": "【松下】苍松之下。【童子】道童或弟子。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/jia-dao-xun-yin-zhe-bu-yu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 松下问童子, mood of 寻隐者不遇, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "言师采药去",
+        "pinyin": "yán shī cǎi yào qù",
+        "translation": "童子恭敬地回答说：我的师父清晨上山采集草药去了。",
+        "explanation": "【言】回答说。【采药去】进山采集灵草草药。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/jia-dao-xun-yin-zhe-bu-yu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 言师采药去, mood of 寻隐者不遇, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "只在此山中",
+        "pinyin": "zhǐ zài cǐ shān zhōng",
+        "translation": "师父就在这重重苍茫的巍峨大山深处，",
+        "explanation": "【只在此山】就在眼前这座青山之中。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/jia-dao-xun-yin-zhe-bu-yu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 只在此山中, mood of 寻隐者不遇, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "云深不知处",
+        "pinyin": "yún shēn bù zhī chù",
+        "translation": "可是山高林密云雾极其弥漫，根本不知道他究竟在何处！",
+        "explanation": "【云深】山中云雾极其深厚缭绕。【不知处】不知具体居所。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/jia-dao-xun-yin-zhe-bu-yu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 云深不知处, mood of 寻隐者不遇, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/jia-dao-xun-yin-zhe-bu-yu/poem.webp"
+  },
+  {
+    "id": "li-shang-yin-deng-le-you-yuan",
+    "title": "登乐游原",
+    "title_pinyin": "dēng lè yóu yuán",
+    "poet": "李商隐",
+    "poet_pinyin": "lǐ shāng yǐn",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "夕阳",
+      "怀古",
+      "慨叹",
+      "小学必背"
+    ],
+    "appreciation": "向晚意不适，驱车登古原。夕阳无限好，只是近黄昏。晚唐诗人的千古慨叹。盛唐气象已逝，面对灿烂凄迷的夕阳黄昏，既赞美其壮丽，又深怀惋惜之情。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "向晚意不适",
+        "pinyin": "xiàng wǎn yì bù shì",
+        "translation": "临近傍晚黄昏时分心情有些郁闷烦躁与不快，",
+        "explanation": "【向晚】傍晚天色将暮之时。【意不适】心情不舒畅郁闷。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shang-yin-deng-le-you-yuan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 向晚意不适, mood of 登乐游原, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "驱车登古原",
+        "pinyin": "qū chē dēng gǔ yuán",
+        "translation": "于是赶着马车，登上了地势开阔的乐游古原散心，",
+        "explanation": "【驱车】赶着马车。【古原】乐游原，长安城东南地势高敞之名胜。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shang-yin-deng-le-you-yuan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 驱车登古原, mood of 登乐游原, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "夕阳无限好",
+        "pinyin": "xī yáng wú xiàn hǎo",
+        "translation": "只见那一轮红彤彤的落日与漫天晚霞，景象是那样绚烂壮美、无比令人沉醉，",
+        "explanation": "【无限好】无比美好、极具壮阔之美。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shang-yin-deng-le-you-yuan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 夕阳无限好, mood of 登乐游原, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "只是近黄昏",
+        "pinyin": "zhǐ shì jìn huáng hūn",
+        "translation": "只可惜天色已经逼近黑夜黄昏，这美好的景象很快就要消失在暮色之中！",
+        "explanation": "【只是】只是、可惜。【近黄昏】逼近黑夜，蕴含对美好事物转瞬即逝的浩叹。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shang-yin-deng-le-you-yuan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 只是近黄昏, mood of 登乐游原, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-shang-yin-deng-le-you-yuan/poem.webp"
+  },
+  {
+    "id": "du-mu-qiu-xi",
+    "title": "秋夕",
+    "title_pinyin": "qiū xī",
+    "poet": "杜牧",
+    "poet_pinyin": "dù mù",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "七夕",
+      "秋夜",
+      "抒怀",
+      "小学必背"
+    ],
+    "appreciation": "银烛秋光冷画屏，轻罗小扇扑流萤。天阶夜色凉如水，卧看牵牛织女星。描绘了一幅幽冷深沉的宫廷秋夜图，细腻刻画了失意宫女望月观星的孤寂心境。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "银烛秋光冷画屏",
+        "pinyin": "yín zhú qiū guāng lěng huà píng",
+        "translation": "银白色的蜡烛散发着清冷秋光，映照在画有山水图画的屏风上显得格外冷寂，",
+        "explanation": "【银烛】银白色的蜡烛。【冷画屏】秋夜烛光微弱，屏风显得凄冷。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-qiu-xi/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 银烛秋光冷画屏, mood of 秋夕, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "轻罗小扇扑流萤",
+        "pinyin": "qīng luó xiǎo shàn pū liú yíng",
+        "translation": "少女手握着轻薄的丝罗小扇，轻轻扑打着在夜色中飞舞的荧荧萤火虫。",
+        "explanation": "【轻罗小扇】丝绸制作的精致团扇。【扑流萤】扑打飞舞的萤火虫。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-qiu-xi/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 轻罗小扇扑流萤, mood of 秋夕, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "天阶夜色凉如水",
+        "pinyin": "tiān jiē yè sè liáng rú shuǐ",
+        "translation": "露天石阶之上的茫茫夜色，如同寒凉的秋水一般冰冷刺骨，",
+        "explanation": "【天阶】露天的石阶宫阶。【凉如水】夜色寒凉如水。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-qiu-xi/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 天阶夜色凉如水, mood of 秋夕, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "卧看牵牛织女星",
+        "pinyin": "wò kàn qiān niú zhī nǚ xīng",
+        "translation": "只能久久斜卧凝望着银河两岸那隔水遥遥相望的牵牛星与织女星。",
+        "explanation": "【卧看】斜卧凝望。【牵牛织女星】牛郎星与织女星，神话中隔银河相望之星宿。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-qiu-xi/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 卧看牵牛织女星, mood of 秋夕, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/du-mu-qiu-xi/poem.webp"
+  },
+  {
+    "id": "bai-ju-yi-wen-liu-shi-jiu",
+    "title": "问刘十九",
+    "title_pinyin": "wèn liú shí jiǔ",
+    "poet": "白居易",
+    "poet_pinyin": "bái jū yì",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "tags": [
+      "冬天",
+      "友人",
+      "红泥小火炉",
+      "小学必背"
+    ],
+    "appreciation": "绿蚁新醅酒，红泥小火炉。晚来天欲雪，能饮一杯无？通篇如叙家常，色彩温馨（新绿酒、红泥炉、漫天白雪），流淌着冬日寒夜中围炉对饮的浓浓温情与知己之乐。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "绿蚁新醅酒",
+        "pinyin": "lǜ yǐ xīn pēi jiǔ",
+        "translation": "刚刚酿就的米酒上面漂浮着如绿色细蚁般的浮沫，醇香扑鼻，",
+        "explanation": "【绿蚁】新酿米酒未过滤前浮在酒面上的细小绿色酒沫。【醅】没有过滤的米酒。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-wen-liu-shi-jiu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 绿蚁新醅酒, mood of 问刘十九, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "红泥小火炉",
+        "pinyin": "hóng ní xiǎo huǒ lú",
+        "translation": "简朴质朴的红泥小火炉里，炭火正烧得通红温暖，",
+        "explanation": "【红泥小火炉】红陶泥烧制的小取暖烧酒火炉。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-wen-liu-shi-jiu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 红泥小火炉, mood of 问刘十九, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "晚来天欲雪",
+        "pinyin": "wǎn lái tiān yù xuě",
+        "translation": "天色将晚，阴沉沉的天空正酝酿着一场漫天大雪，",
+        "explanation": "【晚来】入夜傍晚。【天欲雪】天气阴冷即将降大雪。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-wen-liu-shi-jiu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 晚来天欲雪, mood of 问刘十九, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "能饮一杯无",
+        "pinyin": "néng yǐn yī bēi wú",
+        "translation": "朋友啊，在这寒风呼啸的雪夜，你愿意过来跟我围炉喝上一杯暖酒吗？",
+        "explanation": "【无】么、不，表示亲切关切的征询问语。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-wen-liu-shi-jiu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 能饮一杯无, mood of 问刘十九, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/bai-ju-yi-wen-liu-shi-jiu/poem.webp"
+  },
+  {
+    "id": "li-bai-gu-lang-yue-xing-jie-xuan",
+    "title": "古朗月行·节选",
+    "title_pinyin": "gǔ lǎng yuè xíng jié xuǎn",
+    "poet": "李白",
+    "poet_pinyin": "lǐ bái",
+    "dynasty": "唐",
+    "form": "五言古诗",
+    "tags": [
+      "月亮",
+      "童年",
+      "浪漫",
+      "小学必背"
+    ],
+    "appreciation": "李白回忆童年望月的情景。小时不识月，呼作白玉盘。又疑瑶台镜，飞在青云端。充满儿童天真纯净的想象力与李白式浪漫奔放的奇思妙想。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "小时不识月",
+        "pinyin": "xiǎo shí bù shí yuè",
+        "translation": "小的时候还不知道天空中挂着的是月亮，",
+        "explanation": "【小时】年幼童年时。【不识月】不晓得月亮的名称与来历。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-gu-lang-yue-xing-jie-xuan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 小时不识月, mood of 古朗月行·节选, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "呼作白玉盘",
+        "pinyin": "hū zuò bái yù pán",
+        "translation": "天真地指着它欢呼叫喊，以为那是一只晶莹剔透的白玉圆盘。",
+        "explanation": "【呼作】称呼它作为。【白玉盘】羊脂白玉做成的精美圆盘。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-gu-lang-yue-xing-jie-xuan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 呼作白玉盘, mood of 古朗月行·节选, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "又疑瑶台镜",
+        "pinyin": "yòu yí yáo tái jìng",
+        "translation": "有时候又怀疑那是神仙居住的瑶台仙宫里的宝镜，",
+        "explanation": "【瑶台】传说中西王母所居的神仙宫阙。【瑶台镜】仙人使用的宝镜。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-gu-lang-yue-xing-jie-xuan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 又疑瑶台镜, mood of 古朗月行·节选, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "飞在青云端",
+        "pinyin": "fēi zài qīng yún duān",
+        "translation": "神奇地飞升悬挂在湛蓝纯净的青天白云最高端！",
+        "explanation": "【青云端】蔚蓝苍穹云海的顶端。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-gu-lang-yue-xing-jie-xuan/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 飞在青云端, mood of 古朗月行·节选, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/li-bai-gu-lang-yue-xing-jie-xuan/poem.webp"
+  },
+  {
+    "id": "wang-zhi-huan-liang-zhou-ci-huang-he-yuan-shang",
+    "title": "凉州词·黄河远上",
+    "title_pinyin": "liáng zhōu cí huáng hé yuǎn shàng",
+    "poet": "王之涣",
+    "poet_pinyin": "wáng zhī huàn",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "边塞",
+      "黄河",
+      "玉门关",
+      "小学必背"
+    ],
+    "appreciation": "黄河远上白云间，一片孤城万仞山。羌笛何须怨杨柳，春风不度玉门关。被誉为唐代绝句的压卷之作。辽阔苍凉的边塞风光与慷慨悲壮的家国情怀融为一体，气势撼人。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "黄河远上白云间",
+        "pinyin": "huáng hé yuǎn shàng bái yún jiān",
+        "translation": "浩瀚奔腾的黄河蜿蜒曲折，远远望去仿佛奔涌流入高耸万丈的白云之间，",
+        "explanation": "【黄河远上】极目远望黄河连天。【白云间】极言河源地势极高。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-zhi-huan-liang-zhou-ci-huang-he-yuan-shang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 黄河远上白云间, mood of 凉州词·黄河远上, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "一片孤城万仞山",
+        "pinyin": "yī piàn gū chéng wàn rèn shān",
+        "translation": "重重叠叠耸立如削的万仞高山环抱之中，耸立着一座孤零零的边塞城堡。",
+        "explanation": "【孤城】边疆孤立的军塞戍城。【万仞山】千峰耸立的高山，仞为古长度单位。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-zhi-huan-liang-zhou-ci-huang-he-yuan-shang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 一片孤城万仞山, mood of 凉州词·黄河远上, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "羌笛何须怨杨柳",
+        "pinyin": "qiāng dí hé xū yuàn yáng liǔ",
+        "translation": "哀怨凄婉的羌笛声何必去吹奏那哀伤的《折杨柳》古曲呢，",
+        "explanation": "【羌笛】羌族乐器竹笛。【怨杨柳】指吹奏思乡曲目《折杨柳》。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-zhi-huan-liang-zhou-ci-huang-he-yuan-shang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 羌笛何须怨杨柳, mood of 凉州词·黄河远上, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "春风不度玉门关",
+        "pinyin": "chūn fēng bù dù yù mén guān",
+        "translation": "温暖宜人的阳春和风，本来就吹不到这苍凉偏远的玉门雄关啊！",
+        "explanation": "【度】越过、吹过。【玉门关】古代西陲著名边关，在今甘肃敦煌西北。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-zhi-huan-liang-zhou-ci-huang-he-yuan-shang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 春风不度玉门关, mood of 凉州词·黄河远上, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-zhi-huan-liang-zhou-ci-huang-he-yuan-shang/poem.webp"
+  },
+  {
+    "id": "wang-han-liang-zhou-ci-pu-tao-mei-jiu",
+    "title": "凉州词·葡萄美酒",
+    "title_pinyin": "liáng zhōu cí pú táo měi jiǔ",
+    "poet": "王翰",
+    "poet_pinyin": "wáng hàn",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "边塞",
+      "征战",
+      "豪迈",
+      "小学必背"
+    ],
+    "appreciation": "葡萄美酒夜光杯，欲饮琵琶马上催。醉卧沙场君莫笑，古来征战几人回？痛快淋漓地表现了边塞将士置生死于度外的旷达与豪放，悲凉中见壮烈。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "葡萄美酒夜光杯",
+        "pinyin": "pú táo měi jiǔ yè guāng bēi",
+        "translation": "甘甜醇厚的西域葡萄美酒，盛放在晶莹闪烁的夜光美玉杯中，",
+        "explanation": "【葡萄美酒】西域特产葡萄酒。【夜光杯】用白玉精制能发微光的珍贵酒杯。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-han-liang-zhou-ci-pu-tao-mei-jiu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 葡萄美酒夜光杯, mood of 凉州词·葡萄美酒, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "欲饮琵琶马上催",
+        "pinyin": "yù yǐn pí pá mǎ shàng cuī",
+        "translation": "将士们正要开怀痛饮，战马上催人出征急如骤雨的琵琶声便急促响起了！",
+        "explanation": "【欲饮】正想畅饮。【马上催】骑在马上弹奏琵琶催促队伍出发。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-han-liang-zhou-ci-pu-tao-mei-jiu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 欲饮琵琶马上催, mood of 凉州词·葡萄美酒, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "醉卧沙场君莫笑",
+        "pinyin": "zuì wò shā chǎng jūn mò xiào",
+        "translation": "即便是我们醉倒在荒凉辽阔的黄沙战场之上，朋友们也请千万不要见笑，",
+        "explanation": "【沙场】战场。【君莫笑】诸位请不要笑话嘲笑。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-han-liang-zhou-ci-pu-tao-mei-jiu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 醉卧沙场君莫笑, mood of 凉州词·葡萄美酒, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "古来征战几人回",
+        "pinyin": "gǔ lái zhēng zhàn jǐ rén huí",
+        "translation": "试问从古至今奔赴这生死难测的沙场征战，又有几个人能够活着平安归来呢！",
+        "explanation": "【几人回】几个人能回来，道尽边塞战争的惨烈与将士的向死而生。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-han-liang-zhou-ci-pu-tao-mei-jiu/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 古来征战几人回, mood of 凉州词·葡萄美酒, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-han-liang-zhou-ci-pu-tao-mei-jiu/poem.webp"
+  },
+  {
+    "id": "wang-chang-ling-chu-sai",
+    "title": "出塞",
+    "title_pinyin": "chū sài",
+    "poet": "王昌龄",
+    "poet_pinyin": "wáng chāng líng",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "边塞",
+      "飞将军",
+      "报国",
+      "小学必背"
+    ],
+    "appreciation": "秦时明月汉时关，万里长征人未还。但使龙城飞将在，不教胡马度阴山。借古讽今，气象雄浑，渴望良将安边定国、让天下将士共享和平安宁。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "秦时明月汉时关",
+        "pinyin": "qín shí míng yuè hàn shí guān",
+        "translation": "秦汉时期高悬的清冷明月，照耀着秦汉以来坚守的巍峨边关，",
+        "explanation": "【秦时明月汉时关】互文见义，指自秦汉以来边疆战事延续千年，关山依旧。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-chang-ling-chu-sai/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 秦时明月汉时关, mood of 出塞, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "万里长征人未还",
+        "pinyin": "wàn lǐ cháng zhēng rén wèi hái",
+        "translation": "千千万万奔赴万里边塞远征的戍边将士，至今仍未能够返回故土家园。",
+        "explanation": "【万里长征】远隔千里的边疆守卫。【人未还】许多人血洒疆场未能生还。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-chang-ling-chu-sai/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 万里长征人未还, mood of 出塞, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "但使龙城飞将在",
+        "pinyin": "dàn shǐ lóng chéng fēi jiāng zài",
+        "translation": "倘若今天能有西汉飞将军李广那般英勇善战的名将在镇守边陲，",
+        "explanation": "【但使】只要。【龙城飞将】指威震匈奴的汉代飞将军李广与名将卫青。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-chang-ling-chu-sai/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 但使龙城飞将在, mood of 出塞, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "不教胡马度阴山",
+        "pinyin": "bù jiào hú mǎ dù yīn shān",
+        "translation": "就绝不会允许凶残的外敌铁骑踏破重山，越过北方的阴山半步！",
+        "explanation": "【不教】决不允许。【胡马】古代北方游牧军队。【阴山】北疆著名山脉防御要塞。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-chang-ling-chu-sai/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 不教胡马度阴山, mood of 出塞, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/wang-chang-ling-chu-sai/poem.webp"
+  },
+  {
+    "id": "chen-zi-ang-deng-you-zhou-tai-ge",
+    "title": "登幽州台歌",
+    "title_pinyin": "dēng yōu zhōu tái gē",
+    "poet": "陈子昂",
+    "poet_pinyin": "chén zi áng",
+    "dynasty": "唐",
+    "form": "古体诗",
+    "tags": [
+      "怀古",
+      "宇宙",
+      "孤独",
+      "初中必背"
+    ],
+    "appreciation": "前不见古人，后不见来者。念天地之悠悠，独怆然而涕下。将个人怀才不遇的孤独放置于无限辽阔的宇宙时空坐标之中，苍凉悲壮，慷慨激昂，震古烁今。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "前不见古人",
+        "pinyin": "qián bú jiàn gǔ rén",
+        "translation": "往前极目回首，再也看不见古代那些礼贤下士的英明君王，",
+        "explanation": "【古人】古代礼贤下士的明君贤臣，如燕昭王。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/chen-zi-ang-deng-you-zhou-tai-ge/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 前不见古人, mood of 登幽州台歌, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "后不见来者",
+        "pinyin": "hòu bú jiàn lái zhě",
+        "translation": "往后极目远眺，也见不到未来有哪位知音能够理解我的抱负，",
+        "explanation": "【来者】未来的贤能明主与知音。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/chen-zi-ang-deng-you-zhou-tai-ge/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 后不见来者, mood of 登幽州台歌, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "念天地之悠悠",
+        "pinyin": "niàn tiān dì zhī yōu yōu",
+        "translation": "想到这无边无际的茫茫宇宙和漫长无止境的岁月长河，",
+        "explanation": "【念】想到。【悠悠】辽阔深远无止境貌。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/chen-zi-ang-deng-you-zhou-tai-ge/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 念天地之悠悠, mood of 登幽州台歌, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "独怆然而涕下",
+        "pinyin": "dú chuàng rán ér tì xià",
+        "translation": "我孤身一人登上这古台，禁不住悲伤凄凉、热泪滚滚横流！",
+        "explanation": "【独】孤单一人。【怆然】悲伤凄凉貌。【涕下】眼泪夺眶而出。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/chen-zi-ang-deng-you-zhou-tai-ge/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 独怆然而涕下, mood of 登幽州台歌, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/chen-zi-ang-deng-you-zhou-tai-ge/poem.webp"
+  },
+  {
+    "id": "cui-hao-huang-he-lou",
+    "title": "黄鹤楼",
+    "title_pinyin": "huáng hè lóu",
+    "poet": "崔颢",
+    "poet_pinyin": "cuī hào",
+    "dynasty": "唐",
+    "form": "七言律诗",
+    "tags": [
+      "名楼",
+      "仙鹤",
+      "乡愁",
+      "初中必背"
+    ],
+    "appreciation": "相传李白登黄鹤楼读此诗叹曰：“眼前有景道不得，崔颢题诗在上头。”气象万千，历历晴川，萋萋芳草，日暮乡关，浑然天成，被誉为唐代七律第一。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "昔人已乘黄鹤去",
+        "pinyin": "xī rén yǐ chéng huáng hè qù",
+        "translation": "传说中古代的仙人早已驾鹤西去飞向九天，",
+        "explanation": "【昔人】昔日古代的仙人。【黄鹤】神话中仙人所骑乘的金黄色仙鹤。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/cui-hao-huang-he-lou/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 昔人已乘黄鹤去, mood of 黄鹤楼, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "此地空余黄鹤楼",
+        "pinyin": "cǐ dì kòng yú huáng hè lóu",
+        "translation": "如今这江畔胜地只空空留下一座孤耸巍峨的黄鹤楼。",
+        "explanation": "【空余】只空落落地剩下。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/cui-hao-huang-he-lou/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 此地空余黄鹤楼, mood of 黄鹤楼, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "黄鹤一去不复返",
+        "pinyin": "huáng hè yī qù bù fù fǎn",
+        "translation": "那只仙鹤一旦远去便再也没有返回这人间，",
+        "explanation": "【不复返】再也没有回来。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/cui-hao-huang-he-lou/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 黄鹤一去不复返, mood of 黄鹤楼, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "白云千载空悠悠",
+        "pinyin": "bái yún qiān zài kōng yōu yōu",
+        "translation": "唯有浩浩苍穹中的朵朵白云，千百年来依然自在悠闲地飘浮飘荡。",
+        "explanation": "【千载】千年。【空悠悠】徒然悠闲飘荡，物是人非。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/cui-hao-huang-he-lou/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 白云千载空悠悠, mood of 黄鹤楼, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 5,
+        "text": "晴川历历汉阳树",
+        "pinyin": "qíng chuān lì lì hàn yáng shù",
+        "translation": "阳光明媚晴好的江原上，汉阳城边的棵棵绿树清晰分明，",
+        "explanation": "【晴川】晴阳映照下的江面平原。【历历】清晰分明貌。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/cui-hao-huang-he-lou/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 晴川历历汉阳树, mood of 黄鹤楼, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 6,
+        "text": "芳草萋萋鹦鹉洲",
+        "pinyin": "fāng cǎo qī qī yīng wǔ zhōu",
+        "translation": "江中鹦鹉洲上的茂盛芳草一片碧绿，生机盎然。",
+        "explanation": "【芳草萋萋】茂盛青绿的芳草。【鹦鹉洲】汉阳江中的著名沙洲。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/cui-hao-huang-he-lou/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 芳草萋萋鹦鹉洲, mood of 黄鹤楼, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 7,
+        "text": "日暮乡关何处是",
+        "pinyin": "rì mù xiāng guān hé chù shì",
+        "translation": "暮色渐渐降临，举目四望我的故乡究竟在什么地方呢？",
+        "explanation": "【日暮】黄昏日落之时。【乡关】故乡家园。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/cui-hao-huang-he-lou/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 日暮乡关何处是, mood of 黄鹤楼, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 8,
+        "text": "烟波江上使人愁",
+        "pinyin": "yān bō jiāng shàng shǐ rén chóu",
+        "translation": "只见这浩浩荡荡江面上笼罩的茫茫烟波，直让人心头涌起无尽的思乡愁绪！",
+        "explanation": "【烟波】江水雾霭烟气。【使人愁】令游子羁旅伤感愁思。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/cui-hao-huang-he-lou/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 烟波江上使人愁, mood of 黄鹤楼, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/cui-hao-huang-he-lou/poem.webp"
+  },
+  {
+    "id": "liu-yu-xi-wu-yi-xiang",
+    "title": "乌衣巷",
+    "title_pinyin": "wū yī xiàng",
+    "poet": "刘禹锡",
+    "poet_pinyin": "liú yǔ xī",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "tags": [
+      "怀古",
+      "金陵",
+      "燕子",
+      "初中必背"
+    ],
+    "appreciation": "朱雀桥边野草花，乌衣巷口夕阳斜。旧时王谢堂前燕，飞入寻常百姓家。凭吊东晋王导、谢安望族盛极而衰的历史变迁，沧桑幽远，回味深长。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "朱雀桥边野草花",
+        "pinyin": "zhū què qiáo biān yě cǎo huā",
+        "translation": "当年繁华喧嚣的朱雀桥边，如今只有荒凉凄清的野草开着杂花，",
+        "explanation": "【朱雀桥】南京秦淮河上古代繁盛要桥。【野草花】荒野杂草开花，显冷落衰败。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-yu-xi-wu-yi-xiang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 朱雀桥边野草花, mood of 乌衣巷, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 2,
+        "text": "乌衣巷口夕阳斜",
+        "pinyin": "wū yī xiàng kǒu xī yáng xié",
+        "translation": "昔日高门显贵的乌衣巷口，只剩下一抹落寞惨淡的残阳斜斜照耀。",
+        "explanation": "【乌衣巷】东晋豪门世族王导、谢安居住的巷弄。【夕阳斜】夕阳斜照，象征没落。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-yu-xi-wu-yi-xiang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 乌衣巷口夕阳斜, mood of 乌衣巷, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 3,
+        "text": "旧时王谢堂前燕",
+        "pinyin": "jiù shí wáng xiè táng qián yàn",
+        "translation": "昔日经常栖息在王谢豪门显贵雕梁画栋深宅大院里的紫燕，",
+        "explanation": "【王谢】东晋宰相王导与谢安家族，代指极盛世家豪门。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-yu-xi-wu-yi-xiang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 旧时王谢堂前燕, mood of 乌衣巷, oriental aesthetic, masterwork watercolor."
+      },
+      {
+        "line_no": 4,
+        "text": "飞入寻常百姓家",
+        "pinyin": "fēi rù xún cháng bǎi xìng jiā",
+        "translation": "如今只能栖飞进入普通寻常平民百姓的屋檐屋舍之下！",
+        "explanation": "【寻常百姓家】普通庶民的家庭，对比强烈，道尽历史沧海桑田。",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-yu-xi-wu-yi-xiang/poem.webp",
+        "image_prompt": "Traditional Chinese ink-and-wash painting illustrating Tang poem line: 飞入寻常百姓家, mood of 乌衣巷, oriental aesthetic, masterwork watercolor."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/liu-yu-xi-wu-yi-xiang/poem.webp"
+  },
+  {
+    "id": "chang-jian-ti-po-shan-si-hou-chan-yuan",
+    "title": "题破山寺后禅院",
+    "title_pinyin": "tí pò shān sì hòu chán yuàn",
+    "poet": "常建",
+    "poet_pinyin": "cháng jiàn",
+    "dynasty": "唐",
+    "form": "五言律诗",
+    "tags": [
+      "禅意",
+      "山寺",
+      "清幽"
+    ],
+    "appreciation": "常建游览破山寺后禅院所作，曲径通幽处，禅房花木深，山光悦鸟性，潭影空人心，极写山寺幽深寂静之禅境。",
+    "lines": [
+      {
+        "line_no": 1,
+        "text": "清晨入古寺",
+        "pinyin": "qīng chén rù gǔ sì",
+        "translation": "",
+        "explanation": "",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/chang-jian-ti-po-shan-si-hou-chan-yuan/poem.webp",
+        "image_prompt": "Classical Chinese ink wash painting: 清晨入古寺, misty atmosphere."
+      },
+      {
+        "line_no": 2,
+        "text": "初日照高林",
+        "pinyin": "chū rì zhào gāo lín",
+        "translation": "",
+        "explanation": "",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/chang-jian-ti-po-shan-si-hou-chan-yuan/poem.webp",
+        "image_prompt": "Classical Chinese ink wash painting: 初日照高林, misty atmosphere."
+      },
+      {
+        "line_no": 3,
+        "text": "曲径通幽处",
+        "pinyin": "qū jìng tōng yōu chù",
+        "translation": "",
+        "explanation": "",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/chang-jian-ti-po-shan-si-hou-chan-yuan/poem.webp",
+        "image_prompt": "Classical Chinese ink wash painting: 曲径通幽处, misty atmosphere."
+      },
+      {
+        "line_no": 4,
+        "text": "禅房花木深",
+        "pinyin": "chán fáng huā mù shēn",
+        "translation": "",
+        "explanation": "",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/chang-jian-ti-po-shan-si-hou-chan-yuan/poem.webp",
+        "image_prompt": "Classical Chinese ink wash painting: 禅房花木深, misty atmosphere."
+      },
+      {
+        "line_no": 5,
+        "text": "山光悦鸟性",
+        "pinyin": "shān guāng yuè niǎo xìng",
+        "translation": "",
+        "explanation": "",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/chang-jian-ti-po-shan-si-hou-chan-yuan/poem.webp",
+        "image_prompt": "Classical Chinese ink wash painting: 山光悦鸟性, misty atmosphere."
+      },
+      {
+        "line_no": 6,
+        "text": "潭影空人心",
+        "pinyin": "tán yǐng kōng rén xīn",
+        "translation": "",
+        "explanation": "",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/chang-jian-ti-po-shan-si-hou-chan-yuan/poem.webp",
+        "image_prompt": "Classical Chinese ink wash painting: 潭影空人心, misty atmosphere."
+      },
+      {
+        "line_no": 7,
+        "text": "万籁此都寂",
+        "pinyin": "wàn lài cǐ dōu jì",
+        "translation": "",
+        "explanation": "",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/chang-jian-ti-po-shan-si-hou-chan-yuan/poem.webp",
+        "image_prompt": "Classical Chinese ink wash painting: 万籁此都寂, misty atmosphere."
+      },
+      {
+        "line_no": 8,
+        "text": "但余钟磬音",
+        "pinyin": "dàn yú zhōng qìng yīn",
+        "translation": "",
+        "explanation": "",
+        "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/chang-jian-ti-po-shan-si-hou-chan-yuan/poem.webp",
+        "image_prompt": "Classical Chinese ink wash painting: 但余钟磬音, misty atmosphere."
+      }
+    ],
+    "image": "https://readforfun-img.chunyangwen.com/tang-shi/images/chang-jian-ti-po-shan-si-hou-chan-yuan/poem.webp"
+  }
+]

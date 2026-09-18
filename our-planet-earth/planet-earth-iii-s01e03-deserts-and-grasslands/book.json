@@ -1,0 +1,954 @@
+{
+  "title": "荒漠与草原的生存智慧",
+  "subtitle": "地球脉动III · 沙漠与草原",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/SeagateDisk/Planet.Earth.III.S01.1080p.BluRay.DDP7.1.x264-PuTao/Planet.Earth.III.S01E03.Deserts.and.Grasslands.1080p.BluRay.DDP7.1.x264-PuTao.mkv",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "heading": "荒漠也有生命",
+      "text": "荒漠覆盖了超过三分之一的地球表面。格尔塔沙漠几乎没有水，驼队仍在向前走。",
+      "pinyin": "huāng mò fù gài le chāo guò sān fēn zhī yī de dì qiú biǎo miàn 。gé ěr tǎ shā mò jī hū méi yǒu shuǐ ，tuó duì réng zài xiàng qián zǒu 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本开篇插画：中非格尔塔沙漠的辽阔荒漠，金色沙丘和岩地延伸到远方，一支骆驼队在空旷地表缓慢前行，强调几乎没有水源却仍有生命，柔和水粉与自然史观察感，无文字。",
+      "source_time_range": [
+        27.5,
+        123.0
+      ],
+      "visual_time_range": [
+        27,
+        80
+      ],
+      "key_content": {
+        "location": "中非格尔塔沙漠",
+        "animals": [
+          "骆驼"
+        ],
+        "activity": "驼队穿越几乎没有水源的荒漠",
+        "stakes": "水源稀少，穿越荒漠会消耗大量体力",
+        "outcome": "驼队继续在岩地和沙地间寻找前进方向",
+        "visual_focus": "荒漠也有生命"
+      },
+      "reference_frames": [
+        "references/page_01/ref_01_037.60s.jpg",
+        "references/page_01/ref_02_053.50s.jpg",
+        "references/page_01/ref_03_069.40s.jpg"
+      ],
+      "visual_anchors": [
+        "红褐色岩壁峡谷",
+        "狭窄岩谷中的浅色沙地",
+        "荒漠地貌的空旷尺度",
+        "缓慢前行的骆驼队"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_01.webp",
+      "heading_pinyin": "huāng mò yě yǒu shēng mìng"
+    },
+    {
+      "page": 2,
+      "heading": "纳米布的鸵鸟家庭",
+      "text": "纳米布是古老又炎热的荒漠。一对鸵鸟选择在这里组建家庭。",
+      "pinyin": "nà mǐ bù shì gǔ lǎo yòu yán rè de huāng mò 。yī duì tuó niǎo xuǎn zé zài zhè lǐ zǔ jiàn jiā tíng 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：非洲西南部纳米布沙漠的炙热平地，一只雄性鸵鸟和伴侣守在低矮巢穴与鸟蛋旁，远处是红褐色荒漠，真实比例、温暖阳光、水粉绘本，无文字。",
+      "source_time_range": [
+        147.5,
+        204.5
+      ],
+      "visual_time_range": [
+        150,
+        230
+      ],
+      "key_content": {
+        "location": "非洲西南部纳米布沙漠",
+        "animals": [
+          "鸵鸟"
+        ],
+        "activity": "鸵鸟伴侣在纳米布组建家庭",
+        "stakes": "高温会让蛋和雏鸟暴露在危险中",
+        "outcome": "鸵鸟家庭开始面对高温中的育儿挑战",
+        "visual_focus": "纳米布的鸵鸟家庭"
+      },
+      "reference_frames": [
+        "references/page_02/ref_01_166.00s.jpg",
+        "references/page_02/ref_02_190.00s.jpg",
+        "references/page_02/ref_03_214.00s.jpg"
+      ],
+      "visual_anchors": [
+        "鸵鸟头部的近距离光线",
+        "纳米布平坦荒漠",
+        "成鸟在草地上行走",
+        "炙热而空旷的背景"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_02.webp",
+      "heading_pinyin": "nà mǐ bù de tuó niǎo jiā tíng"
+    },
+    {
+      "page": 3,
+      "heading": "轮流守护蛋宝宝",
+      "text": "鸵鸟父母轮流照顾雏鸟。雄性鸵鸟轻轻转动未孵化的蛋，呼唤蛋里的小生命。",
+      "pinyin": "tuó niǎo fù mǔ lún liú zhào gù chú niǎo 。xióng xìng tuó niǎo qīng qīng zhuǎn dòng wèi fū huà de dàn ，hū huàn dàn lǐ de xiǎo shēng mìng 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：纳米布沙漠地面巢穴的近景，雄性鸵鸟用喙和身体小心转动几枚未孵化的鸟蛋，旁边有刚孵出的雏鸟，细腻温柔但保持野生动物真实感，水粉，无文字。",
+      "source_time_range": [
+        211.0,
+        255.5
+      ],
+      "visual_time_range": [
+        215,
+        270
+      ],
+      "key_content": {
+        "location": "纳米布沙漠巢穴",
+        "animals": [
+          "鸵鸟",
+          "雏鸟",
+          "鸟蛋"
+        ],
+        "activity": "雄性鸵鸟转动鸟蛋并呼唤雏鸟",
+        "stakes": "每一枚蛋都可能错过孵化时机",
+        "outcome": "雄性鸵鸟用守护行为延长每枚蛋的机会",
+        "visual_focus": "轮流守护蛋宝宝"
+      },
+      "reference_frames": [
+        "references/page_03/ref_01_226.00s.jpg",
+        "references/page_03/ref_02_242.50s.jpg",
+        "references/page_03/ref_03_259.00s.jpg"
+      ],
+      "visual_anchors": [
+        "巢穴里的圆形鸟蛋",
+        "雄性鸵鸟低头守护",
+        "刚孵出的雏鸟",
+        "蛋壳和干草的细节"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_03.webp",
+      "heading_pinyin": "lún liú shǒu hù dàn bǎo bǎo"
+    },
+    {
+      "page": 4,
+      "heading": "爸爸是一把遮阳伞",
+      "text": "气温还在上升。鸵鸟爸爸张开身体，为雏鸟挡住炙热阳光。",
+      "pinyin": "qì wēn hái zài shàng shēng 。tuó niǎo bà bà zhāng kāi shēn tǐ ，wèi chú niǎo dǎng zhù zhì rè yáng guāng 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：正午纳米布沙漠，雄性鸵鸟张开宽大的翅膀和身体，为几只小雏鸟投下一片阴影，热浪、金色沙地和强烈阳光形成清楚对比，儿童科普水粉，无文字。",
+      "source_time_range": [
+        277.0,
+        330.5
+      ],
+      "visual_time_range": [
+        280,
+        370
+      ],
+      "key_content": {
+        "location": "纳米布沙漠巢穴",
+        "animals": [
+          "鸵鸟",
+          "雏鸟"
+        ],
+        "activity": "雄性鸵鸟用身体为雏鸟遮阳",
+        "stakes": "雏鸟必须躲过不断升高的温度",
+        "outcome": "鸵鸟爸爸暂时为雏鸟创造阴凉",
+        "visual_focus": "爸爸是一把遮阳伞"
+      },
+      "reference_frames": [
+        "references/page_04/ref_01_298.00s.jpg",
+        "references/page_04/ref_02_325.00s.jpg",
+        "references/page_04/ref_03_352.00s.jpg"
+      ],
+      "visual_anchors": [
+        "雄性鸵鸟宽大的身体",
+        "雏鸟躲在身体阴影里",
+        "正午强烈阳光",
+        "金色沙地热浪"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_04.webp",
+      "heading_pinyin": "bà bà shì yī bǎ zhē yáng sǎn"
+    },
+    {
+      "page": 5,
+      "heading": "晚到几分钟的小鸟",
+      "text": "夜里的捕食者让全家都很紧张。黎明时，三只雏鸟孵出来了，可还有一枚蛋没有打开。",
+      "pinyin": "yè lǐ de bǔ shí zhě ràng quán jiā dōu hěn jǐn zhāng 。lí míng shí ，sān zhǐ chú niǎo fū chū lái le ，kě hái yǒu yī méi dàn méi yǒu dǎ kāi 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：纳米布沙漠黎明，鸵鸟家庭准备离开巢穴，三只新生雏鸟跟在父母身边，后方一枚孤零零的蛋留在巢里，表现时间压力与不舍，克制温暖的水粉，无文字。",
+      "source_time_range": [
+        421.5,
+        559.5
+      ],
+      "visual_time_range": [
+        410,
+        570
+      ],
+      "key_content": {
+        "location": "纳米布沙漠",
+        "animals": [
+          "鸵鸟",
+          "雏鸟"
+        ],
+        "activity": "鸵鸟一家在高温压力下决定离开巢穴",
+        "stakes": "离巢太晚的小鸟会失去父母保护",
+        "outcome": "家庭带走已孵出的雏鸟，留下了晚到的蛋",
+        "visual_focus": "晚到几分钟的小鸟"
+      },
+      "reference_frames": [
+        "references/page_05/ref_01_442.00s.jpg",
+        "references/page_05/ref_02_490.00s.jpg",
+        "references/page_05/ref_03_538.00s.jpg"
+      ],
+      "visual_anchors": [
+        "三只新生雏鸟",
+        "未孵化的完整鸟蛋",
+        "鸵鸟父母准备离开",
+        "黎明的纳米布沙漠"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_05.webp",
+      "heading_pinyin": "wǎn dào jǐ fēn zhōng de xiǎo niǎo"
+    },
+    {
+      "page": 6,
+      "heading": "会唱歌的沙丘",
+      "text": "阿拉伯半岛的沙粒相互摩擦，沙丘竟会发出低沉的歌声，几公里外也能听见。",
+      "pinyin": "ā lā bó bàn dǎo de shā lì xiāng hù mó cā ，shā qiū jìng huì fā chū dī chén de gē shēng ，jǐ gōng lǐ wài yě néng tīng jiàn 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：阿拉伯半岛巨大沙漠的高耸沙丘，风推动细沙形成流动纹理，用柔和同心波纹表现鸣沙声传播到远方，奇妙但科学克制，金橙色水粉，无文字。",
+      "source_time_range": [
+        724.5,
+        772.5
+      ],
+      "visual_time_range": [
+        735,
+        800
+      ],
+      "key_content": {
+        "location": "阿拉伯半岛沙漠",
+        "animals": [],
+        "activity": "沙粒摩擦共振发出鸣沙声",
+        "stakes": "沙丘的声音来自细沙运动的特殊条件",
+        "outcome": "风和沙粒共同制造了能传到远方的鸣沙",
+        "visual_focus": "会唱歌的沙丘"
+      },
+      "reference_frames": [
+        "references/page_06/ref_01_748.00s.jpg",
+        "references/page_06/ref_02_767.50s.jpg",
+        "references/page_06/ref_03_787.00s.jpg"
+      ],
+      "visual_anchors": [
+        "沙粒近景的微光",
+        "细沙沿沙丘坡面流动",
+        "高耸的金橙色沙丘",
+        "风塑造的弧形沙脊"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_06.webp",
+      "heading_pinyin": "huì chàng gē de shā qiū"
+    },
+    {
+      "page": 7,
+      "heading": "斑大亭鸟的求偶舞台",
+      "text": "澳大利亚荒漠里，雄性斑大亭鸟建造求偶亭。它要用舞蹈打动未来的伴侣。",
+      "pinyin": "ào dà lì yà huāng mò lǐ ，xióng xìng bān dà tíng niǎo jiàn zào qiú ǒu tíng 。tā yào yòng wǔ dǎo dǎ dòng wèi lái de bàn lǚ 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：澳大利亚干旱荒漠灌木间，一只雄性斑大亭鸟站在自己搭建的求偶亭前，入口用螺壳和骨头装饰，像小小舞台，真实鸟类姿态，暖色水粉，无文字。",
+      "source_time_range": [
+        806.0,
+        878.5
+      ],
+      "visual_time_range": [
+        810,
+        880
+      ],
+      "key_content": {
+        "location": "澳大利亚荒漠",
+        "animals": [
+          "斑大亭鸟"
+        ],
+        "activity": "雄性斑大亭鸟搭建并装饰求偶亭",
+        "stakes": "短暂雨季决定求偶能否开始",
+        "outcome": "求偶亭成为展示舞蹈和装饰的舞台",
+        "visual_focus": "斑大亭鸟的求偶舞台"
+      },
+      "reference_frames": [
+        "references/page_07/ref_01_824.00s.jpg",
+        "references/page_07/ref_02_845.00s.jpg",
+        "references/page_07/ref_03_866.00s.jpg"
+      ],
+      "visual_anchors": [
+        "澳大利亚荒漠灌木",
+        "雄性斑大亭鸟",
+        "由树枝搭成的求偶亭",
+        "螺壳和骨头装饰"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_07.webp",
+      "heading_pinyin": "bān dà tíng niǎo de qiú ǒu wǔ tái"
+    },
+    {
+      "page": 8,
+      "heading": "竞争者来捣乱",
+      "text": "一只路过的雄鸟毁掉了邻居的求偶亭，还想把漂亮材料搬走。主人回来后，只能赶快修复。",
+      "pinyin": "yī zhī lù guò de xióng niǎo huǐ diào le lín jū de qiú ǒu tíng ，hái xiǎng bǎ piào liàng cái liào bān zǒu 。zhǔ rén huí lái hòu ，zhǐ néng gǎn kuài xiū fù 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：澳大利亚荒漠中两只雄性斑大亭鸟的求偶亭竞争，一只鸟正在捣乱并叼走螺壳，另一只远处赶回，散落材料和歪倒的树枝表现修复挑战，水粉无文字。",
+      "source_time_range": [
+        888.0,
+        950.5
+      ],
+      "visual_time_range": [
+        890,
+        980
+      ],
+      "key_content": {
+        "location": "澳大利亚荒漠",
+        "animals": [
+          "斑大亭鸟"
+        ],
+        "activity": "竞争雄鸟破坏并搬走求偶亭材料",
+        "stakes": "求偶亭被毁会让竞争者失去机会",
+        "outcome": "主人发现破坏后开始抢救自己的求偶亭",
+        "visual_focus": "竞争者来捣乱"
+      },
+      "reference_frames": [
+        "references/page_08/ref_01_908.00s.jpg",
+        "references/page_08/ref_02_935.00s.jpg",
+        "references/page_08/ref_03_962.00s.jpg"
+      ],
+      "visual_anchors": [
+        "倒塌的树枝结构",
+        "叼走材料的雄鸟",
+        "散落的白色螺壳",
+        "干燥林地的斑驳光影"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_08.webp",
+      "heading_pinyin": "jìng zhēng zhě lái dǎo luàn"
+    },
+    {
+      "page": 9,
+      "heading": "没有雨，舞台也会孤单",
+      "text": "斑大亭鸟一直准备求爱，可三年没有下雨。没有雨水，雌鸟不会交配，孩子也没有食物。",
+      "pinyin": "bān dà tíng niǎo yì zhí zhǔn bèi qiú ài ，kě sān nián méi yǒu xià yǔ 。méi yǒu yǔ shuǐ ，cí niǎo bú huì jiāo pèi ，hái zi yě méi yǒu shí wù 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：干燥的澳大利亚荒漠，孤独的雄性斑大亭鸟在空求偶亭旁练习舞蹈，天空没有云，远处裂开的土地和稀疏灌木，表现干旱与等待，儿童科普水粉，无文字。",
+      "source_time_range": [
+        999.0,
+        1030.5
+      ],
+      "visual_time_range": [
+        980,
+        1040
+      ],
+      "key_content": {
+        "location": "澳大利亚荒漠",
+        "animals": [
+          "斑大亭鸟"
+        ],
+        "activity": "雄性斑大亭鸟在无雨中练习求爱",
+        "stakes": "长期无雨会让繁殖和育儿都停下来",
+        "outcome": "斑大亭鸟也许只能独自起舞，气候正在改变它的未来",
+        "visual_focus": "没有雨，舞台也会孤单"
+      },
+      "reference_frames": [
+        "references/page_09/ref_01_992.00s.jpg",
+        "references/page_09/ref_02_1010.00s.jpg",
+        "references/page_09/ref_03_1028.00s.jpg"
+      ],
+      "visual_anchors": [
+        "空置的求偶亭",
+        "孤独练舞的斑大亭鸟",
+        "没有云的干燥天空",
+        "稀疏灌木和枯叶"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_09.webp",
+      "heading_pinyin": "méi yǒu yǔ wǔ tái yě huì gū dān"
+    },
+    {
+      "page": 10,
+      "heading": "会奔跑的沙尘墙",
+      "text": "雨水减少、旱季变长，荒漠更容易扩大。沙尘暴像一堵高墙，能以每小时一百一十公里的速度前进。",
+      "pinyin": "yǔ shuǐ jiǎn shǎo 、hàn jì biàn zhǎng ，huāng mò gèng róng yì kuò dà 。shā chén bào xiàng yī dǔ gāo qiáng ，néng yǐ měi xiǎo shí yì bǎi yī shí gōng lǐ de sù dù qián jìn 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：巨大的沙尘暴从荒漠向村庄和城镇推进，形成高耸的棕色沙墙，远景用很小的房屋表现尺度，风线和飞沙表现每小时一百一十公里的速度感，不恐怖，水粉无文字。",
+      "source_time_range": [
+        1066.5,
+        1153.5
+      ],
+      "visual_time_range": [
+        1095,
+        1160
+      ],
+      "key_content": {
+        "location": "荒漠与城镇边缘",
+        "animals": [],
+        "activity": "沙尘暴高速吞没荒漠边缘的城镇",
+        "stakes": "高速沙尘能覆盖村庄和城镇",
+        "outcome": "沙尘暴把荒漠的危险带到人类生活范围",
+        "visual_focus": "会奔跑的沙尘墙"
+      },
+      "reference_frames": [
+        "references/page_10/ref_01_1108.00s.jpg",
+        "references/page_10/ref_02_1127.50s.jpg",
+        "references/page_10/ref_03_1147.00s.jpg"
+      ],
+      "visual_anchors": [
+        "荒漠地平线上的沙尘墙",
+        "卷起的棕色飞沙",
+        "道路和农田旁的尘云",
+        "沙尘暴的巨大尺度"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_10.webp",
+      "heading_pinyin": "huì bēn pǎo de shā chén qiáng"
+    },
+    {
+      "page": 11,
+      "heading": "八个月没有雨",
+      "text": "纳米比亚埃龙戈地区已经八个月没有下雨。一只刚当妈妈的豚尾狒狒，急需找到水。",
+      "pinyin": "nà mǐ bǐ yà āi lóng gē dì qū yǐ jīng bā gè yuè méi yǒu xià yǔ 。yī zhī gāng dāng mā mā de tún wěi fèi fèi ，jí xū zhǎo dào shuǐ 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：纳米比亚埃龙戈地区干燥岩地，一只年轻豚尾狒狒妈妈抱着幼崽在烈日下行走，家族成员在岩壁间寻找水源，稀疏植物和白色尘土表现极端干旱，水粉无文字。",
+      "source_time_range": [
+        1171.5,
+        1272.0
+      ],
+      "visual_time_range": [
+        1180,
+        1260
+      ],
+      "key_content": {
+        "location": "纳米比亚埃龙戈地区",
+        "animals": [
+          "豚尾狒狒",
+          "幼崽"
+        ],
+        "activity": "年轻豚尾狒狒妈妈带幼崽寻找水",
+        "stakes": "没有水，妈妈无法产奶",
+        "outcome": "妈妈必须继续带着幼崽寻找水源",
+        "visual_focus": "八个月没有雨"
+      },
+      "reference_frames": [
+        "references/page_11/ref_01_1196.00s.jpg",
+        "references/page_11/ref_02_1220.00s.jpg",
+        "references/page_11/ref_03_1244.00s.jpg"
+      ],
+      "visual_anchors": [
+        "豚尾狒狒的毛发和眼睛",
+        "干燥岩地",
+        "抱着幼崽的年轻妈妈",
+        "刺眼的荒漠阳光"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_11.webp",
+      "heading_pinyin": "bā gè yuè méi yǒu yǔ"
+    },
+    {
+      "page": 12,
+      "heading": "泉眼前的等待",
+      "text": "侦察成员终于找到岩壁上的小泉眼。可是家族有严格次序，年轻妈妈只能在旁边耐心等待。",
+      "pinyin": "zhēn chá chéng yuán zhōng yú zhǎo dào yán bì shàng de xiǎo quán yǎn 。kě shì jiā zú yǒu yán gé cì xù ，nián qīng mā mā zhǐ néng zài páng biān nài xīn děng dài 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：岩壁缝隙中的小泉眼，豚尾狒狒家族按次序靠近饮水，年轻妈妈抱着幼崽在队伍外等待，清澈水面与干裂岩石形成珍贵对比，真实群体关系，水粉无文字。",
+      "source_time_range": [
+        1280.0,
+        1422.5
+      ],
+      "visual_time_range": [
+        1348,
+        1410
+      ],
+      "key_content": {
+        "location": "埃龙戈岩壁泉眼",
+        "animals": [
+          "豚尾狒狒",
+          "幼崽"
+        ],
+        "activity": "狒狒家族按等级接近岩壁泉眼",
+        "stakes": "水源很少，家族成员不能同时饮水",
+        "outcome": "家族找到水，但年轻妈妈还要等待",
+        "visual_focus": "泉眼前的等待"
+      },
+      "reference_frames": [
+        "references/page_12/ref_01_1360.40s.jpg",
+        "references/page_12/ref_02_1379.00s.jpg",
+        "references/page_12/ref_03_1397.60s.jpg"
+      ],
+      "visual_anchors": [
+        "岩壁上的小泉眼",
+        "等待次序的狒狒家族",
+        "岩石缝隙里的清水",
+        "年轻妈妈在队伍外"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_12.webp",
+      "heading_pinyin": "quán yǎn qián de děng dài"
+    },
+    {
+      "page": 13,
+      "heading": "为了孩子，冒险插队",
+      "text": "年轻妈妈太渴了，不能再等。它冒险靠近水源，希望自己和幼崽能坚持到雨季。",
+      "pinyin": "nián qīng mā mā tài kě le ，bù néng zài děng 。tā mào xiǎn kào jìn shuǐ yuán ，xī wàng zì jǐ hé yòu zǎi néng jiān chí dào yǔ jì 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：纳米比亚岩壁泉眼旁，年轻豚尾狒狒妈妈坚定地抱着幼崽向水边迈出一步，其他成员回头注视，画面表现紧张决定但不拟人化，暖褐色水粉，无文字。",
+      "source_time_range": [
+        1458.5,
+        1522.5
+      ],
+      "visual_time_range": [
+        1455,
+        1525
+      ],
+      "key_content": {
+        "location": "埃龙戈岩壁泉眼",
+        "animals": [
+          "豚尾狒狒",
+          "幼崽"
+        ],
+        "activity": "年轻妈妈冒险靠近水源",
+        "stakes": "插队可能遭到攻击，但等待也会危及幼崽",
+        "outcome": "妈妈决定冒险靠近，希望坚持到雨季",
+        "visual_focus": "为了孩子，冒险插队"
+      },
+      "reference_frames": [
+        "references/page_13/ref_01_1469.00s.jpg",
+        "references/page_13/ref_02_1490.00s.jpg",
+        "references/page_13/ref_03_1511.00s.jpg"
+      ],
+      "visual_anchors": [
+        "抱着幼崽向水边迈步的妈妈",
+        "回头注视的家族成员",
+        "浅色岩地上的紧张动作",
+        "珍贵泉水的近景"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_13.webp",
+      "heading_pinyin": "wèi le hái zi mào xiǎn chā duì"
+    },
+    {
+      "page": 14,
+      "heading": "雨水来了，荒漠变草原",
+      "text": "终于，雨水到来。荒漠被唤醒，变成能养活许多大型动物的草原。",
+      "pinyin": "zhōng yú ，yǔ shuǐ dào lái 。huāng mò bèi huàn xǐng ，biàn chéng néng yǎng huó xǔ duō dà xíng dòng wù de cǎo yuán 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：雨季降临后同一片荒漠变成鲜绿色草原，雨滴、浅水洼和新长出的草连接成辽阔景观，远处出现大型动物群，明亮希望感的儿童科普水粉，无文字。",
+      "source_time_range": [
+        1538.0,
+        1609.0
+      ],
+      "visual_time_range": [
+        1535,
+        1620
+      ],
+      "key_content": {
+        "location": "雨后的草原",
+        "animals": [],
+        "activity": "雨水让荒漠重新长出草",
+        "stakes": "没有雨，荒漠难以支持大型动物",
+        "outcome": "降雨让土地变绿，草原重新供养生命",
+        "visual_focus": "雨水来了，荒漠变草原"
+      },
+      "reference_frames": [
+        "references/page_14/ref_01_1552.00s.jpg",
+        "references/page_14/ref_02_1577.50s.jpg",
+        "references/page_14/ref_03_1603.00s.jpg"
+      ],
+      "visual_anchors": [
+        "雨滴落在干燥土地",
+        "刚长出的嫩绿色草",
+        "雨后辽阔草原",
+        "远处的大型动物群"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_14.webp",
+      "heading_pinyin": "yǔ shuǐ lái le huāng mò biàn cǎo yuán"
+    },
+    {
+      "page": 15,
+      "heading": "花豹从树上等待",
+      "text": "草原上的雌性花豹看似放松，其实随时会出动。它悄无声息地靠近猎物，但第一次捕猎失败了。",
+      "pinyin": "cǎo yuán shàng de cí xìng huā bào kàn shì fàng sōng ，qí shí suí shí huì chū dòng 。tā qiāo wú shēng xī dì kào jìn liè wù ，dàn dì yī cì bǔ liè shī bài le 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：赤道大草原的树荫下，雌性花豹伏在树枝上观察远处猎物，身体低伏、准备悄悄靠近，金绿草原和斑驳光影表现耐心等待，真实自然史水粉，无文字。",
+      "source_time_range": [
+        1623.5,
+        1772.0
+      ],
+      "visual_time_range": [
+        1630,
+        1780
+      ],
+      "key_content": {
+        "location": "赤道大草原",
+        "animals": [
+          "花豹",
+          "猎物"
+        ],
+        "activity": "雌性花豹在树上等待并尝试捕猎",
+        "stakes": "捕猎失败后，花豹会暴露在开阔草原",
+        "outcome": "花豹没有放弃，继续寻找新的攻击位置",
+        "visual_focus": "花豹从树上等待"
+      },
+      "reference_frames": [
+        "references/page_15/ref_01_1660.00s.jpg",
+        "references/page_15/ref_02_1705.00s.jpg",
+        "references/page_15/ref_03_1750.00s.jpg"
+      ],
+      "visual_anchors": [
+        "树荫中的雌性花豹",
+        "花豹斑纹和低伏姿态",
+        "高草与树枝遮挡",
+        "远处警觉的猎物"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_15.webp",
+      "heading_pinyin": "huā bào cóng shù shàng děng dài"
+    },
+    {
+      "page": 16,
+      "heading": "九米高的最后一跳",
+      "text": "花豹不想放弃，爬上九米高的树枝。这样的高度，比两层楼还高，跳错一步就可能受伤。",
+      "pinyin": "huā bào bù xiǎng fàng qì ，pá shàng jiǔ mǐ gāo de shù zhī 。zhè yàng de gāo dù ，bǐ liǎng céng lóu hái gāo ，tiào cuò yī bù jiù kě néng shòu shāng 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：高大的非洲树木上，雌性花豹站在约九米高的树枝边缘向下观察，树下草原显得很远，表现勇气与危险的尺度，不描绘坠落，水粉无文字。",
+      "source_time_range": [
+        1779.0,
+        1830.5
+      ],
+      "visual_time_range": [
+        1790,
+        1840
+      ],
+      "key_content": {
+        "location": "赤道大草原的高树",
+        "animals": [
+          "花豹"
+        ],
+        "activity": "花豹攀上九米高树枝观察猎物",
+        "stakes": "从高处跳下可能受伤",
+        "outcome": "花豹站上高枝，风险和机会同时变大",
+        "visual_focus": "九米高的最后一跳"
+      },
+      "reference_frames": [
+        "references/page_16/ref_01_1800.00s.jpg",
+        "references/page_16/ref_02_1815.00s.jpg",
+        "references/page_16/ref_03_1830.00s.jpg"
+      ],
+      "visual_anchors": [
+        "高树的粗壮树干",
+        "九米高的树枝",
+        "树下遥远的草地",
+        "站在高处观察的花豹"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_16.webp",
+      "heading_pinyin": "jiǔ mǐ gāo de zuì hòu yī tiào"
+    },
+    {
+      "page": 17,
+      "heading": "冷风里的大鼻子",
+      "text": "欧亚草原的风速可达每小时一百三十公里，气温低至零下三十摄氏度。高鼻羚羊用大鼻子过滤灰尘，也让冷空气变暖。",
+      "pinyin": "ōu yà cǎo yuán de fēng sù kě dá měi xiǎo shí yì bǎi sān shí gōng lǐ ，qì wēn dī zhì líng xià sān shí shè shì dù 。gāo bí líng yáng yòng dà bí zi guò lǜ huī chén ，yě ràng lěng kōng qì biàn nuǎn 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：欧亚草原暴风雪般的冷风中，一群高鼻羚羊迎风前进，前景突出雄性高鼻羚羊独特的大鼻子，鼻腔用简洁暖色气流表现过滤灰尘和加热空气，科学准确，水粉无文字。",
+      "source_time_range": [
+        1910.0,
+        1974.5
+      ],
+      "visual_time_range": [
+        1910,
+        1980
+      ],
+      "key_content": {
+        "location": "欧亚草原",
+        "animals": [
+          "高鼻羚羊"
+        ],
+        "activity": "高鼻羚羊迎着寒风行进",
+        "stakes": "严寒、强风和灰尘同时考验羚羊",
+        "outcome": "高鼻羚羊靠特殊鼻腔减少冷风和尘土的伤害",
+        "visual_focus": "冷风里的大鼻子"
+      },
+      "reference_frames": [
+        "references/page_17/ref_01_1924.00s.jpg",
+        "references/page_17/ref_02_1945.00s.jpg",
+        "references/page_17/ref_03_1966.00s.jpg"
+      ],
+      "visual_anchors": [
+        "欧亚草原的低矮草浪",
+        "冷色风暴天空",
+        "远方灰白色地平线",
+        "迎风前进的高鼻羚羊"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_17.webp",
+      "heading_pinyin": "lěng fēng lǐ de dà bí zi"
+    },
+    {
+      "page": 18,
+      "heading": "鼻子也是求偶招牌",
+      "text": "繁殖季里，雄性高鼻羚羊的大鼻子还能吸引雌性。它还在头顶装饰灌木，让自己看起来更有气度。",
+      "pinyin": "fán zhí jì lǐ ，xióng xìng gāo bí líng yáng de dà bí zi hái néng xī yǐn cí xìng 。tā hái zài tóu dǐng zhuāng shì guàn mù ，ràng zì jǐ kàn qǐ lái gèng yǒu qì dù 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：欧亚草原繁殖季，一只年老雄性高鼻羚羊展示大鼻子并顶着灌木装饰，几只雌性在远处观察，风吹草原、姿态自然，不拟人化，水粉无文字。",
+      "source_time_range": [
+        1977.0,
+        2049.5
+      ],
+      "visual_time_range": [
+        1980,
+        2055
+      ],
+      "key_content": {
+        "location": "欧亚草原",
+        "animals": [
+          "高鼻羚羊"
+        ],
+        "activity": "雄性高鼻羚羊用鼻子和灌木吸引雌性",
+        "stakes": "求偶不仅要吸引雌性，还要面对竞争",
+        "outcome": "大鼻子和灌木装饰成为求偶信号",
+        "visual_focus": "鼻子也是求偶招牌"
+      },
+      "reference_frames": [
+        "references/page_18/ref_01_1995.00s.jpg",
+        "references/page_18/ref_02_2017.50s.jpg",
+        "references/page_18/ref_03_2040.00s.jpg"
+      ],
+      "visual_anchors": [
+        "高鼻羚羊独特的大鼻子",
+        "雄性羚羊正面肖像",
+        "头顶的灌木装饰",
+        "远处观察的雌性"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_18.webp",
+      "heading_pinyin": "bí zi yě shì qiú ǒu zhāo pái"
+    },
+    {
+      "page": 19,
+      "heading": "草原王者的挑战",
+      "text": "年轻雄性想抢走大王的伴侣。两只羚羊低头对峙，挑战可能变成一场生死之战。",
+      "pinyin": "nián qīng xióng xìng xiǎng qiǎng zǒu dà wáng de bàn lǚ 。liǎng zhǐ líng yáng dī tóu duì zhì ，tiǎo zhàn kě néng biàn chéng yī cháng shēng sǐ zhī zhàn 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本插画：欧亚草原上两只雄性高鼻羚羊低头对峙准备角力，族群在后方保持距离，风吹草浪和冷色天空加强紧张感，动作真实但不血腥，水粉无文字。",
+      "source_time_range": [
+        2068.0,
+        2164.5
+      ],
+      "visual_time_range": [
+        2070,
+        2155
+      ],
+      "key_content": {
+        "location": "欧亚草原",
+        "animals": [
+          "高鼻羚羊"
+        ],
+        "activity": "年轻雄性挑战大王争夺伴侣",
+        "stakes": "挑战者可能在争斗中受伤或死亡",
+        "outcome": "年长雄性守住领地和族群",
+        "visual_focus": "草原王者的挑战"
+      },
+      "reference_frames": [
+        "references/page_19/ref_01_2087.00s.jpg",
+        "references/page_19/ref_02_2112.50s.jpg",
+        "references/page_19/ref_03_2138.00s.jpg"
+      ],
+      "visual_anchors": [
+        "两只雄性羚羊低头对峙",
+        "弯曲的角",
+        "保持距离的族群",
+        "风吹草原的冷色光线"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_19.webp",
+      "heading_pinyin": "cǎo yuán wáng zhě de tiǎo zhàn"
+    },
+    {
+      "page": 20,
+      "heading": "鬃狼是草原园丁",
+      "text": "巴西塞拉多是生物多样性很高的草原。鬃狼喜欢吃狼果，也帮助植物和土壤保持活力。",
+      "pinyin": "bā xī sāi lā duō shì shēng wù duō yàng xìng hěn gāo de cǎo yuán 。zōng láng xǐ huān chī láng guǒ ，yě bāng zhù zhí wù hé tǔ rǎng bǎo chí huó lì 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：巴西塞拉多茂密草原，一只安静的鬃狼在灌木间吃狼果，果实落入土壤并长出新植物的自然循环以画面暗示表现，真实鬃狼形态，绿色水粉无文字。",
+      "source_time_range": [
+        2187.0,
+        2273.0
+      ],
+      "visual_time_range": [
+        2190,
+        2275
+      ],
+      "key_content": {
+        "location": "巴西塞拉多",
+        "animals": [
+          "鬃狼",
+          "狼果"
+        ],
+        "activity": "鬃狼取食狼果并传播生态影响",
+        "stakes": "少了鬃狼，植物和土壤的关系会被打乱",
+        "outcome": "鬃狼帮助塞拉多维持植物和土壤的活力",
+        "visual_focus": "鬃狼是草原园丁"
+      },
+      "reference_frames": [
+        "references/page_20/ref_01_2207.00s.jpg",
+        "references/page_20/ref_02_2232.50s.jpg",
+        "references/page_20/ref_03_2258.00s.jpg"
+      ],
+      "visual_anchors": [
+        "巴西塞拉多高草",
+        "鬃狼的长腿和鬃毛",
+        "鬃狼果实",
+        "草本植物与土壤的联系"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_20.webp",
+      "heading_pinyin": "zōng láng shì cǎo yuán yuán dīng"
+    },
+    {
+      "page": 21,
+      "heading": "火从农田烧来",
+      "text": "鬃狼妈妈外出觅食时，幼崽躲在巢里。农田清理引起的大火在几分钟内蔓延很远，草原无处可逃。",
+      "pinyin": "zōng láng mā mā wài chū mì shí shí ，yòu zǎi duǒ zài cháo lǐ 。nóng tián qīng lǐ yǐn qǐ de dà huǒ zài jǐ fēn zhōng nèi màn yán hěn yuǎn ，cǎo yuán wú chǔ kě táo 。",
+      "layout": "image-right",
+      "illustration_prompt": "儿童科普绘本插画：巴西塞拉多草原大火从农田边缘蔓延，烟雾和火线在远处推进，鬃狼巢穴藏在草丛中，画面保持距离、不描绘动物受伤，紧张而克制的水粉无文字。",
+      "source_time_range": [
+        2349.5,
+        2538.0
+      ],
+      "visual_time_range": [
+        2360,
+        2515
+      ],
+      "key_content": {
+        "location": "巴西塞拉多",
+        "animals": [
+          "鬃狼",
+          "幼崽"
+        ],
+        "activity": "大火从农田边缘蔓延到鬃狼家园",
+        "stakes": "火势太快，巢穴和幼崽都可能来不及逃",
+        "outcome": "巢穴幸免，但栖息地破碎让鬃狼前途未卜",
+        "visual_focus": "火从农田烧来"
+      },
+      "reference_frames": [
+        "references/page_21/ref_01_2391.00s.jpg",
+        "references/page_21/ref_02_2437.50s.jpg",
+        "references/page_21/ref_03_2484.00s.jpg"
+      ],
+      "visual_anchors": [
+        "草原边缘的火线",
+        "俯拍的橙色烈焰",
+        "火后冒烟的树木",
+        "远处被火包围的栖息地"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_21.webp",
+      "heading_pinyin": "huǒ cóng nóng tián shāo lái"
+    },
+    {
+      "page": 22,
+      "heading": "大象让土地重获生机",
+      "text": "扎库马的大象曾遭到大量捕杀。偷猎停止后，象群逐渐壮大，它们的进食和活动又让新草地健康生长。",
+      "pinyin": "zhā kù mǎ de dà xiàng céng zāo dào dà liàng bǔ shā 。tōu liè tíng zhǐ hòu ，xiàng qún zhú jiàn zhuàng dà ，tā men de jìn shí hé huó dòng yòu ràng xīn cǎo dì jiàn kāng shēng zhǎng 。",
+      "layout": "image-left",
+      "illustration_prompt": "儿童科普绘本插画：非洲扎库马草原，一头有旧伤疤的公象和逐渐壮大的象群穿过新生长的草地，象脚和象鼻改变植物空间，远处巡护员守护，温暖自然史水粉无文字。",
+      "source_time_range": [
+        2553.0,
+        2703.0
+      ],
+      "visual_time_range": [
+        2580,
+        2665
+      ],
+      "key_content": {
+        "location": "非洲扎库马草原",
+        "animals": [
+          "非洲象"
+        ],
+        "activity": "象群取食并帮助新草地恢复",
+        "stakes": "失去象群后，草原缺少重要的生态园丁",
+        "outcome": "象群恢复后，草地和其他动物也得到空间",
+        "visual_focus": "大象让土地重获生机"
+      },
+      "reference_frames": [
+        "references/page_22/ref_01_2597.00s.jpg",
+        "references/page_22/ref_02_2622.50s.jpg",
+        "references/page_22/ref_03_2648.00s.jpg"
+      ],
+      "visual_anchors": [
+        "有旧伤疤的公象",
+        "大象面部近景",
+        "成群的大象",
+        "新草地和干枯树木"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_22.webp",
+      "heading_pinyin": "dà xiàng ràng tǔ dì chóng huò shēng jī"
+    },
+    {
+      "page": 23,
+      "heading": "鬃狼研究员寻找巢穴",
+      "text": "为了了解濒危鬃狼，研究人员给妈妈戴上追踪项圈，并用远程摄像机寻找巢穴。",
+      "pinyin": "wèi le liǎo jiě bīn wēi zōng láng ，yán jiū rén yuán gěi mā mā dài shàng zhuī zōng xiàng quān ，bìng yòng yuǎn chéng shè xiàng jī xún zhǎo cháo xué 。",
+      "layout": "image-top",
+      "illustration_prompt": "儿童科普绘本插画：巴西塞拉多一米高的草丛中，研究人员在远处用设备追踪戴项圈的鬃狼，并救助五只脱水的幼崽，保持人与野生动物安全距离，真实纪录片感，水粉无文字。",
+      "source_time_range": [
+        2801.0,
+        3003.0
+      ],
+      "visual_time_range": [
+        2810,
+        2995
+      ],
+      "key_content": {
+        "location": "巴西塞拉多",
+        "animals": [
+          "鬃狼",
+          "幼崽"
+        ],
+        "activity": "研究人员追踪鬃狼、寻找巢穴并救助幼崽",
+        "stakes": "栖息地破碎让研究、救助和保护都更困难",
+        "outcome": "研究团队救助幼崽，并继续寻找可保护的巢穴",
+        "visual_focus": "鬃狼研究员寻找巢穴"
+      },
+      "reference_frames": [
+        "references/page_23/ref_01_2847.00s.jpg",
+        "references/page_23/ref_02_2902.50s.jpg",
+        "references/page_23/ref_03_2958.00s.jpg"
+      ],
+      "visual_anchors": [
+        "车旁使用追踪设备的研究员",
+        "高草掩映的研究车辆",
+        "无人机和摄像设备",
+        "野外调查的真实尺度"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_23.webp",
+      "heading_pinyin": "zōng láng yán jiū yuán xún zhǎo cháo xué"
+    },
+    {
+      "page": 24,
+      "heading": "镜头留下希望",
+      "text": "研究团队终于拍到鬃狼妈妈带幼崽搬家。保护自然，需要给这些特别的动物留下生存空间。",
+      "pinyin": "yán jiū tuán duì zhōng yú pāi dào zōng láng mā mā dài yòu zǎi bān jiā 。bǎo hù zì rán ，xū yào gěi zhè xiē tè bié de dòng wù liú xià shēng cún kōng jiān 。",
+      "layout": "full-bleed",
+      "illustration_prompt": "儿童科普绘本结尾插画：暮色塞拉多草原，鬃狼妈妈带着幼崽从草丛中经过，远处有安静工作的摄像机和守护团队，火后的新绿与开阔天空带来担忧中的希望，温暖克制水粉，无文字。",
+      "source_time_range": [
+        3014.0,
+        3388.0
+      ],
+      "visual_time_range": [
+        3060,
+        3365
+      ],
+      "key_content": {
+        "location": "巴西塞拉多",
+        "animals": [
+          "鬃狼",
+          "幼崽"
+        ],
+        "activity": "鬃狼妈妈带幼崽搬家并留下珍贵影像",
+        "stakes": "幼崽的生存需要安全的草地和持续的保护",
+        "outcome": "珍贵影像让人更了解鬃狼，也带来保护的希望",
+        "visual_focus": "镜头留下希望"
+      },
+      "reference_frames": [
+        "references/page_24/ref_01_3121.00s.jpg",
+        "references/page_24/ref_02_3212.50s.jpg",
+        "references/page_24/ref_03_3304.00s.jpg"
+      ],
+      "visual_anchors": [
+        "鬃狼妈妈带着幼崽",
+        "草丛中的巢穴入口",
+        "远程摄像机",
+        "暮色塞拉多和新绿"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_24.webp",
+      "heading_pinyin": "jìng tóu liú xià xī wàng"
+    }
+  ],
+  "title_pinyin": "huāng mò yǔ cǎo yuán de shēng cún zhì huì",
+  "subtitle_pinyin": "dì qiú mài dòng shā mò yǔ cǎo yuán"
+}

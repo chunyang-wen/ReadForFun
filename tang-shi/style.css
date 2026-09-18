@@ -1,0 +1,1208 @@
+/* =========================================================
+   《唐诗之境 · 诗画合集》 Core Stylesheet
+   Design Philosophy: Traditional Chinese Xuan Paper & Ink Wash
+   ========================================================= */
+
+:root {
+  /* Color Palette - Day (Xuan Paper & Chinese Ink) */
+  --paper-bg: #f6f1e8;
+  --paper-card: #fdfbf7;
+  --paper-card-hover: #ffffff;
+  --paper-card-subtle: #f0eae0;
+  --paper-border: #e4dac9;
+  --paper-border-dark: #cdbfa8;
+  
+  --ink-primary: #181d20;
+  --ink-secondary: #3b444b;
+  --ink-muted: #6e7880;
+  --ink-faint: #9ea7b0;
+  --ink-wash: rgba(24, 29, 32, 0.04);
+  
+  --cinnabar: #b83b26;
+  --cinnabar-hover: #962816;
+  --cinnabar-bg: #faedea;
+  --cinnabar-border: #f0c3bc;
+  
+  --ochre: #b57a22;
+  --ochre-bg: #fbf3e4;
+  --jade: #2b614b;
+  --jade-bg: #eaf3ee;
+  
+  --shadow-sm: 0 2px 8px rgba(30, 25, 20, 0.05);
+  --shadow-md: 0 8px 24px rgba(30, 25, 20, 0.08);
+  --shadow-lg: 0 16px 40px rgba(30, 25, 20, 0.12);
+  --shadow-focus: 0 0 0 3px rgba(184, 59, 38, 0.18);
+  
+  --font-serif: "Songti SC", "STSong", "Noto Serif SC", "Source Han Serif SC", "SimSun", serif;
+  --font-kai: "Kaiti SC", "STKaiti", "KaiTi", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  
+  --transition-fast: 0.18s ease;
+  --transition-smooth: 0.32s cubic-bezier(0.2, 0.8, 0.2, 1);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+}
+
+/* Night / Ink Rubbing Mode */
+body.theme-night {
+  --paper-bg: #14171a;
+  --paper-card: #1c2126;
+  --paper-card-hover: #242a30;
+  --paper-card-subtle: #20262c;
+  --paper-border: #2d353d;
+  --paper-border-dark: #3a4550;
+  
+  --ink-primary: #f2f5f8;
+  --ink-secondary: #c9d2db;
+  --ink-muted: #8895a1;
+  --ink-faint: #596570;
+  --ink-wash: rgba(255, 255, 255, 0.04);
+  
+  --cinnabar: #d94f38;
+  --cinnabar-hover: #eb614a;
+  --cinnabar-bg: #381a16;
+  --cinnabar-border: #5e261e;
+  
+  --ochre: #d49332;
+  --ochre-bg: #2d2212;
+  --jade: #3d8b68;
+  --jade-bg: #13281f;
+  
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.6);
+  --shadow-focus: 0 0 0 3px rgba(217, 79, 56, 0.3);
+}
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100vh;
+  background-color: var(--paper-bg);
+  color: var(--ink-primary);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  transition: background-color var(--transition-smooth), color var(--transition-smooth);
+}
+
+/* Subtle Xuan Paper Texture Background */
+.paper-texture {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.035;
+  background-image: radial-gradient(var(--ink-primary) 0.75px, transparent 0.75px);
+  background-size: 14px 14px;
+}
+
+/* =========================================================
+   App Header & Brand
+   ========================================================= */
+
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--paper-bg);
+  border-bottom: 1px solid var(--paper-border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.header-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.brand-section {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.bookshelf-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--paper-card-subtle);
+  border: 1px solid var(--paper-border);
+  color: var(--ink-secondary);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: var(--transition-fast);
+}
+
+.bookshelf-back:hover {
+  color: var(--cinnabar);
+  border-color: var(--cinnabar-border);
+  background: var(--cinnabar-bg);
+}
+
+.brand-seal {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cinnabar);
+  color: #fff;
+  font-family: var(--font-kai);
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-radius: 6px;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25), var(--shadow-sm);
+  user-select: none;
+}
+
+.brand-titles h1 {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--ink-primary);
+  line-height: 1.2;
+}
+
+.brand-sub {
+  display: block;
+  font-size: 0.76rem;
+  color: var(--ink-muted);
+  letter-spacing: 0.04em;
+}
+
+/* Search Box */
+.search-section {
+  position: relative;
+  flex: 1;
+  max-width: 480px;
+}
+
+.search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: var(--paper-card);
+  border: 1px solid var(--paper-border);
+  border-radius: 24px;
+  padding: 0 14px;
+  transition: var(--transition-fast);
+}
+
+.search-box:focus-within {
+  border-color: var(--cinnabar);
+  box-shadow: var(--shadow-focus);
+}
+
+.search-icon {
+  font-size: 0.95rem;
+  color: var(--ink-muted);
+  margin-right: 8px;
+}
+
+.search-input {
+  width: 100%;
+  height: 38px;
+  border: none;
+  background: transparent;
+  color: var(--ink-primary);
+  font-size: 0.88rem;
+  font-family: inherit;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: var(--ink-faint);
+}
+
+.clear-search-btn {
+  background: none;
+  border: none;
+  color: var(--ink-muted);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 4px 6px;
+  display: none;
+}
+
+.clear-search-btn.visible {
+  display: block;
+}
+
+.search-shortcut {
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+  background: var(--paper-card-subtle);
+  border: 1px solid var(--paper-border);
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin-left: 6px;
+}
+
+/* Live Search Panel */
+.search-results-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  max-height: 480px;
+  background: var(--paper-card);
+  border: 1px solid var(--paper-border-dark);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  overflow-y: auto;
+  z-index: 200;
+}
+
+.search-results-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--paper-border);
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
+
+.search-results-list {
+  padding: 6px 0;
+}
+
+.search-result-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--paper-border);
+  transition: var(--transition-fast);
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+.search-result-item:hover, .search-result-item.highlighted {
+  background: var(--cinnabar-bg);
+}
+
+.sr-top {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.sr-title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  color: var(--ink-primary);
+  font-size: 0.96rem;
+}
+
+.sr-poet {
+  font-size: 0.82rem;
+  color: var(--cinnabar);
+  font-weight: 600;
+}
+
+.sr-form {
+  font-size: 0.72rem;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: var(--paper-card-subtle);
+  color: var(--ink-muted);
+}
+
+.sr-match-line {
+  margin-top: 4px;
+  font-size: 0.84rem;
+  color: var(--ink-secondary);
+}
+
+.sr-match-line mark {
+  background: #ffe066;
+  color: #000;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+/* Header Actions */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 38px;
+  padding: 0 14px;
+  border-radius: 20px;
+  background: var(--paper-card);
+  border: 1px solid var(--paper-border);
+  color: var(--ink-primary);
+  font-size: 0.86rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.action-btn:hover {
+  border-color: var(--cinnabar);
+  color: var(--cinnabar);
+  background: var(--cinnabar-bg);
+}
+
+.action-btn[aria-pressed="true"] {
+  background: var(--cinnabar);
+  color: #ffffff;
+  border-color: var(--cinnabar);
+}
+
+.btn-icon {
+  font-size: 0.95rem;
+}
+
+/* =========================================================
+   Poet Filter Bar (Chips)
+   ========================================================= */
+
+.poet-filter-bar {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 6px 24px 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  overflow: hidden;
+}
+
+.filter-label {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  flex-shrink: 0;
+}
+
+.poet-chips-scroll {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  padding-bottom: 2px;
+}
+
+.poet-chips-scroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+.poet-chips-scroll::-webkit-scrollbar-thumb {
+  background: var(--paper-border);
+  border-radius: 2px;
+}
+
+.poet-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 12px;
+  border-radius: 14px;
+  background: var(--paper-card);
+  border: 1px solid var(--paper-border);
+  color: var(--ink-secondary);
+  font-size: 0.82rem;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.poet-chip:hover {
+  color: var(--cinnabar);
+  border-color: var(--cinnabar-border);
+  background: var(--cinnabar-bg);
+}
+
+.poet-chip.active {
+  background: var(--ink-primary);
+  color: var(--paper-card);
+  border-color: var(--ink-primary);
+  font-weight: 600;
+}
+
+.chip-count {
+  font-size: 0.72rem;
+  opacity: 0.8;
+}
+
+/* =========================================================
+   Reader Stage (Double Column)
+   ========================================================= */
+
+.reader-stage {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: minmax(380px, 1fr) minmax(460px, 1.25fr);
+  gap: 32px;
+  align-items: start;
+}
+
+/* Verses Column (Left) */
+.verses-column {
+  position: relative;
+}
+
+.poem-card {
+  background: var(--paper-card);
+  border: 1px solid var(--paper-border);
+  border-radius: var(--radius-lg);
+  padding: 36px 32px;
+  box-shadow: var(--shadow-sm);
+}
+
+.poem-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.poem-dynasty-badge, .poem-form-badge {
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.poem-dynasty-badge {
+  background: var(--cinnabar-bg);
+  color: var(--cinnabar);
+  border: 1px solid var(--cinnabar-border);
+}
+
+.poem-form-badge {
+  background: var(--ochre-bg);
+  color: var(--ochre);
+  border: 1px solid rgba(181, 122, 34, 0.25);
+}
+
+.poem-tags-list {
+  display: flex;
+  gap: 6px;
+}
+
+.poem-tag {
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+  background: var(--paper-card-subtle);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.poem-title {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.35;
+  margin-bottom: 8px;
+  color: var(--ink-primary);
+}
+
+.poem-author-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed var(--paper-border);
+}
+
+.poet-name {
+  font-family: var(--font-kai);
+  font-size: 1.15rem;
+  color: var(--ink-secondary);
+}
+
+.poet-seal {
+  display: inline-block;
+  font-family: var(--font-kai);
+  font-size: 0.72rem;
+  color: var(--cinnabar);
+  border: 1px solid var(--cinnabar);
+  padding: 1px 4px;
+  border-radius: 2px;
+}
+
+/* Verses List */
+.verses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+/* Individual Poem Line Item */
+.verse-line {
+  position: relative;
+  padding: 14px 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  background: var(--paper-card-subtle);
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.verse-line:hover {
+  background: var(--paper-card-hover);
+  border-color: var(--paper-border-dark);
+  transform: translateX(4px);
+}
+
+/* Active Highlighted Line (Up/Down Focus) */
+.verse-line.active {
+  background: var(--cinnabar-bg);
+  border-color: var(--cinnabar-border);
+  box-shadow: 0 4px 16px rgba(184, 59, 38, 0.12);
+  transform: translateX(6px);
+}
+
+.line-num-stamp {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--paper-card);
+  border: 1px solid var(--paper-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.74rem;
+  color: var(--ink-muted);
+  font-family: var(--font-serif);
+  font-weight: 600;
+  transition: var(--transition-fast);
+}
+
+.verse-line.active .line-num-stamp {
+  background: var(--cinnabar);
+  color: #fff;
+  border-color: var(--cinnabar);
+}
+
+.line-text-wrap {
+  font-family: var(--font-serif);
+  font-size: 1.65rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  color: var(--ink-secondary);
+  line-height: 1.6;
+  transition: var(--transition-fast);
+}
+
+.verse-line.active .line-text-wrap {
+  color: var(--ink-primary);
+  font-weight: 700;
+}
+
+/* Ruby Pinyin Styles */
+ruby {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  vertical-align: bottom;
+  margin: 0 1px;
+}
+
+ruby rt {
+  font-family: var(--font-sans);
+  font-size: 0.44em;
+  font-weight: 400;
+  color: var(--cinnabar);
+  letter-spacing: 0;
+  line-height: 1;
+  margin-bottom: 2px;
+  user-select: none;
+  opacity: 1;
+  transition: opacity var(--transition-fast);
+}
+
+body:not(.pinyin-enabled) ruby rt {
+  display: none;
+}
+
+/* Line Stepper Dots */
+.line-stepper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.step-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--paper-border-dark);
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.step-dot.active {
+  width: 28px;
+  border-radius: 5px;
+  background: var(--cinnabar);
+}
+
+/* Whole Poem Appreciation Accordion */
+.poem-appreciation-details {
+  background: var(--paper-card-subtle);
+  border: 1px solid var(--paper-border);
+  border-radius: var(--radius-md);
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.appreciation-summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink-secondary);
+  cursor: pointer;
+  user-select: none;
+}
+
+.summary-icon {
+  color: var(--cinnabar);
+}
+
+.summary-arrow {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  transition: transform var(--transition-fast);
+}
+
+.poem-appreciation-details[open] .summary-arrow {
+  transform: rotate(180deg);
+}
+
+.appreciation-body {
+  padding: 0 16px 16px;
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--ink-secondary);
+  border-top: 1px solid var(--paper-border);
+  padding-top: 12px;
+}
+
+/* Footer Pager */
+.poem-footer-pager {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--paper-border);
+}
+
+.pager-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--paper-card);
+  border: 1px solid var(--paper-border);
+  color: var(--ink-secondary);
+  font-size: 0.84rem;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.pager-btn:hover:not(:disabled) {
+  border-color: var(--cinnabar);
+  color: var(--cinnabar);
+  background: var(--cinnabar-bg);
+}
+
+.pager-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.poem-counter {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  font-weight: 600;
+}
+
+/* =========================================================
+   Artwork Column (Right)
+   ========================================================= */
+
+.artwork-column {
+  position: sticky;
+  top: 96px;
+}
+
+.artwork-card {
+  background: var(--paper-card);
+  border: 1px solid var(--paper-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.artwork-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10.5;
+  background: #111;
+  overflow: hidden;
+}
+
+.artwork-loading {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(17, 17, 17, 0.72);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.12s ease, visibility 0.12s ease;
+}
+
+.artwork-loading.is-visible { opacity: 1; visibility: visible; }
+.artwork-loading.has-error { background: rgba(90, 35, 25, 0.82); }
+.artwork-loading-spinner {
+  width: 26px;
+  height: 26px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: artworkSpin 0.7s linear infinite;
+}
+.artwork-loading.has-error .artwork-loading-spinner { display: none; }
+.artwork-loading-label { font-size: 0.85rem; }
+@keyframes artworkSpin { to { transform: rotate(360deg); } }
+
+.line-illustration-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: opacity 0.18s ease, transform 0.18s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.line-illustration-img.fade-out {
+  opacity: 0.2;
+  transform: scale(1.02);
+}
+
+.line-illustration-img.is-loading { opacity: 0.08; }
+
+@media (prefers-reduced-motion: reduce) {
+  .artwork-loading-spinner { animation: none; }
+  .artwork-loading, .line-illustration-img { transition: none; }
+}
+
+.artwork-overlay {
+  position: absolute;
+  bottom: 12px;
+  left: 14px;
+  right: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+
+.artwork-line-badge {
+  background: rgba(15, 20, 25, 0.75);
+  color: #fff;
+  backdrop-filter: blur(8px);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.artwork-poetic-focus {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Line Explanation Card */
+.line-explanation-card {
+  padding: 24px;
+}
+
+.explanation-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--paper-border);
+}
+
+.exp-seal {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cinnabar);
+  color: #fff;
+  font-family: var(--font-kai);
+  font-size: 1.1rem;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.exp-caption {
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+  letter-spacing: 0.05em;
+}
+
+.exp-line-text {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ink-primary);
+  margin-top: 2px;
+}
+
+.exp-content {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.exp-section-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--ink-primary);
+  margin-bottom: 8px;
+}
+
+.exp-section-title .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--cinnabar);
+}
+
+.exp-translation {
+  font-size: 0.94rem;
+  line-height: 1.7;
+  color: var(--ink-secondary);
+  background: var(--paper-card-subtle);
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--cinnabar);
+}
+
+.exp-words {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: var(--ink-secondary);
+}
+
+.exp-words p {
+  margin-bottom: 6px;
+}
+
+/* =========================================================
+   Bottom Floating Keyboard Nav Helper
+   ========================================================= */
+
+.keyboard-nav-bar {
+  position: fixed;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--paper-card);
+  border: 1px solid var(--paper-border);
+  padding: 8px 18px;
+  border-radius: 30px;
+  box-shadow: var(--shadow-lg);
+  z-index: 90;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.nav-hint-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.76rem;
+  color: var(--ink-muted);
+}
+
+.hint-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+kbd {
+  display: inline-block;
+  padding: 2px 5px;
+  font-family: inherit;
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--ink-primary);
+  background: var(--paper-card-subtle);
+  border: 1px solid var(--paper-border);
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.hint-divider {
+  opacity: 0.5;
+}
+
+/* =========================================================
+   Catalog Drawer Modal
+   ========================================================= */
+
+.catalog-drawer {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.catalog-drawer[hidden] {
+  display: none;
+}
+
+.drawer-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+}
+
+.drawer-content {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  background: var(--paper-card);
+  border-left: 1px solid var(--paper-border);
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-lg);
+  animation: slideInRight 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--paper-border);
+}
+
+.drawer-title-group h2 {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  color: var(--ink-primary);
+}
+
+.drawer-subtitle {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
+
+.close-drawer-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--paper-card-subtle);
+  border: 1px solid var(--paper-border);
+  color: var(--ink-muted);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.close-drawer-btn:hover {
+  color: var(--cinnabar);
+  border-color: var(--cinnabar-border);
+}
+
+.drawer-filter-pills {
+  display: flex;
+  gap: 8px;
+  padding: 12px 24px;
+  border-bottom: 1px solid var(--paper-border);
+  overflow-x: auto;
+}
+
+.drawer-pill {
+  padding: 4px 12px;
+  border-radius: 14px;
+  border: 1px solid var(--paper-border);
+  background: var(--paper-card-subtle);
+  color: var(--ink-secondary);
+  font-size: 0.78rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.drawer-pill.active {
+  background: var(--cinnabar);
+  color: #fff;
+  border-color: var(--cinnabar);
+}
+
+.catalog-grid {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.catalog-item-card {
+  padding: 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--paper-border);
+  background: var(--paper-card-subtle);
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.catalog-item-card:hover, .catalog-item-card.active {
+  border-color: var(--cinnabar);
+  background: var(--cinnabar-bg);
+  transform: translateY(-2px);
+}
+
+.cat-item-title {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--ink-primary);
+  margin-bottom: 4px;
+}
+
+.cat-item-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
+
+.cat-item-poet {
+  color: var(--cinnabar);
+  font-weight: 600;
+}
+
+/* =========================================================
+   Responsive Design
+   ========================================================= */
+
+@media (max-width: 1024px) {
+  .reader-stage {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .artwork-column {
+    position: static;
+    order: -1;
+  }
+  
+  .verses-column {
+    order: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-inner {
+    flex-wrap: wrap;
+    padding: 10px 16px;
+  }
+  
+  .search-section {
+    order: 3;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .reader-stage {
+    padding: 16px;
+  }
+  
+  .poem-card {
+    padding: 24px 18px;
+  }
+  
+  .poem-title {
+    font-size: 1.75rem;
+  }
+  
+  .verse-line {
+    padding: 12px 14px;
+  }
+  
+  .line-text-wrap {
+    font-size: 1.35rem;
+  }
+  
+  .keyboard-nav-bar {
+    display: none;
+  }
+  
+  .catalog-grid {
+    grid-template-columns: 1fr;
+  }
+}

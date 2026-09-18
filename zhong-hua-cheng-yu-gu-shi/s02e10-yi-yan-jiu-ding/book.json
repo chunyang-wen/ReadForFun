@@ -1,0 +1,663 @@
+{
+  "title": "一言九鼎",
+  "subtitle": "毛遂用智慧说服楚王",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E10.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_01.webp",
+      "heading": "一句话有多重",
+      "text": "陈教授答应准时回来上课。琪琪等得着急，看到他说到做到，马上想起了今天的成语：一言九鼎。它不是说话声音大，而是说话很有分量。",
+      "illustration_prompt": "中国儿童历史故事绘本风格，温暖明快的二维动画质感转为柔和水彩与彩铅插画；文化宫直播间里，白发戴圆眼镜的陈教授准时推门回来，白色小机器人琪琪松了一口气，桌上有成语书和直播灯，画面表现‘说到做到’与一句话很有分量的感觉，不出现文字、字幕、标志或水印。",
+      "layout": "image-left",
+      "source_time_range": [
+        183.03,
+        237.31
+      ],
+      "visual_time_range": [
+        160.44,
+        203.91
+      ],
+      "key_content": {
+        "location": "文化宫直播间",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "陈教授准时回来并解释一言九鼎的意思",
+        "stakes": "孩子们容易把成语误解成声音很大",
+        "outcome": "琪琪知道一言九鼎形容说话很有分量",
+        "visual_focus": "陈教授回到直播间，琪琪从焦急变得安心"
+      },
+      "visual_anchors": [
+        "白发圆眼镜陈教授",
+        "白色小机器人琪琪",
+        "文化宫直播间",
+        "成语书与直播灯"
+      ],
+      "heading_pinyin": "yī jù huà yǒu duō zhòng",
+      "pinyin": "chén jiào shòu dā yìng zhǔn shí huí lái shàng kè qí qí děng dé zháo jí kàn dào tā shuō dào zuò dào mǎ shàng xiǎng qǐ le jīn tiān de chéng yǔ yì yán jiǔ dǐng tā bú shì shuō huà shēng yīn dà ér shì shuō huà hěn yǒu fèn liàng",
+      "reference_frames": [
+        "references/page_01/ref_01_169.13s.jpg",
+        "references/page_01/ref_02_182.18s.jpg",
+        "references/page_01/ref_03_195.22s.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_02.webp",
+      "heading": "故事里的主人公",
+      "text": "直播课开始了。陈教授告诉大家，今天故事的主人公是毛遂。毛遂曾经毛遂自荐，这一次，他要用自己的话语帮助赵国。",
+      "illustration_prompt": "中国儿童历史故事绘本风格，文化宫直播课堂的宽阔场景，陈教授和白色机器人琪琪面向屏幕前的小朋友介绍毛遂；背景像一幅打开的古代故事卷轴，卷轴中出现战国人物毛遂的剪影与赵国宫殿，不出现任何文字、字幕、标志或水印，原创构图。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        250.35,
+        295.59
+      ],
+      "visual_time_range": [
+        250.35,
+        288.71
+      ],
+      "key_content": {
+        "location": "文化宫成语直播课堂",
+        "animals": [
+          "陈教授",
+          "琪琪",
+          "毛遂"
+        ],
+        "activity": "讲述者介绍毛遂和故事背景",
+        "stakes": "小朋友需要知道接下来故事的主人公",
+        "outcome": "故事从毛遂与赵国的危急处境展开",
+        "visual_focus": "直播间与古代故事卷轴连接起来"
+      },
+      "visual_anchors": [
+        "文化宫直播课堂",
+        "陈教授与琪琪",
+        "打开的历史卷轴",
+        "毛遂人物剪影"
+      ],
+      "heading_pinyin": "gù shì lǐ de zhǔ rén gōng",
+      "pinyin": "zhí bō kè kāi shǐ le chén jiào shòu gào sù dà jiā jīn tiān gù shì de zhǔ rén gōng shì máo suí máo suí céng jīng máo suì zì jiàn zhè yī cì tā yào yòng zì jǐ de huà yǔ bāng zhù zhào guó",
+      "reference_frames": [
+        "references/page_02/ref_01_258.02s.jpg",
+        "references/page_02/ref_02_269.53s.jpg",
+        "references/page_02/ref_03_281.04s.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_03.webp",
+      "heading": "邯郸被围",
+      "text": "战国时，秦国突然出兵，把赵国都城邯郸团团包围。城里的守军快要顶不住了，赵王必须赶快想办法。",
+      "illustration_prompt": "中国儿童历史故事绘本风格，战国赵国邯郸城的高大城墙与城门，远处秦军旗帜和队列形成包围态势，城内赵王宫殿与守军神情紧张；色彩明快但有危急感，地理关系清楚，不出现文字、字幕、标志或水印。",
+      "layout": "image-top",
+      "source_time_range": [
+        307.68,
+        333.39
+      ],
+      "visual_time_range": [
+        307.68,
+        333.39
+      ],
+      "key_content": {
+        "location": "赵国都城邯郸",
+        "animals": [
+          "赵王",
+          "赵国守军",
+          "秦国军队"
+        ],
+        "activity": "秦军包围邯郸，守军抵挡进攻",
+        "stakes": "赵国都城可能失守",
+        "outcome": "赵王召集大臣商议对策",
+        "visual_focus": "城墙、包围的秦军和紧张的守军"
+      },
+      "visual_anchors": [
+        "邯郸城墙与城门",
+        "远处秦军队列",
+        "赵国守军",
+        "赵王宫殿"
+      ],
+      "heading_pinyin": "hán dān bèi wéi",
+      "pinyin": "zhàn guó shí qín guó tū rán chū bīng bǎ zhào guó dū chéng hán dān tuán tuán bāo wéi chéng lǐ de shǒu jūn kuài yào dǐng bú zhù le zhào wáng bì xū gǎn kuài xiǎng bàn fǎ",
+      "reference_frames": [
+        "references/page_03/ref_01_312.82s.jpg",
+        "references/page_03/ref_02_320.53s.jpg",
+        "references/page_03/ref_03_328.25s.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_04.webp",
+      "heading": "不能硬碰硬",
+      "text": "大臣们争论起来：有人主张反击，有人提醒赵国刚经历长平之战，国力已经受损。用较弱的力量硬碰强大的秦军，就像鸡蛋碰石头。",
+      "illustration_prompt": "中国儿童历史故事绘本风格，赵王宫议事殿内，大臣们围在地图前讨论；一边有象征反击的盾牌，一边以安全的寓言式视觉表现小鸡蛋面对大石头，赵王认真思考，古代宫殿木柱与青铜器细节，不出现文字、字幕、标志或水印。",
+      "layout": "image-right",
+      "source_time_range": [
+        342.05,
+        379.03
+      ],
+      "visual_time_range": [
+        342.05,
+        379.03
+      ],
+      "key_content": {
+        "location": "赵王宫议事殿",
+        "animals": [
+          "赵王",
+          "赵国大臣"
+        ],
+        "activity": "大臣们讨论反击或休养生息",
+        "stakes": "硬战可能让国力更弱",
+        "outcome": "大家倾向于避免以弱击强",
+        "visual_focus": "地图、争论的大臣和鸡蛋碰石头的寓言画面"
+      },
+      "visual_anchors": [
+        "赵王宫议事殿",
+        "战国地图",
+        "赵王与大臣",
+        "鸡蛋和大石头寓言"
+      ],
+      "heading_pinyin": "bù néng yìng pèng yìng",
+      "pinyin": "dà chén men zhēng lùn qǐ lái yǒu rén zhǔ zhāng fǎn jī yǒu rén tí xǐng zhào guó gāng jīng lì zhǎng píng zhī zhàn guó lì yǐ jīng shòu sǔn yòng jiào ruò de lì liàng yìng pèng qiáng dà de qín jūn jiù xiàng jī dàn pèng shí tou",
+      "reference_frames": [
+        "references/page_04/ref_01_349.45s.jpg",
+        "references/page_04/ref_02_360.54s.jpg",
+        "references/page_04/ref_03_371.63s.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_05.webp",
+      "heading": "请楚国帮忙",
+      "text": "大臣提出一个办法：南下结交楚国，请楚国牵制秦国。赵王觉得可行，可是，谁能去说服楚王派兵援助呢？",
+      "illustration_prompt": "中国儿童历史故事绘本风格，赵王宫内的战国地图从赵国延伸到南方楚国，红色路线连接两国；赵王和大臣指向地图，桌上有信物与竹简，画面表现寻找盟友的策略，不出现可读文字、字幕、标志或水印。",
+      "layout": "image-left",
+      "source_time_range": [
+        379.59,
+        411.13
+      ],
+      "visual_time_range": [
+        379.59,
+        411.13
+      ],
+      "key_content": {
+        "location": "赵王宫议事殿",
+        "animals": [
+          "赵王",
+          "赵国大臣"
+        ],
+        "activity": "大臣提出联合楚国牵制秦国",
+        "stakes": "赵国需要在不硬战的情况下脱围",
+        "outcome": "赵王决定派使者前往楚国",
+        "visual_focus": "连接赵国与楚国的地图路线"
+      },
+      "visual_anchors": [
+        "战国地图",
+        "赵王与大臣指图",
+        "赵楚路线",
+        "竹简与外交信物"
+      ],
+      "heading_pinyin": "qǐng chǔ guó bāng máng",
+      "pinyin": "dà chén tí chū yí gè bàn fǎ nán xià jié jiāo chǔ guó qǐng chǔ guó qiān zhì qín guó zhào wáng jué de kě xíng kě shì shuí néng qù shuō fú chǔ wáng pài bīng yuán zhù ne",
+      "reference_frames": [
+        "references/page_05/ref_01_385.90s.jpg",
+        "references/page_05/ref_02_395.36s.jpg",
+        "references/page_05/ref_03_404.82s.jpg"
+      ]
+    },
+    {
+      "page": 6,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_06.webp",
+      "heading": "还差一位门客",
+      "text": "平原君准备带二十名门客去楚国。他数到十九，队伍还差一人。一个声音响起：‘我愿意随大人前往楚国。’说话的人正是毛遂。",
+      "illustration_prompt": "中国儿童历史故事绘本风格，古代赵国府邸的庭院，平原君和门客正在点数队伍，十九名门客站成一列，毛遂从一旁自信地迈步加入；服饰和建筑符合战国想象，动作清楚，不出现文字、字幕、标志或水印。",
+      "layout": "image-top",
+      "source_time_range": [
+        427.7,
+        457.7
+      ],
+      "visual_time_range": [
+        427.7,
+        457.7
+      ],
+      "key_content": {
+        "location": "平原君府邸庭院",
+        "animals": [
+          "平原君",
+          "毛遂",
+          "赵国门客"
+        ],
+        "activity": "平原君清点门客，毛遂主动报名",
+        "stakes": "出使队伍少一名成员",
+        "outcome": "毛遂补上最后一个名额",
+        "visual_focus": "十九名门客与主动走出的毛遂"
+      },
+      "visual_anchors": [
+        "战国府邸庭院",
+        "平原君",
+        "十九名门客队列",
+        "主动走出的毛遂"
+      ],
+      "heading_pinyin": "hái chà yī wèi mén kè",
+      "pinyin": "píng yuán jūn zhǔn bèi dài èr shí míng mén kè qù chǔ guó tā shù dào shí jiǔ duì wǔ hái chà yī rén yí gè shēng yīn xiǎng qǐ wǒ yuàn yì suí dà rén qián wǎng chǔ guó shuō huà de rén zhèng shì máo suí",
+      "reference_frames": [
+        "references/page_06/ref_01_433.70s.jpg",
+        "references/page_06/ref_02_442.70s.jpg",
+        "references/page_06/ref_03_451.70s.jpg"
+      ]
+    },
+    {
+      "page": 7,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_07.webp",
+      "heading": "口袋里的锥子",
+      "text": "平原君觉得毛遂默默无闻，便用锥子作比喻：有才能的人像锥子放进口袋，尖头很快会露出来。毛遂在门下三年，却一直没有被发现。",
+      "illustration_prompt": "中国儿童历史故事绘本风格，平原君府邸内的对话场景，平原君拿着布袋和一把木质安全示意锥，锥尖从袋口露出；毛遂在旁认真听讲，背景有书架与木窗，寓言画面清晰而友好，不出现文字、字幕、标志或水印。",
+      "layout": "image-right",
+      "source_time_range": [
+        458.98,
+        483.46
+      ],
+      "visual_time_range": [
+        458.98,
+        483.46
+      ],
+      "key_content": {
+        "location": "平原君府邸",
+        "animals": [
+          "平原君",
+          "毛遂"
+        ],
+        "activity": "平原君用锥子出袋比喻显露才能",
+        "stakes": "平原君怀疑毛遂是否能担当使命",
+        "outcome": "毛遂听到对自己的质疑",
+        "visual_focus": "锥尖穿出布袋的寓言与毛遂的神情"
+      },
+      "visual_anchors": [
+        "布袋与木质锥子",
+        "平原君讲解",
+        "毛遂认真听讲",
+        "古代府邸书架"
+      ],
+      "heading_pinyin": "kǒu dài lǐ de zhuī zi",
+      "pinyin": "píng yuán jūn jué de máo suí mò mò wú wén biàn yòng zhuī zi zuò bǐ yù yǒu cái néng de rén xiàng zhuī zi fàng jìn kǒu dài jiān tóu hěn kuài huì lù chū lái máo suí zài mén xià sān nián què yì zhí méi yǒu bèi fā xiàn",
+      "reference_frames": [
+        "references/page_07/ref_01_463.88s.jpg",
+        "references/page_07/ref_02_471.22s.jpg",
+        "references/page_07/ref_03_478.56s.jpg"
+      ]
+    },
+    {
+      "page": 8,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_08.webp",
+      "heading": "我只是还没进袋子",
+      "text": "毛遂回答：我一直没有露头，是因为您从没把我这把锥子放进袋子里。如果给我一次机会，我一定会把整把锥子都露出来。平原君被他说服了。",
+      "illustration_prompt": "中国儿童历史故事绘本风格，毛遂在古代府邸中自信而有礼地指向布袋与锥子，锥子完全从袋中伸出，平原君从怀疑变为惊讶赞许；暖色木质室内，姿态有戏剧性但适合儿童，不出现文字、字幕、标志或水印。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        484.9,
+        510.31
+      ],
+      "visual_time_range": [
+        484.9,
+        510.31
+      ],
+      "key_content": {
+        "location": "平原君府邸",
+        "animals": [
+          "毛遂",
+          "平原君"
+        ],
+        "activity": "毛遂用锥子比喻为自己争取机会",
+        "stakes": "毛遂能否获得出使楚国的机会",
+        "outcome": "平原君认可毛遂，带他一同出发",
+        "visual_focus": "毛遂自信发言，整把锥子露出袋口"
+      },
+      "visual_anchors": [
+        "自信的毛遂",
+        "惊讶的平原君",
+        "完全露出的锥子",
+        "暖色府邸室内"
+      ],
+      "heading_pinyin": "wǒ zhǐ shì hái méi jìn dài zi",
+      "pinyin": "máo suí huí dá wǒ yì zhí méi yǒu lòu tóu shì yīn wèi nín cóng méi bǎ wǒ zhè bǎ zhuī zi fàng jìn dài zi lǐ rú guǒ gěi wǒ yī cì jī huì wǒ yí dìng huì bǎ zhěng bǎ zhuī zi dōu lù chū lái píng yuán jūn bèi tā shuō fú le",
+      "reference_frames": [
+        "references/page_08/ref_01_489.98s.jpg",
+        "references/page_08/ref_02_497.61s.jpg",
+        "references/page_08/ref_03_505.23s.jpg"
+      ]
+    },
+    {
+      "page": 9,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_09.webp",
+      "heading": "楚王不愿出兵",
+      "text": "到了楚国，平原君先说明赵国的危急，又请求楚王出兵。楚王担心秦国太强，楚国也难以抵挡，只是不停推辞。",
+      "illustration_prompt": "中国儿童历史故事绘本风格，楚国宫殿大殿，楚王坐在高台上，平原君和使者在殿下恳切请求援军；楚王面露犹豫，远处屏风与青铜器体现战国宫廷，画面有谈判僵持感，不出现文字、字幕、标志或水印。",
+      "layout": "image-left",
+      "source_time_range": [
+        515.79,
+        555.12
+      ],
+      "visual_time_range": [
+        515.79,
+        555.12
+      ],
+      "key_content": {
+        "location": "楚国宫殿",
+        "animals": [
+          "楚王",
+          "平原君",
+          "赵国使者"
+        ],
+        "activity": "平原君请求楚王派兵援赵",
+        "stakes": "楚王担心出兵会招来强秦攻击",
+        "outcome": "谈判从早到中午仍没有进展",
+        "visual_focus": "使者请求与楚王犹豫推辞的对照"
+      },
+      "visual_anchors": [
+        "楚国宫殿大殿",
+        "楚王高台",
+        "平原君与使者",
+        "战国青铜器与屏风"
+      ],
+      "heading_pinyin": "chǔ wáng bù yuàn chū bīng",
+      "pinyin": "dào le chǔ guó píng yuán jūn xiān shuō míng zhào guó de wēi jí yòu qǐng qiú chǔ wáng chū bīng chǔ wáng dān xīn qín guó tài qiáng chǔ guó yě nán yǐ dǐ dǎng zhǐ shì bù tíng tuī cí",
+      "reference_frames": [
+        "references/page_09/ref_01_523.66s.jpg",
+        "references/page_09/ref_02_535.45s.jpg",
+        "references/page_09/ref_03_547.25s.jpg"
+      ]
+    },
+    {
+      "page": 10,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_10.webp",
+      "heading": "毛遂走上前",
+      "text": "谈判一直没有结果。毛遂走上前说，出兵这件事不是有利就是有害，理由明明白白，为什么还要一直议论不决定？楚王问：这个人是谁？",
+      "illustration_prompt": "中国儿童历史故事绘本风格，楚国宫殿谈判现场，平原君与楚王僵持，毛遂从使者队伍中大步走到殿中央，所有人都转头看他；空间层次清楚，表现关键人物挺身而出，不出现文字、字幕、标志或水印。",
+      "layout": "image-top",
+      "source_time_range": [
+        556.0,
+        579.47
+      ],
+      "visual_time_range": [
+        556.0,
+        579.47
+      ],
+      "key_content": {
+        "location": "楚国宫殿",
+        "animals": [
+          "毛遂",
+          "楚王",
+          "平原君"
+        ],
+        "activity": "毛遂打破僵局，走到楚王面前发言",
+        "stakes": "援赵谈判可能失败",
+        "outcome": "楚王开始注意这位门客",
+        "visual_focus": "毛遂从队伍中走到殿中央"
+      },
+      "visual_anchors": [
+        "楚国宫殿谈判席",
+        "走向中央的毛遂",
+        "转头注视的楚王与使者",
+        "紧张的谈判气氛"
+      ],
+      "heading_pinyin": "máo suí zǒu shàng qián",
+      "pinyin": "tán pàn yì zhí méi yǒu jié guǒ máo suí zǒu shàng qián shuō chū bīng zhè jiàn shì bú shì yǒu lì jiù shì yǒu hài lǐ yóu míng míng bái bái wèi shén me hái yào yì zhí yì lùn bù jué dìng chǔ wáng wèn zhè ge rén shì shuí",
+      "reference_frames": [
+        "references/page_10/ref_01_560.69s.jpg",
+        "references/page_10/ref_02_567.74s.jpg",
+        "references/page_10/ref_03_574.78s.jpg"
+      ]
+    },
+    {
+      "page": 11,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_11.webp",
+      "heading": "十步之内的勇气",
+      "text": "楚王让毛遂退下，毛遂却提醒他：现在十步之内，大王的性命就在我手中。他用坚定的气势，让楚王认真听下去。",
+      "illustration_prompt": "中国儿童历史故事绘本风格，楚国宫殿内的近距离对话，毛遂站在楚王十步之内，神情坚定、手势克制而有礼，楚王从轻视变为认真，侍卫与平原君在后方紧张注视；不表现暴力，不出现文字、字幕、标志或水印。",
+      "layout": "image-right",
+      "source_time_range": [
+        575.07,
+        589.57
+      ],
+      "visual_time_range": [
+        575.07,
+        589.57
+      ],
+      "key_content": {
+        "location": "楚国宫殿大殿",
+        "animals": [
+          "毛遂",
+          "楚王",
+          "平原君",
+          "楚国侍卫"
+        ],
+        "activity": "毛遂在楚王面前用坚定语气争取发言",
+        "stakes": "楚王可能拒绝继续听赵国请求",
+        "outcome": "楚王被气势震住，开始听毛遂说明",
+        "visual_focus": "十步距离与毛遂坚定的姿态"
+      },
+      "visual_anchors": [
+        "毛遂与楚王近距离对话",
+        "十步空间关系",
+        "认真起来的楚王",
+        "后方侍卫与平原君"
+      ],
+      "heading_pinyin": "shí bù zhī nèi de yǒng qì",
+      "pinyin": "chǔ wáng ràng máo suí tuì xià máo suí què tí xǐng tā xiàn zài shí bù zhī nèi dà wáng de xìng mìng jiù zài wǒ shǒu zhōng tā yòng jiān dìng de qì shì ràng chǔ wáng rèn zhēn tīng xià qù",
+      "reference_frames": [
+        "references/page_11/ref_01_577.97s.jpg",
+        "references/page_11/ref_02_582.32s.jpg",
+        "references/page_11/ref_03_586.67s.jpg"
+      ]
+    },
+    {
+      "page": 12,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_12.webp",
+      "heading": "把道理说清楚",
+      "text": "毛遂指出，楚国虽然土地广大、士兵很多，却也曾连连战败，甚至失去过都城。楚国比赵国更需要联合起来抗秦。楚王听后，发现这位门客说得很有道理。",
+      "illustration_prompt": "中国儿童历史故事绘本风格，楚国宫殿中毛遂镇定地指向一幅象征楚国疆域与过去失利的地图，楚王和大臣认真倾听；画面用两侧对照表现大国也有困难，强调理性说服，不出现文字、字幕、标志或水印。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        590.13,
+        611.76
+      ],
+      "visual_time_range": [
+        590.13,
+        611.76
+      ],
+      "key_content": {
+        "location": "楚国宫殿",
+        "animals": [
+          "毛遂",
+          "楚王",
+          "楚国大臣"
+        ],
+        "activity": "毛遂分析楚国处境并提出联合抗秦",
+        "stakes": "楚王需要判断援赵是否也是保护楚国",
+        "outcome": "楚王认可毛遂的道理",
+        "visual_focus": "地图、毛遂的手势和认真倾听的楚王"
+      },
+      "visual_anchors": [
+        "楚国疆域地图",
+        "毛遂指图说理",
+        "楚王与大臣倾听",
+        "宫殿青铜器"
+      ],
+      "heading_pinyin": "bǎ dào lǐ shuō qīng chǔ",
+      "pinyin": "máo suí zhǐ chū chǔ guó suī rán tǔ dì guǎng dà shì bīng hěn duō què yě céng lián lián zhàn bài shèn zhì shī qù guò dū chéng chǔ guó bǐ zhào guó gèng xū yào lián hé qǐ lái kàng qín chǔ wáng tīng hòu fā xiàn zhè wèi mén kè shuō dé hěn yǒu dào lǐ",
+      "reference_frames": [
+        "references/page_12/ref_01_594.46s.jpg",
+        "references/page_12/ref_02_600.94s.jpg",
+        "references/page_12/ref_03_607.43s.jpg"
+      ]
+    },
+    {
+      "page": 13,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_13.webp",
+      "heading": "楚国答应援赵",
+      "text": "楚王终于答应立即派兵援助赵国。赵国在楚国的帮助下，很快摆脱了秦军的包围。毛遂的一番话，改变了紧张的局势。",
+      "illustration_prompt": "中国儿童历史故事绘本风格，楚国宫殿外援军准备出发，楚王下令，士兵举旗向邯郸方向行进；另一侧远处赵国城门重新打开、秦军退去，画面表现援军带来转机，明亮希望感，不出现文字、字幕、标志或水印。",
+      "layout": "image-left",
+      "source_time_range": [
+        613.44,
+        629.8
+      ],
+      "visual_time_range": [
+        613.44,
+        629.8
+      ],
+      "key_content": {
+        "location": "楚国宫殿与邯郸城外",
+        "animals": [
+          "楚王",
+          "楚国援军",
+          "赵国守军",
+          "秦国军队"
+        ],
+        "activity": "楚王派兵援赵，秦军解除包围",
+        "stakes": "邯郸能否脱离危局",
+        "outcome": "赵国很快摆脱秦军包围",
+        "visual_focus": "出发的楚国援军与恢复安全的邯郸城"
+      },
+      "visual_anchors": [
+        "楚国援军队列",
+        "楚王下令",
+        "邯郸城门",
+        "退去的秦军与明亮天空"
+      ],
+      "heading_pinyin": "chǔ guó dā yìng yuán zhào",
+      "pinyin": "chǔ wáng zhōng yú dā yìng lì jí pài bīng yuán zhù zhào guó zhào guó zài chǔ guó de bāng zhù xià hěn kuài bǎi tuō le qín jūn de bāo wéi máo suí de yī fān huà gǎi biàn le jǐn zhāng de jú shì",
+      "reference_frames": [
+        "references/page_13/ref_01_616.71s.jpg",
+        "references/page_13/ref_02_621.62s.jpg",
+        "references/page_13/ref_03_626.53s.jpg"
+      ]
+    },
+    {
+      "page": 14,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_14.webp",
+      "heading": "被发现的人才",
+      "text": "平原君感谢毛遂挺身而出。他说，自己门客很多，却差点埋没了一个人才。毛遂原来一直有本领，只是没有得到展示的机会。",
+      "illustration_prompt": "中国儿童历史故事绘本风格，赵王宫殿中，赵王和谦逊的毛遂面对面，平原君在旁向毛遂致意；背景是一群门客与打开的府门，暖金色光线照在毛遂身上，表现人才被看见，不出现文字、字幕、标志或水印。",
+      "layout": "image-right",
+      "source_time_range": [
+        631.24,
+        654.9
+      ],
+      "visual_time_range": [
+        631.24,
+        654.9
+      ],
+      "key_content": {
+        "location": "赵王宫殿",
+        "animals": [
+          "赵王",
+          "平原君",
+          "毛遂",
+          "赵国门客"
+        ],
+        "activity": "平原君承认差点埋没毛遂并向他致谢",
+        "stakes": "有才能的人可能因为没有机会而不被看见",
+        "outcome": "毛遂的才能得到认可",
+        "visual_focus": "光线照亮毛遂，平原君真诚致意"
+      },
+      "visual_anchors": [
+        "赵王宫殿",
+        "谦逊的毛遂",
+        "致意的平原君",
+        "成群门客与暖金色光线"
+      ],
+      "heading_pinyin": "bèi fā xiàn de rén cái",
+      "pinyin": "píng yuán jūn gǎn xiè máo suí tǐng shēn ér chū tā shuō zì jǐ mén kè hěn duō què chà diǎn mái mò le yí gè rén cái máo suí yuán lái yì zhí yǒu běn lǐng zhǐ shì méi yǒu dé dào zhǎn shì de jī huì",
+      "reference_frames": [
+        "references/page_14/ref_01_635.97s.jpg",
+        "references/page_14/ref_02_643.07s.jpg",
+        "references/page_14/ref_03_650.17s.jpg"
+      ]
+    },
+    {
+      "page": 15,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_15.webp",
+      "heading": "九鼎为什么重要",
+      "text": "鼎是古代煮东西的器物，通常有三只脚和两只耳朵。九鼎曾被看作国家的重要宝器，所以‘一言九鼎’就是说一句话分量很重，能起决定作用。",
+      "illustration_prompt": "中国儿童历史科普绘本风格，博物馆般的古代青铜器场景，一只三足两耳的鼎放在中央，后方以九只庄重但不带文字的青铜鼎组成层次，温暖金铜色光线，陈教授的手在画面边缘作讲解姿态，不出现文字、字幕、标志或水印。",
+      "layout": "image-top",
+      "source_time_range": [
+        679.94,
+        698.66
+      ],
+      "visual_time_range": [
+        679.94,
+        698.66
+      ],
+      "key_content": {
+        "location": "文化宫成语课堂的历史展示区",
+        "animals": [
+          "陈教授"
+        ],
+        "activity": "陈教授介绍鼎的形状和九鼎的象征意义",
+        "stakes": "理解鼎的文化背景才能明白成语",
+        "outcome": "读者明白一言九鼎表示话语有决定性分量",
+        "visual_focus": "三足两耳的鼎与九只宝鼎"
+      },
+      "visual_anchors": [
+        "三足两耳青铜鼎",
+        "九只宝鼎",
+        "暖金铜色光线",
+        "历史展示区"
+      ],
+      "heading_pinyin": "jiǔ dǐng wèi shén me zhòng yào",
+      "pinyin": "dǐng shì gǔ dài zhǔ dōng xī de qì wù tōng cháng yǒu sān zhǐ jiǎo hé liǎng zhǐ ěr duǒ jiǔ dǐng céng bèi kàn zuò guó jiā de zhòng yào bǎo qì suǒ yǐ yì yán jiǔ dǐng jiù shì shuō yī jù huà fèn liàng hěn zhòng néng qǐ jué dìng zuò yòng",
+      "reference_frames": [
+        "references/page_15/ref_01_683.68s.jpg",
+        "references/page_15/ref_02_689.30s.jpg",
+        "references/page_15/ref_03_694.92s.jpg"
+      ]
+    },
+    {
+      "page": 16,
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e10-yi-yan-jiu-ding/images/page_16.webp",
+      "heading": "别和守信用混淆",
+      "text": "一言九鼎说的是话语有分量、能影响决定，不是单纯表示守信用。表示守信用的成语有一诺千金、一言既出、驷马难追。读懂区别，才能用得准确。",
+      "illustration_prompt": "中国儿童成语科普绘本风格，明亮的课堂总结场景，琪琪把几张不同颜色的成语卡片分成‘话语有分量’与‘守信用’两组，陈教授在旁微笑指导，背景有毛遂说服楚王的缩小卷轴画面，卡片上不出现任何可读文字，不出现字幕、标志或水印。",
+      "layout": "full-bleed",
+      "source_time_range": [
+        699.52,
+        749.27
+      ],
+      "visual_time_range": [
+        699.52,
+        740.42
+      ],
+      "key_content": {
+        "location": "文化宫成语直播课堂",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "陈教授比较一言九鼎与表示守信用的成语",
+        "stakes": "混淆近义成语会造成使用错误",
+        "outcome": "读者知道一言九鼎的准确用法并完成复习",
+        "visual_focus": "琪琪整理成语卡片，陈教授总结区别"
+      },
+      "visual_anchors": [
+        "文化宫直播课堂",
+        "琪琪整理彩色卡片",
+        "陈教授指导",
+        "毛遂故事卷轴回顾"
+      ],
+      "heading_pinyin": "bié hé shǒu xìn yòng hùn xiáo",
+      "pinyin": "yì yán jiǔ dǐng shuō de shì huà yǔ yǒu fèn liàng néng yǐng xiǎng jué dìng bú shì dān chún biǎo shì shǒu xìn yòng biǎo shì shǒu xìn yòng de chéng yǔ yǒu yí nuò qiān jīn yī yán jì chū sì mǎ nán zhuī dú dǒng qū bié cái néng yòng dé zhǔn què",
+      "reference_frames": [
+        "references/page_16/ref_01_707.70s.jpg",
+        "references/page_16/ref_02_719.97s.jpg",
+        "references/page_16/ref_03_732.24s.jpg"
+      ]
+    }
+  ],
+  "title_pinyin": "yì yán jiǔ dǐng",
+  "subtitle_pinyin": "máo suí yòng zhì huì shuō fú chǔ wáng"
+}

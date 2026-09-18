@@ -1,0 +1,629 @@
+{
+  "title": "铁杵成针",
+  "subtitle": "李白学会坚持的故事",
+  "title_pinyin": "tiě chǔ chéng zhēn",
+  "subtitle_pinyin": "lǐ bái xué huì jiān chí de gù shì",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E03.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "heading": "星空里的故事",
+      "text": "历史像一片闪烁的星空，许多熟悉的面孔和动人的故事，正在等我们一起聆听。",
+      "heading_pinyin": "xīng kōng lǐ de gù shì",
+      "pinyin": "lì shǐ xiàng yī piàn shǎn shuò de xīng kōng xǔ duō shú xī de miàn kǒng hé dòng rén de gù shì zhèng zài děng wǒ men yī qǐ líng tīng",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_01.webp",
+      "reference_frames": [
+        "references/page_01/ref_01_022.40s.jpg",
+        "references/page_01/ref_02_056.00s.jpg",
+        "references/page_01/ref_03_089.60s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的历史星空，星星组成古代人物剪影与故事卷轴，蓝金色温暖明亮，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        15.26,
+        108.04
+      ],
+      "visual_time_range": [
+        0,
+        112
+      ],
+      "key_content": {
+        "location": "文化宫节目开场",
+        "animals": [],
+        "activity": "星空与历史故事开场",
+        "stakes": "孩子还不知道今天要听什么故事",
+        "outcome": "引出第三集《铁杵成针》",
+        "visual_focus": "星空、卷轴和历史人物剪影"
+      },
+      "visual_anchors": [
+        "蓝色星空背景",
+        "卷轴与古代人物剪影",
+        "金色星光汇聚"
+      ]
+    },
+    {
+      "page": 2,
+      "heading": "写好字的秘诀",
+      "text": "琪琪发现，陈教授写的毛笔字很漂亮。秘诀不是换很多支新笔，而是把一支支毛笔认真用到写坏。",
+      "heading_pinyin": "xiě hǎo zì de mì jué",
+      "pinyin": "qí qí fā xiàn chén jiào shòu xiě de máo bǐ zì hěn piāo liàng mì jué bù shì huàn hěn duō zhī xīn bǐ ér shì bǎ yī zhī zhī máo bǐ rèn zhēn yòng dào xiě huài",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_02.webp",
+      "reference_frames": [
+        "references/page_02/ref_01_130.60s.jpg",
+        "references/page_02/ref_02_139.00s.jpg",
+        "references/page_02/ref_03_147.40s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的文化宫教室，陈教授展示一堆用旧的毛笔，机器人琪琪好奇地靠近，书桌和书法纸，暖色明亮，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        128.19,
+        151.1
+      ],
+      "visual_time_range": [
+        125,
+        153
+      ],
+      "key_content": {
+        "location": "文化宫书法教室",
+        "animals": [],
+        "activity": "陈教授展示写坏的毛笔",
+        "stakes": "琪琪想知道好字从哪里来",
+        "outcome": "发现秘诀是长期练习",
+        "visual_focus": "旧毛笔、书桌和好奇的琪琪"
+      },
+      "visual_anchors": [
+        "一叠用旧的毛笔",
+        "陈教授手中的毛笔",
+        "文化宫书桌"
+      ]
+    },
+    {
+      "page": 3,
+      "heading": "五指握笔法",
+      "text": "书法是汉字的书写艺术。陈教授教琪琪用五指握笔，可刚开始握笔和落笔都很不习惯。",
+      "heading_pinyin": "wǔ zhǐ wò bǐ fǎ",
+      "pinyin": "shū fǎ shì hàn zì de shū xiě yì shù chén jiào shòu jiào qí qí yòng wǔ zhǐ wò bǐ kě gāng kāi shǐ wò bǐ hé luò bǐ dōu hěn bù xí guàn",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_03.webp",
+      "reference_frames": [
+        "references/page_03/ref_01_157.60s.jpg",
+        "references/page_03/ref_02_164.50s.jpg",
+        "references/page_03/ref_03_171.40s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，陈教授耐心示范五指握笔，机器人琪琪坐在书桌前模仿，毛笔、墨砚和书法纸清晰可见，无文字无水印",
+      "layout": "image-left",
+      "source_time_range": [
+        155.17,
+        174.61
+      ],
+      "visual_time_range": [
+        153,
+        176
+      ],
+      "key_content": {
+        "location": "文化宫书法教室",
+        "animals": [],
+        "activity": "陈教授示范五指握笔",
+        "stakes": "新动作让琪琪觉得奇怪",
+        "outcome": "琪琪开始练习毛笔字",
+        "visual_focus": "五指握笔、毛笔和书桌"
+      },
+      "visual_anchors": [
+        "陈教授示范手势",
+        "琪琪握笔的双手",
+        "墨砚与宣纸"
+      ]
+    },
+    {
+      "page": 4,
+      "heading": "第一次总会很难",
+      "text": "琪琪练了一会儿，胳膊又酸又累，觉得写字太难。她写出的字像一只只睡着的毛毛虫。",
+      "heading_pinyin": "dì yī cì zǒng huì hěn nán",
+      "pinyin": "qí qí liàn le yī huì ér gē bó yòu suān yòu lèi jué dé xiě zì tài nán tā xiě chū de zì xiàng yī zhǐ zhǐ shuì zhe de máo máo chóng",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_04.webp",
+      "reference_frames": [
+        "references/page_04/ref_01_186.80s.jpg",
+        "references/page_04/ref_02_201.50s.jpg",
+        "references/page_04/ref_03_216.20s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，机器人琪琪趴在书桌边揉着酸胳膊，纸上的稚拙墨线像小毛毛虫，陈教授在旁温和鼓励，无文字无水印",
+      "layout": "image-top",
+      "source_time_range": [
+        178.45,
+        223.95
+      ],
+      "visual_time_range": [
+        177,
+        226
+      ],
+      "key_content": {
+        "location": "文化宫书法教室",
+        "animals": [],
+        "activity": "琪琪练字后疲惫并嫌字难看",
+        "stakes": "挫败感让她想放弃",
+        "outcome": "陈教授提醒她第一次写不好很正常",
+        "visual_focus": "酸胳膊、毛笔和稚拙墨迹"
+      },
+      "visual_anchors": [
+        "揉胳膊的琪琪",
+        "桌上的墨迹",
+        "陈教授的鼓励表情"
+      ]
+    },
+    {
+      "page": 5,
+      "heading": "不是一蹴而就",
+      "text": "陈教授告诉琪琪，任何事情都不是一下子就能完成的。坚持不懈、不断积累，才会让本领慢慢变好。",
+      "heading_pinyin": "bù shì yī cù ér jiù",
+      "pinyin": "chén jiào shòu gào sù qí qí rèn hé shì qíng dōu bù shì yī xià zi jiù néng wán chéng de jiān chí bù xiè bù duàn jī lèi cái huì ràng běn lǐng màn màn biàn hǎo",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_05.webp",
+      "reference_frames": [
+        "references/page_05/ref_01_214.80s.jpg",
+        "references/page_05/ref_02_222.00s.jpg",
+        "references/page_05/ref_03_229.20s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，陈教授指向墙上从歪歪扭扭到整齐的书法练习纸，琪琪认真听讲，光线温暖，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        211.23,
+        231.71
+      ],
+      "visual_time_range": [
+        210,
+        234
+      ],
+      "key_content": {
+        "location": "文化宫书法教室",
+        "animals": [],
+        "activity": "陈教授解释练习和积累",
+        "stakes": "琪琪需要越过第一次失败",
+        "outcome": "她重新相信坚持能带来进步",
+        "visual_focus": "前后不同的练习纸和认真听讲的琪琪"
+      },
+      "visual_anchors": [
+        "墙上排列的练习纸",
+        "陈教授的指引手势",
+        "琪琪认真听讲"
+      ]
+    },
+    {
+      "page": 6,
+      "heading": "铁杵成针的意思",
+      "text": "铁杵成针，就是把粗粗的铁棒磨成细细的针。它比喻做艰难的事情，只要有毅力、肯下功夫，就能克服困难。",
+      "heading_pinyin": "tiě chǔ chéng zhēn de yì sī",
+      "pinyin": "tiě chǔ chéng zhēn jiù shì bǎ cū cū de tiě bàng mó chéng xì xì de zhēn tā bǐ yù zuò jiān nán de shì qíng zhǐ yào yǒu yì lì kěn xià gōng fū jiù néng kè fú kùn nán",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_06.webp",
+      "reference_frames": [
+        "references/page_06/ref_01_235.40s.jpg",
+        "references/page_06/ref_02_242.00s.jpg",
+        "references/page_06/ref_03_248.60s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的知识想象画面，粗大铁杵在一侧逐渐磨成细小绣花针，金色光线连接两端，陈教授和琪琪观察，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        232.43,
+        251.12
+      ],
+      "visual_time_range": [
+        231,
+        253
+      ],
+      "key_content": {
+        "location": "文化宫讲解想象场景",
+        "animals": [],
+        "activity": "陈教授和琪琪解释铁杵磨针",
+        "stakes": "孩子要理解成语不是魔法",
+        "outcome": "明确毅力和下功夫的重要",
+        "visual_focus": "铁杵、绣花针和变化过程"
+      },
+      "visual_anchors": [
+        "粗大的铁杵",
+        "细小的绣花针",
+        "连接两端的金色光线"
+      ]
+    },
+    {
+      "page": 7,
+      "heading": "水滴也能穿石",
+      "text": "铁杵成针和水滴石穿的意思很接近。小小的水滴一次次落下，也能在坚硬的石头上留下痕迹。",
+      "heading_pinyin": "shuǐ dī yě néng chuān shí",
+      "pinyin": "tiě chǔ chéng zhēn hé shuǐ dī shí chuān de yì sī hěn jiē jìn xiǎo xiǎo de shuǐ dī yī cì cì luò xià yě néng zài jiān yìng de shí tóu shàng liú xià hén jì",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_07.webp",
+      "reference_frames": [
+        "references/page_07/ref_01_254.40s.jpg",
+        "references/page_07/ref_02_259.50s.jpg",
+        "references/page_07/ref_03_264.60s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，清亮水滴连续落在石头上，石面出现小小凹痕，旁边有铁杵和绣花针作对照，清新明亮，无文字无水印",
+      "layout": "image-left",
+      "source_time_range": [
+        252.16,
+        266.66
+      ],
+      "visual_time_range": [
+        251,
+        268
+      ],
+      "key_content": {
+        "location": "成语含义的想象场景",
+        "animals": [],
+        "activity": "水滴反复落下并改变石头",
+        "stakes": "微小的力量看起来不够强",
+        "outcome": "理解恒心能积累成结果",
+        "visual_focus": "水滴、石头凹痕和铁杵绣花针"
+      },
+      "visual_anchors": [
+        "连续落下的水滴",
+        "石头上的小凹痕",
+        "铁杵与绣花针对照"
+      ]
+    },
+    {
+      "page": 8,
+      "heading": "故事的主角李白",
+      "text": "第二天，琪琪和陈教授来到文化宫，介绍成语故事的主角李白。小时候的李白并不喜欢念书。",
+      "heading_pinyin": "gù shì de zhǔ jiǎo lǐ bái",
+      "pinyin": "dì èr tiān qí qí hé chén jiào shòu lái dào wén huà gōng jiè shào chéng yǔ gù shì de zhǔ jiǎo lǐ bái xiǎo shí hòu de lǐ bái bìng bù xǐ huān niàn shū",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_08.webp",
+      "reference_frames": [
+        "references/page_08/ref_01_340.20s.jpg",
+        "references/page_08/ref_02_349.50s.jpg",
+        "references/page_08/ref_03_358.80s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的文化宫舞台，陈教授和机器人琪琪向小朋友介绍年轻的李白，背景有卷轴和古代书院意象，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        335.81,
+        363.87
+      ],
+      "visual_time_range": [
+        334,
+        365
+      ],
+      "key_content": {
+        "location": "文化宫故事讲解现场",
+        "animals": [],
+        "activity": "陈教授介绍小时候的李白",
+        "stakes": "孩子还不知道李白怎样改变自己",
+        "outcome": "李白进入故事",
+        "visual_focus": "陈教授、琪琪和年轻李白"
+      },
+      "visual_anchors": [
+        "文化宫舞台",
+        "年轻李白的古装形象",
+        "面向小观众的讲解者"
+      ]
+    },
+    {
+      "page": 9,
+      "heading": "读书时总走神",
+      "text": "李白上课常常走神，甚至趁先生不注意跑出去玩。他一边背书，一边想着外面的鸟儿。",
+      "heading_pinyin": "dú shū shí zǒng zǒu shén",
+      "pinyin": "lǐ bái shàng kè cháng cháng zǒu shén shèn zhì chèn xiān shēng bù zhù yì pǎo chū qù wán tā yī biān bèi shū yī biān xiǎng zhe wài miàn de niǎo ér",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_09.webp",
+      "reference_frames": [
+        "references/page_09/ref_01_378.80s.jpg",
+        "references/page_09/ref_02_386.00s.jpg",
+        "references/page_09/ref_03_393.20s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的古代书院，少年李白坐在书案前看似读书却望向窗外，窗外有飞鸟，先生在前方讲学，无文字无水印",
+      "layout": "image-top",
+      "source_time_range": [
+        375.85,
+        396.05
+      ],
+      "visual_time_range": [
+        374,
+        398
+      ],
+      "key_content": {
+        "location": "古代书院",
+        "animals": [
+          "鸟"
+        ],
+        "activity": "李白读书时被窗外飞鸟吸引",
+        "stakes": "分心让他没有认真学习",
+        "outcome": "他决定溜出去抓鸟",
+        "visual_focus": "书案、窗外飞鸟和走神的李白"
+      },
+      "visual_anchors": [
+        "古代书案",
+        "窗外飞过的鸟",
+        "望向窗外的少年李白"
+      ]
+    },
+    {
+      "page": 10,
+      "heading": "追鸟又追蝴蝶",
+      "text": "李白跑出书院，先追鸟，又发现了漂亮的蝴蝶。他觉得玩耍比背书有意思，却一次也没有抓到。",
+      "heading_pinyin": "zhuī niǎo yòu zhuī hú dié",
+      "pinyin": "lǐ bái pǎo chū shū yuàn xiān zhuī niǎo yòu fā xiàn le piāo liàng de hú dié tā jué dé wán shuǎ bǐ bèi shū yǒu yì sī què yī cì yě méi yǒu zhuā dào",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_10.webp",
+      "reference_frames": [
+        "references/page_10/ref_01_419.40s.jpg",
+        "references/page_10/ref_02_456.00s.jpg",
+        "references/page_10/ref_03_492.60s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的春日庭院，少年李白追逐飞鸟和一只彩色蝴蝶，鸟蝶轻巧飞远，李白伸手扑空，无文字无水印",
+      "layout": "image-left",
+      "source_time_range": [
+        396.05,
+        515.53
+      ],
+      "visual_time_range": [
+        395,
+        517
+      ],
+      "key_content": {
+        "location": "书院外的庭院",
+        "animals": [
+          "鸟",
+          "蝴蝶"
+        ],
+        "activity": "李白追逐鸟和蝴蝶",
+        "stakes": "玩耍占去了本该学习的时间",
+        "outcome": "鸟和蝴蝶都飞走了",
+        "visual_focus": "扑空的李白、飞鸟和彩色蝴蝶"
+      },
+      "visual_anchors": [
+        "春日庭院",
+        "飞远的鸟和蝴蝶",
+        "伸手扑空的李白"
+      ]
+    },
+    {
+      "page": 11,
+      "heading": "铁杵为什么不能磨针",
+      "text": "李白遇到一位老奶奶。老奶奶说，她要把粗大的铁杵磨成绣花针，李白听得十分惊讶。",
+      "heading_pinyin": "tiě chǔ wèi shén me bù néng mó zhēn",
+      "pinyin": "lǐ bái yù dào yī wèi lǎo nǎi nǎi lǎo nǎi nǎi shuō tā yào bǎ cū dà de tiě chǔ mó chéng xiù huā zhēn lǐ bái tīng dé shí fēn jīng yà",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_11.webp",
+      "reference_frames": [
+        "references/page_11/ref_01_532.80s.jpg",
+        "references/page_11/ref_02_541.50s.jpg",
+        "references/page_11/ref_03_550.20s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的溪边院落，白发老奶奶坐着用力磨粗大的铁杵，少年李白站在旁边惊讶询问，石磨和篮子清晰，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        529.75,
+        553.73
+      ],
+      "visual_time_range": [
+        527,
+        556
+      ],
+      "key_content": {
+        "location": "古代村边的磨石旁",
+        "animals": [],
+        "activity": "老奶奶反复打磨铁杵",
+        "stakes": "粗铁杵和细绣花针差距很大",
+        "outcome": "李白开始思考坚持的力量",
+        "visual_focus": "铁杵、磨石、老奶奶和李白"
+      },
+      "visual_anchors": [
+        "粗大的铁杵",
+        "老奶奶手边的磨石",
+        "惊讶的少年李白"
+      ]
+    },
+    {
+      "page": 12,
+      "heading": "只要功夫深",
+      "text": "老奶奶反问李白：水滴可以穿石，愚公可以移山，铁杵为什么不能磨成针呢？只要功夫深，什么都不是问题。",
+      "heading_pinyin": "zhǐ yào gōng fū shēn",
+      "pinyin": "lǎo nǎi nǎi fǎn wèn lǐ bái shuǐ dī kě yǐ chuān shí yú gōng kě yǐ yí shān tiě chǔ wèi shén me bù néng mó chéng zhēn ne zhǐ yào gōng fū shēn shén me dōu bù shì wèn tí",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_12.webp",
+      "reference_frames": [
+        "references/page_12/ref_01_559.00s.jpg",
+        "references/page_12/ref_02_568.00s.jpg",
+        "references/page_12/ref_03_577.00s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的想象画面，水滴穿过石头、愚公推动山峰、铁杵在磨石上变细，老奶奶和李白站在金色光芒中，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        554.77,
+        580.72
+      ],
+      "visual_time_range": [
+        553,
+        583
+      ],
+      "key_content": {
+        "location": "磨石旁的成语想象场景",
+        "animals": [],
+        "activity": "老奶奶用三个比喻解释坚持",
+        "stakes": "李白需要看见长期努力的可能",
+        "outcome": "他明白困难可以靠功夫克服",
+        "visual_focus": "水滴、愚公移山和铁杵磨针"
+      },
+      "visual_anchors": [
+        "老奶奶的坚定神情",
+        "水滴穿石的意象",
+        "愚公与山峰的意象"
+      ]
+    },
+    {
+      "page": 13,
+      "heading": "李白惭愧了",
+      "text": "老奶奶的话让李白很惭愧。他发现自己不是做不到，而是总在困难刚出现时就想退缩。",
+      "heading_pinyin": "lǐ bái cán kuì le",
+      "pinyin": "lǎo nǎi nǎi de huà ràng lǐ bái hěn cán kuì tā fā xiàn zì jǐ bù shì zuò bù dào ér shì zǒng zài kùn nán gāng chū xiàn shí jiù xiǎng tuì suō",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_13.webp",
+      "reference_frames": [
+        "references/page_13/ref_01_589.00s.jpg",
+        "references/page_13/ref_02_593.50s.jpg",
+        "references/page_13/ref_03_598.00s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，少年李白低头惭愧地看着手里的书，老奶奶温和地望着他，磨石和铁杵在旁边，无文字无水印",
+      "layout": "image-left",
+      "source_time_range": [
+        587.83,
+        599.59
+      ],
+      "visual_time_range": [
+        586,
+        601
+      ],
+      "key_content": {
+        "location": "古代村边磨石旁",
+        "animals": [],
+        "activity": "李白反思自己逃学和退缩",
+        "stakes": "他必须决定是否重新学习",
+        "outcome": "李白回去发奋努力",
+        "visual_focus": "低头的李白、书本和铁杵"
+      },
+      "visual_anchors": [
+        "李白手里的书",
+        "低头反思的神情",
+        "磨石旁的铁杵"
+      ]
+    },
+    {
+      "page": 14,
+      "heading": "后来成为诗仙",
+      "text": "李白回去以后发奋努力，完成了学业。长大后，他成为名垂千古的诗仙，写下许多人人喜爱的诗。",
+      "heading_pinyin": "hòu lái chéng wèi shī xiān",
+      "pinyin": "lǐ bái huí qù yǐ hòu fā fèn nǔ lì wán chéng le xué yè zhǎng dà hòu tā chéng wèi míng chuí qiān gǔ de shī xiān xiě xià xǔ duō rén rén xǐ ài de shī",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_14.webp",
+      "reference_frames": [
+        "references/page_14/ref_01_601.20s.jpg",
+        "references/page_14/ref_02_615.00s.jpg",
+        "references/page_14/ref_03_628.80s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，成年李白在古代书房挥笔写诗，窗外明月和山河，书卷堆在案头，气氛诗意明亮，无文字无水印",
+      "layout": "image-top",
+      "source_time_range": [
+        593.91,
+        636.02
+      ],
+      "visual_time_range": [
+        592,
+        638
+      ],
+      "key_content": {
+        "location": "李白长大后的书房",
+        "animals": [],
+        "activity": "李白勤学并写下诗歌",
+        "stakes": "努力是否能改变一个人的未来",
+        "outcome": "李白成为诗仙",
+        "visual_focus": "挥笔的李白、书卷、明月和山河"
+      },
+      "visual_anchors": [
+        "书房里的书卷",
+        "挥笔写诗的李白",
+        "窗外明月"
+      ]
+    },
+    {
+      "page": 15,
+      "heading": "练习真的会进步",
+      "text": "琪琪也拿出自己最开始和后来写的大字。右边的字明显更好，原来坚持练习真的能让人一步步进步。",
+      "heading_pinyin": "liàn xí zhēn de huì jìn bù",
+      "pinyin": "qí qí yě ná chū zì jǐ zuì kāi shǐ hé hòu lái xiě de dà zì yòu biān de zì míng xiǎn gèng hǎo yuán lái jiān chí liàn xí zhēn de néng ràng rén yī bù bù jìn bù",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_15.webp",
+      "reference_frames": [
+        "references/page_15/ref_01_665.60s.jpg",
+        "references/page_15/ref_02_680.00s.jpg",
+        "references/page_15/ref_03_694.40s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格，文化宫里琪琪展示两张前后对比的书法练习纸，左边稚拙右边整齐，孩子们惊喜观看，无文字无水印",
+      "layout": "image-right",
+      "source_time_range": [
+        657.34,
+        702.21
+      ],
+      "visual_time_range": [
+        656,
+        704
+      ],
+      "key_content": {
+        "location": "文化宫书法展示现场",
+        "animals": [],
+        "activity": "琪琪展示练字前后的变化",
+        "stakes": "孩子们需要看见练习带来的真实进步",
+        "outcome": "大家发现后来的字更好",
+        "visual_focus": "两张前后对比的书法纸和琪琪"
+      },
+      "visual_anchors": [
+        "左右并排的练习纸",
+        "琪琪展示作品",
+        "惊喜的孩子们"
+      ]
+    },
+    {
+      "page": 16,
+      "heading": "三个成语的提醒",
+      "text": "冰冻三尺，非一日之寒；铁杵成针，非一日之功；滴水穿石，非一日之力。做事目标专一、持之以恒，就会成功。",
+      "heading_pinyin": "sān gè chéng yǔ de tí xǐng",
+      "pinyin": "bīng dòng sān chǐ fēi yī rì zhī hán tiě chǔ chéng zhēn fēi yī rì zhī gōng dī shuǐ chuān shí fēi yī rì zhī lì zuò shì mù biāo zhuān yī chí zhī yǐ héng jiù huì chéng gōng",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_16.webp",
+      "reference_frames": [
+        "references/page_16/ref_01_707.80s.jpg",
+        "references/page_16/ref_02_716.50s.jpg",
+        "references/page_16/ref_03_725.20s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的三联想象画面，冰层逐渐变厚、铁杵逐渐变针、水滴逐渐穿石，孩子们沿着光明道路坚持前进，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        703.89,
+        729.39
+      ],
+      "visual_time_range": [
+        702,
+        731
+      ],
+      "key_content": {
+        "location": "文化宫成语总结的想象场景",
+        "animals": [],
+        "activity": "陈教授总结三个关于积累的成语",
+        "stakes": "孩子需要把故事变成行动",
+        "outcome": "理解持之以恒才能成功",
+        "visual_focus": "冰层、铁杵、水滴和前进的孩子"
+      },
+      "visual_anchors": [
+        "逐渐变厚的冰层",
+        "变细的铁杵",
+        "穿石的水滴"
+      ]
+    },
+    {
+      "page": 17,
+      "heading": "每天多做一点",
+      "text": "不要因为第一次做不好就急着放弃。每天多练一点、多坚持一会儿，也许就会收获意想不到的进步。",
+      "heading_pinyin": "měi tiān duō zuò yī diǎn",
+      "pinyin": "bù yào yīn wèi dì yī cì zuò bù hǎo jiù jí zhe fàng qì měi tiān duō liàn yī diǎn duō jiān chí yī huì ér yě xǔ jiù huì shōu huò yì xiǎng bù dào de jìn bù",
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e03-tie-chu-cheng-zhen/images/page_17.webp",
+      "reference_frames": [
+        "references/page_17/ref_01_731.60s.jpg",
+        "references/page_17/ref_02_735.50s.jpg",
+        "references/page_17/ref_03_739.40s.jpg"
+      ],
+      "illustration_prompt": "儿童绘本风格的文化宫告别场景，陈教授和琪琪向孩子们挥手，孩子手持毛笔和书本走向明亮道路，温暖收束，无文字无水印",
+      "layout": "full-bleed",
+      "source_time_range": [
+        730.27,
+        740.29
+      ],
+      "visual_time_range": [
+        729,
+        742
+      ],
+      "key_content": {
+        "location": "文化宫告别现场",
+        "animals": [],
+        "activity": "陈教授鼓励孩子坚持学习",
+        "stakes": "孩子可能在第一次失败后放弃",
+        "outcome": "大家带着每天坚持的目标告别",
+        "visual_focus": "挥手告别、毛笔、书本和明亮道路"
+      },
+      "visual_anchors": [
+        "陈教授与琪琪挥手",
+        "孩子手里的毛笔和书本",
+        "通往远方的明亮道路"
+      ]
+    }
+  ]
+}

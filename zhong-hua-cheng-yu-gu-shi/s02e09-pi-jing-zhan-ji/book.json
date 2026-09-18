@@ -1,0 +1,512 @@
+{
+  "title": "披荆斩棘",
+  "title_pinyin": "pī jīng zhǎn jí",
+  "subtitle": "冯异在困难中勇往直前的故事",
+  "subtitle_pinyin": "féng yì zài kùn nán zhōng yǒng wǎng zhí qián de gù shì",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E09.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "pages": [
+    {
+      "page": 1,
+      "heading": "解开成语的疑问",
+      "heading_pinyin": "jiě kāi chéng yǔ de yí wèn",
+      "text": "琪琪发现披荆斩棘听起来像是在海上乘风破浪，又像要砍倒树木。陈教授告诉她，这两个成语都可以比喻前进时清除障碍、克服困难。",
+      "pinyin": "qí qí fā xiàn pī jīng zhǎn jí tīng qǐ lái xiàng shì zài hǎi shàng chéng fēng pò làng yòu xiàng yào kǎn dǎo shù mù chén jiào shòu gào sù tā zhè liǎng ge chéng yǔ dōu kě yǐ bǐ yù qián jìn shí qīng chú zhàng ài kè fú kùn nán",
+      "layout": "image-left",
+      "source_time_range": [
+        167.98,
+        217.81
+      ],
+      "visual_time_range": [
+        131.28,
+        213.24
+      ],
+      "key_content": {
+        "location": "成语故事直播间",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "琪琪提出成语疑问，陈教授解释荆棘和成语含义",
+        "stakes": "只按字面理解成语，容易把意思想错",
+        "outcome": "琪琪知道披荆斩棘比喻克服困难前进",
+        "visual_focus": "琪琪思考海上和树林的关系，陈教授耐心讲解"
+      },
+      "visual_anchors": [
+        "白发戴眼镜的陈教授",
+        "圆润白色机器人琪琪",
+        "直播间里的海浪与荆棘想象画面"
+      ],
+      "illustration_prompt": "中国儿童科普绘本风格，参考原片明快二维动画角色比例与色彩，画面不出现文字、字幕、标志或水印。直播间里白色机器人琪琪困惑地看着一幅想象画面：一边是海浪和帆船，一边是多刺荆棘丛；陈教授在旁边耐心解释，构图清晰、温暖有趣。",
+      "reference_frames": [
+        "references/page_01/ref_01_147.67s.jpg",
+        "references/page_01/ref_02_172.26s.jpg",
+        "references/page_01/ref_03_196.85s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e09-pi-jing-zhan-ji/images/page_01.webp"
+    },
+    {
+      "page": 2,
+      "heading": "荆棘不是一棵树",
+      "heading_pinyin": "jīng jí bú shì yì kē shù",
+      "text": "荆棘是丛生多刺的野生植物。披荆斩棘不是要真的砍树，而是说人在创业或前进的路上，要清除障碍，勇敢向前。",
+      "pinyin": "jīng jí shì cóng shēng duō cì de yě shēng zhí wù pī jīng zhǎn jí bú shì yào zhēn de kǎn shù ér shì shuō rén zài chuàng yè huò qián jìn de lù shàng yào qīng chú zhàng ài yǒng gǎn xiàng qián",
+      "layout": "image-right",
+      "source_time_range": [
+        176.7,
+        208.2
+      ],
+      "visual_time_range": [
+        176.7,
+        208.2
+      ],
+      "key_content": {
+        "location": "成语解释课堂",
+        "animals": [
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "陈教授用荆棘和道路解释比喻义",
+        "stakes": "孩子需要把植物的字面形象转换成生活道理",
+        "outcome": "琪琪明白成语中的荆棘代表困难",
+        "visual_focus": "多刺植物挡在道路前，孩子准备清出道路"
+      },
+      "visual_anchors": [
+        "带刺的荆棘丛",
+        "通向远方的小路",
+        "认真听讲的琪琪"
+      ],
+      "illustration_prompt": "中国儿童科普绘本风格，画面不出现文字、字幕、标志或水印。明亮课堂中，一条小路被多刺荆棘挡住，陈教授指向荆棘和前方道路，琪琪握着小铲子露出恍然大悟的表情，象征困难而非真实砍伐，温暖清晰。",
+      "reference_frames": [
+        "references/page_02/ref_01_183.00s.jpg",
+        "references/page_02/ref_02_192.45s.jpg",
+        "references/page_02/ref_03_201.90s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e09-pi-jing-zhan-ji/images/page_02.webp"
+    },
+    {
+      "page": 3,
+      "heading": "认识冯异将军",
+      "heading_pinyin": "rèn shi féng yì jiāng jūn",
+      "text": "冯异是东汉初期著名的军事将领，也是光武帝刘秀手下的大将。刘秀起兵初期，冯异先做掌管文书的主簿。",
+      "pinyin": "féng yì shì dōng hàn chū qī zhù míng de jūn shì jiàng lǐng yě shì guāng wǔ dì liú xiù shǒu xià de dà jiàng liú xiù qǐ bīng chū qī féng yì xiān zuò zhǎng guǎn wén shū de zhǔ bù",
+      "layout": "image-top",
+      "source_time_range": [
+        246.71,
+        285.2
+      ],
+      "visual_time_range": [
+        246.71,
+        285.2
+      ],
+      "key_content": {
+        "location": "东汉初期的军营",
+        "animals": [
+          "冯异",
+          "刘秀"
+        ],
+        "activity": "旁白介绍冯异的身份和早期职务",
+        "stakes": "兵力弱小的队伍需要可靠的人一起前进",
+        "outcome": "读者认识了故事主人公冯异",
+        "visual_focus": "年轻将领冯异在刘秀身边整理军中文书"
+      },
+      "visual_anchors": [
+        "英姿挺拔的冯异将军",
+        "刘秀与早期军营",
+        "案桌上的竹简和文书"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，参考原片古装二维动画造型，画面不出现文字、字幕、标志或水印。东汉初期简朴军营中，年轻的冯异身穿将领服饰，在刘秀身边整理竹简文书，帐外是少量兵马和远山，表现从文职到将领的起点。",
+      "reference_frames": [
+        "references/page_03/ref_01_254.41s.jpg",
+        "references/page_03/ref_02_265.95s.jpg",
+        "references/page_03/ref_03_277.50s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e09-pi-jing-zhan-ji/images/page_03.webp"
+    },
+    {
+      "page": 4,
+      "heading": "粮食太少了",
+      "heading_pinyin": "liáng shi tài shǎo le",
+      "text": "刘秀起兵时势力单薄，兵马很少，士兵们常常忍饥挨饿。打仗需要力气，可军营里的粮食却总是不够。",
+      "pinyin": "liú xiù qǐ bīng shí shì lì dān bó bīng mǎ hěn shǎo shì bīng men cháng cháng rěn jī āi è dǎ zhàng xū yào lì qi kě jūn yíng lǐ de liáng shi què zǒng shì bú gòu",
+      "layout": "image-left",
+      "source_time_range": [
+        286.24,
+        324.12
+      ],
+      "visual_time_range": [
+        286.24,
+        324.12
+      ],
+      "key_content": {
+        "location": "刘秀早期军营",
+        "animals": [
+          "刘秀的士兵",
+          "冯异"
+        ],
+        "activity": "士兵饥饿地等待军粮",
+        "stakes": "没有食物，士兵就没有力气继续作战",
+        "outcome": "军营的困难变得更加紧迫",
+        "visual_focus": "疲惫士兵望向空空的粮袋和简陋军帐"
+      },
+      "visual_anchors": [
+        "简陋的军营",
+        "空空的粮袋",
+        "疲惫但坚持的士兵"
+      ],
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。简陋军营里，几名疲惫的士兵围着空粮袋和木碗，冯异在旁边观察并思考解决办法，远处旗帜和少量兵马表现队伍弱小，克制而不悲惨。",
+      "reference_frames": [
+        "references/page_04/ref_01_293.82s.jpg",
+        "references/page_04/ref_02_305.18s.jpg",
+        "references/page_04/ref_03_316.54s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e09-pi-jing-zhan-ji/images/page_04.webp"
+    },
+    {
+      "page": 5,
+      "heading": "一碗清粥",
+      "heading_pinyin": "yì wǎn qīng zhōu",
+      "text": "士兵们终于等来一锅粥，却发现粥清得几乎见底。他们又累又饿，觉得这样的饭食无法支撑上战场，于是有人想要离开。",
+      "pinyin": "shì bīng men zhōng yú děng lái yì guō zhōu què fā xiàn zhōu qīng de jī hū jiàn dǐ tā men yòu lèi yòu è jué de zhè yàng de fàn shí wú fǎ zhī chēng shàng zhàn chǎng yú shì yǒu rén xiǎng yào lí kāi",
+      "layout": "image-right",
+      "source_time_range": [
+        321.32,
+        349.06
+      ],
+      "visual_time_range": [
+        321.32,
+        349.06
+      ],
+      "key_content": {
+        "location": "刘秀早期军营的饭棚",
+        "animals": [
+          "士兵们",
+          "冯异"
+        ],
+        "activity": "士兵分到清粥后抱怨并准备离开",
+        "stakes": "饥饿和失望可能让队伍失去战斗意志",
+        "outcome": "冯异必须找到让大家继续坚持的办法",
+        "visual_focus": "士兵端着见底的清粥，冯异看见他们的失望"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。军营饭棚里，士兵端着几乎透明的清粥露出失望神情，有人转身想走，冯异在后方认真看着大家，色彩明快但表现粮食不足的现实。",
+      "reference_frames": [
+        "references/page_05/ref_01_326.87s.jpg",
+        "references/page_05/ref_02_335.19s.jpg",
+        "references/page_05/ref_03_343.51s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e09-pi-jing-zhan-ji/images/page_05.webp"
+    },
+    {
+      "page": 6,
+      "heading": "冯异立誓不退",
+      "heading_pinyin": "féng yì lì shì bú tuì",
+      "text": "冯异在困难面前立下誓言：永不叛变，一定要击退敌人。他没有只责怪士兵，而是带着大家继续寻找出路。",
+      "pinyin": "féng yì zài kùn nán miàn qián lì xià shì yán yǒng bù pàn biàn yí dìng yào jī tuì dí rén tā méi yǒu zhǐ zé guài shì bīng ér shì dài zhe dà jiā jì xù xún zhǎo chū lù",
+      "layout": "full-bleed",
+      "source_time_range": [
+        347.14,
+        364.5
+      ],
+      "visual_time_range": [
+        347.14,
+        364.5
+      ],
+      "key_content": {
+        "location": "早期军营前",
+        "animals": [
+          "冯异",
+          "士兵们"
+        ],
+        "activity": "冯异面对队伍立誓并鼓舞士气",
+        "stakes": "队伍在饥饿和困难中可能分散",
+        "outcome": "大家暂时重新鼓起勇气",
+        "visual_focus": "冯异举手立誓，士兵在身后重新站稳"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。冯异站在简朴军营前举手立誓，身后的士兵从低头失望变为重新站直，晨光照亮队伍和远方道路，表现坚定而不渲染战争。",
+      "reference_frames": [
+        "references/page_06/ref_01_350.61s.jpg",
+        "references/page_06/ref_02_355.82s.jpg",
+        "references/page_06/ref_03_361.03s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e09-pi-jing-zhan-ji/images/page_06.webp"
+    },
+    {
+      "page": 7,
+      "heading": "风雪中的亭子",
+      "heading_pinyin": "fēng xuě zhōng de tíng zi",
+      "text": "队伍在风雪里赶路，大家又冷又饿，盼望前方的亭子能让他们休整。可是，亭子没有食物，寒冷和饥饿仍然紧紧跟着他们。",
+      "pinyin": "duì wǔ zài fēng xuě lǐ gǎn lù dà jiā yòu lěng yòu è pàn wàng qián fāng de tíng zi néng ràng tā men xiū zhěng kě shì tíng zi méi yǒu shí wù hán lěng hé jī è réng rán jǐn jǐn gēn zhe tā men",
+      "layout": "image-top",
+      "source_time_range": [
+        366.92,
+        412.08
+      ],
+      "visual_time_range": [
+        366.92,
+        412.08
+      ],
+      "key_content": {
+        "location": "风雪中的道路与亭子",
+        "animals": [
+          "冯异",
+          "士兵们"
+        ],
+        "activity": "士兵们冒雪走向亭子寻找休整处",
+        "stakes": "恶劣天气可能让疲惫的队伍冻伤或饿倒",
+        "outcome": "冯异开始寻找树枝和食物",
+        "visual_focus": "风雪、远处亭子和互相扶持前行的士兵"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。大雪中的古道上，冯异带着疲惫士兵向一座小亭子前进，有人互相搀扶，冷蓝色风雪与亭子里微弱的暖色形成对比，表现困难和希望。",
+      "reference_frames": [
+        "references/page_07/ref_01_375.95s.jpg",
+        "references/page_07/ref_02_389.50s.jpg",
+        "references/page_07/ref_03_403.05s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e09-pi-jing-zhan-ji/images/page_07.webp"
+    },
+    {
+      "page": 8,
+      "heading": "生火煮豆粥",
+      "heading_pinyin": "shēng huǒ zhǔ dòu zhōu",
+      "text": "冯异找来树枝生火，又向附近农家讨来一些豆子。他用雪补充水分，煮出热豆粥，让又冷又饿的士兵暖了身子，也重新有了力气。",
+      "pinyin": "féng yì zhǎo lái shù zhī shēng huǒ yòu xiàng fù jìn nóng jiā tǎo lái yī xiē dòu zi tā yòng xuě bǔ chōng shuǐ fèn zhǔ chū rè dòu zhōu ràng yòu lěng yòu è de shì bīng nuǎn le shēn zi yě chóng xīn yǒu le lì qì",
+      "layout": "image-left",
+      "source_time_range": [
+        413.6,
+        483.14
+      ],
+      "visual_time_range": [
+        413.6,
+        483.14
+      ],
+      "key_content": {
+        "location": "风雪中的亭子",
+        "animals": [
+          "冯异",
+          "士兵们"
+        ],
+        "activity": "冯异生火、取雪、煮豆粥照顾士兵",
+        "stakes": "队伍必须先恢复体力，才能继续穿过风雪",
+        "outcome": "热豆粥让大家暖和并重新振作",
+        "visual_focus": "火堆、豆粥、树枝和围坐取暖的士兵"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。风雪亭子里，冯异蹲在火堆旁用陶锅煮豆粥，士兵们围坐取暖，雪堆和树枝在一旁，热气与橙色火光带来希望，细节清楚、无文字。",
+      "reference_frames": [
+        "references/page_08/ref_01_427.51s.jpg",
+        "references/page_08/ref_02_448.37s.jpg",
+        "references/page_08/ref_03_469.23s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e09-pi-jing-zhan-ji/images/page_08.webp"
+    },
+    {
+      "page": 9,
+      "heading": "扶持刘秀立战功",
+      "heading_pinyin": "fú chí liú xiù lì zhàn gōng",
+      "text": "冯异不仅体恤士兵，还一路辅助和扶持刘秀。刘秀在洛阳建立东汉后，任命冯异为征西大将军，平定关中。",
+      "pinyin": "féng yì bù jǐn tǐ xù shì bīng hái yí lù fǔ zhù hé fú chí liú xiù liú xiù zài luò yáng jiàn lì dōng hàn hòu rèn mìng féng yì wéi zhēng xī dà jiàng jūn píng dìng guān zhōng",
+      "layout": "image-right",
+      "source_time_range": [
+        493.23,
+        510.47
+      ],
+      "visual_time_range": [
+        493.23,
+        510.47
+      ],
+      "key_content": {
+        "location": "洛阳东汉宫廷与关中",
+        "animals": [
+          "冯异",
+          "刘秀"
+        ],
+        "activity": "冯异辅佐刘秀并率军平定关中",
+        "stakes": "新王朝需要将领清除道路上的重重阻碍",
+        "outcome": "冯异立下赫赫战功并受任重职",
+        "visual_focus": "刘秀授予将令，冯异率军走向关中山河"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。洛阳宫廷中刘秀向冯异授予将令，画面另一侧延伸出关中山河与行军队伍，冯异回身带领士兵前进，金色晨光表现新的使命。",
+      "reference_frames": [
+        "references/page_09/ref_01_496.68s.jpg",
+        "references/page_09/ref_02_501.85s.jpg",
+        "references/page_09/ref_03_507.02s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e09-pi-jing-zhan-ji/images/page_09.webp"
+    },
+    {
+      "page": 10,
+      "heading": "大树将军",
+      "heading_pinyin": "dà shù jiāng jūn",
+      "text": "冯异战功卓著，却淡泊名利。每次刘秀奖赏将领时，他总是默默躲到行营的大树后面，因此大家称他为“大树将军”。",
+      "pinyin": "féng yì zhàn gōng zhuó zhù què dàn bó míng lì měi cì liú xiù jiǎng shǎng jiàng lǐng shí tā zǒng shì mò mò duǒ dào xíng yíng de dà shù hòu miàn yīn cǐ dà jiā chēng tā wéi dà shù jiāng jūn",
+      "layout": "image-left",
+      "source_time_range": [
+        511.43,
+        529.19
+      ],
+      "visual_time_range": [
+        511.43,
+        529.19
+      ],
+      "key_content": {
+        "location": "东汉行营的大树旁",
+        "animals": [
+          "冯异",
+          "刘秀和将领们"
+        ],
+        "activity": "冯异避开庆功场面，躲到大树后面",
+        "stakes": "功劳越大，越容易引来争功和嫉妒",
+        "outcome": "冯异获得“大树将军”的称呼",
+        "visual_focus": "大树、躲在树后的冯异和接受奖赏的将领"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。东汉行营里，一棵枝叶繁茂的大树占据画面，冯异谦逊地躲在树后，只露出半张脸，远处刘秀正在奖赏其他将领，轻松温暖而有故事性。",
+      "reference_frames": [
+        "references/page_10/ref_01_514.98s.jpg",
+        "references/page_10/ref_02_520.31s.jpg",
+        "references/page_10/ref_03_525.64s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e09-pi-jing-zhan-ji/images/page_10.webp"
+    },
+    {
+      "page": 11,
+      "heading": "树大也会招风",
+      "heading_pinyin": "shù dà yě huì zhāo fēng",
+      "text": "冯异平定关中后威望很高，朝廷里有人嫉妒他的权势，向刘秀打起小报告。功劳和名声有时也会带来新的考验。",
+      "pinyin": "féng yì píng dìng guān zhōng hòu wēi wàng hěn gāo cháo tíng lǐ yǒu rén jí dù tā de quán shì xiàng liú xiù dǎ qǐ xiǎo bào gào gōng láo hé míng shēng yǒu shí yě huì dài lái xīn de kǎo yàn",
+      "layout": "image-right",
+      "source_time_range": [
+        530.74,
+        547.38
+      ],
+      "visual_time_range": [
+        530.74,
+        547.38
+      ],
+      "key_content": {
+        "location": "东汉宫廷",
+        "animals": [
+          "冯异",
+          "刘秀",
+          "进谗言的大臣"
+        ],
+        "activity": "大臣因嫉妒冯异而向刘秀举报",
+        "stakes": "不实的猜疑可能破坏君臣之间的信任",
+        "outcome": "刘秀召冯异入京查问",
+        "visual_focus": "宫廷中低声进言的大臣与沉思的刘秀"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。东汉宫廷内，一名大臣低声向刘秀递上奏报，刘秀皱眉思考，窗外一棵高大树木被风吹动，象征树大招风但不出现文字。",
+      "reference_frames": [
+        "references/page_11/ref_01_534.07s.jpg",
+        "references/page_11/ref_02_539.06s.jpg",
+        "references/page_11/ref_03_544.05s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e09-pi-jing-zhan-ji/images/page_11.webp"
+    },
+    {
+      "page": 12,
+      "heading": "朝廷出现举报",
+      "heading_pinyin": "cháo tíng chū xiàn jǔ bào",
+      "text": "大臣说冯异坐镇长安、威望太高，迟早会谋反。刘秀没有马上相信，而是把冯异召来，准备亲自问清楚。",
+      "pinyin": "dà chén shuō féng yì zuò zhèn zhǎng ān wēi wàng tài gāo chí zǎo huì móu fǎn liú xiù méi yǒu mǎ shàng xiāng xìn ér shì bǎ féng yì zhào lái zhǔn bèi qīn zì wèn qīng chǔ",
+      "layout": "image-top",
+      "source_time_range": [
+        555.55,
+        597.16
+      ],
+      "visual_time_range": [
+        555.55,
+        597.16
+      ],
+      "key_content": {
+        "location": "东汉朝堂",
+        "animals": [
+          "刘秀",
+          "冯异",
+          "群臣"
+        ],
+        "activity": "群臣议论举报，刘秀下令召冯异进京",
+        "stakes": "未经查证的传言可能让忠臣蒙受怀疑",
+        "outcome": "冯异来到宫廷面对奏报",
+        "visual_focus": "朝堂、递交奏报的群臣和传召将军的使者"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。东汉朝堂上群臣围立，刘秀坐在中央看着一卷奏报，传令使者准备出发召冯异进京，宫殿空间开阔，气氛严肃但不阴暗。",
+      "reference_frames": [
+        "references/page_12/ref_01_563.87s.jpg",
+        "references/page_12/ref_02_576.36s.jpg",
+        "references/page_12/ref_03_588.84s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e09-pi-jing-zhan-ji/images/page_12.webp"
+    },
+    {
+      "page": 13,
+      "heading": "刘秀相信冯异",
+      "heading_pinyin": "liú xiù xiāng xìn féng yì",
+      "text": "冯异说举报纯粹是诬陷。刘秀想起他们曾一起经历饥饿和风雪，也记得冯异煮豆粥、生火帮助大家，因此相信他没有二心。",
+      "pinyin": "féng yì shuō jǔ bào chún cuì shì wū xiàn liú xiù xiǎng qǐ tā men céng yì qǐ jīng lì jī è hé fēng xuě yě jì de féng yì zhǔ dòu zhōu shēng huǒ bāng zhù dà jiā yīn cǐ xiāng xìn tā méi yǒu èr xīn",
+      "layout": "image-left",
+      "source_time_range": [
+        607.68,
+        655.64
+      ],
+      "visual_time_range": [
+        607.68,
+        650.0
+      ],
+      "key_content": {
+        "location": "东汉宫殿内",
+        "animals": [
+          "刘秀",
+          "冯异"
+        ],
+        "activity": "刘秀回忆共同经历并当面表示信任",
+        "stakes": "真正的信任需要经得起传言和权势考验",
+        "outcome": "刘秀确认冯异忠诚，冯异继续尽职尽责",
+        "visual_focus": "刘秀与冯异对谈，背景叠映风雪中的豆粥回忆"
+      },
+      "illustration_prompt": "中国古代历史儿童科普绘本风格，画面不出现文字、字幕、标志或水印。宫殿内刘秀从容地扶起冯异并表示信任，背景以柔和的想象画面叠映风雪亭子、火堆和一碗豆粥，表现共同经历带来的深厚情谊，温暖克制。",
+      "reference_frames": [
+        "references/page_13/ref_01_616.14s.jpg",
+        "references/page_13/ref_02_628.84s.jpg",
+        "references/page_13/ref_03_641.54s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e09-pi-jing-zhan-ji/images/page_13.webp"
+    },
+    {
+      "page": 14,
+      "heading": "披荆斩棘的答案",
+      "heading_pinyin": "pī jīng zhǎn jí de dá àn",
+      "text": "刘秀说，冯异当年为他披荆斩棘，扫除障碍，后来又平定关中。披荆斩棘，就是不畏艰险、克服困难、奋勇前进。",
+      "pinyin": "liú xiù shuō féng yì dāng nián wèi tā pī jīng zhǎn jí sǎo chú zhàng ài hòu lái yòu píng dìng guān zhōng pī jīng zhǎn jí jiù shì bù wèi jiān xiǎn kè fú kùn nán fèn yǒng qián jìn",
+      "layout": "full-bleed",
+      "source_time_range": [
+        656.6,
+        730.49
+      ],
+      "visual_time_range": [
+        656.6,
+        730.49
+      ],
+      "key_content": {
+        "location": "东汉宫廷与成语解释课堂",
+        "animals": [
+          "冯异",
+          "刘秀",
+          "陈教授",
+          "琪琪"
+        ],
+        "activity": "刘秀评价冯异，陈教授总结成语含义并鼓励孩子",
+        "stakes": "把历史人物的勇气转化为面对成长困难的行动",
+        "outcome": "读者理解披荆斩棘并准备勇敢前进",
+        "visual_focus": "冯异穿过荆棘道路走向光明，刘秀和课堂角色共同见证"
+      },
+      "illustration_prompt": "中国儿童科普绘本风格，画面不出现文字、字幕、标志或水印。历史与课堂融合的收束画面：冯异带着队伍穿过荆棘和山路走向金色晨光，远处刘秀在宫殿前注视，前景陈教授和白色机器人琪琪为孩子们鼓掌，表现不畏艰险、奋勇前进，明亮希望。",
+      "reference_frames": [
+        "references/page_14/ref_01_671.38s.jpg",
+        "references/page_14/ref_02_693.55s.jpg",
+        "references/page_14/ref_03_715.71s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e09-pi-jing-zhan-ji/images/page_14.webp"
+    }
+  ]
+}

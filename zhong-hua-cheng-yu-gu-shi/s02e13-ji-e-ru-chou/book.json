@@ -1,0 +1,584 @@
+{
+  "title": "嫉恶如仇",
+  "title_pinyin": "jí è rú chóu",
+  "subtitle": "傅咸刚正不阿的故事",
+  "subtitle_pinyin": "fù xián gāng zhèng bù ē de gù shì",
+  "style": "children-science",
+  "language": "zh-CN",
+  "source": "/Volumes/Intel 760P/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB/中华上下五千年之成语故事篇.Zhong.Hua.Shang.Xia.Wu.Qian.Nian.Zhi.Cheng.Yu.Gu.Shi.Pian.S02E13.2021.1080p.WEB-DL.AVC.AAC.2.0-HXWEB.mp4",
+  "content_anchor_version": 1,
+  "visual_mode": "hybrid-book",
+  "cover_image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/cover.webp",
+  "pages": [
+    {
+      "page": 1,
+      "heading": "琪琪练功夫",
+      "heading_pinyin": "qí qí liàn gōng fu",
+      "text": "文化宫里，琪琪学着电视里的霍元甲练功夫。她觉得霍元甲武艺高强、聪明勇敢，还总和坏人作斗争。",
+      "pinyin": "wén huà gōng lǐ qí qí xué zhe diàn shì lǐ de huò yuán jiǎ liàn gōng fu tā jué de huò yuán jiǎ wǔ yì gāo qiáng cōng míng yǒng gǎn hái zǒng hé huài rén zuò dòu zhēng",
+      "illustration_prompt": "Original children's-book illustration, a friendly small white robot practicing martial-arts poses in a bright cultural palace learning room, with a playful historical hero poster-like silhouette in the background but no readable writing. Soft gouache and pencil texture, clean shapes for ages 6–10, teal, coral and warm gold palette, lively but gentle, no subtitles, logos, or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        133.54,
+        174.98
+      ],
+      "visual_time_range": [
+        133.54,
+        174.98
+      ],
+      "visual_anchors": [
+        "文化宫室内",
+        "白色机器人琪琪",
+        "练功夫的动作",
+        "电视里的英雄想象",
+        "明亮的学习空间"
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [],
+        "activity": "琪琪模仿霍元甲练功夫",
+        "stakes": "琪琪要理解自己喜欢英雄的原因",
+        "outcome": "她说霍元甲敢和坏人作斗争",
+        "visual_focus": "机器人练功与英雄想象"
+      },
+      "reference_frames": [
+        "references/page_01/ref_01_141.83s.jpg",
+        "references/page_01/ref_02_154.26s.jpg",
+        "references/page_01/ref_03_166.69s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_01.webp"
+    },
+    {
+      "page": 2,
+      "heading": "嫉恶如仇是什么意思",
+      "heading_pinyin": "jí è rú chóu shì shén me yì si",
+      "text": "“嫉恶如仇”是说，遇到坏人坏事，要像面对仇敌一样憎恨。它不是生气打架，而是明辨是非、勇敢反对恶行。",
+      "pinyin": "jí è rú chóu shì shuō yù dào huài rén huài shì yào xiàng miàn duì chóu dí yí yàng zēng hèn tā bú shì shēng qì dǎ jià ér shì míng biàn shì fēi yǒng gǎn fǎn duì è xíng",
+      "illustration_prompt": "Original educational children's-book illustration: a glowing four-part symbolic idea made from a calm compass for right and wrong, a small ember of courage, and a dark thorny vine being gently pushed back. Include the professor and robot observing thoughtfully, no written characters, no literal copied subtitles, soft gouache and pencil texture, reassuring for ages 6–10.",
+      "layout": "image-right",
+      "source_time_range": [
+        175.7,
+        194.5
+      ],
+      "visual_time_range": [
+        164.74,
+        194.5
+      ],
+      "visual_anchors": [
+        "陈教授解释成语",
+        "琪琪认真思考",
+        "明辨是非的罗盘",
+        "被推开的暗色藤蔓",
+        "温和的课堂氛围"
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [],
+        "activity": "陈教授解释嫉恶如仇的意思",
+        "stakes": "不能把嫉恶如仇误解成暴力",
+        "outcome": "琪琪知道要憎恨坏人坏事并反对恶行",
+        "visual_focus": "罗盘、勇气火星与暗色藤蔓"
+      },
+      "reference_frames": [
+        "references/page_02/ref_01_170.69s.jpg",
+        "references/page_02/ref_02_179.62s.jpg",
+        "references/page_02/ref_03_188.55s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_02.webp"
+    },
+    {
+      "page": 3,
+      "heading": "西晋的奢侈风气",
+      "heading_pinyin": "xī jìn de shē chǐ fēng qì",
+      "text": "故事发生在西晋。许多皇亲国戚和名门大族凭着特权，过着骄奢淫逸的生活，朝廷的风气越来越腐败。",
+      "pinyin": "gù shì fā shēng zài xī jìn xǔ duō huáng qīn guó qī hé míng mén dà zú píng zhe tè quán guò zhe jiāo shē yín yì de shēng huó cháo tíng de fēng qì yuè lái yuè fǔ bài",
+      "illustration_prompt": "Original children's-book historical illustration of a Western Jin palace banquet where richly dressed nobles feast and celebrate while a quiet shadow of unfairness falls across the hall. Show contrast without caricature or cruelty: overflowing dishes, ornate clothes, distant ordinary people outside the palace gate. Soft gouache and pencil texture, no text or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        211.03,
+        232.9
+      ],
+      "visual_time_range": [
+        211.03,
+        232.9
+      ],
+      "visual_anchors": [
+        "西晋宫廷大厅",
+        "皇亲国戚与名门大族",
+        "丰盛宴席",
+        "华丽服饰",
+        "宫门外的普通百姓"
+      ],
+      "key_content": {
+        "location": "西晋宫廷",
+        "animals": [],
+        "activity": "贵族凭特权享受宴饮",
+        "stakes": "奢侈腐败会让社会失去公平",
+        "outcome": "傅咸面对的是需要被纠正的朝廷风气",
+        "visual_focus": "宫廷宴席与宫门外的对比"
+      },
+      "reference_frames": [
+        "references/page_03/ref_01_215.40s.jpg",
+        "references/page_03/ref_02_221.97s.jpg",
+        "references/page_03/ref_03_228.53s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_03.webp"
+    },
+    {
+      "page": 4,
+      "heading": "傅咸接下监察重任",
+      "heading_pinyin": "fù xián jiē xià jiān chá zhòng rèn",
+      "text": "武帝去世后，惠帝即位，傅咸担任御史中丞和司隶校尉。他的职责，是监督官员、直言劝谏。",
+      "pinyin": "wǔ dì qù shì hòu huì dì jí wèi fù xián dān rèn yù shǐ zhōng chéng hé sī lì xiào wèi tā de zhí zé shì jiān dū guān yuán zhí yán quàn jiàn",
+      "illustration_prompt": "Original children's-book historical illustration of Fu Xian receiving two official seals and a scroll of duty in a Western Jin palace, standing upright and thoughtful before the young emperor. Ceremonial hall, red and indigo robes, clear symbolic focus on responsibility rather than power, soft gouache and pencil texture, no written text or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        234.9,
+        255.64
+      ],
+      "visual_time_range": [
+        234.9,
+        255.64
+      ],
+      "visual_anchors": [
+        "惠帝即位",
+        "傅咸",
+        "御史中丞官印",
+        "司隶校尉官印",
+        "接受监察职责"
+      ],
+      "key_content": {
+        "location": "西晋皇宫",
+        "animals": [],
+        "activity": "傅咸接受监察官职",
+        "stakes": "监督权力需要刚正和勇气",
+        "outcome": "傅咸开始履行直言劝谏的职责",
+        "visual_focus": "官印、诏书与挺立的傅咸"
+      },
+      "reference_frames": [
+        "references/page_04/ref_01_239.05s.jpg",
+        "references/page_04/ref_02_245.27s.jpg",
+        "references/page_04/ref_03_251.49s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_04.webp"
+    },
+    {
+      "page": 5,
+      "heading": "夜守宫门等天亮",
+      "heading_pinyin": "yè shǒu gōng mén děng tiān liàng",
+      "text": "傅咸有急事要见皇帝，可宫门已经关闭。他决定守在门外，等到第二天清晨第一个见到皇帝。",
+      "pinyin": "fù xián yǒu jí shì yào jiàn huáng dì kě gōng mén yǐ jīng guān bì tā jué dìng shǒu zài mén wài děng dào dì èr tiān qīng chén dì yī gè jiàn dào huáng dì",
+      "illustration_prompt": "Original children's-book historical illustration at night outside a grand Western Jin palace gate: Fu Xian waits calmly beside a small lantern and sealed scroll while a sleepy gate guard looks surprised. Moonlight, long shadows, dignified patience, gentle child-friendly mood, soft gouache and pencil texture, no text or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        269.04,
+        293.4
+      ],
+      "visual_time_range": [
+        269.04,
+        293.4
+      ],
+      "visual_anchors": [
+        "夜晚宫门",
+        "傅咸守候",
+        "小灯笼",
+        "守门人",
+        "等待天亮的卷轴"
+      ],
+      "key_content": {
+        "location": "皇宫门外",
+        "animals": [],
+        "activity": "傅咸守在宫门外等候皇帝",
+        "stakes": "重要的劝谏不能因为宫门关闭而拖延",
+        "outcome": "他坚持到清晨，准备第一个面见皇帝",
+        "visual_focus": "夜色、灯笼和耐心等候"
+      },
+      "reference_frames": [
+        "references/page_05/ref_01_273.91s.jpg",
+        "references/page_05/ref_02_281.22s.jpg",
+        "references/page_05/ref_03_288.53s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_05.webp"
+    },
+    {
+      "page": 6,
+      "heading": "贵族为什么怕他",
+      "heading_pinyin": "guì zú wèi shén me pà tā",
+      "text": "傅咸刚强正直，敢把贵族豪强做的坏事告诉皇帝。因此，那些不守规矩的人一听见他的名字，就会感到害怕。",
+      "pinyin": "fù xián gāng qiáng zhèng zhí gǎn bǎ guì zú háo qiáng zuò de huài shì gào sù huáng dì yīn cǐ nà xiē bù shǒu guī jǔ de rén yì tīng jiàn tā de míng zi jiù huì gǎn dào hài pà",
+      "illustration_prompt": "Original children's-book illustration of Fu Xian walking firmly through a palace corridor with an open report scroll, while several richly dressed nobles whisper nervously in the background. The mood is principled, not frightening; warm light on Fu Xian, cooler shadows behind the nobles, soft gouache and pencil texture, no readable text or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        296.84,
+        308.0
+      ],
+      "visual_time_range": [
+        296.84,
+        308.0
+      ],
+      "visual_anchors": [
+        "傅咸刚正的神情",
+        "奏报卷轴",
+        "贵族豪强窃窃私语",
+        "宫廷走廊",
+        "光影对比"
+      ],
+      "key_content": {
+        "location": "西晋宫廷",
+        "animals": [],
+        "activity": "傅咸准备揭发贵族的坏事",
+        "stakes": "特权人物害怕监察和法律",
+        "outcome": "傅咸因为敢说真话而令人敬畏",
+        "visual_focus": "坚定的监察官与不安的贵族"
+      },
+      "reference_frames": [
+        "references/page_06/ref_01_299.07s.jpg",
+        "references/page_06/ref_02_302.42s.jpg",
+        "references/page_06/ref_03_305.77s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_06.webp"
+    },
+    {
+      "page": 7,
+      "heading": "节俭才能长久",
+      "heading_pinyin": "jié jiǎn cái néng cháng jiǔ",
+      "text": "傅咸劝惠帝节俭：衣服和食物都应有适当的制度。如果使用没有节制，谷物和布帛就会越来越不足。",
+      "pinyin": "fù xián quàn huì dì jié jiǎn yī fu hé shí wù dōu yīng yǒu shì dàng de zhì dù rú guǒ shǐ yòng méi yǒu jié zhì gǔ wù hé bù bó jiù huì yuè lái yuè bù zú",
+      "illustration_prompt": "Original educational historical illustration: Fu Xian presents a balanced scale holding simple cloth and grain before the emperor, with a small overflowing basket on the other side as a gentle warning. Palace interior, clear visual metaphor for moderation, warm earthy colors, soft gouache and pencil texture, no text or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        322.7,
+        346.55
+      ],
+      "visual_time_range": [
+        322.7,
+        346.55
+      ],
+      "visual_anchors": [
+        "傅咸向惠帝进谏",
+        "粮食",
+        "布帛",
+        "平衡的秤",
+        "节制使用"
+      ],
+      "key_content": {
+        "location": "皇帝的议事厅",
+        "animals": [],
+        "activity": "傅咸劝皇帝限制奢侈",
+        "stakes": "没有节制会造成物资不足",
+        "outcome": "惠帝听懂节俭对国家的重要性",
+        "visual_focus": "粮食、布帛与平衡的秤"
+      },
+      "reference_frames": [
+        "references/page_07/ref_01_327.47s.jpg",
+        "references/page_07/ref_02_334.62s.jpg",
+        "references/page_07/ref_03_341.78s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_07.webp"
+    },
+    {
+      "page": 8,
+      "heading": "房子和饭菜的比较",
+      "heading_pinyin": "fáng zi hé fàn cài de bǐ jiào",
+      "text": "傅咸举例说，帝尧住茅草屋，大臣没有精美饭菜；如今有人竞相建大房子、吃美味佳肴，奢侈就这样越比越多。",
+      "pinyin": "fù xián jǔ lì shuō dì yáo zhù máo cǎo wū dà chén méi yǒu jīng měi fàn cài rú jīn yǒu rén jìng xiāng jiàn dà fáng zi chī měi wèi jiā yáo shē chǐ jiù zhè yàng yuè bǐ yuè duō",
+      "illustration_prompt": "Original split-scene children's-book historical illustration: on the left, a humble thatched hut and a simple bowl; on the right, competing grand houses and an excessive banquet. Keep both sides connected by Fu Xian's explaining gesture, clear comparison, soft gouache and pencil texture, no written labels or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        347.75,
+        360.07
+      ],
+      "visual_time_range": [
+        347.75,
+        360.07
+      ],
+      "visual_anchors": [
+        "帝尧的茅草屋",
+        "简单饭碗",
+        "宽大的房屋",
+        "美味佳肴",
+        "互相攀比"
+      ],
+      "key_content": {
+        "location": "古今对照的想象场景",
+        "animals": [],
+        "activity": "傅咸用房屋和饭菜作对比",
+        "stakes": "攀比会把生活推向奢靡",
+        "outcome": "节俭与奢侈的差别变得清楚",
+        "visual_focus": "茅草屋与豪华宴席的分屏对照"
+      },
+      "reference_frames": [
+        "references/page_08/ref_01_350.21s.jpg",
+        "references/page_08/ref_02_353.91s.jpg",
+        "references/page_08/ref_03_357.61s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_08.webp"
+    },
+    {
+      "page": 9,
+      "heading": "节俭让国家有储蓄",
+      "heading_pinyin": "jié jiǎn ràng guó jiā yǒu chǔ xù",
+      "text": "古时候土地少、人口多，却还能有储蓄，因为大家节俭。现在土地广、人口少，反而担心不够，是因为奢侈浪费。",
+      "pinyin": "gǔ shí hou tǔ dì shǎo rén kǒu duō què hái néng yǒu chǔ xù yīn wèi dà jiā jié jiǎn xiàn zài tǔ dì guǎng rén kǒu shǎo fǎn ér dān xīn bú gòu shì yīn wèi shē chǐ làng fèi",
+      "illustration_prompt": "Original educational children's-book illustration of two landscape panels: a small but carefully stored granary in an older village and a wide land with an empty storehouse beside discarded food. Use visual storytelling instead of labels, balanced composition, gentle colors, soft gouache and pencil texture, no text or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        361.78,
+        386.92
+      ],
+      "visual_time_range": [
+        361.78,
+        386.92
+      ],
+      "visual_anchors": [
+        "人口稠密的旧村落",
+        "储蓄粮仓",
+        "广阔土地",
+        "空仓",
+        "被浪费的食物"
+      ],
+      "key_content": {
+        "location": "古今对照的村落与粮仓",
+        "animals": [],
+        "activity": "用储蓄对比节俭和奢侈",
+        "stakes": "浪费会让看似富足的地方也不够用",
+        "outcome": "惠帝同意改变奢侈风气",
+        "visual_focus": "满仓与空仓的对照"
+      },
+      "reference_frames": [
+        "references/page_09/ref_01_366.81s.jpg",
+        "references/page_09/ref_02_374.35s.jpg",
+        "references/page_09/ref_03_381.89s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_09.webp"
+    },
+    {
+      "page": 10,
+      "heading": "饥荒中的难民",
+      "heading_pinyin": "jī huāng zhōng de nàn mín",
+      "text": "各地发生饥荒，许多百姓离开家乡，成为流离失所的难民。傅咸看见他们没有饭吃，马上把这件事告诉皇帝。",
+      "pinyin": "gè dì fā shēng jī huāng xǔ duō bǎi xìng lí kāi jiā xiāng chéng wéi liú lí shī suǒ de nàn mín fù xián kàn jiàn tā men méi yǒu fàn chī mǎ shàng bǎ zhè jiàn shì gào sù huáng dì",
+      "illustration_prompt": "Original sensitive children's-book historical illustration of families arriving at a city gate during a famine, carrying small bundles, while a compassionate official brings their plight toward the palace. Show dignity and mutual help, no graphic suffering, muted ochre and blue palette, soft gouache and pencil texture, no text or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        393.72,
+        468.46
+      ],
+      "visual_time_range": [
+        393.72,
+        425.54
+      ],
+      "visual_anchors": [
+        "城门附近",
+        "背着包袱的难民",
+        "饥荒",
+        "傅咸观察百姓",
+        "通往皇宫的道路"
+      ],
+      "key_content": {
+        "location": "城门与皇宫之间",
+        "animals": [],
+        "activity": "傅咸为饥荒中的难民求助",
+        "stakes": "百姓缺少食物并被迫离开家乡",
+        "outcome": "傅咸把灾情带到皇帝面前",
+        "visual_focus": "难民、包袱与求助的官员"
+      },
+      "reference_frames": [
+        "references/page_10/ref_01_400.08s.jpg",
+        "references/page_10/ref_02_409.63s.jpg",
+        "references/page_10/ref_03_419.18s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_10.webp"
+    },
+    {
+      "page": 11,
+      "heading": "奢侈比天灾更可怕",
+      "heading_pinyin": "shē chǐ bǐ tiān zāi gèng kě pà",
+      "text": "傅咸告诉皇帝，有些大臣一天的饭费竟然高得惊人，百姓却在饥荒中受苦。他认为，奢侈浪费造成的伤害甚至比天灾还严重。",
+      "pinyin": "fù xián gào sù huáng dì yǒu xiē dà chén yì tiān de fàn fèi jìng rán gāo de jīng rén bǎi xìng què zài jī huāng zhōng shòu kǔ tā rèn wéi shē chǐ làng fèi zào chéng de shāng hài shèn zhì bǐ tiān zāi hái yán zhòng",
+      "illustration_prompt": "Original educational historical illustration inside an imperial audience hall: on one side an enormous banquet table, on the other side a modest empty bowl held by a hungry family, with Fu Xian placing a firm but respectful report between them. Strong moral contrast, no frightening imagery, soft gouache and pencil texture, no words or watermark.",
+      "layout": "image-left",
+      "source_time_range": [
+        478.22,
+        528.28
+      ],
+      "visual_time_range": [
+        478.22,
+        528.28
+      ],
+      "visual_anchors": [
+        "皇帝议事厅",
+        "傅咸的奏报",
+        "过度丰盛的宴席",
+        "百姓的空碗",
+        "天灾与奢侈的对比"
+      ],
+      "key_content": {
+        "location": "皇帝的议事厅",
+        "animals": [],
+        "activity": "傅咸指出奢侈对百姓的伤害",
+        "stakes": "官员挥霍与百姓饥饿形成强烈反差",
+        "outcome": "惠帝同意按国法惩处挥霍无度者",
+        "visual_focus": "宴席与空碗之间的对比"
+      },
+      "reference_frames": [
+        "references/page_11/ref_01_488.23s.jpg",
+        "references/page_11/ref_02_503.25s.jpg",
+        "references/page_11/ref_03_518.27s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_11.webp"
+    },
+    {
+      "page": 12,
+      "heading": "不怕亲戚和权势",
+      "heading_pinyin": "bù pà qīn qī hé quán shì",
+      "text": "一些贵族仗着自己是皇亲国戚，嘲笑傅咸不敢惩罚他们。可是傅咸一封又一封地劝谏，始终没有放弃。",
+      "pinyin": "yì xiē guì zú zhàng zhe zì jǐ shì huáng qīn guó qī cháo xiào fù xián bù gǎn chéng fá tā men kě shì fù xián yì fēng yòu yì fēng de quàn jiàn shǐ zhōng méi yǒu fàng qì",
+      "illustration_prompt": "Original children's-book historical illustration of arrogant nobles whispering beside a palace pillar while Fu Xian calmly stacks several sealed reports and keeps writing. Make the contrast between boastful privilege and steady courage clear, child-friendly and nonviolent, soft gouache and pencil texture, no readable text or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        531.72,
+        568.95
+      ],
+      "visual_time_range": [
+        531.72,
+        568.95
+      ],
+      "visual_anchors": [
+        "宫廷角落",
+        "嘲笑的贵族",
+        "一封又一封奏报",
+        "傅咸坚持写信",
+        "权势与正直的对照"
+      ],
+      "key_content": {
+        "location": "西晋宫廷",
+        "animals": [],
+        "activity": "贵族嘲笑，傅咸持续劝谏",
+        "stakes": "权势可能阻挡公正的声音",
+        "outcome": "傅咸没有因为嘲笑而退缩",
+        "visual_focus": "堆叠的奏报与安静坚持的傅咸"
+      },
+      "reference_frames": [
+        "references/page_12/ref_01_539.17s.jpg",
+        "references/page_12/ref_02_550.34s.jpg",
+        "references/page_12/ref_03_561.50s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_12.webp"
+    },
+    {
+      "page": 13,
+      "heading": "朝廷风气慢慢改变",
+      "heading_pinyin": "cháo tíng fēng qì màn màn gǎi biàn",
+      "text": "惠帝终于罢免了一些挥霍无度的官员。看到傅咸认真监督，朝中的大臣们也收敛了许多，风气开始变好。",
+      "pinyin": "huì dì zhōng yú bà miǎn le yì xiē huī huò wú dù de guān yuán kàn dào fù xián rèn zhēn jiān dū cháo zhōng de dà chén men yě shōu liǎn le xǔ duō fēng qì kāi shǐ biàn hǎo",
+      "illustration_prompt": "Original children's-book historical illustration of a palace office becoming orderly: Fu Xian checks a simple ledger, officials put away extravagant ornaments and begin working responsibly, while the emperor approves a fair decision. Brighter light entering through the windows, soft gouache and pencil texture, no text or watermark.",
+      "layout": "image-top",
+      "source_time_range": [
+        575.67,
+        621.37
+      ],
+      "visual_time_range": [
+        575.67,
+        621.37
+      ],
+      "visual_anchors": [
+        "惠帝作出决定",
+        "被罢免的奢侈官员",
+        "认真监督的傅咸",
+        "收敛的群臣",
+        "明亮整洁的宫廷办公室"
+      ],
+      "key_content": {
+        "location": "西晋朝廷",
+        "animals": [],
+        "activity": "皇帝罢免挥霍官员，傅咸监督整顿",
+        "stakes": "制度能否真正改变官场风气",
+        "outcome": "官员收敛奢侈，朝廷风气变好",
+        "visual_focus": "从混乱到整洁的宫廷办公室"
+      },
+      "reference_frames": [
+        "references/page_13/ref_01_584.81s.jpg",
+        "references/page_13/ref_02_598.52s.jpg",
+        "references/page_13/ref_03_612.23s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_13.webp"
+    },
+    {
+      "page": 14,
+      "heading": "为百姓着想的正直大臣",
+      "heading_pinyin": "wèi bǎi xìng zhuó xiǎng de zhèng zhí dà chén",
+      "text": "傅咸嫉恶如仇，却不是为了逞强。他明辨是非、刚正不阿，一心为百姓着想，让大家看见了正直的力量。",
+      "pinyin": "fù xián jí è rú chóu què bú shì wèi le chěng qiáng tā míng biàn shì fēi gāng zhèng bù ē yì xīn wèi bǎi xìng zhuó xiǎng ràng dà jiā kàn jiàn le zhèng zhí de lì liàng",
+      "illustration_prompt": "Original uplifting children's-book illustration: Fu Xian stands between ordinary families and a calm, orderly city, holding a lantern that lights a clear path marked by balanced scales and growing green shoots. Symbolic, warm and hopeful, soft gouache and pencil texture, no words or watermark.",
+      "layout": "full-bleed",
+      "source_time_range": [
+        604.0,
+        641.61
+      ],
+      "visual_time_range": [
+        604.0,
+        641.61
+      ],
+      "visual_anchors": [
+        "傅咸与百姓",
+        "明辨是非的秤",
+        "照亮道路的灯笼",
+        "恢复秩序的城市",
+        "希望的嫩芽"
+      ],
+      "key_content": {
+        "location": "变得安定的城市",
+        "animals": [],
+        "activity": "傅咸监督官员并为百姓着想",
+        "stakes": "正直是否能带来真实改变",
+        "outcome": "嫉恶如仇成为保护公道的力量",
+        "visual_focus": "灯笼、秤与百姓共同的道路"
+      },
+      "reference_frames": [
+        "references/page_14/ref_01_611.52s.jpg",
+        "references/page_14/ref_02_622.81s.jpg",
+        "references/page_14/ref_03_634.09s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_14.webp"
+    },
+    {
+      "page": 15,
+      "heading": "把成语挂在心里",
+      "heading_pinyin": "bǎ chéng yǔ guà zài xīn lǐ",
+      "text": "陈教授写下“嫉恶如仇”送给琪琪。琪琪想把它挂在墙上，提醒自己明辨是非，做一个正直勇敢的人。",
+      "pinyin": "chén jiào shòu xiě xià jí è rú chóu sòng gěi qí qí qí qí xiǎng bǎ tā guà zài qiáng shàng tí xǐng zì jǐ míng biàn shì fēi zuò yí gè zhèng zhí yǒng gǎn de rén",
+      "illustration_prompt": "Original children's-book closing illustration in the cultural palace: the professor presents a beautiful abstract four-character calligraphy artwork with no legible writing, while the delighted white robot hangs it on a wall and a warm beam of light fills the room. Keep the artwork symbolic and text-free, soft gouache and pencil texture, no logos or watermark.",
+      "layout": "image-right",
+      "source_time_range": [
+        643.28,
+        687.98
+      ],
+      "visual_time_range": [
+        643.28,
+        687.98
+      ],
+      "visual_anchors": [
+        "陈教授写字",
+        "琪琪开心",
+        "墙上的成语作品",
+        "文化宫教室",
+        "提醒自己的温暖结尾"
+      ],
+      "key_content": {
+        "location": "文化宫",
+        "animals": [],
+        "activity": "陈教授写成语，琪琪把作品挂起来",
+        "stakes": "故事中的道理要进入日常生活",
+        "outcome": "琪琪决定记住明辨是非和正直勇敢",
+        "visual_focus": "机器人把成语作品挂上墙"
+      },
+      "reference_frames": [
+        "references/page_15/ref_01_652.22s.jpg",
+        "references/page_15/ref_02_665.63s.jpg",
+        "references/page_15/ref_03_679.04s.jpg"
+      ],
+      "image": "https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e13-ji-e-ru-chou/images/page_15.webp"
+    }
+  ]
+}
