@@ -571,6 +571,7 @@
 
     const line = currentLineIndex >= 0 ? poem.lines[currentLineIndex] : poem.lines[0];
     if (!line) return;
+    const imageUrl = poem.image || line.image || DEFAULT_IMAGE;
     if (lineIllustrationImg.getAttribute("data-current-img") === imageUrl) {
       // Current image is already active; do not reload or flash
       artworkLineBadge.textContent = `第 ${currentLineIndex + 1} / ${poem.lines.length} 句`;
