@@ -244,6 +244,7 @@
     revealedSentenceIndices.clear();
     hintLevel = 0;
     isRevealed = false;
+    currentSentenceIndex = -1;
 
     if (quizRevealBtnText) quizRevealBtnText.textContent = "翻开核验";
     if (quizRevealBtn) quizRevealBtn.classList.remove("is-active-reveal");
@@ -265,17 +266,14 @@
             maskedSentenceIndices.add(s.global_index);
           }
         });
+      } else if (maskRule === "half") {
+        const hideSecondHalf = Math.random() > 0.5;
+        const half = Math.floor(N / 2);
+        const start = hideSecondHalf ? half : 0;
+        const end = hideSecondHalf ? N : half;
+        for (let i = start; i < end; i++) maskedSentenceIndices.add(i);
       } else if (maskRule === "next_line") {
         for (let i = 1; i < N; i += 2) {
-          maskedSentenceIndices.add(i);
-        }
-      } else {
-        // "half"
-        const hideSecondHalf = Math.random() > 0.5;
-        const halfCount = Math.floor(N / 2);
-        const start = hideSecondHalf ? halfCount : 0;
-        const end = hideSecondHalf ? N : halfCount;
-        for (let i = start; i < end; i++) {
           maskedSentenceIndices.add(i);
         }
       }
@@ -304,6 +302,9 @@
     for (const idx of maskedSentenceIndices) {
       revealedSentenceIndices.add(idx);
     }
+    if (currentSentenceIndex < 0) {
+      currentSentenceIndex = 0;
+    }
     if (quizRevealBtnText) quizRevealBtnText.textContent = "隐藏重背";
     if (quizRevealBtn) quizRevealBtn.classList.add("is-active-reveal");
     if (quizMasteryBar) quizMasteryBar.hidden = false;
@@ -319,6 +320,9 @@
       for (const idx of maskedSentenceIndices) {
         if (!revealedSentenceIndices.has(idx)) {
           revealedSentenceIndices.add(idx);
+          if (currentSentenceIndex === -1) {
+            currentSentenceIndex = idx;
+          }
           break;
         }
       }
@@ -331,6 +335,7 @@
   function revealSingleSentence(sentenceIdx) {
     if (appMode !== "quiz" || isRevealed) return;
     if (maskedSentenceIndices.has(sentenceIdx)) {
+      currentSentenceIndex = sentenceIdx;
       revealedSentenceIndices.add(sentenceIdx);
       let allDone = true;
       for (const idx of maskedSentenceIndices) {
@@ -462,7 +467,11 @@
     syncSentenceState();
 
     // Update URL hash without jumping
-    history.replaceState(null, "", `#${ci.id}:${currentSentenceIndex + 1}`);
+    if (currentSentenceIndex >= 0) {
+      history.replaceState(null, "", `#${ci.id}:${currentSentenceIndex + 1}`);
+    } else {
+      history.replaceState(null, "", `#${ci.id}`);
+    }
   }
 
   /**
@@ -529,10 +538,10 @@
           });
 
           html += `
-            <div class="sentence-unit is-masked ${activeClass}" data-sentence-index="${sent.global_index}" role="button" tabindex="0" title="点击揭晓本句">
+            <div class="sentence-unit is-masked ${activeClass}" data-sentence-index="${sent.global_index}" role="button" tabindex="0" title="按上下键移至此处或点击自动揭晓">
               <span class="sentence-num-stamp" title="${escapeHtml(st.name)} 第 ${sent.sentence_no} 句">${stampLabel}</span>
               <div class="sentence-body-wrap">${maskedTextHtml}</div>
-              <span class="masked-line-badge">揭晓 ▾</span>
+              <span class="masked-line-badge">↓ 揭晓</span>
             </div>
           `;
         } else {
@@ -593,8 +602,6 @@
   function syncSentenceState() {
     const ci = visibleCi[currentCiIndex];
     if (!ci) return;
-    const sent = ci.sentences[currentSentenceIndex];
-    if (!sent) return;
 
     // 1. Update active highlight in DOM
     const sentenceElements = ciTextContainer.querySelectorAll(".sentence-unit");
@@ -615,18 +622,20 @@
       });
     }
 
+    const currentSent = currentSentenceIndex >= 0 ? ci.sentences[currentSentenceIndex] : null;
+
     // 3. Update Stanza Block current state
     const stanzaBlocks = ciTextContainer.querySelectorAll(".stanza-block");
     stanzaBlocks.forEach(sb => {
       const sNo = parseInt(sb.getAttribute("data-stanza-no"), 10);
-      sb.classList.toggle("current-stanza", sNo === sent.stanza_no);
+      sb.classList.toggle("current-stanza", currentSent ? sNo === currentSent.stanza_no : false);
     });
 
     // 4. Update Stanza Tabs
     const stanzaPills = stanzaTabsBar.querySelectorAll(".stanza-tab-pill");
     stanzaPills.forEach(p => {
       const sNo = parseInt(p.getAttribute("data-stanza-no"), 10);
-      p.classList.toggle("active", sNo === sent.stanza_no);
+      p.classList.toggle("active", currentSent ? sNo === currentSent.stanza_no : false);
     });
 
     // 5. Update Stepper dots
@@ -650,15 +659,34 @@
         const frame = document.querySelector(".artwork-frame");
         if (frame) frame.appendChild(quizOverlay);
       }
-      artworkSentenceBadge.textContent = `挑战中 · 共 ${ci.sentences.length} 句`;
-      artworkPoeticFocus.textContent = "心中默诵 · 翻牌核验";
-      expSentenceText.textContent = "背诵自测中";
-      expTranslation.textContent = "请在心中或口头默背宋词。点击单句即可揭晓对应行，或按空格键翻开核验。";
-      expWords.innerHTML = "<p>💡 锦囊：按 H 获取首字提示；按 1-3 自评掌握度；按 R 换一题。</p>";
+      artworkSentenceBadge.textContent = currentSentenceIndex >= 0 ? `第 ${currentSentenceIndex + 1} / ${ci.sentences.length} 句` : `挑战中 · 共 ${ci.sentences.length} 句`;
+      artworkPoeticFocus.textContent = "心中默诵 · 移动解锁";
+
+      if (currentSent && (revealedSentenceIndices.has(currentSentenceIndex) || !maskedSentenceIndices.has(currentSentenceIndex))) {
+        expSentenceText.textContent = currentSent.text;
+        expTranslation.textContent = currentSent.translation || "暂无译文。";
+        if (currentSent.explanation) {
+          const parts = currentSent.explanation.split(/(?=【)/).filter(Boolean);
+          if (parts.length > 1) {
+            expWords.innerHTML = parts.map(p => `<p>${escapeHtml(p.trim())}</p>`).join("");
+          } else {
+            expWords.innerHTML = `<p>${escapeHtml(currentSent.explanation)}</p>`;
+          }
+        } else {
+          expWords.innerHTML = "<p>字义清晓，意境直畅。</p>";
+        }
+      } else {
+        expSentenceText.textContent = "背诵自测中";
+        expTranslation.textContent = "按键盘上下键 (↓ / ↑) 移动至对应句即可自动解锁核对，或按空格键翻开全篇。";
+        expWords.innerHTML = "<p>💡 快捷操作：按 ↓ / ↑ 移动自动解锁 · 按 H 锦囊提示 · 按 1-3 自评掌握度 · 按 R 换题</p>";
+      }
       return;
     } else {
       if (quizOverlay) quizOverlay.remove();
     }
+
+    const sent = currentSent || ci.sentences[0];
+    if (!sent) return;
 
     // Keep upper/lower artwork synchronized with the active sentence.
     const stanzaImage = sent.stanza_no === 2 ? (ci.image_lower || ci.image) : (ci.image_upper || ci.image);
@@ -696,7 +724,11 @@
     }
 
     // 8. Update URL hash
-    history.replaceState(null, "", `#${ci.id}:${currentSentenceIndex + 1}`);
+    if (currentSentenceIndex >= 0) {
+      history.replaceState(null, "", `#${ci.id}:${currentSentenceIndex + 1}`);
+    } else {
+      history.replaceState(null, "", `#${ci.id}`);
+    }
   }
 
   /**
@@ -704,35 +736,40 @@
    */
   function nextSentence() {
     const ci = visibleCi[currentCiIndex];
-    if (!ci) return;
-    if (currentSentenceIndex < ci.sentences.length - 1) {
-      currentSentenceIndex++;
-      syncSentenceState();
+    if (!ci || !ci.sentences.length) return;
+    let targetIndex;
+    if (currentSentenceIndex === -1) {
+      targetIndex = 0;
+    } else if (currentSentenceIndex < ci.sentences.length - 1) {
+      targetIndex = currentSentenceIndex + 1;
     } else {
-      // Loop to beginning of current Ci
-      currentSentenceIndex = 0;
-      syncSentenceState();
+      targetIndex = 0;
     }
+    goToSentence(targetIndex);
   }
 
   function prevSentence() {
     const ci = visibleCi[currentCiIndex];
-    if (!ci) return;
-    if (currentSentenceIndex > 0) {
-      currentSentenceIndex--;
-      syncSentenceState();
+    if (!ci || !ci.sentences.length) return;
+    let targetIndex;
+    if (currentSentenceIndex === -1 || currentSentenceIndex <= 0) {
+      targetIndex = ci.sentences.length - 1;
     } else {
-      currentSentenceIndex = ci.sentences.length - 1;
-      syncSentenceState();
+      targetIndex = currentSentenceIndex - 1;
     }
+    goToSentence(targetIndex);
   }
 
   function goToSentence(index) {
     const ci = visibleCi[currentCiIndex];
-    if (!ci) return;
+    if (!ci || !ci.sentences.length) return;
     if (index >= 0 && index < ci.sentences.length) {
       currentSentenceIndex = index;
-      syncSentenceState();
+      if (appMode === "quiz" && !isRevealed && maskedSentenceIndices.has(currentSentenceIndex)) {
+        revealSingleSentence(currentSentenceIndex);
+      } else {
+        syncSentenceState();
+      }
     }
   }
 
@@ -756,8 +793,7 @@
     if (!ci) return;
     const targetSent = ci.sentences.find(s => s.stanza_no === stanzaNo);
     if (targetSent) {
-      currentSentenceIndex = targetSent.global_index;
-      syncSentenceState();
+      goToSentence(targetSent.global_index);
     }
   }
 
@@ -1052,11 +1088,7 @@
       const sentUnit = e.target.closest(".sentence-unit");
       if (sentUnit) {
         const idx = parseInt(sentUnit.getAttribute("data-sentence-index"), 10);
-        if (appMode === "quiz" && sentUnit.classList.contains("is-masked")) {
-          revealSingleSentence(idx);
-        } else {
-          goToSentence(idx);
-        }
+        goToSentence(idx);
       }
     });
 

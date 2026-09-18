@@ -243,6 +243,7 @@
     revealedLineIndices.clear();
     hintLevel = 0;
     isRevealed = false;
+    currentLineIndex = -1;
 
     if (quizRevealBtnText) quizRevealBtnText.textContent = "翻开核验";
     if (quizRevealBtn) quizRevealBtn.classList.remove("is-active-reveal");
@@ -306,6 +307,9 @@
     for (const idx of maskedLineIndices) {
       revealedLineIndices.add(idx);
     }
+    if (currentLineIndex < 0) {
+      currentLineIndex = 0;
+    }
     if (quizRevealBtnText) quizRevealBtnText.textContent = "隐藏重背";
     if (quizRevealBtn) quizRevealBtn.classList.add("is-active-reveal");
     if (quizMasteryBar) quizMasteryBar.hidden = false;
@@ -321,6 +325,9 @@
       for (const idx of maskedLineIndices) {
         if (!revealedLineIndices.has(idx)) {
           revealedLineIndices.add(idx);
+          if (currentLineIndex === -1) {
+            currentLineIndex = idx;
+          }
           break;
         }
       }
@@ -333,6 +340,7 @@
   function revealSingleLine(lineIdx) {
     if (appMode !== "quiz" || isRevealed) return;
     if (maskedLineIndices.has(lineIdx)) {
+      currentLineIndex = lineIdx;
       revealedLineIndices.add(lineIdx);
       let allDone = true;
       for (const idx of maskedLineIndices) {
@@ -452,10 +460,10 @@
           });
 
           return `
-            <div class="verse-line is-masked ${activeClass}" data-line-index="${idx}" role="button" tabindex="0" title="点击揭晓本句">
+            <div class="verse-line is-masked ${activeClass}" data-line-index="${idx}" role="button" tabindex="0" title="按上下键移至此处或点击自动揭晓">
               <span class="line-num-stamp">${idx + 1}</span>
               <div class="line-text-wrap">${maskedTextHtml}</div>
-              <span class="masked-line-badge">揭晓 ▾</span>
+              <span class="masked-line-badge">↓ 揭晓</span>
             </div>
           `;
         }
@@ -495,7 +503,11 @@
     syncLineState();
 
     // Update URL hash without jumping
-    history.replaceState(null, "", `#${poem.id}:${currentLineIndex + 1}`);
+    if (currentLineIndex >= 0) {
+      history.replaceState(null, "", `#${poem.id}:${currentLineIndex + 1}`);
+    } else {
+      history.replaceState(null, "", `#${poem.id}`);
+    }
   }
 
   /**
@@ -504,8 +516,6 @@
   function syncLineState() {
     const poem = visiblePoems[currentPoemIndex];
     if (!poem) return;
-    const line = poem.lines[currentLineIndex];
-    if (!line) return;
 
     // Update active highlight in DOM
     const lineElements = versesList.querySelectorAll(".verse-line");
@@ -532,18 +542,35 @@
         const frame = document.querySelector(".artwork-frame");
         if (frame) frame.appendChild(quizOverlay);
       }
-      artworkLineBadge.textContent = `挑战中 · 共 ${poem.lines.length} 句`;
-      artworkPoeticFocus.textContent = "心中默背 · 翻牌核验";
-      expLineText.textContent = "背诵自测中";
-      expTranslation.textContent = "请在心中或口头默背诗文。点击单句即可揭晓对应行，或按空格键翻开核验。";
-      expWords.innerHTML = "<p>💡 锦囊：按 H 获取首字提示；按 1-3 自评掌握度；按 R 换一题。</p>";
+      artworkLineBadge.textContent = currentLineIndex >= 0 ? `第 ${currentLineIndex + 1} / ${poem.lines.length} 句` : `挑战中 · 共 ${poem.lines.length} 句`;
+      artworkPoeticFocus.textContent = "心中默背 · 移动解锁";
+
+      const currentLine = currentLineIndex >= 0 ? poem.lines[currentLineIndex] : null;
+      if (currentLine && (revealedLineIndices.has(currentLineIndex) || !maskedLineIndices.has(currentLineIndex))) {
+        expLineText.textContent = currentLine.text;
+        expTranslation.textContent = currentLine.translation || "暂无译文。";
+        if (currentLine.explanation) {
+          const parts = currentLine.explanation.split(/(?=【)/).filter(Boolean);
+          if (parts.length > 1) {
+            expWords.innerHTML = parts.map(p => `<p>${escapeHtml(p.trim())}</p>`).join("");
+          } else {
+            expWords.innerHTML = `<p>${escapeHtml(currentLine.explanation)}</p>`;
+          }
+        } else {
+          expWords.innerHTML = "<p>字义清晓，意境直畅。</p>";
+        }
+      } else {
+        expLineText.textContent = "背诵自测中";
+        expTranslation.textContent = "按键盘上下键 (↓ / ↑) 移动至诗句自动解锁核对，或按空格键翻开全篇。";
+        expWords.innerHTML = "<p>💡 快捷操作：按 ↓ / ↑ 移动自动解锁 · 按 H 锦囊提示 · 按 1-3 自评掌握度 · 按 R 换题</p>";
+      }
       return;
     } else {
       if (quizOverlay) quizOverlay.remove();
     }
 
-    // Preload before swapping so keyboard navigation never waits on the network.
-    const imageUrl = poem.image || line.image || DEFAULT_IMAGE;
+    const line = currentLineIndex >= 0 ? poem.lines[currentLineIndex] : poem.lines[0];
+    if (!line) return;
     if (lineIllustrationImg.getAttribute("data-current-img") === imageUrl) {
       // Current image is already active; do not reload or flash
       artworkLineBadge.textContent = `第 ${currentLineIndex + 1} / ${poem.lines.length} 句`;
@@ -629,35 +656,40 @@
    */
   function nextLine() {
     const poem = visiblePoems[currentPoemIndex];
-    if (!poem) return;
-    if (currentLineIndex < poem.lines.length - 1) {
-      currentLineIndex++;
-      syncLineState();
+    if (!poem || !poem.lines.length) return;
+    let targetIndex;
+    if (currentLineIndex === -1) {
+      targetIndex = 0;
+    } else if (currentLineIndex < poem.lines.length - 1) {
+      targetIndex = currentLineIndex + 1;
     } else {
-      // Loop to line 0 or pulse indicator
-      currentLineIndex = 0;
-      syncLineState();
+      targetIndex = 0;
     }
+    goToLine(targetIndex);
   }
 
   function prevLine() {
     const poem = visiblePoems[currentPoemIndex];
-    if (!poem) return;
-    if (currentLineIndex > 0) {
-      currentLineIndex--;
-      syncLineState();
+    if (!poem || !poem.lines.length) return;
+    let targetIndex;
+    if (currentLineIndex === -1 || currentLineIndex <= 0) {
+      targetIndex = poem.lines.length - 1;
     } else {
-      currentLineIndex = poem.lines.length - 1;
-      syncLineState();
+      targetIndex = currentLineIndex - 1;
     }
+    goToLine(targetIndex);
   }
 
   function goToLine(index) {
     const poem = visiblePoems[currentPoemIndex];
-    if (!poem) return;
+    if (!poem || !poem.lines.length) return;
     if (index >= 0 && index < poem.lines.length) {
       currentLineIndex = index;
-      syncLineState();
+      if (appMode === "quiz" && !isRevealed && maskedLineIndices.has(currentLineIndex)) {
+        revealSingleLine(currentLineIndex);
+      } else {
+        syncLineState();
+      }
     }
   }
 
@@ -948,11 +980,7 @@
       const lineItem = e.target.closest(".verse-line");
       if (lineItem) {
         const idx = parseInt(lineItem.getAttribute("data-line-index"), 10);
-        if (appMode === "quiz" && lineItem.classList.contains("is-masked")) {
-          revealSingleLine(idx);
-        } else {
-          goToLine(idx);
-        }
+        goToLine(idx);
       }
     });
 

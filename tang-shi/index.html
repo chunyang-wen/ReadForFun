@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>唐诗之境 · 诗画合集 · 逐句画意与互动赏析</title>
   <meta name="description" content="精选100首传世唐诗，字字精准拼音，每句专属国风意境配图与白话详释。支持键盘上下键逐句沉浸式联动切换，多维诗人与诗句内容检索。">
-  <link rel="stylesheet" href="style.css?v=20260918-quiz">
+  <link rel="stylesheet" href="style.css?v=20260918-autounlock">
 </head>
 <body class="theme-paper pinyin-enabled">
 
@@ -155,6 +155,7 @@
             <button type="button" id="quizRerollBtn" class="quiz-btn quiz-btn-secondary" title="换一题 (快捷键 R)">
               <span class="btn-icon">🎲</span> 换题 <kbd class="quiz-kbd">R</kbd>
             </button>
+            <span class="quiz-tip-badge">按 <kbd class="quiz-kbd">↓</kbd> / <kbd class="quiz-kbd">↑</kbd> 移至诗句自动解锁</span>
           </div>
 
           <!-- Mastery Self-Assessment Bar (Shown upon reveal in quiz mode) -->
@@ -282,7 +283,7 @@
       <span class="hint-divider">·</span>
       <span class="hint-item"><kbd>1-3</kbd> 自评</span>
       <span class="hint-divider">·</span>
-      <span class="hint-item"><kbd>↑</kbd> <kbd>↓</kbd> 逐句</span>
+      <span class="hint-item"><kbd>↑</kbd> <kbd>↓</kbd> 逐句(移至解锁)</span>
       <span class="hint-divider">·</span>
       <span class="hint-item"><kbd>←</kbd> <kbd>→</kbd> 切诗</span>
       <span class="hint-divider">·</span>
@@ -318,6 +319,6 @@
   </div>
 
   <script src="data/poems.js"></script>
-  <script src="app.js?v=20260918-quiz"></script>
+  <script src="app.js?v=20260918-autounlock"></script>
 </body>
 </html>

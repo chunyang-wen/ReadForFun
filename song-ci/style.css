@@ -1407,6 +1407,18 @@ body:not(.pinyin-enabled) rt {
   flex-wrap: wrap;
 }
 
+.quiz-tip-badge {
+  font-size: 0.8rem;
+  color: var(--ochre);
+  background: var(--ochre-bg);
+  border: 1px dashed rgba(184, 115, 51, 0.4);
+  padding: 5px 10px;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
 .quiz-btn {
   appearance: none;
   font-family: inherit;
