@@ -689,15 +689,26 @@
     if (!sent) return;
 
     // Keep upper/lower artwork synchronized with the active sentence.
-    const stanzaImage = sent.stanza_no === 2 ? (ci.image_lower || ci.image) : (ci.image_upper || ci.image);
+    // Use the high-resolution poem artwork as the primary image. The old
+    // upper/lower SVGs are lightweight placeholder cards, not the main art.
+    const stanzaImage = ci.image || (sent.stanza_no === 2 ? ci.image_lower : ci.image_upper) || DEFAULT_IMAGE;
+    const artworkSources = [...new Set([stanzaImage, ci.image_upper, ci.image_lower, DEFAULT_IMAGE].filter(Boolean))];
     const stanzaKey = `${ci.id}:${sent.stanza_no}`;
     if (stanzaImage && sentenceIllustrationImg.getAttribute("data-current-ci-id") !== stanzaKey) {
       sentenceIllustrationImg.classList.add("fade-out");
       sentenceIllustrationImg.setAttribute("data-current-ci-id", stanzaKey);
       setTimeout(() => {
-        sentenceIllustrationImg.src = stanzaImage;
         sentenceIllustrationImg.alt = `《${ci.title}》· ${ci.author} - 宋词意境图`;
-        sentenceIllustrationImg.onerror = () => { sentenceIllustrationImg.onerror = null; sentenceIllustrationImg.src = DEFAULT_IMAGE; };
+        let sourceIndex = 0;
+        sentenceIllustrationImg.onerror = () => {
+          sourceIndex += 1;
+          if (sourceIndex >= artworkSources.length) {
+            sentenceIllustrationImg.onerror = null;
+            return;
+          }
+          sentenceIllustrationImg.src = artworkSources[sourceIndex];
+        };
+        sentenceIllustrationImg.src = artworkSources[sourceIndex];
         sentenceIllustrationImg.classList.remove("fade-out");
       }, 120);
     }
