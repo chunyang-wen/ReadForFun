@@ -84,7 +84,7 @@
   const drawerFilterPills = document.getElementById("drawerFilterPills");
 
   const CJK_RE = /[\u3400-\u4dbf\u4e00-\u9fff]/;
-  const DEFAULT_IMAGE = "assets/default-classical.svg";
+  const DEFAULT_IMAGE = "https://readforfun-img.chunyangwen.com/tang-shi/assets/default-classical.svg";
 
   /**
    * Render text with ruby pinyin

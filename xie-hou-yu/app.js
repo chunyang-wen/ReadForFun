@@ -9,7 +9,7 @@
   // Configuration & Constants
   const CJK_RE = /[\u3400-\u4dbf\u4e00-\u9fff]/;
   const R2_DEFAULT_IMAGE = "https://readforfun-img.chunyangwen.com/tang-shi/assets/default-classical.svg";
-  const LOCAL_DEFAULT_IMAGE = "assets/default-classical.svg";
+  const LOCAL_DEFAULT_IMAGE = R2_DEFAULT_IMAGE;
 
   // App State
   let items = [];
