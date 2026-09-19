@@ -698,6 +698,7 @@
     const artworkKey = artworkSources[0];
     if (artworkKey && sentenceIllustrationImg.getAttribute("data-current-image-url") !== artworkKey) {
       const swapToken = ++imageSwapToken;
+      sentenceIllustrationImg.removeAttribute("src");
       sentenceIllustrationImg.classList.add("fade-out");
       sentenceIllustrationImg.classList.add("is-loading");
       artworkLoading.classList.add("is-visible");
