@@ -1,3 +1,6 @@
 *.zip
 .DS_Store
 .envrc
+*.png
+*.svg
+*.webp

@@ -139,9 +139,7 @@
   }
 
   function renderCharacter(item) {
-    if (glyphFrame && item.svg_inline) {
-      glyphFrame.innerHTML = item.svg_inline;
-    } else if (glyphImage) {
+    if (glyphImage) {
       glyphImage.src = item.svg;
       glyphImage.alt = `甲骨文 ${item.modern_char}`;
     }
@@ -249,7 +247,7 @@
       el.setAttribute('tabindex', '0');
       el.innerHTML = `
         <div class="search-item-glyph">
-          ${item.svg_inline ? item.svg_inline : `<img src="${item.svg}" alt="${item.modern_char}" loading="lazy">`}
+          <img src="${item.svg}" alt="${item.modern_char}" loading="lazy">
         </div>
         <div class="search-item-info">
           <h4>
@@ -315,7 +313,7 @@
       cell.className = 'catalog-cell';
       cell.innerHTML = `
         <div class="catalog-cell-thumb">
-          ${item.svg_inline ? item.svg_inline : `<img src="${item.svg}" alt="${item.modern_char}" loading="lazy">`}
+          <img src="${item.svg}" alt="${item.modern_char}" loading="lazy">
         </div>
         <div class="catalog-cell-char">${item.modern_char}</div>
         <div class="catalog-cell-pinyin">${item.pinyin}</div>
