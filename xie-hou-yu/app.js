@@ -83,23 +83,34 @@
   };
 
   // Audio state
-  const BGM_SRC = "https://readforfun-img.chunyangwen.com/audio/bgm-reading.mp3";
-  const SFX_SRC = "https://readforfun-img.chunyangwen.com/audio/sfx-pageturn.mp3";
+  const BGM_SRC = "https://readforfun-img.chunyangwen.com/audio/bgm-reading.mp3?v=2";
+  const SFX_SRC = "https://readforfun-img.chunyangwen.com/audio/sfx-pageturn.mp3?v=2";
+  const BGM_FALLBACK = "../audio/bgm-reading.mp3";
+  const SFX_FALLBACK = "../audio/sfx-pageturn.mp3";
   const TARGET_BGM_VOL = 0.22;
   let isAudioEnabled = localStorage.getItem("rff_bgm_enabled") !== "false";
   let bgm = null, sfx = null, audioStarted = false, bgmFadeTimer = null;
   let lastRenderedItemId = null;
 
+  function createAudio(src, fallback, loop = false) {
+    const audio = new Audio(src);
+    audio.loop = loop;
+    audio.preload = "auto";
+    if (fallback) {
+      audio.addEventListener("error", () => {
+        if (audio.src !== fallback && !audio.src.endsWith(fallback)) {
+          audio.src = fallback;
+          audio.load();
+        }
+      }, { once: true });
+    }
+    audio.load();
+    return audio;
+  }
+
   function initAudio() {
-    if (!bgm) {
-      bgm = new Audio(BGM_SRC);
-      bgm.loop = true;
-      bgm.preload = "auto";
-    }
-    if (!sfx) {
-      sfx = new Audio(SFX_SRC);
-      sfx.preload = "auto";
-    }
+    if (!bgm) bgm = createAudio(BGM_SRC, BGM_FALLBACK, true);
+    if (!sfx) sfx = createAudio(SFX_SRC, SFX_FALLBACK, false);
   }
 
   function fadeBgm(target, duration = 1200) {
@@ -141,7 +152,7 @@
     initAudio();
     bgm.volume = 0;
     const p = bgm.play();
-    if (p) {
+    if (p && typeof p.then === "function") {
       p.then(() => {
         audioStarted = true;
         fadeBgm(TARGET_BGM_VOL, 1400);
@@ -180,11 +191,21 @@
     }
   }
 
+  // Preload audio immediately on script load
+  initAudio();
+
+  // Attempt eager autoplay on load (if allowed by browser policy)
+  tryStartBgm();
+
   const onFirstInteract = () => {
     tryStartBgm();
-    ["pointerdown", "keydown"].forEach(evt => window.removeEventListener(evt, onFirstInteract));
+    ["pointerdown", "touchstart", "mousedown", "keydown", "click"].forEach(evt =>
+      window.removeEventListener(evt, onFirstInteract, true)
+    );
   };
-  ["pointerdown", "keydown"].forEach(evt => window.addEventListener(evt, onFirstInteract, { once: true }));
+  ["pointerdown", "touchstart", "mousedown", "keydown", "click"].forEach(evt =>
+    window.addEventListener(evt, onFirstInteract, { once: true, capture: true })
+  );
 
   /**
    * Escape HTML utility
