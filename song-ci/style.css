@@ -912,7 +912,7 @@ body:not(.pinyin-enabled) rt {
   transition: opacity 0.12s ease, visibility 0.12s ease;
 }
 
-.artwork-loading.is-visible { opacity: 1; visibility: visible; }
+.artwork-loading.is-visible { opacity: 1; visibility: visible; transition: none; }
 .artwork-loading-spinner {
   width: 26px;
   height: 26px;
@@ -932,7 +932,8 @@ body:not(.pinyin-enabled) rt {
   transition: opacity 0.28s ease, transform 0.4s ease;
 }
 
-.sentence-illustration-img.is-loading { opacity: 0.08; }
+.sentence-illustration-img.is-loading,
+.sentence-illustration-img.fade-out { opacity: 0; }
 
 .sentence-illustration-img.fade-out {
   opacity: 0;
