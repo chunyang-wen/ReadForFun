@@ -14,6 +14,7 @@
   let selectedAuthor = "all";
   let isPinyinEnabled = true;
   let isNightTheme = false;
+  let imageSwapToken = 0;
 
   // Game & Quiz State
   let appMode = "reading"; // "reading" | "quiz"
@@ -71,6 +72,7 @@
   const ciCounter = document.getElementById("ciCounter");
 
   const sentenceIllustrationImg = document.getElementById("sentenceIllustrationImg");
+  const artworkLoading = document.getElementById("artworkLoading");
   const artworkSentenceBadge = document.getElementById("artworkSentenceBadge");
   const artworkPoeticFocus = document.getElementById("artworkPoeticFocus");
   const expSentenceText = document.getElementById("expSentenceText");
@@ -693,24 +695,38 @@
     // upper/lower SVGs are lightweight placeholder cards, not the main art.
     const stanzaImage = ci.image || (sent.stanza_no === 2 ? ci.image_lower : ci.image_upper) || DEFAULT_IMAGE;
     const artworkSources = [...new Set([stanzaImage, ci.image_upper, ci.image_lower, DEFAULT_IMAGE].filter(Boolean))];
-    const stanzaKey = `${ci.id}:${sent.stanza_no}`;
-    if (stanzaImage && sentenceIllustrationImg.getAttribute("data-current-ci-id") !== stanzaKey) {
+    const artworkKey = artworkSources[0];
+    if (artworkKey && sentenceIllustrationImg.getAttribute("data-current-image-url") !== artworkKey) {
+      const swapToken = ++imageSwapToken;
       sentenceIllustrationImg.classList.add("fade-out");
-      sentenceIllustrationImg.setAttribute("data-current-ci-id", stanzaKey);
-      setTimeout(() => {
-        sentenceIllustrationImg.alt = `《${ci.title}》· ${ci.author} - 宋词意境图`;
-        let sourceIndex = 0;
-        sentenceIllustrationImg.onerror = () => {
-          sourceIndex += 1;
-          if (sourceIndex >= artworkSources.length) {
-            sentenceIllustrationImg.onerror = null;
-            return;
-          }
-          sentenceIllustrationImg.src = artworkSources[sourceIndex];
+      sentenceIllustrationImg.classList.add("is-loading");
+      artworkLoading.classList.add("is-visible");
+      artworkLoading.querySelector(".artwork-loading-label").textContent = "正在加载配图…";
+
+      const loadArtwork = (sourceIndex) => {
+        if (swapToken !== imageSwapToken) return;
+        const source = artworkSources[sourceIndex];
+        const preload = new Image();
+        preload.onload = () => {
+          if (swapToken !== imageSwapToken) return;
+          sentenceIllustrationImg.src = source;
+          sentenceIllustrationImg.alt = `《${ci.title}》· ${ci.author} - 宋词意境图`;
+          sentenceIllustrationImg.setAttribute("data-current-image-url", source);
+          artworkLoading.classList.remove("is-visible");
+          sentenceIllustrationImg.classList.remove("is-loading", "fade-out");
         };
-        sentenceIllustrationImg.src = artworkSources[sourceIndex];
-        sentenceIllustrationImg.classList.remove("fade-out");
-      }, 120);
+        preload.onerror = () => {
+          if (sourceIndex + 1 < artworkSources.length) {
+            loadArtwork(sourceIndex + 1);
+          } else if (swapToken === imageSwapToken) {
+            artworkLoading.querySelector(".artwork-loading-label").textContent = "配图加载失败";
+            artworkLoading.classList.remove("is-visible");
+            sentenceIllustrationImg.classList.remove("is-loading", "fade-out");
+          }
+        };
+        preload.src = source;
+      };
+      loadArtwork(0);
     }
 
     // 6. Update Artwork overlay focus
