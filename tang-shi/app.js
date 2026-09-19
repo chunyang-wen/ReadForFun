@@ -41,42 +41,40 @@
   const themeToggleBtn = document.getElementById("themeToggleBtn");
 
   // Audio state
-  const BGM_SRC = "https://readforfun-img.chunyangwen.com/audio/bgm-reading.mp3?v=2";
-  const SFX_SRC = "https://readforfun-img.chunyangwen.com/audio/sfx-pageturn.mp3?v=2";
+  const BGM_SRC = "https://readforfun-img.chunyangwen.com/audio/bgm-reading.mp3?v=3";
   const BGM_FALLBACK = "../audio/bgm-reading.mp3";
-  const SFX_FALLBACK = "../audio/sfx-pageturn.mp3";
+  const SFX_DATA = "data:audio/mp3;base64,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";
   const TARGET_BGM_VOL = 0.22;
   let isAudioEnabled = localStorage.getItem("rff_bgm_enabled") !== "false";
-  let bgm = null, sfx = null, audioStarted = false, bgmFadeTimer = null;
+  let bgm = null, audioStarted = false, bgmFadeTimer = null;
+  let sfxPool = [], sfxIdx = 0, lastSfxTime = 0;
   let lastRenderedPoemId = null;
 
-  function createAudio(src, fallback, loop = false) {
-    const audio = new Audio(src);
-    audio.loop = loop;
-    audio.preload = "auto";
-    if (fallback) {
-      audio.addEventListener("error", () => {
-        if (audio.src !== fallback && !audio.src.endsWith(fallback)) {
-          audio.src = fallback;
-          audio.load();
+  function initAudio() {
+    if (!bgm) {
+      bgm = new Audio(BGM_SRC);
+      bgm.loop = true;
+      bgm.preload = "auto";
+      bgm.addEventListener("error", () => {
+        if (bgm.src !== BGM_FALLBACK && !bgm.src.endsWith(BGM_FALLBACK)) {
+          bgm.src = BGM_FALLBACK;
+          bgm.load();
         }
       }, { once: true });
+      bgm.load();
     }
-    audio.load();
-    return audio;
+    if (!sfxPool.length) {
+      sfxPool = [new Audio(SFX_DATA), new Audio(SFX_DATA), new Audio(SFX_DATA)];
+      sfxPool.forEach(a => { a.preload = "auto"; a.load(); });
+    }
   }
 
-  function initAudio() {
-    if (!bgm) bgm = createAudio(BGM_SRC, BGM_FALLBACK, true);
-    if (!sfx) sfx = createAudio(SFX_SRC, SFX_FALLBACK, false);
-  }
-
-  function fadeBgm(target, duration = 1200) {
+  function fadeBgm(target, duration = 800) {
     if (!bgm) return;
     clearInterval(bgmFadeTimer);
     const start = bgm.volume;
-    const steps = 20;
-    const stepTime = duration / steps;
+    const steps = 16;
+    const stepTime = Math.max(16, duration / steps);
     let step = 0;
     bgmFadeTimer = setInterval(() => {
       step++;
@@ -108,12 +106,12 @@
   function tryStartBgm() {
     if (!isAudioEnabled || audioStarted) return;
     initAudio();
-    bgm.volume = 0;
+    bgm.volume = 0.16;
     const p = bgm.play();
     if (p && typeof p.then === "function") {
       p.then(() => {
         audioStarted = true;
-        fadeBgm(TARGET_BGM_VOL, 1400);
+        fadeBgm(TARGET_BGM_VOL, 800);
         updateAudioBtnUI();
       }).catch(() => {});
     }
@@ -121,11 +119,16 @@
 
   function playTurnSound() {
     if (!isAudioEnabled) return;
+    const now = Date.now();
+    if (now - lastSfxTime < 180) return;
+    lastSfxTime = now;
     try {
       initAudio();
-      const clone = sfx.cloneNode();
-      clone.volume = 0.35;
-      clone.play().catch(() => {});
+      const a = sfxPool[sfxIdx];
+      sfxIdx = (sfxIdx + 1) % sfxPool.length;
+      a.currentTime = 0;
+      a.volume = 0.45;
+      a.play().catch(() => {});
     } catch (e) {}
   }
 
@@ -136,16 +139,16 @@
     updateAudioBtnUI();
     if (isAudioEnabled) {
       if (bgm.paused) {
-        bgm.volume = 0;
+        bgm.volume = 0.16;
         bgm.play().then(() => {
           audioStarted = true;
-          fadeBgm(TARGET_BGM_VOL, 800);
+          fadeBgm(TARGET_BGM_VOL, 600);
         }).catch(() => {});
       } else {
-        fadeBgm(TARGET_BGM_VOL, 600);
+        fadeBgm(TARGET_BGM_VOL, 500);
       }
     } else {
-      fadeBgm(0, 500);
+      fadeBgm(0, 400);
     }
   }
 
