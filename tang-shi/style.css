@@ -375,6 +375,26 @@ html, body {
   border-color: var(--cinnabar);
 }
 
+#audioToggleBtn[aria-pressed="true"] {
+  background: var(--paper-card);
+  color: var(--ink-primary);
+  border-color: var(--paper-border);
+}
+
+#audioToggleBtn[aria-pressed="true"]:hover {
+  border-color: var(--cinnabar);
+  color: var(--cinnabar);
+  background: var(--cinnabar-bg);
+}
+
+#audioToggleBtn[aria-pressed="false"],
+#audioToggleBtn.is-muted {
+  opacity: 0.55;
+  background: var(--paper-card);
+  color: var(--ink-primary);
+  border-color: var(--paper-border);
+}
+
 .btn-icon {
   font-size: 0.95rem;
 }

@@ -54,7 +54,109 @@
   // Top Actions
   const randomCharBtn = document.getElementById('randomCharBtn');
   const themeToggleBtn = document.getElementById('themeToggleBtn');
+  const audioToggleBtn = document.getElementById('audioToggleBtn');
+  const audioBtnText = document.getElementById('audioBtnText');
   const themePillBtns = document.querySelectorAll('.theme-pill-btn');
+
+  // Audio state
+  const BGM_SRC = 'https://readforfun-img.chunyangwen.com/audio/bgm-reading.mp3';
+  const SFX_SRC = 'https://readforfun-img.chunyangwen.com/audio/sfx-pageturn.mp3';
+  const TARGET_BGM_VOL = 0.22;
+  let isAudioEnabled = localStorage.getItem('rff_bgm_enabled') !== 'false';
+  let bgm = null, sfx = null, audioStarted = false, bgmFadeTimer = null;
+  let lastRenderedPage = null;
+
+  function initAudio() {
+    if (!bgm) {
+      bgm = new Audio(BGM_SRC);
+      bgm.loop = true;
+      bgm.preload = 'auto';
+    }
+    if (!sfx) {
+      sfx = new Audio(SFX_SRC);
+      sfx.preload = 'auto';
+    }
+  }
+
+  function fadeBgm(target, duration = 1200) {
+    if (!bgm) return;
+    clearInterval(bgmFadeTimer);
+    const start = bgm.volume;
+    const steps = 20;
+    const stepTime = duration / steps;
+    let step = 0;
+    bgmFadeTimer = setInterval(() => {
+      step++;
+      const v = start + (target - start) * (step / steps);
+      bgm.volume = Math.max(0, Math.min(1, v));
+      if (step >= steps) {
+        clearInterval(bgmFadeTimer);
+        if (target === 0) bgm.pause();
+      }
+    }, stepTime);
+  }
+
+  function updateAudioBtnUI() {
+    if (!audioToggleBtn) return;
+    audioToggleBtn.setAttribute('aria-pressed', String(isAudioEnabled));
+    if (isAudioEnabled) {
+      audioToggleBtn.classList.remove('is-muted');
+      if (audioBtnText) audioBtnText.textContent = '🎵 音乐';
+    } else {
+      audioToggleBtn.classList.add('is-muted');
+      if (audioBtnText) audioBtnText.textContent = '🔇 静音';
+    }
+  }
+
+  function tryStartBgm() {
+    if (!isAudioEnabled || audioStarted) return;
+    initAudio();
+    bgm.volume = 0;
+    const p = bgm.play();
+    if (p) {
+      p.then(() => {
+        audioStarted = true;
+        fadeBgm(TARGET_BGM_VOL, 1400);
+        updateAudioBtnUI();
+      }).catch(() => {});
+    }
+  }
+
+  function playTurnSound() {
+    if (!isAudioEnabled) return;
+    try {
+      initAudio();
+      const clone = sfx.cloneNode();
+      clone.volume = 0.35;
+      clone.play().catch(() => {});
+    } catch (e) {}
+  }
+
+  function toggleAudio() {
+    initAudio();
+    isAudioEnabled = !isAudioEnabled;
+    localStorage.setItem('rff_bgm_enabled', String(isAudioEnabled));
+    updateAudioBtnUI();
+    if (isAudioEnabled) {
+      if (bgm.paused) {
+        bgm.volume = 0;
+        bgm.play().then(() => {
+          audioStarted = true;
+          fadeBgm(TARGET_BGM_VOL, 800);
+        }).catch(() => {});
+      } else {
+        fadeBgm(TARGET_BGM_VOL, 600);
+      }
+    } else {
+      fadeBgm(0, 500);
+    }
+  }
+
+  const onFirstInteract = () => {
+    tryStartBgm();
+    ['pointerdown', 'keydown'].forEach(evt => window.removeEventListener(evt, onFirstInteract));
+  };
+  ['pointerdown', 'keydown'].forEach(evt => window.addEventListener(evt, onFirstInteract, { once: true }));
 
   // Load Data
   async function init() {
@@ -104,6 +206,11 @@
   function goToPage(pageNum, updateHash = true) {
     if (pageNum < 0) pageNum = 0;
     if (pageNum > characters.length) pageNum = characters.length;
+
+    if (lastRenderedPage !== null && lastRenderedPage !== pageNum) {
+      playTurnSound();
+    }
+    lastRenderedPage = pageNum;
     currentPage = pageNum;
 
     if (currentPage === 0) {
@@ -376,6 +483,9 @@
         e.preventDefault();
         searchInput.focus();
         searchInput.select();
+      } else if (e.key === 'b' || e.key === 'B') {
+        e.preventDefault();
+        toggleAudio();
       } else if (e.key === 'Escape') {
         closeCatalog();
         closeSearch();
@@ -427,6 +537,9 @@
       const rand = Math.floor(Math.random() * characters.length) + 1;
       goToPage(rand);
     });
+
+    if (audioToggleBtn) audioToggleBtn.addEventListener('click', toggleAudio);
+    updateAudioBtnUI();
 
     // Theme Switchers
     themeToggleBtn.addEventListener('click', () => {

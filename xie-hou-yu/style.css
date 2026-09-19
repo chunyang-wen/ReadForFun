@@ -331,6 +331,11 @@ html, body {
   transform: translateY(-1px);
 }
 
+.action-btn[aria-pressed="false"],
+.action-btn.is-muted {
+  opacity: 0.55;
+}
+
 .mode-btn {
   background: var(--cinnabar-bg);
   border-color: var(--cinnabar-border);

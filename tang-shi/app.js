@@ -37,7 +37,112 @@
   const pinyinToggleBtn = document.getElementById("pinyinToggleBtn");
   const catalogBtn = document.getElementById("catalogBtn");
   const randomPoemBtn = document.getElementById("randomPoemBtn");
+  const audioToggleBtn = document.getElementById("audioToggleBtn");
   const themeToggleBtn = document.getElementById("themeToggleBtn");
+
+  // Audio state
+  const BGM_SRC = "https://readforfun-img.chunyangwen.com/audio/bgm-reading.mp3";
+  const SFX_SRC = "https://readforfun-img.chunyangwen.com/audio/sfx-pageturn.mp3";
+  const TARGET_BGM_VOL = 0.22;
+  let isAudioEnabled = localStorage.getItem("rff_bgm_enabled") !== "false";
+  let bgm = null, sfx = null, audioStarted = false, bgmFadeTimer = null;
+  let lastRenderedPoemId = null;
+
+  function initAudio() {
+    if (!bgm) {
+      bgm = new Audio(BGM_SRC);
+      bgm.loop = true;
+      bgm.preload = "auto";
+    }
+    if (!sfx) {
+      sfx = new Audio(SFX_SRC);
+      sfx.preload = "auto";
+    }
+  }
+
+  function fadeBgm(target, duration = 1200) {
+    if (!bgm) return;
+    clearInterval(bgmFadeTimer);
+    const start = bgm.volume;
+    const steps = 20;
+    const stepTime = duration / steps;
+    let step = 0;
+    bgmFadeTimer = setInterval(() => {
+      step++;
+      const v = start + (target - start) * (step / steps);
+      bgm.volume = Math.max(0, Math.min(1, v));
+      if (step >= steps) {
+        clearInterval(bgmFadeTimer);
+        if (target === 0) bgm.pause();
+      }
+    }, stepTime);
+  }
+
+  function updateAudioBtnUI() {
+    if (!audioToggleBtn) return;
+    audioToggleBtn.setAttribute("aria-pressed", String(isAudioEnabled));
+    const icon = audioToggleBtn.querySelector(".btn-icon");
+    const label = audioToggleBtn.querySelector(".btn-label");
+    if (isAudioEnabled) {
+      audioToggleBtn.classList.remove("is-muted");
+      if (icon) icon.textContent = "🎵";
+      if (label) label.textContent = "音乐";
+    } else {
+      audioToggleBtn.classList.add("is-muted");
+      if (icon) icon.textContent = "🔇";
+      if (label) label.textContent = "静音";
+    }
+  }
+
+  function tryStartBgm() {
+    if (!isAudioEnabled || audioStarted) return;
+    initAudio();
+    bgm.volume = 0;
+    const p = bgm.play();
+    if (p) {
+      p.then(() => {
+        audioStarted = true;
+        fadeBgm(TARGET_BGM_VOL, 1400);
+        updateAudioBtnUI();
+      }).catch(() => {});
+    }
+  }
+
+  function playTurnSound() {
+    if (!isAudioEnabled) return;
+    try {
+      initAudio();
+      const clone = sfx.cloneNode();
+      clone.volume = 0.35;
+      clone.play().catch(() => {});
+    } catch (e) {}
+  }
+
+  function toggleAudio() {
+    initAudio();
+    isAudioEnabled = !isAudioEnabled;
+    localStorage.setItem("rff_bgm_enabled", String(isAudioEnabled));
+    updateAudioBtnUI();
+    if (isAudioEnabled) {
+      if (bgm.paused) {
+        bgm.volume = 0;
+        bgm.play().then(() => {
+          audioStarted = true;
+          fadeBgm(TARGET_BGM_VOL, 800);
+        }).catch(() => {});
+      } else {
+        fadeBgm(TARGET_BGM_VOL, 600);
+      }
+    } else {
+      fadeBgm(0, 500);
+    }
+  }
+
+  const onFirstInteract = () => {
+    tryStartBgm();
+    ["pointerdown", "keydown"].forEach(evt => window.removeEventListener(evt, onFirstInteract));
+  };
+  ["pointerdown", "keydown"].forEach(evt => window.addEventListener(evt, onFirstInteract, { once: true }));
 
   const poetChipsContainer = document.getElementById("poetChipsContainer");
 
@@ -414,6 +519,11 @@
     if (currentPoemIndex < 0) currentPoemIndex = visiblePoems.length - 1;
 
     const poem = visiblePoems[currentPoemIndex];
+
+    if (lastRenderedPoemId !== null && lastRenderedPoemId !== poem.id) {
+      playTurnSound();
+    }
+    lastRenderedPoemId = poem.id;
 
     // Ensure line index is in bounds
     if (currentLineIndex >= poem.lines.length) currentLineIndex = 0;
@@ -1038,6 +1148,7 @@
     prevPoemBtn.addEventListener("click", prevPoem);
     nextPoemBtn.addEventListener("click", nextPoem);
     randomPoemBtn.addEventListener("click", randomPoem);
+    if (audioToggleBtn) audioToggleBtn.addEventListener("click", toggleAudio);
 
     // Toggle Buttons
     pinyinToggleBtn.addEventListener("click", () => setPinyinEnabled(!isPinyinEnabled));
@@ -1212,8 +1323,16 @@
           e.preventDefault();
           randomPoem();
           break;
+
+        case "b":
+        case "B":
+          e.preventDefault();
+          toggleAudio();
+          break;
       }
     });
+
+    updateAudioBtnUI();
   }
 
   // Start app on DOM ready

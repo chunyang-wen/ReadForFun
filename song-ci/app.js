@@ -14,6 +14,7 @@
   let selectedAuthor = "all";
   let isPinyinEnabled = true;
   let isNightTheme = false;
+  const imagePreloadCache = new Map();
   let imageSwapToken = 0;
 
   // Game & Quiz State
@@ -38,7 +39,112 @@
   const pinyinToggleBtn = document.getElementById("pinyinToggleBtn");
   const catalogBtn = document.getElementById("catalogBtn");
   const randomCiBtn = document.getElementById("randomCiBtn");
+  const audioToggleBtn = document.getElementById("audioToggleBtn");
   const themeToggleBtn = document.getElementById("themeToggleBtn");
+
+  // Audio state
+  const BGM_SRC = "https://readforfun-img.chunyangwen.com/audio/bgm-reading.mp3";
+  const SFX_SRC = "https://readforfun-img.chunyangwen.com/audio/sfx-pageturn.mp3";
+  const TARGET_BGM_VOL = 0.22;
+  let isAudioEnabled = localStorage.getItem("rff_bgm_enabled") !== "false";
+  let bgm = null, sfx = null, audioStarted = false, bgmFadeTimer = null;
+  let lastRenderedCiId = null;
+
+  function initAudio() {
+    if (!bgm) {
+      bgm = new Audio(BGM_SRC);
+      bgm.loop = true;
+      bgm.preload = "auto";
+    }
+    if (!sfx) {
+      sfx = new Audio(SFX_SRC);
+      sfx.preload = "auto";
+    }
+  }
+
+  function fadeBgm(target, duration = 1200) {
+    if (!bgm) return;
+    clearInterval(bgmFadeTimer);
+    const start = bgm.volume;
+    const steps = 20;
+    const stepTime = duration / steps;
+    let step = 0;
+    bgmFadeTimer = setInterval(() => {
+      step++;
+      const v = start + (target - start) * (step / steps);
+      bgm.volume = Math.max(0, Math.min(1, v));
+      if (step >= steps) {
+        clearInterval(bgmFadeTimer);
+        if (target === 0) bgm.pause();
+      }
+    }, stepTime);
+  }
+
+  function updateAudioBtnUI() {
+    if (!audioToggleBtn) return;
+    audioToggleBtn.setAttribute("aria-pressed", String(isAudioEnabled));
+    const icon = audioToggleBtn.querySelector(".btn-icon");
+    const label = audioToggleBtn.querySelector(".btn-label");
+    if (isAudioEnabled) {
+      audioToggleBtn.classList.remove("is-muted");
+      if (icon) icon.textContent = "🎵";
+      if (label) label.textContent = "音乐";
+    } else {
+      audioToggleBtn.classList.add("is-muted");
+      if (icon) icon.textContent = "🔇";
+      if (label) label.textContent = "静音";
+    }
+  }
+
+  function tryStartBgm() {
+    if (!isAudioEnabled || audioStarted) return;
+    initAudio();
+    bgm.volume = 0;
+    const p = bgm.play();
+    if (p) {
+      p.then(() => {
+        audioStarted = true;
+        fadeBgm(TARGET_BGM_VOL, 1400);
+        updateAudioBtnUI();
+      }).catch(() => {});
+    }
+  }
+
+  function playTurnSound() {
+    if (!isAudioEnabled) return;
+    try {
+      initAudio();
+      const clone = sfx.cloneNode();
+      clone.volume = 0.35;
+      clone.play().catch(() => {});
+    } catch (e) {}
+  }
+
+  function toggleAudio() {
+    initAudio();
+    isAudioEnabled = !isAudioEnabled;
+    localStorage.setItem("rff_bgm_enabled", String(isAudioEnabled));
+    updateAudioBtnUI();
+    if (isAudioEnabled) {
+      if (bgm.paused) {
+        bgm.volume = 0;
+        bgm.play().then(() => {
+          audioStarted = true;
+          fadeBgm(TARGET_BGM_VOL, 800);
+        }).catch(() => {});
+      } else {
+        fadeBgm(TARGET_BGM_VOL, 600);
+      }
+    } else {
+      fadeBgm(0, 500);
+    }
+  }
+
+  const onFirstInteract = () => {
+    tryStartBgm();
+    ["pointerdown", "keydown"].forEach(evt => window.removeEventListener(evt, onFirstInteract));
+  };
+  ["pointerdown", "keydown"].forEach(evt => window.addEventListener(evt, onFirstInteract, { once: true }));
 
   const authorChipsContainer = document.getElementById("authorChipsContainer");
 
@@ -87,6 +193,8 @@
 
   const CJK_RE = /[\u3400-\u4dbf\u4e00-\u9fff]/;
   const DEFAULT_IMAGE = "https://readforfun-img.chunyangwen.com/tang-shi/assets/default-classical.svg";
+  // Clearing src alone can leave the previous decoded bitmap visible in some browsers.
+  const EMPTY_IMAGE = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
 
   /**
    * Render text with ruby pinyin
@@ -415,6 +523,11 @@
 
     const ci = visibleCi[currentCiIndex];
 
+    if (lastRenderedCiId !== null && lastRenderedCiId !== ci.id) {
+      playTurnSound();
+    }
+    lastRenderedCiId = ci.id;
+
     // Ensure sentence index is in bounds
     if (currentSentenceIndex >= ci.sentences.length) currentSentenceIndex = 0;
     if (currentSentenceIndex < 0) currentSentenceIndex = ci.sentences.length - 1;
@@ -698,7 +811,10 @@
     const artworkKey = artworkSources[0];
     if (artworkKey && sentenceIllustrationImg.getAttribute("data-current-image-url") !== artworkKey) {
       const swapToken = ++imageSwapToken;
-      sentenceIllustrationImg.removeAttribute("src");
+      // Hide the old bitmap immediately. Do not rely on removeAttribute("src"):
+      // browsers may keep painting the previously decoded image until the next
+      // source finishes loading.
+      sentenceIllustrationImg.src = EMPTY_IMAGE;
       sentenceIllustrationImg.classList.add("fade-out");
       sentenceIllustrationImg.classList.add("is-loading");
       artworkLoading.classList.add("is-visible");
@@ -707,25 +823,33 @@
       const loadArtwork = (sourceIndex) => {
         if (swapToken !== imageSwapToken) return;
         const source = artworkSources[sourceIndex];
-        const preload = new Image();
-        preload.onload = () => {
+        let preload = imagePreloadCache.get(source);
+        if (!preload) {
+          const image = new Image();
+          preload = new Promise(resolve => {
+            image.onload = () => resolve(true);
+            image.onerror = () => resolve(false);
+          });
+          imagePreloadCache.set(source, preload);
+          image.src = source;
+        }
+        preload.then(loaded => {
           if (swapToken !== imageSwapToken) return;
-          sentenceIllustrationImg.src = source;
-          sentenceIllustrationImg.alt = `《${ci.title}》· ${ci.author} - 宋词意境图`;
-          sentenceIllustrationImg.setAttribute("data-current-image-url", source);
-          artworkLoading.classList.remove("is-visible");
-          sentenceIllustrationImg.classList.remove("is-loading", "fade-out");
-        };
-        preload.onerror = () => {
-          if (sourceIndex + 1 < artworkSources.length) {
+          if (loaded) {
+            // The image is decoded and ready, so the visible swap is immediate.
+            sentenceIllustrationImg.src = source;
+            sentenceIllustrationImg.alt = `《${ci.title}》· ${ci.author} - 宋词意境图`;
+            sentenceIllustrationImg.setAttribute("data-current-image-url", source);
+            artworkLoading.classList.remove("is-visible");
+            sentenceIllustrationImg.classList.remove("is-loading", "fade-out");
+          } else if (sourceIndex + 1 < artworkSources.length) {
             loadArtwork(sourceIndex + 1);
-          } else if (swapToken === imageSwapToken) {
+          } else {
             artworkLoading.querySelector(".artwork-loading-label").textContent = "配图加载失败";
             artworkLoading.classList.remove("is-visible");
             sentenceIllustrationImg.classList.remove("is-loading", "fade-out");
           }
-        };
-        preload.src = source;
+        });
       };
       loadArtwork(0);
     }
@@ -1182,6 +1306,7 @@
     prevCiBtn.addEventListener("click", prevCi);
     nextCiBtn.addEventListener("click", nextCi);
     randomCiBtn.addEventListener("click", randomCi);
+    if (audioToggleBtn) audioToggleBtn.addEventListener("click", toggleAudio);
 
     // Toggle Buttons
     pinyinToggleBtn.addEventListener("click", () => setPinyinEnabled(!isPinyinEnabled));
@@ -1374,8 +1499,17 @@
           e.preventDefault();
           randomCi();
           break;
+
+        // Audio Toggle
+        case "b":
+        case "B":
+          e.preventDefault();
+          toggleAudio();
+          break;
       }
     });
+
+    updateAudioBtnUI();
   }
 
   // Start app on DOM ready

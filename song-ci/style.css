@@ -369,8 +369,9 @@ html, body {
   color: var(--celadon);
 }
 
-.action-btn[aria-pressed="false"] {
-  opacity: 0.6;
+.action-btn[aria-pressed="false"],
+.action-btn.is-muted {
+  opacity: 0.55;
 }
 
 .action-btn .btn-icon {

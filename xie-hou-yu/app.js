@@ -36,6 +36,7 @@
     catalogBtn: document.getElementById("catalogBtn"),
     randomBtn: document.getElementById("randomBtn"),
     themeToggleBtn: document.getElementById("themeToggleBtn"),
+    audioToggleBtn: document.getElementById("audioToggleBtn"),
     categoryChips: document.getElementById("categoryChipsContainer"),
 
     // Reader Stage
@@ -80,6 +81,110 @@
 
     toastMessage: document.getElementById("toastMessage")
   };
+
+  // Audio state
+  const BGM_SRC = "https://readforfun-img.chunyangwen.com/audio/bgm-reading.mp3";
+  const SFX_SRC = "https://readforfun-img.chunyangwen.com/audio/sfx-pageturn.mp3";
+  const TARGET_BGM_VOL = 0.22;
+  let isAudioEnabled = localStorage.getItem("rff_bgm_enabled") !== "false";
+  let bgm = null, sfx = null, audioStarted = false, bgmFadeTimer = null;
+  let lastRenderedItemId = null;
+
+  function initAudio() {
+    if (!bgm) {
+      bgm = new Audio(BGM_SRC);
+      bgm.loop = true;
+      bgm.preload = "auto";
+    }
+    if (!sfx) {
+      sfx = new Audio(SFX_SRC);
+      sfx.preload = "auto";
+    }
+  }
+
+  function fadeBgm(target, duration = 1200) {
+    if (!bgm) return;
+    clearInterval(bgmFadeTimer);
+    const start = bgm.volume;
+    const steps = 20;
+    const stepTime = duration / steps;
+    let step = 0;
+    bgmFadeTimer = setInterval(() => {
+      step++;
+      const v = start + (target - start) * (step / steps);
+      bgm.volume = Math.max(0, Math.min(1, v));
+      if (step >= steps) {
+        clearInterval(bgmFadeTimer);
+        if (target === 0) bgm.pause();
+      }
+    }, stepTime);
+  }
+
+  function updateAudioBtnUI() {
+    if (!dom.audioToggleBtn) return;
+    dom.audioToggleBtn.setAttribute("aria-pressed", String(isAudioEnabled));
+    const icon = dom.audioToggleBtn.querySelector(".btn-icon");
+    const label = dom.audioToggleBtn.querySelector(".btn-label");
+    if (isAudioEnabled) {
+      dom.audioToggleBtn.classList.remove("is-muted");
+      if (icon) icon.textContent = "🎵";
+      if (label) label.textContent = "音乐";
+    } else {
+      dom.audioToggleBtn.classList.add("is-muted");
+      if (icon) icon.textContent = "🔇";
+      if (label) label.textContent = "静音";
+    }
+  }
+
+  function tryStartBgm() {
+    if (!isAudioEnabled || audioStarted) return;
+    initAudio();
+    bgm.volume = 0;
+    const p = bgm.play();
+    if (p) {
+      p.then(() => {
+        audioStarted = true;
+        fadeBgm(TARGET_BGM_VOL, 1400);
+        updateAudioBtnUI();
+      }).catch(() => {});
+    }
+  }
+
+  function playTurnSound() {
+    if (!isAudioEnabled) return;
+    try {
+      initAudio();
+      const clone = sfx.cloneNode();
+      clone.volume = 0.35;
+      clone.play().catch(() => {});
+    } catch (e) {}
+  }
+
+  function toggleAudio() {
+    initAudio();
+    isAudioEnabled = !isAudioEnabled;
+    localStorage.setItem("rff_bgm_enabled", String(isAudioEnabled));
+    updateAudioBtnUI();
+    if (isAudioEnabled) {
+      if (bgm.paused) {
+        bgm.volume = 0;
+        bgm.play().then(() => {
+          audioStarted = true;
+          fadeBgm(TARGET_BGM_VOL, 800);
+        }).catch(() => {});
+      } else {
+        fadeBgm(TARGET_BGM_VOL, 600);
+      }
+    } else {
+      fadeBgm(0, 500);
+    }
+  }
+
+  const onFirstInteract = () => {
+    tryStartBgm();
+    ["pointerdown", "keydown"].forEach(evt => window.removeEventListener(evt, onFirstInteract));
+  };
+  ["pointerdown", "keydown"].forEach(evt => window.addEventListener(evt, onFirstInteract, { once: true }));
 
   /**
    * Escape HTML utility
@@ -194,6 +299,11 @@
   function renderCurrentCard() {
     const item = filteredItems[currentIndex];
     if (!item) return;
+
+    if (lastRenderedItemId !== null && lastRenderedItemId !== item.id) {
+      playTurnSound();
+    }
+    lastRenderedItemId = item.id;
 
     // Reset riddle reveal state for new card
     isAnswerRevealed = false;
@@ -529,6 +639,7 @@
     dom.nextBtn.addEventListener("click", nextItem);
     dom.randomBtn.addEventListener("click", randomItem);
     dom.quickRandomBtn.addEventListener("click", randomItem);
+    if (dom.audioToggleBtn) dom.audioToggleBtn.addEventListener("click", toggleAudio);
     dom.copyShareBtn.addEventListener("click", copyCurrentEntry);
 
     // Header Category Chips
@@ -667,12 +778,19 @@
           e.preventDefault();
           dom.themeToggleBtn.click();
           break;
+        case "b":
+        case "B":
+          e.preventDefault();
+          toggleAudio();
+          break;
         case "/":
           e.preventDefault();
           dom.searchInput.focus();
           break;
       }
     });
+
+    updateAudioBtnUI();
 
     // Popstate support
     window.addEventListener("popstate", () => {
