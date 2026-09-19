@@ -1,4 +1,4 @@
-/** Song Ci Dataset */
+/** ReadForFun dataset */
 window.__SONG_CI_DATA__ = [
   {
     "id": "su-shi-shui-diao-ge-tou",
@@ -10,7 +10,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "sū shì",
     "dynasty": "宋",
     "form": "双调九十五字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-shui-diao-ge-tou/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-shui-diao-ge-tou/poem.webp?v=20260918-2",
     "preface": "丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。",
     "preface_pinyin": "bǐng chén zhōng qiū huān yǐn dá dàn dà zuì zuò cǐ piān jiān huái zi yóu",
     "tags": [
@@ -419,7 +419,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "sū shì",
     "dynasty": "宋",
     "form": "双调一百字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-nian-nu-jiao-chi-bi-huai-gu/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-nian-nu-jiao-chi-bi-huai-gu/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -827,7 +827,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "xīn qì jí",
     "dynasty": "宋",
     "form": "双调六十二字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-po-zhen-zi/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-po-zhen-zi/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -1067,7 +1067,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "lǐ qīng zhào",
     "dynasty": "宋",
     "form": "双调九十七字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/li-qing-zhao-sheng-sheng-man/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/li-qing-zhao-sheng-sheng-man/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -1467,7 +1467,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "xīn qì jí",
     "dynasty": "宋",
     "form": "双调六十七字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-qing-yu-an-yuan-xi/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-qing-yu-an-yuan-xi/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -1732,7 +1732,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "liǔ yǒng",
     "dynasty": "宋",
     "form": "双调一百零三字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/liu-yong-yu-lin-ling-han-chan-qi-qie/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/liu-yong-yu-lin-ling-han-chan-qi-qie/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -2132,7 +2132,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "yuè fēi",
     "dynasty": "宋",
     "form": "双调九十三字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/yue-fei-man-jiang-hong-xie-huai/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/yue-fei-man-jiang-hong-xie-huai/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -2564,7 +2564,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "sū shì",
     "dynasty": "宋",
     "form": "双调六十二字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-ding-feng-bo-mo-ting-chuan-lin/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-ding-feng-bo-mo-ting-chuan-lin/poem.webp?v=20260918-2",
     "preface": "三月七日，沙湖道中遇雨。雨具先去，同行皆狼狈，余独不觉。已而遂晴，故作此词。",
     "preface_pinyin": "sān yuè qī rì shā hú dào zhōng yù yǔ yǔ jù xiān qù tóng háng jiē láng bèi yú dú bù jué yǐ ér suì qíng gù zuò cǐ cí",
     "tags": [
@@ -2812,7 +2812,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "xīn qì jí",
     "dynasty": "宋",
     "form": "双调一百零四字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-yong-yu-le-jing-kou-bei-gu-ting/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-yong-yu-le-jing-kou-bei-gu-ting/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -3212,7 +3212,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "lǐ qīng zhào",
     "dynasty": "宋",
     "form": "双调六十字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/li-qing-zhao-yi-jian-mei/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/li-qing-zhao-yi-jian-mei/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -3516,7 +3516,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "xīn qì jí",
     "dynasty": "宋",
     "form": "双调五十字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-xi-jiang-yue-ye-xing-huang-sha/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-xi-jiang-yue-ye-xing-huang-sha/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -3716,7 +3716,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "lǐ yù",
     "dynasty": "宋",
     "form": "双调五十六字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/li-yu-yu-mei-ren/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/li-yu-yu-mei-ren/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -3916,7 +3916,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "lǐ qīng zhào",
     "dynasty": "宋",
     "form": "单调三十三字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/li-qing-zhao-ru-meng-ling-zuo-ye-yu-shu/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/li-qing-zhao-ru-meng-ling-zuo-ye-yu-shu/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -4078,7 +4078,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "lù yóu",
     "dynasty": "宋",
     "form": "双调四十四字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/lu-you-bu-suan-zi-yong-mei/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/lu-you-bu-suan-zi-yong-mei/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -4278,7 +4278,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "ōu yáng xiū",
     "dynasty": "宋",
     "form": "双调六十字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/ou-yang-xiu-die-lian-hua-ting-yuan-shen-shen/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/ou-yang-xiu-die-lian-hua-ting-yuan-shen-shen/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -4494,7 +4494,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "fàn zhòng yān",
     "dynasty": "宋",
     "form": "双调六十二字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/fan-zhong-yan-yu-jia-ao-qiu-si/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/fan-zhong-yan-yu-jia-ao-qiu-si/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -4710,7 +4710,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "yàn shū",
     "dynasty": "宋",
     "form": "双调四十二字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/yan-shu-huan-xi-sha-yi-qu-xin-ci/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/yan-shu-huan-xi-sha-yi-qu-xin-ci/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -4894,7 +4894,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "qín guān",
     "dynasty": "宋",
     "form": "双调五十六字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/qin-guan-que-qiao-xian-xian-yun-nong-qiao/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/qin-guan-que-qiao-xian-xian-yun-nong-qiao/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -5110,7 +5110,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "xīn qì jí",
     "dynasty": "宋",
     "form": "双调四十四字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-chou-nu-er-shu-bo-shan-dao-zhong/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-chou-nu-er-shu-bo-shan-dao-zhong/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -5310,7 +5310,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "xīn qì jí",
     "dynasty": "宋",
     "form": "双调五十六字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-nan-xiang-zi-deng-jing-kou/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-nan-xiang-zi-deng-jing-kou/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -5574,7 +5574,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "lǐ qīng zhào",
     "dynasty": "宋",
     "form": "单调三十三字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/li-qing-zhao-ru-meng-ling-chang-ji-xi-ting/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/li-qing-zhao-ru-meng-ling-chang-ji-xi-ting/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -5736,7 +5736,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "lǐ qīng zhào",
     "dynasty": "宋",
     "form": "双调五十二字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/li-qing-zhao-zui-hua-yin/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/li-qing-zhao-zui-hua-yin/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -5952,7 +5952,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "sū shì",
     "dynasty": "宋",
     "form": "双调七十字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-jiang-cheng-zi-mi-zhou-chu-lie/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-jiang-cheng-zi-mi-zhou-chu-lie/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -6240,7 +6240,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "sū shì",
     "dynasty": "宋",
     "form": "双调七十字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-jiang-cheng-zi-ji-meng/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-jiang-cheng-zi-ji-meng/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -6552,7 +6552,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "sū shì",
     "dynasty": "宋",
     "form": "双调六十字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-die-lian-hua-chun-jing/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-die-lian-hua-chun-jing/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -6816,7 +6816,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "xīn qì jí",
     "dynasty": "宋",
     "form": "双调四十四字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-pu-sa-man-shu-jiang-xi-zao-kou/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/xin-qi-ji-pu-sa-man-shu-jiang-xi-zao-kou/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -7016,7 +7016,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "liǔ yǒng",
     "dynasty": "宋",
     "form": "双调一百零七字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/liu-yong-wang-hai-chao-dong-nan-xing-sheng/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/liu-yong-wang-hai-chao-dong-nan-xing-sheng/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -7139,11 +7139,11 @@ window.__SONG_CI_DATA__ = [
             "stanza_no": 2,
             "stanza_name": "下阕",
             "sentence_no": 1,
-            "text": "重湖叠巘清嘉，有三秋桂子，十里荷花。",
+            "text": "重湖叠𪩘清嘉，有三秋桂子，十里荷花。",
             "pinyin": "zhòng hú dié yǎn qīng jiā yǒu sān qiū guì zi shí lǐ hé huā",
             "clauses": [
               {
-                "text": "重湖叠巘清嘉，",
+                "text": "重湖叠𪩘清嘉，",
                 "pinyin": "zhòng hú dié yǎn qīng jiā"
               },
               {
@@ -7156,7 +7156,7 @@ window.__SONG_CI_DATA__ = [
               }
             ],
             "translation": "里湖外湖山峦重叠风光极其清秀优美，有那金秋飘香的三秋金桂，有那盛夏连绵十里的红白荷花。",
-            "explanation": "【重湖叠巘】西湖重重水域与连绵山峦。【三秋桂子，十里荷花】对偶工绝，概括西湖春夏秋冬的最美景致，千古传诵。"
+            "explanation": "【重湖叠𪩘】西湖重重水域与连绵山峦。【三秋桂子，十里荷花】对偶工绝，概括西湖春夏秋冬的最美景致，千古传诵。"
           },
           {
             "global_index": 5,
@@ -7331,11 +7331,11 @@ window.__SONG_CI_DATA__ = [
         "stanza_no": 2,
         "stanza_name": "下阕",
         "sentence_no": 1,
-        "text": "重湖叠巘清嘉，有三秋桂子，十里荷花。",
+        "text": "重湖叠𪩘清嘉，有三秋桂子，十里荷花。",
         "pinyin": "zhòng hú dié yǎn qīng jiā yǒu sān qiū guì zi shí lǐ hé huā",
         "clauses": [
           {
-            "text": "重湖叠巘清嘉，",
+            "text": "重湖叠𪩘清嘉，",
             "pinyin": "zhòng hú dié yǎn qīng jiā"
           },
           {
@@ -7348,7 +7348,7 @@ window.__SONG_CI_DATA__ = [
           }
         ],
         "translation": "里湖外湖山峦重叠风光极其清秀优美，有那金秋飘香的三秋金桂，有那盛夏连绵十里的红白荷花。",
-        "explanation": "【重湖叠巘】西湖重重水域与连绵山峦。【三秋桂子，十里荷花】对偶工绝，概括西湖春夏秋冬的最美景致，千古传诵。"
+        "explanation": "【重湖叠𪩘】西湖重重水域与连绵山峦。【三秋桂子，十里荷花】对偶工绝，概括西湖春夏秋冬的最美景致，千古传诵。"
       },
       {
         "global_index": 5,
@@ -7432,7 +7432,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "ōu yáng xiū",
     "dynasty": "宋",
     "form": "双调四十字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/ou-yang-xiu-sheng-cha-zi-yuan-xi/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/ou-yang-xiu-sheng-cha-zi-yuan-xi/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -7632,7 +7632,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "lǐ qīng zhào",
     "dynasty": "宋",
     "form": "双调四十八字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/li-qing-zhao-wu-ling-chun-chun-wan/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/li-qing-zhao-wu-ling-chun-chun-wan/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -7832,7 +7832,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "qín guān",
     "dynasty": "宋",
     "form": "双调五十八字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/qin-guan-ta-suo-xing-chen-zhou-lv-she/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/qin-guan-ta-suo-xing-chen-zhou-lv-she/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -8048,7 +8048,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "yàn shū",
     "dynasty": "宋",
     "form": "双调六十字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/yan-shu-die-lian-hua-kan-ju-chou-yan/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/yan-shu-die-lian-hua-kan-ju-chou-yan/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -8264,7 +8264,7 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "lǐ yù",
     "dynasty": "宋",
     "form": "双调三十六字",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/"https://readforfun-img.chunyangwen.com/song-ci/https://readforfun-img.chunyangwen.com/song-ci/images/li-yu-xiang-jian-huan-wu-yan-du-shang/poem.webp?v=20260918-2",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/li-yu-xiang-jian-huan-wu-yan-du-shang/poem.webp?v=20260918-2",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -10813,7 +10813,7 @@ window.__SONG_CI_DATA__ = [
             "stanza_no": 2,
             "stanza_name": "下阕",
             "sentence_no": 8,
-            "text": "怅别後华表，那回双鹤。",
+            "text": "怅别后华表，那回双鹤。",
             "pinyin": "chàng bié hòu huá biǎo nà huí shuāng hè",
             "clauses": [],
             "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -11015,7 +11015,7 @@ window.__SONG_CI_DATA__ = [
         "stanza_no": 2,
         "stanza_name": "下阕",
         "sentence_no": 8,
-        "text": "怅别後华表，那回双鹤。",
+        "text": "怅别后华表，那回双鹤。",
         "pinyin": "chàng bié hòu huá biǎo nà huí shuāng hè",
         "clauses": [],
         "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -12016,7 +12016,7 @@ window.__SONG_CI_DATA__ = [
             "stanza_no": 2,
             "stanza_name": "下阕",
             "sentence_no": 2,
-            "text": "别後访、六桥无信，事往花委，瘗玉埋香，几番风雨。",
+            "text": "别后访、六桥无信，事往花委，瘗玉埋香，几番风雨。",
             "pinyin": "bié hòu fǎng liù qiáo wú xìn shì wǎng huā wěi yì yù mái xiāng jǐ fān fēng yǔ",
             "clauses": [],
             "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -12196,7 +12196,7 @@ window.__SONG_CI_DATA__ = [
         "stanza_no": 2,
         "stanza_name": "下阕",
         "sentence_no": 2,
-        "text": "别後访、六桥无信，事往花委，瘗玉埋香，几番风雨。",
+        "text": "别后访、六桥无信，事往花委，瘗玉埋香，几番风雨。",
         "pinyin": "bié hòu fǎng liù qiáo wú xìn shì wǎng huā wěi yì yù mái xiāng jǐ fān fēng yǔ",
         "clauses": [],
         "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -12282,7 +12282,7 @@ window.__SONG_CI_DATA__ = [
     "form": "词",
     "image": "https://readforfun-img.chunyangwen.com/song-ci/images/zhou-bang-yan---lang-tao-sha-・-lang-tao-sha--/upper.webp",
     "image_upper": "https://readforfun-img.chunyangwen.com/song-ci/images/zhou-bang-yan---lang-tao-sha-・-lang-tao-sha--/upper.webp",
-      "image_lower": "https://readforfun-img.chunyangwen.com/song-ci/images/zhou-bang-yan---lang-tao-sha-・-lang-tao-sha--/lower.webp",
+    "image_lower": "https://readforfun-img.chunyangwen.com/song-ci/images/zhou-bang-yan---lang-tao-sha-・-lang-tao-sha--/lower.webp",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -12670,9 +12670,9 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "zhāng xiào xiáng",
     "dynasty": "宋",
     "form": "词",
-      "image": "https://readforfun-img.chunyangwen.com/song-ci/images/zhang-xiao-xiang---liu-zhou-ge-tou--/upper.webp",
-      "image_upper": "https://readforfun-img.chunyangwen.com/song-ci/images/zhang-xiao-xiang---liu-zhou-ge-tou--/upper.webp",
-      "image_lower": "https://readforfun-img.chunyangwen.com/song-ci/images/zhang-xiao-xiang---liu-zhou-ge-tou--/lower.webp",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/zhang-xiao-xiang---liu-zhou-ge-tou--/upper.webp",
+    "image_upper": "https://readforfun-img.chunyangwen.com/song-ci/images/zhang-xiao-xiang---liu-zhou-ge-tou--/upper.webp",
+    "image_lower": "https://readforfun-img.chunyangwen.com/song-ci/images/zhang-xiao-xiang---liu-zhou-ge-tou--/lower.webp",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -13060,9 +13060,9 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "yuán qù huá",
     "dynasty": "宋",
     "form": "词",
-      "image": "https://readforfun-img.chunyangwen.com/song-ci/images/yuan-qu-hua---jian-qi-jin--/upper.webp",
-      "image_upper": "https://readforfun-img.chunyangwen.com/song-ci/images/yuan-qu-hua---jian-qi-jin--/upper.webp",
-      "image_lower": "https://readforfun-img.chunyangwen.com/song-ci/images/yuan-qu-hua---jian-qi-jin--/lower.webp",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/yuan-qu-hua---jian-qi-jin--/upper.webp",
+    "image_upper": "https://readforfun-img.chunyangwen.com/song-ci/images/yuan-qu-hua---jian-qi-jin--/upper.webp",
+    "image_lower": "https://readforfun-img.chunyangwen.com/song-ci/images/yuan-qu-hua---jian-qi-jin--/lower.webp",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -13428,9 +13428,9 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "péng yuán xùn",
     "dynasty": "宋",
     "form": "词",
-      "image": "https://readforfun-img.chunyangwen.com/song-ci/images/peng-yuan-xun---liu-chou--/upper.webp",
-      "image_upper": "https://readforfun-img.chunyangwen.com/song-ci/images/peng-yuan-xun---liu-chou--/upper.webp",
-      "image_lower": "https://readforfun-img.chunyangwen.com/song-ci/images/peng-yuan-xun---liu-chou--/lower.webp",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/peng-yuan-xun---liu-chou--/upper.webp",
+    "image_upper": "https://readforfun-img.chunyangwen.com/song-ci/images/peng-yuan-xun---liu-chou--/upper.webp",
+    "image_lower": "https://readforfun-img.chunyangwen.com/song-ci/images/peng-yuan-xun---liu-chou--/lower.webp",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -13796,9 +13796,9 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "jiāng kuí",
     "dynasty": "宋",
     "form": "词",
-      "image": "https://readforfun-img.chunyangwen.com/song-ci/images/jiang-kui---ni-chang-zhong-xu-di-yi--/upper.webp",
-      "image_upper": "https://readforfun-img.chunyangwen.com/song-ci/images/jiang-kui---ni-chang-zhong-xu-di-yi--/upper.webp",
-      "image_lower": "https://readforfun-img.chunyangwen.com/song-ci/images/jiang-kui---ni-chang-zhong-xu-di-yi--/lower.webp",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/jiang-kui---ni-chang-zhong-xu-di-yi--/upper.webp",
+    "image_upper": "https://readforfun-img.chunyangwen.com/song-ci/images/jiang-kui---ni-chang-zhong-xu-di-yi--/upper.webp",
+    "image_lower": "https://readforfun-img.chunyangwen.com/song-ci/images/jiang-kui---ni-chang-zhong-xu-di-yi--/lower.webp",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -14164,9 +14164,9 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "zhōu bāng yàn",
     "dynasty": "宋",
     "form": "词",
-      "image": "https://readforfun-img.chunyangwen.com/song-ci/images/zhou-bang-yan---rui-long-yin--/upper.webp",
-      "image_upper": "https://readforfun-img.chunyangwen.com/song-ci/images/zhou-bang-yan---rui-long-yin--/upper.webp",
-      "image_lower": "https://readforfun-img.chunyangwen.com/song-ci/images/zhou-bang-yan---rui-long-yin--/lower.webp",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/zhou-bang-yan---rui-long-yin--/upper.webp",
+    "image_upper": "https://readforfun-img.chunyangwen.com/song-ci/images/zhou-bang-yan---rui-long-yin--/upper.webp",
+    "image_lower": "https://readforfun-img.chunyangwen.com/song-ci/images/zhou-bang-yan---rui-long-yin--/lower.webp",
     "preface": "",
     "preface_pinyin": "",
     "tags": [
@@ -14532,8 +14532,8 @@ window.__SONG_CI_DATA__ = [
     "author_pinyin": "mò qí yǒng",
     "dynasty": "宋",
     "form": "词",
-      "image": "https://readforfun-img.chunyangwen.com/song-ci/images/mo-qi-yong---san-tai--/upper.webp",
-      "image_upper": "https://readforfun-img.chunyangwen.com/song-ci/images/mo-qi-yong---san-tai--/upper.webp",
+    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/mo-qi-yong---san-tai--/upper.webp",
+    "image_upper": "https://readforfun-img.chunyangwen.com/song-ci/images/mo-qi-yong---san-tai--/upper.webp",
     "image_lower": "https://readforfun-img.chunyangwen.com/song-ci/images/mo-qi-yong---san-tai--/lower.webp",
     "preface": "",
     "preface_pinyin": "",
@@ -15383,7 +15383,7 @@ window.__SONG_CI_DATA__ = [
             "stanza_no": 2,
             "stanza_name": "下阕",
             "sentence_no": 4,
-            "text": "叹後约丁宁竟何据。",
+            "text": "叹后约丁宁竟何据。",
             "pinyin": "tàn hòu yuē dīng níng jìng hé jù",
             "clauses": [],
             "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -15541,7 +15541,7 @@ window.__SONG_CI_DATA__ = [
         "stanza_no": 2,
         "stanza_name": "下阕",
         "sentence_no": 4,
-        "text": "叹後约丁宁竟何据。",
+        "text": "叹后约丁宁竟何据。",
         "pinyin": "tàn hòu yuē dīng níng jìng hé jù",
         "clauses": [],
         "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -16399,7 +16399,7 @@ window.__SONG_CI_DATA__ = [
             "stanza_no": 2,
             "stanza_name": "下阕",
             "sentence_no": 3,
-            "text": "盟鸾心在，跨鹤程高，後期无准。",
+            "text": "盟鸾心在，跨鹤程高，后期无准。",
             "pinyin": "méng luán xīn zài kuà hè chéng gāo hòu qī wú zhǔn",
             "clauses": [],
             "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -16546,7 +16546,7 @@ window.__SONG_CI_DATA__ = [
         "stanza_no": 2,
         "stanza_name": "下阕",
         "sentence_no": 3,
-        "text": "盟鸾心在，跨鹤程高，後期无准。",
+        "text": "盟鸾心在，跨鹤程高，后期无准。",
         "pinyin": "méng luán xīn zài kuà hè chéng gāo hòu qī wú zhǔn",
         "clauses": [],
         "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -17310,7 +17310,7 @@ window.__SONG_CI_DATA__ = [
             "stanza_no": 1,
             "stanza_name": "上阕",
             "sentence_no": 4,
-            "text": "但细雨断桥，憔悴人归後。",
+            "text": "但细雨断桥，憔悴人归后。",
             "pinyin": "dàn xì yǔ duàn qiáo qiáo cuì rén guī hòu",
             "clauses": [],
             "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -17463,7 +17463,7 @@ window.__SONG_CI_DATA__ = [
         "stanza_no": 1,
         "stanza_name": "上阕",
         "sentence_no": 4,
-        "text": "但细雨断桥，憔悴人归後。",
+        "text": "但细雨断桥，憔悴人归后。",
         "pinyin": "dàn xì yǔ duàn qiáo qiáo cuì rén guī hòu",
         "clauses": [],
         "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -18321,7 +18321,7 @@ window.__SONG_CI_DATA__ = [
             "stanza_no": 2,
             "stanza_name": "下阕",
             "sentence_no": 1,
-            "text": "早知恁麽。",
+            "text": "早知恁么。",
             "pinyin": "zǎo zhī nèn mó",
             "clauses": [],
             "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -18468,7 +18468,7 @@ window.__SONG_CI_DATA__ = [
         "stanza_no": 2,
         "stanza_name": "下阕",
         "sentence_no": 1,
-        "text": "早知恁麽。",
+        "text": "早知恁么。",
         "pinyin": "zǎo zhī nèn mó",
         "clauses": [],
         "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -20869,7 +20869,7 @@ window.__SONG_CI_DATA__ = [
             "stanza_no": 2,
             "stanza_name": "下阕",
             "sentence_no": 3,
-            "text": "谁信骚魂千载後，波底垂涎角黍。",
+            "text": "谁信骚魂千载后，波底垂涎角黍。",
             "pinyin": "shuí xìn sāo hún qiān zài hòu bō dǐ chuí xián jiǎo shǔ",
             "clauses": [],
             "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -21005,7 +21005,7 @@ window.__SONG_CI_DATA__ = [
         "stanza_no": 2,
         "stanza_name": "下阕",
         "sentence_no": 3,
-        "text": "谁信骚魂千载後，波底垂涎角黍。",
+        "text": "谁信骚魂千载后，波底垂涎角黍。",
         "pinyin": "shuí xìn sāo hún qiān zài hòu bō dǐ chuí xián jiǎo shǔ",
         "clauses": [],
         "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -21797,7 +21797,7 @@ window.__SONG_CI_DATA__ = [
             "stanza_no": 2,
             "stanza_name": "下阕",
             "sentence_no": 5,
-            "text": "後不如今非昔，两无言、相对沧浪水。",
+            "text": "后不如今非昔，两无言、相对沧浪水。",
             "pinyin": "hòu bù rú jīn fēi xī liǎng wú yán xiāng duì cāng làng shuǐ",
             "clauses": [],
             "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -21933,7 +21933,7 @@ window.__SONG_CI_DATA__ = [
         "stanza_no": 2,
         "stanza_name": "下阕",
         "sentence_no": 5,
-        "text": "後不如今非昔，两无言、相对沧浪水。",
+        "text": "后不如今非昔，两无言、相对沧浪水。",
         "pinyin": "hòu bù rú jīn fēi xī liǎng wú yán xiāng duì cāng làng shuǐ",
         "clauses": [],
         "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -26763,286 +26763,6 @@ window.__SONG_CI_DATA__ = [
     ]
   },
   {
-    "id": "su-shi---ding-feng-bo--",
-    "title": "定风波",
-    "cipai": "定风波",
-    "subtitle": "",
-    "title_pinyin": "dìng fēng bō",
-    "author": "苏轼",
-    "author_pinyin": "sū shì",
-    "dynasty": "宋",
-    "form": "词",
-    "image": "https://readforfun-img.chunyangwen.com/song-ci/images/su-shi---ding-feng-bo--/upper.webp",
-    "image_upper": "https://readforfun-img.chunyangwen.com/song-ci/images/su-shi---ding-feng-bo--/upper.webp",
-    "image_lower": "https://readforfun-img.chunyangwen.com/song-ci/images/su-shi---ding-feng-bo--/lower.webp",
-    "preface": "",
-    "preface_pinyin": "",
-    "tags": [
-      "宋词",
-      "经典",
-      "拓展阅读"
-    ],
-    "appreciation": "《定风波》是苏轼的宋词名篇。上下阕层次分明，适合配合节奏诵读，理解景、情、志的转换。",
-    "stanzas": [
-      {
-        "name": "上阕",
-        "stanza_no": 1,
-        "sentences": [
-          {
-            "global_index": 0,
-            "stanza_no": 1,
-            "stanza_name": "上阕",
-            "sentence_no": 1,
-            "text": "莫听穿林打叶声。",
-            "pinyin": "mò tīng chuān lín dǎ yè shēng",
-            "clauses": [],
-            "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-            "explanation": "重点关注意象、炼字和情景交融。"
-          },
-          {
-            "global_index": 1,
-            "stanza_no": 1,
-            "stanza_name": "上阕",
-            "sentence_no": 2,
-            "text": "何妨吟啸且徐行。",
-            "pinyin": "hé fáng yín xiào qiě xú xíng",
-            "clauses": [],
-            "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-            "explanation": "重点关注意象、炼字和情景交融。"
-          },
-          {
-            "global_index": 2,
-            "stanza_no": 1,
-            "stanza_name": "上阕",
-            "sentence_no": 3,
-            "text": "竹杖芒鞋轻胜马。",
-            "pinyin": "zhú zhàng máng xié qīng shèng mǎ",
-            "clauses": [],
-            "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-            "explanation": "重点关注意象、炼字和情景交融。"
-          },
-          {
-            "global_index": 3,
-            "stanza_no": 1,
-            "stanza_name": "上阕",
-            "sentence_no": 4,
-            "text": "谁怕。",
-            "pinyin": "shuí pà",
-            "clauses": [],
-            "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-            "explanation": "重点关注意象、炼字和情景交融。"
-          },
-          {
-            "global_index": 4,
-            "stanza_no": 1,
-            "stanza_name": "上阕",
-            "sentence_no": 5,
-            "text": "一蓑烟雨任平生。",
-            "pinyin": "yī suō yān yǔ rèn píng shēng",
-            "clauses": [],
-            "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-            "explanation": "重点关注意象、炼字和情景交融。"
-          }
-        ]
-      },
-      {
-        "name": "下阕",
-        "stanza_no": 2,
-        "sentences": [
-          {
-            "global_index": 5,
-            "stanza_no": 2,
-            "stanza_name": "下阕",
-            "sentence_no": 1,
-            "text": "料峭春风吹酒醒。",
-            "pinyin": "liào qiào chūn fēng chuī jiǔ xǐng",
-            "clauses": [],
-            "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-            "explanation": "重点关注意象、炼字和情景交融。"
-          },
-          {
-            "global_index": 6,
-            "stanza_no": 2,
-            "stanza_name": "下阕",
-            "sentence_no": 2,
-            "text": "微冷。",
-            "pinyin": "wēi lěng",
-            "clauses": [],
-            "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-            "explanation": "重点关注意象、炼字和情景交融。"
-          },
-          {
-            "global_index": 7,
-            "stanza_no": 2,
-            "stanza_name": "下阕",
-            "sentence_no": 3,
-            "text": "山头斜照却相迎。",
-            "pinyin": "shān tóu xié zhào què xiāng yíng",
-            "clauses": [],
-            "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-            "explanation": "重点关注意象、炼字和情景交融。"
-          },
-          {
-            "global_index": 8,
-            "stanza_no": 2,
-            "stanza_name": "下阕",
-            "sentence_no": 4,
-            "text": "回首向来萧瑟处。",
-            "pinyin": "huí shǒu xiàng lái xiāo sè chù",
-            "clauses": [],
-            "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-            "explanation": "重点关注意象、炼字和情景交融。"
-          },
-          {
-            "global_index": 9,
-            "stanza_no": 2,
-            "stanza_name": "下阕",
-            "sentence_no": 5,
-            "text": "归去。",
-            "pinyin": "guī qù",
-            "clauses": [],
-            "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-            "explanation": "重点关注意象、炼字和情景交融。"
-          },
-          {
-            "global_index": 10,
-            "stanza_no": 2,
-            "stanza_name": "下阕",
-            "sentence_no": 6,
-            "text": "也无风雨也无晴。",
-            "pinyin": "yě wú fēng yǔ yě wú qíng",
-            "clauses": [],
-            "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-            "explanation": "重点关注意象、炼字和情景交融。"
-          }
-        ]
-      }
-    ],
-    "sentences": [
-      {
-        "global_index": 0,
-        "stanza_no": 1,
-        "stanza_name": "上阕",
-        "sentence_no": 1,
-        "text": "莫听穿林打叶声。",
-        "pinyin": "mò tīng chuān lín dǎ yè shēng",
-        "clauses": [],
-        "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-        "explanation": "重点关注意象、炼字和情景交融。"
-      },
-      {
-        "global_index": 1,
-        "stanza_no": 1,
-        "stanza_name": "上阕",
-        "sentence_no": 2,
-        "text": "何妨吟啸且徐行。",
-        "pinyin": "hé fáng yín xiào qiě xú xíng",
-        "clauses": [],
-        "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-        "explanation": "重点关注意象、炼字和情景交融。"
-      },
-      {
-        "global_index": 2,
-        "stanza_no": 1,
-        "stanza_name": "上阕",
-        "sentence_no": 3,
-        "text": "竹杖芒鞋轻胜马。",
-        "pinyin": "zhú zhàng máng xié qīng shèng mǎ",
-        "clauses": [],
-        "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-        "explanation": "重点关注意象、炼字和情景交融。"
-      },
-      {
-        "global_index": 3,
-        "stanza_no": 1,
-        "stanza_name": "上阕",
-        "sentence_no": 4,
-        "text": "谁怕。",
-        "pinyin": "shuí pà",
-        "clauses": [],
-        "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-        "explanation": "重点关注意象、炼字和情景交融。"
-      },
-      {
-        "global_index": 4,
-        "stanza_no": 1,
-        "stanza_name": "上阕",
-        "sentence_no": 5,
-        "text": "一蓑烟雨任平生。",
-        "pinyin": "yī suō yān yǔ rèn píng shēng",
-        "clauses": [],
-        "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-        "explanation": "重点关注意象、炼字和情景交融。"
-      },
-      {
-        "global_index": 5,
-        "stanza_no": 2,
-        "stanza_name": "下阕",
-        "sentence_no": 1,
-        "text": "料峭春风吹酒醒。",
-        "pinyin": "liào qiào chūn fēng chuī jiǔ xǐng",
-        "clauses": [],
-        "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-        "explanation": "重点关注意象、炼字和情景交融。"
-      },
-      {
-        "global_index": 6,
-        "stanza_no": 2,
-        "stanza_name": "下阕",
-        "sentence_no": 2,
-        "text": "微冷。",
-        "pinyin": "wēi lěng",
-        "clauses": [],
-        "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-        "explanation": "重点关注意象、炼字和情景交融。"
-      },
-      {
-        "global_index": 7,
-        "stanza_no": 2,
-        "stanza_name": "下阕",
-        "sentence_no": 3,
-        "text": "山头斜照却相迎。",
-        "pinyin": "shān tóu xié zhào què xiāng yíng",
-        "clauses": [],
-        "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-        "explanation": "重点关注意象、炼字和情景交融。"
-      },
-      {
-        "global_index": 8,
-        "stanza_no": 2,
-        "stanza_name": "下阕",
-        "sentence_no": 4,
-        "text": "回首向来萧瑟处。",
-        "pinyin": "huí shǒu xiàng lái xiāo sè chù",
-        "clauses": [],
-        "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-        "explanation": "重点关注意象、炼字和情景交融。"
-      },
-      {
-        "global_index": 9,
-        "stanza_no": 2,
-        "stanza_name": "下阕",
-        "sentence_no": 5,
-        "text": "归去。",
-        "pinyin": "guī qù",
-        "clauses": [],
-        "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-        "explanation": "重点关注意象、炼字和情景交融。"
-      },
-      {
-        "global_index": 10,
-        "stanza_no": 2,
-        "stanza_name": "下阕",
-        "sentence_no": 6,
-        "text": "也无风雨也无晴。",
-        "pinyin": "yě wú fēng yǔ yě wú qíng",
-        "clauses": [],
-        "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
-        "explanation": "重点关注意象、炼字和情景交融。"
-      }
-    ]
-  },
-  {
     "id": "chao-duan-li---lv-tou-ya-・-duo-li--",
     "title": "绿头鸭・多丽",
     "cipai": "绿头鸭・多丽",
@@ -27145,7 +26865,7 @@ window.__SONG_CI_DATA__ = [
             "stanza_no": 2,
             "stanza_name": "下阕",
             "sentence_no": 2,
-            "text": "念佳人，音尘别後，对此应解相思。",
+            "text": "念佳人，音尘别后，对此应解相思。",
             "pinyin": "niàn jiā rén yīn chén bié hòu duì cǐ yīng jiě xiāng sī",
             "clauses": [],
             "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -27178,7 +26898,7 @@ window.__SONG_CI_DATA__ = [
             "stanza_no": 2,
             "stanza_name": "下阕",
             "sentence_no": 5,
-            "text": "共凝恋、如今别後，还是隔年期。",
+            "text": "共凝恋、如今别后，还是隔年期。",
             "pinyin": "gòng níng liàn rú jīn bié hòu hái shì gé nián qī",
             "clauses": [],
             "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -27270,7 +26990,7 @@ window.__SONG_CI_DATA__ = [
         "stanza_no": 2,
         "stanza_name": "下阕",
         "sentence_no": 2,
-        "text": "念佳人，音尘别後，对此应解相思。",
+        "text": "念佳人，音尘别后，对此应解相思。",
         "pinyin": "niàn jiā rén yīn chén bié hòu duì cǐ yīng jiě xiāng sī",
         "clauses": [],
         "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -27303,7 +27023,7 @@ window.__SONG_CI_DATA__ = [
         "stanza_no": 2,
         "stanza_name": "下阕",
         "sentence_no": 5,
-        "text": "共凝恋、如今别後，还是隔年期。",
+        "text": "共凝恋、如今别后，还是隔年期。",
         "pinyin": "gòng níng liàn rú jīn bié hòu hái shì gé nián qī",
         "clauses": [],
         "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -29967,7 +29687,7 @@ window.__SONG_CI_DATA__ = [
             "stanza_no": 2,
             "stanza_name": "下阕",
             "sentence_no": 4,
-            "text": "记取明年，蔷薇谢後，佳期应未误行云。",
+            "text": "记取明年，蔷薇谢后，佳期应未误行云。",
             "pinyin": "jì qǔ míng nián qiáng wēi xiè hòu jiā qī yīng wèi wù xíng yún",
             "clauses": [],
             "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -30092,7 +29812,7 @@ window.__SONG_CI_DATA__ = [
         "stanza_no": 2,
         "stanza_name": "下阕",
         "sentence_no": 4,
-        "text": "记取明年，蔷薇谢後，佳期应未误行云。",
+        "text": "记取明年，蔷薇谢后，佳期应未误行云。",
         "pinyin": "jì qǔ míng nián qiáng wēi xiè hòu jiā qī yīng wèi wù xíng yún",
         "clauses": [],
         "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -30757,7 +30477,7 @@ window.__SONG_CI_DATA__ = [
             "stanza_no": 1,
             "stanza_name": "上阕",
             "sentence_no": 5,
-            "text": "自约赏花人，别後总、风流云散。",
+            "text": "自约赏花人，别后总、风流云散。",
             "pinyin": "zì yuē shǎng huā rén bié hòu zǒng fēng liú yún sàn",
             "clauses": [],
             "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -30888,7 +30608,7 @@ window.__SONG_CI_DATA__ = [
         "stanza_no": 1,
         "stanza_name": "上阕",
         "sentence_no": 5,
-        "text": "自约赏花人，别後总、风流云散。",
+        "text": "自约赏花人，别后总、风流云散。",
         "pinyin": "zì yuē shǎng huā rén bié hòu zǒng fēng liú yún sàn",
         "clauses": [],
         "translation": "结合词牌节奏和上下文理解词句，体会词人的情感变化。",
@@ -30962,4 +30682,4 @@ window.__SONG_CI_DATA__ = [
       }
     ]
   }
-];
+]
