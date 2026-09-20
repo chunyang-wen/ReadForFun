@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新华字典 - 汉字查询与笔顺演变系统</title>
+  <meta name="description" content="现代化新华字典Web应用，提供部首查字、拼音查字、汉字释义、常用组词、同音字，以及零素材动态矢量笔顺演变与逐笔拆解。">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- HanziWriter 核心矢量笔画渲染库 (轻量 CDN，按需动态加载单字矢量骨架) -->
+  <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+</head>
+<body>
+
+  <!-- 顶部导航与智能搜索 -->
+  <header class="site-header">
+    <div class="header-container">
+      <div style="display: flex; align-items: center; gap: 0.9rem;">
+        <a href="../" class="bookshelf-back" title="返回故事书架">
+          <span>← 返回书架</span>
+        </a>
+        <a class="brand" href="index.html">
+          <div class="brand-seal">典</div>
+          <div>
+            <div class="brand-title">新华字典</div>
+            <div class="brand-subtitle">汉字查询 · 笔画演变 · 典雅国风</div>
+          </div>
+        </a>
+      </div>
+
+      <!-- 搜索栏 -->
+      <div class="search-wrapper">
+        <div class="search-input-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="search-input" class="search-input" placeholder="输入汉字、拼音 (如: 学 / xue)..." autocomplete="off">
+          <button id="search-clear" class="search-clear-btn" title="清空">✕</button>
+        </div>
+        <!-- 自动联想下拉面板 -->
+        <div id="search-dropdown" class="search-dropdown"></div>
+      </div>
+
+      <!-- 快捷查字与探索入口 -->
+      <div class="header-actions">
+        <button id="btn-radical-open" class="nav-btn">
+          <span>📖</span> 部首查字
+        </button>
+        <button id="btn-pinyin-open" class="nav-btn">
+          <span>🔤</span> 拼音查字
+        </button>
+        <button id="btn-random-char" class="nav-btn" title="随机探索一个汉字">
+          <span>🎲</span> 随机一字
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 主体工作区 -->
+  <main class="main-content">
+    <div class="dict-layout">
+
+      <!-- 左侧：笔画动图与逐笔拆解工作台 -->
+      <section class="char-visual-column">
+        <!-- 主米字格演示区 -->
+        <div class="canvas-card">
+          <div id="grid-lines" class="grid-lines mi-zi-ge"></div>
+          <div id="hanzi-writer-target"></div>
+        </div>
+
+        <!-- 动图控制器 -->
+        <div class="writer-controls">
+          <div class="controls-row">
+            <button id="btn-play" class="btn-ctrl" title="播放书写动画">▶ 播放</button>
+            <button id="btn-replay" class="btn-ctrl" title="重新书写">🔄 重播</button>
+            <button id="btn-quiz" class="btn-ctrl" title="在格中手动临摹书写">✍️ 临摹练字</button>
+            <button id="btn-grid-toggle" class="btn-ctrl" title="切换格线背景">米字格</button>
+            <select id="speed-select" class="btn-ctrl" style="cursor:pointer;" title="调节书写速度">
+              <option value="0.5">0.5x 慢速</option>
+              <option value="1" selected>1.0x 正常</option>
+              <option value="1.6">1.6x 快速</option>
+            </select>
+          </div>
+          <!-- 临摹练字实时评价反馈条 -->
+          <div id="quiz-feedback" class="quiz-feedback-box"></div>
+        </div>
+
+        <!-- 位于动图下方：逐笔拆解网格 (Step-by-Step Breakdown) -->
+        <div class="breakdown-section">
+          <div class="breakdown-header">
+            <h3 class="breakdown-title">
+              <span>🖌️</span> 笔画逐笔拆解
+            </h3>
+            <span id="stroke-count-badge" class="breakdown-badge">加载中...</span>
+          </div>
+          <!-- 动态生成的逐笔演变小卡片矩阵 -->
+          <div id="stroke-steps-grid" class="stroke-steps-grid"></div>
+        </div>
+      </section>
+
+      <!-- 右侧：字典详细条目与关联扩展 -->
+      <section class="char-detail-column">
+        <!-- 字头与发音 -->
+        <div class="entry-head">
+          <div class="head-char-group">
+            <div id="main-char" class="main-char">永</div>
+            <div class="main-pinyin-group">
+              <span id="main-pinyin" class="main-pinyin">yǒng</span>
+              <button id="audio-btn" class="audio-btn" title="点击真人语音朗读">🔊</button>
+            </div>
+          </div>
+          <!-- 多音字标签 (如有) -->
+          <div id="polyphone-tags" class="polyphone-tags"></div>
+        </div>
+
+        <!-- 汉字属性矩阵 -->
+        <div class="char-meta-matrix">
+          <div class="meta-item">
+            <span class="meta-label">部首</span>
+            <span id="meta-radical" class="meta-value highlight">-</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">总笔画</span>
+            <span id="meta-strokes" class="meta-value">-</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">部外笔画</span>
+            <span id="meta-extra-strokes" class="meta-value">-</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">字形结构</span>
+            <span id="meta-structure" class="meta-value">-</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">五笔编码</span>
+            <span id="meta-wubi" class="meta-value">-</span>
+          </div>
+        </div>
+
+        <!-- 同音字 -->
+        <div class="section-block">
+          <h4 class="section-title">同音词 / 同音字</h4>
+          <div id="homophones-list" class="homophones-list"></div>
+        </div>
+
+        <!-- 常用组词 -->
+        <div class="section-block">
+          <h4 class="section-title">常用组词</h4>
+          <div id="words-list" class="words-list"></div>
+        </div>
+
+        <!-- 字典释义 -->
+        <div class="section-block">
+          <h4 class="section-title">字典详细释义</h4>
+          <div id="explanation-body" class="explanation-body"></div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- 部首查字模态抽屉 -->
+  <div id="radical-modal" class="modal-overlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title">📖 部首检字表</h3>
+        <button class="modal-close-btn" title="关闭">✕</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size:0.85rem;color:var(--ink-muted);margin-bottom:0.8rem;">
+          请按照部首笔画数点选部首，随后在下方选择对应的汉字：
+        </p>
+        <div id="radical-groups-list"></div>
+        <div class="radical-results-area">
+          <h4 id="selected-radical-title" style="font-size:0.95rem;font-weight:700;color:var(--ink-primary);">请点击上方部首进行筛选</h4>
+          <div id="radical-results-list" class="char-chips-grid"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 拼音查字模态抽屉 -->
+  <div id="pinyin-modal" class="modal-overlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title">🔤 拼音检字表</h3>
+        <button class="modal-close-btn" title="关闭">✕</button>
+      </div>
+      <div class="modal-body">
+        <!-- 26个英文字母索引导航 -->
+        <div id="pinyin-alpha-nav" class="pinyin-alphabet-nav"></div>
+        <!-- 当前字母下的所有音节 -->
+        <div id="pinyin-syllables-list" class="syllable-chips"></div>
+        <!-- 选定音节下的四声汉字分类矩阵 -->
+        <div class="radical-results-area">
+          <h4 id="selected-pinyin-title" style="font-size:0.95rem;font-weight:700;color:var(--ink-primary);margin-bottom:0.5rem;">请选择音节</h4>
+          <div id="pinyin-results-list"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 载入核心数据与脚本 (纯本地运行无跨域阻碍) -->
+  <script src="data/dict-core.js"></script>
+  <script src="data/dict-index.js"></script>
+  <script src="js/radical-data.js"></script>
+  <script src="js/pinyin-data.js"></script>
+  <script src="js/stroke-names.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
