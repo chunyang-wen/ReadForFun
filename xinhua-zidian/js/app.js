@@ -87,22 +87,6 @@
         console.warn('本地 JSON 异步加载异常，尝试使用备用默认字库:', e);
       }
     }
-      // 基础 fallback 备用数据
-      state.coreDict['永'] = {
-        char: '永',
-        pinyin: 'yǒng',
-        radical: '水',
-        radical_strokes: 4,
-        strokes: 5,
-        extra_strokes: 1,
-        structure: '独体字',
-        wubi: 'YNI',
-        stroke_code: '45134',
-        explanation: '永 yǒng\n⒈水流长。“水”的省文与“泳”的象形结合。\n⒉久远，长久：～远。～恒。～垂不朽。\n⒊长，持续：～夜。～怀。\n⒋书画中著名的“永字八法”，点为侧、横为勒、竖为努、钩为趯、提为策、撇为掠、短撇为啄、捺为磔。',
-        words: ['永远', '永恒', '永久', '永垂不朽', '永生', '永别'],
-        homophones: ['勇', '涌', '泳', '踊', '蛹', '俑', '恿']
-      };
-    }
 
     // 默认展示“永”字（汉字书法与笔顺集大成者）
     const initialChar = getUrlParam('char') || '永';
@@ -232,12 +216,29 @@
       strokeAnimationSpeed: state.animSpeed,
       delayBetweenStrokes: 120,
       showOutline: true,
-      showCharacter: true
+      showCharacter: true,
+      charDataLoader: function(c, onComplete, onFail) {
+        if (window.PRELOADED_HANZI && window.PRELOADED_HANZI[c]) {
+          onComplete(window.PRELOADED_HANZI[c]);
+          return;
+        }
+        fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${encodeURIComponent(c)}.json`)
+          .then(res => res.json())
+          .then(data => onComplete(data))
+          .catch(err => {
+            if (onFail) onFail(err);
+          });
+      }
     });
 
     // 异步加载单字矢量骨架数据以实现下方逐笔拆解
     try {
-      const charData = await HanziWriter.loadCharacterData(char);
+      let charData = null;
+      if (window.PRELOADED_HANZI && window.PRELOADED_HANZI[char]) {
+        charData = window.PRELOADED_HANZI[char];
+      } else {
+        charData = await HanziWriter.loadCharacterData(char);
+      }
       state.charData = charData;
       
       const strokeCount = charData.strokes.length;
@@ -250,7 +251,7 @@
       state.writer.animateCharacter();
     } catch (err) {
       console.warn('该字暂无在线矢量笔顺数据:', err);
-      el.strokeStepsGrid.innerHTML = '<div style="grid-column:1/-1;color:var(--ink-muted);font-size:0.85rem;padding:0.5rem 0;">该冷僻字暂无矢量笔画数据</div>';
+      el.strokeStepsGrid.innerHTML = '<div style="grid-column:1/-1;color:var(--ink-muted);font-size:0.85rem;padding:0.5rem 0;">该字矢量笔画数据加载中或暂无数据</div>';
       el.strokeCountBadge.textContent = `${entry.strokes || '-'} 笔`;
     }
   }
@@ -657,16 +658,30 @@
 
   // 工具函数：URL 参数
   function getUrlParam(key) {
-    const params = new URLSearchParams(window.location.search);
-    return params.get(key);
+    try {
+      const params = new URLSearchParams(window.location.search);
+      return params.get(key);
+    } catch (e) {
+      return null;
+    }
   }
 
   function setUrlParam(key, val) {
-    const url = new URL(window.location);
-    url.searchParams.set(key, val);
-    window.history.replaceState({}, '', url);
+    try {
+      if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
+        const url = new URL(window.location);
+        url.searchParams.set(key, val);
+        window.history.replaceState({}, '', url);
+      }
+    } catch (e) {
+      // 忽略本地 file:// 协议或受限环境下的 History 异常
+    }
   }
 
-  // 启动
-  window.addEventListener('DOMContentLoaded', initApp);
+  // 启动：兼顾已加载完毕或正在加载状态
+  if (document.readyState === 'loading') {
+    window.addEventListener('DOMContentLoaded', initApp);
+  } else {
+    initApp();
+  }
 })();
