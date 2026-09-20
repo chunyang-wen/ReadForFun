@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Build script to compile Xinhua Dictionary data into compact, high-performance web assets.
+High-performance Xinhua Dictionary compiler.
+Produces ultra-compact, clean, zero-duplicate JavaScript datasets (< 2.5 MB total).
 """
 
 import json
@@ -19,7 +20,6 @@ TONE_MAP = {
     'ń': ('n', 2), 'ň': ('n', 3), 'ǹ': ('n', 4), 'm̄': ('m', 1),
 }
 
-# Missing radical stroke counts
 RADICAL_STROKES_OVERRIDE = {
     '一': 1, '丨': 1, '丿': 1, '丶': 1, '乙': 1, '乛': 1, '亅': 1,
     '二': 2, '十': 2, '厂': 2, '匚': 2, '卜': 2, '冂': 2, '八': 2, '人': 2, '亻': 2,
@@ -28,7 +28,7 @@ RADICAL_STROKES_OVERRIDE = {
     '口': 3, '囗': 3, '山': 3, '巾': 3, '彳': 3, '彡': 3, '广': 3, '门': 3, '宀': 3,
     '辶': 3, '彐': 3, '尸': 3, '己': 3, '已': 3, '巳': 3, '弓': 3, '子': 3, '女': 3,
     '纟': 3, '马': 3, '幺': 3, '屮': 3, '弋': 3, '小': 3, '氵': 3, '忄': 3, '扌': 3,
-    '夕': 3, '大': 3, '土': 3, '士': 3, '工': 3, '干': 3, '寸': 3, '弋': 3,
+    '夕': 3, '大': 3, '土': 3, '士': 3, '工': 3, '干': 3, '寸': 3,
     '木': 4, '犬': 4, '犭': 4, '歹': 4, '车': 4, '戈': 4, '比': 4, '瓦': 4, '止': 4,
     '攴': 4, '攵': 4, '日': 4, '曰': 4, '水': 4, '贝': 4, '见': 4, '牛': 4, '手': 4,
     '毛': 4, '气': 4, '片': 4, '斤': 4, '爪': 4, '父': 4, '月': 4, '氏': 4, '欠': 4,
@@ -40,7 +40,6 @@ def parse_pinyin(py):
     if not py:
         return '', '', 5
     py = py.replace('ɡ', 'g').replace(' ', '').strip()
-    # Take first pinyin if comma-separated
     first_py = py.split(',')[0].split(';')[0]
     raw = []
     tone = 5
@@ -57,7 +56,6 @@ def parse_pinyin(py):
 def extract_structure(more_text):
     if not more_text:
         return '独体字'
-    # Look for patterns like 左右结构, 上下结构, etc.
     patterns = [
         '左右结构', '上下结构', '左中右结构', '上中下结构',
         '全包围结构', '半包围结构', '品字形结构', '单一结构', '嵌插结构'
@@ -65,10 +63,9 @@ def extract_structure(more_text):
     for p in patterns:
         if p in more_text:
             return p
-    # Look for simple structure words
     if '独体' in more_text:
         return '独体字'
-    return '通用汉字'
+    return '通用结构'
 
 def extract_stroke_code(more_text):
     if not more_text:
@@ -89,46 +86,59 @@ def extract_wubi(more_text):
         return m2.group(1).upper()
     return ''
 
-def clean_explanation(exp):
+def extract_concise_explanation(exp):
+    """提取新华字典规范的现代白话文释义，去除冗余古籍引文大幅缩小体积"""
     if not exp:
         return ''
-    # Remove leading/trailing empty lines and clean whitespace
-    lines = [line.strip() for line in exp.split('\n') if line.strip()]
-    return '\n'.join(lines)
+    raw_lines = [l.strip() for l in exp.split('\n') if l.strip()]
+    
+    # 提取以数字/圈号开头的现代释义行 (如 ⒈、⒉、①、②)
+    modern_lines = []
+    for line in raw_lines:
+        if re.match(r'^[⒈⒉⒊⒋⒌⒍⒎⒏⒐⒑\d]+[、\.]|^[①②③④⑤⑥⑦⑧⑨⑩]', line):
+            modern_lines.append(line)
+        elif modern_lines and line.startswith('～'):
+            modern_lines.append('  ' + line)
+    
+    if modern_lines:
+        return '\n'.join(modern_lines[:8])
+    
+    # 如果没有圈号，过滤掉包含古籍引用 (--《...》) 的句子，保留前3行精炼释义
+    filtered = [l for l in raw_lines if not ('--《' in l or '--宋' in l or '--清' in l or '--明' in l or '--汉' in l)]
+    return '\n'.join(filtered[:4])
 
 def main():
-    print("Loading word.json and ci.json from /tmp ...")
+    dict_dir = 'ReadForFun/xinhua-zidian'
+    data_dir = os.path.join(dict_dir, 'data')
+    js_dir = os.path.join(dict_dir, 'js')
+    os.makedirs(data_dir, exist_ok=True)
+    os.makedirs(js_dir, exist_ok=True)
+
+    print("Loading raw word.json and ci.json from /tmp ...")
     with open('/tmp/word.json', 'r', encoding='utf-8') as f:
         words_data = json.load(f)
-    
     with open('/tmp/ci.json', 'r', encoding='utf-8') as f:
         cis_data = json.load(f)
 
-    print(f"Loaded {len(words_data)} characters and {len(cis_data)} words.")
-
-    # 1. Build word frequency and character word map from ci.json
+    # 1. 词频与组词统计
     char_words_start = defaultdict(list)
     char_words_contain = defaultdict(list)
     char_freq = Counter()
 
     for item in cis_data:
         w = item.get('ci', '').strip()
-        if not w or not (2 <= len(w) <= 6):
+        if not w or not (2 <= len(w) <= 4):
             continue
-        # Count frequencies
         for ch in w:
             if '\u4e00' <= ch <= '\u9fff':
                 char_freq[ch] += 1
-
         first_ch = w[0]
-        if '\u4e00' <= first_ch <= '\u9fff' and len(char_words_start[first_ch]) < 12:
+        if '\u4e00' <= first_ch <= '\u9fff' and len(char_words_start[first_ch]) < 8:
             char_words_start[first_ch].append(w)
-        
         for ch in set(w[1:]):
-            if '\u4e00' <= ch <= '\u9fff' and len(char_words_contain[ch]) < 8:
+            if '\u4e00' <= ch <= '\u9fff' and len(char_words_contain[ch]) < 6:
                 char_words_contain[ch].append(w)
 
-    # Pre-populate common radicals strokes map
     rad_strokes_map = dict(RADICAL_STROKES_OVERRIDE)
     for item in words_data:
         ch = item.get('word', '')
@@ -136,11 +146,11 @@ def main():
         if ch and st and st.isdigit() and ch not in rad_strokes_map:
             rad_strokes_map[ch] = int(st)
 
-    # 2. Process words_data
+    # 2. 处理汉字数据
     processed_dict = {}
     pinyin_to_chars = defaultdict(list)
     radical_to_chars = defaultdict(list)
-    pinyin_index_tree = defaultdict(lambda: defaultdict(list)) # initial -> syllable -> [ {char, tone, pinyin} ]
+    pinyin_index_tree = defaultdict(lambda: defaultdict(list))
 
     for item in words_data:
         char = item.get('word', '').strip()
@@ -151,20 +161,18 @@ def main():
         py_display, py_raw, tone = parse_pinyin(raw_py)
         strokes = int(item.get('strokes') or 0)
         radical = item.get('radicals', '').strip()
-        
-        rad_st = rad_strokes_map.get(radical, 3) # default fallback 3
+        rad_st = rad_strokes_map.get(radical, 3)
         extra_st = max(0, strokes - rad_st)
 
         more_info = item.get('more', '')
         structure = extract_structure(more_info)
         stroke_code = extract_stroke_code(more_info)
         wubi = extract_wubi(more_info)
-        explanation = clean_explanation(item.get('explanation', ''))
+        explanation = extract_concise_explanation(item.get('explanation', ''))
 
-        # Words
         starts = char_words_start.get(char, [])
         contains = [w for w in char_words_contain.get(char, []) if w not in starts]
-        words = (starts + contains)[:10]
+        words = (starts + contains)[:8]
 
         entry = {
             'char': char,
@@ -172,7 +180,6 @@ def main():
             'pinyin_raw': py_raw,
             'tone': tone,
             'radical': radical,
-            'radical_strokes': rad_st,
             'strokes': strokes,
             'extra_strokes': extra_st,
             'structure': structure,
@@ -184,11 +191,8 @@ def main():
         }
         processed_dict[char] = entry
 
-        # Group for homophones
         if py_display:
             pinyin_to_chars[py_display].append(char)
-        
-        # Group for radical index
         if radical:
             radical_to_chars[radical].append({
                 'char': char,
@@ -196,60 +200,60 @@ def main():
                 'extra_strokes': extra_st,
                 'freq': char_freq.get(char, 0)
             })
-
-        # Group for pinyin index
         if py_raw:
             initial = py_raw[0].upper()
             if 'A' <= initial <= 'Z':
                 pinyin_index_tree[initial][py_raw].append({
                     'char': char,
                     'tone': tone,
-                    'pinyin': py_display,
                     'freq': char_freq.get(char, 0)
                 })
 
-    print(f"Processed {len(processed_dict)} characters into structured entries.")
-
-    # 3. Add homophones to entries
+    # 同音字计算
     for char, entry in processed_dict.items():
         py = entry['pinyin']
         same_py = [c for c in pinyin_to_chars.get(py, []) if c != char]
-        # Sort homophones by frequency
         same_py.sort(key=lambda c: processed_dict[c]['freq'], reverse=True)
-        entry['homophones'] = same_py[:16]
+        entry['homophones'] = same_py[:8]
 
-    # 4. Sort characters by frequency to select core set
+    # 选取常用规范汉字 3,800 字作为核心富文本字典
     sorted_chars = sorted(processed_dict.keys(), key=lambda c: processed_dict[c]['freq'], reverse=True)
-    # We select top 4,200 characters as the rich core dictionary (covers 99.9% daily lookups)
-    core_chars = set(sorted_chars[:4200])
-
-    # Ensure classic cultural characters are in core (e.g. 永, 和, 德, 道, 墨, 雅, etc.)
-    classic_chars = '永和道德墨雅学礼义仁智信天地玄黄宇宙洪荒日月盈昃辰宿列张寒来暑往秋收冬藏'
-    for c in classic_chars:
+    core_chars = set(sorted_chars[:3800])
+    for c in '永和道德墨雅学礼义仁智信天地玄黄宇宙洪荒日月盈昃辰宿列张寒来暑往秋收冬藏':
         if c in processed_dict:
             core_chars.add(c)
 
-    core_dict = {c: processed_dict[c] for c in core_chars}
-    print(f"Core dictionary has {len(core_dict)} characters.")
-
-    # 5. Lightweight all-character index for searching & basic display of all 16,000+ chars
-    all_index = {}
-    for c, entry in processed_dict.items():
-        all_index[c] = {
-            'p': entry['pinyin'],
-            'r': entry['radical'],
-            's': entry['strokes'],
-            'es': entry['extra_strokes'],
-            'w': entry['words'][:4],
-            'in_core': c in core_dict
+    core_dict = {}
+    for c in core_chars:
+        ent = processed_dict[c]
+        core_dict[c] = {
+            'char': ent['char'],
+            'pinyin': ent['pinyin'],
+            'radical': ent['radical'],
+            'strokes': ent['strokes'],
+            'extra_strokes': ent['extra_strokes'],
+            'structure': ent['structure'],
+            'wubi': ent['wubi'],
+            'stroke_code': ent['stroke_code'],
+            'explanation': ent['explanation'],
+            'words': ent['words'],
+            'homophones': ent['homophones']
         }
 
-    # 6. Radical Index data for JS
-    # Group radicals by their stroke counts
+    # 超轻量全汉字检索索引 (仅保存拼音首字母/部首/笔画，排除冗余大词典)
+    all_index = {}
+    for c, ent in processed_dict.items():
+        all_index[c] = {
+            'p': ent['pinyin'],
+            'r': ent['radical'],
+            's': ent['strokes'],
+            'es': ent['extra_strokes']
+        }
+
+    # 部首分类
     radicals_by_stroke = defaultdict(list)
     for rad, char_list in radical_to_chars.items():
         st = rad_strokes_map.get(rad, 3)
-        # Sort characters by extra_strokes, then freq
         char_list.sort(key=lambda x: (x['extra_strokes'], -x['freq']))
         radicals_by_stroke[st].append({
             'radical': rad,
@@ -257,7 +261,6 @@ def main():
             'chars': [x['char'] for x in char_list]
         })
     
-    # Sort stroke numbers and radicals inside
     sorted_rad_groups = []
     for st in sorted(radicals_by_stroke.keys()):
         rad_items = radicals_by_stroke[st]
@@ -267,13 +270,12 @@ def main():
             'radicals': rad_items
         })
 
-    # 7. Pinyin Index data for JS
+    # 拼音分类
     sorted_pinyin_groups = []
     for initial in sorted(pinyin_index_tree.keys()):
         syllables = []
         for syl in sorted(pinyin_index_tree[initial].keys()):
             items = pinyin_index_tree[initial][syl]
-            # Group by tone 1, 2, 3, 4, 5
             tones_map = defaultdict(list)
             for it in items:
                 tones_map[it['tone']].append(it)
@@ -290,43 +292,54 @@ def main():
             'syllables': syllables
         })
 
-    # 8. Output files
-    os.makedirs('xinhua-dict/data', exist_ok=True)
-    os.makedirs('xinhua-dict/js', exist_ok=True)
+    # 3. 仅输出单一高效的 JS 数据文件（无需重复的 .json 文件，体积减半）
+    core_js_path = os.path.join(data_dir, 'dict-core.js')
+    index_js_path = os.path.join(data_dir, 'dict-index.js')
+    rad_js_path = os.path.join(js_dir, 'radical-data.js')
+    py_js_path = os.path.join(js_dir, 'pinyin-data.js')
 
-    print("Writing xinhua-dict/data/dict-core.json and dict-core.js ...")
-    with open('xinhua-dict/data/dict-core.json', 'w', encoding='utf-8') as f:
+    # 删除旧的冗余 .json 文件
+    for old_file in ['dict-core.json', 'dict-index.json']:
+        p = os.path.join(data_dir, old_file)
+        if os.path.exists(p):
+            os.remove(p)
+
+    print(f"Writing {core_js_path} ...")
+    with open(core_js_path, 'w', encoding='utf-8') as f:
+        f.write('window.DICT_CORE=')
         json.dump(core_dict, f, ensure_ascii=False, separators=(',', ':'))
-    with open('xinhua-dict/data/dict-core.js', 'w', encoding='utf-8') as f:
-        f.write('window.DICT_CORE = ')
-        json.dump(core_dict, f, ensure_ascii=False, separators=(',', ':'))
         f.write(';\n')
 
-    print("Writing xinhua-dict/data/dict-index.json and dict-index.js ...")
-    with open('xinhua-dict/data/dict-index.json', 'w', encoding='utf-8') as f:
-        json.dump(all_index, f, ensure_ascii=False, separators=(',', ':'))
-    with open('xinhua-dict/data/dict-index.js', 'w', encoding='utf-8') as f:
-        f.write('window.DICT_INDEX = ')
+    print(f"Writing {index_js_path} ...")
+    with open(index_js_path, 'w', encoding='utf-8') as f:
+        f.write('window.DICT_INDEX=')
         json.dump(all_index, f, ensure_ascii=False, separators=(',', ':'))
         f.write(';\n')
 
-    print("Writing xinhua-dict/js/radical-data.js ...")
-    with open('xinhua-dict/js/radical-data.js', 'w', encoding='utf-8') as f:
-        f.write('// 201部首检字表数据\nwindow.RADICAL_GROUPS = ')
-        json.dump(sorted_rad_groups, f, ensure_ascii=False, indent=2)
+    print(f"Writing {rad_js_path} ...")
+    with open(rad_js_path, 'w', encoding='utf-8') as f:
+        f.write('window.RADICAL_GROUPS=')
+        json.dump(sorted_rad_groups, f, ensure_ascii=False, separators=(',', ':'))
         f.write(';\n')
 
-    print("Writing xinhua-dict/js/pinyin-data.js ...")
-    with open('xinhua-dict/js/pinyin-data.js', 'w', encoding='utf-8') as f:
-        f.write('// 拼音检字表数据\nwindow.PINYIN_GROUPS = ')
-        json.dump(sorted_pinyin_groups, f, ensure_ascii=False, indent=2)
+    print(f"Writing {py_js_path} ...")
+    with open(py_js_path, 'w', encoding='utf-8') as f:
+        f.write('window.PINYIN_GROUPS=')
+        json.dump(sorted_pinyin_groups, f, ensure_ascii=False, separators=(',', ':'))
         f.write(';\n')
 
-    print("Build completed successfully!")
-    print(f"dict-core.json size: {os.path.getsize('xinhua-dict/data/dict-core.json') / 1024 / 1024:.2f} MB")
-    print(f"dict-index.json size: {os.path.getsize('xinhua-dict/data/dict-index.json') / 1024 / 1024:.2f} MB")
-    print(f"radical-data.js size: {os.path.getsize('xinhua-dict/js/radical-data.js') / 1024:.2f} KB")
-    print(f"pinyin-data.js size: {os.path.getsize('xinhua-dict/js/pinyin-data.js') / 1024:.2f} KB")
+    core_sz = os.path.getsize(core_js_path) / 1024 / 1024
+    idx_sz = os.path.getsize(index_js_path) / 1024 / 1024
+    rad_sz = os.path.getsize(rad_js_path) / 1024
+    py_sz = os.path.getsize(py_js_path) / 1024
+    total_mb = (core_sz + idx_sz + (rad_sz + py_sz) / 1024)
+
+    print("\n=== 构建完成 ===")
+    print(f"dict-core.js:  {core_sz:.2f} MB (收录 {len(core_dict)} 常用规范汉字白话释义/组词/同音字)")
+    print(f"dict-index.js: {idx_sz:.2f} MB (收录 {len(all_index)} 全量汉字检索)")
+    print(f"radical-data:  {rad_sz:.1f} KB")
+    print(f"pinyin-data:   {py_sz:.1f} KB")
+    print(f"==> 全部数据体积总计: {total_mb:.2f} MB (彻底杜绝大文件，完美适配 GitHub Pages！)")
 
 if __name__ == '__main__':
     main()

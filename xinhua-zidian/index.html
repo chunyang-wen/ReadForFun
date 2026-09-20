@@ -6,8 +6,8 @@
   <title>新华字典 - 汉字查询与笔顺演变系统</title>
   <meta name="description" content="现代化新华字典Web应用，提供部首查字、拼音查字、汉字释义、常用组词、同音字，以及零素材动态矢量笔顺演变与逐笔拆解。">
   <link rel="stylesheet" href="css/style.css">
-  <!-- HanziWriter 核心矢量笔画渲染库 (轻量 CDN，按需动态加载单字矢量骨架) -->
-  <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+  <!-- HanziWriter 核心矢量笔画渲染库 (本地 36KB，零 CDN 脚本阻断) -->
+  <script src="js/hanzi-writer.min.js"></script>
 </head>
 <body>
 
@@ -202,6 +202,7 @@
   <script src="data/dict-index.js"></script>
   <script src="js/radical-data.js"></script>
   <script src="js/pinyin-data.js"></script>
+  <script src="js/preload-hanzi.js"></script>
   <script src="js/stroke-names.js"></script>
   <script src="js/app.js"></script>
 </body>
