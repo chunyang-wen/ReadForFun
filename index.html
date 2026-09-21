@@ -587,20 +587,357 @@
       .feature, .feature-image, .oracle-inscriptions, .stroke-study { transition: none; }
     }
   </style>
+  <style>
+    /* Homepage catalog: compact editorial controls + shared grid/list cards. */
+    .page-shell {
+      width: min(1440px, calc(100% - 64px));
+      padding-top: 24px;
+    }
+    .topbar {
+      justify-content: space-between;
+      min-height: 58px;
+      padding: 0 2px 18px;
+    }
+    .shelf-mark {
+      display: grid;
+      justify-items: center;
+      color: var(--ink);
+      font-family: var(--serif);
+      line-height: 1;
+    }
+    .shelf-mark__pinyin {
+      margin-bottom: 4px;
+      font-family: var(--sans);
+      font-size: .58rem;
+      font-weight: 700;
+      letter-spacing: .24em;
+      text-transform: lowercase;
+    }
+    .shelf-mark__title {
+      font-size: 2rem;
+      letter-spacing: -.08em;
+    }
+    .library {
+      padding: clamp(26px, 3.5vw, 48px) 0 clamp(64px, 8vw, 108px);
+    }
+    .library-header {
+      display: block;
+      margin: 0 0 24px;
+    }
+    .visually-hidden {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      padding: 0 !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+    }
+    .catalog-toolbar {
+      position: sticky;
+      z-index: 8;
+      top: 0;
+      padding: 12px 0 18px;
+      background: linear-gradient(180deg, #e9e3d9 0%, #e9e3d9f2 76%, transparent 100%);
+    }
+    .catalog-toolbar__primary {
+      display: grid;
+      grid-template-columns: minmax(240px, 1fr) auto;
+      gap: 18px;
+      align-items: center;
+    }
+    .search-box {
+      position: relative;
+      display: flex;
+      align-items: center;
+      min-height: 58px;
+      border: 1px solid #1c292426;
+      border-radius: 18px;
+      background: #f8f5eee0;
+      box-shadow: 0 12px 34px #3a32290d, inset 0 1px #fff;
+      transition: border-color .25s ease, box-shadow .25s ease, background .25s ease;
+    }
+    .search-box:focus-within {
+      border-color: #59634b8c;
+      background: #fbf9f4f5;
+      box-shadow: 0 14px 38px #3a322914, 0 0 0 4px #59634b12;
+    }
+    .search-box svg {
+      flex: 0 0 auto;
+      width: 21px;
+      margin-left: 20px;
+      color: var(--moss);
+    }
+    .search-box input {
+      width: 100%;
+      min-width: 0;
+      padding: 16px 58px 16px 14px;
+      color: var(--ink);
+      border: 0;
+      outline: 0;
+      font: 500 1rem/1.2 var(--sans);
+      background: transparent;
+    }
+    .search-box input::placeholder { color: #7b8179; opacity: 1; }
+    .search-shortcut {
+      position: absolute;
+      right: 15px;
+      display: grid;
+      place-items: center;
+      min-width: 28px;
+      height: 26px;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      font-size: .72rem;
+      background: #eee9df;
+      box-shadow: inset 0 1px #fff;
+    }
+    .view-switcher {
+      display: inline-grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 4px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #f4f0e8b8;
+      box-shadow: inset 0 1px #fff;
+    }
+    .view-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      min-width: 106px;
+      min-height: 48px;
+      padding: 0 16px;
+      color: var(--muted);
+      border: 0;
+      border-radius: 12px;
+      font: 700 .78rem/1 var(--sans);
+      letter-spacing: .08em;
+      background: transparent;
+      cursor: pointer;
+      transition: color .2s ease, background .2s ease, box-shadow .2s ease, transform .2s ease;
+    }
+    .view-button:hover { color: var(--ink); }
+    .view-button:active { transform: scale(.98); }
+    .view-button[aria-pressed="true"] {
+      color: #f8f4ea;
+      background: var(--moss);
+      box-shadow: 0 8px 18px #36402f30, inset 0 1px #ffffff26;
+    }
+    .view-button svg { width: 17px; height: 17px; }
+    .catalog-toolbar__secondary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+      padding: 18px 2px 0;
+    }
+    .filter-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+    .filter-button {
+      padding: 10px 17px;
+      color: var(--muted);
+      border: 0;
+      border-radius: 999px;
+      font: 700 .76rem/1 var(--sans);
+      letter-spacing: .07em;
+      background: transparent;
+      cursor: pointer;
+      transition: color .2s ease, background .2s ease, transform .2s ease;
+    }
+    .filter-button:hover { color: var(--ink); background: #ffffff52; }
+    .filter-button:active { transform: scale(.97); }
+    .filter-button[aria-pressed="true"] { color: var(--ink); background: var(--sun); box-shadow: 0 7px 17px #b9872930; }
+    .result-count {
+      margin: 0;
+      flex: 0 0 auto;
+      color: var(--muted);
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+    .collection-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: clamp(38px, 4.2vw, 62px) clamp(22px, 2.5vw, 38px);
+    }
+    .collection-card[hidden] { display: none !important; }
+    .collection-link { gap: 15px; }
+    .collection-cover {
+      border-width: 9px;
+      box-shadow: 0 18px 36px #263d3729, 0 2px 0 #ffffff inset;
+    }
+    .collection-badge { top: 12px; left: 13px; padding: 7px 10px; font-size: .51rem; }
+    .collection-copy { gap: 7px; padding-top: 18px; }
+    .collection-copy h2 { font-size: clamp(1.55rem, 2.2vw, 2.25rem); }
+    .collection-kicker { font-size: .58rem; }
+    .collection-summary {
+      display: -webkit-box;
+      overflow: hidden;
+      font-size: .85rem;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+    .collection-read { font-size: .65rem; }
+    .empty-state {
+      margin: 34px 0 0;
+      padding: clamp(52px, 8vw, 96px) 28px;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      text-align: center;
+    }
+    .empty-state__mark { display: block; margin-bottom: 13px; color: var(--sun); font: 400 2.6rem/1 var(--serif); }
+    .empty-state h2 { margin: 0 0 10px; font-size: clamp(1.7rem, 3vw, 2.4rem); }
+    .empty-state p { margin: 0; color: var(--muted); }
+
+    body[data-view="list"] .collection-grid { display: block; }
+    body[data-view="list"] .collection-card { border-top: 1px solid var(--line); }
+    body[data-view="list"] .collection-card:last-child { border-bottom: 1px solid var(--line); }
+    body[data-view="list"] .collection-link {
+      position: relative;
+      grid-template-columns: clamp(210px, 20vw, 270px) minmax(0, 1fr) 54px;
+      gap: clamp(22px, 3vw, 46px);
+      align-items: center;
+      min-height: 148px;
+      padding: 10px 8px;
+    }
+    body[data-view="list"] .collection-link::after {
+      display: grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      content: "\2192";
+      border-radius: 50%;
+      background: #ddd6c9;
+      transition: color .25s ease, background .25s ease, transform .25s ease;
+    }
+    body[data-view="list"] .collection-card:hover .collection-link::after { color: #fff; background: var(--moss); transform: translateX(4px); }
+    body[data-view="list"] .collection-cover {
+      height: 132px;
+      aspect-ratio: auto;
+      border-width: 7px;
+      transform: rotate(-.5deg);
+    }
+    body[data-view="list"] .collection-card:nth-child(even) .collection-cover { transform: rotate(.55deg); }
+    body[data-view="list"] .collection-sheet { inset: 9% 10% 8%; border-width: 5px; }
+    body[data-view="list"] .collection-copy { gap: 8px; padding: 0; border-top: 0; }
+    body[data-view="list"] .collection-copy h2 { font-size: clamp(1.75rem, 3vw, 2.7rem); }
+    body[data-view="list"] .collection-summary { max-width: 44rem; -webkit-line-clamp: 1; }
+    body[data-view="list"] .collection-read { display: none; }
+    body[data-view="list"] .object-cover .collection-badge { right: 11px; bottom: 9px; }
+    body[data-view="list"] .dictionary-title { font-size: clamp(1.2rem, 2.4vw, 2.2rem); }
+    body[data-view="list"] .oracle-title { font-size: clamp(1.5rem, 3vw, 2.7rem); }
+    .footer-line { margin-top: 0; }
+
+    @media (max-width: 1050px) {
+      .collection-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      body[data-view="list"] .collection-link { grid-template-columns: 210px minmax(0, 1fr) 48px; }
+    }
+    @media (max-width: 760px) {
+      .page-shell { width: min(100% - 32px, 620px); padding-top: 16px; }
+      .topbar { min-height: 50px; padding-bottom: 14px; }
+      .shelf-mark__title { font-size: 1.65rem; }
+      .library { padding: 17px 0 72px; }
+      .library-header { margin-bottom: 12px; }
+      .catalog-toolbar { position: relative; padding-top: 7px; background: transparent; }
+      .catalog-toolbar__primary { grid-template-columns: 1fr; gap: 11px; }
+      .search-box { min-height: 52px; border-radius: 15px; }
+      .view-switcher { width: 100%; }
+      .view-button { min-width: 0; width: 100%; min-height: 43px; }
+      .catalog-toolbar__secondary { align-items: flex-end; padding-top: 14px; }
+      .filter-list { gap: 3px; }
+      .filter-button { padding: 9px 11px; font-size: .68rem; }
+      .result-count { padding-bottom: 9px; font-size: .63rem; }
+      .collection-grid { grid-template-columns: 1fr; gap: 50px; }
+      .collection-link { gap: 13px; }
+      .collection-cover { border-width: 8px; }
+      body[data-view="list"] .collection-link {
+        grid-template-columns: 132px minmax(0, 1fr) 32px;
+        gap: 14px;
+        min-height: 124px;
+        padding: 12px 1px;
+      }
+      body[data-view="list"] .collection-link::after { width: 31px; height: 31px; font-size: .8rem; }
+      body[data-view="list"] .collection-cover { border-width: 4px; }
+      body[data-view="list"] .collection-cover { height: auto; aspect-ratio: 1.7 / 1; }
+      body[data-view="list"] .collection-badge { display: none; }
+      body[data-view="list"] .collection-copy { gap: 4px; }
+      body[data-view="list"] .collection-copy h2 { font-size: clamp(1.2rem, 5vw, 1.6rem); }
+      body[data-view="list"] .collection-kicker { font-size: .48rem; }
+      body[data-view="list"] .collection-summary { font-size: .72rem; }
+      body[data-view="list"] .dictionary-edition,
+      body[data-view="list"] .dictionary-imprint,
+      body[data-view="list"] .stroke-study { display: none; }
+    }
+    @media (max-width: 420px) {
+      .wordmark { font-size: .68rem; letter-spacing: .13em; }
+      .shelf-mark__pinyin { font-size: .48rem; }
+      .shelf-mark__title { font-size: 1.45rem; }
+      .search-shortcut { display: none; }
+      .search-box input { padding-right: 14px; font-size: .9rem; }
+      .catalog-toolbar__secondary { display: grid; gap: 9px; }
+      .result-count { padding: 0 10px; }
+      body[data-view="list"] .collection-link { grid-template-columns: 112px minmax(0, 1fr); }
+      body[data-view="list"] .collection-link::after { display: none; }
+      body[data-view="list"] .collection-summary { display: none; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .view-button, .filter-button, .search-box, body[data-view="list"] .collection-link::after { transition: none; }
+    }
+  </style>
 </head>
-<body>
+<body data-view="grid">
   <div class="page-shell">
     <header class="topbar">
       <a class="wordmark" href="./" aria-label="ReadForFun 首页">ReadForFun</a>
+      <div class="shelf-mark" aria-hidden="true">
+        <span class="shelf-mark__pinyin">shū&nbsp;&nbsp;jià</span>
+        <span class="shelf-mark__title">书架</span>
+      </div>
     </header>
 
     <main class="library" aria-labelledby="shelf-title">
       <div class="library-header">
-        <h1 id="shelf-title"><ruby><span>书</span><rt>shū</rt></ruby><ruby><span>架</span><rt>jià</rt></ruby></h1>
+        <h1 id="shelf-title" class="visually-hidden">ReadForFun 故事书架</h1>
+        <div class="catalog-toolbar" aria-label="书架浏览工具">
+          <div class="catalog-toolbar__primary">
+            <label class="search-box" for="librarySearch">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.15A7.5 7.5 0 1 1 4 11.5a7.5 7.5 0 0 1 15 0Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <span class="visually-hidden">搜索书架</span>
+              <input id="librarySearch" type="search" autocomplete="off" placeholder="搜索书名、主题或合集" aria-controls="collectionGrid">
+              <span class="search-shortcut" aria-hidden="true">/</span>
+            </label>
+            <div class="view-switcher" role="group" aria-label="显示方式">
+              <button class="view-button" type="button" data-view-choice="grid" aria-pressed="true">
+                <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M2 2h5v5H2zm9 0h5v5h-5zM2 11h5v5H2zm9 0h5v5h-5z" fill="currentColor"/></svg>
+                网格
+              </button>
+              <button class="view-button" type="button" data-view-choice="list" aria-pressed="false">
+                <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M2 3h2v2H2zm4 0h10v2H6zM2 8h2v2H2zm4 0h10v2H6zM2 13h2v2H2zm4 0h10v2H6z" fill="currentColor"/></svg>
+                列表
+              </button>
+            </div>
+          </div>
+          <div class="catalog-toolbar__secondary">
+            <div class="filter-list" role="group" aria-label="按类型筛选">
+              <button class="filter-button" type="button" data-filter="all" aria-pressed="true">全部</button>
+              <button class="filter-button" type="button" data-filter="story" aria-pressed="false">故事</button>
+              <button class="filter-button" type="button" data-filter="poetry" aria-pressed="false">诗词</button>
+              <button class="filter-button" type="button" data-filter="reference" aria-pressed="false">工具书</button>
+            </div>
+            <p id="resultCount" class="result-count" aria-live="polite">7 个合集</p>
+          </div>
+        </div>
       </div>
 
-      <section class="collection-grid" aria-label="故事合集">
-        <article class="collection-card">
+      <section id="collectionGrid" class="collection-grid" aria-label="故事合集">
+        <article class="collection-card" data-category="story" data-search="planet earth nature coast ocean forest grassland 地球 自然 海岸 海洋 森林 草原">
           <a class="collection-link" href="our-planet-earth/" aria-label="打开合集《我们的星球 - 地球》">
             <div class="collection-cover">
               <span class="collection-sheet" style="background-image:linear-gradient(125deg,#173d3b22,transparent 54%),url('https://readforfun-img.chunyangwen.com/our-planet-earth/planet-earth-iii-s01e03-deserts-and-grasslands/images/page_01.webp')"></span>
@@ -616,7 +953,7 @@
             </div>
           </a>
         </article>
-        <article class="collection-card">
+        <article class="collection-card" data-category="story" data-search="idiom stories chengyu 成语 传统文化 智慧">
           <a class="collection-link" href="zhong-hua-cheng-yu-gu-shi/" aria-label="打开合集《中华成语故事》">
             <div class="collection-cover">
               <span class="collection-sheet" style="background-image:linear-gradient(125deg,#4f2d1b20,transparent 54%),url('https://readforfun-img.chunyangwen.com/zhong-hua-cheng-yu-gu-shi/s02e06-cheng-men-li-xue/images/page_01.webp')"></span>
@@ -633,7 +970,7 @@
             </div>
           </a>
         </article>
-        <article class="collection-card">
+        <article class="collection-card" data-category="reference" data-search="oracle bone script jiaguwen ancient characters 甲骨文 汉字 古文字">
           <a class="collection-link" href="jia-gu-wen/" aria-label="打开《甲骨文之美 · 殷商刻辞千字典》">
             <div class="collection-cover object-cover oracle-cover">
               <div class="oracle-title-block" aria-hidden="true">
@@ -654,7 +991,7 @@
             </div>
           </a>
         </article>
-        <article class="collection-card">
+        <article class="collection-card" data-category="poetry" data-search="tang poetry poems 唐诗 古诗 李白 杜甫">
           <a class="collection-link" href="tang-shi/" aria-label="打开《唐诗之境 · 诗画合集》">
             <div class="collection-cover" style="background: linear-gradient(145deg, #1b2d13, #b83b26);">
               <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/tang-shi/images/li-shen-min-nong-qi-er/poem.webp'); background-size: cover; background-position: center;"></span>
@@ -670,7 +1007,7 @@
             </div>
           </a>
         </article>
-        <article class="collection-card">
+        <article class="collection-card" data-category="poetry" data-search="song ci poetry lyrics 宋词 词牌 苏轼 辛弃疾">
           <a class="collection-link" href="song-ci/" aria-label="打开《宋词之境 · 词画合集》">
             <div class="collection-cover" style="background: linear-gradient(145deg, #10232a, #2d5a63);">
               <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/song-ci/images/su-shi-shui-diao-ge-tou/poem.webp'); background-size: cover; background-position: center;"></span>
@@ -686,7 +1023,7 @@
             </div>
           </a>
         </article>
-        <article class="collection-card">
+        <article class="collection-card" data-category="story" data-search="xiehouyu sayings proverbs folk wisdom 歇后语 俗语 谚语 民间智慧">
           <a class="collection-link" href="xie-hou-yu/" aria-label="打开《中华歇后语·俗语大全》">
             <div class="collection-cover" style="background: linear-gradient(145deg, #2b1f1d, #c45a30);">
               <span class="collection-sheet" style="background-image: url('https://readforfun-img.chunyangwen.com/xie-hou-yu/images/001-kong-fu-zi-ban-jia.webp'); background-size: cover; background-position: center;"></span>
@@ -702,7 +1039,7 @@
             </div>
           </a>
         </article>
-        <article class="collection-card">
+        <article class="collection-card" data-category="reference" data-search="xinhua dictionary chinese characters stroke pinyin 新华字典 汉字 笔顺 拼音 部首">
           <a class="collection-link" href="xinhua-zidian/" aria-label="打开《新华字典 · 汉字查询与笔画演变》">
             <div class="collection-cover object-cover dictionary-cover">
               <div class="dictionary-label" aria-hidden="true">
@@ -724,6 +1061,11 @@
             </div>
           </a>
         </article>
+      </section>
+      <section id="emptyState" class="empty-state" hidden aria-live="polite">
+        <span class="empty-state__mark" aria-hidden="true">※</span>
+        <h2>没有找到相关合集</h2>
+        <p>换一个书名、主题或分类试试看。</p>
       </section>
 
       <section class="legacy-book-grid" aria-hidden="true">
@@ -904,6 +1246,86 @@
           console.warn(`Unable to load ${data}`, error);
         }
       }));
+    })();
+
+    (() => {
+      const grid = document.getElementById("collectionGrid");
+      const cards = [...grid.querySelectorAll(".collection-card")];
+      const search = document.getElementById("librarySearch");
+      const resultCount = document.getElementById("resultCount");
+      const emptyState = document.getElementById("emptyState");
+      const filterButtons = [...document.querySelectorAll("[data-filter]")];
+      const viewButtons = [...document.querySelectorAll("[data-view-choice]")];
+      let activeFilter = "all";
+
+      const normalize = (value) => value
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLocaleLowerCase()
+        .replace(/\s+/g, " ")
+        .trim();
+
+      const updateResults = () => {
+        const query = normalize(search.value);
+        let visible = 0;
+
+        cards.forEach((card) => {
+          const matchesFilter = activeFilter === "all" || card.dataset.category === activeFilter;
+          const searchableText = normalize(`${card.textContent} ${card.dataset.search || ""}`);
+          const matchesQuery = !query || searchableText.includes(query);
+          const shouldShow = matchesFilter && matchesQuery;
+          card.hidden = !shouldShow;
+          if (shouldShow) visible += 1;
+        });
+
+        resultCount.textContent = `${visible} 个合集`;
+        emptyState.hidden = visible !== 0;
+        grid.hidden = visible === 0;
+      };
+
+      const setView = (view, persist = true) => {
+        const nextView = view === "list" ? "list" : "grid";
+        document.body.dataset.view = nextView;
+        viewButtons.forEach((button) => {
+          button.setAttribute("aria-pressed", String(button.dataset.viewChoice === nextView));
+        });
+        if (persist) {
+          try { localStorage.setItem("readforfun-library-view", nextView); } catch (_) {}
+        }
+      };
+
+      viewButtons.forEach((button) => {
+        button.addEventListener("click", () => setView(button.dataset.viewChoice));
+      });
+
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          activeFilter = button.dataset.filter;
+          filterButtons.forEach((item) => {
+            item.setAttribute("aria-pressed", String(item === button));
+          });
+          updateResults();
+        });
+      });
+
+      search.addEventListener("input", updateResults);
+      search.addEventListener("search", updateResults);
+      document.addEventListener("keydown", (event) => {
+        const isTyping = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName || "");
+        if (event.key === "/" && !isTyping && !event.metaKey && !event.ctrlKey && !event.altKey) {
+          event.preventDefault();
+          search.focus();
+        }
+        if (event.key === "Escape" && document.activeElement === search && search.value) {
+          search.value = "";
+          updateResults();
+        }
+      });
+
+      let savedView = "grid";
+      try { savedView = localStorage.getItem("readforfun-library-view") || "grid"; } catch (_) {}
+      setView(savedView, false);
+      updateResults();
     })();
   </script>
 </body>
