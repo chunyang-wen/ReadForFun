@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>新华字典 - 汉字查询与笔顺演变系统</title>
   <meta name="description" content="现代化新华字典Web应用，提供部首查字、拼音查字、汉字释义、常用组词、同音字，以及零素材动态矢量笔顺演变与逐笔拆解。">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=20260921v5">
   <!-- HanziWriter 核心矢量笔画渲染库 (本地 36KB，零 CDN 脚本阻断) -->
   <script src="js/hanzi-writer.min.js"></script>
 </head>
@@ -156,26 +156,26 @@
     </div>
   </main>
 
-  <!-- 部首查字右侧抽屉 (下钻推入与返回模式：1.选笔画 -> 2.选部首 -> 3.数剩余笔画查字) -->
-  <div id="radical-modal" class="drawer-overlay">
-    <div class="side-drawer" id="radical-drawer">
-      <!-- 抽屉顶部导航栏 -->
+  <!-- 部首查字弹窗（1. 部首笔画 -> 2. 选择部首 -> 3. 剩余笔画） -->
+  <div id="radical-modal" class="drawer-overlay" aria-hidden="true">
+    <div class="side-drawer" id="radical-drawer" role="dialog" aria-modal="true" aria-labelledby="rad-drawer-title" tabindex="-1">
       <div class="drawer-header">
         <button id="rad-drawer-back-btn" class="drawer-back-btn hidden" title="返回上一级">
           <span class="back-arrow">‹</span>
           <span class="back-text">返回</span>
         </button>
         <div class="drawer-title-area">
-          <h3 id="rad-drawer-title" class="drawer-title">📖 部首查字</h3>
+          <span class="drawer-kicker">新华字典 · 检字表</span>
+          <h3 id="rad-drawer-title" class="drawer-title">部首查字</h3>
           <div id="rad-breadcrumbs" class="drawer-breadcrumbs">
-            <span class="crumb active" data-step="0">① 笔画</span>
-            <span class="crumb-sep">›</span>
-            <span class="crumb" data-step="1">② 部首</span>
-            <span class="crumb-sep">›</span>
-            <span class="crumb" data-step="2">③ 检字</span>
+            <button class="crumb active" type="button" data-step="0"><span>1</span> 部首笔画</button>
+            <i class="crumb-line" aria-hidden="true"></i>
+            <button class="crumb" type="button" data-step="1"><span>2</span> 选择部首</button>
+            <i class="crumb-line" aria-hidden="true"></i>
+            <button class="crumb" type="button" data-step="2"><span>3</span> 剩余笔画</button>
           </div>
         </div>
-        <button class="modal-close-btn drawer-close-btn" title="关闭抽屉">✕</button>
+        <button class="modal-close-btn drawer-close-btn" title="关闭弹窗" aria-label="关闭部首查字">✕</button>
       </div>
 
       <!-- 抽屉滑动视口容器 -->
@@ -217,26 +217,26 @@
     </div>
   </div>
 
-  <!-- 拼音查字右侧抽屉 (下钻推入与返回模式：1.选声母 -> 2.选韵母 -> 3.按四声查看汉字) -->
-  <div id="pinyin-modal" class="drawer-overlay">
-    <div class="side-drawer" id="pinyin-drawer">
-      <!-- 抽屉顶部导航栏 -->
+  <!-- 拼音查字弹窗（1. 选择声母 -> 2. 选择韵母 -> 3. 按声调检字） -->
+  <div id="pinyin-modal" class="drawer-overlay" aria-hidden="true">
+    <div class="side-drawer" id="pinyin-drawer" role="dialog" aria-modal="true" aria-labelledby="py-drawer-title" tabindex="-1">
       <div class="drawer-header">
         <button id="py-drawer-back-btn" class="drawer-back-btn hidden" title="返回上一级">
           <span class="back-arrow">‹</span>
           <span class="back-text">返回</span>
         </button>
         <div class="drawer-title-area">
-          <h3 id="py-drawer-title" class="drawer-title">🔤 拼音查字</h3>
+          <span class="drawer-kicker">新华字典 · 音序表</span>
+          <h3 id="py-drawer-title" class="drawer-title">拼音查字</h3>
           <div id="py-breadcrumbs" class="drawer-breadcrumbs">
-            <span class="crumb active" data-step="0">① 声母</span>
-            <span class="crumb-sep">›</span>
-            <span class="crumb" data-step="1">② 韵母</span>
-            <span class="crumb-sep">›</span>
-            <span class="crumb" data-step="2">③ 检字</span>
+            <button class="crumb active" type="button" data-step="0"><span>1</span> 选择声母</button>
+            <i class="crumb-line" aria-hidden="true"></i>
+            <button class="crumb" type="button" data-step="1"><span>2</span> 选择韵母</button>
+            <i class="crumb-line" aria-hidden="true"></i>
+            <button class="crumb" type="button" data-step="2"><span>3</span> 按声调检字</button>
           </div>
         </div>
-        <button class="modal-close-btn drawer-close-btn" title="关闭抽屉">✕</button>
+        <button class="modal-close-btn drawer-close-btn" title="关闭弹窗" aria-label="关闭拼音查字">✕</button>
       </div>
 
       <!-- 抽屉滑动视口容器 -->
@@ -282,6 +282,6 @@
   <script src="js/pinyin-data.js?v=20260921v4"></script>
   <script src="js/preload-hanzi.js?v=20260921v4"></script>
   <script src="js/stroke-names.js?v=20260921v4"></script>
-  <script src="js/app.js?v=20260921v4"></script>
+  <script src="js/app.js?v=20260921v5"></script>
 </body>
 </html>
