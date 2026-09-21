@@ -544,6 +544,48 @@
       text-transform: uppercase;
     }
     .dictionary-cover .collection-badge { background: #173429df; }
+    .game-cover {
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(circle at 18% 20%, #ffffff0d 0 1px, transparent 1.5px),
+        linear-gradient(145deg, #34443c, #1f2d27);
+      background-size: 17px 17px, 100% 100%;
+    }
+    .game-cover::before,
+    .game-cover::after { display: none; }
+    .game-board-preview {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 4%;
+      width: 72%;
+      aspect-ratio: 1;
+      padding: 4%;
+      border-radius: 8%;
+      background: #17241f;
+      box-shadow: 0 19px 32px #0a120e8f, inset 0 0 0 1px #ffffff12;
+      transform: rotate(-3deg);
+      transition: transform .55s cubic-bezier(.2,.8,.2,1);
+    }
+    .game-board-preview span {
+      display: grid;
+      place-items: center;
+      border-radius: 13%;
+      color: #2c3933;
+      font-family: var(--serif);
+      font-size: clamp(.52rem, 1.65vw, 1.32rem);
+      font-weight: 700;
+      background: #ded7c9;
+      box-shadow: inset 0 1px #fff8;
+    }
+    .game-board-preview .blank { color: transparent; background: #ffffff12; box-shadow: none; }
+    .game-board-preview .tile-4 { background: #e5bd67; }
+    .game-board-preview .tile-8 { color: #fff7e9; background: #c8784e; }
+    .game-board-preview .tile-16 { color: #fff7e9; background: #9d4333; }
+    .game-board-preview .tile-32 { color: #fff7e9; background: #66443a; }
+    .game-board-preview .tile-64 { color: #fff8e7; background: #d3a13a; }
+    .game-cover .collection-badge { background: #1b2924dd; }
+    .collection-card:hover .game-board-preview { transform: rotate(0deg) scale(1.035); }
     .collection-card:hover .oracle-inscriptions { transform: rotate(4deg) translateY(-3px); }
     .collection-card:hover .stroke-study { transform: rotate(0deg) translateY(-3px); }
     .oracle-inscriptions,
@@ -913,8 +955,9 @@
               <button class="filter-button" type="button" data-filter="story" aria-pressed="false">故事</button>
               <button class="filter-button" type="button" data-filter="poetry" aria-pressed="false">诗词</button>
               <button class="filter-button" type="button" data-filter="reference" aria-pressed="false">工具书</button>
+              <button class="filter-button" type="button" data-filter="game" aria-pressed="false">游戏</button>
             </div>
-            <p id="resultCount" class="result-count" aria-live="polite">7 个合集</p>
+            <p id="resultCount" class="result-count" aria-live="polite">8 个项目</p>
           </div>
         </div>
       </div>
@@ -1041,6 +1084,25 @@
               <h2><ruby><span>新</span><rt>xīn</rt></ruby><ruby><span>华</span><rt>huá</rt></ruby><ruby><span>字</span><rt>zì</rt></ruby><ruby><span>典</span><rt>diǎn</rt></ruby></h2>
               <p class="collection-summary">汉字查询与动态笔顺演变 · 201部首与拼音双轨检字 · 动图演示与逐笔拆解高亮 · 同音字组词详析与真人朗读。</p>
               <span class="collection-read"><ruby><span>进</span><rt>jìn</rt></ruby><ruby><span>入</span><rt>rù</rt></ruby><ruby><span>字</span><rt>zì</rt></ruby><ruby><span>典</span><rt>diǎn</rt></ruby> ↗</span>
+            </div>
+          </a>
+        </article>
+        <article class="collection-card" data-category="game" data-search="games play puzzle 2048 number 游戏 数字 益智 合并">
+          <a class="collection-link" href="games/" aria-label="打开 ReadForFun 游戏室">
+            <div class="collection-cover game-cover">
+              <div class="game-board-preview" aria-hidden="true">
+                <span class="tile-4">4</span><span class="blank">0</span><span>2</span><span class="tile-8">8</span>
+                <span class="blank">0</span><span class="tile-16">16</span><span class="tile-4">4</span><span>2</span>
+                <span class="tile-32">32</span><span class="blank">0</span><span class="tile-8">8</span><span class="tile-4">4</span>
+                <span class="blank">0</span><span class="tile-64">64</span><span class="tile-16">16</span><span class="blank">0</span>
+              </div>
+              <span class="collection-badge">1 GAME · A ROOM FOR PLAY</span>
+            </div>
+            <div class="collection-copy">
+              <p class="collection-kicker" style="color: #9d4333;">PLAYROOM · NUMBER PUZZLES</p>
+              <h2><ruby><span>游</span><rt>yóu</rt></ruby><ruby><span>戏</span><rt>xì</rt></ruby><ruby><span>室</span><rt>shì</rt></ruby></h2>
+              <p class="collection-summary">从 2048 开始 · 滑动、合并，在简单规则里寻找下一步。</p>
+              <span class="collection-read"><ruby><span>开</span><rt>kāi</rt></ruby><ruby><span>始</span><rt>shǐ</rt></ruby><ruby><span>游</span><rt>yóu</rt></ruby><ruby><span>戏</span><rt>xì</rt></ruby> ↗</span>
             </div>
           </a>
         </article>
@@ -1261,7 +1323,7 @@
           if (shouldShow) visible += 1;
         });
 
-        resultCount.textContent = `${visible} 个合集`;
+        resultCount.textContent = `${visible} 个项目`;
         emptyState.hidden = visible !== 0;
         grid.hidden = visible === 0;
       };

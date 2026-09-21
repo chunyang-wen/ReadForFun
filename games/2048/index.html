@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#e8e1d5">
+  <title>2048 · ReadForFun 游戏室</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="wordmark" href="../../"><img src="../../apple-touch-icon.png" alt="" width="30" height="30">ReadForFun</a>
+      <a class="back-link" href="../">游戏室</a>
+    </header>
+
+    <main class="game-layout">
+      <section class="game-intro" aria-labelledby="game-title">
+        <p class="eyebrow">NUMBER PUZZLE · 01</p>
+        <h1 id="game-title">2048</h1>
+        <p class="lede">让相同的数字相遇。每一次合并，都是一次漂亮的翻倍。</p>
+        <div class="rule" aria-label="游戏目标">
+          <span class="rule__number">2</span><span class="rule__symbol">+</span><span class="rule__number">2</span><span class="rule__symbol">=</span><span class="rule__number rule__number--gold">4</span>
+        </div>
+        <div class="instructions">
+          <p><strong>电脑</strong> 使用方向键或 W A S D</p>
+          <p><strong>手机</strong> 在棋盘上向任意方向滑动</p>
+        </div>
+      </section>
+
+      <section class="game-station" aria-label="2048 游戏">
+        <div class="scorebar">
+          <div class="score-card"><span>分数</span><strong id="score">0</strong><em id="scoreGain" aria-hidden="true"></em></div>
+          <div class="score-card"><span>最佳</span><strong id="bestScore">0</strong></div>
+          <button id="newGame" class="new-game" type="button">新游戏</button>
+        </div>
+
+        <div id="gameBoard" class="board" role="application" aria-label="2048 棋盘。使用方向键或 W A S D 移动方块。" tabindex="0">
+          <div class="board-grid" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div id="tileLayer" class="tile-layer" aria-hidden="true"></div>
+          <div id="gameMessage" class="game-message" hidden>
+            <p id="messageTitle">游戏结束</p>
+            <span id="messageText">再试一次，下一局会更好。</span>
+            <div class="message-actions">
+              <button id="keepGoing" type="button" hidden>继续挑战</button>
+              <button id="tryAgain" type="button">再来一局</button>
+            </div>
+          </div>
+        </div>
+
+        <p id="gameStatus" class="game-status" aria-live="polite">新游戏已开始。棋盘上有 2 个数字方块。</p>
+        <div class="mobile-controls" aria-label="移动方向">
+          <button type="button" data-direction="up" aria-label="向上">↑</button>
+          <button type="button" data-direction="left" aria-label="向左">←</button>
+          <button type="button" data-direction="down" aria-label="向下">↓</button>
+          <button type="button" data-direction="right" aria-label="向右">→</button>
+        </div>
+        <p class="hint"><span>小提示</span> 试着把最大的数字留在一个角落。</p>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
