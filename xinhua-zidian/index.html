@@ -156,160 +156,132 @@
     </div>
   </main>
 
-  <!-- 部首查字模态抽屉 (模拟新华字典真实流程：1.选部首笔画 -> 2.选部首 -> 3.数剩余笔画查字) -->
-  <div id="radical-modal" class="modal-overlay">
-    <div class="modal-container modal-guided">
-      <div class="modal-header">
-        <div class="modal-title-group">
-          <h3 class="modal-title">📖 部首检字表</h3>
-          <span class="modal-subtitle">《新华字典》查字规范：先定部首笔画数 ➔ 选定部首 ➔ 按除去部首后的剩余笔画查字</span>
+  <!-- 部首查字右侧抽屉 (下钻推入与返回模式：1.选笔画 -> 2.选部首 -> 3.数剩余笔画查字) -->
+  <div id="radical-modal" class="drawer-overlay">
+    <div class="side-drawer" id="radical-drawer">
+      <!-- 抽屉顶部导航栏 -->
+      <div class="drawer-header">
+        <button id="rad-drawer-back-btn" class="drawer-back-btn hidden" title="返回上一级">
+          <span class="back-arrow">‹</span>
+          <span class="back-text">返回</span>
+        </button>
+        <div class="drawer-title-area">
+          <h3 id="rad-drawer-title" class="drawer-title">📖 部首查字</h3>
+          <div id="rad-breadcrumbs" class="drawer-breadcrumbs">
+            <span class="crumb active" data-step="0">① 笔画</span>
+            <span class="crumb-sep">›</span>
+            <span class="crumb" data-step="1">② 部首</span>
+            <span class="crumb-sep">›</span>
+            <span class="crumb" data-step="2">③ 检字</span>
+          </div>
         </div>
-        <button class="modal-close-btn" title="关闭">✕</button>
+        <button class="modal-close-btn drawer-close-btn" title="关闭抽屉">✕</button>
       </div>
 
-      <!-- 步骤流程指示进度条 -->
-      <div class="steps-progress-bar">
-        <div class="step-item active" id="rad-step-ind-1">
-          <span class="step-num">1</span>
-          <span class="step-text">确定部首笔画</span>
-        </div>
-        <div class="step-arrow">➔</div>
-        <div class="step-item active" id="rad-step-ind-2">
-          <span class="step-num">2</span>
-          <span class="step-text">选定部首</span>
-        </div>
-        <div class="step-arrow">➔</div>
-        <div class="step-item active" id="rad-step-ind-3">
-          <span class="step-num">3</span>
-          <span class="step-text">按剩余笔画检字</span>
-        </div>
-      </div>
-
-      <div class="modal-scroll-body">
-        <!-- 步骤 1：选择部首笔画数 -->
-        <section class="guided-card">
-          <div class="card-title-bar">
-            <div class="card-title-left">
-              <span class="card-step-badge">步骤 ①</span>
-              <h4 class="card-title">请确定部首是几画（点击选择笔画数）</h4>
+      <!-- 抽屉滑动视口容器 -->
+      <div class="drawer-viewport">
+        <div id="rad-drawer-track" class="drawer-track">
+          <!-- Pane 1: 步骤 ① 确定部首笔画数 -->
+          <div class="drawer-pane" id="rad-pane-1">
+            <div class="pane-instruction">
+              <span class="pane-step-badge">步骤 ①</span>
+              <span class="pane-step-text">请选择部首是几画（点击推入部首列表）</span>
             </div>
-            <span id="current-stroke-label" class="badge-tag">当前选择：3 画</span>
+            <div id="radical-stroke-selector" class="drawer-stroke-grid"></div>
           </div>
-          <div id="radical-stroke-selector" class="guided-stroke-pills"></div>
-        </section>
 
-        <!-- 步骤 2：选择具体部首 -->
-        <section class="guided-card">
-          <div class="card-title-bar">
-            <div class="card-title-left">
-              <span class="card-step-badge">步骤 ②</span>
-              <h4 id="radical-select-title" class="card-title">请点击选择部首</h4>
+          <!-- Pane 2: 步骤 ② 选择具体部首 -->
+          <div class="drawer-pane" id="rad-pane-2">
+            <div class="pane-instruction">
+              <span class="pane-step-badge">步骤 ②</span>
+              <span id="radical-select-title" class="pane-step-text">请选择部首（点击推入检字表）</span>
             </div>
-            <span id="current-rad-selected-badge" class="badge-tag highlight">已选部首：艹（草字头）</span>
+            <div id="radical-buttons-container" class="drawer-radicals-grid"></div>
           </div>
-          <div id="radical-buttons-container" class="guided-radicals-grid"></div>
-        </section>
 
-        <!-- 步骤 3：按剩余笔画分类与检字结果 -->
-        <section class="guided-card" id="radical-results-section">
-          <div class="card-title-bar">
-            <div class="card-title-left">
-              <span class="card-step-badge">步骤 ③</span>
-              <h4 id="selected-radical-title" class="card-title">数汉字除去部首【 艹 】后剩下的笔画数</h4>
+          <!-- Pane 3: 步骤 ③ 按剩余笔画查字 -->
+          <div class="drawer-pane" id="rad-pane-3">
+            <div class="pane-sticky-header">
+              <div class="pane-instruction">
+                <span class="pane-step-badge">步骤 ③</span>
+                <span id="selected-radical-title" class="pane-step-text">数汉字除去部首剩下的笔画数</span>
+              </div>
+              <div class="filter-instruction">
+                <div id="extra-stroke-filter-bar" class="extra-stroke-pills-row"></div>
+              </div>
             </div>
-            <span id="selected-radical-badge" class="badge-tag">共 354 字</span>
+            <div id="radical-results-list" class="guided-results-flow"></div>
           </div>
-          <!-- 剩余笔画筛选按钮条 -->
-          <div class="filter-instruction">
-            <span class="instruction-label">剩余笔画快速筛选：</span>
-            <div id="extra-stroke-filter-bar" class="extra-stroke-pills-row"></div>
-          </div>
-          <!-- 汉字按剩余笔画分块列表 -->
-          <div id="radical-results-list" class="guided-results-flow"></div>
-        </section>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- 拼音查字模态抽屉 (模拟新华字典真实流程：1.先定声母 -> 2.选定韵母 -> 3.按四声查看汉字) -->
-  <div id="pinyin-modal" class="modal-overlay">
-    <div class="modal-container modal-guided">
-      <div class="modal-header">
-        <div class="modal-title-group">
-          <h3 class="modal-title">🔤 拼音检字表</h3>
-          <span class="modal-subtitle">《新华字典》查字规范：先确定汉语拼音声母 ➔ 选定韵母 ➔ 按四声查找汉字</span>
+  <!-- 拼音查字右侧抽屉 (下钻推入与返回模式：1.选声母 -> 2.选韵母 -> 3.按四声查看汉字) -->
+  <div id="pinyin-modal" class="drawer-overlay">
+    <div class="side-drawer" id="pinyin-drawer">
+      <!-- 抽屉顶部导航栏 -->
+      <div class="drawer-header">
+        <button id="py-drawer-back-btn" class="drawer-back-btn hidden" title="返回上一级">
+          <span class="back-arrow">‹</span>
+          <span class="back-text">返回</span>
+        </button>
+        <div class="drawer-title-area">
+          <h3 id="py-drawer-title" class="drawer-title">🔤 拼音查字</h3>
+          <div id="py-breadcrumbs" class="drawer-breadcrumbs">
+            <span class="crumb active" data-step="0">① 声母</span>
+            <span class="crumb-sep">›</span>
+            <span class="crumb" data-step="1">② 韵母</span>
+            <span class="crumb-sep">›</span>
+            <span class="crumb" data-step="2">③ 检字</span>
+          </div>
         </div>
-        <button class="modal-close-btn" title="关闭">✕</button>
+        <button class="modal-close-btn drawer-close-btn" title="关闭抽屉">✕</button>
       </div>
 
-      <!-- 步骤流程指示进度条 -->
-      <div class="steps-progress-bar">
-        <div class="step-item active" id="py-step-ind-1">
-          <span class="step-num">1</span>
-          <span class="step-text">确定声母</span>
-        </div>
-        <div class="step-arrow">➔</div>
-        <div class="step-item active" id="py-step-ind-2">
-          <span class="step-num">2</span>
-          <span class="step-text">选定韵母</span>
-        </div>
-        <div class="step-arrow">➔</div>
-        <div class="step-item active" id="py-step-ind-3">
-          <span class="step-num">3</span>
-          <span class="step-text">查看汉字(按四声)</span>
-        </div>
-      </div>
-
-      <div class="modal-scroll-body">
-        <!-- 步骤 1：确定声母 -->
-        <section class="guided-card">
-          <div class="card-title-bar">
-            <div class="card-title-left">
-              <span class="card-step-badge">步骤 ①</span>
-              <h4 class="card-title">第一步 · 请确定汉语拼音声母（共23个标准声母 + 零声母）</h4>
+      <!-- 抽屉滑动视口容器 -->
+      <div class="drawer-viewport">
+        <div id="py-drawer-track" class="drawer-track">
+          <!-- Pane 1: 步骤 ① 确定声母 -->
+          <div class="drawer-pane" id="py-pane-1">
+            <div class="pane-instruction">
+              <span class="pane-step-badge">步骤 ①</span>
+              <span class="pane-step-text">请选择声母（23个标准声母 + 零声母）</span>
             </div>
-            <span id="current-sm-selected-badge" class="badge-tag highlight">已选声母：b</span>
+            <div id="pinyin-shengmu-nav" class="drawer-shengmu-grid"></div>
           </div>
-          <div id="pinyin-shengmu-nav" class="guided-shengmu-grid"></div>
-        </section>
 
-        <!-- 步骤 2：选择韵母 -->
-        <section class="guided-card" id="pinyin-yunmu-section">
-          <div class="card-title-bar">
-            <div class="card-title-left">
-              <span class="card-step-badge">步骤 ②</span>
-              <h4 id="selected-pinyin-title" class="card-title">第二步 · 声母【 b 】所含韵母，请点击选择韵母</h4>
+          <!-- Pane 2: 步骤 ② 选择韵母 -->
+          <div class="drawer-pane" id="py-pane-2">
+            <div class="pane-instruction">
+              <span class="pane-step-badge">步骤 ②</span>
+              <span id="selected-pinyin-title" class="pane-step-text">请选择韵母（点击推入检字表）</span>
             </div>
-            <span id="selected-pinyin-badge" class="badge-tag">共 742 字 · 19 个韵母</span>
+            <div id="yunmu-cards-container" class="drawer-yunmu-grid"></div>
           </div>
-          <!-- 韵母筛选按钮条 -->
-          <div class="filter-instruction">
-            <span class="instruction-label">韵母筛选：</span>
-            <div id="yunmu-filter-bar" class="extra-stroke-pills-row"></div>
-          </div>
-        </section>
 
-        <!-- 步骤 3：汉字检字结果 -->
-        <section class="guided-card">
-          <div class="card-title-bar">
-            <div class="card-title-left">
-              <span class="card-step-badge">步骤 ③</span>
-              <h4 class="card-title">第三步 · 汉字检字结果（按四声分列）</h4>
+          <!-- Pane 3: 步骤 ③ 按四声查看汉字 -->
+          <div class="drawer-pane" id="py-pane-3">
+            <div class="pane-sticky-header">
+              <div class="pane-instruction">
+                <span class="pane-step-badge">步骤 ③</span>
+                <span id="py-results-title" class="pane-step-text">汉字检字结果（按四声分列）</span>
+              </div>
             </div>
+            <div id="pinyin-results-list" class="guided-results-flow"></div>
           </div>
-          <div id="pinyin-results-list" class="guided-results-flow"></div>
-        </section>
+        </div>
       </div>
     </div>
   </div>
 
   <!-- 载入核心数据与脚本 (纯本地运行无跨域阻碍，加版本号规避浏览器陈旧缓存) -->
-  <script src="data/dict-core.js?v=20260921v3"></script>
-  <script src="data/dict-index.js?v=20260921v3"></script>
-  <script src="js/radical-data.js?v=20260921v3"></script>
-  <script src="js/pinyin-data.js?v=20260921v3"></script>
-  <script src="js/preload-hanzi.js?v=20260921v3"></script>
-  <script src="js/stroke-names.js?v=20260921v3"></script>
-  <script src="js/app.js?v=20260921v3"></script>
+  <script src="data/dict-core.js?v=20260921v4"></script>
+  <script src="data/dict-index.js?v=20260921v4"></script>
+  <script src="js/radical-data.js?v=20260921v4"></script>
+  <script src="js/pinyin-data.js?v=20260921v4"></script>
+  <script src="js/preload-hanzi.js?v=20260921v4"></script>
+  <script src="js/stroke-names.js?v=20260921v4"></script>
+  <script src="js/app.js?v=20260921v4"></script>
 </body>
 </html>
