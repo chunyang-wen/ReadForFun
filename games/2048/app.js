@@ -18,6 +18,8 @@
   const messageTitle = document.getElementById("messageTitle");
   const messageText = document.getElementById("messageText");
   const keepGoingButton = document.getElementById("keepGoing");
+  const undoButton = document.getElementById("undoButton");
+  const redoButton = document.getElementById("redoButton");
 
   let grid = emptyGrid();
   let score = 0;
@@ -27,6 +29,8 @@
   let keepPlaying = false;
   let mergedCells = new Set();
   let touchStart = null;
+  let undoStack = [];
+  let redoStack = [];
 
   function emptyGrid() {
     return Array.from({ length: SIZE }, () => Array(SIZE).fill(0));
@@ -39,22 +43,27 @@
   function saveState() {
     try {
       localStorage.setItem(STORAGE_KEYS.best, String(bestScore));
-      localStorage.setItem(STORAGE_KEYS.state, JSON.stringify({ grid, score, won, keepPlaying }));
+      localStorage.setItem(STORAGE_KEYS.state, JSON.stringify({ grid, score, won, keepPlaying, gameOver, undoStack, redoStack }));
     } catch (_) {}
+  }
+
+  function isValidSnapshot(snapshot) {
+    return Array.isArray(snapshot?.grid) && snapshot.grid.length === SIZE && snapshot.grid.every((row) =>
+      Array.isArray(row) && row.length === SIZE && row.every((value) => Number.isInteger(value) && value >= 0)
+    ) && Number.isFinite(snapshot.score);
   }
 
   function loadState() {
     try {
       const saved = JSON.parse(localStorage.getItem(STORAGE_KEYS.state));
-      const validGrid = Array.isArray(saved?.grid) && saved.grid.length === SIZE && saved.grid.every((row) =>
-        Array.isArray(row) && row.length === SIZE && row.every((value) => Number.isInteger(value) && value >= 0)
-      );
-      if (!validGrid || !Number.isFinite(saved.score)) return false;
+      if (!isValidSnapshot(saved)) return false;
       grid = saved.grid;
       score = saved.score;
       won = Boolean(saved.won);
       keepPlaying = Boolean(saved.keepPlaying);
-      gameOver = !canMove();
+      gameOver = Boolean(saved.gameOver) || !canMove();
+      undoStack = Array.isArray(saved.undoStack) ? saved.undoStack.filter(isValidSnapshot).slice(-100) : [];
+      redoStack = Array.isArray(saved.redoStack) ? saved.redoStack.filter(isValidSnapshot).slice(-100) : [];
       return true;
     } catch (_) {
       return false;
@@ -83,6 +92,8 @@
     won = false;
     keepPlaying = false;
     mergedCells = new Set();
+    undoStack = [];
+    redoStack = [];
     addRandomTile();
     addRandomTile();
     hideMessage();
@@ -90,6 +101,44 @@
     saveState();
     statusElement.textContent = "新游戏已开始。棋盘上有 2 个数字方块。";
     boardElement.focus({ preventScroll: true });
+  }
+
+  function snapshot() {
+    return {
+      grid: grid.map((row) => [...row]),
+      score,
+      won,
+      keepPlaying,
+      gameOver
+    };
+  }
+
+  function restoreSnapshot(saved, action) {
+    grid = saved.grid.map((row) => [...row]);
+    score = saved.score;
+    won = Boolean(saved.won);
+    keepPlaying = Boolean(saved.keepPlaying);
+    gameOver = Boolean(saved.gameOver);
+    mergedCells = new Set();
+    if (gameOver) showMessage("游戏结束", "棋盘已经填满，可以撤销一步继续尝试。", false);
+    else if (won && !keepPlaying) showMessage("你做到了！", "2048 已经诞生。要不要继续向上？", true);
+    else hideMessage();
+    render();
+    saveState();
+    statusElement.textContent = `${action}成功。当前得分 ${score}。`;
+    boardElement.focus({ preventScroll: true });
+  }
+
+  function undo() {
+    if (!undoStack.length) return;
+    redoStack.push(snapshot());
+    restoreSnapshot(undoStack.pop(), "撤销");
+  }
+
+  function redo() {
+    if (!redoStack.length) return;
+    undoStack.push(snapshot());
+    restoreSnapshot(redoStack.pop(), "重做");
   }
 
   function slideLine(line) {
@@ -149,6 +198,9 @@
 
     if (sameGrid(previous, next)) return;
 
+    undoStack.push(snapshot());
+    if (undoStack.length > 100) undoStack.shift();
+    redoStack = [];
     grid = next;
     score += gained;
     bestScore = Math.max(bestScore, score);
@@ -204,6 +256,8 @@
 
     scoreElement.textContent = score;
     bestElement.textContent = bestScore;
+    undoButton.disabled = undoStack.length === 0;
+    redoButton.disabled = redoStack.length === 0;
     if (gained) {
       scoreGainElement.textContent = `+${gained}`;
       scoreGainElement.classList.remove("is-visible");
@@ -231,6 +285,13 @@
   };
 
   document.addEventListener("keydown", (event) => {
+    const isUndo = (event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "z" && !event.shiftKey;
+    const isRedo = (event.metaKey || event.ctrlKey) && (event.key.toLowerCase() === "y" || (event.key.toLowerCase() === "z" && event.shiftKey));
+    if (isUndo || isRedo) {
+      event.preventDefault();
+      isUndo ? undo() : redo();
+      return;
+    }
     const direction = keyDirections[event.key];
     const isInteractive = /^(BUTTON|A|INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName || "");
     if (!direction || (isInteractive && document.activeElement !== boardElement)) return;
@@ -257,6 +318,8 @@
     button.addEventListener("click", () => move(button.dataset.direction));
   });
   document.getElementById("newGame").addEventListener("click", startGame);
+  undoButton.addEventListener("click", undo);
+  redoButton.addEventListener("click", redo);
   document.getElementById("tryAgain").addEventListener("click", startGame);
   keepGoingButton.addEventListener("click", () => {
     keepPlaying = true;
