@@ -6,6 +6,8 @@
 
 - [2048](https://chunyang-wen.github.io/ReadForFun/games/2048/) · 支持键盘、触摸滑动与本地最佳成绩记录
 - [Flappy Bird](https://chunyang-wen.github.io/ReadForFun/games/flappy-bird/) · 支持键盘、点击与触摸操作，包含暂停、音效和本地最佳成绩记录
+- [数独](https://chunyang-wen.github.io/ReadForFun/games/sudoku/) · 简单、中等、困难三级难度，支持笔记、提示、计时与键盘输入
+- [扫雷](https://chunyang-wen.github.io/ReadForFun/games/minesweeper/) · 自定义行列和雷数，支持最大 50 × 50 棋盘、移动端插旗模式与格子缩放
 
 ## 故事合集
 
