@@ -156,43 +156,81 @@
     </div>
   </main>
 
-  <!-- 部首查字模态抽屉 -->
+  <!-- 部首查字模态抽屉 (模拟新华字典部首检字表：部首目录 -> 检字表按剩余笔画分类) -->
   <div id="radical-modal" class="modal-overlay">
-    <div class="modal-container">
+    <div class="modal-container modal-wide">
       <div class="modal-header">
-        <h3 class="modal-title">📖 部首检字表</h3>
+        <div class="modal-title-group">
+          <h3 class="modal-title">📖 部首检字表</h3>
+          <span class="modal-subtitle">查字法：① 数部首笔画选部首 ➔ ② 数除去部首剩余笔画选汉字</span>
+        </div>
         <button class="modal-close-btn" title="关闭">✕</button>
       </div>
-      <div class="modal-body">
-        <p style="font-size:0.85rem;color:var(--ink-muted);margin-bottom:0.8rem;">
-          请按照部首笔画数点选部首，随后在下方选择对应的汉字：
-        </p>
-        <div id="radical-groups-list"></div>
-        <div class="radical-results-area">
-          <h4 id="selected-radical-title" style="font-size:0.95rem;font-weight:700;color:var(--ink-primary);">请点击上方部首进行筛选</h4>
-          <div id="radical-results-list" class="char-chips-grid"></div>
-        </div>
+      <div class="modal-split-body">
+        <!-- 左侧：部首目录 (按部首笔画选部首) -->
+        <aside class="modal-nav-pane">
+          <div class="pane-header">
+            <span class="pane-title">① 部首目录</span>
+            <span class="pane-hint">按笔画选部首</span>
+          </div>
+          <!-- 部首笔画快速过滤 -->
+          <div id="radical-stroke-selector" class="filter-pill-nav"></div>
+          <!-- 部首列表容器 -->
+          <div id="radical-groups-list" class="radical-scroll-box"></div>
+        </aside>
+
+        <!-- 右侧：检字表主体 (按剩余笔画分类) -->
+        <main class="modal-main-pane">
+          <!-- 检字表顶部状态与剩余笔画快速筛选 -->
+          <div class="results-header-sticky">
+            <div class="results-title-row">
+              <h4 id="selected-radical-title" class="results-main-title">请在左侧选择部首</h4>
+              <span id="selected-radical-badge" class="badge-tag"></span>
+            </div>
+            <!-- 剩余笔画筛选标签条 -->
+            <div id="extra-stroke-filter-bar" class="subfilter-bar"></div>
+          </div>
+          <!-- 汉字检字表按剩余笔画分块呈现 -->
+          <div id="radical-results-list" class="radical-results-flow"></div>
+        </main>
       </div>
     </div>
   </div>
 
-  <!-- 拼音查字模态抽屉 -->
+  <!-- 拼音查字模态抽屉 (模拟新华字典拼音检字表：确定声母 -> 按韵母分类检字) -->
   <div id="pinyin-modal" class="modal-overlay">
-    <div class="modal-container">
+    <div class="modal-container modal-wide">
       <div class="modal-header">
-        <h3 class="modal-title">🔤 拼音检字表</h3>
+        <div class="modal-title-group">
+          <h3 class="modal-title">🔤 拼音检字表</h3>
+          <span class="modal-subtitle">查字法：① 先确定汉语拼音声母 ➔ ② 根据韵母分类查找汉字</span>
+        </div>
         <button class="modal-close-btn" title="关闭">✕</button>
       </div>
-      <div class="modal-body">
-        <!-- 26个英文字母索引导航 -->
-        <div id="pinyin-alpha-nav" class="pinyin-alphabet-nav"></div>
-        <!-- 当前字母下的所有音节 -->
-        <div id="pinyin-syllables-list" class="syllable-chips"></div>
-        <!-- 选定音节下的四声汉字分类矩阵 -->
-        <div class="radical-results-area">
-          <h4 id="selected-pinyin-title" style="font-size:0.95rem;font-weight:700;color:var(--ink-primary);margin-bottom:0.5rem;">请选择音节</h4>
-          <div id="pinyin-results-list"></div>
-        </div>
+      <div class="modal-split-body">
+        <!-- 左侧：声母目录导航 (23声母 + 零声母) -->
+        <aside class="modal-nav-pane">
+          <div class="pane-header">
+            <span class="pane-title">① 确定声母</span>
+            <span class="pane-hint">选择拼音声母</span>
+          </div>
+          <div id="pinyin-shengmu-nav" class="shengmu-grid-nav"></div>
+        </aside>
+
+        <!-- 右侧：韵母与音节汉字检字表 -->
+        <main class="modal-main-pane">
+          <!-- 韵母筛选置顶条 -->
+          <div class="results-header-sticky">
+            <div class="results-title-row">
+              <h4 id="selected-pinyin-title" class="results-main-title">请选择声母</h4>
+              <span id="selected-pinyin-badge" class="badge-tag"></span>
+            </div>
+            <!-- 韵母快速筛选标签条 -->
+            <div id="yunmu-filter-bar" class="subfilter-bar"></div>
+          </div>
+          <!-- 汉字按韵母与四声分块呈现 -->
+          <div id="pinyin-results-list" class="pinyin-results-flow"></div>
+        </main>
       </div>
     </div>
   </div>
