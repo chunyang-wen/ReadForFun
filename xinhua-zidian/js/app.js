@@ -513,103 +513,136 @@
     el.searchDropdown.style.display = 'block';
   }
 
-  // 8. 部首检字抽屉逻辑 (模拟新华字典真实规范：1.定部首笔画 -> 2.选定部首 -> 3.数剩余笔画查字)
+  // 8. 部首检字抽屉逻辑 (侧边抽屉 + Push & Return 逐级下钻导航)
+  let radCurrentStep = 0;
   function initRadicalDrawer() {
     try {
+      const track = document.getElementById('rad-drawer-track');
+      const backBtn = document.getElementById('rad-drawer-back-btn');
+      const drawerTitle = document.getElementById('rad-drawer-title');
+      const breadcrumbs = document.getElementById('rad-breadcrumbs');
       const strokeSelector = document.getElementById('radical-stroke-selector');
-      const strokeLabel = document.getElementById('current-stroke-label');
       const radSelectTitle = document.getElementById('radical-select-title');
-      const radSelectedBadge = document.getElementById('current-rad-selected-badge');
       const radButtonsBox = document.getElementById('radical-buttons-container');
-      const radTitle = document.getElementById('selected-radical-title');
-      const radBadge = document.getElementById('selected-radical-badge');
+      const radResultsTitle = document.getElementById('selected-radical-title');
       const extraFilterBar = document.getElementById('extra-stroke-filter-bar');
       const resultContainer = document.getElementById('radical-results-list');
 
-      if (!strokeSelector || !radButtonsBox || !resultContainer || !window.RADICAL_GROUPS) return;
+      if (!track || !strokeSelector || !radButtonsBox || !resultContainer || !window.RADICAL_GROUPS) return;
 
-      // 1. 生成步骤 ①：部首笔画数筛选条 (1画 ~ 17画)
-      strokeSelector.innerHTML = '';
-      window.RADICAL_GROUPS.forEach(g => {
-        const btn = document.createElement('button');
-        btn.className = 'stroke-pill-btn';
-        if (g.stroke === state.selectedRadicalStroke) btn.classList.add('active');
-        btn.textContent = `${g.stroke} 画 (${g.radicals.length}部)`;
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('.stroke-pill-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          state.selectedRadicalStroke = g.stroke;
-          selectStrokeCount(g.stroke);
-        });
-        strokeSelector.appendChild(btn);
-      });
+      // 切换视图 Step (0: 选笔画, 1: 选部首, 2: 查汉字)
+      function goToRadicalStep(stepIndex) {
+        radCurrentStep = Math.max(0, Math.min(2, stepIndex));
+        track.style.transform = `translateX(-${radCurrentStep * 33.333333}%)`;
 
-      // 切换笔画数
-      function selectStrokeCount(strokeNum) {
-        if (strokeLabel) strokeLabel.textContent = `当前选择：${strokeNum} 画`;
-        const group = window.RADICAL_GROUPS.find(g => g.stroke === strokeNum) || window.RADICAL_GROUPS[0];
-        if (radSelectTitle) {
-          radSelectTitle.textContent = `步骤 ② · 请点击选择部首（${group.stroke}画部首，共 ${group.radicals.length} 个）`;
+        // 更新返回按钮状态与标题
+        if (radCurrentStep === 0) {
+          backBtn.classList.add('hidden');
+          drawerTitle.textContent = '📖 部首查字';
+        } else if (radCurrentStep === 1) {
+          backBtn.classList.remove('hidden');
+          const backText = backBtn.querySelector('.back-text');
+          if (backText) backText.textContent = '返回 (笔画选择)';
+          drawerTitle.textContent = `${state.selectedRadicalStroke} 画部首列表`;
+        } else if (radCurrentStep === 2) {
+          backBtn.classList.remove('hidden');
+          const backText = backBtn.querySelector('.back-text');
+          if (backText) backText.textContent = '返回 (部首选择)';
+          drawerTitle.textContent = `部首：${state.selectedRadical}`;
         }
 
-        // 渲染该笔画下的所有部首 (步骤 ②)
-        radButtonsBox.innerHTML = '';
-        group.radicals.forEach(rItem => {
-          const rBtn = document.createElement('button');
-          rBtn.className = 'radical-card-btn';
-          if (state.selectedRadical === rItem.radical) rBtn.classList.add('active');
-          
-          rBtn.innerHTML = `
-            <span>${rItem.radical}</span>
-            <span class="rad-count">${rItem.count}</span>
-          `;
-          rBtn.title = `部首：${rItem.radical} (${group.stroke}画 · 共${rItem.count}字)`;
-
-          rBtn.addEventListener('click', () => {
-            document.querySelectorAll('.radical-card-btn').forEach(b => b.classList.remove('active'));
-            rBtn.classList.add('active');
-            state.selectedRadical = rItem.radical;
-            state.selectedExtraStroke = 'all';
-            selectRadical(rItem, group.stroke);
+        // 更新面包屑指示器
+        if (breadcrumbs) {
+          const crumbs = breadcrumbs.querySelectorAll('.crumb');
+          crumbs.forEach((c, idx) => {
+            if (idx === radCurrentStep) {
+              c.classList.add('active');
+            } else {
+              c.classList.remove('active');
+            }
           });
-
-          radButtonsBox.appendChild(rBtn);
-        });
-
-        // 如果已选部首不在当前笔画组内，则默认选择当前组的第一个部首
-        let currentRad = group.radicals.find(r => r.radical === state.selectedRadical);
-        if (!currentRad) {
-          currentRad = group.radicals[0];
-          state.selectedRadical = currentRad.radical;
-          const firstBtn = radButtonsBox.querySelector('.radical-card-btn');
-          if (firstBtn) firstBtn.classList.add('active');
         }
-
-        selectRadical(currentRad, group.stroke);
       }
 
-      // 选定部首，展开步骤 ③ (剩余笔画筛选与检字表)
-      function selectRadical(rItem, strokeNum) {
-        if (radSelectedBadge) {
-          radSelectedBadge.textContent = `已选部首：${rItem.radical}（${strokeNum}画 · 共${rItem.count}字）`;
+      // 绑定返回按钮
+      backBtn.onclick = () => {
+        goToRadicalStep(radCurrentStep - 1);
+      };
+
+      // 绑定面包屑跳转
+      if (breadcrumbs) {
+        breadcrumbs.querySelectorAll('.crumb').forEach(c => {
+          c.onclick = () => {
+            const targetStep = parseInt(c.dataset.step, 10);
+            if (targetStep <= radCurrentStep) {
+              goToRadicalStep(targetStep);
+            }
+          };
+        });
+      }
+
+      // 1. 渲染 Pane 1：1~17 笔画卡片网格
+      strokeSelector.innerHTML = '';
+      window.RADICAL_GROUPS.forEach(g => {
+        const card = document.createElement('div');
+        card.className = 'stroke-drill-card';
+        card.innerHTML = `
+          <div class="stroke-main">
+            <span class="stroke-number">${g.stroke} 画</span>
+            <span class="stroke-count-sub">${g.radicals.length} 个部首</span>
+          </div>
+          <span class="drill-chevron">›</span>
+        `;
+        card.addEventListener('click', () => {
+          state.selectedRadicalStroke = g.stroke;
+          populateRadicals(g);
+          goToRadicalStep(1); // Push to Step 2
+        });
+        strokeSelector.appendChild(card);
+      });
+
+      // 2. 渲染 Pane 2：该笔画下的所有部首卡片
+      function populateRadicals(g) {
+        if (radSelectTitle) {
+          radSelectTitle.textContent = `请选择【 ${g.stroke} 画 】部首（共 ${g.radicals.length} 个）`;
         }
-        if (radTitle) {
-          radTitle.textContent = `步骤 ③ · 数汉字除去部首【 ${rItem.radical} 】后剩下的笔画数`;
-        }
-        if (radBadge) {
-          radBadge.textContent = `共 ${rItem.count} 字`;
+        radButtonsBox.innerHTML = '';
+        g.radicals.forEach(rItem => {
+          const card = document.createElement('div');
+          card.className = 'radical-drill-card';
+          card.innerHTML = `
+            <div class="rad-left">
+              <span class="rad-char">${rItem.radical}</span>
+              <span class="rad-sub">${rItem.count}字</span>
+            </div>
+            <span class="drill-chevron">›</span>
+          `;
+          card.title = `部首：${rItem.radical}（共 ${rItem.count} 字）`;
+          card.addEventListener('click', () => {
+            state.selectedRadical = rItem.radical;
+            state.selectedExtraStroke = 'all';
+            populateResults(rItem, g.stroke);
+            goToRadicalStep(2); // Push to Step 3
+          });
+          radButtonsBox.appendChild(card);
+        });
+      }
+
+      // 3. 渲染 Pane 3：按剩余笔画分类与汉字检字结果
+      function populateResults(rItem, strokeNum) {
+        if (radResultsTitle) {
+          radResultsTitle.textContent = `部首【 ${rItem.radical} 】（${strokeNum}画 · 共${rItem.count}字）剩余笔画检字`;
         }
 
-        // 渲染剩余笔画快速筛选胶囊行
+        // 渲染剩余笔画快速筛选胶囊
         if (extraFilterBar) {
           extraFilterBar.innerHTML = '';
           const allPill = document.createElement('button');
           allPill.className = 'subfilter-pill-btn active';
           allPill.textContent = `全部 (共${rItem.count}字)`;
           allPill.addEventListener('click', () => {
-            document.querySelectorAll('.subfilter-pill-btn').forEach(p => p.classList.remove('active'));
+            extraFilterBar.querySelectorAll('.subfilter-pill-btn').forEach(p => p.classList.remove('active'));
             allPill.classList.add('active');
-            state.selectedExtraStroke = 'all';
             renderExtraStrokeChars(rItem, 'all');
           });
           extraFilterBar.appendChild(allPill);
@@ -620,9 +653,8 @@
               pill.className = 'subfilter-pill-btn';
               pill.textContent = `剩 ${eg.extra} 画 (${eg.count}字)`;
               pill.addEventListener('click', () => {
-                document.querySelectorAll('.subfilter-pill-btn').forEach(p => p.classList.remove('active'));
+                extraFilterBar.querySelectorAll('.subfilter-pill-btn').forEach(p => p.classList.remove('active'));
                 pill.classList.add('active');
-                state.selectedExtraStroke = eg.extra;
                 renderExtraStrokeChars(rItem, eg.extra);
               });
               extraFilterBar.appendChild(pill);
@@ -633,7 +665,7 @@
         renderExtraStrokeChars(rItem, 'all');
       }
 
-      // 渲染汉字列表
+      // 渲染汉字
       function renderExtraStrokeChars(rItem, filterExtra) {
         resultContainer.innerHTML = '';
         if (!rItem.extra_groups || rItem.extra_groups.length === 0) {
@@ -689,111 +721,146 @@
         return chip;
       }
 
-      // 初始化：默认选择 3 画（草字头 艹 所在笔画组）
-      selectStrokeCount(state.selectedRadicalStroke || 3);
+      // 打开时默认重置为第一步
+      goToRadicalStep(0);
     } catch (e) {
       console.error('initRadicalDrawer 异常:', e);
     }
   }
 
-  // 9. 拼音检字抽屉逻辑 (模拟新华字典真实规范：1.定声母 -> 2.选韵母 -> 3.按四声查看汉字)
+  // 9. 拼音检字抽屉逻辑 (侧边抽屉 + Push & Return 逐级下钻导航)
+  let pyCurrentStep = 0;
   function initPinyinDrawer() {
     try {
+      const track = document.getElementById('py-drawer-track');
+      const backBtn = document.getElementById('py-drawer-back-btn');
+      const drawerTitle = document.getElementById('py-drawer-title');
+      const breadcrumbs = document.getElementById('py-breadcrumbs');
       const shengmuNav = document.getElementById('pinyin-shengmu-nav');
-      const smBadge = document.getElementById('current-sm-selected-badge');
-      const pinyinTitle = document.getElementById('selected-pinyin-title');
-      const pinyinBadge = document.getElementById('selected-pinyin-badge');
-      const yunmuFilterBar = document.getElementById('yunmu-filter-bar');
+      const selectedPinyinTitle = document.getElementById('selected-pinyin-title');
+      const yunmuCardsBox = document.getElementById('yunmu-cards-container');
+      const pyResultsTitle = document.getElementById('py-results-title');
       const resultContainer = document.getElementById('pinyin-results-list');
 
-      if (!shengmuNav || !resultContainer || !window.PINYIN_GROUPS) return;
+      if (!track || !shengmuNav || !yunmuCardsBox || !resultContainer || !window.PINYIN_GROUPS) return;
 
-      // 1. 渲染步骤 ①：23 个标准声母 + 零声母网格
+      // 切换视图 Step (0: 选声母, 1: 选韵母, 2: 查汉字)
+      function goToPinyinStep(stepIndex) {
+        pyCurrentStep = Math.max(0, Math.min(2, stepIndex));
+        track.style.transform = `translateX(-${pyCurrentStep * 33.333333}%)`;
+
+        // 更新返回按钮状态与标题
+        if (pyCurrentStep === 0) {
+          backBtn.classList.add('hidden');
+          drawerTitle.textContent = '🔤 拼音查字';
+        } else if (pyCurrentStep === 1) {
+          backBtn.classList.remove('hidden');
+          const backText = backBtn.querySelector('.back-text');
+          if (backText) backText.textContent = '返回 (声母选择)';
+          drawerTitle.textContent = `声母：${state.selectedShengmu}`;
+        } else if (pyCurrentStep === 2) {
+          backBtn.classList.remove('hidden');
+          const backText = backBtn.querySelector('.back-text');
+          if (backText) backText.textContent = '返回 (韵母选择)';
+          drawerTitle.textContent = `音节：${state.selectedYunmu}`;
+        }
+
+        // 更新面包屑指示器
+        if (breadcrumbs) {
+          const crumbs = breadcrumbs.querySelectorAll('.crumb');
+          crumbs.forEach((c, idx) => {
+            if (idx === pyCurrentStep) {
+              c.classList.add('active');
+            } else {
+              c.classList.remove('active');
+            }
+          });
+        }
+      }
+
+      // 绑定返回按钮
+      backBtn.onclick = () => {
+        goToPinyinStep(pyCurrentStep - 1);
+      };
+
+      // 绑定面包屑跳转
+      if (breadcrumbs) {
+        breadcrumbs.querySelectorAll('.crumb').forEach(c => {
+          c.onclick = () => {
+            const targetStep = parseInt(c.dataset.step, 10);
+            if (targetStep <= pyCurrentStep) {
+              goToPinyinStep(targetStep);
+            }
+          };
+        });
+      }
+
+      // 1. 渲染 Pane 1：23 个标准声母 + 零声母卡片网格
       shengmuNav.innerHTML = '';
       window.PINYIN_GROUPS.forEach(g => {
         const smName = g.shengmu || g.initial || 'b';
         const smCount = g.count || (g.syllables ? g.syllables.reduce((acc, s) => acc + (s.count || 0), 0) : 0);
 
-        const btn = document.createElement('button');
-        btn.className = 'shengmu-card-btn';
-        if (smName === '零声母') btn.classList.add('special-btn');
-        if (smName === state.selectedShengmu) btn.classList.add('active');
-
-        btn.innerHTML = `
-          <span class="sm-name">${smName}</span>
-          <span class="sm-count">${smCount}字</span>
+        const card = document.createElement('div');
+        card.className = 'shengmu-drill-card';
+        card.innerHTML = `
+          <div>
+            <div class="sm-letter">${smName}</div>
+            <div class="sm-sub">${smCount} 字</div>
+          </div>
+          <span class="drill-chevron">›</span>
         `;
-        btn.title = `声母：${smName} (共${smCount}字)`;
-
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('.shengmu-card-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
+        card.title = `声母：${smName}（共 ${smCount} 字）`;
+        card.addEventListener('click', () => {
           state.selectedShengmu = smName;
-          state.selectedYunmu = 'all';
-          selectShengmu(g);
+          populateYunmus(g);
+          goToPinyinStep(1); // Push to Step 2
         });
-
-        shengmuNav.appendChild(btn);
+        shengmuNav.appendChild(card);
       });
 
-      // 2. 选定声母，展开步骤 ② (韵母筛选)
-      function selectShengmu(g) {
+      // 2. 渲染 Pane 2：该声母下的所有韵母卡片
+      function populateYunmus(g) {
         const smName = g.shengmu || g.initial || 'b';
-        const smCount = g.count || (g.syllables ? g.syllables.reduce((acc, s) => acc + (s.count || 0), 0) : 0);
-        const yunmus = g.yunmu_list || (g.syllables ? g.syllables.map(s => s.syllable) : []);
-
-        if (smBadge) {
-          smBadge.textContent = `已选声母：${smName}`;
+        const smCount = g.count || 0;
+        if (selectedPinyinTitle) {
+          selectedPinyinTitle.textContent = `声母【 ${smName} 】所含韵母（共 ${smCount} 字）`;
         }
-        if (pinyinTitle) {
-          pinyinTitle.textContent = `第二步 · 声母【 ${smName} 】所含韵母，请点击选择韵母`;
-        }
-        if (pinyinBadge) {
-          pinyinBadge.textContent = `共 ${smCount} 字 · ${yunmus.length} 个韵母`;
-        }
+        yunmuCardsBox.innerHTML = '';
 
-        // 生成韵母筛选胶囊条
-        if (yunmuFilterBar) {
-          yunmuFilterBar.innerHTML = '';
-          const allPill = document.createElement('button');
-          allPill.className = 'subfilter-pill-btn active';
-          allPill.textContent = `全部韵母 (${smCount}字)`;
-          allPill.addEventListener('click', () => {
-            document.querySelectorAll('#yunmu-filter-bar .subfilter-pill-btn').forEach(p => p.classList.remove('active'));
-            allPill.classList.add('active');
-            state.selectedYunmu = 'all';
-            renderPinyinChars(g, 'all');
-          });
-          yunmuFilterBar.appendChild(allPill);
-
-          if (g.syllables) {
-            g.syllables.forEach(syl => {
-              const pill = document.createElement('button');
-              pill.className = 'subfilter-pill-btn';
-              const ymDisplay = syl.yunmu && syl.yunmu !== syl.syllable ? `-${syl.yunmu} (${syl.syllable})` : syl.syllable;
-              pill.textContent = `${ymDisplay} [${syl.count || 0}]`;
-              pill.addEventListener('click', () => {
-                document.querySelectorAll('#yunmu-filter-bar .subfilter-pill-btn').forEach(p => p.classList.remove('active'));
-                pill.classList.add('active');
-                state.selectedYunmu = syl.syllable;
-                renderPinyinChars(g, syl.syllable);
-              });
-              yunmuFilterBar.appendChild(pill);
+        if (g.syllables) {
+          g.syllables.forEach(syl => {
+            const card = document.createElement('div');
+            card.className = 'yunmu-drill-card';
+            const ymDisplay = syl.yunmu && syl.yunmu !== syl.syllable ? `-${syl.yunmu} (${syl.syllable})` : syl.syllable;
+            card.innerHTML = `
+              <div>
+                <div class="ym-name">${ymDisplay}</div>
+                <div class="ym-sub">${syl.count || 0} 字</div>
+              </div>
+              <span class="drill-chevron">›</span>
+            `;
+            card.title = `韵母：${ymDisplay}（共 ${syl.count || 0} 字）`;
+            card.addEventListener('click', () => {
+              state.selectedYunmu = syl.syllable;
+              populatePinyinChars(g, syl.syllable);
+              goToPinyinStep(2); // Push to Step 3
             });
-          }
+            yunmuCardsBox.appendChild(card);
+          });
         }
-
-        renderPinyinChars(g, 'all');
       }
 
-      // 3. 渲染步骤 ③：汉字检字结果 (按韵母与四声分块)
-      function renderPinyinChars(g, filterSyllable) {
+      // 3. 渲染 Pane 3：四声汉字结果
+      function populatePinyinChars(g, syllable) {
+        if (pyResultsTitle) {
+          pyResultsTitle.textContent = `音节【 ${syllable} 】查得汉字（按四声分列）`;
+        }
         resultContainer.innerHTML = '';
         if (!g.syllables) return;
 
-        const syllablesToShow = filterSyllable === 'all'
-          ? g.syllables
-          : g.syllables.filter(s => s.syllable === filterSyllable);
+        const syl = g.syllables.find(s => s.syllable === syllable);
+        if (!syl) return;
 
         const toneNames = { 
           1: '一声（阴平）', 
@@ -803,55 +870,50 @@
           5: '轻声' 
         };
 
-        syllablesToShow.forEach(syl => {
-          const sec = document.createElement('div');
-          sec.className = 'group-section';
+        const sec = document.createElement('div');
+        sec.className = 'group-section';
 
-          const ymTitle = syl.yunmu && syl.yunmu !== syl.syllable ? `-${syl.yunmu}` : syl.syllable;
-          const titleRow = document.createElement('div');
-          titleRow.className = 'group-section-title';
-          titleRow.innerHTML = `
-            <span>【 韵母 ${ymTitle} · 音节 ${syl.syllable} 】</span>
-            <span class="group-section-count">共 ${syl.count} 字</span>
-          `;
-          sec.appendChild(titleRow);
+        const ymTitle = syl.yunmu && syl.yunmu !== syl.syllable ? `-${syl.yunmu}` : syl.syllable;
+        const titleRow = document.createElement('div');
+        titleRow.className = 'group-section-title';
+        titleRow.innerHTML = `
+          <span>【 韵母 ${ymTitle} · 音节 ${syl.syllable} 】</span>
+          <span class="group-section-count">共 ${syl.count} 字</span>
+        `;
+        sec.appendChild(titleRow);
 
-          if (syl.tones) {
-            for (const [t, chars] of Object.entries(syl.tones)) {
-              if (!chars || chars.length === 0) continue;
-              const toneBlock = document.createElement('div');
-              toneBlock.className = 'tone-subblock';
-              toneBlock.innerHTML = `<div class="tone-subblock-title">${toneNames[t] || '其他'} · ${chars.length}字</div>`;
+        if (syl.tones) {
+          for (const [t, chars] of Object.entries(syl.tones)) {
+            if (!chars || chars.length === 0) continue;
+            const toneBlock = document.createElement('div');
+            toneBlock.className = 'tone-subblock';
+            toneBlock.innerHTML = `<div class="tone-subblock-title">${toneNames[t] || '其他'} · ${chars.length}字</div>`;
 
-              const grid = document.createElement('div');
-              grid.className = 'char-chips-grid';
-              chars.forEach(ch => {
-                const chip = document.createElement('span');
-                chip.className = 'char-chip';
-                chip.textContent = ch;
-                const idxEnt = state.indexDict[ch] || state.coreDict[ch];
-                chip.title = `${ch} [${idxEnt?.p || idxEnt?.pinyin || syl.syllable}]`;
-                chip.addEventListener('click', () => {
-                  el.pinyinModal.classList.remove('active');
-                  loadCharacter(ch);
-                });
-                grid.appendChild(chip);
+            const grid = document.createElement('div');
+            grid.className = 'char-chips-grid';
+            chars.forEach(ch => {
+              const chip = document.createElement('span');
+              chip.className = 'char-chip';
+              chip.textContent = ch;
+              const idxEnt = state.indexDict[ch] || state.coreDict[ch];
+              chip.title = `${ch} [${idxEnt?.p || idxEnt?.pinyin || syl.syllable}]`;
+              chip.addEventListener('click', () => {
+                el.pinyinModal.classList.remove('active');
+                loadCharacter(ch);
               });
+              grid.appendChild(chip);
+            });
 
-              toneBlock.appendChild(grid);
-              sec.appendChild(toneBlock);
-            }
+            toneBlock.appendChild(grid);
+            sec.appendChild(toneBlock);
           }
+        }
 
-          resultContainer.appendChild(sec);
-        });
+        resultContainer.appendChild(sec);
       }
 
-      // 默认展示“b”声母
-      const defaultGroup = window.PINYIN_GROUPS.find(g => (g.shengmu || g.initial) === state.selectedShengmu) || window.PINYIN_GROUPS[0];
-      if (defaultGroup) {
-        selectShengmu(defaultGroup);
-      }
+      // 打开时默认重置为第一步
+      goToPinyinStep(0);
     } catch (e) {
       console.error('initPinyinDrawer 异常:', e);
     }
