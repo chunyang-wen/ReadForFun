@@ -57,6 +57,10 @@ body {
   background-size: 24px 24px;
 }
 
+body.lookup-modal-open {
+  overflow: hidden;
+}
+
 /* 顶部导航栏 */
 .site-header {
   position: sticky;
@@ -769,17 +773,20 @@ body {
   font-family: var(--font-sans);
 }
 
-/* 抽屉式侧边栏与下钻推入 (Slide-in Side Drawer & Push/Return Stack) */
+/* 新华字典式检字弹窗：固定步骤栏 + 单页下钻 */
 .drawer-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(30, 34, 38, 0.45);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  display: grid;
+  place-items: center;
+  padding: 28px;
+  background: rgba(32, 28, 24, 0.58);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   z-index: 300;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.28s ease;
+  transition: opacity 0.22s ease;
 }
 
 .drawer-overlay.active {
@@ -788,36 +795,54 @@ body {
 }
 
 .side-drawer {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: min(620px, 94vw);
-  height: 100vh;
-  background: #faf8f5;
-  box-shadow: -8px 0 32px rgba(0, 0, 0, 0.18);
+  position: relative;
+  width: min(900px, calc(100vw - 56px));
+  height: min(720px, calc(100vh - 56px));
+  min-height: 520px;
+  overflow: hidden;
+  background-color: #fbf8f1;
+  background-image:
+    linear-gradient(rgba(132, 99, 59, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(132, 99, 59, 0.018) 1px, transparent 1px);
+  background-size: 20px 20px;
+  border: 1px solid rgba(126, 91, 54, 0.42);
+  border-radius: 12px;
+  box-shadow: 0 30px 90px rgba(21, 17, 13, 0.34), 0 2px 8px rgba(21, 17, 13, 0.18);
   z-index: 301;
   display: flex;
   flex-direction: column;
-  transform: translateX(100%);
-  transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateY(18px) scale(0.975);
+  opacity: 0;
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease;
   will-change: transform;
 }
 
 .drawer-overlay.active .side-drawer {
-  transform: translateX(0);
+  transform: translateY(0) scale(1);
+  opacity: 1;
 }
 
-/* 抽屉顶部导航条 (带返回按钮、标题、面包屑、关闭按钮) */
+/* 弹窗顶部：书名式标题与固定步骤导航 */
 .drawer-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.9rem 1.25rem;
-  background: #ffffff;
-  border-bottom: 1px solid var(--border-color);
+  position: relative;
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr) 140px;
+  align-items: start;
+  padding: 1.3rem 1.5rem 1.15rem;
+  background: rgba(255, 253, 248, 0.94);
+  border-bottom: 1px solid #dacdbb;
   flex-shrink: 0;
-  gap: 0.75rem;
+  gap: 1rem;
+}
+
+.drawer-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 1px;
+  background: rgba(184, 59, 46, 0.22);
 }
 
 .drawer-back-btn {
@@ -827,13 +852,14 @@ body {
   padding: 0.4rem 0.8rem;
   background: var(--bg-subtle);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-full);
+  border-radius: 5px;
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--ink-secondary);
   cursor: pointer;
   transition: all 0.15s;
-  flex-shrink: 0;
+  justify-self: start;
+  margin-top: 1.2rem;
 }
 
 .drawer-back-btn:hover {
@@ -843,7 +869,8 @@ body {
 }
 
 .drawer-back-btn.hidden {
-  display: none;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .drawer-back-btn .back-arrow {
@@ -854,43 +881,73 @@ body {
 }
 
 .drawer-title-area {
-  flex: 1;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   min-width: 0;
 }
 
+.drawer-kicker {
+  color: var(--cinnabar);
+  font-family: var(--font-serif);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  margin-bottom: 0.15rem;
+}
+
 .drawer-title {
   font-family: var(--font-serif);
-  font-size: 1.15rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: var(--ink-primary);
   margin: 0;
+  letter-spacing: 0.14em;
+  line-height: 1.25;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .drawer-breadcrumbs {
+  width: min(520px, 100%);
   display: flex;
   align-items: center;
-  gap: 0.35rem;
-  font-size: 0.76rem;
+  justify-content: center;
+  gap: 0;
+  font-size: 0.78rem;
   color: var(--ink-muted);
-  margin-top: 2px;
+  margin-top: 0.85rem;
 }
 
 .drawer-breadcrumbs .crumb {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   cursor: pointer;
-  padding: 1px 4px;
-  border-radius: 3px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  white-space: nowrap;
   transition: all 0.15s;
+}
+
+.drawer-breadcrumbs .crumb > span {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bdb3a5;
+  border-radius: 50%;
+  font-family: Georgia, serif;
+  background: #fffdf8;
 }
 
 .drawer-breadcrumbs .crumb:hover {
   color: var(--cinnabar);
-  background: var(--cinnabar-light);
 }
 
 .drawer-breadcrumbs .crumb.active {
@@ -898,9 +955,37 @@ body {
   font-weight: 700;
 }
 
-.drawer-breadcrumbs .crumb-sep {
-  color: var(--border-dark);
-  font-size: 0.7rem;
+.drawer-breadcrumbs .crumb.active > span {
+  color: #fff;
+  border-color: var(--cinnabar);
+  background: var(--cinnabar);
+  box-shadow: 0 2px 6px rgba(184, 59, 46, 0.2);
+}
+
+.drawer-breadcrumbs .crumb.complete {
+  color: var(--bamboo);
+}
+
+.drawer-breadcrumbs .crumb.complete > span {
+  color: transparent;
+  border-color: var(--bamboo);
+  background: var(--bamboo);
+  position: relative;
+}
+
+.drawer-breadcrumbs .crumb.complete > span::after {
+  content: "✓";
+  position: absolute;
+  color: #fff;
+  font-family: var(--font-sans);
+  font-weight: 700;
+}
+
+.drawer-breadcrumbs .crumb-line {
+  width: clamp(20px, 5vw, 62px);
+  height: 1px;
+  margin: 0 0.65rem;
+  background: #c9c0b4;
 }
 
 .drawer-close-btn {
@@ -912,7 +997,8 @@ body {
   padding: 0.25rem 0.5rem;
   line-height: 1;
   transition: all 0.15s;
-  flex-shrink: 0;
+  justify-self: end;
+  margin-top: 1rem;
   border-radius: var(--radius-sm);
 }
 
@@ -921,7 +1007,7 @@ body {
   background: var(--cinnabar-light);
 }
 
-/* 抽屉滑动视口与轨道 (Push & Return Stack Viewport) */
+/* 当前步骤独占内容视口，纵向滚动被限制在弹窗内 */
 .drawer-viewport {
   flex: 1;
   overflow: hidden;
@@ -941,7 +1027,7 @@ body {
   width: 33.333333%;
   height: 100%;
   overflow-y: auto;
-  padding: 1.25rem 1.5rem;
+  padding: 1.35rem 2rem 2rem;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -953,22 +1039,22 @@ body {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.65rem 0.9rem;
-  background: #ffffff;
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  font-size: 0.86rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 253, 248, 0.84);
+  border: 0;
+  border-left: 3px solid var(--cinnabar);
+  border-radius: 0;
+  font-size: 0.9rem;
   flex-shrink: 0;
-  box-shadow: var(--shadow-sm);
 }
 
 .pane-step-badge {
-  background: var(--cinnabar);
-  color: #fff;
+  background: transparent;
+  color: var(--cinnabar);
   font-size: 0.72rem;
   font-weight: 700;
-  padding: 2px 7px;
-  border-radius: var(--radius-full);
+  padding: 0;
+  border-radius: 0;
 }
 
 .pane-step-text {
@@ -981,7 +1067,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: #faf8f5;
+  background: #fbf8f1;
   padding-bottom: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -1029,8 +1115,8 @@ body {
 /* 笔画卡片网格 (部首步骤 1) */
 .drawer-stroke-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.65rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
 }
 
 .stroke-drill-card {
@@ -1040,11 +1126,15 @@ body {
   padding: 0.85rem 1.1rem;
   background: #ffffff;
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
+  border-radius: 6px;
   cursor: pointer;
   transition: all 0.18s;
   box-shadow: var(--shadow-sm);
   user-select: none;
+  width: 100%;
+  color: inherit;
+  font: inherit;
+  text-align: left;
 }
 
 .stroke-drill-card:hover {
@@ -1087,22 +1177,27 @@ body {
 /* 部首卡片网格 (部首步骤 2) */
 .drawer-radicals-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.65rem;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.75rem;
 }
 
 .radical-drill-card {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.75rem 0.9rem;
+  min-height: 82px;
+  padding: 0.75rem 0.85rem;
   background: #ffffff;
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
+  border-radius: 6px;
   cursor: pointer;
   transition: all 0.18s;
   box-shadow: var(--shadow-sm);
   user-select: none;
+  width: 100%;
+  color: inherit;
+  font: inherit;
+  text-align: left;
 }
 
 .radical-drill-card:hover {
@@ -1114,13 +1209,15 @@ body {
 
 .radical-drill-card .rad-left {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   align-items: center;
   gap: 0.5rem;
 }
 
 .radical-drill-card .rad-char {
   font-family: var(--font-serif);
-  font-size: 1.45rem;
+  font-size: 1.65rem;
   font-weight: 700;
   color: var(--ink-primary);
   line-height: 1;
@@ -1146,8 +1243,8 @@ body {
 /* 声母卡片网格 (拼音步骤 1) */
 .drawer-shengmu-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.65rem;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.75rem;
 }
 
 .shengmu-drill-card {
@@ -1157,11 +1254,16 @@ body {
   padding: 0.85rem 1rem;
   background: #ffffff;
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
+  min-height: 82px;
+  border-radius: 6px;
   cursor: pointer;
   transition: all 0.18s;
   box-shadow: var(--shadow-sm);
   user-select: none;
+  width: 100%;
+  color: inherit;
+  font: inherit;
+  text-align: left;
 }
 
 .shengmu-drill-card:hover {
@@ -1172,7 +1274,8 @@ body {
 }
 
 .shengmu-drill-card .sm-letter {
-  font-size: 1.15rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.45rem;
   font-weight: 700;
   color: var(--ink-primary);
 }
@@ -1197,8 +1300,8 @@ body {
 /* 韵母卡片网格 (拼音步骤 2) */
 .drawer-yunmu-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.65rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
 }
 
 .yunmu-drill-card {
@@ -1208,11 +1311,16 @@ body {
   padding: 0.8rem 1rem;
   background: #ffffff;
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
+  min-height: 76px;
+  border-radius: 6px;
   cursor: pointer;
   transition: all 0.18s;
   box-shadow: var(--shadow-sm);
   user-select: none;
+  width: 100%;
+  color: inherit;
+  font: inherit;
+  text-align: left;
 }
 
 .yunmu-drill-card:hover {
@@ -1364,7 +1472,7 @@ body {
   justify-content: center;
   background: #ffffff;
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
+  border-radius: 4px;
   cursor: pointer;
   transition: all 0.15s;
   user-select: none;
@@ -1394,19 +1502,94 @@ body {
   .header-container {
     flex-wrap: wrap;
   }
+  .drawer-overlay {
+    place-items: end center;
+    padding: 0;
+  }
   .side-drawer {
     width: 100vw;
+    height: min(88vh, 760px);
+    min-height: 0;
+    border-radius: 16px 16px 0 0;
+    border-bottom: 0;
+    transform: translateY(100%);
+  }
+  .drawer-overlay.active .side-drawer {
+    transform: translateY(0);
+  }
+  .drawer-header {
+    grid-template-columns: 64px minmax(0, 1fr) 64px;
+    padding: 0.95rem 0.8rem 0.85rem;
+    gap: 0.25rem;
+  }
+  .drawer-title {
+    font-size: 1.35rem;
+  }
+  .drawer-kicker {
+    display: none;
+  }
+  .drawer-back-btn {
+    width: 42px;
+    height: 38px;
+    padding: 0;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .drawer-back-btn .back-text {
+    display: none;
+  }
+  .drawer-close-btn {
+    margin-top: 0;
+  }
+  .drawer-breadcrumbs {
+    margin-top: 0.65rem;
+    font-size: 0.7rem;
+  }
+  .drawer-breadcrumbs .crumb {
+    gap: 0.2rem;
+  }
+  .drawer-breadcrumbs .crumb > span {
+    width: 21px;
+    height: 21px;
+  }
+  .drawer-breadcrumbs .crumb-line {
+    width: 12px;
+    margin: 0 0.25rem;
   }
   .drawer-pane {
     padding: 1rem;
     gap: 0.75rem;
   }
   .drawer-stroke-grid,
-  .drawer-shengmu-grid,
-  .drawer-radicals-grid,
   .drawer-yunmu-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .drawer-radicals-grid,
+  .drawer-shengmu-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .radical-drill-card,
+  .shengmu-drill-card {
+    min-height: 72px;
   }
 }
 
+@media (max-width: 480px) {
+  .drawer-breadcrumbs .crumb {
+    font-size: 0;
+  }
+  .drawer-breadcrumbs .crumb > span {
+    font-size: 0.72rem;
+  }
+  .drawer-breadcrumbs .crumb-line {
+    width: clamp(24px, 12vw, 48px);
+  }
+}
 
+@media (prefers-reduced-motion: reduce) {
+  .drawer-overlay,
+  .side-drawer,
+  .drawer-track {
+    transition-duration: 0.01ms;
+  }
+}

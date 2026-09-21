@@ -513,7 +513,7 @@
     el.searchDropdown.style.display = 'block';
   }
 
-  // 8. 部首检字抽屉逻辑 (侧边抽屉 + Push & Return 逐级下钻导航)
+  // 8. 部首检字弹窗逻辑（每次只呈现当前一步）
   let radCurrentStep = 0;
   function initRadicalDrawer() {
     try {
@@ -538,28 +538,26 @@
         // 更新返回按钮状态与标题
         if (radCurrentStep === 0) {
           backBtn.classList.add('hidden');
-          drawerTitle.textContent = '📖 部首查字';
+          drawerTitle.textContent = '部首查字';
         } else if (radCurrentStep === 1) {
           backBtn.classList.remove('hidden');
           const backText = backBtn.querySelector('.back-text');
-          if (backText) backText.textContent = '返回 (笔画选择)';
-          drawerTitle.textContent = `${state.selectedRadicalStroke} 画部首列表`;
+          if (backText) backText.textContent = '返回部首笔画';
+          drawerTitle.textContent = '部首查字';
         } else if (radCurrentStep === 2) {
           backBtn.classList.remove('hidden');
           const backText = backBtn.querySelector('.back-text');
-          if (backText) backText.textContent = '返回 (部首选择)';
-          drawerTitle.textContent = `部首：${state.selectedRadical}`;
+          if (backText) backText.textContent = '返回选择部首';
+          drawerTitle.textContent = '部首查字';
         }
 
         // 更新面包屑指示器
         if (breadcrumbs) {
           const crumbs = breadcrumbs.querySelectorAll('.crumb');
           crumbs.forEach((c, idx) => {
-            if (idx === radCurrentStep) {
-              c.classList.add('active');
-            } else {
-              c.classList.remove('active');
-            }
+            c.classList.toggle('active', idx === radCurrentStep);
+            c.classList.toggle('complete', idx < radCurrentStep);
+            c.setAttribute('aria-current', idx === radCurrentStep ? 'step' : 'false');
           });
         }
       }
@@ -584,7 +582,8 @@
       // 1. 渲染 Pane 1：1~17 笔画卡片网格
       strokeSelector.innerHTML = '';
       window.RADICAL_GROUPS.forEach(g => {
-        const card = document.createElement('div');
+        const card = document.createElement('button');
+        card.type = 'button';
         card.className = 'stroke-drill-card';
         card.innerHTML = `
           <div class="stroke-main">
@@ -608,7 +607,8 @@
         }
         radButtonsBox.innerHTML = '';
         g.radicals.forEach(rItem => {
-          const card = document.createElement('div');
+          const card = document.createElement('button');
+          card.type = 'button';
           card.className = 'radical-drill-card';
           card.innerHTML = `
             <div class="rad-left">
@@ -715,7 +715,7 @@
           chip.title = ch;
         }
         chip.addEventListener('click', () => {
-          el.radicalModal.classList.remove('active');
+          closeLookupModal(el.radicalModal);
           loadCharacter(ch);
         });
         return chip;
@@ -728,7 +728,7 @@
     }
   }
 
-  // 9. 拼音检字抽屉逻辑 (侧边抽屉 + Push & Return 逐级下钻导航)
+  // 9. 拼音检字弹窗逻辑（声母 -> 韵母 -> 按声调检字）
   let pyCurrentStep = 0;
   function initPinyinDrawer() {
     try {
@@ -752,28 +752,26 @@
         // 更新返回按钮状态与标题
         if (pyCurrentStep === 0) {
           backBtn.classList.add('hidden');
-          drawerTitle.textContent = '🔤 拼音查字';
+          drawerTitle.textContent = '拼音查字';
         } else if (pyCurrentStep === 1) {
           backBtn.classList.remove('hidden');
           const backText = backBtn.querySelector('.back-text');
-          if (backText) backText.textContent = '返回 (声母选择)';
-          drawerTitle.textContent = `声母：${state.selectedShengmu}`;
+          if (backText) backText.textContent = '返回选择声母';
+          drawerTitle.textContent = '拼音查字';
         } else if (pyCurrentStep === 2) {
           backBtn.classList.remove('hidden');
           const backText = backBtn.querySelector('.back-text');
-          if (backText) backText.textContent = '返回 (韵母选择)';
-          drawerTitle.textContent = `音节：${state.selectedYunmu}`;
+          if (backText) backText.textContent = '返回选择韵母';
+          drawerTitle.textContent = '拼音查字';
         }
 
         // 更新面包屑指示器
         if (breadcrumbs) {
           const crumbs = breadcrumbs.querySelectorAll('.crumb');
           crumbs.forEach((c, idx) => {
-            if (idx === pyCurrentStep) {
-              c.classList.add('active');
-            } else {
-              c.classList.remove('active');
-            }
+            c.classList.toggle('active', idx === pyCurrentStep);
+            c.classList.toggle('complete', idx < pyCurrentStep);
+            c.setAttribute('aria-current', idx === pyCurrentStep ? 'step' : 'false');
           });
         }
       }
@@ -801,7 +799,8 @@
         const smName = g.shengmu || g.initial || 'b';
         const smCount = g.count || (g.syllables ? g.syllables.reduce((acc, s) => acc + (s.count || 0), 0) : 0);
 
-        const card = document.createElement('div');
+        const card = document.createElement('button');
+        card.type = 'button';
         card.className = 'shengmu-drill-card';
         card.innerHTML = `
           <div>
@@ -830,7 +829,8 @@
 
         if (g.syllables) {
           g.syllables.forEach(syl => {
-            const card = document.createElement('div');
+            const card = document.createElement('button');
+            card.type = 'button';
             card.className = 'yunmu-drill-card';
             const ymDisplay = syl.yunmu && syl.yunmu !== syl.syllable ? `-${syl.yunmu} (${syl.syllable})` : syl.syllable;
             card.innerHTML = `
@@ -898,7 +898,7 @@
               const idxEnt = state.indexDict[ch] || state.coreDict[ch];
               chip.title = `${ch} [${idxEnt?.p || idxEnt?.pinyin || syl.syllable}]`;
               chip.addEventListener('click', () => {
-                el.pinyinModal.classList.remove('active');
+                closeLookupModal(el.pinyinModal);
                 loadCharacter(ch);
               });
               grid.appendChild(chip);
@@ -917,6 +917,25 @@
     } catch (e) {
       console.error('initPinyinDrawer 异常:', e);
     }
+  }
+
+  let lookupTrigger = null;
+
+  function openLookupModal(modal, dialog) {
+    lookupTrigger = document.activeElement;
+    modal.classList.add('active');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('lookup-modal-open');
+    requestAnimationFrame(() => dialog?.focus());
+  }
+
+  function closeLookupModal(modal) {
+    if (!modal?.classList.contains('active')) return;
+    modal.classList.remove('active');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('lookup-modal-open');
+    if (lookupTrigger && typeof lookupTrigger.focus === 'function') lookupTrigger.focus();
+    lookupTrigger = null;
   }
 
   // 10. 事件绑定
@@ -1022,16 +1041,16 @@
       }
     });
 
-    // 部首检字抽屉开闭
+    // 部首检字弹窗开闭
     el.btnRadicalOpen.addEventListener('click', () => {
       initRadicalDrawer();
-      el.radicalModal.classList.add('active');
+      openLookupModal(el.radicalModal, document.getElementById('radical-drawer'));
     });
 
-    // 拼音检字抽屉开闭
+    // 拼音检字弹窗开闭
     el.btnPinyinOpen.addEventListener('click', () => {
       initPinyinDrawer();
-      el.pinyinModal.classList.add('active');
+      openLookupModal(el.pinyinModal, document.getElementById('pinyin-drawer'));
     });
 
     // 随机一字探索
@@ -1046,16 +1065,41 @@
     // 模态框关闭按钮
     el.modalCloseBtns.forEach(btn => {
       btn.addEventListener('click', () => {
-        el.radicalModal.classList.remove('active');
-        el.pinyinModal.classList.remove('active');
+        closeLookupModal(btn.closest('.drawer-overlay'));
       });
     });
 
     // 点击遮罩外部关闭模态框
     [el.radicalModal, el.pinyinModal].forEach(modal => {
       modal.addEventListener('click', (e) => {
-        if (e.target === modal) modal.classList.remove('active');
+        if (e.target === modal) closeLookupModal(modal);
       });
+    });
+
+    document.addEventListener('keydown', (e) => {
+      const activeModal = document.querySelector('.drawer-overlay.active');
+      if (!activeModal) return;
+
+      if (e.key === 'Escape') {
+        closeLookupModal(activeModal);
+        return;
+      }
+
+      if (e.key === 'Tab') {
+        const focusable = Array.from(activeModal.querySelectorAll(
+          'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        )).filter(node => node.offsetParent !== null);
+        if (!focusable.length) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.shiftKey && (document.activeElement === first || document.activeElement === activeModal.querySelector('[role="dialog"]'))) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
     });
   }
 
