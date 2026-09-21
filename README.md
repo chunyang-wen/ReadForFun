@@ -2,6 +2,10 @@
 
 把纪录片和视频变成可以一页一页阅读的中文绘本。
 
+## 游戏室
+
+- [2048](https://chunyang-wen.github.io/ReadForFun/games/2048/) · 支持键盘、触摸滑动与本地最佳成绩记录
+
 ## 故事合集
 
 - [我们的星球 - 地球](https://chunyang-wen.github.io/ReadForFun/our-planet-earth/) · 8 本
