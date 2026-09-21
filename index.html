@@ -61,21 +61,27 @@
     .wordmark {
       display: inline-flex;
       align-items: center;
-      gap: 10px;
+      gap: 11px;
       color: var(--ink);
-      font-size: .78rem;
+      font-size: 1.15rem;
       font-weight: 700;
-      letter-spacing: .17em;
+      letter-spacing: -.01em;
       text-decoration: none;
-      text-transform: uppercase;
+      transition: opacity .2s ease;
     }
-    .wordmark::before {
-      width: 10px;
-      height: 10px;
-      content: "";
-      border-radius: 50%;
-      background: var(--sun);
-      box-shadow: 0 0 0 5px #d7a74d26;
+    .wordmark:hover {
+      opacity: .82;
+    }
+    .wordmark__icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      display: block;
+      flex-shrink: 0;
+      box-shadow: 0 1px 3px rgba(28, 41, 36, .12);
+    }
+    .wordmark__text {
+      line-height: 1;
     }
     .library {
       padding: clamp(54px, 8vw, 104px) 5% clamp(60px, 9vw, 120px);
@@ -594,28 +600,8 @@
       padding-top: 24px;
     }
     .topbar {
-      justify-content: space-between;
-      min-height: 58px;
+      min-height: 52px;
       padding: 0 2px 18px;
-    }
-    .shelf-mark {
-      display: grid;
-      justify-items: center;
-      color: var(--ink);
-      font-family: var(--serif);
-      line-height: 1;
-    }
-    .shelf-mark__pinyin {
-      margin-bottom: 4px;
-      font-family: var(--sans);
-      font-size: .58rem;
-      font-weight: 700;
-      letter-spacing: .24em;
-      text-transform: lowercase;
-    }
-    .shelf-mark__title {
-      font-size: 2rem;
-      letter-spacing: -.08em;
     }
     .library {
       padding: clamp(26px, 3.5vw, 48px) 0 clamp(64px, 8vw, 108px);
@@ -841,8 +827,7 @@
     }
     @media (max-width: 760px) {
       .page-shell { width: min(100% - 32px, 620px); padding-top: 16px; }
-      .topbar { min-height: 50px; padding-bottom: 14px; }
-      .shelf-mark__title { font-size: 1.65rem; }
+      .topbar { min-height: 48px; padding-bottom: 14px; }
       .library { padding: 17px 0 72px; }
       .library-header { margin-bottom: 12px; }
       .catalog-toolbar { position: relative; padding-top: 7px; background: transparent; }
@@ -876,9 +861,8 @@
       body[data-view="list"] .stroke-study { display: none; }
     }
     @media (max-width: 420px) {
-      .wordmark { font-size: .68rem; letter-spacing: .13em; }
-      .shelf-mark__pinyin { font-size: .48rem; }
-      .shelf-mark__title { font-size: 1.45rem; }
+      .wordmark { font-size: 1.02rem; gap: 9px; }
+      .wordmark__icon { width: 28px; height: 28px; border-radius: 7px; }
       .search-shortcut { display: none; }
       .search-box input { padding-right: 14px; font-size: .9rem; }
       .catalog-toolbar__secondary { display: grid; gap: 9px; }
@@ -895,11 +879,10 @@
 <body data-view="grid">
   <div class="page-shell">
     <header class="topbar">
-      <a class="wordmark" href="./" aria-label="ReadForFun 首页">ReadForFun</a>
-      <div class="shelf-mark" aria-hidden="true">
-        <span class="shelf-mark__pinyin">shū&nbsp;&nbsp;jià</span>
-        <span class="shelf-mark__title">书架</span>
-      </div>
+      <a class="wordmark" href="./" aria-label="ReadForFun 首页">
+        <img class="wordmark__icon" src="apple-touch-icon.png" alt="" width="32" height="32">
+        <span class="wordmark__text">ReadForFun</span>
+      </a>
     </header>
 
     <main class="library" aria-labelledby="shelf-title">
