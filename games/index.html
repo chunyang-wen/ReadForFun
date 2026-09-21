@@ -63,6 +63,16 @@
     .mini-board .n32 { color: #f8f1e5; background: #66443a; }
     .mini-board .n64 { color: #fff8e7; background: #d3a13a; }
     .mini-board .blank { color: transparent; background: #ffffff14; box-shadow: none; }
+    .flight-art { padding: 0; background: linear-gradient(#91ada8 0 58%, #d8bd7f 100%); }
+    .flight-art::before, .flight-art::after { position: absolute; width: 21%; content: ""; background: #375346; box-shadow: inset 7px 0 #263f35, inset -5px 0 #6f8973; }
+    .flight-art::before { top: 0; right: 18%; height: 33%; border-bottom: 12px solid #4b6757; }
+    .flight-art::after { right: 18%; bottom: 0; height: 35%; border-top: 12px solid #4b6757; }
+    .flight-sun { position: absolute; top: 13%; left: 15%; width: 14%; aspect-ratio: 1; border-radius: 50%; background: #f4e3a6b8; }
+    .flight-hills { position: absolute; right: 0; bottom: 0; left: 0; height: 34%; background: #738d79; clip-path: polygon(0 55%, 13% 28%, 27% 58%, 43% 20%, 57% 60%, 70% 36%, 84% 57%, 100% 28%, 100% 100%, 0 100%); }
+    .flight-bird { position: absolute; z-index: 2; top: 44%; left: 30%; width: 15%; height: 18%; border-radius: 70% 60% 55% 65%; background: #e0ad40; box-shadow: 0 5px 9px #20312b52; transform: rotate(-9deg); }
+    .flight-bird::before { position: absolute; right: -35%; top: 35%; width: 47%; height: 31%; content: ""; background: #a64d35; clip-path: polygon(0 0, 100% 50%, 0 100%); }
+    .flight-bird::after { position: absolute; left: 16%; bottom: -5%; width: 63%; height: 50%; content: ""; border-radius: 50%; background: #f1cf6c; transform: rotate(-22deg); }
+    .game-card:nth-child(even) .game-art { transform: rotate(1deg); }
     .game-copy { padding: 18px 0; }
     .game-copy .label { margin: 0 0 11px; color: var(--moss); font-size: .62rem; font-weight: 700; letter-spacing: .17em; text-transform: uppercase; }
     h2 { margin: 0 0 14px; font-size: clamp(2.8rem, 6vw, 5.5rem); letter-spacing: -.06em; line-height: .85; }
@@ -118,9 +128,24 @@
             <span class="arrow" aria-hidden="true">→</span>
           </a>
         </article>
+        <article class="game-card">
+          <a class="game-link" href="flappy-bird/" aria-label="开始玩 Flappy Bird">
+            <div class="game-art flight-art" aria-hidden="true">
+              <span class="flight-sun"></span>
+              <span class="flight-hills"></span>
+              <span class="flight-bird"></span>
+            </div>
+            <div class="game-copy">
+              <p class="label" style="color:#a64d35;">PAPER FLIGHT · SECOND EDITION</p>
+              <h2>Flappy Bird</h2>
+              <p>轻点拍翼，穿过绿色书脊。在风与重力之间，找到自己的节奏。</p>
+            </div>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </article>
       </section>
     </main>
-    <footer class="footer"><span>游戏室 · 1 个游戏</span><span>2026</span></footer>
+    <footer class="footer"><span>游戏室 · 2 个游戏</span><span>2026</span></footer>
   </div>
 </body>
 </html>

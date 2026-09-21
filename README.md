@@ -5,6 +5,7 @@
 ## 游戏室
 
 - [2048](https://chunyang-wen.github.io/ReadForFun/games/2048/) · 支持键盘、触摸滑动与本地最佳成绩记录
+- [Flappy Bird](https://chunyang-wen.github.io/ReadForFun/games/flappy-bird/) · 支持键盘、点击与触摸操作，包含暂停、音效和本地最佳成绩记录
 
 ## 故事合集
 

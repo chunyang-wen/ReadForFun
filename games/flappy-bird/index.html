@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#d7c99f">
+  <title>Flappy Bird · ReadForFun 游戏室</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="wordmark" href="../../"><img src="../../apple-touch-icon.png" alt="" width="30" height="30">ReadForFun</a>
+      <a class="back-link" href="../">游戏室</a>
+    </header>
+
+    <main class="game-layout">
+      <section class="game-intro" aria-labelledby="game-title">
+        <p class="eyebrow">PAPER FLIGHT · 02</p>
+        <h1 id="game-title"><span>Flappy</span> Bird</h1>
+        <p class="lede">轻轻拍动翅膀，穿过一座座绿色书脊。飞得越远，天空就越宽。</p>
+        <div class="instructions">
+          <p><strong>拍动</strong> 空格键、↑ 或点击画面</p>
+          <p><strong>暂停</strong> P 键</p>
+        </div>
+        <p class="tip"><span>飞行诀窍</span> 保持节奏，比连续猛拍更重要。</p>
+      </section>
+
+      <section class="flight-station" aria-label="Flappy Bird 游戏">
+        <div class="scorebar">
+          <div class="score-card"><span>本局</span><strong id="score">0</strong></div>
+          <div class="score-card"><span>最佳</span><strong id="bestScore">0</strong></div>
+          <button id="soundToggle" class="sound-button" type="button" aria-pressed="true" aria-label="关闭声音">声 · 开</button>
+        </div>
+
+        <div id="gameFrame" class="game-frame">
+          <canvas id="gameCanvas" width="480" height="640" tabindex="0" role="application" aria-label="Flappy Bird 游戏画面。按空格键或向上方向键拍动翅膀。"></canvas>
+          <div id="gameOverlay" class="game-overlay">
+            <div class="overlay-mark" aria-hidden="true">↟</div>
+            <p id="overlayTitle">准备起飞</p>
+            <span id="overlayText">穿过书脊之间的空隙</span>
+            <button id="actionButton" type="button">开始飞行</button>
+          </div>
+          <button id="pauseButton" class="pause-button" type="button" aria-label="暂停游戏" hidden>Ⅱ</button>
+        </div>
+
+        <p id="gameStatus" class="game-status" aria-live="polite">准备起飞。按开始飞行按钮进入游戏。</p>
+        <button id="mobileFlap" class="mobile-flap" type="button"><span aria-hidden="true">↑</span> 拍动翅膀</button>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
