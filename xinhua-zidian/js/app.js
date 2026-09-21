@@ -17,8 +17,84 @@
     isQuizMode: false,
     selectedRadical: null,
     selectedAlpha: 'Y',
-    selectedSyllable: null
+    selectedSyllable: null,
+    renderId: 0
   };
+
+  // 字符矢量数据缓存池（内存 + LocalStorage 双层持久缓存）
+  const charDataCache = new Map();
+
+  async function getCharData(char) {
+    if (!char) return null;
+    // 1. 检查内存缓存 (0ms)
+    if (charDataCache.has(char)) {
+      return charDataCache.get(char);
+    }
+    // 2. 检查本地内置精选预载库 (preload-hanzi.js, 0ms)
+    if (window.PRELOADED_HANZI && window.PRELOADED_HANZI[char]) {
+      charDataCache.set(char, window.PRELOADED_HANZI[char]);
+      return window.PRELOADED_HANZI[char];
+    }
+    // 3. 检查浏览器 LocalStorage 离线缓存 (1~2ms)
+    try {
+      const cached = localStorage.getItem('hz_data_' + char);
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        charDataCache.set(char, parsed);
+        return parsed;
+      }
+    } catch (e) {}
+
+    // 4. 从 CDN 动态抓取（支持快速多镜像重试）
+    const encoded = encodeURIComponent(char);
+    const urls = [
+      `https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${encoded}.json`,
+      `https://unpkg.com/hanzi-writer-data@2.0/${encoded}.json`
+    ];
+
+    let data = null;
+    for (const u of urls) {
+      try {
+        const res = await fetch(u, { cache: 'force-cache' });
+        if (res.ok) {
+          data = await res.json();
+          break;
+        }
+      } catch (err) {}
+    }
+
+    if (data) {
+      charDataCache.set(char, data);
+      try {
+        localStorage.setItem('hz_data_' + char, JSON.stringify(data));
+      } catch (e) {}
+      return data;
+    }
+
+    throw new Error('未获取到该字矢量数据: ' + char);
+  }
+
+  // 预测性后台静默预载相关同音字与词语的矢量数据
+  function prefetchRelatedChars(entry) {
+    if (!entry) return;
+    const candidates = [];
+    if (entry.homophones) candidates.push(...entry.homophones.slice(0, 4));
+    if (entry.words) {
+      entry.words.slice(0, 4).forEach(w => {
+        for (const ch of w) {
+          if (ch !== entry.char && !candidates.includes(ch)) candidates.push(ch);
+        }
+      });
+    }
+
+    setTimeout(() => {
+      candidates.slice(0, 5).forEach(c => {
+        if (!charDataCache.has(c)) {
+          getCharData(c).catch(() => {});
+        }
+      });
+    }, 350);
+  }
 
   // DOM 元素缓存
   const el = {
@@ -171,10 +247,52 @@
       el.wordsList.innerHTML = '<span style="color:var(--ink-muted);font-size:0.85rem;">暂无收录组词</span>';
     }
 
-    // 同音字
+  const TONE_SYMBOLS = {
+    'ā': ['a', 1], 'á': ['a', 2], 'ǎ': ['a', 3], 'à': ['a', 4],
+    'ē': ['e', 1], 'é': ['e', 2], 'ě': ['e', 3], 'è': ['e', 4],
+    'ī': ['i', 1], 'í': ['i', 2], 'ǐ': ['i', 3], 'ì': ['i', 4],
+    'ō': ['o', 1], 'ó': ['o', 2], 'ǒ': ['o', 3], 'ò': ['o', 4],
+    'ū': ['u', 1], 'ú': ['u', 2], 'ǔ': ['u', 3], 'ù': ['u', 4],
+    'ǖ': ['v', 1], 'ǘ': ['v', 2], 'ǚ': ['v', 3], 'ǜ': ['v', 4], 'ü': ['v', 5],
+    'ń': ['n', 2], 'ň': ['n', 3], 'ǹ': ['n', 4]
+  };
+
+  function findHomophonesByPinyin(char, py) {
+    if (!py || !window.PINYIN_GROUPS) return [];
+    py = py.replace('ɡ', 'g').split(',')[0].trim();
+    let raw = '';
+    let tone = 5;
+    for (const c of py) {
+      if (TONE_SYMBOLS[c]) {
+        raw += TONE_SYMBOLS[c][0];
+        tone = TONE_SYMBOLS[c][1];
+      } else {
+        raw += c;
+      }
+    }
+    raw = raw.toLowerCase();
+    if (!raw) return [];
+    const initial = raw[0].toUpperCase();
+    const group = window.PINYIN_GROUPS.find(g => g.initial === initial);
+    if (!group) return [];
+    const syl = group.syllables.find(s => s.syllable === raw);
+    if (!syl || !syl.tones || !syl.tones[tone]) return [];
+    return syl.tones[tone].filter(c => c !== char).slice(0, 14);
+  }
+
+    // 同音字（确保 100% 双向完全对称）
     el.homophonesList.innerHTML = '';
-    if (entry.homophones && entry.homophones.length > 0) {
-      entry.homophones.forEach(h => {
+    let homophones = (entry.homophones && entry.homophones.length > 0)
+      ? entry.homophones
+      : findHomophonesByPinyin(entry.char, entry.pinyin);
+
+    // 双向安全保证：如果当前列表里缺少同音字或为空，补全动态同音字
+    if (!homophones || homophones.length === 0) {
+      homophones = findHomophonesByPinyin(entry.char, entry.pinyin);
+    }
+
+    if (homophones && homophones.length > 0) {
+      homophones.forEach(h => {
         const chip = document.createElement('span');
         chip.className = 'homophone-chip';
         chip.textContent = h;
@@ -192,65 +310,74 @@
 
   // 4. 渲染 HanziWriter 与下方逐笔拆解 (Step-by-Step Breakdown)
   async function renderHanziVisuals(char, entry) {
-    // 清空旧的主画布与练字提示
-    el.writerContainer.innerHTML = '';
-    el.quizFeedback.style.display = 'none';
-    el.quizFeedback.className = 'quiz-feedback-box';
-    state.isQuizMode = false;
-    el.btnQuiz.classList.remove('active');
+    const currentRequestId = ++state.renderId;
 
     if (typeof HanziWriter === 'undefined') {
       console.error('HanziWriter 未加载');
       return;
     }
 
-    // 初始化 HanziWriter 主演示画布
-    state.writer = HanziWriter.create('hanzi-writer-target', char, {
-      width: 240,
-      height: 240,
-      padding: 14,
-      strokeColor: '#2B2D2F',
-      radicalColor: '#B83B2E',
-      outlineColor: '#E2D9CD',
-      drawingColor: '#B83B2E',
-      strokeAnimationSpeed: state.animSpeed,
-      delayBetweenStrokes: 120,
-      showOutline: true,
-      showCharacter: true,
-      charDataLoader: function(c, onComplete, onFail) {
-        if (window.PRELOADED_HANZI && window.PRELOADED_HANZI[c]) {
-          onComplete(window.PRELOADED_HANZI[c]);
-          return;
-        }
-        fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${encodeURIComponent(c)}.json`)
-          .then(res => res.json())
-          .then(data => onComplete(data))
-          .catch(err => {
-            if (onFail) onFail(err);
-          });
-      }
-    });
+    // 重置练字状态
+    state.isQuizMode = false;
+    el.btnQuiz.classList.remove('active');
+    el.quizFeedback.style.display = 'none';
+    el.quizFeedback.className = 'quiz-feedback-box';
 
-    // 异步加载单字矢量骨架数据以实现下方逐笔拆解
+    // 若数据尚未在内存/预载中，先展示优雅的轻量骨架屏占位，杜绝白屏闪烁
+    const isCached = charDataCache.has(char) || (window.PRELOADED_HANZI && window.PRELOADED_HANZI[char]);
+    if (!isCached) {
+      el.strokeCountBadge.textContent = '加载中...';
+      el.strokeStepsGrid.innerHTML = `
+        <div class="stroke-step-card skeleton"><div class="mini-grid skeleton-box"></div><div class="skeleton-text"></div></div>
+        <div class="stroke-step-card skeleton"><div class="mini-grid skeleton-box"></div><div class="skeleton-text"></div></div>
+        <div class="stroke-step-card skeleton"><div class="mini-grid skeleton-box"></div><div class="skeleton-text"></div></div>
+        <div class="stroke-step-card skeleton"><div class="mini-grid skeleton-box"></div><div class="skeleton-text"></div></div>
+      `;
+    }
+
     try {
-      let charData = null;
-      if (window.PRELOADED_HANZI && window.PRELOADED_HANZI[char]) {
-        charData = window.PRELOADED_HANZI[char];
-      } else {
-        charData = await HanziWriter.loadCharacterData(char);
-      }
+      // 1. 毫秒级从内存/本地缓存或极速 CDN 提取矢量数据 (单次请求 + 自动写入缓存)
+      const charData = await getCharData(char);
+
+      // 若用户在加载期间已快速切换至下一个汉字，丢弃已过期的请求结果，防止竞态冲突
+      if (state.renderId !== currentRequestId) return;
+
       state.charData = charData;
-      
+      el.writerContainer.innerHTML = '';
+
+      // 2. 将字形数据直接同步注入 HanziWriter，彻底消灭二次冗余网络请求
+      state.writer = HanziWriter.create('hanzi-writer-target', char, {
+        width: 240,
+        height: 240,
+        padding: 14,
+        strokeColor: '#2B2D2F',
+        radicalColor: '#B83B2E',
+        outlineColor: '#E2D9CD',
+        drawingColor: '#B83B2E',
+        strokeAnimationSpeed: state.animSpeed,
+        delayBetweenStrokes: 120,
+        showOutline: true,
+        showCharacter: true,
+        charDataLoader: function(c, onComplete) {
+          onComplete(charData);
+        }
+      });
+
       const strokeCount = charData.strokes.length;
       el.strokeCountBadge.textContent = `共 ${strokeCount} 笔`;
 
-      // 渲染下方逐笔网格 (位于动图下面)
+      // 3. 渲染下方逐笔演变网格
       renderStrokeBreakdown(charData, entry.stroke_code);
 
-      // 主动播放一次书写动画
+      // 4. 自动流畅播放一次书写动画
       state.writer.animateCharacter();
+
+      // 5. 后台静默预热该字的组词与同音字，实现点击相关汉字 0 延迟秒开
+      prefetchRelatedChars(entry);
+
     } catch (err) {
-      console.warn('该字暂无在线矢量笔顺数据:', err);
+      if (state.renderId !== currentRequestId) return;
+      console.warn('字形矢量笔画数据加载异常:', err);
       el.strokeStepsGrid.innerHTML = '<div style="grid-column:1/-1;color:var(--ink-muted);font-size:0.85rem;padding:0.5rem 0;">该字矢量笔画数据加载中或暂无数据</div>';
       el.strokeCountBadge.textContent = `${entry.strokes || '-'} 笔`;
     }

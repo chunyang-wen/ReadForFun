@@ -120,24 +120,50 @@ def main():
     with open('/tmp/ci.json', 'r', encoding='utf-8') as f:
         cis_data = json.load(f)
 
-    # 1. 词频与组词统计
-    char_words_start = defaultdict(list)
-    char_words_contain = defaultdict(list)
+    # 1. 词频与组词统计（优先采用现代高频汉语词典，彻底解决“游泳、学习、学校”等常用词缺失问题）
+    char_words_map = defaultdict(list)
     char_freq = Counter()
 
-    for item in cis_data:
-        w = item.get('ci', '').strip()
-        if not w or not (2 <= len(w) <= 4):
-            continue
-        for ch in w:
-            if '\u4e00' <= ch <= '\u9fff':
-                char_freq[ch] += 1
-        first_ch = w[0]
-        if '\u4e00' <= first_ch <= '\u9fff' and len(char_words_start[first_ch]) < 8:
-            char_words_start[first_ch].append(w)
-        for ch in set(w[1:]):
-            if '\u4e00' <= ch <= '\u9fff' and len(char_words_contain[ch]) < 6:
-                char_words_contain[ch].append(w)
+    if os.path.exists('/tmp/jieba_dict.txt'):
+        print("Loading real-world modern Chinese vocabulary from /tmp/jieba_dict.txt ...")
+        with open('/tmp/jieba_dict.txt', 'r', encoding='utf-8') as f:
+            for line in f:
+                parts = line.strip().split()
+                if len(parts) >= 2:
+                    w, f_val = parts[0], int(parts[1])
+                    if 2 <= len(w) <= 4 and all('\u4e00' <= ch <= '\u9fff' for ch in w):
+                        for ch in set(w):
+                            char_freq[ch] += f_val
+                            char_words_map[ch].append((w, f_val))
+    else:
+        # 备用词库
+        for item in cis_data:
+            w = item.get('ci', '').strip()
+            if 2 <= len(w) <= 4 and all('\u4e00' <= ch <= '\u9fff' for ch in w):
+                for ch in set(w):
+                    char_freq[ch] += 1
+                    char_words_map[ch].append((w, 1))
+
+    # 为每个汉字按现代真实词频排序，优先双音节词（如“游泳、学生”）
+    sorted_words_for_char = {}
+    for ch, w_list in char_words_map.items():
+        def word_rank(item):
+            w, f_val = item
+            len_bonus = 2.0 if len(w) == 2 else (1.2 if len(w) == 3 else 1.0)
+            start_bonus = 1.5 if w.startswith(ch) else 1.0
+            return f_val * len_bonus * start_bonus
+        
+        w_list.sort(key=word_rank, reverse=True)
+        # 提取去重后的前 8 个精选高频组词
+        seen = set()
+        clean_words = []
+        for w, _ in w_list:
+            if w not in seen:
+                seen.add(w)
+                clean_words.append(w)
+                if len(clean_words) >= 8:
+                    break
+        sorted_words_for_char[ch] = clean_words
 
     rad_strokes_map = dict(RADICAL_STROKES_OVERRIDE)
     for item in words_data:
@@ -170,9 +196,8 @@ def main():
         wubi = extract_wubi(more_info)
         explanation = extract_concise_explanation(item.get('explanation', ''))
 
-        starts = char_words_start.get(char, [])
-        contains = [w for w in char_words_contain.get(char, []) if w not in starts]
-        words = (starts + contains)[:8]
+        # 真实高频常用词
+        words = sorted_words_for_char.get(char, [])
 
         entry = {
             'char': char,
@@ -214,11 +239,26 @@ def main():
         py = entry['pinyin']
         same_py = [c for c in pinyin_to_chars.get(py, []) if c != char]
         same_py.sort(key=lambda c: processed_dict[c]['freq'], reverse=True)
-        entry['homophones'] = same_py[:8]
+        entry['homophones'] = same_py[:12]
 
-    # 选取常用规范汉字 3,800 字作为核心富文本字典
+    # 选取常用规范汉字作为核心富文本字典
+    # 1. 优先完整收录国家《通用规范汉字表》一级字表 (3500字)，确保像“泳、岁、哪、它”等现代高频字全部在列！
+    core_chars = set()
+    if os.path.exists('/tmp/level-1.txt'):
+        with open('/tmp/level-1.txt', 'r', encoding='utf-8') as f:
+            for line in f:
+                ch = line.strip()
+                if ch in processed_dict:
+                    core_chars.add(ch)
+        print(f"Loaded {len(core_chars)} characters from 《通用规范汉字表》一级字表")
+
+    # 2. 结合词频补足到约 4200 字
     sorted_chars = sorted(processed_dict.keys(), key=lambda c: processed_dict[c]['freq'], reverse=True)
-    core_chars = set(sorted_chars[:3800])
+    for c in sorted_chars:
+        if len(core_chars) >= 4200:
+            break
+        core_chars.add(c)
+
     for c in '永和道德墨雅学礼义仁智信天地玄黄宇宙洪荒日月盈昃辰宿列张寒来暑往秋收冬藏':
         if c in processed_dict:
             core_chars.add(c)

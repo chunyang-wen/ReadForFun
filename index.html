@@ -301,6 +301,244 @@
     .collection-card:has(a:focus-visible) .collection-cover { transform: rotate(0) translateY(-8px); box-shadow: 0 32px 58px #263d3748, 0 3px 0 #ffffff inset; }
     .collection-card:hover .collection-sheet:nth-child(1) { transform: rotate(-10deg) translate(-25px, 12px); }
     .collection-card:hover .collection-sheet:nth-child(2) { transform: rotate(8deg) translate(20px, -12px); }
+
+    /* Reference works use purpose-built covers rather than story-image stacks. */
+    .object-cover {
+      --cover-accent: #a73424;
+      isolation: isolate;
+      border-color: #eee7d9;
+      transform: rotate(.45deg);
+    }
+    .object-cover::before,
+    .object-cover::after {
+      z-index: 0;
+      inset: auto;
+      box-shadow: none;
+      transform: none;
+    }
+    .object-cover .collection-badge {
+      top: auto;
+      right: 20px;
+      bottom: 18px;
+      left: auto;
+      color: #f8efdc;
+      border-color: #f8efdc70;
+      background: #18120dcc;
+      backdrop-filter: blur(8px);
+    }
+    .object-cover__label {
+      position: absolute;
+      z-index: 4;
+      margin: 0;
+      font-family: var(--serif);
+    }
+
+    .oracle-cover {
+      background:
+        radial-gradient(circle at 74% 22%, #e2c69024 0 1px, transparent 1.5px),
+        radial-gradient(circle at 29% 68%, #e2c6901c 0 1px, transparent 1.5px),
+        linear-gradient(132deg, #18130f, #33271c 58%, #191510);
+      background-size: 19px 19px, 27px 27px, 100% 100%;
+    }
+    .oracle-cover::before {
+      top: -14%;
+      right: 7%;
+      width: 58%;
+      height: 129%;
+      background: linear-gradient(95deg, #c6a774, #ead4a4 44%, #aa8758 100%);
+      clip-path: polygon(17% 0, 78% 3%, 93% 14%, 86% 29%, 98% 45%, 88% 61%, 93% 78%, 71% 99%, 27% 96%, 10% 82%, 18% 64%, 4% 48%, 16% 31%, 8% 14%);
+      filter: drop-shadow(-17px 22px 22px #090705a8);
+      transform: rotate(7deg);
+    }
+    .oracle-cover::after {
+      z-index: 1;
+      top: 8%;
+      right: 12%;
+      width: 49%;
+      height: 85%;
+      opacity: .42;
+      background:
+        linear-gradient(116deg, transparent 0 49%, #5d4329 50% 50.8%, transparent 52%),
+        linear-gradient(54deg, transparent 0 66%, #684a2d 67% 67.7%, transparent 69%),
+        radial-gradient(ellipse at 67% 42%, transparent 0 8%, #6f513234 8.5% 10%, transparent 10.5%);
+      transform: rotate(7deg);
+    }
+    .oracle-title-block {
+      position: absolute;
+      z-index: 3;
+      top: 13%;
+      left: 7.5%;
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 13px;
+      color: #f1dfb9;
+    }
+    .oracle-title {
+      font-family: "STKaiti", "KaiTi", var(--serif);
+      font-size: clamp(2.05rem, 5vw, 4.2rem);
+      letter-spacing: .08em;
+      line-height: .96;
+      text-shadow: 0 6px 24px #000;
+      writing-mode: vertical-rl;
+    }
+    .oracle-subtitle {
+      padding-top: 5px;
+      color: #c7a978;
+      font-size: clamp(.55rem, 1.15vw, .75rem);
+      font-weight: 700;
+      letter-spacing: .23em;
+      line-height: 1.55;
+      text-transform: uppercase;
+      writing-mode: vertical-rl;
+    }
+    .oracle-seal {
+      position: absolute;
+      z-index: 4;
+      bottom: 17%;
+      left: 15%;
+      display: grid;
+      place-items: center;
+      width: clamp(44px, 7vw, 61px);
+      aspect-ratio: 1;
+      color: #ead7b1;
+      border: 2px solid #b83b26;
+      font-family: "STKaiti", "KaiTi", serif;
+      font-size: clamp(1.25rem, 2.8vw, 2rem);
+      background: #a62d20;
+      box-shadow: 0 10px 22px #0906048c;
+      transform: rotate(-5deg);
+    }
+    .oracle-inscriptions {
+      position: absolute;
+      z-index: 3;
+      top: 18%;
+      right: 17%;
+      width: 34%;
+      height: 65%;
+      color: #4c321e;
+      filter: drop-shadow(0 1px #f3ddb066);
+      transform: rotate(6deg);
+    }
+    .oracle-inscriptions path {
+      fill: none;
+      stroke: currentColor;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 4.3;
+    }
+
+    .dictionary-cover {
+      background:
+        linear-gradient(90deg, #131d19 0 8%, transparent 8%),
+        linear-gradient(145deg, #30463d, #18251f);
+    }
+    .dictionary-cover::before {
+      z-index: 1;
+      top: 7%;
+      left: 12%;
+      width: 73%;
+      height: 86%;
+      border-radius: 3px 8px 8px 3px;
+      background:
+        linear-gradient(90deg, #7f160f 0 8%, #bd3328 8% 10%, #a72118 10% 100%);
+      box-shadow: 18px 20px 28px #07100cb3, inset -7px 0 0 #72130d55, inset 0 0 0 2px #e3b79026;
+      transform: rotate(-2.8deg);
+    }
+    .dictionary-cover::after {
+      z-index: 2;
+      top: 10%;
+      left: 21%;
+      width: 2px;
+      height: 79%;
+      background: #f2c18c4a;
+      box-shadow: 4px 0 #64110d52;
+      transform: rotate(-2.8deg);
+    }
+    .dictionary-label {
+      position: absolute;
+      z-index: 3;
+      top: 16%;
+      left: 29%;
+      display: grid;
+      place-items: center;
+      width: 37%;
+      height: 59%;
+      border: 1px solid #b99671;
+      color: #251a14;
+      background:
+        linear-gradient(#8a6d4b20 1px, transparent 1px),
+        linear-gradient(90deg, #8a6d4b20 1px, transparent 1px),
+        #f3e7cc;
+      background-size: 22px 22px;
+      box-shadow: 0 8px 18px #4d0b0780, inset 0 0 0 5px #f8f0de, inset 0 0 0 6px #b89872;
+      text-align: center;
+      transform: rotate(-2.8deg);
+    }
+    .dictionary-edition {
+      position: absolute;
+      top: 10%;
+      font-size: clamp(.48rem, 1vw, .66rem);
+      font-weight: 700;
+      letter-spacing: .25em;
+    }
+    .dictionary-title {
+      font-family: "STSong", "Songti SC", var(--serif);
+      font-size: clamp(1.65rem, 4.4vw, 3.7rem);
+      font-weight: 700;
+      letter-spacing: .12em;
+      line-height: 1.08;
+      writing-mode: vertical-rl;
+    }
+    .dictionary-imprint {
+      position: absolute;
+      bottom: 9%;
+      font-size: clamp(.42rem, .85vw, .58rem);
+      font-weight: 700;
+      letter-spacing: .12em;
+    }
+    .stroke-study {
+      position: absolute;
+      z-index: 4;
+      top: 13%;
+      right: 5.5%;
+      display: grid;
+      gap: 8px;
+      width: 19%;
+      padding: 8px;
+      border: 1px solid #e8d5ad59;
+      background: #101915a8;
+      box-shadow: 0 12px 24px #08100d99;
+      transform: rotate(3deg);
+    }
+    .stroke-study__grid {
+      position: relative;
+      display: grid;
+      place-items: center;
+      aspect-ratio: 1;
+      overflow: hidden;
+      color: #ddc796;
+      border: 1px solid #d9c28c8c;
+      font-family: "STKaiti", "KaiTi", serif;
+      font-size: clamp(1.25rem, 3.4vw, 2.8rem);
+      background:
+        linear-gradient(45deg, transparent 49.4%, #ddc7963d 50%, transparent 50.6%),
+        linear-gradient(-45deg, transparent 49.4%, #ddc7963d 50%, transparent 50.6%),
+        linear-gradient(90deg, transparent 49%, #ddc7963d 50%, transparent 51%),
+        linear-gradient(transparent 49%, #ddc7963d 50%, transparent 51%);
+    }
+    .stroke-study__caption {
+      color: #d7c59e;
+      font-size: clamp(.38rem, .75vw, .52rem);
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .dictionary-cover .collection-badge { background: #173429df; }
+    .collection-card:hover .oracle-inscriptions { transform: rotate(4deg) translateY(-3px); }
+    .collection-card:hover .stroke-study { transform: rotate(0deg) translateY(-3px); }
+    .oracle-inscriptions,
+    .stroke-study { transition: transform .55s cubic-bezier(.2,.8,.2,1); }
     .legacy-book-grid { display: none; }
 
     .footer-line {
@@ -334,11 +572,16 @@
       .feature-caption { right: 17px; bottom: 16px; }
       .book-details { padding-top: 19px; }
       .book-side { font-size: .6rem; }
+      .object-cover .collection-badge { right: 12px; bottom: 11px; padding: 6px 9px; font-size: .46rem; }
+      .dictionary-label { top: 12%; height: 67%; }
+      .dictionary-title { font-size: 1.25rem; letter-spacing: .06em; }
+      .dictionary-edition { top: 7%; font-size: .4rem; }
+      .dictionary-imprint { display: none; }
       .footer-line { gap: 12px; line-height: 1.5; }
     }
     @media (prefers-reduced-motion: reduce) {
       .book-card { animation: none; }
-      .feature, .feature-image { transition: none; }
+      .feature, .feature-image, .oracle-inscriptions, .stroke-study { transition: none; }
     }
   </style>
 </head>
@@ -389,11 +632,16 @@
         </article>
         <article class="collection-card">
           <a class="collection-link" href="jia-gu-wen/" aria-label="打开《甲骨文之美 · 殷商刻辞千字典》">
-            <div class="collection-cover" style="background: linear-gradient(145deg, #2b3a42, #b83b26);">
-              <span class="collection-sheet" style="background-color: #fcf9f2; background-image: url('https://readforfun-img.chunyangwen.com/jia-gu-wen/glyphs/0585.svg'); background-size: 70%; background-repeat: no-repeat;"></span>
-              <span class="collection-sheet" style="background-color: #fcf9f2; background-image: url('https://readforfun-img.chunyangwen.com/jia-gu-wen/glyphs/0495.svg'); background-size: 70%; background-repeat: no-repeat;"></span>
-              <span class="collection-sheet" style="background-color: #fcf9f2; background-image: url('https://readforfun-img.chunyangwen.com/jia-gu-wen/glyphs/0772.svg'); background-size: 70%; background-repeat: no-repeat;"></span>
-              <span class="collection-badge" style="background: #b83b26c2;">1,203 GLYPHS · ORACLE BONE SCRIPT</span>
+            <div class="collection-cover object-cover oracle-cover">
+              <div class="oracle-title-block" aria-hidden="true">
+                <span class="oracle-title">甲骨文</span>
+                <span class="oracle-subtitle">ORACLE<br>BONE<br>SCRIPT</span>
+              </div>
+              <span class="oracle-seal" aria-hidden="true">契</span>
+              <svg class="oracle-inscriptions" viewBox="0 0 180 260" aria-hidden="true">
+                <path d="M52 8v46m-28-21 28-18 28 18m-42 26c6 16 17 25 31 28m-17-28c-2 15-8 26-20 34m70-77c-12 9-19 22-19 39m19-39c12 11 18 23 18 38m-35 1h36m-29 13 13 16 13-16m-67 39-18 15 19 17 17-18-18-14Zm70-7v48m-20-31h42m-35 29 14-14 17 16m-86 25h52m-27-22v52m-24-18 24-18 26 18m42-21-17 13 18 17 17-16-18-14Zm-6 42h48m-24-18v39"/>
+              </svg>
+              <span class="collection-badge">1,203 GLYPHS · ORACLE BONE SCRIPT</span>
             </div>
             <div class="collection-copy">
               <p class="collection-kicker" style="color: #b83b26;">SPECIAL EDITION · ANCIENT CHINESE SCRIPT</p>
@@ -453,11 +701,17 @@
         </article>
         <article class="collection-card">
           <a class="collection-link" href="xinhua-zidian/" aria-label="打开《新华字典 · 汉字查询与笔画演变》">
-            <div class="collection-cover" style="background: linear-gradient(145deg, #2b2d2f, #b83b2e);">
-              <span class="collection-sheet" style="background-color: #fcf9f2; display: flex; align-items: center; justify-content: center; font-family: 'Songti SC', 'STSong', serif; font-size: 3.5rem; font-weight: 700; color: #b83b2e; border: 2px solid #e4dcce; box-shadow: 0 4px 12px rgba(0,0,0,0.06);">永</span>
-              <span class="collection-sheet" style="background-color: #fcf9f2; display: flex; align-items: center; justify-content: center; font-family: 'Songti SC', 'STSong', serif; font-size: 3.5rem; font-weight: 700; color: #2b7054; border: 2px solid #e4dcce; box-shadow: 0 4px 12px rgba(0,0,0,0.06);">学</span>
-              <span class="collection-sheet" style="background-color: #fcf9f2; display: flex; align-items: center; justify-content: center; font-family: 'Songti SC', 'STSong', serif; font-size: 3.5rem; font-weight: 700; color: #b07d2b; border: 2px solid #e4dcce; box-shadow: 0 4px 12px rgba(0,0,0,0.06);">和</span>
-              <span class="collection-badge" style="background: #b83b2ee0;">14,800+ CHARACTERS · STROKE ANIMATION</span>
+            <div class="collection-cover object-cover dictionary-cover">
+              <div class="dictionary-label" aria-hidden="true">
+                <span class="dictionary-edition">第 12 版</span>
+                <span class="dictionary-title">新华字典</span>
+                <span class="dictionary-imprint">商务印书馆 · 汉字工具书</span>
+              </div>
+              <div class="stroke-study" aria-hidden="true">
+                <span class="stroke-study__grid">永</span>
+                <span class="stroke-study__caption">STROKE<br>ORDER</span>
+              </div>
+              <span class="collection-badge">14,800+ CHARACTERS · STROKE ANIMATION</span>
             </div>
             <div class="collection-copy">
               <p class="collection-kicker" style="color: #b83b2e;">REFERENCE · CHINESE DICTIONARY</p>
