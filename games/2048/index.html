@@ -27,6 +27,7 @@
         <div class="instructions">
           <p><strong>电脑</strong> 使用方向键或 W A S D</p>
           <p><strong>手机</strong> 在棋盘上向任意方向滑动</p>
+          <p><strong>回退</strong> 使用撤销 / 重做，或 ⌘ Z / ⇧ ⌘ Z</p>
         </div>
       </section>
 
@@ -34,6 +35,8 @@
         <div class="scorebar">
           <div class="score-card"><span>分数</span><strong id="score">0</strong><em id="scoreGain" aria-hidden="true"></em></div>
           <div class="score-card"><span>最佳</span><strong id="bestScore">0</strong></div>
+          <button id="undoButton" class="history-button" type="button" disabled aria-label="撤销上一步">↶<span>撤销</span></button>
+          <button id="redoButton" class="history-button" type="button" disabled aria-label="重做下一步">↷<span>重做</span></button>
           <button id="newGame" class="new-game" type="button">新游戏</button>
         </div>
 

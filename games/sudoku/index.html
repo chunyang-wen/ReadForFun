@@ -28,10 +28,30 @@
             <button type="button" data-level="medium" aria-pressed="false">中等</button>
             <button type="button" data-level="hard" aria-pressed="false">困难</button>
           </div>
+          <div class="assist-settings" aria-label="辅助设置">
+            <label>允许错误
+              <select id="mistakeLimit">
+                <option value="1">1 次</option>
+                <option value="3">3 次</option>
+                <option value="5" selected>5 次</option>
+                <option value="10">10 次</option>
+                <option value="0">不限</option>
+              </select>
+            </label>
+            <label>提示次数
+              <select id="hintLimit">
+                <option value="0">不用提示</option>
+                <option value="3">3 次</option>
+                <option value="5" selected>5 次</option>
+                <option value="10">10 次</option>
+                <option value="20">20 次</option>
+              </select>
+            </label>
+          </div>
         </div>
         <div class="stats">
           <div><span>时间</span><strong id="timer">00:00</strong></div>
-          <div><span>错误</span><strong><b id="mistakes">0</b> / 3</strong></div>
+          <div><span>错误</span><strong><b id="mistakes">0</b> / <i id="mistakeMaximum">5</i></strong></div>
           <div><span>最佳</span><strong id="bestTime">—</strong></div>
         </div>
       </section>
@@ -60,7 +80,7 @@
         <div class="tool-row">
           <button id="notesButton" type="button" aria-pressed="false"><span>✎</span> 笔记</button>
           <button id="eraseButton" type="button"><span>⌫</span> 擦除</button>
-          <button id="hintButton" type="button"><span>✦</span> 提示 <b id="hintCount">3</b></button>
+          <button id="hintButton" type="button"><span>✦</span> 提示 <b id="hintCount">5</b></button>
           <button id="newGame" type="button"><span>↻</span> 新局</button>
         </div>
         <p id="gameStatus" class="game-status" aria-live="polite">简单数独已生成。选择空格并填入数字。</p>

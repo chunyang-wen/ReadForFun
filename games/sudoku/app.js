@@ -10,8 +10,12 @@
   const statusElement = document.getElementById("gameStatus");
   const timerElement = document.getElementById("timer");
   const mistakesElement = document.getElementById("mistakes");
+  const mistakeMaximumElement = document.getElementById("mistakeMaximum");
   const bestTimeElement = document.getElementById("bestTime");
   const notesButton = document.getElementById("notesButton");
+  const mistakeLimitSelect = document.getElementById("mistakeLimit");
+  const hintLimitSelect = document.getElementById("hintLimit");
+  const hintButton = document.getElementById("hintButton");
   const hintCountElement = document.getElementById("hintCount");
   const overlay = document.getElementById("gameOverlay");
   const overlayTitle = document.getElementById("overlayTitle");
@@ -25,7 +29,8 @@
   let selected = -1;
   let noteMode = false;
   let mistakes = 0;
-  let hints = 3;
+  let maxMistakes = 5;
+  let hints = 5;
   let elapsed = 0;
   let timerId = 0;
   let playing = false;
@@ -114,10 +119,13 @@
     selected = puzzle.findIndex((value) => !value);
     noteMode = false;
     mistakes = 0;
-    hints = 3;
+    maxMistakes = Number(mistakeLimitSelect.value);
+    hints = Number(hintLimitSelect.value);
     elapsed = 0;
     mistakesElement.textContent = "0";
-    hintCountElement.textContent = "3";
+    mistakeMaximumElement.textContent = maxMistakes ? String(maxMistakes) : "∞";
+    hintCountElement.textContent = String(hints);
+    hintButton.disabled = hints <= 0;
     notesButton.setAttribute("aria-pressed", "false");
     updateTimer();
     updateBest();
@@ -189,8 +197,9 @@
       mistakesElement.textContent = String(mistakes);
       const wrongCell = boardElement.querySelector(`[data-index="${selected}"]`);
       wrongCell?.classList.add("error");
-      statusElement.textContent = `数字 ${number} 不适合这个位置。错误 ${mistakes} / 3。`;
-      if (mistakes >= 3) finish(false);
+      const maximumLabel = maxMistakes ? String(maxMistakes) : "∞";
+      statusElement.textContent = `数字 ${number} 不适合这个位置。错误 ${mistakes} / ${maximumLabel}。`;
+      if (maxMistakes && mistakes >= maxMistakes) finish(false);
       return;
     }
     values[selected] = number;
@@ -219,6 +228,7 @@
     selected = index;
     hints -= 1;
     hintCountElement.textContent = String(hints);
+    hintButton.disabled = hints <= 0;
     renderBoard();
     statusElement.textContent = `提示已填入数字 ${values[index]}，还剩 ${hints} 次。`;
     if (values.every(Boolean)) finish(true);
@@ -238,8 +248,8 @@
       statusElement.textContent = `恭喜完成${LEVELS[level].label}数独，用时 ${formatTime(elapsed)}。`;
     } else {
       overlayTitle.textContent = "先歇一会儿";
-      overlayText.textContent = "已经出现 3 个错误，换一盘再试试。";
-      statusElement.textContent = "本局结束，错误达到 3 次。";
+      overlayText.textContent = `已经出现 ${maxMistakes} 个错误，换一盘再试试。`;
+      statusElement.textContent = `本局结束，错误达到 ${maxMistakes} 次。`;
     }
     overlay.hidden = false;
     updateBest();
@@ -279,13 +289,19 @@
     });
   });
   document.querySelectorAll("[data-number]").forEach((button) => button.addEventListener("click", () => enterNumber(Number(button.dataset.number))));
+  [mistakeLimitSelect, hintLimitSelect].forEach((select) => {
+    select.addEventListener("change", () => {
+      newGame();
+      statusElement.textContent = `辅助设置已更新：允许错误 ${mistakeLimitSelect.value === "0" ? "不限" : `${mistakeLimitSelect.value} 次`}，提示 ${hintLimitSelect.value} 次。`;
+    });
+  });
   notesButton.addEventListener("click", () => {
     noteMode = !noteMode;
     notesButton.setAttribute("aria-pressed", String(noteMode));
     statusElement.textContent = noteMode ? "笔记模式已开启。" : "笔记模式已关闭。";
   });
   document.getElementById("eraseButton").addEventListener("click", erase);
-  document.getElementById("hintButton").addEventListener("click", giveHint);
+  hintButton.addEventListener("click", giveHint);
   document.getElementById("newGame").addEventListener("click", newGame);
   document.getElementById("overlayAction").addEventListener("click", newGame);
   document.addEventListener("keydown", (event) => {
