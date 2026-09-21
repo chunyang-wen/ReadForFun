@@ -513,6 +513,7 @@
       setupPoetFilterChips();
       setupCatalogDrawer();
       setupEventListeners();
+      setupSwipeNavigation();
 
       // Check URL Hash for deep-link: #poem-id or #poem-id:line
       const hash = window.location.hash.replace(/^#/, "");
@@ -838,6 +839,7 @@
       generateQuizMask();
     }
     renderCurrentPoem();
+    scrollPageTopOnMobile();
   }
 
   function prevPoem() {
@@ -847,6 +849,57 @@
       generateQuizMask();
     }
     renderCurrentPoem();
+    scrollPageTopOnMobile();
+  }
+
+  function scrollPageTopOnMobile() {
+    if (!window.matchMedia("(max-width: 768px)").matches) return;
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
+    });
+  }
+
+  /** Mobile swipe navigation: left for next poem, right for previous. */
+  function setupSwipeNavigation() {
+    const readerStage = document.getElementById("readerStage");
+    if (!readerStage) return;
+
+    let startX = 0;
+    let startY = 0;
+    let startTime = 0;
+    let pointerId = null;
+    let tracking = false;
+
+    readerStage.addEventListener("pointerdown", event => {
+      if (!window.matchMedia("(max-width: 768px)").matches || !event.isPrimary || event.button !== 0 || event.target.closest("button, a, input, textarea, select, [contenteditable='true']")) {
+        tracking = false;
+        return;
+      }
+      startX = event.clientX;
+      startY = event.clientY;
+      startTime = Date.now();
+      pointerId = event.pointerId;
+      tracking = true;
+      readerStage.setPointerCapture?.(pointerId);
+    });
+
+    readerStage.addEventListener("pointerup", event => {
+      if (!tracking || event.pointerId !== pointerId) return;
+      tracking = false;
+
+      const deltaX = event.clientX - startX;
+      const deltaY = event.clientY - startY;
+      const elapsed = Date.now() - startTime;
+
+      if (elapsed > 900 || Math.abs(deltaX) < 56 || Math.abs(deltaX) < Math.abs(deltaY) * 1.35) return;
+      if (deltaX < 0) nextPoem();
+      else prevPoem();
+    });
+
+    readerStage.addEventListener("pointercancel", () => {
+      tracking = false;
+    });
   }
 
   function randomPoem() {

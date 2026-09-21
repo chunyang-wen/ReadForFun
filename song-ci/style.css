@@ -1740,13 +1740,15 @@ body:not(.pinyin-enabled) rt {
 
 @media (max-width: 1080px) {
   .reader-stage {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 24px;
   }
   
   .artwork-column {
     position: static;
     order: -1;
+    min-width: 0;
+    width: 100%;
   }
 
   .lyrics-column {
@@ -1793,6 +1795,8 @@ body:not(.pinyin-enabled) rt {
 
   .ci-card {
     padding: 20px 18px;
+    min-width: 0;
+    overflow: hidden;
   }
 
   .ci-title {
@@ -1801,6 +1805,100 @@ body:not(.pinyin-enabled) rt {
 
   .sentence-body-wrap {
     font-size: 1.22rem;
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  .ci-text-container,
+  .stanza-block,
+  .stanza-sentences-group,
+  .sentence-unit {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .ci-text-container {
+    overflow-x: hidden;
+  }
+
+  .sentence-unit,
+  .sentence-unit:hover,
+  .sentence-unit.active {
+    transform: none;
+  }
+
+  .sentence-num-stamp {
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    aspect-ratio: 1;
+    margin-top: 0;
+    font-size: 0.7rem;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .stanzas-stepper-box,
+  .stanza-step-group,
+  .stanza-dots-row {
+    min-width: 0;
+  }
+
+  .stanza-dots-row {
+    flex-wrap: wrap;
+  }
+
+  .ci-footer-pager {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .ci-footer-pager .pager-btn {
+    width: 100%;
+    min-width: 0;
+    gap: 5px;
+    padding: 8px 9px;
+  }
+
+  .ci-footer-pager .pager-btn:first-child {
+    justify-content: flex-start;
+  }
+
+  .ci-footer-pager .pager-btn:last-child {
+    justify-content: flex-end;
+  }
+
+  .ci-footer-pager .pager-arrow,
+  .ci-counter {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+
+  .ci-footer-pager .pager-text {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.74rem;
+  }
+
+  .ci-counter {
+    font-size: 0.82rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .reader-stage {
+    overflow-x: hidden;
+    touch-action: pan-y;
+  }
+
+  .reader-stage img {
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-select: none;
   }
 
   .keyboard-nav-bar {

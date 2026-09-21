@@ -40,6 +40,7 @@
     categoryChips: document.getElementById("categoryChipsContainer"),
 
     // Reader Stage
+    readerStage: document.getElementById("readerStage"),
     cardCategoryBadge: document.getElementById("cardCategoryBadge"),
     cardIndexBadge: document.getElementById("cardIndexBadge"),
     cardTagsGroup: document.getElementById("cardTagsGroup"),
@@ -276,6 +277,7 @@
 
     // 4. Bind UI Events
     bindEvents();
+    setupSwipeNavigation();
 
     // 5. Initial Render
     renderCurrentCard();
@@ -469,6 +471,47 @@
     } else {
       showToast("已是第一条");
     }
+  }
+
+  /** Mobile swipe navigation: left for next entry, right for previous. */
+  function setupSwipeNavigation() {
+    if (!dom.readerStage) return;
+
+    let startX = 0;
+    let startY = 0;
+    let startTime = 0;
+    let pointerId = null;
+    let tracking = false;
+
+    dom.readerStage.addEventListener("pointerdown", event => {
+      if (!window.matchMedia("(max-width: 768px)").matches || !event.isPrimary || event.button !== 0 || event.target.closest("button, a, input, textarea, select, [contenteditable='true']")) {
+        tracking = false;
+        return;
+      }
+      startX = event.clientX;
+      startY = event.clientY;
+      startTime = Date.now();
+      pointerId = event.pointerId;
+      tracking = true;
+      dom.readerStage.setPointerCapture?.(pointerId);
+    });
+
+    dom.readerStage.addEventListener("pointerup", event => {
+      if (!tracking || event.pointerId !== pointerId) return;
+      tracking = false;
+
+      const deltaX = event.clientX - startX;
+      const deltaY = event.clientY - startY;
+      const elapsed = Date.now() - startTime;
+
+      if (elapsed > 900 || Math.abs(deltaX) < 56 || Math.abs(deltaX) < Math.abs(deltaY) * 1.35) return;
+      if (deltaX < 0) nextItem();
+      else prevItem();
+    });
+
+    dom.readerStage.addEventListener("pointercancel", () => {
+      tracking = false;
+    });
   }
 
   /**

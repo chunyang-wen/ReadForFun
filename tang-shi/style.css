@@ -1701,6 +1701,13 @@ kbd {
   
   .reader-stage {
     padding: 16px;
+    touch-action: pan-y;
+  }
+
+  .reader-stage img {
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-select: none;
   }
   
   .poem-card {
