@@ -298,7 +298,19 @@
         chip.className = 'homophone-chip';
         chip.textContent = h;
         chip.title = `查看同音字：${h}`;
-        chip.addEventListener('click', () => loadCharacter(h));
+        chip.addEventListener('click', async () => {
+          await loadCharacter(h);
+
+          // On the single-column mobile layout, the newly loaded stroke view is
+          // above the homophone list. Bring it into view after switching entries.
+          if (window.matchMedia('(max-width: 880px)').matches) {
+            const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            window.scrollTo({
+              top: 0,
+              behavior: reduceMotion ? 'auto' : 'smooth'
+            });
+          }
+        });
         el.homophonesList.appendChild(chip);
       });
     } else {

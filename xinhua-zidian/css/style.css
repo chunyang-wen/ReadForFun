@@ -1502,6 +1502,30 @@ body.lookup-modal-open {
   .header-container {
     flex-wrap: wrap;
   }
+  .header-actions {
+    order: 2;
+    width: 100%;
+    min-width: 0;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    touch-action: pan-x;
+    padding-bottom: 2px;
+  }
+  .header-actions::-webkit-scrollbar {
+    display: none;
+  }
+  .header-actions .nav-btn {
+    flex: 0 0 auto;
+    min-height: 38px;
+    border-radius: var(--radius-sm);
+    white-space: nowrap;
+  }
+  .search-wrapper {
+    order: 3;
+    width: 100%;
+  }
   .drawer-overlay {
     place-items: end center;
     padding: 0;
