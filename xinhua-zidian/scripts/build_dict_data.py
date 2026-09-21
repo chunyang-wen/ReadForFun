@@ -20,21 +20,110 @@ TONE_MAP = {
     'ń': ('n', 2), 'ň': ('n', 3), 'ǹ': ('n', 4), 'm̄': ('m', 1),
 }
 
+# 权威现代汉字统一部首规范笔画表 (对齐《汉字统一部首表》GF 0011-2009 与《新华字典》)
+RADICAL_NORMALIZATION = {
+    '乺': '八',
+    '聅': '老',
+    '駌': '马',
+    '閠': '门',
+    '鴅': '鸟',
+    '齲': '齿',
+    '弒': '厂',
+    '幹': '干',
+    '釐': '里',
+    '褃': '衣',
+    '卝': '艹',
+    '糹': '纟',
+    '車': '车',
+    '韋': '韦',
+    '麥': '麦',
+    '魚': '鱼',
+    '鳥': '鸟',
+    '釒': '钅',
+    '飠': '饣',
+    '辵': '辶',
+    '阜': '阝',
+    '邑': '阝',
+    '犬': '犭',
+    '网': '罒',
+    '西': '覀',
+}
+
 RADICAL_STROKES_OVERRIDE = {
+    # 1 画
     '一': 1, '丨': 1, '丿': 1, '丶': 1, '乙': 1, '乛': 1, '亅': 1,
+    # 2 画
     '二': 2, '十': 2, '厂': 2, '匚': 2, '卜': 2, '冂': 2, '八': 2, '人': 2, '亻': 2,
     '入': 2, '勹': 2, '儿': 2, '匕': 2, '几': 2, '冫': 2, '冖': 2, '凵': 2, '刀': 2,
-    '刂': 2, '力': 2, '又': 2, '厶': 2, '廴': 2, '讠': 2, '卩': 2, '阝': 2,
+    '刂': 2, '力': 2, '又': 2, '厶': 2, '廴': 2, '讠': 2, '卩': 2, '阝': 2, '亠': 2,
+    # 3 画 (重点修复: 艹 标准为 3 画，夂、巛、饣均为 3 画)
     '口': 3, '囗': 3, '山': 3, '巾': 3, '彳': 3, '彡': 3, '广': 3, '门': 3, '宀': 3,
-    '辶': 3, '彐': 3, '尸': 3, '己': 3, '已': 3, '巳': 3, '弓': 3, '子': 3, '女': 3,
-    '纟': 3, '马': 3, '幺': 3, '屮': 3, '弋': 3, '小': 3, '氵': 3, '忄': 3, '扌': 3,
-    '夕': 3, '大': 3, '土': 3, '士': 3, '工': 3, '干': 3, '寸': 3,
+    '辶': 3, '彐': 3, '彑': 3, '尸': 3, '己': 3, '已': 3, '巳': 3, '弓': 3, '子': 3,
+    '女': 3, '纟': 3, '马': 3, '幺': 3, '屮': 3, '弋': 3, '小': 3, '氵': 3, '忄': 3,
+    '扌': 3, '夕': 3, '大': 3, '土': 3, '士': 3, '工': 3, '干': 3, '寸': 3, '艹': 3,
+    '尢': 3, '夂': 3, '川': 3, '巛': 3, '饣': 3, '飞': 3, '兀': 3, '覀': 3, '廾': 3,
+    # 4 画
     '木': 4, '犬': 4, '犭': 4, '歹': 4, '车': 4, '戈': 4, '比': 4, '瓦': 4, '止': 4,
-    '攴': 4, '攵': 4, '日': 4, '曰': 4, '水': 4, '贝': 4, '见': 4, '牛': 4, '手': 4,
-    '毛': 4, '气': 4, '片': 4, '斤': 4, '爪': 4, '父': 4, '月': 4, '氏': 4, '欠': 4,
-    '风': 4, '殳': 4, '文': 4, '方': 4, '火': 4, '灬': 4, '斗': 4, '户': 4, '心': 4,
-    '王': 4, '韦': 4, '車': 7, '韋': 9, '麥': 11, '魚': 11, '鳥': 11, '齲': 24, '褃': 13
+    '攴': 4, '攵': 4, '日': 4, '曰': 4, '月': 4, '手': 4, '欠': 4, '风': 4, '殳': 4,
+    '文': 4, '方': 4, '火': 4, '灬': 4, '斗': 4, '户': 4, '心': 4, '毋': 4, '爪': 4,
+    '爫': 4, '父': 4, '爻': 4, '爿': 4, '片': 4, '牙': 4, '牛': 4, '牜': 4, '气': 4,
+    '毛': 4, '氏': 4, '斤': 4, '水': 4, '见': 4, '贝': 4, '厄': 4, '支': 4, '无': 4,
+    '旡': 4, '韦': 4, '礻': 4, '王': 4, '长': 4,
+    # 5 画 (重点修复: 疒 标准为 5 画，罒为 5 画，钅为 5 画)
+    '玉': 5, '示': 5, '龙': 5, '白': 5, '鸟': 5, '皮': 5, '皿': 5, '目': 5, '矛': 5,
+    '矢': 5, '石': 5, '穴': 5, '禾': 5, '立': 5, '田': 5, '疋': 5, '业': 5, '瓜': 5,
+    '申': 5, '疒': 5, '癶': 5, '钅': 5, '玄': 5, '甘': 5, '用': 5, '母': 5, '生': 5,
+    '罒': 5,
+    # 6 画
+    '竹': 6, '米': 6, '糸': 6, '缶': 6, '网': 6, '羊': 6, '羽': 6, '老': 6, '而': 6,
+    '耒': 6, '耳': 6, '聿': 6, '肉': 6, '臣': 6, '自': 6, '至': 6, '臼': 6, '舌': 6,
+    '舟': 6, '艮': 6, '色': 6, '虍': 6, '虫': 6, '血': 6, '行': 6, '衣': 6, '衤': 6,
+    '西': 6, '页': 6, '齐': 6,
+    # 7 画
+    '角': 7, '言': 7, '谷': 7, '豆': 7, '豕': 7, '豸': 7, '赤': 7, '走': 7, '足': 7,
+    '身': 7, '辛': 7, '辰': 7, '酉': 7, '里': 7, '麦': 7, '龟': 7, '車': 7, '辵': 7,
+    '邑': 7, '黽': 7, '卤': 7,
+    # 8 画
+    '金': 8, '鱼': 8, '雨': 8, '隹': 8, '齿': 8, '黾': 8, '隶': 8, '青': 8, '非': 8,
+    '阜': 8, '采': 8, '飠': 8, '釒': 8,
+    # 9 画
+    '面': 9, '革': 9, '韭': 9, '音': 9, '食': 9, '首': 9, '香': 9, '鬼': 9, '骨': 9,
+    '韋': 9,
+    # 10 画
+    '高': 10, '鬲': 10, '髟': 10, '鬯': 10,
+    # 11 画
+    '鹿': 11, '麻': 11, '黄': 11, '魚': 11, '鳥': 11, '麥': 11,
+    # 12 画
+    '黍': 12, '黑': 12, '黹': 12, '鼎': 12,
+    # 13 画
+    '鼓': 13, '鼠': 13,
+    # 14 画
+    '鼻': 14,
+    # 17 画
+    '龠': 17
 }
+
+# 标准汉语拼音声母列表 (按新华字典与普通话发音部位排序，包含 23 个标准声母 + 零声母)
+SHENGMU_ORDER = [
+    'b', 'p', 'm', 'f',
+    'd', 't', 'n', 'l',
+    'g', 'k', 'h',
+    'j', 'q', 'x',
+    'zh', 'ch', 'sh', 'r',
+    'z', 'c', 's',
+    'y', 'w',
+    '零声母'
+]
+
+def split_shengmu_yunmu(raw_syl):
+    """将拼音音节切分为 (声母, 韵母)"""
+    if not raw_syl:
+        return '零声母', ''
+    for sm in ['zh', 'ch', 'sh', 'b', 'p', 'm', 'f', 'd', 't', 'n', 'l', 'g', 'k', 'h', 'j', 'q', 'x', 'r', 'z', 'c', 's', 'y', 'w']:
+        if raw_syl.startswith(sm):
+            ym = raw_syl[len(sm):]
+            return sm, ym if ym else raw_syl
+    return '零声母', raw_syl
 
 def parse_pinyin(py):
     if not py:
@@ -187,6 +276,7 @@ def main():
         py_display, py_raw, tone = parse_pinyin(raw_py)
         strokes = int(item.get('strokes') or 0)
         radical = item.get('radicals', '').strip()
+        radical = RADICAL_NORMALIZATION.get(radical, radical)
         rad_st = rad_strokes_map.get(radical, 3)
         extra_st = max(0, strokes - rad_st)
 
@@ -226,13 +316,13 @@ def main():
                 'freq': char_freq.get(char, 0)
             })
         if py_raw:
-            initial = py_raw[0].upper()
-            if 'A' <= initial <= 'Z':
-                pinyin_index_tree[initial][py_raw].append({
-                    'char': char,
-                    'tone': tone,
-                    'freq': char_freq.get(char, 0)
-                })
+            sm, ym = split_shengmu_yunmu(py_raw)
+            pinyin_index_tree[sm][py_raw].append({
+                'char': char,
+                'tone': tone,
+                'freq': char_freq.get(char, 0),
+                'yunmu': ym
+            })
 
     # 同音字计算
     for char, entry in processed_dict.items():
@@ -290,14 +380,29 @@ def main():
             'es': ent['extra_strokes']
         }
 
-    # 部首分类
+    # 部首分类 (增加按剩余笔画聚类的 extra_groups)
     radicals_by_stroke = defaultdict(list)
     for rad, char_list in radical_to_chars.items():
         st = rad_strokes_map.get(rad, 3)
         char_list.sort(key=lambda x: (x['extra_strokes'], -x['freq']))
+        
+        # 按剩余笔画分组
+        groups_by_extra = defaultdict(list)
+        for item in char_list:
+            groups_by_extra[item['extra_strokes']].append(item['char'])
+            
+        extra_stroke_groups = []
+        for es in sorted(groups_by_extra.keys()):
+            extra_stroke_groups.append({
+                'extra': es,
+                'count': len(groups_by_extra[es]),
+                'chars': groups_by_extra[es]
+            })
+
         radicals_by_stroke[st].append({
             'radical': rad,
             'count': len(char_list),
+            'extra_groups': extra_stroke_groups,
             'chars': [x['char'] for x in char_list]
         })
     
@@ -310,12 +415,15 @@ def main():
             'radicals': rad_items
         })
 
-    # 拼音分类
+    # 拼音分类 (标准声母 -> 韵母及音节四声分类)
     sorted_pinyin_groups = []
-    for initial in sorted(pinyin_index_tree.keys()):
+    for sm in SHENGMU_ORDER:
+        if sm not in pinyin_index_tree:
+            continue
         syllables = []
-        for syl in sorted(pinyin_index_tree[initial].keys()):
-            items = pinyin_index_tree[initial][syl]
+        for syl in sorted(pinyin_index_tree[sm].keys()):
+            items = pinyin_index_tree[sm][syl]
+            ym = items[0]['yunmu']
             tones_map = defaultdict(list)
             for it in items:
                 tones_map[it['tone']].append(it)
@@ -324,11 +432,24 @@ def main():
             
             syllables.append({
                 'syllable': syl,
+                'yunmu': ym,
                 'count': len(items),
                 'tones': {t: [x['char'] for x in tones_map[t]] for t in sorted(tones_map.keys())}
             })
+        
+        yunmu_list = []
+        seen_ym = set()
+        for s in syllables:
+            if s['yunmu'] not in seen_ym:
+                seen_ym.add(s['yunmu'])
+                yunmu_list.append(s['yunmu'])
+
+        total_sm_chars = sum(s['count'] for s in syllables)
+
         sorted_pinyin_groups.append({
-            'initial': initial,
+            'shengmu': sm,
+            'count': total_sm_chars,
+            'yunmu_list': yunmu_list,
             'syllables': syllables
         })
 
