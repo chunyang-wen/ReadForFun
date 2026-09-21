@@ -482,6 +482,34 @@ body {
   user-select: none;
 }
 
+/* 笔画骨架屏加载占位 */
+.stroke-step-card.skeleton {
+  cursor: default;
+  border-color: var(--border-color);
+  background: var(--bg-subtle);
+  animation: pulseShimmer 1.2s infinite ease-in-out;
+}
+
+@keyframes pulseShimmer {
+  0% { opacity: 0.45; }
+  50% { opacity: 0.85; }
+  100% { opacity: 0.45; }
+}
+
+.mini-grid.skeleton-box {
+  background: #ebe5db;
+  border-color: #ddd4c6;
+  background-image: none;
+}
+
+.skeleton-text {
+  width: 34px;
+  height: 9px;
+  background: #dfd6c8;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
 .stroke-step-card:hover {
   border-color: var(--cinnabar);
   background: #fff;
