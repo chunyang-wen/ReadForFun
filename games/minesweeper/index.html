@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#26362f">
+  <title>扫雷 · ReadForFun 游戏室</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="wordmark" href="../../"><img src="../../apple-touch-icon.png" alt="" width="30" height="30">ReadForFun</a>
+      <a class="back-link" href="../">游戏室</a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="game-title">
+        <div>
+          <p class="eyebrow">FIELD SURVEY · 04</p>
+          <h1 id="game-title">扫雷</h1>
+        </div>
+        <p>读懂数字留下的线索，一格一格排除危险。棋盘多大，由你决定。</p>
+      </section>
+
+      <section class="control-deck" aria-label="棋盘设置">
+        <div class="custom-size">
+          <label>行 <input id="rowsInput" type="number" min="5" max="50" value="16" inputmode="numeric"></label>
+          <span>×</span>
+          <label>列 <input id="columnsInput" type="number" min="5" max="50" value="16" inputmode="numeric"></label>
+          <label class="mine-input">雷 <input id="minesInput" type="number" min="1" value="40" inputmode="numeric"></label>
+          <button id="applyCustom" class="apply-button" type="button">生成棋盘</button>
+        </div>
+        <div class="presets" role="group" aria-label="棋盘预设">
+          <button type="button" data-preset="9,9,10">9×9</button>
+          <button type="button" data-preset="16,16,40" aria-pressed="true">16×16</button>
+          <button type="button" data-preset="16,30,99">16×30</button>
+          <button type="button" data-preset="50,50,400">50×50</button>
+        </div>
+      </section>
+
+      <section class="mine-station" aria-label="扫雷游戏">
+        <div class="game-toolbar">
+          <div class="counter"><span>剩余雷数</span><strong id="mineCounter">040</strong></div>
+          <button id="restartButton" class="face-button" type="button" aria-label="重新开始">◉</button>
+          <div class="counter"><span>时间</span><strong id="timer">000</strong></div>
+          <div class="mode-switch" role="group" aria-label="操作模式">
+            <button type="button" data-mode="reveal" aria-pressed="true">挖开</button>
+            <button type="button" data-mode="flag" aria-pressed="false">插旗</button>
+          </div>
+          <label class="cell-size">格子
+            <select id="cellSize">
+              <option value="20">小</option>
+              <option value="26" selected>中</option>
+              <option value="34">大</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="boardViewport" class="board-viewport">
+          <div id="mineBoard" class="mine-board" role="grid" aria-label="16 行 16 列扫雷棋盘"></div>
+          <div id="gameMessage" class="game-message" hidden>
+            <p id="messageTitle">排雷成功</p>
+            <span id="messageText"></span>
+            <button id="messageAction" type="button">再来一局</button>
+          </div>
+        </div>
+        <div class="board-note">
+          <p id="gameStatus" aria-live="polite">棋盘已准备好。第一次挖开一定安全。</p>
+          <p><span>电脑</span> 左键挖开 · 右键插旗　 <span>手机</span> 切换“挖开 / 插旗”模式</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
