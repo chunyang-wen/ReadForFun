@@ -1312,6 +1312,12 @@ body.theme-night .example-text {
   .reader-stage {
     padding: 0 16px;
     margin-bottom: 70px;
+    touch-action: pan-y;
+  }
+  .reader-stage img {
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-select: none;
   }
   .xiehouyu-card {
     padding: 24px 20px;
