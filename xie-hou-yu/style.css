@@ -1331,6 +1331,40 @@ body.theme-night .example-text {
   .answer-text {
     font-size: 1.55rem;
   }
+  .card-footer-pager {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    gap: 8px;
+  }
+  .card-footer-pager .pager-btn {
+    width: 100%;
+    min-width: 0;
+    gap: 5px;
+    padding: 8px 9px;
+    border-radius: var(--radius-sm);
+  }
+  .card-footer-pager .pager-btn:first-child {
+    justify-content: flex-start;
+  }
+  .card-footer-pager .pager-btn:last-child {
+    justify-content: flex-end;
+  }
+  .card-footer-pager .pager-arrow,
+  .counter-display {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+  .card-footer-pager .pager-text {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.74rem;
+  }
+  .counter-display {
+    font-size: 0.82rem;
+    font-variant-numeric: tabular-nums;
+  }
   .catalog-grid {
     grid-template-columns: 1fr;
     padding: 14px 16px;

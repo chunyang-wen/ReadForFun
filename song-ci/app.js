@@ -753,12 +753,18 @@
       if (isActive) activeSentenceElement = el;
     });
 
-    // 2. Smooth auto-scroll the active sentence into center view
+    // 2. Scroll only the lyric container. scrollIntoView() can also move the
+    // whole page, which conflicts with mobile navigation returning to artwork.
     if (activeSentenceElement) {
-      activeSentenceElement.scrollIntoView({
+      const containerRect = ciTextContainer.getBoundingClientRect();
+      const sentenceRect = activeSentenceElement.getBoundingClientRect();
+      const targetTop = ciTextContainer.scrollTop
+        + sentenceRect.top
+        - containerRect.top
+        - (ciTextContainer.clientHeight - sentenceRect.height) / 2;
+      ciTextContainer.scrollTo({
+        top: Math.max(0, targetTop),
         behavior: "smooth",
-        block: "nearest",
-        inline: "nearest",
       });
     }
 
@@ -984,7 +990,7 @@
       generateQuizMask();
     }
     renderCurrentCi();
-    scrollPageTopOnMobile();
+    scrollArtworkToTopOnMobile();
   }
 
   function prevCi() {
@@ -994,14 +1000,27 @@
       generateQuizMask();
     }
     renderCurrentCi();
-    scrollPageTopOnMobile();
+    scrollArtworkToTopOnMobile();
   }
 
-  function scrollPageTopOnMobile() {
+  function scrollArtworkToTopOnMobile() {
     if (!window.matchMedia("(max-width: 768px)").matches) return;
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     requestAnimationFrame(() => {
-      window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
+      requestAnimationFrame(() => {
+        const artworkColumn = document.getElementById("artworkColumn");
+        const header = document.querySelector(".app-header");
+        if (!artworkColumn) return;
+
+        const headerHeight = header ? header.getBoundingClientRect().height : 0;
+        const artworkTop = window.scrollY + artworkColumn.getBoundingClientRect().top;
+        const targetTop = Math.max(0, artworkTop - headerHeight - 8);
+
+        window.scrollTo({
+          top: targetTop,
+          behavior: reduceMotion ? "auto" : "smooth"
+        });
+      });
     });
   }
 
