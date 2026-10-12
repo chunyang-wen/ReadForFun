@@ -9,20 +9,22 @@
   const actionButton = document.getElementById("actionButton");
   const pauseButton = document.getElementById("pauseButton");
   const soundButton = document.getElementById("soundToggle");
+  const fullscreenButton = document.getElementById("fullscreenButton");
+  const gameShell = document.getElementById("gameShell");
   const scoreElement = document.getElementById("score");
   const bestElement = document.getElementById("bestScore");
   const statusElement = document.getElementById("gameStatus");
 
   const WIDTH = canvas.width;
   const HEIGHT = canvas.height;
-  const GROUND_HEIGHT = 82;
-  const PIPE_WIDTH = 74;
-  const PIPE_GAP = 172;
-  const PIPE_DISTANCE = 224;
+  const GROUND_HEIGHT = 66;
+  const PIPE_WIDTH = 88;
+  const PIPE_GAP = 184;
+  const PIPE_DISTANCE = 285;
   const STORAGE_KEY = "readforfun-flappy-best";
   const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  const bird = { x: 116, y: HEIGHT * .43, radius: 18, velocity: 0, rotation: 0 };
+  const bird = { x: 205, y: HEIGHT * .43, radius: 22, velocity: 0, rotation: 0 };
   let pipes = [];
   let particles = [];
   let score = 0;
@@ -49,7 +51,7 @@
     pipes = [];
     particles = [];
     score = 0;
-    spawnDistance = 112;
+    spawnDistance = 152;
     worldOffset = 0;
     scoreElement.textContent = "0";
     statusElement.textContent = "飞行开始。按空格键、向上方向键或点击画面拍动翅膀。";
@@ -61,7 +63,7 @@
     overlay.hidden = true;
     pauseButton.hidden = false;
     lastTime = performance.now();
-    bird.velocity = -360;
+    bird.velocity = -330;
     chirp(420, .055, "sine", .035);
     canvas.focus({ preventScroll: true });
   }
@@ -72,11 +74,11 @@
       return;
     }
     if (state !== "playing") return;
-    bird.velocity = -380;
+    bird.velocity = -350;
     bird.rotation = -.36;
     if (!reducedMotion) {
       for (let index = 0; index < 4; index += 1) {
-        particles.push({ x: bird.x - 15, y: bird.y + 6, life: 1, vx: -45 - Math.random() * 40, vy: (Math.random() - .5) * 40 });
+        particles.push({ x: bird.x - 19, y: bird.y + 7, life: 1, vx: -55 - Math.random() * 45, vy: (Math.random() - .5) * 45 });
       }
     }
     chirp(540, .045, "sine", .028);
@@ -118,15 +120,15 @@
   }
 
   function addPipe() {
-    const topLimit = 105;
-    const bottomLimit = HEIGHT - GROUND_HEIGHT - PIPE_GAP - 105;
+    const topLimit = 72;
+    const bottomLimit = HEIGHT - GROUND_HEIGHT - PIPE_GAP - 72;
     const gapTop = topLimit + Math.random() * (bottomLimit - topLimit);
     pipes.push({ x: WIDTH + 16, gapTop, passed: false });
   }
 
   function update(delta) {
     if (state !== "playing") return;
-    const speed = Math.min(186, 146 + score * 2.25);
+    const speed = Math.min(270, 205 + score * 2.5);
     worldOffset = (worldOffset + speed * delta) % WIDTH;
     spawnDistance += speed * delta;
     if (spawnDistance >= PIPE_DISTANCE) {
@@ -134,7 +136,7 @@
       addPipe();
     }
 
-    bird.velocity += 1040 * delta;
+    bird.velocity += 930 * delta;
     bird.y += bird.velocity * delta;
     bird.rotation = Math.min(1.18, bird.rotation + 1.9 * delta);
 
@@ -175,7 +177,6 @@
     pipes.forEach(drawPipe);
     drawBird();
     drawGround();
-    if (state === "playing" && score > 0) drawCanvasScore();
   }
 
   function drawSky() {
@@ -188,13 +189,13 @@
 
     context.fillStyle = "rgba(249, 237, 199, .85)";
     context.beginPath();
-    context.arc(380, 98, 44, 0, Math.PI * 2);
+    context.arc(WIDTH - 148, 92, 42, 0, Math.PI * 2);
     context.fill();
 
     context.fillStyle = "rgba(246, 241, 220, .38)";
-    for (let index = 0; index < 5; index += 1) {
-      const x = ((index * 154 - worldOffset * .18) % 690) - 80;
-      const y = 105 + (index % 3) * 88;
+    for (let index = 0; index < 7; index += 1) {
+      const x = ((index * 174 - worldOffset * .18) % (WIDTH + 220)) - 100;
+      const y = 102 + (index % 3) * 82;
       context.beginPath();
       context.ellipse(x, y, 48, 17, 0, 0, Math.PI * 2);
       context.ellipse(x + 35, y + 2, 35, 13, 0, 0, Math.PI * 2);
@@ -203,9 +204,10 @@
 
     context.fillStyle = "#718a78";
     context.beginPath();
-    context.moveTo(0, 470);
+    const hillBase = HEIGHT - GROUND_HEIGHT - 7;
+    context.moveTo(0, hillBase);
     for (let x = 0; x <= WIDTH; x += 40) {
-      const y = 458 + Math.sin((x + worldOffset * .22) * .018) * 27;
+      const y = hillBase - 24 + Math.sin((x + worldOffset * .22) * .018) * 27;
       context.lineTo(x, y);
     }
     context.lineTo(WIDTH, HEIGHT);
@@ -238,6 +240,7 @@
     context.save();
     context.translate(bird.x, bird.y);
     context.rotate(bird.rotation);
+    context.scale(bird.radius / 18, bird.radius / 18);
     context.fillStyle = "rgba(27, 41, 35, .22)";
     context.beginPath();
     context.ellipse(2, 5, 23, 17, 0, 0, Math.PI * 2);
@@ -289,18 +292,6 @@
     }
   }
 
-  function drawCanvasScore() {
-    context.save();
-    context.textAlign = "center";
-    context.font = "700 42px 'Iowan Old Style', Baskerville, serif";
-    context.lineWidth = 6;
-    context.strokeStyle = "rgba(35, 50, 43, .38)";
-    context.strokeText(String(score), WIDTH / 2, 66);
-    context.fillStyle = "#fff8e9";
-    context.fillText(String(score), WIDTH / 2, 66);
-    context.restore();
-  }
-
   function chirp(frequency, duration, type, volume) {
     if (!soundEnabled) return;
     try {
@@ -325,8 +316,34 @@
     requestAnimationFrame(loop);
   }
 
+  async function toggleFullscreen() {
+    try {
+      const activeElement = document.fullscreenElement || document.webkitFullscreenElement;
+      if (activeElement) {
+        const exitFullscreen = document.exitFullscreen || document.webkitExitFullscreen;
+        await exitFullscreen.call(document);
+        return;
+      }
+      const requestFullscreen = gameShell.requestFullscreen || gameShell.webkitRequestFullscreen;
+      if (!requestFullscreen) throw new Error("Fullscreen is unavailable");
+      await requestFullscreen.call(gameShell);
+      try { await screen.orientation?.lock?.("landscape"); } catch (_) {}
+    } catch (_) {
+      statusElement.textContent = "当前浏览器无法自动全屏，请横过手机继续游戏。";
+    }
+  }
+
+  function syncFullscreenButton() {
+    const isFullscreen = Boolean(document.fullscreenElement || document.webkitFullscreenElement);
+    fullscreenButton.setAttribute("aria-label", isFullscreen ? "退出全屏" : "进入全屏");
+    fullscreenButton.querySelector("b").textContent = isFullscreen ? "退出" : "全屏";
+  }
+
   actionButton.addEventListener("click", () => state === "paused" ? togglePause() : startGame());
   pauseButton.addEventListener("click", togglePause);
+  fullscreenButton.addEventListener("click", toggleFullscreen);
+  document.addEventListener("fullscreenchange", syncFullscreenButton);
+  document.addEventListener("webkitfullscreenchange", syncFullscreenButton);
   document.getElementById("mobileFlap").addEventListener("click", flap);
   canvas.addEventListener("pointerdown", (event) => { event.preventDefault(); flap(); });
   document.addEventListener("keydown", (event) => {
@@ -342,7 +359,8 @@
     soundEnabled = !soundEnabled;
     soundButton.setAttribute("aria-pressed", String(soundEnabled));
     soundButton.setAttribute("aria-label", soundEnabled ? "关闭声音" : "打开声音");
-    soundButton.textContent = soundEnabled ? "声 · 开" : "声 · 关";
+    soundButton.querySelector("span").textContent = soundEnabled ? "♪" : "×";
+    soundButton.querySelector("b").textContent = soundEnabled ? "声音" : "静音";
     if (soundEnabled) chirp(520, .045, "sine", .025);
   });
   document.addEventListener("visibilitychange", () => {

@@ -29,24 +29,22 @@
             <button type="button" data-level="hard" aria-pressed="false">困难</button>
           </div>
           <div class="assist-settings" aria-label="辅助设置">
-            <label>允许错误
-              <select id="mistakeLimit">
-                <option value="1">1 次</option>
-                <option value="3">3 次</option>
-                <option value="5" selected>5 次</option>
-                <option value="10">10 次</option>
-                <option value="0">不限</option>
-              </select>
-            </label>
-            <label>提示次数
-              <select id="hintLimit">
-                <option value="0">不用提示</option>
-                <option value="3">3 次</option>
-                <option value="5" selected>5 次</option>
-                <option value="10">10 次</option>
-                <option value="20">20 次</option>
-              </select>
-            </label>
+            <div class="assist-setting">
+              <span class="assist-setting__copy"><b>容错次数</b><small>答错后仍可继续</small></span>
+              <div class="setting-stepper" role="group" aria-label="调整容错次数">
+                <button type="button" data-setting="mistakes" data-delta="-1" aria-label="减少容错次数">−</button>
+                <strong id="mistakeSettingValue" aria-live="polite">5</strong>
+                <button type="button" data-setting="mistakes" data-delta="1" aria-label="增加容错次数">+</button>
+              </div>
+            </div>
+            <div class="assist-setting">
+              <span class="assist-setting__copy"><b>提示额度</b><small>自动填入一格</small></span>
+              <div class="setting-stepper" role="group" aria-label="调整提示次数">
+                <button type="button" data-setting="hints" data-delta="-1" aria-label="减少提示次数">−</button>
+                <strong id="hintSettingValue" aria-live="polite">5</strong>
+                <button type="button" data-setting="hints" data-delta="1" aria-label="增加提示次数">+</button>
+              </div>
+            </div>
           </div>
         </div>
         <div class="stats">

@@ -2,6 +2,13 @@
 
 把纪录片和视频变成可以一页一页阅读的中文绘本。
 
+## 中国传统艺术
+
+- [美轮美奂 · 佛光寺东大殿木构解剖](https://chunyang-wen.github.io/ReadForFun/chinese-architecture/) · 单建筑三维研究
+  - 聚焦东大殿：七开间、22 根外柱与 14 根内柱；区分铺作、明栿、草架、平闇、槫檩和椽瓦。
+  - 可旋转、缩放、逐层显示、移动剖切与分层拆合；单独研究外檐柱头铺作，点选查看构件及依据。
+  - 主要形制和柱网有公开资料支持，细部保留推定标记；[建模记录](chinese-architecture/MODEL_NOTES.md) 列出参数来源与未完成的隐蔽节点。
+
 ## 游戏室
 
 - [2048](https://chunyang-wen.github.io/ReadForFun/games/2048/) · 支持键盘、触摸滑动、撤销与重做，以及本地最佳成绩记录

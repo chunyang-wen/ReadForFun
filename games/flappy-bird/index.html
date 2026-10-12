@@ -3,54 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#d7c99f">
+  <meta name="theme-color" content="#26362f">
   <title>Flappy Bird · ReadForFun 游戏室</title>
   <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="page-shell">
-    <header class="topbar">
-      <a class="wordmark" href="../../"><img src="../../apple-touch-icon.png" alt="" width="30" height="30">ReadForFun</a>
-      <a class="back-link" href="../">游戏室</a>
-    </header>
-
-    <main class="game-layout">
-      <section class="game-intro" aria-labelledby="game-title">
-        <p class="eyebrow">PAPER FLIGHT · 02</p>
-        <h1 id="game-title"><span>Flappy</span> Bird</h1>
-        <p class="lede">轻轻拍动翅膀，穿过一座座绿色书脊。飞得越远，天空就越宽。</p>
-        <div class="instructions">
-          <p><strong>拍动</strong> 空格键、↑ 或点击画面</p>
-          <p><strong>暂停</strong> P 键</p>
+  <main id="gameShell" class="game-shell" aria-labelledby="game-title">
+    <div id="gameFrame" class="game-frame">
+      <canvas id="gameCanvas" width="960" height="540" tabindex="0" role="application" aria-label="Flappy Bird 横屏游戏画面。按空格键、向上方向键或点击画面拍动翅膀。"></canvas>
+      <header class="game-hud">
+        <a class="back-link" href="../" aria-label="返回游戏室">← <span>游戏室</span></a>
+        <div class="game-title">
+          <span>PAPER FLIGHT · 02</span>
+          <h1 id="game-title">Flappy Bird</h1>
         </div>
-        <p class="tip"><span>飞行诀窍</span> 保持节奏，比连续猛拍更重要。</p>
-      </section>
-
-      <section class="flight-station" aria-label="Flappy Bird 游戏">
-        <div class="scorebar">
-          <div class="score-card"><span>本局</span><strong id="score">0</strong></div>
-          <div class="score-card"><span>最佳</span><strong id="bestScore">0</strong></div>
-          <button id="soundToggle" class="sound-button" type="button" aria-pressed="true" aria-label="关闭声音">声 · 开</button>
+        <div class="hud-actions">
+          <button id="soundToggle" type="button" aria-pressed="true" aria-label="关闭声音"><span aria-hidden="true">♪</span><b>声音</b></button>
+          <button id="fullscreenButton" type="button" aria-label="进入全屏"><span aria-hidden="true">⛶</span><b>全屏</b></button>
+          <button id="pauseButton" type="button" aria-label="暂停游戏" hidden><span aria-hidden="true">Ⅱ</span><b>暂停</b></button>
         </div>
-
-        <div id="gameFrame" class="game-frame">
-          <canvas id="gameCanvas" width="480" height="640" tabindex="0" role="application" aria-label="Flappy Bird 游戏画面。按空格键或向上方向键拍动翅膀。"></canvas>
-          <div id="gameOverlay" class="game-overlay">
-            <div class="overlay-mark" aria-hidden="true">↟</div>
-            <p id="overlayTitle">准备起飞</p>
-            <span id="overlayText">穿过书脊之间的空隙</span>
-            <button id="actionButton" type="button">开始飞行</button>
-          </div>
-          <button id="pauseButton" class="pause-button" type="button" aria-label="暂停游戏" hidden>Ⅱ</button>
-        </div>
-
-        <p id="gameStatus" class="game-status" aria-live="polite">准备起飞。按开始飞行按钮进入游戏。</p>
-        <button id="mobileFlap" class="mobile-flap" type="button"><span aria-hidden="true">↑</span> 拍动翅膀</button>
-      </section>
-    </main>
-  </div>
+      </header>
+      <div class="scorebar" aria-label="飞行成绩">
+        <div><span>本局</span><strong id="score">0</strong></div><i></i>
+        <div><span>最佳</span><strong id="bestScore">0</strong></div>
+      </div>
+      <div id="gameOverlay" class="game-overlay">
+        <div class="overlay-mark" aria-hidden="true">↟</div>
+        <p id="overlayTitle">准备起飞</p>
+        <span id="overlayText">轻点画面，穿过书脊之间的空隙</span>
+        <button id="actionButton" type="button">开始飞行</button>
+        <small>空格 / ↑ / 点击画面</small>
+      </div>
+      <button id="mobileFlap" class="flap-button" type="button" aria-label="拍动翅膀"><span aria-hidden="true">↑</span><b>拍动</b></button>
+      <p id="gameStatus" class="visually-hidden" aria-live="polite">准备起飞。按开始飞行按钮进入游戏。</p>
+      <div class="landscape-hint" aria-hidden="true"><span>↻</span> 横过手机，飞得更自在</div>
+    </div>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>

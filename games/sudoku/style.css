@@ -41,9 +41,17 @@ h1 { margin: 0; font-family: var(--serif); font-size: clamp(5.5rem, 11vw, 10rem)
 .level-switcher button { min-height: 40px; border: 0; border-radius: 8px; color: var(--muted); font-size: .76rem; font-weight: 700; background: transparent; cursor: pointer; }
 .level-switcher button[aria-pressed="true"] { color: #fff9ef; background: var(--wine); box-shadow: 0 6px 14px #6e2e282b; }
 .assist-settings { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
-.assist-settings label { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: center; min-height: 39px; padding: 0 8px 0 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 9px; font-size: .64rem; font-weight: 700; background: #f7f3eb99; }
-.assist-settings select { min-width: 76px; height: 30px; padding: 0 5px; border: 0; border-radius: 6px; outline: 0; color: var(--ink); font-size: .7rem; font-weight: 700; background: #e7e0d4; }
-.assist-settings select:focus-visible { box-shadow: 0 0 0 3px #8d403829; }
+.assist-setting { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; align-items: center; min-height: 66px; padding: 9px 9px 9px 12px; border: 1px solid var(--line); border-radius: 11px; background: #f7f3eb99; box-shadow: inset 0 1px #fff8; }
+.assist-setting__copy { display: grid; gap: 2px; min-width: 0; }
+.assist-setting__copy b { font-size: .64rem; letter-spacing: .03em; }
+.assist-setting__copy small { overflow: hidden; color: var(--muted); font-family: var(--serif); font-size: .56rem; font-style: italic; white-space: nowrap; text-overflow: ellipsis; }
+.setting-stepper { display: grid; grid-template-columns: 28px 34px 28px; align-items: center; overflow: hidden; border: 1px solid #27362f26; border-radius: 8px; background: #e7e0d4; }
+.setting-stepper button { height: 32px; padding: 0; border: 0; color: var(--wine); font-size: 1rem; font-weight: 500; line-height: 1; background: transparent; cursor: pointer; }
+.setting-stepper button:hover { background: #fff6; }
+.setting-stepper button:active { background: #8d403818; }
+.setting-stepper button:disabled { color: #72776f66; cursor: default; }
+.setting-stepper strong { display: grid; place-items: center; height: 22px; color: var(--ink); border-right: 1px solid #27362f1f; border-left: 1px solid #27362f1f; font-family: var(--serif); font-size: .94rem; }
+.setting-stepper button:focus-visible { position: relative; z-index: 1; outline: 2px solid var(--wine); outline-offset: -2px; }
 .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; margin-top: 18px; }
 .stats div { display: grid; gap: 4px; }
 .stats span { color: var(--muted); font-size: .56rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
@@ -96,7 +104,9 @@ h1 { margin: 0; font-family: var(--serif); font-size: clamp(5.5rem, 11vw, 10rem)
   .game-intro { display: block; }
   .lede { margin-top: 17px; }
   .level-panel { margin-top: 22px; }
-  .assist-settings { grid-template-columns: 1fr; }
+  .assist-setting { grid-template-columns: 1fr; gap: 7px; align-items: stretch; }
+  .assist-setting__copy small { display: none; }
+  .setting-stepper { grid-template-columns: 30px 1fr 30px; }
   .stats { margin-top: 16px; }
   .board-wrap { padding: 7px; }
   .game-overlay { inset: 7px; }
