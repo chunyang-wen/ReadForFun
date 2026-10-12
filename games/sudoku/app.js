@@ -13,8 +13,8 @@
   const mistakeMaximumElement = document.getElementById("mistakeMaximum");
   const bestTimeElement = document.getElementById("bestTime");
   const notesButton = document.getElementById("notesButton");
-  const mistakeLimitSelect = document.getElementById("mistakeLimit");
-  const hintLimitSelect = document.getElementById("hintLimit");
+  const mistakeSettingValue = document.getElementById("mistakeSettingValue");
+  const hintSettingValue = document.getElementById("hintSettingValue");
   const hintButton = document.getElementById("hintButton");
   const hintCountElement = document.getElementById("hintCount");
   const overlay = document.getElementById("gameOverlay");
@@ -31,6 +31,8 @@
   let mistakes = 0;
   let maxMistakes = 5;
   let hints = 5;
+  const assistOptions = { mistakes: [1, 3, 5, 10, 0], hints: [0, 3, 5, 10, 20] };
+  const assistSelection = { mistakes: 2, hints: 2 };
   let elapsed = 0;
   let timerId = 0;
   let playing = false;
@@ -119,8 +121,8 @@
     selected = puzzle.findIndex((value) => !value);
     noteMode = false;
     mistakes = 0;
-    maxMistakes = Number(mistakeLimitSelect.value);
-    hints = Number(hintLimitSelect.value);
+    maxMistakes = assistOptions.mistakes[assistSelection.mistakes];
+    hints = assistOptions.hints[assistSelection.hints];
     elapsed = 0;
     mistakesElement.textContent = "0";
     mistakeMaximumElement.textContent = maxMistakes ? String(maxMistakes) : "∞";
@@ -275,6 +277,29 @@
   }
 
   function updateTimer() { timerElement.textContent = formatTime(elapsed); }
+  function updateAssistSettings() {
+    const mistakeValue = assistOptions.mistakes[assistSelection.mistakes];
+    const hintValue = assistOptions.hints[assistSelection.hints];
+    mistakeSettingValue.textContent = mistakeValue ? String(mistakeValue) : "∞";
+    hintSettingValue.textContent = String(hintValue);
+    document.querySelectorAll("[data-setting]").forEach((button) => {
+      const setting = button.dataset.setting;
+      const nextIndex = assistSelection[setting] + Number(button.dataset.delta);
+      button.disabled = nextIndex < 0 || nextIndex >= assistOptions[setting].length;
+    });
+  }
+
+  function adjustAssistSetting(setting, delta) {
+    const nextIndex = assistSelection[setting] + delta;
+    if (nextIndex < 0 || nextIndex >= assistOptions[setting].length) return;
+    assistSelection[setting] = nextIndex;
+    updateAssistSettings();
+    newGame();
+    const mistakeValue = assistOptions.mistakes[assistSelection.mistakes];
+    const hintValue = assistOptions.hints[assistSelection.hints];
+    statusElement.textContent = `辅助设置已更新：容错 ${mistakeValue ? `${mistakeValue} 次` : "不限"}，提示 ${hintValue} 次。`;
+  }
+
   function formatTime(seconds) {
     const minutes = Math.floor(seconds / 60).toString().padStart(2, "0");
     const remainder = (seconds % 60).toString().padStart(2, "0");
@@ -289,11 +314,8 @@
     });
   });
   document.querySelectorAll("[data-number]").forEach((button) => button.addEventListener("click", () => enterNumber(Number(button.dataset.number))));
-  [mistakeLimitSelect, hintLimitSelect].forEach((select) => {
-    select.addEventListener("change", () => {
-      newGame();
-      statusElement.textContent = `辅助设置已更新：允许错误 ${mistakeLimitSelect.value === "0" ? "不限" : `${mistakeLimitSelect.value} 次`}，提示 ${hintLimitSelect.value} 次。`;
-    });
+  document.querySelectorAll("[data-setting]").forEach((button) => {
+    button.addEventListener("click", () => adjustAssistSetting(button.dataset.setting, Number(button.dataset.delta)));
   });
   notesButton.addEventListener("click", () => {
     noteMode = !noteMode;
@@ -320,5 +342,6 @@
     }
   });
 
+  updateAssistSettings();
   newGame();
 })();

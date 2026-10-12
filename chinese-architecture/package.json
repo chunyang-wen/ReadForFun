@@ -1,0 +1,1 @@
+{"name":"readforfun-chinese-architecture","private":true,"type":"module","scripts":{"test":"node --test tests/model.test.js"},"description":"Buildless, locally vendored Three.js architecture study"}
