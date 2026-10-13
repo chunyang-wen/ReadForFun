@@ -4,7 +4,7 @@
 
 ## 中国传统艺术
 
-[美轮美奂合集](chinese-architecture/collection/)汇集全部十卷，书架统一进入合集，再按卷号进入各建筑详情；各卷原地址保留，详情可返回合集。
+[美轮美奂合集](chinese-architecture/collection/)汇集十三卷本地展卷，书架统一进入合集，再按卷号进入各建筑详情；各卷原地址保留，详情可返回合集。
 
 后续展卷参考：[美轮美奂系列制作规范](chinese-architecture/PRODUCTION_GUIDE.md)，含原书对应、证据分级、三维构造、交互、装饰与验收要求。
 
@@ -81,3 +81,9 @@
 - [美轮美奂 · 第九卷 殿春簃](chinese-architecture/dianchunyi/) · 本地实现，未发布。户牖之艺：正轩木构、南向长窗、北墙三窗与后庭框景；七步、四局部，剖切、拾取、层显隐和拆合。通用开启练习与本轩待核连接分开；历史图像关系有据，尺寸与细纹仍为教学概括。[参数与证据](chinese-architecture/dianchunyi/MODEL_NOTES.md)，[验收记录](chinese-architecture/dianchunyi/VALIDATION.md)。
 
 - [美轮美奂 · 第十卷 保和殿与台基雕作](chinese-architecture/baohe/) · 本地实现，未发布。共用三台北端裁取、北側云龙阶石、栏间、须弥座外皮与螭首；七步、四局部，层显隐、剖切、拾取和观察拆合。露明尺寸与石料尺寸分列；石榫、基础和台内暗沟未复原。[参数与来源](chinese-architecture/baohe/MODEL_NOTES.md)，[验收记录](chinese-architecture/baohe/VALIDATION.md)。
+
+- [美轮美奂 · 第十一卷 故宫太和殿](chinese-architecture/taihe/) · 本地实现，未发布。重新查得原刊图37—40与图48，独立72柱网、高童柱和七架梁、十三檩、上下斗科与重檐庑殿；四局部含贯柱榫、转角和藻井，材料色与教学配色分列。原书映射、逐科加工和修缮层待核。[参数与来源](chinese-architecture/taihe/MODEL_NOTES.md)，[验收记录](chinese-architecture/taihe/VALIDATION.md)。
+
+- [美轮美奂 · 第十二卷 曲阜孔庙大成殿](chinese-architecture/kongmiao/) · 本地实现，未发布。三圈柱网、石木转换、七踩九踩、重檐歇山和石柱龙纹；七步、九层、三局部，旋转、剖切、拾取与拆合。柱距、暗接与逐龙纹样待核。[参数与来源](chinese-architecture/kongmiao/MODEL_NOTES.md)，[验收记录](chinese-architecture/kongmiao/VALIDATION.md)。
+
+- [美轮美奂 · 第十三卷 北京太庙前殿](chinese-architecture/taimiao/) · 本地实现，未发布。独立三排殿身柱网、十一檩、柱框与屋盖分层、斗科与金饰载体；七步、十二层、四局部。形制有据，逐柱尺寸、科跳、梁端暗接及原书映射待核。[参数与来源](chinese-architecture/taimiao/MODEL_NOTES.md)，[验收记录](chinese-architecture/taimiao/VALIDATION.md)。
