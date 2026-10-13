@@ -1617,3 +1617,8 @@ body.lookup-modal-open {
     transition-duration: 0.01ms;
   }
 }
+
+#hanzi-writer-target.glyph-fallback {
+  display: grid; place-items: center; font-size: 180px; line-height: 240px;
+  font-family: "Kaiti SC", "STKaiti", serif;
+}

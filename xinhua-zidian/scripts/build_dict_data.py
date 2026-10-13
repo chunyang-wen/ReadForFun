@@ -8,6 +8,7 @@ Produces ultra-compact, clean, zero-duplicate JavaScript datasets (< 2.5 MB tota
 import json
 import os
 import re
+import unicodedata
 from collections import Counter, defaultdict
 
 TONE_MAP = {
@@ -130,16 +131,18 @@ def parse_pinyin(py):
         return '', '', 5
     py = py.replace('ɡ', 'g').replace(' ', '').strip()
     first_py = py.split(',')[0].split(';')[0]
+    first_py = unicodedata.normalize('NFC', first_py)
     raw = []
     tone = 5
-    for ch in first_py:
-        if ch in TONE_MAP:
-            base, t = TONE_MAP[ch]
-            raw.append(base)
-            tone = t
+    accents = {'\u0304': 1, '\u0301': 2, '\u030c': 3, '\u0300': 4}
+    for ch in unicodedata.normalize('NFD', first_py):
+        if ch in accents:
+            tone = accents[ch]
+        elif ch == '\u0308' and raw and raw[-1] == 'u':
+            raw[-1] = 'v'
         else:
             raw.append(ch)
-    raw_str = ''.join(raw).lower()
+    raw_str = unicodedata.normalize('NFC', ''.join(raw)).lower()
     return first_py, raw_str, tone
 
 def extract_structure(more_text):
@@ -197,7 +200,7 @@ def extract_concise_explanation(exp):
     return '\n'.join(filtered[:4])
 
 def main():
-    dict_dir = 'ReadForFun/xinhua-zidian'
+    dict_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_dir = os.path.join(dict_dir, 'data')
     js_dir = os.path.join(dict_dir, 'js')
     os.makedirs(data_dir, exist_ok=True)
@@ -304,6 +307,10 @@ def main():
             'words': words,
             'freq': char_freq.get(char, 0)
         }
+        # Placeholder duplicates must never replace an informative entry.
+        previous = processed_dict.get(char)
+        if previous and raw_py.lower() == 'uu' and previous['pinyin'].lower() != 'uu':
+            continue
         processed_dict[char] = entry
 
         if py_display:
@@ -504,3 +511,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+    from repair_dict_data import main as repair
+    repair()

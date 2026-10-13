@@ -19,11 +19,19 @@
     selectedExtraStroke: 'all',
     selectedShengmu: 'b',
     selectedYunmu: 'all',
-    renderId: 0
+    renderId: 0,
+    findHomophones: () => []
   };
 
   // 字符矢量数据缓存池（内存 + LocalStorage 双层持久缓存）
   const charDataCache = new Map();
+
+  function validCharData(data) {
+    return Array.isArray(data?.strokes) && data.strokes.length > 0 &&
+      data.strokes.every(path => typeof path === 'string' && /^[Mm]/.test(path)) &&
+      Array.isArray(data.medians) && data.medians.length === data.strokes.length &&
+      data.medians.every(points => Array.isArray(points) && points.length >= 2 && points.every(p => Array.isArray(p) && p.length === 2 && p.every(Number.isFinite)));
+  }
 
   async function getCharData(char) {
     if (!char) return null;
@@ -38,36 +46,40 @@
     }
     // 3. 检查浏览器 LocalStorage 离线缓存 (1~2ms)
     try {
-      const cached = localStorage.getItem('hz_data_' + char);
+      const cached = localStorage.getItem('hz_data_20261014v3_' + char);
       if (cached) {
         const parsed = JSON.parse(cached);
-        charDataCache.set(char, parsed);
-        return parsed;
+        if (validCharData(parsed)) { charDataCache.set(char, parsed); return parsed; }
       }
     } catch (e) {}
 
     // 4. 从 CDN 动态抓取（支持快速多镜像重试）
     const encoded = encodeURIComponent(char);
     const urls = [
-      `https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${encoded}.json`,
-      `https://unpkg.com/hanzi-writer-data@2.0/${encoded}.json`
+      ...(['龠'].includes(char) ? [`data/strokes/${encoded}.json?v=20261014v2`] : []),
+      `https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/${encoded}.json`,
+      `https://unpkg.com/hanzi-writer-data@2.0.1/${encoded}.json`
     ];
 
     let data = null;
     for (const u of urls) {
       try {
-        const res = await fetch(u, { cache: 'force-cache' });
-        if (res.ok) {
-          data = await res.json();
-          break;
-        }
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 5000);
+        try {
+          const res = await fetch(u, { cache: 'force-cache', signal: controller.signal });
+          if (res.ok) {
+            const parsed = await res.json();
+            if (validCharData(parsed)) { data = parsed; break; }
+          }
+        } finally { clearTimeout(timeout); }
       } catch (err) {}
     }
 
     if (data) {
       charDataCache.set(char, data);
       try {
-        localStorage.setItem('hz_data_' + char, JSON.stringify(data));
+        localStorage.setItem('hz_data_20261014v3_' + char, JSON.stringify(data));
       } catch (e) {}
       return data;
     }
@@ -165,6 +177,8 @@
       }
     }
 
+    state.findHomophones = window.DictionaryReadings.createLookup(state.indexDict, state.coreDict);
+
     // 默认展示“永”字（汉字书法与笔顺集大成者）
     const initialChar = getUrlParam('char') || '永';
     loadCharacter(initialChar);
@@ -173,7 +187,7 @@
   // 2. 汉字加载与展示
   async function loadCharacter(char) {
     if (!char) return;
-    char = char.trim()[0]; // 确保单个汉字
+    char = Array.from(char.trim())[0]; // 确保单个汉字
     state.currentChar = char;
     setUrlParam('char', char);
 
@@ -203,7 +217,7 @@
         structure: '汉字',
         wubi: '-',
         stroke_code: '',
-        explanation: `${char}\n暂无收录详细释义，已为您展示动态笔画与逐笔拆解。`,
+        explanation: `${char}\n暂无收录详细释义。`,
         words: [],
         homophones: []
       };
@@ -219,7 +233,8 @@
   // 3. 渲染字典详细文本
   function renderCharacterDetails(entry) {
     el.mainChar.textContent = entry.char;
-    el.mainPinyin.textContent = entry.pinyin || '';
+    const readings = window.DictionaryReadings.readings(state.indexDict[entry.char] || entry);
+    el.mainPinyin.textContent = readings.filter(py => window.DictionaryReadings.parse(py)).join(' / ') || '读音暂未核实';
     
     el.metaRadical.textContent = entry.radical || '-';
     el.metaStrokes.textContent = `${entry.strokes || '-'} 画`;
@@ -248,49 +263,9 @@
       el.wordsList.innerHTML = '<span style="color:var(--ink-muted);font-size:0.85rem;">暂无收录组词</span>';
     }
 
-  const TONE_SYMBOLS = {
-    'ā': ['a', 1], 'á': ['a', 2], 'ǎ': ['a', 3], 'à': ['a', 4],
-    'ē': ['e', 1], 'é': ['e', 2], 'ě': ['e', 3], 'è': ['e', 4],
-    'ī': ['i', 1], 'í': ['i', 2], 'ǐ': ['i', 3], 'ì': ['i', 4],
-    'ō': ['o', 1], 'ó': ['o', 2], 'ǒ': ['o', 3], 'ò': ['o', 4],
-    'ū': ['u', 1], 'ú': ['u', 2], 'ǔ': ['u', 3], 'ù': ['u', 4],
-    'ǖ': ['v', 1], 'ǘ': ['v', 2], 'ǚ': ['v', 3], 'ǜ': ['v', 4], 'ü': ['v', 5],
-    'ń': ['n', 2], 'ň': ['n', 3], 'ǹ': ['n', 4]
-  };
-
-  function findHomophonesByPinyin(char, py) {
-    if (!py || !window.PINYIN_GROUPS) return [];
-    py = py.replace('ɡ', 'g').split(',')[0].trim();
-    let raw = '';
-    let tone = 5;
-    for (const c of py) {
-      if (TONE_SYMBOLS[c]) {
-        raw += TONE_SYMBOLS[c][0];
-        tone = TONE_SYMBOLS[c][1];
-      } else {
-        raw += c;
-      }
-    }
-    raw = raw.toLowerCase();
-    if (!raw) return [];
-    const initial = raw[0].toUpperCase();
-    const group = window.PINYIN_GROUPS.find(g => g.initial === initial);
-    if (!group) return [];
-    const syl = group.syllables.find(s => s.syllable === raw);
-    if (!syl || !syl.tones || !syl.tones[tone]) return [];
-    return syl.tones[tone].filter(c => c !== char).slice(0, 14);
-  }
-
-    // 同音字（确保 100% 双向完全对称）
+    // Every reading must match both syllable and tone; no truncated stored lists.
     el.homophonesList.innerHTML = '';
-    let homophones = (entry.homophones && entry.homophones.length > 0)
-      ? entry.homophones
-      : findHomophonesByPinyin(entry.char, entry.pinyin);
-
-    // 双向安全保证：如果当前列表里缺少同音字或为空，补全动态同音字
-    if (!homophones || homophones.length === 0) {
-      homophones = findHomophonesByPinyin(entry.char, entry.pinyin);
-    }
+    const homophones = state.findHomophones(entry.char);
 
     if (homophones && homophones.length > 0) {
       homophones.forEach(h => {
@@ -330,6 +305,13 @@
       return;
     }
 
+    if (state.writer) { state.writer.cancelQuiz(); state.writer.pauseAnimation(); }
+    state.writer = null;
+    state.charData = null;
+    el.writerContainer.replaceChildren();
+    el.writerContainer.classList.remove('glyph-fallback');
+    [el.btnPlay, el.btnReplay, el.btnQuiz].forEach(btn => btn.disabled = true);
+
     // 重置练字状态
     state.isQuizMode = false;
     el.btnQuiz.classList.remove('active');
@@ -350,12 +332,18 @@
 
     try {
       // 1. 毫秒级从内存/本地缓存或极速 CDN 提取矢量数据 (单次请求 + 自动写入缓存)
-      const charData = await getCharData(char);
+      let charData;
+      try { charData = await getCharData(char); }
+      catch (error) {
+        if (state.renderId !== currentRequestId) return;
+        charData = await window.StrokeComposer.compose(char, getCharData, entry, state.coreDict);
+      }
 
       // 若用户在加载期间已快速切换至下一个汉字，丢弃已过期的请求结果，防止竞态冲突
       if (state.renderId !== currentRequestId) return;
 
       state.charData = charData;
+      charDataCache.set(char, charData);
       el.writerContainer.innerHTML = '';
 
       // 2. 将字形数据直接同步注入 HanziWriter，彻底消灭二次冗余网络请求
@@ -376,8 +364,13 @@
         }
       });
 
+      [el.btnPlay, el.btnReplay].forEach(btn => btn.disabled = false);
+      el.btnQuiz.disabled = charData.source === 'component-simulation';
+      el.btnQuiz.title = el.btnQuiz.disabled ? '组合模拟字形不用于标准临摹评分' : '在格中手动临摹书写';
       const strokeCount = charData.strokes.length;
-      el.strokeCountBadge.textContent = `共 ${strokeCount} 笔`;
+      el.strokeCountBadge.textContent = `共 ${strokeCount} 笔${charData.source === 'component-simulation' ? ' · 部件组合模拟' : ''}`;
+
+      el.strokeCountBadge.title = charData.source === 'component-simulation' ? `复用部件：${charData.components.join('、')}。字形比例及部件书写顺序为组合模拟，未逐字审定。` : '';
 
       // 3. 渲染下方逐笔演变网格
       renderStrokeBreakdown(charData, entry.stroke_code);
@@ -391,8 +384,28 @@
     } catch (err) {
       if (state.renderId !== currentRequestId) return;
       console.warn('字形矢量笔画数据加载异常:', err);
-      el.strokeStepsGrid.innerHTML = '<div style="grid-column:1/-1;color:var(--ink-muted);font-size:0.85rem;padding:0.5rem 0;">该字矢量笔画数据加载中或暂无数据</div>';
+      el.writerContainer.textContent = char;
+      el.writerContainer.classList.add('glyph-fallback');
+      renderStrokeCodeFallback(entry);
       el.strokeCountBadge.textContent = `${entry.strokes || '-'} 笔`;
+    }
+  }
+
+  function renderStrokeCodeFallback(entry) {
+    el.strokeStepsGrid.replaceChildren();
+    const code = entry.stroke_code || '';
+    const valid = /^[1-5]+$/.test(code) && code.length === entry.strokes;
+    const note = document.createElement('p');
+    note.style.gridColumn = '1 / -1';
+    note.textContent = valid ? '暂缺字形轨迹，以下为已收录的笔顺类别；折笔的具体形状暂未提供。' : '暂未收录可靠的笔顺轨迹，无法展示书写动画。';
+    el.strokeStepsGrid.appendChild(note);
+    if (!valid) return;
+    const names = {1: '横 / 提', 2: '竖 / 竖钩', 3: '撇', 4: '点 / 捺', 5: '折笔'};
+    for (const [i, digit] of [...code].entries()) {
+      const card = document.createElement('div');
+      card.className = 'stroke-step-card';
+      card.textContent = `第 ${i + 1} 笔 · ${names[digit]}`;
+      el.strokeStepsGrid.appendChild(card);
     }
   }
 
@@ -417,10 +430,13 @@
       const activeStrokeHtml = `<path d="${currentStrokePath}" fill="#B83B2E" />`;
 
       // 3. 智能识别笔画名称
-      const codeChar = (strokeCode && strokeCode[idx]) ? strokeCode[idx] : null;
-      const strokeName = window.StrokeIdentifier 
-        ? window.StrokeIdentifier.identifyStrokeName(medians[idx], codeChar)
-        : '笔';
+      // Numeric stroke codes identify basic classes, not the detailed shape of a hook.
+      // Median heuristics can misclassify short horizontals as dots: never present those guesses as fact.
+      const validCode = /^[1-5]+$/.test(strokeCode || '') && strokeCode.length === strokes.length;
+      const codeChar = validCode ? strokeCode[idx] : null;
+      const categories = {1: '横 / 提', 2: '竖 / 竖钩', 3: '撇', 4: '点 / 捺', 5: '折笔'};
+      const strokeName = (charData.source === 'component-simulation' && validCode
+        ? categories[codeChar] : charData.strokeNames?.[idx]) || categories[codeChar] || '笔画';
 
       card.innerHTML = `
         <div class="mini-grid">
@@ -487,7 +503,11 @@
 
       const py = (idx.p || '').toLowerCase();
       // 拼音前缀或全拼匹配
-      if (py.startsWith(query) || py.replace(/[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]/g, '').startsWith(query)) {
+      if (py.startsWith(query) || window.DictionaryReadings.readings(idx).some(p => {
+        const candidate = window.DictionaryReadings.parse(p);
+        const input = window.DictionaryReadings.parse(query);
+        return candidate && input && candidate.raw.startsWith(input.raw) && (!/[1-5āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]/.test(query) || candidate.tone === input.tone);
+      })) {
         matches.push(char);
       }
     }
