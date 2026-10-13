@@ -4,6 +4,8 @@
 
 ## 中国传统艺术
 
+后续展卷参考：[美轮美奂系列制作规范](chinese-architecture/PRODUCTION_GUIDE.md)，含原书对应、证据分级、三维构造、交互、装饰与验收要求。
+
 - [美轮美奂 · 佛光寺东大殿木构解剖](https://chunyang-wen.github.io/ReadForFun/chinese-architecture/) · 单建筑三维研究
   - 聚焦东大殿：七开间、22 根外柱与 14 根内柱；区分铺作、明栿、草架、平闇、槫檩和椽瓦。
   - 可旋转、缩放、逐层显示、移动剖切与分层拆合；单独研究外檐柱头铺作，点选查看构件及依据。
@@ -61,3 +63,11 @@
 
 - [中华歇后语·俗语大全](https://chunyang-wen.github.io/ReadForFun/xie-hou-yu/) · 500 条
   - 精选 500 条传世经典歇后语与民间哲理俗语，字字拼音标注，互动猜谜翻牌揭晓与畅读鉴赏双模式，典故溯源、语境用法与生动生活例句全景解析。支持全卷目录（快捷键 M）、即时检索（快捷键 /）、随机漫游（快捷键 R）及墨色夜间模式。
+
+- [美轮美奂 · 第三卷 应县木塔](chinese-architecture/yingxian/) · 本地实现，未发布。九段柱架、四个暗层双向斜撑、首层回廊、两种层间连接与六道檐；支持逐层隔离、剖切、拾取和拆合。[模型证据与精度边界](chinese-architecture/yingxian/MODEL_NOTES.md)，[验收记录](chinese-architecture/yingxian/VALIDATION.md)。
+
+- [美轮美奂 · 第四卷 奉先殿前殿](chinese-architecture/fengxian/) · 本地实现，未发布。清初主体五排柱架，七踩溜金与九踩斗科、十一架梁和重檐庑殿，四组局部拆合与装饰位置观察。[参数证据与精度边界](chinese-architecture/fengxian/MODEL_NOTES.md)，[验收记录](chinese-architecture/fengxian/VALIDATION.md)。太和殿工作选题因当前取得的逐科资料不足而改选，不代表太和殿不存在完整测绘资料。
+
+- [美轮美奂 · 第六卷 天坛祈年殿](chinese-architecture/qinian/) · 本地实现，未发布。研究光绪重建主体的28柱网、方井→四弧梁→八短柱、三重圆檐与藻井彩画；四个局部与完整圜台图层。通用穿榫原理另列，不冒充本殿暗榫。[参数证据与精度边界](chinese-architecture/qinian/MODEL_NOTES.md)，[验收记录](chinese-architecture/qinian/VALIDATION.md)。第五卷晋祠圣母殿保留独立工作卷号，本条不表示第五卷已经交付。
+
+- [美轮美奂 · 第五卷 晋祠圣母殿](chinese-architecture/jinci/) · 本地实现，未发布。深前廊梁上柱、斜面叠梁与驼峰、两重歇山檐、八柱盘龙木雕概括；四组局部拆合，证据等级独立标示。[模型记录](chinese-architecture/jinci/MODEL_NOTES.md)，[验收记录](chinese-architecture/jinci/VALIDATION.md)。
