@@ -1,0 +1,53 @@
+{
+  "checked_on": "2026-10-13",
+  "purpose": "Primary evidence reading; source images and paper full texts are not website assets",
+  "pdfs": [
+    {
+      "file": "unesco-1002.pdf",
+      "url": "https://whc.unesco.org/uploads/nominations/1002.pdf",
+      "sha256": "6a288ab10e2ad283a3327107151386c794189f88d8ee1a5bb6f9ad4e84dc96bf",
+      "bytes": 27637398,
+      "reviewed_pages": [
+        20
+      ],
+      "local_review_copy": "/tmp/readforfun-chengzhi-research/unesco-1002.pdf"
+    },
+    {
+      "file": "buildings-14-01414.pdf",
+      "url": "https://mdpi-res.com/d_attachment/buildings/buildings-14-01414/article_deploy/buildings-14-01414.pdf",
+      "sha256": "8249cccd523fa993ad85d4b8836e8a84cffe57b50a47c3e61110392c71c3a6ca",
+      "bytes": 19754749,
+      "reviewed_pages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "local_review_copy": "/tmp/readforfun-chengzhi-research/buildings-14-01414.pdf"
+    },
+    {
+      "file": "buildings-16-01194.pdf",
+      "url": "https://mdpi-res.com/d_attachment/buildings/buildings-16-01194/article_deploy/buildings-16-01194.pdf",
+      "sha256": "20c8fc8acad1ab4d54f64869cb252e0d869bcb1cd9dd1f52b42ae580d88759ca",
+      "bytes": 17818093,
+      "reviewed_pages": [
+        15,
+        16
+      ],
+      "local_review_copy": "/tmp/readforfun-chengzhi-research/buildings-16-01194.pdf"
+    }
+  ],
+  "pending": [
+    "Feng Tingting original China Nationalities Expo 2022 issue 19 PDF/page mapping unavailable",
+    "Complete 2016 restoration plan unavailable; only Li2026 Figure6/Table7/ref36 read",
+    "Original book page/figure mapping pending"
+  ],
+  "other_read": [
+    "https://journal.khousing.or.kr/articles/xml/ma4R/ Fig10 Fig11 Table1 Table2",
+    "https://www.clcindex.com/book/view/6EE726F91CF1E70A356522B6E1D09B42/ book metadata"
+  ],
+  "source_image_use": "No source photo redistributed. Geometry is an original simplified contour interpretation."
+}
