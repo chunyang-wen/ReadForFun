@@ -4,6 +4,8 @@
 
 ## 中国传统艺术
 
+[美轮美奂合集](chinese-architecture/collection/)汇集第一至第八卷，按卷号进入各建筑详情；各卷原地址保留。第九、十卷暂保留各自入口，待后续纳入。
+
 后续展卷参考：[美轮美奂系列制作规范](chinese-architecture/PRODUCTION_GUIDE.md)，含原书对应、证据分级、三维构造、交互、装饰与验收要求。
 
 - [美轮美奂 · 佛光寺东大殿木构解剖](https://chunyang-wen.github.io/ReadForFun/chinese-architecture/) · 单建筑三维研究
@@ -71,3 +73,11 @@
 - [美轮美奂 · 第六卷 天坛祈年殿](chinese-architecture/qinian/) · 本地实现，未发布。研究光绪重建主体的28柱网、方井→四弧梁→八短柱、三重圆檐与藻井彩画；四个局部与完整圜台图层。通用穿榫原理另列，不冒充本殿暗榫。[参数证据与精度边界](chinese-architecture/qinian/MODEL_NOTES.md)，[验收记录](chinese-architecture/qinian/VALIDATION.md)。第五卷晋祠圣母殿保留独立工作卷号，本条不表示第五卷已经交付。
 
 - [美轮美奂 · 第五卷 晋祠圣母殿](chinese-architecture/jinci/) · 本地实现，未发布。深前廊梁上柱、斜面叠梁与驼峰、两重歇山檐、八柱盘龙木雕概括；四组局部拆合，证据等级独立标示。[模型记录](chinese-architecture/jinci/MODEL_NOTES.md)，[验收记录](chinese-architecture/jinci/VALIDATION.md)。
+
+- [美轮美奂 · 第八卷 承志堂前厅](chinese-architecture/chengzhi/) · 本地实现，未发布。聚焦一座前厅的梁柱、雀替、拱棚、梁面木雕与厢房隔扇；四组局部、剖切、拾取和拆合。雕刻为有据轮廓与深度概括，隐藏屋架为教学推定，原书正文及原修缮剖面待补。[参数与证据](chinese-architecture/chengzhi/MODEL_NOTES.md)，[验收记录](chinese-architecture/chengzhi/VALIDATION.md)。
+
+- [美轮美奂 · 第七卷 画中游垂花门](chinese-architecture/huazhongyou/) · 本地实现，未发布。千门之美：按专属正、侧面图研究单排四柱、前后挑梁、十二垂头、起伏屋架与木石雕刻；九层、四局部、门扇教学开启。遂初堂的一殿一卷与屏门记录分开对照，绝对尺寸及隐蔽节点保留推定。[模型记录](chinese-architecture/huazhongyou/MODEL_NOTES.md)，[验收记录](chinese-architecture/huazhongyou/VALIDATION.md)。
+
+- [美轮美奂 · 第九卷 殿春簃](chinese-architecture/dianchunyi/) · 本地实现，未发布。户牖之艺：正轩木构、南向长窗、北墙三窗与后庭框景；七步、四局部，剖切、拾取、层显隐和拆合。通用开启练习与本轩待核连接分开；历史图像关系有据，尺寸与细纹仍为教学概括。[参数与证据](chinese-architecture/dianchunyi/MODEL_NOTES.md)，[验收记录](chinese-architecture/dianchunyi/VALIDATION.md)。
+
+- [美轮美奂 · 第十卷 保和殿与台基雕作](chinese-architecture/baohe/) · 本地实现，未发布。共用三台北端裁取、北側云龙阶石、栏间、须弥座外皮与螭首；七步、四局部，层显隐、剖切、拾取和观察拆合。露明尺寸与石料尺寸分列；石榫、基础和台内暗沟未复原。[参数与来源](chinese-architecture/baohe/MODEL_NOTES.md)，[验收记录](chinese-architecture/baohe/VALIDATION.md)。
