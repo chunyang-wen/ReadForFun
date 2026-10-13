@@ -4,7 +4,7 @@
 
 ## 中国传统艺术
 
-[美轮美奂合集](chinese-architecture/collection/)汇集第一至第八卷，按卷号进入各建筑详情；各卷原地址保留。第九、十卷暂保留各自入口，待后续纳入。
+[美轮美奂合集](chinese-architecture/collection/)汇集全部十卷，书架统一进入合集，再按卷号进入各建筑详情；各卷原地址保留，详情可返回合集。
 
 后续展卷参考：[美轮美奂系列制作规范](chinese-architecture/PRODUCTION_GUIDE.md)，含原书对应、证据分级、三维构造、交互、装饰与验收要求。
 

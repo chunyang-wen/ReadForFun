@@ -113,7 +113,7 @@ function fittedPosition(direction){
 }
 function setView(view,animate=true){
  if(!camera)return;const detailView=activeModel===detail;let direction;
- switch(view){case 'front':direction=new THREE.Vector3(0,.10,1);break;case 'back':direction=new THREE.Vector3(0,.10,-1);break;case 'side':direction=new THREE.Vector3(1,.12,0);break;case 'top':direction=new THREE.Vector3(0,1,.001);break;default:direction=new THREE.Vector3(1,.52,detailView?1.2:-1.2);}
+ switch(view){case 'front':direction=new THREE.Vector3(0,.10,1);break;case 'back':direction=new THREE.Vector3(0,.10,-1);break;case 'side':direction=new THREE.Vector3(1,.12,0);break;case 'top':direction=new THREE.Vector3(0,1,.001);break;default:direction=new THREE.Vector3(1,detailView&&detailNode==='ramp'?1.15:.52,detailView?1.2:-1.2);}
  const {target,destination}=fittedPosition(direction);
  if(animate&&!reduced)animation={from:camera.position.clone(),to:destination,fromTarget:controls.target.clone(),toTarget:target,start:performance.now(),duration:450};
  else{camera.position.copy(destination);controls.target.copy(target);camera.lookAt(target);controls.update();}
