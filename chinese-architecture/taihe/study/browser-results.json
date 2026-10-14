@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-14",
+  "method": "Codex in-app browser, visible DOM and screenshots",
+  "states": {
+    "a": {
+      "mode": "a",
+      "view": "patch",
+      "roofLift": false,
+      "alternateLight": false,
+      "camera": [
+        0,
+        18,
+        26
+      ],
+      "target": [
+        0,
+        15.1,
+        14.500000000000002
+      ],
+      "sampleRecords": 981,
+      "removedRibSegments": 128,
+      "drawCalls": 349,
+      "triangles": 2950002,
+      "geometries": 141,
+      "patch": {
+        "halfWidth": 4.26,
+        "pitch": 0.34,
+        "start": 11.1,
+        "end": 16.5,
+        "step": 0.3,
+        "length": 0.43,
+        "radius": 0.12
+      }
+    },
+    "b": {
+      "mode": "b",
+      "view": "patch",
+      "roofLift": false,
+      "alternateLight": false,
+      "camera": [
+        0,
+        18,
+        26
+      ],
+      "target": [
+        0,
+        15.1,
+        14.500000000000002
+      ],
+      "sampleRecords": 981,
+      "removedRibSegments": 128,
+      "drawCalls": 349,
+      "triangles": 2950002,
+      "geometries": 141,
+      "patch": {
+        "halfWidth": 4.26,
+        "pitch": 0.34,
+        "start": 11.1,
+        "end": 16.5,
+        "step": 0.3,
+        "length": 0.43,
+        "radius": 0.12
+      }
+    },
+    "c": {
+      "mode": "c",
+      "view": "patch",
+      "roofLift": false,
+      "alternateLight": false,
+      "camera": [
+        0,
+        18,
+        26
+      ],
+      "target": [
+        0,
+        15.1,
+        14.500000000000002
+      ],
+      "sampleRecords": 981,
+      "removedRibSegments": 128,
+      "drawCalls": 357,
+      "triangles": 3085066,
+      "geometries": 281,
+      "patch": {
+        "halfWidth": 4.26,
+        "pitch": 0.34,
+        "start": 11.1,
+        "end": 16.5,
+        "step": 0.3,
+        "length": 0.43,
+        "radius": 0.12
+      }
+    }
+  },
+  "cameraStable": true,
+  "logs": []
+}

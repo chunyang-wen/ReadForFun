@@ -1,0 +1,16 @@
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {resolve,dirname,relative} from 'node:path';
+import {createHash} from 'node:crypto';
+import {spawnSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+import {validateExperiment} from './manifest.js';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'../..');
+const manifest=resolve(root,process.argv[2]||'chinese-architecture/taihe/study/experiment.json');
+const config=validateExperiment(JSON.parse(readFileSync(manifest,'utf8')));
+const out=process.argv[3]?resolve(root,process.argv[3]):resolve(dirname(manifest),'runs',config.revision+'-'+new Date().toISOString().replace(/[:.]/g,'-'));
+const all=[relative(root,manifest),...config.sourceFiles,...config.tests];
+const hashes=Object.fromEntries([...new Set(all)].map(p=>[p,createHash('sha256').update(readFileSync(resolve(root,p))).digest('hex')]));
+const result=spawnSync(process.execPath,['--test',...config.tests],{cwd:root,encoding:'utf8'});
+mkdirSync(out,{recursive:true});writeFileSync(resolve(out,'tests.txt'),result.stdout+result.stderr);
+writeFileSync(resolve(out,'verification.json'),JSON.stringify({schema:config.schema,id:config.id,revision:config.revision,utc:new Date().toISOString(),node:process.version,platform:process.platform,command:[process.execPath,'--test',...config.tests],exitCode:result.status,hashes,manifest:config,browser:'Separate UI replay required; not implied by this report'},null,2)+'\n');
+process.stdout.write(result.stdout+result.stderr);console.log('Evidence directory:',out);process.exitCode=result.status??1;
