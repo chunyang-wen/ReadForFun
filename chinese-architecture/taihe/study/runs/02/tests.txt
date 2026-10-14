@@ -1,0 +1,40 @@
+✔ Manifest rejects unsupported evidence, duplicate cases and unknown camera presets (0.870791ms)
+✔ Generic patch replays on a different slope and tile spacing without Taihe imports (7.412834ms)
+✔ Refined pans are concave; drips are separate from disks, with finite transformed geometry (4.079459ms)
+✔ Same patch generator accepts Fengxian roof envelope without copying Taihe heights (1.942416ms)
+✔ Plaque has thickness, evidence metadata, and stays with bracket layer when roof lifts (2.713917ms)
+✔ Fig37: 32 porch+40 body columns, unique 12×6 stations and unequal widths (0.50025ms)
+✔ Every main column foot meets its own stone upper face (1.801542ms)
+✔ Forty body column assemblies and 32 lower head positions are not Baohe reduction (2.740291ms)
+✔ Tall roof children are 3.5m independent from body columns and meet upper beam (7.404667ms)
+✔ Short children meet prior beam top and next beam/purlin lower face (0.669416ms)
+✔ Thirteen longitudinal purlin stations include one ridge and twelve side stations (0.973667ms)
+✔ Upper rafter sample endpoints lie below the identical roof envelope (0.896416ms)
+✔ Lower roof ring contains no central slab (0.164667ms)
+✔ Six dragon decorations belong to the six centre columns (0.637625ms)
+✔ Caisson field has a central opening and independent converging tiers (0.482667ms)
+✔ Joint has both receivers and 0.55×0.147 analysis tenon; horizontal disassembly (0.369667ms)
+✔ Corner has independent front, return and diagonal members (0.059958ms)
+✔ All records have unique IDs, finite positive transformations, metadata and descriptions (15.265875ms)
+✔ Every whole layer is nonempty, and node layer occupancy is honest (0.09825ms)
+✔ Lower porch fan rafters stay under their matching ring surface even at corners (1.050625ms)
+✔ Main corner angle beams follow each actual roof envelope rather than a lifted generic node (0.426917ms)
+✔ Every upper main beam and child bounding corner stays below the hip roof (0.34525ms)
+✔ Sample stays on the southern centre bay; every transformed vertex is finite (18.195875ms)
+✔ Replacing sample ribs preserves all columns, framing, north and side roofs (12.99175ms)
+✔ Sample follows the roof layer when lifted and has shared instance batches (0.324083ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (1.480166ms)
+✔ every selectable member has a documented type and valid layer (2.796833ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (3.6505ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.395875ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.521958ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.076583ms)
+✔ upper frame does not protrude through the hip roof (0.481125ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 163.182375

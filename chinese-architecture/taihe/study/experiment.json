@@ -1,0 +1,191 @@
+{
+  "schema": "architecture-realism/v1",
+  "id": "taihe",
+  "revision": "02",
+  "route": "/chinese-architecture/taihe/study/",
+  "referenceState": "现状外观；照片拍摄日期与修缮阶段未核定",
+  "sources": [
+    {
+      "id": "dpm-plaque-closeup",
+      "url": "https://img.dpm.org.cn/Uploads/Picture/2020/07/03/s5efefbd5093a9.jpg",
+      "status": "图像判读",
+      "rights": "仅链接参考；未作为分发纹理",
+      "supports": [
+        "筒瓦搭接",
+        "瓦当与滴水轮廓",
+        "竖匾存在与外形"
+      ],
+      "limits": "URL日期不等于拍摄日期；无测量标尺；字体与雕纹未复原"
+    }
+  ],
+  "patch": {
+    "halfWidth": 4.26,
+    "pitch": 0.34,
+    "start": 11.1,
+    "end": 16.5,
+    "step": 0.3,
+    "length": 0.43,
+    "radius": 0.12
+  },
+  "views": {
+    "patch": {
+      "target": [
+        0,
+        15.1,
+        14.5
+      ],
+      "position": [
+        0,
+        18,
+        26
+      ]
+    },
+    "plaque": {
+      "target": [
+        0,
+        12.7,
+        14.5
+      ],
+      "position": [
+        0,
+        14,
+        29
+      ]
+    },
+    "oblique": {
+      "target": [
+        0,
+        14.3,
+        14.5
+      ],
+      "position": [
+        8,
+        18,
+        25
+      ]
+    },
+    "whole": {
+      "target": [
+        0,
+        12.5,
+        0
+      ],
+      "position": [
+        0,
+        20,
+        120
+      ]
+    }
+  },
+  "modes": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "plaque": {
+    "position": [
+      0,
+      12.25,
+      15.45
+    ],
+    "width": 1.72,
+    "height": 2.85,
+    "depth": 0.2,
+    "status": "比例推定",
+    "source": "dpm-plaque-closeup",
+    "text": "太和殿",
+    "lettering": "系统宋体占位，非原匾书法",
+    "supportLayer": "upper"
+  },
+  "tests": [
+    "chinese-architecture/tests/model.test.js",
+    "chinese-architecture/taihe/tests/model.test.js",
+    "chinese-architecture/taihe/tests/surface.test.js",
+    "chinese-architecture/realism-workflow/workflow.test.js"
+  ],
+  "sourceFiles": [
+    "chinese-architecture/taihe/model.js",
+    "chinese-architecture/taihe/data.js",
+    "chinese-architecture/taihe/study/study.js",
+    "chinese-architecture/taihe/study/materials.js",
+    "chinese-architecture/taihe/study/roof-sample.js",
+    "chinese-architecture/taihe/study/plaque.js",
+    "chinese-architecture/taihe/study/index.html",
+    "chinese-architecture/taihe/study/style.css",
+    "chinese-architecture/realism-workflow/roof-patch.js",
+    "chinese-architecture/realism-workflow/replay.mjs",
+    "chinese-architecture/realism-workflow/verify.mjs",
+    "chinese-architecture/realism-workflow/manifest.js",
+    "chinese-architecture/vendor/three.module.js",
+    "chinese-architecture/vendor/three.core.js",
+    "chinese-architecture/vendor/OrbitControls.js",
+    "chinese-architecture/vendor/BufferGeometryUtils.js",
+    "chinese-architecture/fengxian/model.js",
+    "chinese-architecture/fengxian/data.js",
+    "chinese-architecture/model.js",
+    "chinese-architecture/data.js"
+  ],
+  "checks": [
+    {
+      "id": "front-a",
+      "mode": "a",
+      "view": "patch"
+    },
+    {
+      "id": "front-b",
+      "mode": "b",
+      "view": "patch"
+    },
+    {
+      "id": "front-c",
+      "mode": "c",
+      "view": "patch"
+    },
+    {
+      "id": "front-d",
+      "mode": "d",
+      "view": "patch"
+    },
+    {
+      "id": "plaque-d",
+      "mode": "d",
+      "view": "plaque"
+    },
+    {
+      "id": "oblique-d",
+      "mode": "d",
+      "view": "oblique"
+    },
+    {
+      "id": "light-d",
+      "mode": "d",
+      "view": "oblique",
+      "light": true
+    },
+    {
+      "id": "lift-d",
+      "mode": "d",
+      "view": "oblique",
+      "lift": true
+    },
+    {
+      "id": "whole-d",
+      "mode": "d",
+      "view": "whole"
+    }
+  ],
+  "capture": {
+    "desktop": {
+      "width": 1280,
+      "height": 900
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844
+    },
+    "cameraFov": 35,
+    "pixelRatioMax": 1.7,
+    "screenshot": "fullPage"
+  }
+}
