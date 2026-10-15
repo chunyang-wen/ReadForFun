@@ -1,0 +1,32 @@
+✔ full roof has finite transforms and stable unique IDs on all four directions and both tiers (14.456709ms)
+✔ roof boards and tiles share a continuous corner-height function, without closing the lower central void (1.657416ms)
+✔ nine-ridge outline and curved eave-bearing rails have explicit separate IDs and support ownership (7.561916ms)
+✔ full roof replacement preserves columns, floors, brackets and frame IDs; lifted roof leaves bearings and supports fixed (391.353791ms)
+✔ present-state exterior uses eight independent corner supports without merging them into historical column grids (0.867583ms)
+✔ enclosure adapter retains roof gables and north elevation; no door panel fills the southern central aperture (29.289875ms)
+✔ upper diagnostic distinguishes two horizontal hua from two descending ang and discloses unknown profiles (0.5845ms)
+✔ three independent rings retain central void and retreat at each level (0.495041ms)
+✔ records are stable, documented and transforms finite (14.632417ms)
+✔ floor panels leave central shaft open, and western stair opening exists (0.540291ms)
+✔ upper frames stay below roof surface, including end sections (0.460417ms)
+✔ fork has two feet, a matching seat, and an unobstructed opening (0.211541ms)
+✔ lower local assembly is four horizontal hua arms without imported Foguang ang (0.077584ms)
+✔ each lower column meets its circular stone bearing surface (0.384958ms)
+✔ adapter removes only south upper central ribs, preserves shaft and structure IDs (56.60625ms)
+✔ gray roof patch conforms to Dule own slope and retains neutral constant colors (3.447458ms)
+✔ roof lift carries tile study while retaining column and enclosure levels (31.525875ms)
+✔ paired reach experiment respects published pair totals without presenting individual jumps as measured (0.722959ms)
+✔ eave sample remains outside sacred shaft and does not invent palace ornament (1.239209ms)
+✔ Manifest rejects unsupported evidence, duplicate cases and unknown camera presets (0.853625ms)
+✔ Generic patch replays on a different slope and tile spacing without Taihe imports (7.178709ms)
+✔ Refined pans are concave; drips are separate from disks, with finite transformed geometry (4.127833ms)
+✔ Same patch generator accepts Fengxian roof envelope without copying Taihe heights (1.699042ms)
+✔ Plaque has thickness, evidence metadata, and stays with bracket layer when roof lifts (2.012584ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 565.487833

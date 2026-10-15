@@ -1,0 +1,13 @@
+✔ each photo has explicit reusable rights, attribution and exact building chapter (0.639ms)
+✔ every display size has a local fallback, and remote keys are content addressed (0.78475ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.055875ms)
+✔ each photograph appears exactly once in its building story (0.093625ms)
+✔ Dule historic plate pages retain period and subject limits, without claiming modern coverage (0.074708ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 46.682042

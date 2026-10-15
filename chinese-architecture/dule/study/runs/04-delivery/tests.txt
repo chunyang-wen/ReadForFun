@@ -1,0 +1,42 @@
+✔ full roof has finite transforms and stable unique IDs on all four directions and both tiers (15.649292ms)
+✔ roof boards and tiles share a continuous corner-height function, without closing the lower central void (1.599875ms)
+✔ nine-ridge outline and curved eave-bearing rails have explicit separate IDs and support ownership (8.1945ms)
+✔ full roof replacement preserves columns, floors, brackets and frame IDs; lifted roof leaves bearings and supports fixed (392.876458ms)
+✔ present-state exterior uses eight independent corner supports without merging them into historical column grids (0.87825ms)
+✔ enclosure adapter retains roof gables and north elevation; no door panel fills the southern central aperture (30.192042ms)
+✔ upper diagnostic distinguishes two horizontal hua from two descending ang and discloses unknown profiles (0.566167ms)
+✔ three independent rings retain central void and retreat at each level (0.509542ms)
+✔ records are stable, documented and transforms finite (20.091375ms)
+✔ floor panels leave central shaft open, and western stair opening exists (1.255667ms)
+✔ upper frames stay below roof surface, including end sections (0.569625ms)
+✔ fork has two feet, a matching seat, and an unobstructed opening (0.204292ms)
+✔ lower local assembly is four horizontal hua arms without imported Foguang ang (0.072583ms)
+✔ each lower column meets its circular stone bearing surface (0.63425ms)
+✔ formal roof replaces baseline cover and active records match instances; structural IDs survive (682.612167ms)
+✔ every continuous board triangle faces upward on all slope signs and axes (4.019167ms)
+✔ hidden grandparent excludes nested roof from picking; bearing remains independent under explosion (0.365167ms)
+✔ upper node has two descending ang and per-tier explosion batches with all viewer layers (0.670125ms)
+✔ adapter removes only south upper central ribs, preserves shaft and structure IDs (71.112625ms)
+✔ gray roof patch conforms to Dule own slope and retains neutral constant colors (3.080667ms)
+✔ roof lift carries tile study while retaining column and enclosure levels (32.071375ms)
+✔ paired reach experiment respects published pair totals without presenting individual jumps as measured (0.676417ms)
+✔ eave sample remains outside sacred shaft and does not invent palace ornament (1.5975ms)
+✔ each photo has explicit reusable rights, attribution and exact building chapter (0.664333ms)
+✔ every display size has a local fallback, and remote keys are content addressed (0.598875ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.365083ms)
+✔ each photograph appears exactly once in its building story (0.08425ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (1.570375ms)
+✔ every selectable member has a documented type and valid layer (2.964292ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (8.1575ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.489459ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.734167ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.085458ms)
+✔ upper frame does not protrude through the hip roof (0.487417ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 864.87675

@@ -1,0 +1,242 @@
+{
+  "revision": "dule-05 photo addition; geometry remains dule-04",
+  "galleryCount": 10,
+  "allCatalogCount": 32,
+  "newEntries": [
+    {
+      "id": "dule-interior-2023",
+      "width": 4000,
+      "height": 3000,
+      "sha256": "528aa64de9c37fbfe57427989be8e56d1edc5e6c51d3c540ce1ae2a6216c990e",
+      "iccProfilePreserved": false,
+      "source": "https://commons.wikimedia.org/wiki/File:Avalokitesvara_Pavilion_2.jpg",
+      "sourceFile": "Avalokitesvara Pavilion 2.jpg",
+      "author": "EditQ",
+      "date": "2023-03-19",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
+      "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-interior-2023/528aa64de9c37fbf/original.jpg",
+      "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-interior-2023/528aa64de9c37fbf/display.webp",
+      "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-interior-2023/528aa64de9c37fbf/thumb.webp",
+      "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-interior-2023/528aa64de9c37fbf/full.webp"
+    },
+    {
+      "id": "dule-west-1932",
+      "width": 1474,
+      "height": 2348,
+      "sha256": "7ecfaeaa2014ce9ac568d100a568b7c0eda07515f2e25787f9432a79362a0314",
+      "iccProfilePreserved": false,
+      "source": "https://commons.wikimedia.org/wiki/File:NLC404-01J000317-23024_%E4%B8%AD%E5%9C%8B%E7%87%9F%E9%80%A0%E5%AD%B8%E7%A4%BE%E5%BD%99%E5%88%8A_1932%E5%B9%B43%E5%8D%B72%E6%9C%9F.pdf",
+      "sourceFile": "NLC404-01J000317-23024 中國營造學社彙刊 1932年3卷2期.pdf",
+      "author": "中国营造学社《汇刊》1932年第3卷第2期（梁思成文；逐图摄影署名未确认）",
+      "date": "1932年刊载，拍摄日未载",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:NLC404-01J000317-23024_%E4%B8%AD%E5%9C%8B%E7%87%9F%E9%80%A0%E5%AD%B8%E7%A4%BE%E5%BD%99%E5%88%8A_1932%E5%B9%B43%E5%8D%B72%E6%9C%9F.pdf#Licensing",
+      "changes": "公有领域原刊PDF第79页；从单幅整页扫描直接提取，不裁切、不增细；原始PDF字节未改动，WebP保留原扫描像素上限。",
+      "sourceType": "commons-pdf-page",
+      "pdfPage": 79,
+      "originalLabel": "原刊 PDF ↗",
+      "sourceSHA1": "e5fc40463f516c26449ac21d0174875a7fbef826",
+      "scanSHA256": "407d204a728ffc60819d6fc620a8979a8cef915bdf0c6f8416ddb46953a54634",
+      "scanMode": "L",
+      "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-west-1932/7ecfaeaa2014ce9a/original.pdf#page=79",
+      "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-west-1932/7ecfaeaa2014ce9a/display.webp",
+      "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-west-1932/7ecfaeaa2014ce9a/thumb.webp",
+      "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-west-1932/7ecfaeaa2014ce9a/full.webp"
+    },
+    {
+      "id": "dule-inner-1932",
+      "width": 2290,
+      "height": 1301,
+      "sha256": "7ecfaeaa2014ce9ac568d100a568b7c0eda07515f2e25787f9432a79362a0314",
+      "iccProfilePreserved": false,
+      "source": "https://commons.wikimedia.org/wiki/File:NLC404-01J000317-23024_%E4%B8%AD%E5%9C%8B%E7%87%9F%E9%80%A0%E5%AD%B8%E7%A4%BE%E5%BD%99%E5%88%8A_1932%E5%B9%B43%E5%8D%B72%E6%9C%9F.pdf",
+      "sourceFile": "NLC404-01J000317-23024 中國營造學社彙刊 1932年3卷2期.pdf",
+      "author": "中国营造学社《汇刊》1932年第3卷第2期（梁思成文；逐图摄影署名未确认）",
+      "date": "1932年刊载，拍摄日未载",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:NLC404-01J000317-23024_%E4%B8%AD%E5%9C%8B%E7%87%9F%E9%80%A0%E5%AD%B8%E7%A4%BE%E5%BD%99%E5%88%8A_1932%E5%B9%B43%E5%8D%B72%E6%9C%9F.pdf#Licensing",
+      "changes": "公有领域原刊PDF第87页；从单幅整页扫描直接提取，不裁切、不增细；原始PDF字节未改动，WebP保留原扫描像素上限。",
+      "sourceType": "commons-pdf-page",
+      "pdfPage": 87,
+      "originalLabel": "原刊 PDF ↗",
+      "sourceSHA1": "e5fc40463f516c26449ac21d0174875a7fbef826",
+      "scanSHA256": "b8c579417d58fd7acdf5cff445850acf41551274645986fc99ef9724f85abb06",
+      "scanMode": "L",
+      "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-inner-1932/7ecfaeaa2014ce9a/original.pdf#page=87",
+      "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-inner-1932/7ecfaeaa2014ce9a/display.webp",
+      "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-inner-1932/7ecfaeaa2014ce9a/thumb.webp",
+      "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-inner-1932/7ecfaeaa2014ce9a/full.webp"
+    },
+    {
+      "id": "dule-stair-1932",
+      "width": 1452,
+      "height": 2590,
+      "sha256": "7ecfaeaa2014ce9ac568d100a568b7c0eda07515f2e25787f9432a79362a0314",
+      "iccProfilePreserved": false,
+      "source": "https://commons.wikimedia.org/wiki/File:NLC404-01J000317-23024_%E4%B8%AD%E5%9C%8B%E7%87%9F%E9%80%A0%E5%AD%B8%E7%A4%BE%E5%BD%99%E5%88%8A_1932%E5%B9%B43%E5%8D%B72%E6%9C%9F.pdf",
+      "sourceFile": "NLC404-01J000317-23024 中國營造學社彙刊 1932年3卷2期.pdf",
+      "author": "中国营造学社《汇刊》1932年第3卷第2期（梁思成文；逐图摄影署名未确认）",
+      "date": "1932年刊载，拍摄日未载",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:NLC404-01J000317-23024_%E4%B8%AD%E5%9C%8B%E7%87%9F%E9%80%A0%E5%AD%B8%E7%A4%BE%E5%BD%99%E5%88%8A_1932%E5%B9%B43%E5%8D%B72%E6%9C%9F.pdf#Licensing",
+      "changes": "公有领域原刊PDF第90页；从单幅整页扫描直接提取，不裁切、不增细；原始PDF字节未改动，WebP保留原扫描像素上限。",
+      "sourceType": "commons-pdf-page",
+      "pdfPage": 90,
+      "originalLabel": "原刊 PDF ↗",
+      "sourceSHA1": "e5fc40463f516c26449ac21d0174875a7fbef826",
+      "scanSHA256": "cf3a044d1ea4e7c15f1bf4d1f372f06143039630e65316a48b29330bd90a7207",
+      "scanMode": "L",
+      "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-stair-1932/7ecfaeaa2014ce9a/original.pdf#page=90",
+      "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-stair-1932/7ecfaeaa2014ce9a/display.webp",
+      "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-stair-1932/7ecfaeaa2014ce9a/thumb.webp",
+      "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-stair-1932/7ecfaeaa2014ce9a/full.webp"
+    },
+    {
+      "id": "dule-upper-corner-1932",
+      "width": 1459,
+      "height": 2399,
+      "sha256": "7ecfaeaa2014ce9ac568d100a568b7c0eda07515f2e25787f9432a79362a0314",
+      "iccProfilePreserved": false,
+      "source": "https://commons.wikimedia.org/wiki/File:NLC404-01J000317-23024_%E4%B8%AD%E5%9C%8B%E7%87%9F%E9%80%A0%E5%AD%B8%E7%A4%BE%E5%BD%99%E5%88%8A_1932%E5%B9%B43%E5%8D%B72%E6%9C%9F.pdf",
+      "sourceFile": "NLC404-01J000317-23024 中國營造學社彙刊 1932年3卷2期.pdf",
+      "author": "中国营造学社《汇刊》1932年第3卷第2期（梁思成文；逐图摄影署名未确认）",
+      "date": "1932年刊载，拍摄日未载",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:NLC404-01J000317-23024_%E4%B8%AD%E5%9C%8B%E7%87%9F%E9%80%A0%E5%AD%B8%E7%A4%BE%E5%BD%99%E5%88%8A_1932%E5%B9%B43%E5%8D%B72%E6%9C%9F.pdf#Licensing",
+      "changes": "公有领域原刊PDF第93页；从单幅整页扫描直接提取，不裁切、不增细；原始PDF字节未改动，WebP保留原扫描像素上限。",
+      "sourceType": "commons-pdf-page",
+      "pdfPage": 93,
+      "originalLabel": "原刊 PDF ↗",
+      "sourceSHA1": "e5fc40463f516c26449ac21d0174875a7fbef826",
+      "scanSHA256": "4af709b5d1eba285aa3447438922c79f0ab2a720ee6e7e321a0f7765205147d4",
+      "scanMode": "L",
+      "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-upper-corner-1932/7ecfaeaa2014ce9a/original.pdf#page=93",
+      "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-upper-corner-1932/7ecfaeaa2014ce9a/display.webp",
+      "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-upper-corner-1932/7ecfaeaa2014ce9a/thumb.webp",
+      "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-upper-corner-1932/7ecfaeaa2014ce9a/full.webp"
+    },
+    {
+      "id": "dule-shaft-1932",
+      "width": 1500,
+      "height": 2441,
+      "sha256": "7ecfaeaa2014ce9ac568d100a568b7c0eda07515f2e25787f9432a79362a0314",
+      "iccProfilePreserved": false,
+      "source": "https://commons.wikimedia.org/wiki/File:NLC404-01J000317-23024_%E4%B8%AD%E5%9C%8B%E7%87%9F%E9%80%A0%E5%AD%B8%E7%A4%BE%E5%BD%99%E5%88%8A_1932%E5%B9%B43%E5%8D%B72%E6%9C%9F.pdf",
+      "sourceFile": "NLC404-01J000317-23024 中國營造學社彙刊 1932年3卷2期.pdf",
+      "author": "中国营造学社《汇刊》1932年第3卷第2期（梁思成文；逐图摄影署名未确认）",
+      "date": "1932年刊载，拍摄日未载",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:NLC404-01J000317-23024_%E4%B8%AD%E5%9C%8B%E7%87%9F%E9%80%A0%E5%AD%B8%E7%A4%BE%E5%BD%99%E5%88%8A_1932%E5%B9%B43%E5%8D%B72%E6%9C%9F.pdf#Licensing",
+      "changes": "公有领域原刊PDF第96页；从单幅整页扫描直接提取，不裁切、不增细；原始PDF字节未改动，WebP保留原扫描像素上限。",
+      "sourceType": "commons-pdf-page",
+      "pdfPage": 96,
+      "originalLabel": "原刊 PDF ↗",
+      "sourceSHA1": "e5fc40463f516c26449ac21d0174875a7fbef826",
+      "scanSHA256": "624386510c9c159bfd0acb81fe103a6de8334c4bae08889757cf8b22cbe50b37",
+      "scanMode": "L",
+      "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-shaft-1932/7ecfaeaa2014ce9a/original.pdf#page=96",
+      "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-shaft-1932/7ecfaeaa2014ce9a/display.webp",
+      "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-shaft-1932/7ecfaeaa2014ce9a/thumb.webp",
+      "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-shaft-1932/7ecfaeaa2014ce9a/full.webp"
+    }
+  ],
+  "upload": {
+    "timestamp": "2026-10-15T14:57:13.064291+00:00",
+    "photos": [
+      "dule-interior-2023",
+      "dule-west-1932",
+      "dule-inner-1932",
+      "dule-stair-1932",
+      "dule-upper-corner-1932",
+      "dule-shaft-1932"
+    ],
+    "variants": 24,
+    "uploaded": true,
+    "readBackSHA256Verified": true
+  },
+  "browser": [
+    {
+      "idx": 4,
+      "image": {
+        "h": 3000,
+        "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-interior-2023/528aa64de9c37fbf/full.webp",
+        "w": 4000
+      },
+      "credit": "EditQ · 2023-03-19 · 4000 × 3000　出处 · CC BY-SA 4.0。原作：Avalokitesvara Pavilion 2.jpg。原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。 原始 JPEG ↗"
+    },
+    {
+      "idx": 5,
+      "image": {
+        "h": 2348,
+        "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-west-1932/7ecfaeaa2014ce9a/full.webp",
+        "w": 1474
+      },
+      "credit": "中国营造学社《汇刊》1932年第3卷第2期（梁思成文；逐图摄影署名未确认） · 1932年刊载，拍摄日未载 · 1474 × 2348　出处 · Public domain。原作：NLC404-01J000317-23024 中國營造學社彙刊 1932年3卷2期.pdf。公有领域原刊PDF第79页；从单幅整页扫描直接提取，不裁切、不增细；原始PDF字节未改动，WebP保留原扫描像素上限。 原刊 PDF ↗"
+    },
+    {
+      "idx": 6,
+      "image": {
+        "h": 1301,
+        "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-inner-1932/7ecfaeaa2014ce9a/full.webp",
+        "w": 2290
+      },
+      "credit": "中国营造学社《汇刊》1932年第3卷第2期（梁思成文；逐图摄影署名未确认） · 1932年刊载，拍摄日未载 · 2290 × 1301　出处 · Public domain。原作：NLC404-01J000317-23024 中國營造學社彙刊 1932年3卷2期.pdf。公有领域原刊PDF第87页；从单幅整页扫描直接提取，不裁切、不增细；原始PDF字节未改动，WebP保留原扫描像素上限。 原刊 PDF ↗"
+    },
+    {
+      "idx": 7,
+      "image": {
+        "h": 2590,
+        "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-stair-1932/7ecfaeaa2014ce9a/full.webp",
+        "w": 1452
+      },
+      "credit": "中国营造学社《汇刊》1932年第3卷第2期（梁思成文；逐图摄影署名未确认） · 1932年刊载，拍摄日未载 · 1452 × 2590　出处 · Public domain。原作：NLC404-01J000317-23024 中國營造學社彙刊 1932年3卷2期.pdf。公有领域原刊PDF第90页；从单幅整页扫描直接提取，不裁切、不增细；原始PDF字节未改动，WebP保留原扫描像素上限。 原刊 PDF ↗"
+    },
+    {
+      "idx": 8,
+      "image": {
+        "h": 2399,
+        "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-upper-corner-1932/7ecfaeaa2014ce9a/full.webp",
+        "w": 1459
+      },
+      "credit": "中国营造学社《汇刊》1932年第3卷第2期（梁思成文；逐图摄影署名未确认） · 1932年刊载，拍摄日未载 · 1459 × 2399　出处 · Public domain。原作：NLC404-01J000317-23024 中國營造學社彙刊 1932年3卷2期.pdf。公有领域原刊PDF第93页；从单幅整页扫描直接提取，不裁切、不增细；原始PDF字节未改动，WebP保留原扫描像素上限。 原刊 PDF ↗"
+    },
+    {
+      "idx": 9,
+      "image": {
+        "h": 2441,
+        "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-shaft-1932/7ecfaeaa2014ce9a/full.webp",
+        "w": 1500
+      },
+      "credit": "中国营造学社《汇刊》1932年第3卷第2期（梁思成文；逐图摄影署名未确认） · 1932年刊载，拍摄日未载 · 1500 × 2441　出处 · Public domain。原作：NLC404-01J000317-23024 中國營造學社彙刊 1932年3卷2期.pdf。公有领域原刊PDF第96页；从单幅整页扫描直接提取，不裁切、不增细；原始PDF字节未改动，WebP保留原扫描像素上限。 原刊 PDF ↗"
+    }
+  ],
+  "fallbackCount": 18,
+  "codeSHA256": {
+    "photos/catalog.js": "5faa9ca0d61aaedfd91840d45e7a6877ed932b41eb5c0b014037b9bc42b029f3",
+    "photos/gallery.js": "3b554ae865023b7b26a0669df924e3227588c2683aa007fc3542f02d5dd3bba2",
+    "photos/assets.json": "df3be6875fa9ec3c47f3d645d318fbb53ebcfc6cb84995460d93e38ca75e91ad",
+    "photos/catalog.test.js": "631d311c26647d40729d206d4e12b9ca0f9fd36e8a886c35461561453bc012b4",
+    "photos/tools/prepare.py": "b52566069064269a06d1336ddcea7beffc211d621ebd02b89a860ec0740a2816",
+    "dule/app.js": "c731d5341ace0bc7703be854b00e7e3d22f3b6d79f597b850d9a0d7c5fa42c52",
+    "dule/index.html": "998666ddca3ecdcc3b3b1b35fdb65119c86e1f3fcaf76b247ab2a2f5ba2285da"
+  },
+  "limits": [
+    "CLI public HTTP requests returned403; IAB six full R2 images decoded",
+    "No acquired verified reusable rear image",
+    "Historical plates are whole pages and retain native scan resolution",
+    "No commit, push or site publication"
+  ],
+  "tests": [
+    "✔ upper frame does not protrude through the hip roof (0.476292ms)",
+    "ℹ tests 35",
+    "ℹ suites 0",
+    "ℹ pass 35",
+    "ℹ fail 0",
+    "ℹ cancelled 0",
+    "ℹ skipped 0",
+    "ℹ todo 0",
+    "ℹ duration_ms 871.874875"
+  ]
+}

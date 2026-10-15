@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-10-15T14:42:43.706628+00:00",
+  "revision": "dule-04",
+  "route": "/chinese-architecture/dule/",
+  "sources": {
+    "chinese-architecture/dule/app.js": "3f2392fd59bc3859b270255249de4b759152d4263be7951df70a2324856ef942",
+    "chinese-architecture/dule/model.js": "354bc14d9988643c089056359d284a8f2e5d0d0cc5cd3cf9876e27feec9ed6b4",
+    "chinese-architecture/dule/data.js": "d4007cd604bfaf9d2e9fec5b14b4b3041e0857c296286403165c33a352ee3c9c",
+    "chinese-architecture/dule/production.js": "cd995125d820dd31f89fe1dc81f3121d904e63ceea6ced330e07df819b41db2a",
+    "chinese-architecture/dule/index.html": "47a88de5df16e574b21d4abc65014addd44b3641e79270bd0599a7682595ad27",
+    "chinese-architecture/dule/style.css": "e9f38a803593aed975610e5fe2cd1ebf9c80a7cae958663fa3e7a844d51d8f85",
+    "chinese-architecture/dule/study/roof-envelope.js": "3f5042a489d211f116b9655c830ad2a6bc59e7fec6e236d0ab99e7bee5441ec0",
+    "chinese-architecture/dule/study/structure-sample.js": "442d53275648d51e5397d3eb34aaaaad2f8b6fd5b08cd3ee9412f98d59031f4a",
+    "chinese-architecture/dule/study/upper-node.js": "ab94b6484d8482a6e11bf6307bc914d6bd752a2a36bfb05e4b26668b32a73908",
+    "chinese-architecture/dule/study/materials.js": "37dce677e46bbca6009015850eb2849167fb4ea855f98cc23ef377d41f5d473a",
+    "chinese-architecture/dule/study/study.js": "c4d614bbb4a70a79f9bc33dc37797ac88cc50c221192c9fc64659904f3d2d3d0",
+    "chinese-architecture/dule/study/experiment.json": "1b257c711fc9b3228a321289e3149541f21aa90f3bc10dc24423d2aa4605c71c",
+    "chinese-architecture/dule/tests/production.test.js": "966cbe0ecda5fae9042ca83c9dd3de73102c88e4cbec15081e5b103e0a3eb83c",
+    "chinese-architecture/photos/catalog.js": "f0a73a0cbe5c238606cc6f0a3d389363bcb8887e4c3202f6b0c2c0370a9fad11",
+    "chinese-architecture/photos/gallery.js": "bf9d61f18e549a0a2c8f13309dd940d20f601af2255fc23eb28a9b3884ad6cbb",
+    "chinese-architecture/photos/gallery.css": "1582a4f478ca53bbf393cde9c08db723855e7ed6a7f01a1af0b30e6308e21b04",
+    "chinese-architecture/photos/assets.json": "b1d73a6014a61a804b1cf8070fbbc72f418ec23d8b2b38b5495f76851c15416a",
+    "chinese-architecture/photos/catalog.test.js": "480130e6f2f3892090f73a3f28a9f923b4db31bb2677f3b0adac7386cf558036",
+    "chinese-architecture/photos/preview.html": "37d772c918cd47a0d63516a5a82509077579a2a1525fc5ad0e2f7afb231eaf00",
+    "chinese-architecture/photos/tools/prepare.py": "9a225e1cb702297213c9726570495dc42350807d3e46152ff39f7bcf2c6b4ed7",
+    "chinese-architecture/photos/records/commons-metadata.json": "d0f45d62b359fb7c4295f7402102910f1437a2c9cf76fbfea425bf146c05870c"
+  },
+  "tests": "node --test chinese-architecture/dule/tests/*.test.js chinese-architecture/tests/model.test.js chinese-architecture/photos/catalog.test.js",
+  "stage": "local formal integration; R2 uploaded, not site published",
+  "lateChange": {
+    "scope": "Reset also restores default light; geometry/gallery unchanged",
+    "priorManifest": "verification-before-reset.json",
+    "rechecked": [
+      "desktop-reset-final.json",
+      "mobile-reset-final.json"
+    ],
+    "tests": "tests-reset-final.txt"
+  }
+}

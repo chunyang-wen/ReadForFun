@@ -1,0 +1,86 @@
+[
+  {
+    "alt": "dule-oblique-2014 thumb",
+    "complete": true,
+    "height": 320,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-oblique-2014/60794009521b6cae/thumb.webp",
+    "width": 480
+  },
+  {
+    "alt": "dule-oblique-2014 display",
+    "complete": true,
+    "height": 1067,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-oblique-2014/60794009521b6cae/display.webp",
+    "width": 1600
+  },
+  {
+    "alt": "dule-oblique-2014 full",
+    "complete": true,
+    "height": 3456,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-oblique-2014/60794009521b6cae/full.webp",
+    "width": 5184
+  },
+  {
+    "alt": "dule-front-2020 thumb",
+    "complete": true,
+    "height": 295,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-front-2020/d369d2833d873a65/thumb.webp",
+    "width": 480
+  },
+  {
+    "alt": "dule-front-2020 display",
+    "complete": true,
+    "height": 982,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-front-2020/d369d2833d873a65/display.webp",
+    "width": 1600
+  },
+  {
+    "alt": "dule-front-2020 full",
+    "complete": true,
+    "height": 3602,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-front-2020/d369d2833d873a65/full.webp",
+    "width": 5870
+  },
+  {
+    "alt": "dule-plaque-2024 thumb",
+    "complete": true,
+    "height": 360,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-plaque-2024/843fdd683488bffb/thumb.webp",
+    "width": 480
+  },
+  {
+    "alt": "dule-plaque-2024 display",
+    "complete": true,
+    "height": 1200,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-plaque-2024/843fdd683488bffb/display.webp",
+    "width": 1600
+  },
+  {
+    "alt": "dule-plaque-2024 full",
+    "complete": true,
+    "height": 1276,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-plaque-2024/843fdd683488bffb/full.webp",
+    "width": 1702
+  },
+  {
+    "alt": "dule-front-2013 thumb",
+    "complete": true,
+    "height": 319,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-front-2013/9d0da45d06611dad/thumb.webp",
+    "width": 480
+  },
+  {
+    "alt": "dule-front-2013 display",
+    "complete": true,
+    "height": 1063,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-front-2013/9d0da45d06611dad/display.webp",
+    "width": 1600
+  },
+  {
+    "alt": "dule-front-2013 full",
+    "complete": true,
+    "height": 2848,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-front-2013/9d0da45d06611dad/full.webp",
+    "width": 4288
+  }
+]

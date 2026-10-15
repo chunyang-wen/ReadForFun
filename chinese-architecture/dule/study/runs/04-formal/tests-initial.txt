@@ -1,0 +1,52 @@
+✔ full roof has finite transforms and stable unique IDs on all four directions and both tiers (14.255125ms)
+✔ roof boards and tiles share a continuous corner-height function, without closing the lower central void (1.753292ms)
+✔ nine-ridge outline and curved eave-bearing rails have explicit separate IDs and support ownership (7.699416ms)
+✔ full roof replacement preserves columns, floors, brackets and frame IDs; lifted roof leaves bearings and supports fixed (396.16925ms)
+✔ present-state exterior uses eight independent corner supports without merging them into historical column grids (0.832667ms)
+✔ enclosure adapter retains roof gables and north elevation; no door panel fills the southern central aperture (35.634875ms)
+✔ upper diagnostic distinguishes two horizontal hua from two descending ang and discloses unknown profiles (0.44925ms)
+✔ three independent rings retain central void and retreat at each level (0.48975ms)
+✔ records are stable, documented and transforms finite (13.327792ms)
+✔ floor panels leave central shaft open, and western stair opening exists (0.915375ms)
+✔ upper frames stay below roof surface, including end sections (0.368917ms)
+✔ fork has two feet, a matching seat, and an unobstructed opening (0.152125ms)
+✔ lower local assembly is four horizontal hua arms without imported Foguang ang (0.061375ms)
+✔ each lower column meets its circular stone bearing surface (0.471875ms)
+✔ adapter removes only south upper central ribs, preserves shaft and structure IDs (60.396625ms)
+✔ gray roof patch conforms to Dule own slope and retains neutral constant colors (3.211958ms)
+✔ roof lift carries tile study while retaining column and enclosure levels (33.101666ms)
+✔ paired reach experiment respects published pair totals without presenting individual jumps as measured (0.738875ms)
+✔ eave sample remains outside sacred shaft and does not invent palace ornament (1.266833ms)
+✖ each photo has explicit reusable rights, attribution and exact building chapter (4.710209ms)
+✔ every display size has a local fallback, and remote keys are content addressed (0.496333ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.05375ms)
+✔ each photograph appears exactly once in its building story (0.061917ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 22
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 595.696833
+
+✖ failing tests:
+
+test at chinese-architecture/photos/catalog.test.js:10:1
+✖ each photo has explicit reusable rights, attribution and exact building chapter (4.710209ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(asset)
+  
+      at TestContext.<anonymous> (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/photos/catalog.test.js:13:53)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

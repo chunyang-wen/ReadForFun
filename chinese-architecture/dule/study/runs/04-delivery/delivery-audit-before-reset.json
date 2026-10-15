@@ -1,0 +1,79 @@
+{
+  "sourceHashesMatch": true,
+  "modelStates": 34,
+  "photoStates": 14,
+  "localDecoded": 12,
+  "sameCameraConditions": 5,
+  "actualCanvasPicked": "dule/upper-node02/jump/1",
+  "finalPaintedImages": [
+    "desktop-photo0-painted.jpg",
+    "mobile-photo0-painted.jpg"
+  ],
+  "tests": {
+    "pass": 34,
+    "fail": 0
+  },
+  "modelStatesFiles": [
+    "desktop-chapter-4.json",
+    "desktop-view-top.json",
+    "mobile-chapter-4.json",
+    "mobile-chapter-5.json",
+    "desktop-photo-model-upper.json",
+    "desktop-chapter-5.json",
+    "desktop-view-back.json",
+    "desktop-view-front.json",
+    "desktop-view-side.json",
+    "desktop-section-z-end.json",
+    "desktop-chapter-2.json",
+    "desktop-section-z.json",
+    "mobile-chapter-2.json",
+    "mobile-whole.json",
+    "mobile-maximum.json",
+    "mobile-chapter-3.json",
+    "desktop-canvas-pick.json",
+    "desktop-whole.json",
+    "desktop-chapter-3.json",
+    "desktop-light.json",
+    "mobile-upper-maximum.json",
+    "mobile-light.json",
+    "desktop-maximum.json",
+    "desktop-section-x.json",
+    "desktop-chapter-0.json",
+    "desktop-chapter-1.json",
+    "desktop-upper-maximum.json",
+    "mobile-chapter-1.json",
+    "desktop-view-iso.json",
+    "mobile-chapter-6.json",
+    "desktop-chapter-6.json",
+    "desktop-lower-maximum.json",
+    "mobile-photo-model-upper.json",
+    "desktop-section-x-end.json"
+  ],
+  "photoStateFiles": [
+    "mobile-photo-scroll.json",
+    "mobile-photo-keyboard.json",
+    "desktop-photo-1.json",
+    "mobile-photo-2.json",
+    "desktop-photo-zoom.json",
+    "mobile-photo-3.json",
+    "desktop-photo-0.json",
+    "desktop-photo-3.json",
+    "mobile-photo-zoom.json",
+    "mobile-photo-0.json",
+    "mobile-photo-1.json",
+    "desktop-photo-2.json",
+    "desktop-photo0-painted.json",
+    "mobile-photo0-painted.json"
+  ],
+  "docs": {
+    "chinese-architecture/dule/MODEL_NOTES.md": "77a4093c7d3532bbd4cd612c4f28666d9663cb459a54adbea1fa45ca7956e608",
+    "chinese-architecture/dule/VALIDATION.md": "a17218f06d2163fbedfc95d6ae51fb917d7e8eae6c6f2d73b3c788872640b286",
+    "chinese-architecture/PRODUCTION_GUIDE.md": "57aaf12611a9b88c18bd41942d48d16c7b8159e2870f960a1ffb72d86e996b5d"
+  },
+  "limits": [
+    "No site publication",
+    "Pure side/back/interior/fork closeup not acquired",
+    "Full building upper brackets remain simplified",
+    "CLI public HTTP403; IAB remote full decode succeeds; local derivatives decode separately"
+  ]
+}

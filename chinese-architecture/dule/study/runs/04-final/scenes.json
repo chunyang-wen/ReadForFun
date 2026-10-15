@@ -1,0 +1,2690 @@
+[
+  {
+    "name": "desktop-whole",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": false,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          12.024937088790905,
+          20.930000007152557,
+          9.575000196695328
+        ],
+        "min": [
+          -12.024937088790905,
+          0,
+          -9.1650069761336
+        ]
+      },
+      "camera": [
+        39.637685284287755,
+        31.07659635140591,
+        47.77021895142618
+      ],
+      "chapter": 0,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame",
+        "purlins",
+        "rafters",
+        "roof",
+        "enclosure"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          -0.09860459298961284,
+          -0.20036025452372305,
+          0.9990406306810018
+        ],
+        [
+          -0.5555648688468867,
+          -0.4489050678264871,
+          0.9988013398436966
+        ],
+        [
+          -0.10717207919692652,
+          0.6100312026642696,
+          0.9989355491385165
+        ],
+        [
+          -0.6143987945282902,
+          0.5124891855399958,
+          0.9986479244505664
+        ],
+        [
+          0.5633057922275286,
+          -0.46987091973429224,
+          0.9987811546055048
+        ],
+        [
+          0.1498155156093842,
+          -0.8527607176215074,
+          0.9984125208001378
+        ],
+        [
+          0.6238800362791339,
+          0.5041047872281156,
+          0.9986232011567572
+        ],
+        [
+          0.17052772371552788,
+          0.34650493543027394,
+          0.9981584823665292
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.46500000357628,
+        0.2049966102808636
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-chapter-0",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": false,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          12.024937088790905,
+          20.930000007152557,
+          9.575000196695328
+        ],
+        "min": [
+          -12.024937088790905,
+          0,
+          -9.1650069761336
+        ]
+      },
+      "camera": [
+        39.637685284287755,
+        31.07659635140591,
+        47.77021895142618
+      ],
+      "chapter": 0,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame",
+        "purlins",
+        "rafters",
+        "roof",
+        "enclosure"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          -0.09860459298961284,
+          -0.20036025452372305,
+          0.9990406306810018
+        ],
+        [
+          -0.5555648688468867,
+          -0.4489050678264871,
+          0.9988013398436966
+        ],
+        [
+          -0.10717207919692652,
+          0.6100312026642696,
+          0.9989355491385165
+        ],
+        [
+          -0.6143987945282902,
+          0.5124891855399958,
+          0.9986479244505664
+        ],
+        [
+          0.5633057922275286,
+          -0.46987091973429224,
+          0.9987811546055048
+        ],
+        [
+          0.1498155156093842,
+          -0.8527607176215074,
+          0.9984125208001378
+        ],
+        [
+          0.6238800362791339,
+          0.5041047872281156,
+          0.9986232011567572
+        ],
+        [
+          0.17052772371552788,
+          0.34650493543027394,
+          0.9981584823665292
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.46500000357628,
+        0.2049966102808636
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-chapter-1",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": false,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          11.600000381469728,
+          15.619999885559082,
+          9.575000196695328
+        ],
+        "min": [
+          -11.600000381469728,
+          0,
+          -8.600000381469727
+        ]
+      },
+      "camera": [
+        0,
+        50.01231666325192,
+        0.5297022243301169
+      ],
+      "chapter": 1,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "ming"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          -0.5626847795243093,
+          0.5756950392334351,
+          0.9982506378169912
+        ],
+        [
+          -0.5628893020667985,
+          -0.5768950320834628,
+          0.9982499110850018
+        ],
+        [
+          -0.8181721816836682,
+          0.8385298233047331,
+          0.99734281188375
+        ],
+        [
+          -0.8186046675767804,
+          -0.8375322442801695,
+          0.9973412751273144
+        ],
+        [
+          0.5626847795243093,
+          0.5756950392334351,
+          0.9982506378169912
+        ],
+        [
+          0.5628893020667985,
+          -0.5768950320834628,
+          0.9982499110850018
+        ],
+        [
+          0.8181721816836682,
+          0.8385298233047331,
+          0.99734281188375
+        ],
+        [
+          0.8186046675767804,
+          -0.8375322442801695,
+          0.9973412751273144
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        7.809999942779542,
+        0.4874999076128006
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-chapter-2",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": false,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          1.100000023841858,
+          3.3700000643730164,
+          1.8050000071525576
+        ],
+        "min": [
+          -1.100000023841858,
+          -1.600000023841858,
+          -3.350000023841858
+        ]
+      },
+      "camera": [
+        8.26019506121137,
+        5.180301452095492,
+        9.139734065108994
+      ],
+      "chapter": 2,
+      "detail": true,
+      "explode": 0,
+      "layers": [
+        "columns",
+        "ties",
+        "brackets",
+        "purlins"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          0.11264044714118722,
+          -0.2828531921525124,
+          0.994342889256007
+        ],
+        [
+          -0.44869778877376265,
+          -0.6646825983056944,
+          0.9926579851870858
+        ],
+        [
+          0.12415159024535634,
+          0.6618696667261412,
+          0.9937392166091004
+        ],
+        [
+          -0.5094003204103673,
+          0.5343038078850586,
+          0.9916308875991589
+        ],
+        [
+          0.3790345120011989,
+          -0.3975646951280833,
+          0.9938367001699884
+        ],
+        [
+          -0.16111235827933387,
+          -0.8589127426323377,
+          0.9918009030577124
+        ],
+        [
+          0.42146020991782823,
+          0.6243339602279455,
+          0.9931188498460984
+        ],
+        [
+          -0.18574544446337893,
+          0.4664282966526236,
+          0.9905090834526884
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        0.8850000202655793,
+        -0.7725000083446503
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-chapter-3",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": false,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          11.805000126361849,
+          20.173028774559494,
+          9.575000196695328
+        ],
+        "min": [
+          -11.805000126361849,
+          0,
+          -9.019607163965702
+        ]
+      },
+      "camera": [
+        52.906874334207174,
+        16.435339307384606,
+        0.27769651636481607
+      ],
+      "chapter": 3,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          0.3181105152849163,
+          -0.4123539059694192,
+          0.998739476341687
+        ],
+        [
+          -0.3181105152849161,
+          -0.4123539059694192,
+          0.998739476341687
+        ],
+        [
+          0.33009355520946204,
+          0.5677142083434875,
+          0.9986825746080078
+        ],
+        [
+          -0.3300935552094618,
+          0.5677142083434875,
+          0.9986825746080078
+        ],
+        [
+          0.4924748489315874,
+          -0.8469870573900274,
+          0.9979115033950212
+        ],
+        [
+          -0.49247484893158705,
+          -0.8469870573900274,
+          0.9979115033950212
+        ],
+        [
+          0.5217999862850643,
+          0.6763884000713447,
+          0.9977722523229804
+        ],
+        [
+          -0.521799986285064,
+          0.6763884000713447,
+          0.9977722523229804
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": true,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.086514387279747,
+        0.27769651636481285
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-chapter-4",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": false,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          11.94599543325603,
+          20.62492486834526,
+          9.575000196695328
+        ],
+        "min": [
+          -11.94599543325603,
+          0,
+          -9.079999580979347
+        ]
+      },
+      "camera": [
+        39.24083663419843,
+        30.717697483955813,
+        47.33650426889611
+      ],
+      "chapter": 4,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "roofFrame",
+        "purlins",
+        "rafters"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          -0.09495988349037736,
+          -0.1976829430614131,
+          0.9990291080534592
+        ],
+        [
+          -0.5380190423393241,
+          -0.4471695098793589,
+          0.99878610411116
+        ],
+        [
+          -0.10316419361848696,
+          0.608372894851051,
+          0.998923623166464
+        ],
+        [
+          -0.5947295759828516,
+          0.5099310597746778,
+          0.9986317971388278
+        ],
+        [
+          0.5453207240261593,
+          -0.4675670858645377,
+          0.998766236542974
+        ],
+        [
+          0.14456996338914102,
+          -0.8525481957511406,
+          0.9983912587291118
+        ],
+        [
+          0.6036644489674304,
+          0.5017300774386164,
+          0.9986074857259412
+        ],
+        [
+          0.16448480011181676,
+          0.3424165887721126,
+          0.998135208644654
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.31246243417263,
+        0.24750030785799024
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-chapter-5",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": false,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          11.805000126361849,
+          20.173028774559494,
+          9.575000196695328
+        ],
+        "min": [
+          -11.805000126361849,
+          0,
+          -9.019607163965702
+        ]
+      },
+      "camera": [
+        0,
+        14.965682427674755,
+        49.06937692031484
+      ],
+      "chapter": 5,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          -0.4831132022864409,
+          -0.48739346146200496,
+          0.9985631908001248
+        ],
+        [
+          -0.7022664888143406,
+          -0.8523605551460571,
+          0.997797994097685
+        ],
+        [
+          -0.5000424239047353,
+          0.6069155296810692,
+          0.998504080645938
+        ],
+        [
+          -0.7386162917245596,
+          0.7451602428004415,
+          0.9976710749455158
+        ],
+        [
+          0.4831132022864409,
+          -0.48739346146200496,
+          0.9985631908001248
+        ],
+        [
+          0.7022664888143406,
+          -0.8523605551460571,
+          0.997797994097685
+        ],
+        [
+          0.5000424239047353,
+          0.6069155296810692,
+          0.998504080645938
+        ],
+        [
+          0.7386162917245596,
+          0.7451602428004415,
+          0.9976710749455158
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.086514387279747,
+        0.27769651636481285
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-chapter-6",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": false,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          12.024937088790905,
+          30.680000007152557,
+          9.575000196695328
+        ],
+        "min": [
+          -12.024937088790905,
+          0,
+          -9.1650069761336
+        ]
+      },
+      "camera": [
+        48.72970413710634,
+        40.679446154871584,
+        58.68064157480848
+      ],
+      "chapter": 6,
+      "detail": false,
+      "explode": 0.65,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame",
+        "purlins",
+        "rafters",
+        "roof"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          -0.07922861575589588,
+          -0.31489594006441246,
+          0.9992418831216368
+        ],
+        [
+          -0.4321662769867052,
+          -0.5337657319565721,
+          0.999080905463483
+        ],
+        [
+          -0.08780559271091395,
+          0.6824011680770035,
+          0.9991327449874512
+        ],
+        [
+          -0.4873756453791063,
+          0.6151592956263061,
+          0.99893154930152
+        ],
+        [
+          0.4370127750169652,
+          -0.5515919258747976,
+          0.999067794385312
+        ],
+        [
+          0.11080062252069324,
+          -0.8611122810902917,
+          0.9988401436825686
+        ],
+        [
+          0.4935483653329324,
+          0.609578346359511,
+          0.9989148504370334
+        ],
+        [
+          0.1283315847438967,
+          0.5100568100595383,
+          0.9986170701547328
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        15.34000000357628,
+        0.2049966102808636
+      ],
+      "targetExplode": 0.65,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-maximum",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": false,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          12.024937088790905,
+          35.93000000715256,
+          9.575000196695328
+        ],
+        "min": [
+          -12.024937088790905,
+          0,
+          -9.1650069761336
+        ]
+      },
+      "camera": [
+        53.62540659631635,
+        45.85021143366076,
+        64.55548452586049
+      ],
+      "chapter": 6,
+      "detail": false,
+      "explode": 1,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame",
+        "purlins",
+        "rafters",
+        "roof"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          -0.07271324409310505,
+          -0.3620784608645452,
+          0.999324788265318
+        ],
+        [
+          -0.3914864328182617,
+          -0.5671707961814149,
+          0.9991909553620992
+        ],
+        [
+          -0.08124288430403927,
+          0.7130480282110211,
+          0.9992162524696898
+        ],
+        [
+          -0.44495978637511874,
+          0.6566966067931542,
+          0.999046295586284
+        ],
+        [
+          0.3954592768616702,
+          -0.5836409787849871,
+          0.9991802077524872
+        ],
+        [
+          0.09846230849006413,
+          -0.864178512658426,
+          0.9989971431218072
+        ],
+        [
+          0.4500991816321953,
+          0.65208673866214,
+          0.999032392142489
+        ],
+        [
+          0.1147804105756642,
+          0.5715535720758428,
+          0.9987895026880722
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        17.96500000357628,
+        0.2049966102808636
+      ],
+      "targetExplode": 1,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-view-front",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": false,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          12.024937088790905,
+          20.930000007152557,
+          9.575000196695328
+        ],
+        "min": [
+          -12.024937088790905,
+          0,
+          -9.1650069761336
+        ]
+      },
+      "camera": [
+        0,
+        15.48619531896315,
+        50.416949764149635
+      ],
+      "chapter": 0,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame",
+        "purlins",
+        "rafters",
+        "roof",
+        "enclosure"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          -0.4976424948627536,
+          -0.4943345211771946,
+          0.9986058242750832
+        ],
+        [
+          -0.7176401056845282,
+          -0.8530794904073882,
+          0.9978789538595304
+        ],
+        [
+          -0.5152849152987551,
+          0.6125340396609794,
+          0.9985475338535382
+        ],
+        [
+          -0.7549133401576686,
+          0.7498952127069418,
+          0.9977558033792624
+        ],
+        [
+          0.4976424948627536,
+          -0.4943345211771946,
+          0.9986058242750832
+        ],
+        [
+          0.7176401056845282,
+          -0.8530794904073882,
+          0.9978789538595304
+        ],
+        [
+          0.5152849152987551,
+          0.6125340396609794,
+          0.9985475338535382
+        ],
+        [
+          0.7549133401576686,
+          0.7498952127069418,
+          0.9977558033792624
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.46500000357628,
+        0.2049966102808636
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-view-side",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": false,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          12.024937088790905,
+          20.930000007152557,
+          9.575000196695328
+        ],
+        "min": [
+          -12.024937088790905,
+          0,
+          -9.1650069761336
+        ]
+      },
+      "camera": [
+        54.54610511787381,
+        17.010532617721132,
+        0.2049966102808669
+      ],
+      "chapter": 0,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame",
+        "purlins",
+        "rafters",
+        "roof",
+        "enclosure"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          0.3462380630308743,
+          -0.41704110937988514,
+          0.9987819270107556
+        ],
+        [
+          -0.34623806303087407,
+          -0.41704110937988514,
+          0.9987819270107556
+        ],
+        [
+          0.3593939212728075,
+          0.5713604164211961,
+          0.9987261440874736
+        ],
+        [
+          -0.3593939212728072,
+          0.5713604164211961,
+          0.9987261440874736
+        ],
+        [
+          0.5330990912169956,
+          -0.8475149431375477,
+          0.997989606646096
+        ],
+        [
+          -0.5330990912169952,
+          -0.8475149431375477,
+          0.997989606646096
+        ],
+        [
+          0.5649398804740012,
+          0.6804657824833322,
+          0.9978545966549808
+        ],
+        [
+          -0.5649398804740008,
+          0.6804657824833322,
+          0.9978545966549808
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.46500000357628,
+        0.2049966102808636
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-view-back",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": false,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          12.024937088790905,
+          20.930000007152557,
+          9.575000196695328
+        ],
+        "min": [
+          -12.024937088790905,
+          0,
+          -9.1650069761336
+        ]
+      },
+      "camera": [
+        6.1491907708822225e-15,
+        15.48619531896315,
+        -50.006956543587904
+      ],
+      "chapter": 0,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame",
+        "purlins",
+        "rafters",
+        "roof",
+        "enclosure"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          0.7176401056845282,
+          -0.853079490407388,
+          0.9978789538595304
+        ],
+        [
+          0.4976424948627534,
+          -0.49433452117719456,
+          0.9986058242750832
+        ],
+        [
+          0.7549133401576688,
+          0.7498952127069419,
+          0.9977558033792624
+        ],
+        [
+          0.5152849152987551,
+          0.6125340396609794,
+          0.9985475338535384
+        ],
+        [
+          -0.7176401056845282,
+          -0.8530794904073882,
+          0.9978789538595304
+        ],
+        [
+          -0.4976424948627536,
+          -0.4943345211771946,
+          0.9986058242750834
+        ],
+        [
+          -0.7549133401576685,
+          0.7498952127069419,
+          0.9977558033792624
+        ],
+        [
+          -0.5152849152987552,
+          0.6125340396609794,
+          0.9985475338535384
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.46500000357628,
+        0.2049966102808636
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-view-top",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": false,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          12.024937088790905,
+          20.930000007152557,
+          9.575000196695328
+        ],
+        "min": [
+          -12.024937088790905,
+          0,
+          -9.1650069761336
+        ]
+      },
+      "camera": [
+        0,
+        56.91377833222479,
+        0.2514453886060385
+      ],
+      "chapter": 0,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame",
+        "purlins",
+        "rafters",
+        "roof",
+        "enclosure"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          -0.5317729134051744,
+          0.5214862596084974,
+          0.9984930576344992
+        ],
+        [
+          -0.5319480390302203,
+          -0.5228245403419479,
+          0.9984924790207798
+        ],
+        [
+          -0.8409982308629931,
+          0.8265741787128866,
+          0.9974713795619036
+        ],
+        [
+          -0.8414363282011788,
+          -0.8251595228544635,
+          0.9974699320916648
+        ],
+        [
+          0.5317729134051744,
+          0.5214862596084974,
+          0.9984930576344992
+        ],
+        [
+          0.5319480390302203,
+          -0.5228245403419479,
+          0.9984924790207798
+        ],
+        [
+          0.8409982308629931,
+          0.8265741787128866,
+          0.9974713795619036
+        ],
+        [
+          0.8414363282011788,
+          -0.8251595228544635,
+          0.9974699320916648
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.46500000357628,
+        0.2049966102808636
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-view-iso",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": false,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          12.024937088790905,
+          20.930000007152557,
+          9.575000196695328
+        ],
+        "min": [
+          -12.024937088790905,
+          0,
+          -9.1650069761336
+        ]
+      },
+      "camera": [
+        39.637685284287755,
+        31.07659635140591,
+        47.77021895142618
+      ],
+      "chapter": 0,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame",
+        "purlins",
+        "rafters",
+        "roof",
+        "enclosure"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          -0.09860459298961284,
+          -0.20036025452372305,
+          0.9990406306810018
+        ],
+        [
+          -0.5555648688468867,
+          -0.4489050678264871,
+          0.9988013398436966
+        ],
+        [
+          -0.10717207919692652,
+          0.6100312026642696,
+          0.9989355491385165
+        ],
+        [
+          -0.6143987945282902,
+          0.5124891855399958,
+          0.9986479244505664
+        ],
+        [
+          0.5633057922275286,
+          -0.46987091973429224,
+          0.9987811546055048
+        ],
+        [
+          0.1498155156093842,
+          -0.8527607176215074,
+          0.9984125208001378
+        ],
+        [
+          0.6238800362791339,
+          0.5041047872281156,
+          0.9986232011567572
+        ],
+        [
+          0.17052772371552788,
+          0.34650493543027394,
+          0.9981584823665292
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.46500000357628,
+        0.2049966102808636
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-light",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": true,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          12.024937088790905,
+          20.930000007152557,
+          9.575000196695328
+        ],
+        "min": [
+          -12.024937088790905,
+          0,
+          -9.1650069761336
+        ]
+      },
+      "camera": [
+        39.637685284287755,
+        31.07659635140591,
+        47.77021895142618
+      ],
+      "chapter": 0,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame",
+        "purlins",
+        "rafters",
+        "roof",
+        "enclosure"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          -0.09860459298961284,
+          -0.20036025452372305,
+          0.9990406306810018
+        ],
+        [
+          -0.5555648688468867,
+          -0.4489050678264871,
+          0.9988013398436966
+        ],
+        [
+          -0.10717207919692652,
+          0.6100312026642696,
+          0.9989355491385165
+        ],
+        [
+          -0.6143987945282902,
+          0.5124891855399958,
+          0.9986479244505664
+        ],
+        [
+          0.5633057922275286,
+          -0.46987091973429224,
+          0.9987811546055048
+        ],
+        [
+          0.1498155156093842,
+          -0.8527607176215074,
+          0.9984125208001378
+        ],
+        [
+          0.6238800362791339,
+          0.5041047872281156,
+          0.9986232011567572
+        ],
+        [
+          0.17052772371552788,
+          0.34650493543027394,
+          0.9981584823665292
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.46500000357628,
+        0.2049966102808636
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-section-x-Home",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": true,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          11.805000126361849,
+          20.173028774559494,
+          9.575000196695328
+        ],
+        "min": [
+          -11.805000126361849,
+          0,
+          -9.019607163965702
+        ]
+      },
+      "camera": [
+        52.906874334207174,
+        16.435339307384606,
+        0.27769651636481607
+      ],
+      "chapter": 3,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          0.3181105152849163,
+          -0.4123539059694192,
+          0.998739476341687
+        ],
+        [
+          -0.3181105152849161,
+          -0.4123539059694192,
+          0.998739476341687
+        ],
+        [
+          0.33009355520946204,
+          0.5677142083434875,
+          0.9986825746080078
+        ],
+        [
+          -0.3300935552094618,
+          0.5677142083434875,
+          0.9986825746080078
+        ],
+        [
+          0.4924748489315874,
+          -0.8469870573900274,
+          0.9979115033950212
+        ],
+        [
+          -0.49247484893158705,
+          -0.8469870573900274,
+          0.9979115033950212
+        ],
+        [
+          0.5217999862850643,
+          0.6763884000713447,
+          0.9977722523229804
+        ],
+        [
+          -0.521799986285064,
+          0.6763884000713447,
+          0.9977722523229804
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": true,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.086514387279747,
+        0.27769651636481285
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-section-x-End",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": true,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          11.805000126361849,
+          20.173028774559494,
+          9.575000196695328
+        ],
+        "min": [
+          -11.805000126361849,
+          0,
+          -9.019607163965702
+        ]
+      },
+      "camera": [
+        52.906874334207174,
+        16.435339307384606,
+        0.27769651636481607
+      ],
+      "chapter": 3,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          0.3181105152849163,
+          -0.4123539059694192,
+          0.998739476341687
+        ],
+        [
+          -0.3181105152849161,
+          -0.4123539059694192,
+          0.998739476341687
+        ],
+        [
+          0.33009355520946204,
+          0.5677142083434875,
+          0.9986825746080078
+        ],
+        [
+          -0.3300935552094618,
+          0.5677142083434875,
+          0.9986825746080078
+        ],
+        [
+          0.4924748489315874,
+          -0.8469870573900274,
+          0.9979115033950212
+        ],
+        [
+          -0.49247484893158705,
+          -0.8469870573900274,
+          0.9979115033950212
+        ],
+        [
+          0.5217999862850643,
+          0.6763884000713447,
+          0.9977722523229804
+        ],
+        [
+          -0.521799986285064,
+          0.6763884000713447,
+          0.9977722523229804
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": true,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.086514387279747,
+        0.27769651636481285
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-section-x-middle",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": true,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          11.805000126361849,
+          20.173028774559494,
+          9.575000196695328
+        ],
+        "min": [
+          -11.805000126361849,
+          0,
+          -9.019607163965702
+        ]
+      },
+      "camera": [
+        52.906874334207174,
+        16.435339307384606,
+        0.27769651636481607
+      ],
+      "chapter": 3,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          0.3181105152849163,
+          -0.4123539059694192,
+          0.998739476341687
+        ],
+        [
+          -0.3181105152849161,
+          -0.4123539059694192,
+          0.998739476341687
+        ],
+        [
+          0.33009355520946204,
+          0.5677142083434875,
+          0.9986825746080078
+        ],
+        [
+          -0.3300935552094618,
+          0.5677142083434875,
+          0.9986825746080078
+        ],
+        [
+          0.4924748489315874,
+          -0.8469870573900274,
+          0.9979115033950212
+        ],
+        [
+          -0.49247484893158705,
+          -0.8469870573900274,
+          0.9979115033950212
+        ],
+        [
+          0.5217999862850643,
+          0.6763884000713447,
+          0.9977722523229804
+        ],
+        [
+          -0.521799986285064,
+          0.6763884000713447,
+          0.9977722523229804
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": true,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.086514387279747,
+        0.27769651636481285
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-section-z-Home",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": true,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          11.805000126361849,
+          20.173028774559494,
+          9.575000196695328
+        ],
+        "min": [
+          -11.805000126361849,
+          0,
+          -9.019607163965702
+        ]
+      },
+      "camera": [
+        52.906874334207174,
+        16.435339307384606,
+        0.27769651636481607
+      ],
+      "chapter": 3,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          0.3181105152849163,
+          -0.4123539059694192,
+          0.998739476341687
+        ],
+        [
+          -0.3181105152849161,
+          -0.4123539059694192,
+          0.998739476341687
+        ],
+        [
+          0.33009355520946204,
+          0.5677142083434875,
+          0.9986825746080078
+        ],
+        [
+          -0.3300935552094618,
+          0.5677142083434875,
+          0.9986825746080078
+        ],
+        [
+          0.4924748489315874,
+          -0.8469870573900274,
+          0.9979115033950212
+        ],
+        [
+          -0.49247484893158705,
+          -0.8469870573900274,
+          0.9979115033950212
+        ],
+        [
+          0.5217999862850643,
+          0.6763884000713447,
+          0.9977722523229804
+        ],
+        [
+          -0.521799986285064,
+          0.6763884000713447,
+          0.9977722523229804
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": true,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.086514387279747,
+        0.27769651636481285
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-section-z-End",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": true,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          11.805000126361849,
+          20.173028774559494,
+          9.575000196695328
+        ],
+        "min": [
+          -11.805000126361849,
+          0,
+          -9.019607163965702
+        ]
+      },
+      "camera": [
+        52.906874334207174,
+        16.435339307384606,
+        0.27769651636481607
+      ],
+      "chapter": 3,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          0.3181105152849163,
+          -0.4123539059694192,
+          0.998739476341687
+        ],
+        [
+          -0.3181105152849161,
+          -0.4123539059694192,
+          0.998739476341687
+        ],
+        [
+          0.33009355520946204,
+          0.5677142083434875,
+          0.9986825746080078
+        ],
+        [
+          -0.3300935552094618,
+          0.5677142083434875,
+          0.9986825746080078
+        ],
+        [
+          0.4924748489315874,
+          -0.8469870573900274,
+          0.9979115033950212
+        ],
+        [
+          -0.49247484893158705,
+          -0.8469870573900274,
+          0.9979115033950212
+        ],
+        [
+          0.5217999862850643,
+          0.6763884000713447,
+          0.9977722523229804
+        ],
+        [
+          -0.521799986285064,
+          0.6763884000713447,
+          0.9977722523229804
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": true,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.086514387279747,
+        0.27769651636481285
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-section-z-middle",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": true,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          11.805000126361849,
+          20.173028774559494,
+          9.575000196695328
+        ],
+        "min": [
+          -11.805000126361849,
+          0,
+          -9.019607163965702
+        ]
+      },
+      "camera": [
+        52.906874334207174,
+        16.435339307384606,
+        0.27769651636481607
+      ],
+      "chapter": 3,
+      "detail": false,
+      "explode": 0,
+      "layers": [
+        "foundation",
+        "columns",
+        "ties",
+        "brackets",
+        "ming",
+        "ceiling",
+        "roofFrame"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          0.3181105152849163,
+          -0.4123539059694192,
+          0.998739476341687
+        ],
+        [
+          -0.3181105152849161,
+          -0.4123539059694192,
+          0.998739476341687
+        ],
+        [
+          0.33009355520946204,
+          0.5677142083434875,
+          0.9986825746080078
+        ],
+        [
+          -0.3300935552094618,
+          0.5677142083434875,
+          0.9986825746080078
+        ],
+        [
+          0.4924748489315874,
+          -0.8469870573900274,
+          0.9979115033950212
+        ],
+        [
+          -0.49247484893158705,
+          -0.8469870573900274,
+          0.9979115033950212
+        ],
+        [
+          0.5217999862850643,
+          0.6763884000713447,
+          0.9977722523229804
+        ],
+        [
+          -0.521799986285064,
+          0.6763884000713447,
+          0.9977722523229804
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": true,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        10.086514387279747,
+        0.27769651636481285
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-lower-selected",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": true,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          1.100000023841858,
+          3.3700000643730164,
+          1.8050000071525576
+        ],
+        "min": [
+          -1.100000023841858,
+          -1.600000023841858,
+          -3.350000023841858
+        ]
+      },
+      "camera": [
+        8.26019506121137,
+        5.180301452095492,
+        9.139734065108994
+      ],
+      "chapter": 2,
+      "detail": true,
+      "explode": 0,
+      "layers": [
+        "columns",
+        "ties",
+        "brackets",
+        "purlins"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          0.14267978878092472,
+          -0.2828531921525124,
+          0.994342889256007
+        ],
+        [
+          -0.5683580574610427,
+          -0.6646825983056944,
+          0.9926579851870858
+        ],
+        [
+          0.15726076309711506,
+          0.6618696667261412,
+          0.9937392166091004
+        ],
+        [
+          -0.6452489488965334,
+          0.5343038078850586,
+          0.9916308875991589
+        ],
+        [
+          0.4801167385746044,
+          -0.3975646951280833,
+          0.9938367001699884
+        ],
+        [
+          -0.20407835580125824,
+          -0.8589127426323377,
+          0.9918009030577124
+        ],
+        [
+          0.5338566674479388,
+          0.6243339602279455,
+          0.9931188498460984
+        ],
+        [
+          -0.23528067808391473,
+          0.4664282966526236,
+          0.9905090834526884
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": "lower/outer/2-4/1",
+      "selectionBounds": {
+        "max": [
+          0.27999999523162844,
+          0.025,
+          0.27999999523162844
+        ],
+        "min": [
+          -0.27999999523162844,
+          -1.6250000238418578,
+          -0.27999999523162844
+        ]
+      },
+      "target": [
+        0,
+        0.8850000202655793,
+        -0.7725000083446503
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-lower-maximum",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": true,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          1.100000023841858,
+          6.370000064373016,
+          2.0099999821186065
+        ],
+        "min": [
+          -1.100000023841858,
+          -1.600000023841858,
+          -3.350000023841858
+        ]
+      },
+      "camera": [
+        11.164094756264126,
+        8.190329293522925,
+        12.726913686655328
+      ],
+      "chapter": 2,
+      "detail": true,
+      "explode": 1,
+      "layers": [
+        "columns",
+        "ties",
+        "brackets",
+        "purlins"
+      ],
+      "node": "lower",
+      "projected": [
+        [
+          0.1173665176043822,
+          -0.41436994202257854,
+          0.9957571156503232
+        ],
+        [
+          -0.4186780845643625,
+          -0.7273300459077912,
+          0.9948007004088204
+        ],
+        [
+          0.13233173198947487,
+          0.7476033910064587,
+          0.9951842312656266
+        ],
+        [
+          -0.485233720087414,
+          0.6715651359135285,
+          0.9939344413641242
+        ],
+        [
+          0.36724176224781624,
+          -0.5082638608311245,
+          0.9954701730850632
+        ],
+        [
+          -0.1535290976597086,
+          -0.8673571508736024,
+          0.994372773475802
+        ],
+        [
+          0.41746776843857064,
+          0.7252274775723812,
+          0.9948164533541974
+        ],
+        [
+          -0.18018432794887224,
+          0.6361522097573412,
+          0.9933523828011208
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": "lower/outer/2-4/1",
+      "selectionBounds": {
+        "max": [
+          0.27999999523162844,
+          0.025,
+          0.27999999523162844
+        ],
+        "min": [
+          -0.27999999523162844,
+          -1.6250000238418578,
+          -0.27999999523162844
+        ]
+      },
+      "target": [
+        0,
+        2.3850000202655792,
+        -0.6700000208616257
+      ],
+      "targetExplode": 1,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-upper-selected",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": true,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          1.2000000476837158,
+          2.4199999719858174,
+          1.9900000393390656
+        ],
+        "min": [
+          -1.2000000476837158,
+          -1.7999999523162842,
+          -1.2718536406755447
+        ]
+      },
+      "camera": [
+        6.665099028230009,
+        3.775851504514371,
+        8.35719203320777
+      ],
+      "chapter": 2,
+      "detail": true,
+      "explode": 0,
+      "layers": [
+        "columns",
+        "brackets",
+        "purlins",
+        "ties"
+      ],
+      "node": "upper",
+      "projected": [
+        [
+          0.028159982433342036,
+          -0.319006210069475,
+          0.9928728826084268
+        ],
+        [
+          -0.5492594880506961,
+          -0.6113882919477497,
+          0.9913039858334338
+        ],
+        [
+          0.031230505391495186,
+          0.6850511933663543,
+          0.992068489198904
+        ],
+        [
+          -0.6236109735456394,
+          0.5955282178152673,
+          0.9900929885165228
+        ],
+        [
+          0.5075061109741431,
+          -0.4846518464554722,
+          0.9919840425569156
+        ],
+        [
+          -0.03926941942460462,
+          -0.8613873615684537,
+          0.9899625126092216
+        ],
+        [
+          0.5703366669369443,
+          0.634849589710804,
+          0.9909606919919002
+        ],
+        [
+          -0.04550895559088315,
+          0.5155414951565634,
+          0.9883279240264184
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": "dule/upper-node02/jump/3",
+      "selectionBounds": {
+        "max": [
+          0.1475000023841858,
+          1.8888398498296737,
+          1.3918536394834518
+        ],
+        "min": [
+          -0.1475000023841858,
+          1.0971926361322404,
+          -1.2968536406755446
+        ]
+      },
+      "target": [
+        0,
+        0.31000000983476633,
+        0.35907319933176035
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-upper-maximum",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": true,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          1.2000000476837158,
+          4.919999971985817,
+          2.2000000393390655
+        ],
+        "min": [
+          -1.2000000476837158,
+          -1.7999999523162842,
+          -1.201853640675545
+        ]
+      },
+      "camera": [
+        9.069018900830915,
+        6.275889838266843,
+        11.38189588032886
+      ],
+      "chapter": 2,
+      "detail": true,
+      "explode": 1,
+      "layers": [
+        "columns",
+        "brackets",
+        "purlins",
+        "ties"
+      ],
+      "node": "upper",
+      "projected": [
+        [
+          0.029048939060701526,
+          -0.4472279518625482,
+          0.9946815773952694
+        ],
+        [
+          -0.4056871311067976,
+          -0.6879703048970295,
+          0.9937896758240172
+        ],
+        [
+          0.032941949310978096,
+          0.7696414314443839,
+          0.9939353178535846
+        ],
+        [
+          -0.47014739405502576,
+          0.7165226194964409,
+          0.9927631798427086
+        ],
+        [
+          0.38056816329236826,
+          -0.5800004439188309,
+          0.9941896822518042
+        ],
+        [
+          -0.03720520580926499,
+          -0.869246309194083,
+          0.9931180850090858
+        ],
+        [
+          0.43674053543839353,
+          0.7406311324362547,
+          0.9932951665977992
+        ],
+        [
+          -0.043840950166998925,
+          0.674960910273668,
+          0.9918460648435112
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": "dule/upper-node02/jump/3",
+      "selectionBounds": {
+        "max": [
+          0.1475000023841858,
+          3.3888398498296737,
+          1.4618536394834518
+        ],
+        "min": [
+          -0.1475000023841858,
+          2.5971926361322404,
+          -1.2268536406755446
+        ]
+      },
+      "target": [
+        0,
+        1.5600000098347664,
+        0.4990731993317603
+      ],
+      "targetExplode": 1,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  },
+  {
+    "name": "desktop-canvas-pick",
+    "height": 900,
+    "overflow": false,
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+      "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+    ],
+    "state": {
+      "alternateLight": true,
+      "architecture": "dule",
+      "bounds": {
+        "max": [
+          1.2000000476837158,
+          2.4199999719858174,
+          1.9900000393390656
+        ],
+        "min": [
+          -1.2000000476837158,
+          -1.7999999523162842,
+          -1.2718536406755447
+        ]
+      },
+      "camera": [
+        6.665099028230009,
+        3.775851504514371,
+        8.35719203320777
+      ],
+      "chapter": 2,
+      "detail": true,
+      "explode": 0,
+      "layers": [
+        "columns",
+        "brackets",
+        "purlins",
+        "ties"
+      ],
+      "node": "upper",
+      "projected": [
+        [
+          0.0212952031668379,
+          -0.319006210069475,
+          0.9928728826084268
+        ],
+        [
+          -0.41536220475421626,
+          -0.6113882919477497,
+          0.9913039858334338
+        ],
+        [
+          0.023617200716981653,
+          0.6850511933663543,
+          0.992068489198904
+        ],
+        [
+          -0.4715884468379586,
+          0.5955282178152673,
+          0.9900929885165228
+        ],
+        [
+          0.38378737512314304,
+          -0.4846518464554722,
+          0.9919840425569156
+        ],
+        [
+          -0.029696405772632425,
+          -0.8613873615684537,
+          0.9899625126092216
+        ],
+        [
+          0.4313012348167848,
+          0.634849589710804,
+          0.9909606919919002
+        ],
+        [
+          -0.034414881383981195,
+          0.5155414951565634,
+          0.9883279240264184
+        ]
+      ],
+      "revision": "dule-04",
+      "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+      "section": false,
+      "selected": null,
+      "selectionBounds": null,
+      "target": [
+        0,
+        0.3100000098347666,
+        0.3590731993317604
+      ],
+      "targetExplode": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      }
+    },
+    "width": 1280
+  }
+]

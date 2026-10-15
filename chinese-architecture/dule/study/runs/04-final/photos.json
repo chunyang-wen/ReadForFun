@@ -1,0 +1,112 @@
+[
+  {
+    "name": "desktop-photo-0",
+    "photo": {
+      "complete": true,
+      "height": 3602,
+      "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-front-2020/d369d2833d873a65/full.webp",
+      "width": 5870
+    },
+    "prevDisabled": true,
+    "range": "100",
+    "scroll": {
+      "clientHeight": 644,
+      "clientWidth": 1227,
+      "height": 644,
+      "width": 1227
+    },
+    "title": "1 / 4 · 独乐寺观音阁 · 两重檐之间藏着暗层",
+    "viewport": {
+      "height": 900,
+      "width": 1280
+    }
+  },
+  {
+    "name": "desktop-photo-1",
+    "photo": {
+      "complete": true,
+      "height": 2848,
+      "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-front-2013/9d0da45d06611dad/full.webp",
+      "width": 4288
+    },
+    "prevDisabled": false,
+    "range": "100",
+    "scroll": {
+      "clientHeight": 644,
+      "clientWidth": 1227,
+      "height": 644,
+      "width": 1227
+    },
+    "title": "2 / 4 · 独乐寺观音阁 · 另一年光照下的正面",
+    "viewport": {
+      "height": 900,
+      "width": 1280
+    }
+  },
+  {
+    "name": "desktop-photo-2",
+    "photo": {
+      "complete": true,
+      "height": 3456,
+      "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-oblique-2014/60794009521b6cae/full.webp",
+      "width": 5184
+    },
+    "prevDisabled": false,
+    "range": "100",
+    "scroll": {
+      "clientHeight": 644,
+      "clientWidth": 1227,
+      "height": 644,
+      "width": 1227
+    },
+    "title": "3 / 4 · 独乐寺观音阁 · 从斜侧追踪山面与檐角",
+    "viewport": {
+      "height": 900,
+      "width": 1280
+    }
+  },
+  {
+    "name": "desktop-photo-3",
+    "photo": {
+      "complete": true,
+      "height": 1276,
+      "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-plaque-2024/843fdd683488bffb/full.webp",
+      "width": 1702
+    },
+    "prevDisabled": false,
+    "range": "100",
+    "scroll": {
+      "clientHeight": 644,
+      "clientWidth": 1227,
+      "height": 644,
+      "width": 1227
+    },
+    "title": "4 / 4 · 独乐寺观音阁 · 匾额两侧，分辨上檐铺作",
+    "viewport": {
+      "height": 900,
+      "width": 1280
+    }
+  },
+  {
+    "name": "desktop-photo-zoom",
+    "photo": {
+      "complete": true,
+      "height": 1276,
+      "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-plaque-2024/843fdd683488bffb/full.webp",
+      "width": 1702
+    },
+    "prevDisabled": false,
+    "range": "400",
+    "scroll": {
+      "clientHeight": 644,
+      "clientWidth": 1227,
+      "height": 3680,
+      "width": 4908
+    },
+    "title": "4 / 4 · 独乐寺观音阁 · 匾额两侧，分辨上檐铺作",
+    "viewport": {
+      "height": 900,
+      "width": 1280
+    }
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "id": "dule-oblique-2014",
+    "width": 5184,
+    "height": 3456,
+    "sha256": "60794009521b6cae2cabfc543f04f600f7a95101dc4077a92daf0e396dc93de5",
+    "iccProfilePreserved": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Guanyin_Pavilion_of_Dule_Temple.JPG",
+    "sourceFile": "Guanyin Pavilion of Dule Temple.JPG",
+    "author": "Xin",
+    "date": "2014-07-16",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
+    "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-oblique-2014/60794009521b6cae/original.jpg",
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-oblique-2014/60794009521b6cae/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-oblique-2014/60794009521b6cae/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-oblique-2014/60794009521b6cae/full.webp",
+    "originalSHA1": "41206bb2c882d4ae4408b248a69ff14c893e88e9",
+    "variants": {
+      "original": {
+        "bytes": 4885450,
+        "sha256": "60794009521b6cae2cabfc543f04f600f7a95101dc4077a92daf0e396dc93de5"
+      },
+      "thumb": {
+        "bytes": 26030,
+        "sha256": "a9eeaea805d562bf4846688262baa96293ff41f648bbb1c29009e57072c8f266"
+      },
+      "display": {
+        "bytes": 215420,
+        "sha256": "414ee509f5a06039b454117874972decf238ec2fb3969fb300e5cc41b25f814c"
+      },
+      "full": {
+        "bytes": 1301176,
+        "sha256": "85590e2e94d59f61666ecee667a9d5451de94290cc5eb64af3c3355e513a6182"
+      }
+    }
+  },
+  {
+    "id": "dule-front-2020",
+    "width": 5870,
+    "height": 3602,
+    "sha256": "d369d2833d873a653266d34adfd40c854669a0db092e813eab03538fa4a7e8e8",
+    "iccProfilePreserved": true,
+    "source": "https://commons.wikimedia.org/wiki/File:%E7%8B%AC%E4%B9%90%E5%AF%BA%E8%A7%82%E9%9F%B3%E9%98%812020.jpg",
+    "sourceFile": "独乐寺观音阁2020.jpg",
+    "author": "ScareCriterion12",
+    "date": "2020-05-04",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
+    "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-front-2020/d369d2833d873a65/original.jpg",
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-front-2020/d369d2833d873a65/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-front-2020/d369d2833d873a65/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-front-2020/d369d2833d873a65/full.webp",
+    "originalSHA1": "d39da12234ade659818c27cc1335f77dd9741641",
+    "variants": {
+      "original": {
+        "bytes": 15106127,
+        "sha256": "d369d2833d873a653266d34adfd40c854669a0db092e813eab03538fa4a7e8e8"
+      },
+      "thumb": {
+        "bytes": 43716,
+        "sha256": "7c4424bd97c1c18feb51f775b1ef1aa93afe714e8a518d98037886fa4e0435e8"
+      },
+      "display": {
+        "bytes": 370368,
+        "sha256": "ce55384598020272099ef559a1d90d9730a43ca373055a7c4f14893a05b1a6f2"
+      },
+      "full": {
+        "bytes": 4556666,
+        "sha256": "5ca4780f9065207a321517cd8c9e12653f3289f78bd702859de225b7038774bf"
+      }
+    }
+  },
+  {
+    "id": "dule-plaque-2024",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "843fdd683488bffbcc129629b6e1b2acd41eacce189affdf06e6d6b52ad05dff",
+    "iccProfilePreserved": false,
+    "source": "https://commons.wikimedia.org/wiki/File:%E7%8B%AC%E4%B9%90%E5%AF%BA%E8%A7%82%E9%9F%B3%E9%98%81%E2%80%9C%E8%A7%82%E9%9F%B3%E4%B9%8B%E9%98%81%E2%80%9D%E5%8C%BE.jpg",
+    "sourceFile": "独乐寺观音阁“观音之阁”匾.jpg",
+    "author": "Patrick20242023",
+    "date": "2024-01-08",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
+    "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-plaque-2024/843fdd683488bffb/original.jpg",
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-plaque-2024/843fdd683488bffb/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-plaque-2024/843fdd683488bffb/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-plaque-2024/843fdd683488bffb/full.webp",
+    "originalSHA1": "a82b115243633b0cbbd8b620f0adc3d28917e79d",
+    "variants": {
+      "original": {
+        "bytes": 455785,
+        "sha256": "843fdd683488bffbcc129629b6e1b2acd41eacce189affdf06e6d6b52ad05dff"
+      },
+      "thumb": {
+        "bytes": 60610,
+        "sha256": "63ab54eecf2ef34e35c5ac1c97329185250f07ca93951419761d4b76ec4c761b"
+      },
+      "display": {
+        "bytes": 504402,
+        "sha256": "5ffd47019e3d276eecbf3c536ab4ec0cd6d3761a24fe8ceda77f591c84933c1d"
+      },
+      "full": {
+        "bytes": 566678,
+        "sha256": "20706d9858d3c220a97354217150e1778acf7df2a3f1fb5c6bd7cd4f01ed10ce"
+      }
+    }
+  },
+  {
+    "id": "dule-front-2013",
+    "width": 4288,
+    "height": 2848,
+    "sha256": "9d0da45d06611dad551cd19fa89295bfe1ecaad3e73c3078d007b85e5c0b9119",
+    "iccProfilePreserved": false,
+    "source": "https://commons.wikimedia.org/wiki/File:%E7%8B%AC%E4%B9%90%E5%AF%BA%E8%A7%82%E9%9F%B3%E9%98%81%E6%AD%A3%E9%9D%A21.JPG",
+    "sourceFile": "独乐寺观音阁正面1.JPG",
+    "author": "Hat600",
+    "date": "2013-10-04",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
+    "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-front-2013/9d0da45d06611dad/original.jpg",
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-front-2013/9d0da45d06611dad/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-front-2013/9d0da45d06611dad/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dule-front-2013/9d0da45d06611dad/full.webp",
+    "originalSHA1": "d2cf274fcd437124be8d188921a6916c4a0ac05c",
+    "variants": {
+      "original": {
+        "bytes": 3219406,
+        "sha256": "9d0da45d06611dad551cd19fa89295bfe1ecaad3e73c3078d007b85e5c0b9119"
+      },
+      "thumb": {
+        "bytes": 44692,
+        "sha256": "f1ff5adfcfc548226b4f1992c8a25e0a59692ff6ad89967be28b03e5d35a6bf1"
+      },
+      "display": {
+        "bytes": 359868,
+        "sha256": "ad07e42098e4ee253aa76c9b303eda99c7293468e94efc2bb4ed774cacac87f4"
+      },
+      "full": {
+        "bytes": 1398794,
+        "sha256": "eb65d3257ca5c07f3d4d36d61d3b092cbb20325ccb16187a1d10ba47cdb7cb8f"
+      }
+    }
+  }
+]

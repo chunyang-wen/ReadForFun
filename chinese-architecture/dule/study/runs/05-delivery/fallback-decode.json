@@ -1,0 +1,128 @@
+[
+  {
+    "alt": "dule-interior-2023/thumb",
+    "complete": true,
+    "h": 360,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-interior-2023/528aa64de9c37fbf/thumb.webp",
+    "w": 480
+  },
+  {
+    "alt": "dule-interior-2023/display",
+    "complete": true,
+    "h": 1200,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-interior-2023/528aa64de9c37fbf/display.webp",
+    "w": 1600
+  },
+  {
+    "alt": "dule-interior-2023/full",
+    "complete": true,
+    "h": 3000,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-interior-2023/528aa64de9c37fbf/full.webp",
+    "w": 4000
+  },
+  {
+    "alt": "dule-west-1932/thumb",
+    "complete": true,
+    "h": 480,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-west-1932/7ecfaeaa2014ce9a/thumb.webp",
+    "w": 301
+  },
+  {
+    "alt": "dule-west-1932/display",
+    "complete": true,
+    "h": 1600,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-west-1932/7ecfaeaa2014ce9a/display.webp",
+    "w": 1004
+  },
+  {
+    "alt": "dule-west-1932/full",
+    "complete": true,
+    "h": 2348,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-west-1932/7ecfaeaa2014ce9a/full.webp",
+    "w": 1474
+  },
+  {
+    "alt": "dule-inner-1932/thumb",
+    "complete": true,
+    "h": 273,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-inner-1932/7ecfaeaa2014ce9a/thumb.webp",
+    "w": 480
+  },
+  {
+    "alt": "dule-inner-1932/display",
+    "complete": true,
+    "h": 909,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-inner-1932/7ecfaeaa2014ce9a/display.webp",
+    "w": 1600
+  },
+  {
+    "alt": "dule-inner-1932/full",
+    "complete": true,
+    "h": 1301,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-inner-1932/7ecfaeaa2014ce9a/full.webp",
+    "w": 2290
+  },
+  {
+    "alt": "dule-stair-1932/thumb",
+    "complete": true,
+    "h": 480,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-stair-1932/7ecfaeaa2014ce9a/thumb.webp",
+    "w": 269
+  },
+  {
+    "alt": "dule-stair-1932/display",
+    "complete": true,
+    "h": 1600,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-stair-1932/7ecfaeaa2014ce9a/display.webp",
+    "w": 897
+  },
+  {
+    "alt": "dule-stair-1932/full",
+    "complete": true,
+    "h": 2590,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-stair-1932/7ecfaeaa2014ce9a/full.webp",
+    "w": 1452
+  },
+  {
+    "alt": "dule-upper-corner-1932/thumb",
+    "complete": true,
+    "h": 480,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-upper-corner-1932/7ecfaeaa2014ce9a/thumb.webp",
+    "w": 292
+  },
+  {
+    "alt": "dule-upper-corner-1932/display",
+    "complete": true,
+    "h": 1600,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-upper-corner-1932/7ecfaeaa2014ce9a/display.webp",
+    "w": 973
+  },
+  {
+    "alt": "dule-upper-corner-1932/full",
+    "complete": true,
+    "h": 2399,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-upper-corner-1932/7ecfaeaa2014ce9a/full.webp",
+    "w": 1459
+  },
+  {
+    "alt": "dule-shaft-1932/thumb",
+    "complete": true,
+    "h": 480,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-shaft-1932/7ecfaeaa2014ce9a/thumb.webp",
+    "w": 295
+  },
+  {
+    "alt": "dule-shaft-1932/display",
+    "complete": true,
+    "h": 1600,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-shaft-1932/7ecfaeaa2014ce9a/display.webp",
+    "w": 983
+  },
+  {
+    "alt": "dule-shaft-1932/full",
+    "complete": true,
+    "h": 2441,
+    "src": "http://localhost:8765/chinese-architecture/photos/fallback/dule-shaft-1932/7ecfaeaa2014ce9a/full.webp",
+    "w": 1500
+  }
+]
