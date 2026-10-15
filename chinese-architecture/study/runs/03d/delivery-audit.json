@@ -1,0 +1,109 @@
+{
+  "schema": "foguang-delivery-audit/v1",
+  "revision": "foguang-production-03",
+  "tests": {
+    "pass": 34,
+    "fail": 0,
+    "exitCode": 0
+  },
+  "sourceHashMismatches": [],
+  "studyHashMismatches": [],
+  "browserReports": [
+    {
+      "file": "desktop-production.json",
+      "sha256": "4d3a01b3c7ab483853d9ca3be31c09e92cfe1ed1ffe04baf93c2788557a5e3bb",
+      "cases": 15,
+      "logs": []
+    },
+    {
+      "file": "mobile-production.json",
+      "sha256": "14d34ac7fb71849b9a675ef3c0bdaed7785681b9ca80c09872b6b61cb6ab64ea",
+      "cases": 15,
+      "logs": []
+    },
+    {
+      "file": "desktop-photos.json",
+      "sha256": "cb88d8fd910af21165b48b0e64fc1e05f6bdd1ad30c8d736897c7b5f3f138902",
+      "cases": 11,
+      "logs": []
+    },
+    {
+      "file": "mobile-photos.json",
+      "sha256": "324cec3cbd9c41e08940cf1fea40ccca4014b24b698dbf47e252ac0c13c9f287",
+      "cases": 11,
+      "logs": []
+    }
+  ],
+  "finalSceneCount": 52,
+  "studyReplays": "../03b/study-desktop.json + study-desktop-baselines.json + study-mobile.json: 40 scenes, matching study-verification hashes",
+  "galleryNavigation": "../03c/desktop-navigation.json and mobile-navigation.json; gallery/catalog/viewer unchanged to 03d",
+  "photoDerivatives": [
+    {
+      "path": "chinese-architecture/photos/fallback/foguang-facade/df6ed362fb4bd008/thumb.webp",
+      "sha256": "5a5837a043e493062eb9dae571f06ce43dadbdd6af0b97362d493132887546ff"
+    },
+    {
+      "path": "chinese-architecture/photos/fallback/foguang-facade/df6ed362fb4bd008/display.webp",
+      "sha256": "7117d89339498a0988de415cececcf25649a623643999b4de722c90782b82c6c"
+    },
+    {
+      "path": "chinese-architecture/photos/fallback/foguang-facade/df6ed362fb4bd008/full.webp",
+      "sha256": "fa66f8a39fc7f8a83de9a63dfdb0bc5f6b99584b3e342890e4f47a313dfd7479"
+    },
+    {
+      "path": "chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/thumb.webp",
+      "sha256": "5140b271f9eb737d37eb42207745a44e1e851cab55d9121c782fcecb5aef61fb"
+    },
+    {
+      "path": "chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/display.webp",
+      "sha256": "fbfb08db8bb57f4e0f5b1bccbd83c5a6e56e4dbea637850a8f3b801d336679a0"
+    },
+    {
+      "path": "chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/full.webp",
+      "sha256": "1513329a7b0108bc3daabaf9a3f8bc3d82360280850586355ea1861210719f76"
+    },
+    {
+      "path": "chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/thumb.webp",
+      "sha256": "9f61f68425681dc901ac5f520a3cba5dec05fbba73ca1bbce6f80c7af874b2dc"
+    },
+    {
+      "path": "chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/display.webp",
+      "sha256": "3e069dc9be9cbd5673307db23ba5c2ebe4f4fb069dcb78e0d2e1cb2ff7364d98"
+    },
+    {
+      "path": "chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/full.webp",
+      "sha256": "5a841a8a5d81c4a56b0367f947e51cc68b697e289399576f57f00ae7c0227b5a"
+    },
+    {
+      "path": "chinese-architecture/photos/fallback/foguang-corner-context/bf336a82f80ad875/thumb.webp",
+      "sha256": "d8737075865cbe9731792d20ae4573f41dd86e8b5469c87b90e89893af680b37"
+    },
+    {
+      "path": "chinese-architecture/photos/fallback/foguang-corner-context/bf336a82f80ad875/display.webp",
+      "sha256": "f8df6184f8d2f33df3f9cbca37ec8fab1efa10614d8d811186e2c22c20e87dc7"
+    },
+    {
+      "path": "chinese-architecture/photos/fallback/foguang-corner-context/bf336a82f80ad875/full.webp",
+      "sha256": "84cec8e6043a9ba3762f3dc8917324a20e397ca628e94780247f91b5b91fbdc1"
+    }
+  ],
+  "previews": [
+    {
+      "file": "review-contact-sheet.jpg",
+      "sha256": "5803ab9e09298a95027031dbbe8e82925fb64f0065e43dcbae51ae1c4f9d3927",
+      "method": "Original browser captures cropped for viewport review; no image enhancement"
+    },
+    {
+      "file": "production-preview.jpg",
+      "sha256": "c8ae72f7de4d9cfccdb6dad0962a16fa3c128aa6486e7483d06117e34f4e5ebf",
+      "method": "Original browser captures cropped for viewport review; no image enhancement"
+    }
+  ],
+  "publication": {
+    "local": true,
+    "R2Uploaded": false,
+    "publicCDNChecked": false,
+    "deployed": false
+  },
+  "scope": "First volume plus shared atlas entries/tests and appended lessons only; preserve unrelated working tree changes"
+}

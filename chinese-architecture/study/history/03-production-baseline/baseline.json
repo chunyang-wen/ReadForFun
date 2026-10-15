@@ -1,0 +1,14 @@
+{
+  "head": "d0d39b41009f386ee78a80c1011ea914d42ab839",
+  "status": "?? chinese-architecture/dule/study/history/03-baseline/\n?? chinese-architecture/study/history/03-production-baseline/\n",
+  "hashes": {
+    "model.js": "a893d694e1af51e51cee62dee8a59564dd2aa6ef81e0b409effdd5ff3a0741a8",
+    "app.js": "21bde1b0a44a0490c44b19e03f61f94cf1cb3e1bf751756a8eaf524953628153",
+    "data.js": "31d465ab66f51de88aef9d7b31c228c05d7a0980e7c2bc413214f4cd96b83ecc",
+    "index.html": "7a84f8c88b574c457f9ea5351cae215cd5fb32498ff12d6e12e5cfc0db32433c",
+    "MODEL_NOTES.md": "40ff892a81c5b2d474f64f31625e6e5179173470b5f495bf31fcbc901cf9cbae",
+    "study/experiment.json": "bc95cec00ab9ba0038bc22362a61092ac86cf0a46bccf3d79b36c301e106edd7",
+    "study/RESEARCH.md": "063f66394c5cd268ceadd4a342d00f2f9aa9111e1334562fc02de5235fa4a539"
+  },
+  "note": "Historical fragments, restore to original paths with matching vendor; not a standalone site."
+}

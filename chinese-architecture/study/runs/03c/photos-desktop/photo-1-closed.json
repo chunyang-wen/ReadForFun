@@ -1,0 +1,31 @@
+{
+  "chapter": "观全貌",
+  "dialogOpen": false,
+  "focus": "photo-open",
+  "images": [
+    {
+      "complete": true,
+      "height": 1200,
+      "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-facade/df6ed362fb4bd008/display.webp",
+      "width": 1600
+    },
+    {
+      "complete": true,
+      "height": 3024,
+      "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-facade/df6ed362fb4bd008/full.webp",
+      "width": 4032
+    }
+  ],
+  "scroll": {
+    "clientHeight": 0,
+    "height": 0,
+    "top": 0
+  },
+  "title": "沿前檐读五门两窗",
+  "viewport": {
+    "height": 900,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  "zoom": "100"
+}

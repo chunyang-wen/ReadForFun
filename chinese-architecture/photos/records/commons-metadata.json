@@ -1819,5 +1819,379 @@
     },
     "id": "taimiao-plaque",
     "localFile": "../original-25.jpg"
+  },
+  {
+    "id": "foguang-facade",
+    "file": "File:佛光寺东大殿右侧面.jpg",
+    "info": {
+      "size": 7648940,
+      "width": 4032,
+      "height": 3024,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/%E4%BD%9B%E5%85%89%E5%AF%BA%E4%B8%9C%E5%A4%A7%E6%AE%BF%E5%8F%B3%E4%BE%A7%E9%9D%A2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E4%BD%9B%E5%85%89%E5%AF%BA%E4%B8%9C%E5%A4%A7%E6%AE%BF%E5%8F%B3%E4%BE%A7%E9%9D%A2.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149264872",
+      "sha1": "6453addcee9357d343881b46c4a35c2e47eabeb2",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-06-11 11:47:34",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "佛光寺东大殿右侧面",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|East Great Hall of Foguang Temple",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "佛光寺东大殿右侧面",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-05-23",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Patrick20242023\" title=\"User:Patrick20242023\">Patrick20242023</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "0.jpg"
+  },
+  {
+    "id": "foguang-intermediate",
+    "file": "File:佛光寺东大殿补间铺作正面视角.jpg",
+    "info": {
+      "size": 5686279,
+      "width": 3024,
+      "height": 4032,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/%E4%BD%9B%E5%85%89%E5%AF%BA%E4%B8%9C%E5%A4%A7%E6%AE%BF%E8%A1%A5%E9%97%B4%E9%93%BA%E4%BD%9C%E6%AD%A3%E9%9D%A2%E8%A7%86%E8%A7%92.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E4%BD%9B%E5%85%89%E5%AF%BA%E4%B8%9C%E5%A4%A7%E6%AE%BF%E8%A1%A5%E9%97%B4%E9%93%BA%E4%BD%9C%E6%AD%A3%E9%9D%A2%E8%A7%86%E8%A7%92.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149264863",
+      "sha1": "f36d56163ac1cf498fe2b7b8c1ee833e6f6db3ce",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-06-11 11:47:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "佛光寺东大殿补间铺作正面视角",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|East Great Hall of Foguang Temple|Dougong in Shanxi",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "佛光寺东大殿补间铺作正面视角",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-05-23",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Patrick20242023\" title=\"User:Patrick20242023\">Patrick20242023</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "1.jpg"
+  },
+  {
+    "id": "foguang-eaves",
+    "file": "File:佛光寺东大殿铺作层侧面视角二.jpg",
+    "info": {
+      "size": 10800326,
+      "width": 5712,
+      "height": 4284,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/%E4%BD%9B%E5%85%89%E5%AF%BA%E4%B8%9C%E5%A4%A7%E6%AE%BF%E9%93%BA%E4%BD%9C%E5%B1%82%E4%BE%A7%E9%9D%A2%E8%A7%86%E8%A7%92%E4%BA%8C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E4%BD%9B%E5%85%89%E5%AF%BA%E4%B8%9C%E5%A4%A7%E6%AE%BF%E9%93%BA%E4%BD%9C%E5%B1%82%E4%BE%A7%E9%9D%A2%E8%A7%86%E8%A7%92%E4%BA%8C.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149264860",
+      "sha1": "726b8aa7ee920e84fe297f75e369d359b89b879b",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-06-11 11:47:06",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "佛光寺东大殿铺作层侧面视角二",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|East Great Hall of Foguang Temple|Dougong in Shanxi",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "佛光寺东大殿铺作层侧面视角二",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-05-23",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Patrick20242023\" title=\"User:Patrick20242023\">Patrick20242023</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "2.jpg"
+  },
+  {
+    "id": "foguang-corner-context",
+    "file": "File:Wutai Foguang Si 2013.08.28 10-55-51.jpg",
+    "info": {
+      "size": 10993182,
+      "width": 5472,
+      "height": 3648,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Wutai_Foguang_Si_2013.08.28_10-55-51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wutai_Foguang_Si_2013.08.28_10-55-51.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=31970307",
+      "sha1": "56edb000b2cab60038c2e1aac44733bc86bba548",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-04-03 12:40:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Wutai Foguang Si 2013.08.28 10-55-51",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Taken with Canon EOS 6D|CC-BY-SA-3.0,2.5,2.0,1.0|License migration redundant|Self-published work|Files with coordinates missing SDC location of creation|East Great Hall of Foguang Temple",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "38.868955",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "113.387197",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<p>五台佛光寺——\n</p>\n大殿",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-08-28 10:55:51",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Zhangzhugang\" title=\"User:Zhangzhugang\">Zhangzhugang</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "You may select the license of your choice.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "0.jpg"
   }
 ]

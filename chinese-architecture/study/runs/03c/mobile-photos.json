@@ -1,0 +1,381 @@
+{
+  "schema": "foguang-photo-replay/v1",
+  "utc": "2026-10-15T13:25:20.359Z",
+  "results": [
+    {
+      "id": "photo-0-full",
+      "state": {
+        "chapter": "观全貌",
+        "dialogOpen": true,
+        "focus": "",
+        "images": [
+          {
+            "complete": true,
+            "height": 1067,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-corner-context/bf336a82f80ad875/display.webp",
+            "width": 1600
+          },
+          {
+            "complete": true,
+            "height": 3648,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-corner-context/bf336a82f80ad875/full.webp",
+            "width": 5472
+          }
+        ],
+        "scroll": {
+          "clientHeight": 560,
+          "height": 560,
+          "top": 0
+        },
+        "title": "隔着台地看檐角",
+        "viewport": {
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "zoom": "100"
+      }
+    },
+    {
+      "id": "photo-0-closed",
+      "state": {
+        "chapter": "观全貌",
+        "dialogOpen": false,
+        "focus": "photo-open",
+        "images": [
+          {
+            "complete": true,
+            "height": 1067,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-corner-context/bf336a82f80ad875/display.webp",
+            "width": 1600
+          },
+          {
+            "complete": true,
+            "height": 3648,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-corner-context/bf336a82f80ad875/full.webp",
+            "width": 5472
+          }
+        ],
+        "scroll": {
+          "clientHeight": 0,
+          "height": 0,
+          "top": 0
+        },
+        "title": "隔着台地看檐角",
+        "viewport": {
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "zoom": "100"
+      }
+    },
+    {
+      "id": "photo-1-full",
+      "state": {
+        "chapter": "观全貌",
+        "dialogOpen": true,
+        "focus": "",
+        "images": [
+          {
+            "complete": true,
+            "height": 1200,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-facade/df6ed362fb4bd008/display.webp",
+            "width": 1600
+          },
+          {
+            "complete": true,
+            "height": 3024,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-facade/df6ed362fb4bd008/full.webp",
+            "width": 4032
+          }
+        ],
+        "scroll": {
+          "clientHeight": 560,
+          "height": 560,
+          "top": 0
+        },
+        "title": "沿前檐读五门两窗",
+        "viewport": {
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "zoom": "100"
+      }
+    },
+    {
+      "id": "photo-1-closed",
+      "state": {
+        "chapter": "观全貌",
+        "dialogOpen": false,
+        "focus": "photo-open",
+        "images": [
+          {
+            "complete": true,
+            "height": 1200,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-facade/df6ed362fb4bd008/display.webp",
+            "width": 1600
+          },
+          {
+            "complete": true,
+            "height": 3024,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-facade/df6ed362fb4bd008/full.webp",
+            "width": 4032
+          }
+        ],
+        "scroll": {
+          "clientHeight": 0,
+          "height": 0,
+          "top": 0
+        },
+        "title": "沿前檐读五门两窗",
+        "viewport": {
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "zoom": "100"
+      }
+    },
+    {
+      "id": "photo-2-full",
+      "state": {
+        "chapter": "观全貌",
+        "dialogOpen": true,
+        "focus": "",
+        "images": [
+          {
+            "complete": true,
+            "height": 1200,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/display.webp",
+            "width": 1600
+          },
+          {
+            "complete": true,
+            "height": 4284,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/full.webp",
+            "width": 5712
+          }
+        ],
+        "scroll": {
+          "clientHeight": 555,
+          "height": 555,
+          "top": 0
+        },
+        "title": "把瓦口与柱头放回同一画面",
+        "viewport": {
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "zoom": "100"
+      }
+    },
+    {
+      "id": "photo-zoom",
+      "state": {
+        "chapter": "观全貌",
+        "dialogOpen": true,
+        "focus": "photo-scroll",
+        "images": [
+          {
+            "complete": true,
+            "height": 1200,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/display.webp",
+            "width": 1600
+          },
+          {
+            "complete": true,
+            "height": 4284,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/full.webp",
+            "width": 5712
+          }
+        ],
+        "scroll": {
+          "clientHeight": 555,
+          "height": 1140,
+          "top": 585
+        },
+        "title": "把瓦口与柱头放回同一画面",
+        "viewport": {
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "zoom": "400"
+      }
+    },
+    {
+      "id": "photo-2-closed",
+      "state": {
+        "chapter": "观全貌",
+        "dialogOpen": false,
+        "focus": "photo-open",
+        "images": [
+          {
+            "complete": true,
+            "height": 1200,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/display.webp",
+            "width": 1600
+          },
+          {
+            "complete": true,
+            "height": 4284,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/full.webp",
+            "width": 5712
+          }
+        ],
+        "scroll": {
+          "clientHeight": 0,
+          "height": 0,
+          "top": 0
+        },
+        "title": "把瓦口与柱头放回同一画面",
+        "viewport": {
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "zoom": "400"
+      }
+    },
+    {
+      "id": "photo-3-full",
+      "state": {
+        "chapter": "观全貌",
+        "dialogOpen": true,
+        "focus": "",
+        "images": [
+          {
+            "complete": true,
+            "height": 1600,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/display.webp",
+            "width": 1200
+          },
+          {
+            "complete": true,
+            "height": 4032,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/full.webp",
+            "width": 3024
+          }
+        ],
+        "scroll": {
+          "clientHeight": 555,
+          "height": 555,
+          "top": 0
+        },
+        "title": "补间与柱头需要分别核对",
+        "viewport": {
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "zoom": "100"
+      }
+    },
+    {
+      "id": "photo-3-closed",
+      "state": {
+        "chapter": "观全貌",
+        "dialogOpen": false,
+        "focus": "photo-open",
+        "images": [
+          {
+            "complete": true,
+            "height": 1600,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/display.webp",
+            "width": 1200
+          },
+          {
+            "complete": true,
+            "height": 4032,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/full.webp",
+            "width": 3024
+          }
+        ],
+        "scroll": {
+          "clientHeight": 0,
+          "height": 0,
+          "top": 0
+        },
+        "title": "补间与柱头需要分别核对",
+        "viewport": {
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "zoom": "100"
+      }
+    },
+    {
+      "id": "photo-to-roof",
+      "state": {
+        "chapter": "循屋架",
+        "dialogOpen": false,
+        "focus": "photo-model",
+        "images": [
+          {
+            "complete": true,
+            "height": 1200,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/display.webp",
+            "width": 1600
+          },
+          {
+            "complete": true,
+            "height": 4032,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/full.webp",
+            "width": 3024
+          }
+        ],
+        "scroll": {
+          "clientHeight": 0,
+          "height": 0,
+          "top": 0
+        },
+        "title": "把瓦口与柱头放回同一画面",
+        "viewport": {
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "zoom": "100"
+      }
+    },
+    {
+      "id": "photo-to-whole",
+      "state": {
+        "chapter": "观全貌",
+        "dialogOpen": false,
+        "focus": "photo-model",
+        "images": [
+          {
+            "complete": true,
+            "height": 1600,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/display.webp",
+            "width": 1200
+          },
+          {
+            "complete": true,
+            "height": 4032,
+            "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/full.webp",
+            "width": 3024
+          }
+        ],
+        "scroll": {
+          "clientHeight": 0,
+          "height": 0,
+          "top": 0
+        },
+        "title": "补间与柱头需要分别核对",
+        "viewport": {
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "zoom": "100"
+      }
+    }
+  ],
+  "logs": []
+}

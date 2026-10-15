@@ -1,0 +1,23 @@
+{
+  "revision": "foguang-production-03",
+  "files": {
+    "app.js": "c5b79fc30f02afd5cbdbd474f9b70f9eb5b3f40f90ee6dc034081a8cf6628dfb",
+    "data.js": "d7a909dad0863ae300a774f62cd2e7022fe053067c60c71e41b0b06e07574296",
+    "index.html": "a745ae9c041a8129e9cf7d4ac53442934a7cd81fdb547f11796b745a68ef9fb4",
+    "model.js": "d236e3bea947353b4ef4c063cfebce8d0b4f141896a3a7405b447d9c424b2760",
+    "production-model.js": "1cffe32e57642a2f45614282e45fa7e7dcd8e4a375b864ba6e2a3831d600fd2a",
+    "production-view.js": "12f54e1e1f3ecea18f542d75927df9c353a3cbf7b2342aa34e737ce6f73474a5",
+    "study/production-experiment.json": "93be4cd0b216ad4ef978e42d953e1c6fc5d83fde1111686e37ff060653687a06",
+    "study/replay-production.mjs": "b07c73d7cc002dc064c618c6d6a8c09a9d17b0afd50822ba6c9c0e662c541ab5",
+    "study/replay-photos.mjs": "68bb0e648bae2a5f3fe89217b361158d867b41cac56c2e49ec717a36b53cbc8d",
+    "study/enclosure.js": "eb3da597331291a5e66a138f8305e99732c8d32fac0ea66ea3cf2d0b2327a1f6",
+    "study/roof-envelope.js": "3ff0ce1ded83c2a11a00fa83f7fd607221d179997b91159257656cb1899d0062",
+    "study/adapt-model.js": "18a604f8478f1811ee787b3cb5949c535773bbfad5cf547e110f766077edcbd6",
+    "study/materials.js": "dd02b2d0e649425ffc2b785272c3cb82783ec050fed275c01bcba4ec31042c76",
+    "photos/catalog.js": "cb268622df1d62597ae4b100672d671f3db1c270ac62180627bf911601a803cb",
+    "photos/assets.json": "3aae7b3bc736daadf996f06f38b46d56ad8e25428fe9a69ad68b363526f4fbac",
+    "photos/catalog.test.js": "8896ff1c36065ab020a09aa710c13726ac13d8f7db642854dfd04628812f8ef7",
+    "tests/production.test.js": "26ba815bcfeac83d5c73ac7a757895f04424ffe16efdead5de7c03ba243962c4"
+  },
+  "limits": "Source fragments; restore to original relative locations with matching vendor and study dependencies. Not an independently hosted site."
+}

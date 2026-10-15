@@ -1,0 +1,19 @@
+{
+  "schema": "gallery-navigation/v1",
+  "actualViewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "start": 1,
+  "firstPreviousDisabled": true,
+  "operations": [
+    "下一张按钮",
+    "ArrowRight",
+    "上一张按钮",
+    "ArrowLeft",
+    "Escape"
+  ],
+  "afterArrowRight": 3,
+  "afterArrowLeft": 1,
+  "screenshot": "photos-desktop/photo-navigation.jpg"
+}

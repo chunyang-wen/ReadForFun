@@ -1,4 +1,5 @@
 export const SOURCES = [
+ {id:'facade',title:'香港教育局：园池木构建筑',url:'https://www.edb.gov.hk/attachment/sc/curriculum-development/kla/pshe/references-and-resources/ethics-and-religious-studies/Nan_Lian_Garden/3iii_sc.pdf',note:'PDF第2页：当中五间板门、两端槛墙直棂窗；尺寸及修缮分期未核。'},
  {id:'survey',title:'张荣：佛光寺东大殿数字化勘察与唐代材分研究',url:'https://www.kaah.or.kr/download/mailing/kaah_seminar_presentation1_1.pdf',note:'PDF 第 16–18、26–28 页：梁架剖面、外檐铺作、开间与材分。'},
  {id:'plan',title:'梁思成 1937 年东大殿测绘图 · 香港大学资料页',url:'https://learning.hku.hk/ccch9051/group-13/items/show/1',note:'七间、四进；22 根外柱与 14 根内柱。'},
  {id:'dimensions',title:'East Main Hall · 结构与木材退化研究',url:'https://www.mdpi.com/2673-4117/7/5/200',note:'第 3.1 节与图 5：总体尺寸与结构分析模型。分析模型不等同于实测复原。'},
@@ -51,5 +52,5 @@ export const PARTS = {
  rafter:{name:'椽',term:'屋架 / 顺坡密木',text:'顺屋面坡向排列，跨在各道槫上。模型逐根建出长坡椽与山面椽，便于观察方向变化。',evidence:'方向与系统关系有依据；间距、根数和截面规则化。'},
  hip:{name:'角梁',term:'屋架 / 四隅',text:'斜向连接屋脊端部与檐角，组织两片坡面交汇处的椽架。',evidence:'路径依据四阿屋顶几何；翼角互锁、角昂穿插未实测复原。'},
  roof:{name:'望板与瓦面',term:'屋面 / 覆盖层',text:'椽上覆盖望板与灰瓦。瓦垄、檐口瓦当和屋脊均为独立几何，可以隐藏屋面观察下方木构。',evidence:'瓦垄密度、脊饰和曲面为视觉近似，未复原单片实物尺寸。'},
- enclosure:{name:'墙体、板门与直棂窗',term:'围护 / 殿身边界',text:'围护关闭后，柱网和梁架仍可独立辨认。模型呈现面向西的前檐入口与山面、后檐围护。',evidence:'仅表现类型与大致位置；不主张复原唐代原始门窗样式。'}
+ enclosure:{name:'墙体、板门与直棂窗',term:'围护 / 殿身边界',text:'围护关闭后，柱网和梁架仍可独立辨认。模型呈现面向西的前檐入口与山面、后檐围护。',evidence:'五门两窗形制有文献与照片支持；全部厚度、标高和分段为比例推定，未复原唐代门廊。'}
 };
