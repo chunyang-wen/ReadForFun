@@ -1,0 +1,97 @@
+{
+  "reviewedOn": "2026-10-15",
+  "selected": [
+    {
+      "id": "taihe-front",
+      "file": "從故宮中軸線近看太和殿.JPG",
+      "index": 0
+    },
+    {
+      "id": "taihe-southeast",
+      "file": "從體仁閣下看太和殿.JPG",
+      "index": 1
+    },
+    {
+      "id": "taihe-southwest",
+      "file": "從太和殿廣場西南角看太和殿.JPG",
+      "index": 2
+    },
+    {
+      "id": "taihe-northwest",
+      "file": "西北方向看太和殿.JPG",
+      "index": 3
+    },
+    {
+      "id": "taihe-rear",
+      "file": "Back view of Hall of Supreme Harmony.jpg",
+      "index": 4
+    },
+    {
+      "id": "taihe-dou",
+      "file": "太和殿柱頭鋪作.JPG",
+      "index": 5
+    },
+    {
+      "id": "taihe-corner",
+      "file": "太和殿的轉角出檐.JPG",
+      "index": 6
+    },
+    {
+      "id": "taihe-beasts",
+      "file": "太和殿的脊獸.JPG",
+      "index": 7
+    },
+    {
+      "id": "taihe-paint",
+      "file": "太和殿橫樑的金龍和璽彩畫.JPG",
+      "index": 8
+    },
+    {
+      "id": "taimiao-front-hd",
+      "file": "北京太庙享殿2023.1.jpg",
+      "index": 11
+    },
+    {
+      "id": "taimiao-oblique",
+      "file": "太庙，前殿.jpg",
+      "index": 15
+    },
+    {
+      "id": "taimiao-stairs",
+      "file": "太庙，前殿丹陛.jpg",
+      "index": 16
+    },
+    {
+      "id": "taimiao-oblique-wide",
+      "file": "Imperial Ancestral Temple.JPG",
+      "index": 18
+    },
+    {
+      "id": "taimiao-plaque",
+      "file": "Name plaque at the Imperial Ancestral Temple.JPG",
+      "index": 25
+    }
+  ],
+  "rejectedExamples": [
+    {
+      "file": "Ancestral Shrine at the Imperial Ancestral Temple.JPG",
+      "reason": "作者说明为 Back Hall，不属于本卷前殿。"
+    },
+    {
+      "file": "太庙.JPG / 太庙2.JPG",
+      "reason": "画面为单檐建筑，未确定前殿身份，不混入前殿图录。"
+    },
+    {
+      "file": "Forbiden city-Beijing-China - panoramio (15).jpg",
+      "reason": "画面为其他建筑，宽泛地点标题不能证明前殿身份。"
+    },
+    {
+      "file": "北京 皇城 太庙 享殿.jpg",
+      "reason": "仅1200×690，优先采用更清晰的前殿图。"
+    }
+  ],
+  "remainingGaps": [
+    "太庙前殿正侧面与背面，尚未取得身份、清晰度、再分发许可均适合的照片。",
+    "照片只是可见表面，未升级模型隐藏节点或历史彩画的证据等级。"
+  ]
+}

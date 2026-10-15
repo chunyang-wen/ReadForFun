@@ -1,0 +1,160 @@
+{
+  "timestamp": "2026-10-15T08:54:52.470685+00:00",
+  "upload": "16 objects uploaded; each S3 get-object matched local SHA256",
+  "publicHttp": [
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-caisson/803201b5deaed7b1/full.webp",
+      "http": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/tang-shi/assets/default-classical.svg",
+      "http": 403
+    }
+  ],
+  "objects": [
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-front/5dcd95b2eff8838f/original.jpg",
+      "sha256": "5dcd95b2eff8838f0687a928837e8bde3351768294e7acecea32b643e8461d78",
+      "bytes": 5755135,
+      "pixels": [
+        4500,
+        3000
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-front/5dcd95b2eff8838f/display.webp",
+      "sha256": "460479afc6e27591cab785499bac646fe15280504e528b1e387e3009a5ac5d41",
+      "bytes": 303838,
+      "pixels": [
+        1600,
+        1067
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-front/5dcd95b2eff8838f/thumb.webp",
+      "sha256": "dbc4ba9df53876f92cdeaf05844f3781d659b0821b276533fb8ef7d14469853c",
+      "bytes": 28520,
+      "pixels": [
+        480,
+        320
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-front/5dcd95b2eff8838f/full.webp",
+      "sha256": "46d00eeaf7fa580b416440f911d2a41807ab9a517405e1bc0d88e922966fd2bb",
+      "bytes": 1848660,
+      "pixels": [
+        4500,
+        3000
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-interior/7b17e1d758f5c1ad/original.jpg",
+      "sha256": "7b17e1d758f5c1ade8ee4d59f2361e722f29c917d1ec08451c3789d728892308",
+      "bytes": 3968000,
+      "pixels": [
+        3888,
+        2592
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-interior/7b17e1d758f5c1ad/display.webp",
+      "sha256": "c061f13954ce90a82951fb4ba430dcca05382b4e27ec1dabe932b12907bc57bb",
+      "bytes": 402710,
+      "pixels": [
+        1600,
+        1067
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-interior/7b17e1d758f5c1ad/thumb.webp",
+      "sha256": "8ac0da954f11df1f2e93f8b39116148213b3036879107c25911ce8c2e2a8ee6e",
+      "bytes": 54874,
+      "pixels": [
+        480,
+        320
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-interior/7b17e1d758f5c1ad/full.webp",
+      "sha256": "5578c43c0e710c78197f6a153aba8e9eddd1fbbb715bccae5fc051e8c7fc95e4",
+      "bytes": 1489658,
+      "pixels": [
+        3888,
+        2592
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-caisson/803201b5deaed7b1/original.jpg",
+      "sha256": "803201b5deaed7b1846b6951d527698c729d7f14dec3119e85c6a505938a93cb",
+      "bytes": 6053520,
+      "pixels": [
+        4000,
+        3000
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-caisson/803201b5deaed7b1/display.webp",
+      "sha256": "83110c9e655f26045a496e48651bff5ec332d1f68b2bf6fd62db3527ee43df42",
+      "bytes": 383864,
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-caisson/803201b5deaed7b1/thumb.webp",
+      "sha256": "8d11a30d913b8e46b7426e3f90e5d2671abefe8bba3c49516709248821bcc09b",
+      "bytes": 49626,
+      "pixels": [
+        480,
+        360
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-caisson/803201b5deaed7b1/full.webp",
+      "sha256": "3212151614c785ece14827a5549275ebf662d72ea21992e4ee790d4930cd8be0",
+      "bytes": 1646578,
+      "pixels": [
+        4000,
+        3000
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-interior/c001e76ac3eb0a14/original.jpg",
+      "sha256": "c001e76ac3eb0a14e21cec2f522f1cbf38bb0ed92dedb1669e1080439b344a6b",
+      "bytes": 5846437,
+      "pixels": [
+        4000,
+        3000
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-interior/c001e76ac3eb0a14/display.webp",
+      "sha256": "5b8ac843a8b3134bf9f6c567e4b06330845c87e7d46f43cb3ed9881bbb9b1bf9",
+      "bytes": 384748,
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-interior/c001e76ac3eb0a14/thumb.webp",
+      "sha256": "2a36bd6eeaf061badc0dd9290fbce7fa8f7be8e0b8b85b794919812240c87eeb",
+      "bytes": 45704,
+      "pixels": [
+        480,
+        360
+      ]
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-interior/c001e76ac3eb0a14/full.webp",
+      "sha256": "288d04440d493a908e4e87824e26a0777cb136a4ac56c2a5625363e5dfb0df93",
+      "bytes": 1629790,
+      "pixels": [
+        4000,
+        3000
+      ]
+    }
+  ]
+}

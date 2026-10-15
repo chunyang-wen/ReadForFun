@@ -1,0 +1,445 @@
+{
+  "schema": "architecture-realism/v1",
+  "id": "taimiao",
+  "revision": "02",
+  "utc": "2026-10-15T08:21:30.632Z",
+  "node": "v26.7.0",
+  "platform": "darwin",
+  "command": [
+    "/opt/homebrew/Cellar/node/26.7.0/bin/node",
+    "--test",
+    "chinese-architecture/tests/model.test.js",
+    "chinese-architecture/taimiao/tests/model.test.js",
+    "chinese-architecture/taimiao/tests/surface.test.js",
+    "chinese-architecture/realism-workflow/workflow.test.js",
+    "chinese-architecture/taimiao/tests/roof-system.test.js",
+    "chinese-architecture/realism-workflow/evidence-fit.test.js",
+    "chinese-architecture/taihe/tests/model.test.js",
+    "chinese-architecture/taihe/tests/surface.test.js"
+  ],
+  "exitCode": 0,
+  "hashes": {
+    "chinese-architecture/taimiao/study/experiment.json": "e95d60ff4293770083e307705442e53f0fda6ca10c5e40dd4f347d0fb7b4bb15",
+    "chinese-architecture/taimiao/model.js": "f40624c17992cd82f1379ea7a067f00768576d450145660c4c7544d350984c36",
+    "chinese-architecture/taimiao/data.js": "457dd5e70d019e6297f7bd65402dc6a50f5a018806043b9ec0d542250c1ee8d5",
+    "chinese-architecture/taimiao/study/study.js": "d2f10ef6b0abc6172cc1614442105da0294c8a8d66e7a640ba14037084eba41e",
+    "chinese-architecture/taimiao/study/materials.js": "985e33fc3e660e2a9077d9b93dc3a0dd8cb4b05fcce7b364a05828b6364c5a79",
+    "chinese-architecture/taimiao/study/roof-sample.js": "3df69cbcef1634d3b40f54b06f37666d46be6c53da09adeeb107bd338d2ae092",
+    "chinese-architecture/taimiao/study/index.html": "f9f0d6accf5ba6b8765e504e8030ee112954eaab3347ac9af7274b2c68ba4163",
+    "chinese-architecture/taimiao/study/style.css": "d841603f7f9ef56fa3c4877b24398ff8034401114eadf2d777db70a3e61af91d",
+    "chinese-architecture/realism-workflow/roof-patch.js": "8872a12db15b176ac81b1f27aadcbed7ea384fd79b1600c39d334c9bdeca7a5c",
+    "chinese-architecture/realism-workflow/replay.mjs": "2ecdb7f7fa1c6d81e54047cdd55d5a44dd27db3c8ae350f5027fb2ba4ae8e91f",
+    "chinese-architecture/realism-workflow/verify.mjs": "09edbf88c2741730c0e8e27ea7b8bb48d515e49b4ea5b54930b4688b0cd1003f",
+    "chinese-architecture/realism-workflow/manifest.js": "22b655d2ea45cad59ab0841ac1985e54ebd59b9356b62bcb857f40c690f37313",
+    "chinese-architecture/vendor/three.module.js": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+    "chinese-architecture/vendor/three.core.js": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6",
+    "chinese-architecture/vendor/OrbitControls.js": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b",
+    "chinese-architecture/vendor/BufferGeometryUtils.js": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797",
+    "chinese-architecture/fengxian/model.js": "fbb7fb83a31e5f5e3e2a883150fc2fc9820ba533de692a7d39a8e50b98b11470",
+    "chinese-architecture/fengxian/data.js": "257318ce9e6d3fe9c31bb3902a37b9be67c30438d62a71df62c72eaa682bc9c5",
+    "chinese-architecture/model.js": "a893d694e1af51e51cee62dee8a59564dd2aa6ef81e0b409effdd5ff3a0741a8",
+    "chinese-architecture/data.js": "31d465ab66f51de88aef9d7b31c228c05d7a0980e7c2bc413214f4cd96b83ecc",
+    "chinese-architecture/taihe/study/plaque.js": "816d129c086fc4a32e79b4c6ad621735c60e4f134526b4525a3a63a3f9926fc0",
+    "chinese-architecture/taihe/model.js": "3298aeb4a32ad9a97ced5f2cf177c4c656a10d18f7672f365467a467ceb40ce0",
+    "chinese-architecture/taihe/data.js": "b9466b149db2e8a5191e08d1e1f10f5777f404c1f40263650ed5408a28401913",
+    "chinese-architecture/taihe/study/roof-sample.js": "27fdb564f674ed950593bcf481044d9c900e2a5c8c54eb4cb79ada7e5e839228",
+    "chinese-architecture/taimiao/app.js": "9dd9e1b8cce9826881605ef285820ea06c68414e5882c5bac04512e0addcbfee",
+    "chinese-architecture/taimiao/study/capture.html": "dc082d7fdb6b2dd65d82ffba2aa231aa5f58f7e53b13c140e45d0b6485e63284",
+    "chinese-architecture/taimiao/study/replay-frame.mjs": "4db47072c7071470c9cb3561c472746d9c6c523298a4e75943b22dc3c81cab4f",
+    "chinese-architecture/taimiao/study/roof-system.js": "364e21b8cd355f6b3145dd23d17736a4b88d2ad85d82ee5b40c82f77d0068f6e",
+    "chinese-architecture/taimiao/study/calibrate.mjs": "4d1213ae1883fc6824ad61b3d932e773dbc99cfc1328a7a46fedc8308b1199cf",
+    "chinese-architecture/taimiao/study/calibration.json": "fe41f707c5d8b57bedbe4e5cd51380037632eb8a54e21b3b808391f2768835da",
+    "chinese-architecture/realism-workflow/evidence-fit.js": "f9abe8017734be557eb3ee8d055fbe807f507c9a2fde4e0681c0c58872165747",
+    "chinese-architecture/taimiao/study/replay-study.mjs": "e265146203cbd78124c64c30d2cba154342da4592c5022442a3dddcfe46a6092",
+    "chinese-architecture/tests/model.test.js": "e25a20589fcfb375e2f6447e2ad995ea3718cd6719903b4a51a48222a8309ee1",
+    "chinese-architecture/taimiao/tests/model.test.js": "70029054cff04d663b6a93ca7189eff5eac433fefbe3893acec690fde90acb12",
+    "chinese-architecture/taimiao/tests/surface.test.js": "ea479dd3f96710134a542fd172ff9c0d595c6776742e6ab912620ed60a0a6518",
+    "chinese-architecture/realism-workflow/workflow.test.js": "fbea8d524ec54477efd86546f32475f57beb6e902c2980e20bd4ee5e0d38c2ab",
+    "chinese-architecture/taimiao/tests/roof-system.test.js": "5d511fbcb60820c63c66a2e7de9a36bf814910dae9d22876d60552de96d7353a",
+    "chinese-architecture/realism-workflow/evidence-fit.test.js": "3f49e346ff5d149590cecceae3b66b413f9bf9555ffc856c5a13f6631239ed5f",
+    "chinese-architecture/taihe/tests/model.test.js": "f07b0348be88e43fec2842c81e234c21cf7174371876d975a0079f3cc54c466b",
+    "chinese-architecture/taihe/tests/surface.test.js": "38767c4e043bd7350c121beb815c6bdfa0c535b01f7ba0d4599b54ce0167d535"
+  },
+  "manifest": {
+    "schema": "architecture-realism/v1",
+    "id": "taimiao",
+    "revision": "02",
+    "route": "/chinese-architecture/taimiao/study/",
+    "referenceState": "现状外观；照片拍摄日期与修缮阶段未核定",
+    "sources": [
+      {
+        "id": "vb-eaves",
+        "url": "https://img-rs.visitbeijing.com.cn/imageDir/6d5587be83f6621f242c5eea12fa0476u5.jpg",
+        "status": "图像判读",
+        "rights": "Sipa版权图，仅链接观察；不下载分发，不作贴图",
+        "supports": [
+          "圆瓦当和滴水轮廓",
+          "黄釉与檐下明暗"
+        ],
+        "limits": "照片无标尺、拍摄日期未知；不能确定瓦片尺寸、坡面曲率及历史原色"
+      },
+      {
+        "id": "vb-overall",
+        "url": "https://img-rs.visitbeijing.com.cn/imageDir/d82b0284ae87c2372e436367d5995dd6u5.jpg",
+        "status": "图像判读",
+        "rights": "Sipa版权图，仅链接观察",
+        "limits": "远景透视，未做相机配准；不能定出举折和柱网"
+      },
+      {
+        "id": "vb-text",
+        "url": "https://www.visitbeijing.com.cn/article/47QkX4rpymr",
+        "status": "文献明确",
+        "rights": "摘要研究并链接，不复制全文",
+        "limits": "支持十一间重檐庑殿黄琉璃瓦形制；非测绘报告"
+      },
+      {
+        "id": "cg-candidate",
+        "url": "https://www.cgmodel.com/model/119474.html",
+        "status": "待核定",
+        "rights": "商业授权候选，未购买下载或采用",
+        "limits": "混合寺庙标签，不能确认北京前殿；无实测依据"
+      },
+      {
+        "id": "T-fig28",
+        "url": "https://q6.itc.cn/q_70/images03/20241123/5dbebc229ce1463081131cc2307126d6.jpeg",
+        "status": "图像判读",
+        "rights": "仅链接与临时本地研究，不打包分发",
+        "limits": "1080×651；相机、修缮时期未知；手工像点，模型尺寸为推定；不支持隐蔽节点"
+      }
+    ],
+    "patch": {
+      "halfWidth": 3.36,
+      "pitch": 0.32,
+      "start": 11.6,
+      "end": 14.5,
+      "step": 0.29,
+      "length": 0.42,
+      "radius": 0.11
+    },
+    "views": {
+      "patch": {
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "position": [
+          0,
+          22.2,
+          24
+        ]
+      },
+      "eaves": {
+        "target": [
+          0,
+          18.1,
+          14.4
+        ],
+        "position": [
+          0,
+          16.9,
+          25
+        ]
+      },
+      "oblique": {
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "position": [
+          6,
+          22,
+          23
+        ]
+      },
+      "whole": {
+        "target": [
+          0,
+          15,
+          0
+        ],
+        "position": [
+          0,
+          25,
+          130
+        ]
+      },
+      "survey": {
+        "target": [
+          0,
+          13.61,
+          0
+        ],
+        "position": [
+          0,
+          1.8,
+          87.38
+        ]
+      },
+      "whole-oblique": {
+        "target": [
+          0,
+          14,
+          0
+        ],
+        "position": [
+          75,
+          42,
+          100
+        ]
+      }
+    },
+    "modes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "tests": [
+      "chinese-architecture/tests/model.test.js",
+      "chinese-architecture/taimiao/tests/model.test.js",
+      "chinese-architecture/taimiao/tests/surface.test.js",
+      "chinese-architecture/realism-workflow/workflow.test.js",
+      "chinese-architecture/taimiao/tests/roof-system.test.js",
+      "chinese-architecture/realism-workflow/evidence-fit.test.js",
+      "chinese-architecture/taihe/tests/model.test.js",
+      "chinese-architecture/taihe/tests/surface.test.js"
+    ],
+    "sourceFiles": [
+      "chinese-architecture/taimiao/model.js",
+      "chinese-architecture/taimiao/data.js",
+      "chinese-architecture/taimiao/study/study.js",
+      "chinese-architecture/taimiao/study/materials.js",
+      "chinese-architecture/taimiao/study/roof-sample.js",
+      "chinese-architecture/taimiao/study/index.html",
+      "chinese-architecture/taimiao/study/style.css",
+      "chinese-architecture/realism-workflow/roof-patch.js",
+      "chinese-architecture/realism-workflow/replay.mjs",
+      "chinese-architecture/realism-workflow/verify.mjs",
+      "chinese-architecture/realism-workflow/manifest.js",
+      "chinese-architecture/vendor/three.module.js",
+      "chinese-architecture/vendor/three.core.js",
+      "chinese-architecture/vendor/OrbitControls.js",
+      "chinese-architecture/vendor/BufferGeometryUtils.js",
+      "chinese-architecture/fengxian/model.js",
+      "chinese-architecture/fengxian/data.js",
+      "chinese-architecture/model.js",
+      "chinese-architecture/data.js",
+      "chinese-architecture/taihe/study/plaque.js",
+      "chinese-architecture/taihe/model.js",
+      "chinese-architecture/taihe/data.js",
+      "chinese-architecture/taihe/study/roof-sample.js",
+      "chinese-architecture/taimiao/app.js",
+      "chinese-architecture/taimiao/study/capture.html",
+      "chinese-architecture/taimiao/study/replay-frame.mjs",
+      "chinese-architecture/taimiao/study/roof-system.js",
+      "chinese-architecture/taimiao/study/calibrate.mjs",
+      "chinese-architecture/taimiao/study/calibration.json",
+      "chinese-architecture/realism-workflow/evidence-fit.js",
+      "chinese-architecture/taimiao/study/replay-study.mjs"
+    ],
+    "checks": [
+      {
+        "id": "front-a",
+        "mode": "a",
+        "view": "patch"
+      },
+      {
+        "id": "front-b",
+        "mode": "b",
+        "view": "patch"
+      },
+      {
+        "id": "front-c",
+        "mode": "c",
+        "view": "patch"
+      },
+      {
+        "id": "front-d",
+        "mode": "d",
+        "view": "patch"
+      },
+      {
+        "id": "eaves-d",
+        "mode": "d",
+        "view": "eaves"
+      },
+      {
+        "id": "oblique-d",
+        "mode": "d",
+        "view": "oblique"
+      },
+      {
+        "id": "light-d",
+        "mode": "d",
+        "view": "oblique",
+        "light": true
+      },
+      {
+        "id": "lift-d",
+        "mode": "d",
+        "view": "oblique",
+        "lift": true
+      },
+      {
+        "id": "whole-d",
+        "mode": "d",
+        "view": "whole"
+      },
+      {
+        "id": "whole-e",
+        "mode": "e",
+        "view": "whole"
+      },
+      {
+        "id": "whole-f",
+        "mode": "f",
+        "view": "whole"
+      },
+      {
+        "id": "eaves-f",
+        "mode": "f",
+        "view": "eaves"
+      },
+      {
+        "id": "oblique-f",
+        "mode": "f",
+        "view": "oblique"
+      },
+      {
+        "id": "whole-oblique-f",
+        "mode": "f",
+        "view": "whole-oblique"
+      },
+      {
+        "id": "lift-f",
+        "mode": "f",
+        "view": "oblique",
+        "lift": true
+      },
+      {
+        "id": "light-f",
+        "mode": "f",
+        "view": "oblique",
+        "light": true
+      },
+      {
+        "id": "survey-a",
+        "mode": "a",
+        "view": "survey"
+      },
+      {
+        "id": "survey-f",
+        "mode": "f",
+        "view": "survey"
+      },
+      {
+        "id": "section-f",
+        "mode": "f",
+        "view": "whole-oblique",
+        "section": true
+      },
+      {
+        "id": "section-lift-f",
+        "mode": "f",
+        "view": "oblique",
+        "section": true,
+        "lift": true
+      },
+      {
+        "id": "whole-lift-f",
+        "mode": "f",
+        "view": "whole",
+        "lift": true
+      }
+    ],
+    "capture": {
+      "desktop": {
+        "width": 1280,
+        "height": 900
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844
+      },
+      "cameraFov": 35,
+      "pixelRatioMax": 1.7,
+      "screenshot": "fullPage host; fixed iframe viewport, see captureMethod"
+    },
+    "variables": {
+      "a": "原卷几何和材料；实验统一相机背景",
+      "b": "材料粗糙度、釉面清漆、程序天空及光强组合变化",
+      "c": "B + 独立瓦段、平底瓦、圆瓦当及轻微实例色差",
+      "d": "C平底瓦替换为槽形底瓦，并加滴水；无匾额改动",
+      "e": "连续全屋面排瓦，移除原连续瓦垄；沿用B材料，尺寸推定",
+      "f": "E加封檐板、两段檐椽、椽头，调整釉面和檐下材料、阴影偏移；组合实验"
+    },
+    "parameterEvidence": {
+      "halfWidth": {
+        "status": "比例推定",
+        "unit": "m",
+        "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
+      },
+      "pitch": {
+        "status": "比例推定",
+        "unit": "m",
+        "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
+      },
+      "start": {
+        "status": "比例推定",
+        "unit": "m",
+        "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
+      },
+      "end": {
+        "status": "比例推定",
+        "unit": "m",
+        "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
+      },
+      "step": {
+        "status": "比例推定",
+        "unit": "m",
+        "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
+      },
+      "length": {
+        "status": "比例推定",
+        "unit": "m",
+        "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
+      },
+      "radius": {
+        "status": "比例推定",
+        "unit": "m",
+        "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
+      }
+    },
+    "roofSystem": {
+      "pitch": 0.32,
+      "step": 0.29,
+      "length": 0.42,
+      "radius": 0.11,
+      "thickness": 0.022,
+      "segments": 8,
+      "panDepth": 0.045,
+      "bedOffset": 0.055,
+      "fasciaDepth": 0.24
+    },
+    "finishMaterials": {
+      "tileColor": "#b38a3e",
+      "tileRoughness": 0.5,
+      "clearcoat": 0.18,
+      "woodColor": "#73533b",
+      "rafterColor": "#8d3a2a",
+      "goldColor": "#b69c53",
+      "goldRoughness": 0.53,
+      "eaveRed": "#8d3627",
+      "endWhite": "#c5c2a4",
+      "bracketPaint": "#34554b",
+      "shadowNormalBias": 0.065,
+      "shadowBias": -0.00012,
+      "status": "图像判读＋视觉调参，未做材料光学测量"
+    }
+  },
+  "browser": "Separate UI replay required; not implied by this report"
+}

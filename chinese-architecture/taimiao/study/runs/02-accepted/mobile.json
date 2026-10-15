@@ -1,0 +1,1796 @@
+{
+  "schema": "architecture-replay/v2",
+  "architecture": "taimiao",
+  "revision": "02",
+  "device": "mobile",
+  "utc": "2026-10-15T08:30:46.148Z",
+  "captureMethod": "CUA same-origin fixed iframe, original full host screenshot",
+  "results": [
+    {
+      "id": "front-a",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "a",
+        "view": "patch",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          25.138983050847457,
+          33.16271186440678
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 279,
+        "triangles": 2478970,
+        "geometries": 148,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "front-b",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "b",
+        "view": "patch",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          25.138983050847457,
+          33.16271186440678
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 279,
+        "triangles": 2478970,
+        "geometries": 148,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "front-c",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "c",
+        "view": "patch",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          25.138983050847457,
+          33.16271186440678
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 287,
+        "triangles": 2554162,
+        "geometries": 299,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "front-d",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "d",
+        "view": "patch",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          25.138983050847457,
+          33.16271186440678
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 513,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 289,
+        "triangles": 2619762,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "eaves-d",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "d",
+        "view": "eaves",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          15.862711864406775,
+          34.16271186440678
+        ],
+        "target": [
+          0,
+          18.1,
+          14.4
+        ],
+        "sampleRecords": 513,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 289,
+        "triangles": 2619762,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "oblique-d",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          11.1864406779661,
+          24.766101694915253,
+          31.298305084745763
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 513,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 322,
+        "triangles": 2619828,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "light-d",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": true,
+        "camera": [
+          11.1864406779661,
+          24.766101694915253,
+          31.298305084745763
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 513,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 322,
+        "triangles": 2619828,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "lift-d",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": true,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          11.1864406779661,
+          24.766101694915253,
+          31.298305084745763
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 513,
+        "sampleWorldY": 2,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 2,
+        "removedRibSegments": 45,
+        "drawCalls": 321,
+        "triangles": 2619826,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "whole-d",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "d",
+        "view": "whole",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          30.339299776947392,
+          199.41089710031633
+        ],
+        "target": [
+          0,
+          15,
+          0
+        ],
+        "sampleRecords": 513,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 361,
+        "triangles": 2619906,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "whole-e",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "e",
+        "view": "whole",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          30.339299776947392,
+          199.41089710031633
+        ],
+        "target": [
+          0,
+          15,
+          0
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 373,
+        "triangles": 6507802,
+        "geometries": 456,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "whole-f",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "whole",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          30.339299776947392,
+          199.41089710031633
+        ],
+        "target": [
+          0,
+          15,
+          0
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 381,
+        "triangles": 6474266,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "eaves-f",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "eaves",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          15.862711864406775,
+          34.16271186440678
+        ],
+        "target": [
+          0,
+          18.1,
+          14.4
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 309,
+        "triangles": 6474122,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "oblique-f",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "oblique",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          11.1864406779661,
+          24.766101694915253,
+          31.298305084745763
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 342,
+        "triangles": 6474188,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "whole-oblique-f",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "whole-oblique",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          117.0981952210601,
+          57.71665954919575,
+          156.13092696141342
+        ],
+        "target": [
+          0,
+          14,
+          0
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 381,
+        "triangles": 6474266,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "lift-f",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "oblique",
+        "roofLift": true,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          11.1864406779661,
+          24.766101694915253,
+          31.298305084745763
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 2,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 2,
+        "removedRibSegments": 45,
+        "drawCalls": 341,
+        "triangles": 6474186,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "light-f",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "oblique",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": true,
+        "camera": [
+          11.1864406779661,
+          24.766101694915253,
+          31.298305084745763
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 342,
+        "triangles": 6474188,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "survey-a",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "a",
+        "view": "survey",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          -8.408644067796594,
+          162.91186440677964
+        ],
+        "target": [
+          0,
+          13.61,
+          0
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 351,
+        "triangles": 2479114,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "survey-f",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "survey",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          -8.408644067796594,
+          162.91186440677964
+        ],
+        "target": [
+          0,
+          13.61,
+          0
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 381,
+        "triangles": 6474266,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "section-f",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "whole-oblique",
+        "roofLift": false,
+        "section": true,
+        "alternateLight": false,
+        "camera": [
+          117.0981952210601,
+          57.71665954919575,
+          156.13092696141342
+        ],
+        "target": [
+          0,
+          14,
+          0
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 381,
+        "triangles": 6474266,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "section-lift-f",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "oblique",
+        "roofLift": true,
+        "section": true,
+        "alternateLight": false,
+        "camera": [
+          11.1864406779661,
+          24.766101694915253,
+          31.298305084745763
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 2,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 2,
+        "removedRibSegments": 45,
+        "drawCalls": 341,
+        "triangles": 6474186,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "whole-lift-f",
+      "state": {
+        "roofSystem": {
+          "pitch": 0.32,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11,
+          "thickness": 0.022,
+          "segments": 8,
+          "panDepth": 0.045,
+          "bedOffset": 0.055,
+          "fasciaDepth": 0.24
+        },
+        "finishMaterials": {
+          "tileColor": "#b38a3e",
+          "tileRoughness": 0.5,
+          "clearcoat": 0.18,
+          "woodColor": "#73533b",
+          "rafterColor": "#8d3a2a",
+          "goldColor": "#b69c53",
+          "goldRoughness": 0.53,
+          "eaveRed": "#8d3627",
+          "endWhite": "#c5c2a4",
+          "bracketPaint": "#34554b",
+          "shadowNormalBias": 0.065,
+          "shadowBias": -0.00012,
+          "status": "图像判读＋视觉调参，未做材料光学测量"
+        },
+        "selection": null,
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "whole",
+        "roofLift": true,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          30.339299776947392,
+          199.41089710031633
+        ],
+        "target": [
+          0,
+          15,
+          0
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 2,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 78272,
+        "timberWorldY": 0,
+        "continuousWorldY": 2,
+        "removedRibSegments": 45,
+        "drawCalls": 381,
+        "triangles": 6474266,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    }
+  ],
+  "logs": []
+}

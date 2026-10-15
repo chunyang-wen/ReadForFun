@@ -1,3 +1,4 @@
+import {mountPhotoGallery} from '../photos/gallery.js?v=photo-atlas-02';
 import * as THREE from '../vendor/three.module.js';
 import { OrbitControls } from '../vendor/OrbitControls.js';
 import { buildModel, SPEC, getColumnGrid } from './model.js';
@@ -80,6 +81,7 @@ function initialize(){
 }
 function resize(){if(!renderer)return;const {width,height}=$('viewport').getBoundingClientRect();if(!width||!height)return;renderer.setSize(width,height,false);camera.aspect=width/height;camera.updateProjectionMatrix();dirty=true;}
 function updateChapterText(i){
+ document.dispatchEvent(new CustomEvent('architecture:chapter',{detail:{building:'taimiao',chapter:i}}));
  const c=CHAPTERS[i];document.querySelectorAll('[data-chapter]').forEach(el=>el.setAttribute('aria-pressed',String(Number(el.dataset.chapter)===i)));
  $('chapter-number').textContent=`${c.n} / 太庙前殿大木研究`;$('chapter-title').textContent=c.title;$('chapter-subtitle').textContent=c.subtitle;
  $('chapter-text').textContent=c.text;$('chapter-facts').innerHTML=c.facts.map(([a,b])=>`<div><dt>${a}</dt><dd>${b}</dd></div>`).join('');$('chapter-question').textContent=c.question;
@@ -204,3 +206,6 @@ $('node-select').addEventListener('change',()=>{const next=$('node-select').valu
 initialize();
 // Read-only state for reproducible browser validation of fitting and current UI state.
 export function getViewerState(){return {chapter:chapterIndex,detail:activeModel===detail,node:detailNode,explode,targetExplode,section:$('section-toggle').checked,layers:[...activeModel.layers].filter(([,g])=>g.visible).map(([id])=>id),bounds:{min:currentBounds().min.toArray(),max:currentBounds().max.toArray()},camera:camera.position.toArray(),target:controls.target.toArray(),projected:(()=>{const b=currentBounds(),ps=[];for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z])ps.push(new THREE.Vector3(x,y,z).project(camera).toArray());return ps;})()};}
+
+mountPhotoGallery(document.querySelector('[data-photo-gallery]'),'taimiao');
+document.addEventListener('architecture:photo-model',event=>{if(event.detail.building!=='taimiao')return;setChapter(event.detail.chapter);const node=event.detail.node;if(node&&NODES.some(n=>n.id===node)&&!$('node-picker').hidden){$('node-select').value=node;$('node-select').dispatchEvent(new Event('change'));}});

@@ -1,7 +1,7 @@
 {
   "schema": "architecture-realism/v1",
   "id": "taimiao",
-  "revision": "01",
+  "revision": "02",
   "route": "/chinese-architecture/taimiao/study/",
   "referenceState": "现状外观；照片拍摄日期与修缮阶段未核定",
   "sources": [
@@ -36,6 +36,13 @@
       "status": "待核定",
       "rights": "商业授权候选，未购买下载或采用",
       "limits": "混合寺庙标签，不能确认北京前殿；无实测依据"
+    },
+    {
+      "id": "T-fig28",
+      "url": "https://q6.itc.cn/q_70/images03/20241123/5dbebc229ce1463081131cc2307126d6.jpeg",
+      "status": "图像判读",
+      "rights": "仅链接与临时本地研究，不打包分发",
+      "limits": "1080×651；相机、修缮时期未知；手工像点，模型尺寸为推定；不支持隐蔽节点"
     }
   ],
   "patch": {
@@ -95,19 +102,49 @@
         25,
         130
       ]
+    },
+    "survey": {
+      "target": [
+        0,
+        13.61,
+        0
+      ],
+      "position": [
+        0,
+        1.8,
+        87.38
+      ]
+    },
+    "whole-oblique": {
+      "target": [
+        0,
+        14,
+        0
+      ],
+      "position": [
+        75,
+        42,
+        100
+      ]
     }
   },
   "modes": [
     "a",
     "b",
     "c",
-    "d"
+    "d",
+    "e",
+    "f"
   ],
   "tests": [
     "chinese-architecture/tests/model.test.js",
     "chinese-architecture/taimiao/tests/model.test.js",
     "chinese-architecture/taimiao/tests/surface.test.js",
-    "chinese-architecture/realism-workflow/workflow.test.js"
+    "chinese-architecture/realism-workflow/workflow.test.js",
+    "chinese-architecture/taimiao/tests/roof-system.test.js",
+    "chinese-architecture/realism-workflow/evidence-fit.test.js",
+    "chinese-architecture/taihe/tests/model.test.js",
+    "chinese-architecture/taihe/tests/surface.test.js"
   ],
   "sourceFiles": [
     "chinese-architecture/taimiao/model.js",
@@ -135,7 +172,18 @@
     "chinese-architecture/taihe/study/roof-sample.js",
     "chinese-architecture/taimiao/app.js",
     "chinese-architecture/taimiao/study/capture.html",
-    "chinese-architecture/taimiao/study/replay-frame.mjs"
+    "chinese-architecture/taimiao/study/replay-frame.mjs",
+    "chinese-architecture/taimiao/study/roof-system.js",
+    "chinese-architecture/taimiao/study/calibrate.mjs",
+    "chinese-architecture/taimiao/study/calibration.json",
+    "chinese-architecture/realism-workflow/evidence-fit.js",
+    "chinese-architecture/taimiao/study/replay-study.mjs",
+    "chinese-architecture/taimiao/study/audit-roof.mjs",
+    "chinese-architecture/realism-workflow/LESSONS.md",
+    "chinese-architecture/taimiao/study/RESEARCH.md",
+    "chinese-architecture/taimiao/study/NEXT_EVIDENCE.md",
+    "chinese-architecture/taimiao/study/OPERATIONS-02.md",
+    "chinese-architecture/taimiao/study/REPLAY.md"
   ],
   "checks": [
     {
@@ -184,6 +232,72 @@
       "id": "whole-d",
       "mode": "d",
       "view": "whole"
+    },
+    {
+      "id": "whole-e",
+      "mode": "e",
+      "view": "whole"
+    },
+    {
+      "id": "whole-f",
+      "mode": "f",
+      "view": "whole"
+    },
+    {
+      "id": "eaves-f",
+      "mode": "f",
+      "view": "eaves"
+    },
+    {
+      "id": "oblique-f",
+      "mode": "f",
+      "view": "oblique"
+    },
+    {
+      "id": "whole-oblique-f",
+      "mode": "f",
+      "view": "whole-oblique"
+    },
+    {
+      "id": "lift-f",
+      "mode": "f",
+      "view": "oblique",
+      "lift": true
+    },
+    {
+      "id": "light-f",
+      "mode": "f",
+      "view": "oblique",
+      "light": true
+    },
+    {
+      "id": "survey-a",
+      "mode": "a",
+      "view": "survey"
+    },
+    {
+      "id": "survey-f",
+      "mode": "f",
+      "view": "survey"
+    },
+    {
+      "id": "section-f",
+      "mode": "f",
+      "view": "whole-oblique",
+      "section": true
+    },
+    {
+      "id": "section-lift-f",
+      "mode": "f",
+      "view": "oblique",
+      "section": true,
+      "lift": true
+    },
+    {
+      "id": "whole-lift-f",
+      "mode": "f",
+      "view": "whole",
+      "lift": true
     }
   ],
   "capture": {
@@ -203,7 +317,9 @@
     "a": "原卷几何和材料；实验统一相机背景",
     "b": "材料粗糙度、釉面清漆、程序天空及光强组合变化",
     "c": "B + 独立瓦段、平底瓦、圆瓦当及轻微实例色差",
-    "d": "C平底瓦替换为槽形底瓦，并加滴水；无匾额改动"
+    "d": "C平底瓦替换为槽形底瓦，并加滴水；无匾额改动",
+    "e": "连续全屋面排瓦，移除原连续瓦垄；沿用B材料，尺寸推定",
+    "f": "E加封檐板、两段檐椽、椽头，调整釉面和檐下材料、阴影偏移；组合实验"
   },
   "parameterEvidence": {
     "halfWidth": {
@@ -241,5 +357,31 @@
       "unit": "m",
       "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
     }
+  },
+  "roofSystem": {
+    "pitch": 0.32,
+    "step": 0.29,
+    "length": 0.42,
+    "radius": 0.11,
+    "thickness": 0.022,
+    "segments": 8,
+    "panDepth": 0.045,
+    "bedOffset": 0.055,
+    "fasciaDepth": 0.24
+  },
+  "finishMaterials": {
+    "tileColor": "#b38a3e",
+    "tileRoughness": 0.5,
+    "clearcoat": 0.18,
+    "woodColor": "#73533b",
+    "rafterColor": "#8d3a2a",
+    "goldColor": "#b69c53",
+    "goldRoughness": 0.53,
+    "eaveRed": "#8d3627",
+    "endWhite": "#c5c2a4",
+    "bracketPaint": "#34554b",
+    "shadowNormalBias": 0.065,
+    "shadowBias": -0.00012,
+    "status": "图像判读＋视觉调参，未做材料光学测量"
   }
 }

@@ -1,0 +1,306 @@
+{
+  "schema": "architecture-replay/v2",
+  "architecture": "taimiao",
+  "revision": "02",
+  "device": "desktop",
+  "utc": "2026-10-15T08:16:31.777Z",
+  "captureMethod": "CUA same-origin fixed iframe, original full host screenshot",
+  "results": [
+    {
+      "id": "whole-f",
+      "state": {
+        "selection": null,
+        "layout": {
+          "width": 1280,
+          "height": 900,
+          "scrollWidth": 1280
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "whole",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          24.99999999999999,
+          130
+        ],
+        "target": [
+          0,
+          15,
+          0
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 77008,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 381,
+        "triangles": 6393370,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "eaves-f",
+      "state": {
+        "selection": null,
+        "layout": {
+          "width": 1280,
+          "height": 900,
+          "scrollWidth": 1280
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "eaves",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          16.9,
+          25
+        ],
+        "target": [
+          0,
+          18.1,
+          14.4
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 77008,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 333,
+        "triangles": 6393274,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "oblique-f",
+      "state": {
+        "selection": null,
+        "layout": {
+          "width": 1280,
+          "height": 900,
+          "scrollWidth": 1280
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "oblique",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          6,
+          22,
+          23
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 77008,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 340,
+        "triangles": 6393288,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "whole-oblique-f",
+      "state": {
+        "selection": null,
+        "layout": {
+          "width": 1280,
+          "height": 900,
+          "scrollWidth": 1280
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "whole-oblique",
+        "roofLift": false,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          75,
+          41.999999999999986,
+          100
+        ],
+        "target": [
+          0,
+          14,
+          0
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 77008,
+        "timberWorldY": 0,
+        "continuousWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 381,
+        "triangles": 6393370,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    },
+    {
+      "id": "lift-f",
+      "state": {
+        "selection": null,
+        "layout": {
+          "width": 1280,
+          "height": 900,
+          "scrollWidth": 1280
+        },
+        "architecture": "taimiao",
+        "revision": "02",
+        "mode": "f",
+        "view": "oblique",
+        "roofLift": true,
+        "section": false,
+        "alternateLight": false,
+        "camera": [
+          6,
+          22,
+          23
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 2,
+        "replacedEaveSegments": 1854,
+        "continuousRecords": 74472,
+        "finishedRecords": 77008,
+        "timberWorldY": 0,
+        "continuousWorldY": 2,
+        "removedRibSegments": 45,
+        "drawCalls": 338,
+        "triangles": 6393284,
+        "geometries": 464,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      }
+    }
+  ],
+  "logs": []
+}

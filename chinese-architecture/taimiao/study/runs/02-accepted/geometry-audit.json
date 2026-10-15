@@ -1,0 +1,20 @@
+{
+  "schema": "architecture-geometry-audit/v1",
+  "scope": "Software envelope/finite-bearing checks; not as-built carpentry certification",
+  "rafterAssemblies": 1264,
+  "records": 78272,
+  "rejectedAlternatives": {
+    "unboundedStraightTail": {
+      "unsupportedCornerTails": 132
+    },
+    "singleChordAtOldOffset": {
+      "penetratingSamples": 2724,
+      "worstPenetrationM": 0.032513620315333114
+    }
+  },
+  "current": {
+    "penetratingSamples": 0,
+    "worstEnvelopeDifferenceM": -0.035356831669767885
+  },
+  "note": "Counterfactual alternatives reconstructed explicitly by this script; current geometry uses two straight pieces and finite support rings."
+}
