@@ -1,0 +1,31 @@
+{
+  "chapter": "观全貌",
+  "dialogOpen": false,
+  "focus": "photo-open",
+  "images": [
+    {
+      "complete": true,
+      "height": 1067,
+      "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-corner-context/bf336a82f80ad875/display.webp",
+      "width": 1600
+    },
+    {
+      "complete": true,
+      "height": 3648,
+      "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-corner-context/bf336a82f80ad875/full.webp",
+      "width": 5472
+    }
+  ],
+  "scroll": {
+    "clientHeight": 0,
+    "height": 0,
+    "top": 0
+  },
+  "title": "隔着台地看檐角",
+  "viewport": {
+    "height": 844,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  "zoom": "100"
+}

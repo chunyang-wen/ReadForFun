@@ -1,0 +1,17 @@
+[
+  {
+    "path": "../03-initial",
+    "result": "29 passed / 1 failed",
+    "reason": "Perspective centre/occupancy needed correction; raw tests retained"
+  },
+  {
+    "path": "../03a/desktop-failure.json",
+    "result": "UI failed",
+    "reason": "Prior settled attribute observed before current animation frame; synchronously clear at setView start"
+  },
+  {
+    "path": "../03c/desktop/production-front.json",
+    "result": "Wrong desktop viewport rejected",
+    "reason": "Actual 390x844; override applied to another tab. Fresh target tab actual dimensions verified before final replay"
+  }
+]

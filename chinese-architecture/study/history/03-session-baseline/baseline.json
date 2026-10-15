@@ -1,0 +1,15 @@
+{
+  "scope": "第一卷；保留启动时已有未提交改动",
+  "hashes": {
+    "app.js": "21bde1b0a44a0490c44b19e03f61f94cf1cb3e1bf751756a8eaf524953628153",
+    "index.html": "7a84f8c88b574c457f9ea5351cae215cd5fb32498ff12d6e12e5cfc0db32433c",
+    "style.css": "31767ef27e4a6668ff5314b8ba95c554991e10653b920de39c44e6fb9f50c20e",
+    "data.js": "31d465ab66f51de88aef9d7b31c228c05d7a0980e7c2bc413214f4cd96b83ecc",
+    "model.js": "d236e3bea947353b4ef4c063cfebce8d0b4f141896a3a7405b447d9c424b2760",
+    "production-model.js": "1cffe32e57642a2f45614282e45fa7e7dcd8e4a375b864ba6e2a3831d600fd2a",
+    "MODEL_NOTES.md": "40ff892a81c5b2d474f64f31625e6e5179173470b5f495bf31fcbc901cf9cbae",
+    "study/roof-envelope.js": "3ff0ce1ded83c2a11a00fa83f7fd607221d179997b91159257656cb1899d0062",
+    "study/roof-sample.js": "1155a877e2f139b83f0721c0617517ee9b986365430fba5a6bd290f9a7960348",
+    "study/experiment.json": "bc95cec00ab9ba0038bc22362a61092ac86cf0a46bccf3d79b36c301e106edd7"
+  }
+}

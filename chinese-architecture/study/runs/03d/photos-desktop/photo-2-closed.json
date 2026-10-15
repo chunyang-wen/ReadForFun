@@ -1,0 +1,31 @@
+{
+  "chapter": "观全貌",
+  "dialogOpen": false,
+  "focus": "photo-open",
+  "images": [
+    {
+      "complete": true,
+      "height": 1200,
+      "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/display.webp",
+      "width": 1600
+    },
+    {
+      "complete": true,
+      "height": 4284,
+      "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/full.webp",
+      "width": 5712
+    }
+  ],
+  "scroll": {
+    "clientHeight": 0,
+    "height": 0,
+    "top": 0
+  },
+  "title": "把瓦口与柱头放回同一画面",
+  "viewport": {
+    "height": 900,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  "zoom": "400"
+}

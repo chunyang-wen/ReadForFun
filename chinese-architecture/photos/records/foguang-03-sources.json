@@ -1,0 +1,46 @@
+[
+  {
+    "id": "foguang-facade",
+    "file": "File:佛光寺东大殿右侧面.jpg",
+    "sha1": "6453addcee9357d343881b46c4a35c2e47eabeb2",
+    "commonsSHA1": "6453addcee9357d343881b46c4a35c2e47eabeb2",
+    "sha256": "df6ed362fb4bd00879e34ef170da03e5e95c19cc89f81ba5c82f450327011a99",
+    "bytes": 7648940,
+    "license": "CC BY-SA 4.0",
+    "status": "downloaded and visually inspected; byte SHA1 matches Commons",
+    "uploaded": false
+  },
+  {
+    "id": "foguang-intermediate",
+    "file": "File:佛光寺东大殿补间铺作正面视角.jpg",
+    "sha1": "f36d56163ac1cf498fe2b7b8c1ee833e6f6db3ce",
+    "commonsSHA1": "f36d56163ac1cf498fe2b7b8c1ee833e6f6db3ce",
+    "sha256": "453d5e0fc32ff28973fca830ea5d8bcb9d3b11f704acc8a7da5b69ded03545f5",
+    "bytes": 5686279,
+    "license": "CC BY-SA 4.0",
+    "status": "downloaded and visually inspected; byte SHA1 matches Commons",
+    "uploaded": false
+  },
+  {
+    "id": "foguang-eaves",
+    "file": "File:佛光寺东大殿铺作层侧面视角二.jpg",
+    "sha1": "726b8aa7ee920e84fe297f75e369d359b89b879b",
+    "commonsSHA1": "726b8aa7ee920e84fe297f75e369d359b89b879b",
+    "sha256": "2abe646d240a03d3a4f7e5ce1ee379c69b899f4adbc6f2971132624b94437667",
+    "bytes": 10800326,
+    "license": "CC BY-SA 4.0",
+    "status": "downloaded and visually inspected; byte SHA1 matches Commons",
+    "uploaded": false
+  },
+  {
+    "id": "foguang-corner-context",
+    "file": "File:Wutai Foguang Si 2013.08.28 10-55-51.jpg",
+    "sha1": "56edb000b2cab60038c2e1aac44733bc86bba548",
+    "commonsSHA1": "56edb000b2cab60038c2e1aac44733bc86bba548",
+    "sha256": "bf336a82f80ad8758674fe4cac3dd985c6e3434688315db9e5582ab0fa7bd96d",
+    "bytes": 10993182,
+    "license": "CC BY-SA 3.0",
+    "status": "downloaded and visually inspected; byte SHA1 matches Commons",
+    "uploaded": false
+  }
+]

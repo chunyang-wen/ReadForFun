@@ -1,0 +1,31 @@
+{
+  "chapter": "观全貌",
+  "dialogOpen": false,
+  "focus": "photo-model",
+  "images": [
+    {
+      "complete": true,
+      "height": 1600,
+      "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/display.webp",
+      "width": 1200
+    },
+    {
+      "complete": true,
+      "height": 4032,
+      "src": "http://127.0.0.1:8765/chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/full.webp",
+      "width": 3024
+    }
+  ],
+  "scroll": {
+    "clientHeight": 0,
+    "height": 0,
+    "top": 0
+  },
+  "title": "补间与柱头需要分别核对",
+  "viewport": {
+    "height": 844,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  "zoom": "100"
+}

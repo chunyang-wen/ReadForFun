@@ -1,4 +1,10 @@
 export const PHOTO_STORIES = {
+ "foguang": {"name":"佛光寺东大殿","items":[
+ {"id":"foguang-corner-context","title":"隔着台地看檐角","tag":"斜向 · 台地与檐角","chapter":0,"modelLabel":"回到整殿","look":"把侧坡、檐角、铺作与台地放在同一画面阅读。树木遮挡保留，瓦面起伏和脊饰可与模型占位轮廓对照。","limit":"2013-08-28现状；照片没有完整展示整殿或背檐，不能从画面左右猜测地理方位，也不能据此量取坡度。","angle":"oblique"},
+ {"id":"foguang-facade","title":"沿前檐读五门两窗","tag":"前檐 · 斜向上下文","chapter":0,"modelLabel":"回到整殿","look":"沿柱间观察中部板门与两端直棂窗；比较照片中真实墙带、木构与模型的规则化边界。","limit":"2024年现状照片；来源称右侧面，不能据此指定罗盘方位。屋顶不完整，不作立面标定。","angle":"oblique"},
+ {"id":"foguang-eaves","title":"把瓦口与柱头放回同一画面","tag":"檐下 · 瓦口与铺作","chapter":4,"modelLabel":"观察槫椽屋架","look":"从瓦口向下追踪铺作与前檐围护，注意自然色差与阴影；模型素面瓦当和程序木纹仍是占位。","limit":"照片无标尺，不能定瓦距或隐藏支承。只记录可见形态，未核各部件修缮分期。","angle":"detail"},
+ {"id":"foguang-intermediate","title":"补间与柱头需要分别核对","tag":"补间 · 代表细部","chapter":0,"modelLabel":"回到整殿定位柱间","look":"辨认柱间的出挑与横向木件，以及背后的封闭面。正式模型补间仍简化；研究页F的七处同型重复未采用。","limit":"单攒近照不能证明全部补间同型；回看整殿保留空间上下文，不跳到柱头局部冒充补间节点。","angle":"detail"}
+ ]},
   "taimiao": {
     "name": "太庙前殿",
     "items": [

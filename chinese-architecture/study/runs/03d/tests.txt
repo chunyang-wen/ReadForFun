@@ -1,0 +1,42 @@
+✔ each photo has explicit reusable rights, attribution and exact building chapter (0.625959ms)
+✔ every display size has a local fallback, and remote keys are content addressed (0.441542ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.0605ms)
+✔ each photograph appears exactly once in its building story (0.070625ms)
+✔ Bounded search recovers independent synthetic values without leaving the search domain (0.875583ms)
+✔ Small residual alone cannot certify an unvalidated or boundary-limited fit (0.097166ms)
+✔ Manifest rejects unsupported evidence, duplicate cases and unknown camera presets (0.915083ms)
+✔ Generic patch replays on a different slope and tile spacing without Taihe imports (8.850083ms)
+✔ Refined pans are concave; drips are separate from disks, with finite transformed geometry (5.060291ms)
+✔ Same patch generator accepts Fengxian roof envelope without copying Taihe heights (2.533125ms)
+✔ Plaque has thickness, evidence metadata, and stays with bracket layer when roof lifts (2.909125ms)
+✔ visible facade has five paired board doors, only two end lattice windows, and head infill (0.771791ms)
+✔ opening the center door moves only its two leaves and keeps the hinge positions (0.219792ms)
+✔ front bracket replacement does not erase column-head, corner, rear or inner brackets; switching restores exact IDs (34.66175ms)
+✔ four-slope tiles stay in their own roof domains and have upward surface normals (5.269958ms)
+✔ continuous roof replacement keeps ridge silhouettes and all timber, and tile IDs are repeatable (50.419834ms)
+✔ all new facade, bracket and roof instance transforms are finite and positive; no source is unlabeled (3.631917ms)
+✔ study rejects inverted elevations, impossible overlap, unsafe tessellation and invalid material settings (1.897959ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (1.106125ms)
+✔ every selectable member has a documented type and valid layer (2.451625ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (3.606167ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.393541ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.594167ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.072958ms)
+✔ upper frame does not protrude through the hip roof (0.828375ms)
+✔ production adopts facade and continuous tiles without replacing unsupported bracket types or timber (32.107333ms)
+✔ production nested enclosure follows layer offsets and roof lift preserves columns and enclosure (1.151666ms)
+✔ production front/side/back/top and maximum split fit real desktop and narrow canvas bounds (9.301708ms)
+✔ surface face normals agree with transformed slope, including roof boards in all four directions (23.995917ms)
+✔ uncalibrated photographs cannot accept a roof shape change (0.114875ms)
+✔ Foguang replacement preserves all structure and other roof slopes (49.978166ms)
+✔ Foguang patch uses stable IDs, neutral instance color and no unsupported pointed drips (4.754458ms)
+✔ local transforms follow west roof, remain finite and preserve positive overlap (2.616583ms)
+✔ roof lift moves selected sample while column layer stays at original elevation (20.762916ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 234.740958

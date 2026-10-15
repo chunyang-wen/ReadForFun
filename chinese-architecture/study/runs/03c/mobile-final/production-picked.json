@@ -1,0 +1,70 @@
+{
+  "state": {
+    "architecture": "foguang",
+    "revision": "foguang-production-03",
+    "chapter": 2,
+    "view": "detail",
+    "fov": 35,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "camera": {
+      "position": [
+        17.574092382363737,
+        12.053006094113144,
+        19.551996460982107
+      ],
+      "target": [
+        0.26289071684814047,
+        1.1469490448383128,
+        0.5096746289149431
+      ]
+    },
+    "explode": 0,
+    "requestedExplode": 0,
+    "section": false,
+    "axis": "x",
+    "alternateLight": false,
+    "selected": "brackets-00049",
+    "selectedTier": 3,
+    "selectionBounds": {
+      "min": [
+        -0.7930000364780426,
+        1.0937059209037892,
+        0.7974800054025651
+      ],
+      "max": [
+        0.7930000364780426,
+        1.4662799778294562,
+        1.0625199963855745
+      ]
+    },
+    "hiddenLayers": [
+      "foundation",
+      "ming",
+      "ceiling",
+      "roofFrame",
+      "purlins",
+      "rafters",
+      "roof",
+      "enclosure"
+    ],
+    "projected": {
+      "min": [
+        -0.3517762753251417,
+        -0.4425696388102799
+      ],
+      "max": [
+        0.327362738548966,
+        0.3273151670052213
+      ]
+    }
+  },
+  "layout": {
+    "height": 844,
+    "script": "http://127.0.0.1:8765/chinese-architecture/app.js?v=foguang-production-03",
+    "scrollWidth": 390,
+    "width": 390
+  }
+}

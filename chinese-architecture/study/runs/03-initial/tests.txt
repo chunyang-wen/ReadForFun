@@ -1,0 +1,61 @@
+✔ Bounded search recovers independent synthetic values without leaving the search domain (0.727458ms)
+✔ Small residual alone cannot certify an unvalidated or boundary-limited fit (0.0955ms)
+✔ Manifest rejects unsupported evidence, duplicate cases and unknown camera presets (0.872416ms)
+✔ Generic patch replays on a different slope and tile spacing without Taihe imports (8.065ms)
+✔ Refined pans are concave; drips are separate from disks, with finite transformed geometry (4.141125ms)
+✔ Same patch generator accepts Fengxian roof envelope without copying Taihe heights (1.655625ms)
+✔ Plaque has thickness, evidence metadata, and stays with bracket layer when roof lifts (2.336708ms)
+✔ visible facade has five paired board doors, only two end lattice windows, and head infill (0.795875ms)
+✔ opening the center door moves only its two leaves and keeps the hinge positions (0.218667ms)
+✔ front bracket replacement does not erase column-head, corner, rear or inner brackets; switching restores exact IDs (28.27325ms)
+✔ four-slope tiles stay in their own roof domains and have upward surface normals (6.877958ms)
+✔ continuous roof replacement keeps ridge silhouettes and all timber, and tile IDs are repeatable (48.544125ms)
+✔ all new facade, bracket and roof instance transforms are finite and positive; no source is unlabeled (5.327917ms)
+✔ study rejects inverted elevations, impossible overlap, unsafe tessellation and invalid material settings (1.021125ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (1.11875ms)
+✔ every selectable member has a documented type and valid layer (3.296041ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (4.255208ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.408375ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.465166ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.078125ms)
+✔ upper frame does not protrude through the hip roof (0.513417ms)
+✔ production adopts facade and continuous tiles without replacing unsupported bracket types or timber (31.645625ms)
+✔ production nested enclosure follows layer offsets and roof lift preserves columns and enclosure (1.008542ms)
+✖ production front/side/back/top and maximum split fit real desktop and narrow canvas bounds (3.77ms)
+✔ surface face normals agree with transformed slope, including roof boards in all four directions (17.476084ms)
+✔ uncalibrated photographs cannot accept a roof shape change (0.110625ms)
+✔ Foguang replacement preserves all structure and other roof slopes (53.689416ms)
+✔ Foguang patch uses stable IDs, neutral instance color and no unsupported pointed drips (3.830084ms)
+✔ local transforms follow west roof, remain finite and preserve positive overlap (1.8515ms)
+✔ roof lift moves selected sample while column layer stays at original elevation (19.554875ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 29
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 223.031417
+
+✖ failing tests:
+
+test at chinese-architecture/tests/production.test.js:26:1
+✖ production front/side/back/top and maximum split fit real desktop and narrow canvas bounds (3.77ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(Math.max(...b.max.map((v,i)=>v-b.min[i]))>1.7)
+  
+      at TestContext.<anonymous> (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/tests/production.test.js:32:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
