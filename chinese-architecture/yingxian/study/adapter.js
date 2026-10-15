@@ -42,7 +42,7 @@ export function replaceGalleryRibs(model,p){
 export function addGallerySamples(model,material,parameters){
  const samples=[];
  for(let side=0;side<8;side++){
-  const sample=buildRoofPatch(material,{parameters,height:roofHeight,namespace:`yingxian/C1/face-${side}`,source:'cmu-eaves-photo;wang2024-fig2',refined:true});
+  const sample=buildRoofPatch(material,{parameters,height:roofHeight,namespace:`yingxian/C1/face-${side}`,source:'cmu-eaves-photo;wang2024-fig20',refined:true});
   sample.root.rotation.y=faceAngle(side);sample.root.userData.layer='roof';sample.root.userData.storey='C1';
   for(const r of sample.records){r.localPosition=[...r.position];r.position=facePoint(side,r.position);r.orientation=new T.Quaternion().setFromAxisAngle(new T.Vector3(0,1,0),faceAngle(side)).multiply(new T.Quaternion(...r.orientation)).toArray();r.layer='roof';r.storey='C1';r.side=side;r.status='比例推定';r.note='灰瓦无釉；瓦当无纹，滴水为通用轮廓，不复原实物纹样';}
   // Records are world coordinates; matrices remain local to the face group.

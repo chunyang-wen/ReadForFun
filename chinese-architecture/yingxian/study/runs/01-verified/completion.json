@@ -1,0 +1,20 @@
+{
+  "status": "local-delivery",
+  "softwareTests": {
+    "pass": 22,
+    "fail": 0
+  },
+  "browserScenes": {
+    "desktop": 12,
+    "mobile": 12,
+    "desktop-interactions": 11,
+    "mobile-interactions": 11
+  },
+  "sourceHashMismatches": [],
+  "review": "Final comparison and mobile section screenshots visually inspected; prior detailed views recorded in RESEARCH.md",
+  "limits": [
+    "局部试件，非整塔写实复原",
+    "照片未配准；总高口径、角攒和围护待核定"
+  ],
+  "published": false
+}

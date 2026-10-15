@@ -8,7 +8,7 @@ const $=id=>document.getElementById(id),viewport=$('viewport');
 const experiment=validateExperiment(await(await fetch('experiment.json')).json());
 let mode='a',view='patch',dirty=true,renderer,scene,camera,controls,sun,models,detail,materials,enhanced,selected='',box;
 const plane=new T.Plane(new T.Vector3(-1,0,0),0),ray=new T.Raycaster();
-const descriptions={a:'A：原卷几何与原卷材料。实验页统一相机、背景和原卷照明；照片机位未配准。',b:'B：只改变材料的大类色调与粗糙度，几何、光照、相机与 A 相同。程序木纹沿用基线，未复原逐件风化或彩画。',c:'C：只改变几何。平柱铺作对齐各面法向，回廊八面中央加入分段筒瓦、槽形底瓦与无纹瓦当/通用滴水。两项几何同时改变，不分别归因。',d:'D：C 的几何加 B 的材料。灰瓦、露木与残留朱色仅作类别近似。转角铺作互锁、翼角、栏杆与围护仍未精确复原。'};
+const descriptions={a:'A：原卷几何与原卷材料。实验页统一相机、背景和原卷照明；照片机位未配准。',b:'B：只改变材料的大类色调与粗糙度，几何、光照、相机与 A 相同。程序木纹沿用基线，未复原逐件风化或彩画。',c:'C：局部几何试件，含固定微小逐瓦色差。平柱铺作对齐各面法向，回廊八面中央加入分段筒瓦、槽形底瓦与无纹瓦当/通用滴水。两项几何同时改变，不分别归因。',d:'D：C 的几何加 B 的材料。灰瓦、露木与残留朱色仅作类别近似。转角铺作互锁、翼角、栏杆与围护仍未精确复原。'};
 const active=()=>view==='node'?detail:models[['c','d'].includes(mode)?'c':'a'];
 function eachMesh(m,fn){m.root.traverse(o=>{if(o.isInstancedMesh)fn(o);});}
 function update(){
@@ -26,7 +26,7 @@ function update(){
  for(const set of Object.values(materials))for(const mat of Object.values(set)){mat.clippingPlanes=$('section').checked?[plane]:[];mat.clipShadows=true;}
  sun.position.x=$('light').checked?40:-40;
  document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));
- $('mode-label').textContent={a:'A · 原卷基线',b:'B · 仅材料',c:'C · 仅局部几何',d:'D · 几何与材料'}[mode];$('description').textContent=descriptions[mode];
+ $('mode-label').textContent={a:'A · 原卷基线',b:'B · 仅材料',c:'C · 局部试件',d:'D · 几何与材料'}[mode];$('description').textContent=descriptions[mode];
  $('storey').disabled=view==='node';refreshMembers();selected='';$('selection').textContent='选择构件查看稳定编号、证据和所属层位。';box.visible=false;dirty=true;
 }
 function setView(next){view=next;const v=experiment.views[next];controls.target.fromArray(v.target);const offset=new T.Vector3(...v.position).sub(controls.target).multiplyScalar(Math.max(1,1.5/camera.aspect));camera.position.copy(controls.target).add(offset);controls.update();document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));if(models)update();dirty=true;}

@@ -1,0 +1,30 @@
+✔ Manifest rejects unsupported evidence, duplicate cases and unknown camera presets (0.86425ms)
+✔ Generic patch replays on a different slope and tile spacing without Taihe imports (7.602083ms)
+✔ Refined pans are concave; drips are separate from disks, with finite transformed geometry (3.688709ms)
+✔ Same patch generator accepts Fengxian roof envelope without copying Taihe heights (2.258084ms)
+✔ Plaque has thickness, evidence metadata, and stays with bracket layer when roof lifts (2.454667ms)
+✔ nine distinct storeys, four hidden, low gallery independent (0.451125ms)
+✔ 24 outer, eight inner unique columns; side centres follow source spacing (0.32675ms)
+✔ diameter is across sides, not vertex circle; raw table retained (0.055375ms)
+✔ every next column base lies on an explicit supporting ring beam (32.0365ms)
+✔ each hidden stage has radial and chord bracing anchored to bottom/top frame (6.6935ms)
+✔ special five-dou arms limited to second main outer side columns (2.249375ms)
+✔ separate insertion and shifted landing, receiving opening admits tongue (0.141583ms)
+✔ five roof skirts leave centre empty; sixth roof converges, top frame stays under roof (6.353875ms)
+✔ all records, transforms and bounds finite with stable ids and source (33.396583ms)
+✔ independent manifest identifies timber pagoda, separate sources and complete contrasts (0.379541ms)
+✔ all flat outer bracket assemblies align to the normal of their own octagon face; corners untouched (44.723917ms)
+✔ gallery replacement deletes only C1 tile ribs and preserves every unrelated record byte for byte (65.558875ms)
+✔ eight face patches stay inside octagonal sectors; same local shape rotated, stable ids unique (2.747ms)
+✔ roof derivative is finite at eave and all patch matrices and bounds are finite (0.712875ms)
+✔ roof lift moves all eight samples exactly 2m and leaves support columns in place (0.3415ms)
+✔ dark/ming support boundaries and raw table retained after adapter (6.485666ms)
+✔ baseline source snapshot preserved verbatim; adapter never imports another volume (0.415083ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 601.2785

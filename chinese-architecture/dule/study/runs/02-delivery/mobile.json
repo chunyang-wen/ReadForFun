@@ -1,0 +1,1486 @@
+{
+  "schema": "architecture-replay/v1",
+  "architecture": "dule",
+  "revision": "02",
+  "viewport": "mobile",
+  "utc": "2026-10-15T06:07:47.791Z",
+  "results": [
+    {
+      "id": "front-a",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "a",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          21.52316384180791,
+          24.603389830508473
+        ],
+        "target": [
+          0,
+          16.8,
+          7.599999999999999
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 2.8,
+          "sun": 3.5,
+          "fill": 1.15,
+          "exposure": 1.45
+        },
+        "drawCalls": 76,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "front-b",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "b",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          21.52316384180791,
+          24.603389830508473
+        ],
+        "target": [
+          0,
+          16.8,
+          7.599999999999999
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 2.8,
+          "sun": 3.5,
+          "fill": 1.15,
+          "exposure": 1.45
+        },
+        "drawCalls": 76,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "front-c",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "c",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          21.52316384180791,
+          24.603389830508473
+        ],
+        "target": [
+          0,
+          16.8,
+          7.599999999999999
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 76,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "front-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "d",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          21.52316384180791,
+          24.603389830508473
+        ],
+        "target": [
+          0,
+          16.8,
+          7.599999999999999
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 86,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "oblique-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          9.446327683615817,
+          21.759322033898304,
+          23.422598870056497
+        ],
+        "target": [
+          0,
+          16.8,
+          7.599999999999999
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 85,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "light-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": true,
+        "camera": [
+          9.446327683615817,
+          21.759322033898304,
+          23.422598870056497
+        ],
+        "target": [
+          0,
+          16.8,
+          7.599999999999999
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 85,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "lift-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": true,
+        "alternateLight": false,
+        "camera": [
+          9.446327683615817,
+          21.759322033898304,
+          23.422598870056497
+        ],
+        "target": [
+          0,
+          16.8,
+          7.599999999999999
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 2,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 85,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "whole-a",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "a",
+        "view": "whole",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          15.777401129943506,
+          57.858757062146886
+        ],
+        "target": [
+          0,
+          10.7,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 2.8,
+          "sun": 3.5,
+          "fill": 1.15,
+          "exposure": 1.45
+        },
+        "drawCalls": 77,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "whole-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "d",
+        "view": "whole",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          15.777401129943506,
+          57.858757062146886
+        ],
+        "target": [
+          0,
+          10.7,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 87,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "section-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "d",
+        "view": "section",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          37.78531073446327,
+          18.13898305084746,
+          35.42372881355932
+        ],
+        "target": [
+          0,
+          10.7,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": true,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 87,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "node-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "d",
+        "view": "node",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          9.446327683615818,
+          6.650847457627119,
+          14.169491525423725
+        ],
+        "target": [
+          0,
+          2.4,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 43,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "node-lift-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "d",
+        "view": "node",
+        "roofLift": true,
+        "alternateLight": false,
+        "camera": [
+          9.446327683615818,
+          6.650847457627119,
+          14.169491525423725
+        ],
+        "target": [
+          0,
+          2.4,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 2,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 43,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "node-a",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "a",
+        "view": "node",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          9.446327683615818,
+          6.650847457627119,
+          14.169491525423725
+        ],
+        "target": [
+          0,
+          2.4,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 2.8,
+          "sun": 3.5,
+          "fill": 1.15,
+          "exposure": 1.45
+        },
+        "drawCalls": 43,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "whole-e",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "e",
+        "view": "whole",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          15.777401129943506,
+          57.858757062146886
+        ],
+        "target": [
+          0,
+          10.7,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 481,
+        "envelopeVisible": true,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "whole-f",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "f",
+        "view": "whole",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          15.777401129943506,
+          57.858757062146886
+        ],
+        "target": [
+          0,
+          10.7,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 494,
+        "envelopeVisible": true,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": true,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "street-f",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "f",
+        "view": "street",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          4.559887005649716,
+          62.581920903954796
+        ],
+        "target": [
+          0,
+          10.7,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 494,
+        "envelopeVisible": true,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": true,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "side-f",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "f",
+        "view": "side",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          51.95480225988699,
+          9.819209039548026,
+          40.14689265536722
+        ],
+        "target": [
+          0,
+          11,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 494,
+        "envelopeVisible": true,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": true,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "side-light-f",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "f",
+        "view": "side",
+        "roofLift": false,
+        "alternateLight": true,
+        "camera": [
+          51.95480225988699,
+          9.819209039548026,
+          40.14689265536722
+        ],
+        "target": [
+          0,
+          11,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 494,
+        "envelopeVisible": true,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": true,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "side-lift-f",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "f",
+        "view": "side",
+        "roofLift": true,
+        "alternateLight": false,
+        "camera": [
+          51.95480225988699,
+          9.819209039548026,
+          40.14689265536722
+        ],
+        "target": [
+          0,
+          11,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 2,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 494,
+        "envelopeVisible": true,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": true,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "section-f",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "f",
+        "view": "section",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          37.78531073446327,
+          18.13898305084746,
+          35.42372881355932
+        ],
+        "target": [
+          0,
+          10.7,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": true,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 494,
+        "envelopeVisible": true,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": true,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "upper-node-f",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "f",
+        "view": "upperNode",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          8.265536723163839,
+          5.6870056497175145,
+          14.079096045197737
+        ],
+        "target": [
+          0,
+          1.1999999999999997,
+          0.5
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 9,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "upper-node-lift-f",
+      "state": {
+        "architecture": "dule",
+        "revision": "02",
+        "viewerBuild": "02b",
+        "mode": "f",
+        "view": "upperNode",
+        "roofLift": true,
+        "alternateLight": false,
+        "camera": [
+          8.265536723163839,
+          5.6870056497175145,
+          14.079096045197737
+        ],
+        "target": [
+          0,
+          1.1999999999999997,
+          0.5
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 2,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 9,
+        "envelopeVisible": false,
+        "envelope": {
+          "revision": "roof-envelope-02",
+          "pitch": 0.28,
+          "step": 0.31,
+          "length": 0.43,
+          "radius": 0.085,
+          "upperWing": 0.78,
+          "lowerWing": 0.58,
+          "upperWingStart": 8.1,
+          "lowerWingStart": 8.3,
+          "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+        },
+        "exteriorVisible": false,
+        "supportLayerY": 0,
+        "upperAngCount": 2
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    }
+  ],
+  "logs": [],
+  "supportSelection": "dule/exterior02/support/lower/-1/-1 · 比例推定 · commons-2020 + commons-side-2014:现状可见轮廓；尺寸、非正面布置为比例推定 · 现状上下四角擎檐柱；具体坐标、柱径、弹性连接及增加年代未测绘核定，非辽构柱网",
+  "selection": "dule/exterior02/support/lower/-1/-1 · 比例推定 · commons-2020 + commons-side-2014:现状可见轮廓；尺寸、非正面布置为比例推定 · 现状上下四角擎檐柱；具体坐标、柱径、弹性连接及增加年代未测绘核定，非辽构柱网"
+}

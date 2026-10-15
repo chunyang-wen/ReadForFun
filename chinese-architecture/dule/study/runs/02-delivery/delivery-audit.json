@@ -1,0 +1,35 @@
+{
+  "revision": "02",
+  "sourceHashMismatches": [],
+  "originalVolumeUnchangedFromRound01": true,
+  "originalFilesCompared": [
+    "chinese-architecture/dule/model.js",
+    "chinese-architecture/dule/data.js",
+    "chinese-architecture/dule/app.js",
+    "chinese-architecture/dule/index.html",
+    "chinese-architecture/dule/style.css"
+  ],
+  "testsPassed": 24,
+  "desktopScenes": 22,
+  "mobileScenes": 22,
+  "desktopLogs": [],
+  "mobileLogs": [],
+  "originalRegressionEvidence": "../01-reviewed/; not rerun in round02",
+  "photographicRegistration": false,
+  "published": false,
+  "humanReview": [
+    "desktop whole-f, side-f, upper-node-lift-f",
+    "mobile street-f corrected distance and explicit build02b",
+    "mobile upper-node-lift-f and side-lift-f"
+  ],
+  "limits": [
+    "sculpted ridge ends",
+    "historical paint patterns",
+    "as-built upper bracket assemblies",
+    "hidden joinery",
+    "side/rear enclosure survey",
+    "mobile real hardware performance"
+  ],
+  "viewerBuild": "02b",
+  "cachedBuildEvidence": "../02-cached/"
+}
