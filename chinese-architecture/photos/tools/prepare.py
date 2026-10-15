@@ -5,21 +5,34 @@ Run with a Python containing Pillow. Do not pass credentials on the command line
 """
 import argparse,hashlib,json,os,pathlib,subprocess,urllib.request,re,html,datetime
 from PIL import Image,ImageOps
-p=argparse.ArgumentParser();p.add_argument('source',type=pathlib.Path);p.add_argument('--upload',action='store_true');p.add_argument('--merge',action='store_true');a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('source',type=pathlib.Path);p.add_argument('--upload',action='store_true');p.add_argument('--merge',action='store_true');p.add_argument('--report',type=pathlib.Path,help='Independent report path; preserve historical runs');a=p.parse_args()
 root=pathlib.Path(__file__).resolve().parents[1];out=a.source/'prepared';out.mkdir(exist_ok=True)
 metadata=json.loads((a.source/'metadata.json').read_text());assets=[]
 base=os.environ.get('R2_PUBLIC_URL','https://readforfun-img.chunyangwen.com').rstrip('/')
 for i,record in enumerate(metadata):
  info=record['info'];m=info['extmetadata'];license=m['LicenseShortName']['value']
- if license not in ['CC BY-SA 3.0','CC BY-SA 4.0']:raise ValueError('License requires review')
+ pdf_page=record.get('sourceType')=='commons-pdf-page'
+ if license not in ['CC BY-SA 3.0','CC BY-SA 4.0','CC BY 4.0'] and not (pdf_page and license=='Public domain'):raise ValueError('License requires review')
  original=a.source/record.get('localFile',f'{i}.jpg');original_bytes=original.read_bytes()
  if info.get('sha1') and hashlib.sha1(original_bytes).hexdigest()!=info['sha1']:raise ValueError('Original differs from Commons source SHA1')
  digest=hashlib.sha256(original_bytes).hexdigest();prefix=f'chinese-architecture/photos/{record["id"]}/{digest[:16]}'
- variants={};source_image=Image.open(original)
- if source_image.format not in ('JPEG','MPO') or not original_bytes.startswith(b'\xff\xd8'):raise ValueError('This pipeline expects verified JPEG-compatible originals')
+ variants={}
+ if pdf_page:
+  from pypdf import PdfReader
+  if not original_bytes.startswith(b'%PDF-'):raise ValueError('Expected original PDF bytes')
+  page_number=record['pdfPage'];reader=PdfReader(original)
+  if not isinstance(page_number,int) or not 1<=page_number<=len(reader.pages):raise ValueError('Invalid PDF page')
+  page=reader.pages[page_number-1];images=list(page.images)
+  # This branch extracts a full-page mechanical scan, not arbitrary content or rendered upsampling.
+  if len(images)!=1:raise ValueError('Reviewed single-image scanned page required')
+  source_image=images[0].image
+  if not record.get('author') or not record.get('date'):raise ValueError('Scanned pages need explicit attribution and publication date')
+ else:
+  source_image=Image.open(original)
+  if source_image.format not in ('JPEG','MPO') or not original_bytes.startswith(b'\xff\xd8'):raise ValueError('This pipeline expects verified JPEG-compatible originals')
  im=ImageOps.exif_transpose(source_image)
  for kind,size in [('original',None),('display',1600),('thumb',480),('full',max(im.size))]:
-  filename=f'{kind}.jpg' if size is None else f'{kind}.webp';target=out/f'{record["id"]}-{filename}'
+  filename=('original.pdf' if pdf_page else 'original.jpg') if size is None else f'{kind}.webp';target=out/f'{record["id"]}-{filename}'
   if size is None:target.write_bytes(original.read_bytes())
   else:
    preview=im.copy();preview.thumbnail((size,size));color_options={'icc_profile':im.info['icc_profile']} if im.info.get('icc_profile') else {}
@@ -29,7 +42,7 @@ for i,record in enumerate(metadata):
    local=root/'fallback'/record['id']/digest[:16]/filename;local.parent.mkdir(parents=True,exist_ok=True);local.write_bytes(target.read_bytes())
   if a.upload:
    env={**os.environ,'AWS_ACCESS_KEY_ID':os.environ['R2_ACCESS_KEY_ID'],'AWS_SECRET_ACCESS_KEY':os.environ['R2_SECRET_ACCESS_KEY'],'AWS_DEFAULT_REGION':'auto','AWS_EC2_METADATA_DISABLED':'true'}
-   command=['aws','s3api','put-object','--bucket',os.environ['R2_BUCKET_NAME'],'--key',key,'--body',str(target),'--content-type','image/jpeg' if size is None else 'image/webp','--cache-control','public,max-age=31536000,immutable','--if-none-match','*','--endpoint-url',os.environ['R2_ENDPOINT_URL']]
+   command=['aws','s3api','put-object','--bucket',os.environ['R2_BUCKET_NAME'],'--key',key,'--body',str(target),'--content-type',('application/pdf' if pdf_page else 'image/jpeg') if size is None else 'image/webp','--cache-control','public,max-age=31536000,immutable','--if-none-match','*','--endpoint-url',os.environ['R2_ENDPOINT_URL']]
    result=subprocess.run(command,env=env,capture_output=True,text=True)
    if result.returncode and 'PreconditionFailed' not in result.stderr:raise RuntimeError(f'Upload failed for {record["id"]}/{filename}; check R2 configuration locally')
    downloaded=out/(record['id']+'-verify-'+filename)
@@ -37,7 +50,8 @@ for i,record in enumerate(metadata):
    if verify.returncode:raise RuntimeError('R2 read-back failed')
    if hashlib.sha256(downloaded.read_bytes()).hexdigest()!=hashlib.sha256(target.read_bytes()).hexdigest():raise ValueError('R2 asset hash mismatch')
    downloaded.unlink()
- assets.append(dict(id=record['id'],width=im.width,height=im.height,sha256=digest,iccProfilePreserved=bool(im.info.get('icc_profile')),source=info['descriptionurl'],sourceFile=record['file'],author=record.get('author') or html.unescape(re.sub('<[^>]+>','',m['Artist']['value'])).strip(),date=m.get('DateTimeOriginal',m.get('DateTime',{})).get('value','拍摄日期未注明').split(' ')[0],license=license,licenseUrl=m['LicenseUrl']['value'],changes='原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。',**variants))
+ if pdf_page:variants['original']+=f'#page={record["pdfPage"]}'
+ assets.append(dict(id=record['id'],width=im.width,height=im.height,sha256=digest,iccProfilePreserved=bool(im.info.get('icc_profile')),source=info['descriptionurl'],sourceFile=record['file'],author=record.get('author') or html.unescape(re.sub('<[^>]+>','',m['Artist']['value'])).strip(),date=record.get('date') or m.get('DateTimeOriginal',m.get('DateTime',{})).get('value','拍摄日期未注明').split(' ')[0],license=license,licenseUrl=(info['descriptionurl']+'#Licensing') if pdf_page else m['LicenseUrl']['value'],changes=(f'公有领域原刊PDF第{record["pdfPage"]}页；从单幅整页扫描直接提取，不裁切、不增细；原始PDF字节未改动，WebP保留原扫描像素上限。' if pdf_page else '原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。'),**({'sourceType':'commons-pdf-page','pdfPage':record['pdfPage'],'originalLabel':'原刊 PDF ↗','sourceSHA1':info['sha1'],'scanSHA256':hashlib.sha256(im.tobytes()).hexdigest(),'scanMode':im.mode} if pdf_page else {}),**variants))
 if a.merge:
  existing=json.loads((root/'assets.json').read_text())
  updated={item['id']:item for item in existing}
@@ -49,5 +63,5 @@ else:catalog=assets
 (root/'assets.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
 (root/'records'/'commons-metadata.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n')
 report=dict(timestamp=datetime.datetime.now(datetime.timezone.utc).isoformat(),photos=[item['id'] for item in assets],variants=len(assets)*4,uploaded=a.upload,readBackSHA256Verified=a.upload)
-(root/'records'/('expansion-upload.json' if a.upload else 'expansion-prepare.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+(a.report or root/'records'/('expansion-upload.json' if a.upload else 'expansion-prepare.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(dict(photos=len(assets),catalogPhotos=len(catalog),variants=len(assets)*4,uploaded=a.upload),ensure_ascii=False))

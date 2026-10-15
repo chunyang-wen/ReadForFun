@@ -1,0 +1,104 @@
+{
+  "height": 900,
+  "overflow": false,
+  "scripts": [
+    "https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX",
+    "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04"
+  ],
+  "state": {
+    "alternateLight": true,
+    "architecture": "dule",
+    "bounds": {
+      "max": [
+        12.024937088790905,
+        20.930000007152557,
+        9.575000196695328
+      ],
+      "min": [
+        -12.024937088790905,
+        0,
+        -9.1650069761336
+      ]
+    },
+    "camera": [
+      54.54610511787381,
+      17.010532617721132,
+      0.2049966102808669
+    ],
+    "chapter": 0,
+    "detail": false,
+    "explode": 0,
+    "layers": [
+      "foundation",
+      "columns",
+      "ties",
+      "brackets",
+      "ming",
+      "ceiling",
+      "roofFrame",
+      "purlins",
+      "rafters",
+      "roof",
+      "enclosure"
+    ],
+    "node": "lower",
+    "projected": [
+      [
+        0.3462380630308743,
+        -0.41704110937988514,
+        0.9987819270107556
+      ],
+      [
+        -0.34623806303087407,
+        -0.41704110937988514,
+        0.9987819270107556
+      ],
+      [
+        0.3593939212728075,
+        0.5713604164211961,
+        0.9987261440874736
+      ],
+      [
+        -0.3593939212728072,
+        0.5713604164211961,
+        0.9987261440874736
+      ],
+      [
+        0.5330990912169956,
+        -0.8475149431375477,
+        0.997989606646096
+      ],
+      [
+        -0.5330990912169952,
+        -0.8475149431375477,
+        0.997989606646096
+      ],
+      [
+        0.5649398804740012,
+        0.6804657824833322,
+        0.9978545966549808
+      ],
+      [
+        -0.5649398804740008,
+        0.6804657824833322,
+        0.9978545966549808
+      ]
+    ],
+    "revision": "dule-04",
+    "script": "http://localhost:8765/chinese-architecture/dule/app.js?v=dule-04",
+    "section": false,
+    "selected": null,
+    "selectionBounds": null,
+    "target": [
+      0,
+      10.46500000357628,
+      0.2049966102808636
+    ],
+    "targetExplode": 0,
+    "viewport": {
+      "height": 900,
+      "width": 1280
+    }
+  },
+  "width": 1280
+}

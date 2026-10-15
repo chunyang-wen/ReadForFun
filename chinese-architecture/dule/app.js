@@ -3,8 +3,12 @@ import { OrbitControls } from '../vendor/OrbitControls.js';
 import { buildModel, SPEC, getColumnGrid } from './model.js';
 import { LAYERS, CHAPTERS, PARTS, SOURCES } from './data.js';
 
+import {buildProductionModel,effectivelyVisible,REVISION,buildUpperDetail} from './production.js?v=dule-04';
+import {applyPairedReach} from './study/structure-sample.js';
+import {mountPhotoGallery} from '../photos/gallery.js?v=dule-05';
 const $=id=>document.getElementById(id);
 let chapterIndex=0,model,detail,renderer,scene,camera,controls,selectionBox,ground,gridGuide;
+let lowerDetail,upperDetail,activeNode='lower';
 let activeModel,dirty=true,explode=0,targetExplode=0,animation=null,sectionSign=1;
 let selected=null,pointerStart=null,visible=true;
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -25,7 +29,7 @@ function woodTexture(){
  const texture=new THREE.CanvasTexture(canvas);texture.colorSpace=THREE.SRGBColorSpace;texture.wrapS=texture.wrapT=THREE.RepeatWrapping;texture.anisotropy=4;return texture;
 }
 function createMaterials(){
- const wood=woodTexture();const palette={wood:0xc39b66,darkwood:0x997340,column:0xab794a,endgrain:0xc7a374,rafter:0xc8ac74,stone:0xa4a58f,lightstone:0xb4b49e,seam:0x878c7e,ceiling:0x837d51,ceilingPanel:0x9b926b,roofBoard:0x737b70,tile:0x777f72,ridge:0x5c675e,plaster:0xd0bfa0,door:0x925a3d,metal:0x4f4e3f};
+ const wood=woodTexture();const palette={wood:0xc39b66,darkwood:0x997340,column:0xab794a,endgrain:0xc7a374,rafter:0xc8ac74,stone:0xa4a58f,lightstone:0xb4b49e,seam:0x878c7e,ceiling:0x837d51,ceilingPanel:0x9b926b,roofBoard:0x737b70,tile:0x74736e,ridge:0x62615c,plaster:0xd0bfa0,door:0x925a3d,metal:0x4f4e3f};
  for(const [key,color] of Object.entries(palette)){
    const timber=['wood','darkwood','column','endgrain','rafter','ceiling','door'].includes(key);
    baseMaterials[key]=new THREE.MeshStandardMaterial({color,roughness:key==='metal'?.55:.92,metalness:key==='metal'?.45:0,map:timber?wood:null,side:['tile','roofBoard'].includes(key)?THREE.DoubleSide:THREE.FrontSide});
@@ -35,17 +39,17 @@ function initialize(){
  try{
   renderer=new THREE.WebGLRenderer({antialias:true,alpha:false,powerPreference:'high-performance'});
   renderer.setPixelRatio(Math.min(devicePixelRatio,1.7));renderer.setClearColor(0xf3eddf,1);renderer.outputColorSpace=THREE.SRGBColorSpace;
-  renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.45;
+  renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.25;
   renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFShadowMap;renderer.localClippingEnabled=true;
   renderer.domElement.setAttribute('aria-hidden','true');$('viewport').prepend(renderer.domElement);
   scene=new THREE.Scene();camera=new THREE.PerspectiveCamera(35,1,.05,400);
   controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.dampingFactor=.10;controls.maxPolarAngle=Math.PI*.49;controls.minDistance=2;controls.maxDistance=160;controls.enablePan=true;
   controls.addEventListener('change',()=>dirty=true);controls.addEventListener('start',()=>animation=null);
-  scene.add(new THREE.HemisphereLight(0xfff9ea,0x6b705f,2.8));
-  const sun=new THREE.DirectionalLight(0xfff1d7,3.5);sun.position.set(-22,43,29);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.camera.left=-33;sun.shadow.camera.right=33;sun.shadow.camera.top=28;sun.shadow.camera.bottom=-27;sun.shadow.camera.near=.5;sun.shadow.camera.far=110;sun.shadow.normalBias=.04;sun.shadow.bias=-.00008;scene.add(sun);
-  const fill=new THREE.DirectionalLight(0xe5eddf,1.15);fill.position.set(26,14,-30);scene.add(fill);
+  scene.add(new THREE.HemisphereLight(0xfff9ea,0x6b705f,1.8));
+  const sun=new THREE.DirectionalLight(0xfff1d7,3.5);sun.position.set(-22,43,29);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.camera.left=-33;sun.shadow.camera.right=33;sun.shadow.camera.top=28;sun.shadow.camera.bottom=-27;sun.shadow.camera.near=.5;sun.shadow.camera.far=110;sun.shadow.normalBias=.04;sun.shadow.bias=-.00008;scene.add(sun);$('light-toggle').addEventListener('change',()=>{sun.position.x=$('light-toggle').checked?22:-22;dirty=true;});
+  const fill=new THREE.DirectionalLight(0xe5eddf,.65);fill.position.set(26,14,-30);scene.add(fill);
   ground=new THREE.Mesh(new THREE.PlaneGeometry(140,140),new THREE.ShadowMaterial({color:0x463f2e,opacity:.18}));ground.rotation.x=-Math.PI/2;ground.position.y=-.3;ground.receiveShadow=true;scene.add(ground);
-  createMaterials();model=buildModel(baseMaterials);detail=buildModel(baseMaterials,{detailOnly:true});
+  createMaterials();model=new URLSearchParams(location.search).has('baseline')?buildModel(baseMaterials):buildProductionModel(baseMaterials);detail=buildModel(baseMaterials,{detailOnly:true});applyPairedReach(detail);lowerDetail=detail;upperDetail=buildUpperDetail(baseMaterials,LAYERS.map(l=>l.id));scene.add(upperDetail.root);upperDetail.root.visible=false;
   scene.add(model.root,detail.root);
   const segments=[]; const g=getColumnGrid();
   for(const x of g.xs)segments.push(x,.57,g.zs[0],x,.57,g.zs.at(-1));
@@ -73,19 +77,19 @@ function updateChapterText(i){
  $('prev-chapter').disabled=i===0;$('next-chapter').disabled=i===CHAPTERS.length-1;
 }
 function setChapter(i,animate=true){
- chapterIndex=i;updateChapterText(i);if(!model)return;gridGuide.visible=i===1;
- const c=CHAPTERS[i];const isDetail=c.view==='detail';activeModel=isDetail?detail:model;model.root.visible=!isDetail;detail.root.visible=isDetail;ground.position.y=isDetail?-2.1:-.3;
- for(const l of LAYERS){const shown=isDetail?['columns','ties','brackets'].includes(l.id):c.visible.includes(l.id);activeModel.layers.get(l.id).visible=shown;const input=document.querySelector(`[data-layer="${l.id}"]`);input.checked=shown;input.disabled=activeModel.layers.get(l.id).children.length===0;}
+ chapterIndex=i;updateChapterText(i);document.dispatchEvent(new CustomEvent('architecture:chapter',{detail:{building:'dule',chapter:i}}));if(!model)return;gridGuide.visible=i===1;
+ const c=CHAPTERS[i];const isDetail=c.view==='detail';detail=activeNode==='upper'?upperDetail:lowerDetail;lowerDetail.root.visible=false;upperDetail.root.visible=false;$('node-controls').hidden=!isDetail;activeModel=isDetail?detail:model;model.root.visible=!isDetail;detail.root.visible=isDetail;ground.position.y=isDetail?-2.1:-.3;
+ for(const l of LAYERS){const shown=isDetail?['columns','ties','brackets','purlins'].includes(l.id):c.visible.includes(l.id);activeModel.layers.get(l.id).visible=shown;const input=document.querySelector(`[data-layer="${l.id}"]`);input.checked=shown;input.disabled=activeModel.layers.get(l.id).children.length===0;}
  $('explode').value=c.view==='exploded'?65:0;targetExplode=Number($('explode').value)/100;explode=targetExplode;
  $('explode-label').textContent=isDetail?'铺作局部拆合':'整阁分层拆解';$('explode-value').value=`${$('explode').value}%`;$('explode-toggle').textContent=targetExplode?'合回':'展开';
  $('section-toggle').checked=c.view==='section';$('section-position').value=c.view==='section'?12:0;$('section-axis').value='x';sectionSign=1;updateClipping();clearSelection();applyExplosion();
- $('model-mode').textContent=isDetail?'下檐四跳 · 叉柱关系':'构造研究模型';
+ $('model-mode').textContent=isDetail?(activeNode==='upper'?'上檐两下昂 · 方向诊断':'下檐四跳 · 叉柱关系'):'构造研究模型';if(isDetail&&activeNode==='upper'){$('chapter-title').textContent='上檐两下昂';$('chapter-subtitle').textContent='两跳华栱与两下昂 · 方向诊断';$('chapter-facts').innerHTML='<dt>上檐出跳</dt><dd>成对合计0.85 / 0.99 m；对内等分推定</dd><dt>两下昂</dt><dd>存在有文献；斜率、端头及卯口未核</dd>';$('chapter-text').textContent='两跳华栱之后有两下昂。论文印刷35页注2明确两下昂共占一跳高度；这里复用既有诊断节点，昂身倾角、后尾和截面仍是推定，整阁逐攒尚未修正。';$('chapter-question').textContent='从侧面看两根斜昂，再展开检查与横栱、檐槫的位置；不能把方向骨架当作真实卯口。';}
  $('model-stats').textContent=`${activeModel.records.length.toLocaleString()} 个几何构件 · ${isDetail?'单攒局部':'三段柱架 · 中央贯通'} · 米制比例`;
  populateMembers();setView(c.view==='detail'?'detail':c.view==='section'?'side':c.view==='exploded'?'exploded':c.view,animate);setLabels();dirty=true;
 }
 function currentBounds(){
  activeModel.root.updateMatrixWorld(true);const bounds=new THREE.Box3();
- for(const mesh of activeModel.meshes)if(mesh.parent.visible){if(!mesh.boundingBox)mesh.computeBoundingBox();bounds.union(mesh.boundingBox.clone().applyMatrix4(mesh.matrixWorld));}
+ for(const mesh of activeModel.meshes)if(effectivelyVisible(mesh)){if(!mesh.boundingBox)mesh.computeBoundingBox();bounds.union(mesh.boundingBox.clone().applyMatrix4(mesh.matrixWorld));}
  return bounds.isEmpty()?new THREE.Box3(new THREE.Vector3(-1,-1,-1),new THREE.Vector3(1,1,1)):bounds;
 }
 function viewTarget(){return currentBounds().getCenter(new THREE.Vector3());}
@@ -99,6 +103,7 @@ function fittedPosition(direction){
  return {target,destination:target.clone().add(dir.multiplyScalar(distance*1.14))};
 }
 function setView(view,animate=true){
+ $('viewport').dataset.settled='false';
  if(!camera)return;const detailView=activeModel===detail;let direction;
  switch(view){case 'front':direction=new THREE.Vector3(0,.10,1);break;case 'back':direction=new THREE.Vector3(0,.10,-1);break;case 'side':direction=new THREE.Vector3(1,.12,0);break;case 'top':direction=new THREE.Vector3(0,1,.001);break;default:direction=new THREE.Vector3(1,.52,1.2);}
  const {target,destination}=fittedPosition(direction);
@@ -106,10 +111,10 @@ function setView(view,animate=true){
  else{camera.position.copy(destination);controls.target.copy(target);camera.lookAt(target);controls.update();}
  controls.minDistance=detailView?1.4:7;controls.maxDistance=detailView?60:280;
  document.querySelectorAll('[data-view]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.view===view||el.dataset.view==='iso'&&['detail','exploded'].includes(view))));
- $('view-status').textContent=({front:'前檐 · 南',back:'后檐 · 北',side:'山面 · 东',top:'柱网俯视',detail:'四跳与叉柱局部',exploded:'分层观察',iso:'斜向全貌'})[view]||'自由视角';dirty=true;
+ $('view-status').textContent=activeModel===upperDetail?'上檐两下昂局部':({front:'前檐 · 南',back:'后檐 · 北',side:'山面 · 东',top:'柱网俯视',detail:'四跳与叉柱局部',exploded:'分层观察',iso:'斜向全貌'})[view]||'自由视角';dirty=true;
 }
 function setLabels(){
- const items=activeModel===detail?[
+ const items=activeModel===upperDetail?[]:activeModel===detail?[
  ['柱头栌斗',[.3,.15,0],'brackets',0],['第四跳',[0,1.40,1.64],'brackets',4],['叉柱开口',[.28,1.75,-.37],'columns',6]
  ]:chapterIndex===1?[
  ['南檐',[0,.57,7.4],'foundation'],['外圈 18 柱',[-10,2.5,3.705],'columns'],['内圈 10 柱',[-6.65,2.5,3.705],'columns']
@@ -122,7 +127,7 @@ function updateLabels(){
  const layer=activeModel.layers.get(a.layer);const projected=point.clone().project(camera);const x=(projected.x*.5+.5)*rect.width,y=(-projected.y*.5+.5)*rect.height;
  const clipped=$('section-toggle').checked&&clipPlane.distanceToPoint(point)<0;
  el.hidden=!layer.visible||projected.z>1||projected.z< -1||x<40||x>rect.width-45||y<70||y>rect.height-40||clipped;
- if(!el.hidden){const dir=point.clone().sub(camera.position),dist=dir.length();raycaster.set(camera.position,dir.normalize());const occlusion=raycaster.intersectObjects(activeModel.meshes.filter(m=>m.parent.visible),false).find(h=>(!$('section-toggle').checked||clipPlane.distanceToPoint(h.point)>=0)&&h.distance<dist-.5);if(occlusion)el.hidden=true;} el.style.left=`${x}px`;el.style.top=`${y}px`;}
+ if(!el.hidden){const dir=point.clone().sub(camera.position),dist=dir.length();raycaster.set(camera.position,dir.normalize());const occlusion=raycaster.intersectObjects(activeModel.meshes.filter(m=>effectivelyVisible(m)),false).find(h=>(!$('section-toggle').checked||clipPlane.distanceToPoint(h.point)>=0)&&h.distance<dist-.5);if(occlusion)el.hidden=true;} el.style.left=`${x}px`;el.style.top=`${y}px`;}
 }
 function applyExplosion(){
  if(!activeModel)return;for(const [id,group] of activeModel.layers){group.position.y=activeModel===detail?0:layerConfig.get(id).offset*explode;}
@@ -137,7 +142,7 @@ function updateClipping(){
  if(selected)clearSelection();dirty=true;
 }
 function updateColors(){
- for(const m of [...model.meshes,...detail.meshes]){
+ for(const m of [...model.meshes,...lowerDetail.meshes,...upperDetail.meshes]){
   const base=baseMaterials[m.userData.materialKey];if(!$('color-toggle').checked){m.material=base;continue;}
   const key=`${m.userData.layer}/${m.userData.materialKey}`;
   if(!coloredMaterials.has(key)){const mat=base.clone();mat.color.set(layerConfig.get(m.userData.layer).color);mat.map=null;coloredMaterials.set(key,mat);}m.material=coloredMaterials.get(key);
@@ -156,7 +161,7 @@ function updateSelectionBox(){
 function onPick(e){
  if(!pointerStart||Math.hypot(e.clientX-pointerStart.x,e.clientY-pointerStart.y)>5)return;
  const r=renderer.domElement.getBoundingClientRect();pointer.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1);raycaster.setFromCamera(pointer,camera);
- const candidates=activeModel.meshes.filter(mesh=>mesh.parent.visible);
+ const candidates=activeModel.meshes.filter(mesh=>effectivelyVisible(mesh));
  const hits=raycaster.intersectObjects(candidates,false);const hit=hits.find(h=>!$('section-toggle').checked||clipPlane.distanceToPoint(h.point)>=0);if(hit)selectHit(hit);else clearSelection();
 }
 function keyboardView(e){
@@ -171,21 +176,24 @@ function tick(now){
  if(document.hidden||!visible)return;
  if(animation){const a=animation,t=Math.min(1,(now-a.start)/a.duration),ease=1-Math.pow(1-t,3);camera.position.lerpVectors(a.from,a.to,ease);controls.target.lerpVectors(a.fromTarget,a.toTarget,ease);dirty=true;if(t===1)animation=null;}
  if(Math.abs(explode-targetExplode)>.001){explode=reduced?targetExplode:THREE.MathUtils.lerp(explode,targetExplode,.16);if(Math.abs(explode-targetExplode)<.002)explode=targetExplode;applyExplosion();}
- const changed=controls.update();if(dirty||changed){renderer.render(scene,camera);updateLabels();dirty=false;}
+ const changed=controls.update();$('viewport').dataset.settled=String(!animation&&Math.abs(explode-targetExplode)<.001&&!changed);if(dirty||changed){renderer.render(scene,camera);updateLabels();$('runtime-state').textContent=JSON.stringify(getViewerState());dirty=false;}
 }
 for(const button of document.querySelectorAll('[data-chapter]'))button.addEventListener('click',()=>setChapter(Number(button.dataset.chapter)));
 for(const button of document.querySelectorAll('[data-view]'))button.addEventListener('click',()=>setView(button.dataset.view));
 for(const input of document.querySelectorAll('[data-layer]'))input.addEventListener('change',()=>{if(!activeModel)return;activeModel.layers.get(input.dataset.layer).visible=input.checked;clearSelection();populateMembers();dirty=true;});
 $('layers-all').addEventListener('click',()=>{if(!activeModel)return;for(const input of document.querySelectorAll('[data-layer]')){input.checked=!input.disabled;activeModel.layers.get(input.dataset.layer).visible=!input.disabled;}populateMembers();dirty=true;});
-function explosionInput(){targetExplode=Number($('explode').value)/100;$('explode-value').value=`${$('explode').value}%`;$('explode-toggle').textContent=targetExplode?'合回':'展开';explode=targetExplode;applyExplosion();if(camera){const direction=camera.position.clone().sub(controls.target);const {target,destination}=fittedPosition(direction);camera.position.copy(destination);controls.target.copy(target);camera.lookAt(target);controls.update();}dirty=true;}
+function explosionInput(){animation=null;$('viewport').dataset.settled='false';targetExplode=Number($('explode').value)/100;$('explode-value').value=`${$('explode').value}%`;$('explode-toggle').textContent=targetExplode?'合回':'展开';explode=targetExplode;applyExplosion();if(camera){const direction=camera.position.clone().sub(controls.target);const {target,destination}=fittedPosition(direction);camera.position.copy(destination);controls.target.copy(target);camera.lookAt(target);controls.update();}dirty=true;}
 $('explode').addEventListener('input',explosionInput);$('explode-toggle').addEventListener('click',()=>{$('explode').value=targetExplode>0?0:100;explosionInput();});
 $('section-toggle').addEventListener('change',updateClipping);$('section-axis').addEventListener('change',updateClipping);$('section-position').addEventListener('input',updateClipping);$('section-flip').addEventListener('click',()=>{sectionSign*=-1;updateClipping();});
 $('labels-toggle').addEventListener('change',()=>dirty=true);$('color-toggle').addEventListener('change',updateColors);
-$('reset-view').addEventListener('click',()=>{$('color-toggle').checked=false;$('labels-toggle').checked=true;updateColors();setChapter(0);});
+$('reset-view').addEventListener('click',()=>{$('light-toggle').checked=false;$('light-toggle').dispatchEvent(new Event('change'));$('color-toggle').checked=false;$('labels-toggle').checked=true;updateColors();setChapter(0);});
 $('prev-chapter').addEventListener('click',()=>setChapter(Math.max(0,chapterIndex-1)));$('next-chapter').addEventListener('click',()=>setChapter(Math.min(CHAPTERS.length-1,chapterIndex+1)));
 $('fullscreen').addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.querySelector('.viewer-column').requestFullscreen();}catch{$('view-status').textContent='当前浏览器不支持全屏，可放大浏览器面板。';}});
-function populateMembers(){if(!activeModel)return;const select=$('member-list');select.replaceChildren(new Option('选择关键构件…',''));for(const m of activeModel.meshes)if(m.parent.visible){const seen=new Set();m.userData.records.forEach((r,index)=>{const key=`${r.type}:${r.level||''}:${r.ring||''}`;if(['roof','rafter','dou'].includes(r.type)||seen.has(key))return;seen.add(key);const opt=new Option(`${PARTS[r.type].name} · ${r.level||r.assembly||r.id}`,`${activeModel.meshes.indexOf(m)}:${index}`);select.add(opt);});}}
+function populateMembers(){if(!activeModel)return;const select=$('member-list');select.replaceChildren(new Option('选择关键构件…',''));for(const m of activeModel.meshes)if(effectivelyVisible(m)){const seen=new Set();m.userData.records.forEach((r,index)=>{const key=`${r.type}:${r.level||''}:${r.ring||''}`;if(['roof','rafter','dou'].includes(r.type)||seen.has(key))return;seen.add(key);const opt=new Option(`${PARTS[r.type].name} · ${r.level||r.assembly||r.id}`,`${activeModel.meshes.indexOf(m)}:${index}`);select.add(opt);});}}
 $('member-list').addEventListener('change',()=>{const [m,i]=$('member-list').value.split(':').map(Number);if(Number.isFinite(i))selectHit({object:activeModel.meshes[m],instanceId:i});});
+document.addEventListener('architecture:photo-model',event=>{if(event.detail.building==='dule'&&CHAPTERS[event.detail.chapter]){if(['lower','upper'].includes(event.detail.node)){activeNode=event.detail.node;$('node-select').value=activeNode;}setChapter(event.detail.chapter);$('studio').scrollIntoView({behavior:'instant'});}});
+$('node-select').addEventListener('change',()=>{activeNode=$('node-select').value;setChapter(2);});
+mountPhotoGallery($('photo-atlas'),'dule');
 initialize();
 // Read-only state for reproducible browser validation of fitting and current UI state.
-export function getViewerState(){return {chapter:chapterIndex,detail:activeModel===detail,explode,targetExplode,section:$('section-toggle').checked,layers:[...activeModel.layers].filter(([,g])=>g.visible).map(([id])=>id),bounds:{min:currentBounds().min.toArray(),max:currentBounds().max.toArray()},camera:camera.position.toArray(),target:controls.target.toArray(),projected:(()=>{const b=currentBounds(),ps=[];for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z])ps.push(new THREE.Vector3(x,y,z).project(camera).toArray());return ps;})()};}
+export function getViewerState(){return {architecture:'dule',revision:REVISION,node:activeNode,viewport:{width:innerWidth,height:innerHeight},script:import.meta.url,selected:selected?.record.id||null,selectionBounds:selectionBox?.visible?{min:selectionBox.box.min.toArray(),max:selectionBox.box.max.toArray()}:null,alternateLight:$('light-toggle').checked,chapter:chapterIndex,detail:activeModel===detail,explode,targetExplode,section:$('section-toggle').checked,layers:[...activeModel.layers].filter(([,g])=>g.visible).map(([id])=>id),bounds:{min:currentBounds().min.toArray(),max:currentBounds().max.toArray()},camera:camera.position.toArray(),target:controls.target.toArray(),projected:(()=>{const b=currentBounds(),ps=[];for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z])ps.push(new THREE.Vector3(x,y,z).project(camera).toArray());return ps;})()};}

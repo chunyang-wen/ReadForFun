@@ -1,0 +1,92 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "122102149": {
+        "pageid": 122102149,
+        "ns": 6,
+        "title": "File:NLC404-01J000317-23024 中國營造學社彙刊 1932年3卷2期.pdf",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 6407670,
+            "width": 1254,
+            "height": 1802,
+            "pagecount": 203,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NLC404-01J000317-23024_%E4%B8%AD%E5%9C%8B%E7%87%9F%E9%80%A0%E5%AD%B8%E7%A4%BE%E5%BD%99%E5%88%8A_1932%E5%B9%B43%E5%8D%B72%E6%9C%9F.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:NLC404-01J000317-23024_%E4%B8%AD%E5%9C%8B%E7%87%9F%E9%80%A0%E5%AD%B8%E7%A4%BE%E5%BD%99%E5%88%8A_1932%E5%B9%B43%E5%8D%B72%E6%9C%9F.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=122102149",
+            "sha1": "e5fc40463f516c26449ac21d0174875a7fbef826",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-08-20 23:12:24",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\n中國營造學社彙刊</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-scan (PD-China-1996)|Books without Wikidata item|Republican Era Journals in the National Library of China|PD China 1996|中國營造學社彙刊",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\n中國營造學社</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<p>\n目錄 <br>\n獨樂寺專號 <br>\n論著 <br>\n薊縣獨樂寺觀音閣山門考 <br>\n薊縣觀音寺白塔記 <br>\n日本古建築物之保護 <br>\n哲匠錄 <br>\n本社紀事\n</p></div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<bdi><a rel=\"mw:WikiLink/Interwiki\" href=\"https://en.wikipedia.org/wiki/en:National%20Library%20of%20China\" title=\"w:en:National Library of China\" class=\"extiw\"><span title=\"library in Beijing, China\">National Library of China</span></a>\n</bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

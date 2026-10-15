@@ -1,0 +1,63 @@
+✔ full roof has finite transforms and stable unique IDs on all four directions and both tiers (14.587959ms)
+✔ roof boards and tiles share a continuous corner-height function, without closing the lower central void (1.7345ms)
+✔ nine-ridge outline and curved eave-bearing rails have explicit separate IDs and support ownership (7.852542ms)
+✔ full roof replacement preserves columns, floors, brackets and frame IDs; lifted roof leaves bearings and supports fixed (395.93825ms)
+✔ present-state exterior uses eight independent corner supports without merging them into historical column grids (0.953541ms)
+✔ enclosure adapter retains roof gables and north elevation; no door panel fills the southern central aperture (31.035ms)
+✔ upper diagnostic distinguishes two horizontal hua from two descending ang and discloses unknown profiles (0.574875ms)
+✔ three independent rings retain central void and retreat at each level (0.507542ms)
+✔ records are stable, documented and transforms finite (16.404667ms)
+✔ floor panels leave central shaft open, and western stair opening exists (1.226125ms)
+✔ upper frames stay below roof surface, including end sections (0.422333ms)
+✔ fork has two feet, a matching seat, and an unobstructed opening (0.162959ms)
+✔ lower local assembly is four horizontal hua arms without imported Foguang ang (0.065917ms)
+✔ each lower column meets its circular stone bearing surface (0.628834ms)
+✔ formal roof replaces baseline cover and active records match instances; structural IDs survive (691.263625ms)
+✔ every continuous board triangle faces upward on all slope signs and axes (4.269125ms)
+✔ hidden grandparent excludes nested roof from picking; bearing remains independent under explosion (0.317958ms)
+✔ upper node has two descending ang and per-tier explosion batches with all viewer layers (0.654833ms)
+✔ adapter removes only south upper central ribs, preserves shaft and structure IDs (77.053541ms)
+✔ gray roof patch conforms to Dule own slope and retains neutral constant colors (3.256083ms)
+✔ roof lift carries tile study while retaining column and enclosure levels (33.978875ms)
+✔ paired reach experiment respects published pair totals without presenting individual jumps as measured (0.7815ms)
+✔ eave sample remains outside sacred shaft and does not invent palace ornament (1.27825ms)
+✖ each photo has explicit reusable rights, attribution and exact building chapter (2.535417ms)
+✔ every display size has a local fallback, and remote keys are content addressed (0.495958ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.05925ms)
+✔ each photograph appears exactly once in its building story (0.072375ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (2.42975ms)
+✔ every selectable member has a documented type and valid layer (2.979291ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (4.231917ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.453125ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.679084ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.422166ms)
+✔ upper frame does not protrude through the hip roof (0.65225ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 33
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 868.556917
+
+✖ failing tests:
+
+test at chinese-architecture/photos/catalog.test.js:10:1
+✖ each photo has explicit reusable rights, attribution and exact building chapter (2.535417ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(asset)
+  
+      at TestContext.<anonymous> (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/photos/catalog.test.js:13:53)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.start (node:internal/test_runner/test:1257:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

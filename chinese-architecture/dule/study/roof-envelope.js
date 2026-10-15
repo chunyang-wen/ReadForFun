@@ -7,7 +7,8 @@ export const LOW={halfX:11.8,halfZ:8.94,innerX:-getColumnGrid(1).xs[0],innerZ:ge
 export function upperWing(x,z,p=ENVELOPE){return p.upperWing*smooth((Math.abs(x)-p.upperWingStart)/(ROOF.halfX-p.upperWingStart))*smooth((Math.abs(z)-5.9)/(ROOF.halfZ-5.9));}
 export function upperSurface(x,z,p=ENVELOPE){return surfaceY(x,z)+.16+upperWing(x,z,p);}
 export function lowerSurface(x,z,p=ENVELOPE){const t=clamp(Math.max((Math.abs(x)-LOW.innerX)/(LOW.halfX-LOW.innerX),(Math.abs(z)-LOW.innerZ)/(LOW.halfZ-LOW.innerZ)));return LOW.innerY-(LOW.innerY-LOW.eaveY)*Math.pow(t,.8)+p.lowerWing*smooth((Math.abs(x)-p.lowerWingStart)/(LOW.halfX-p.lowerWingStart))*smooth((Math.abs(z)-6.3)/(LOW.halfZ-6.3));}
-function strip(points){const g=new T.BufferGeometry(),v=points.flat(),idx=[];for(let i=0;i<points.length/2-1;i++){const a=i*2;idx.push(a,a+1,a+2,a+1,a+3,a+2);}g.setAttribute('position',new T.Float32BufferAttribute(v,3));g.setIndex(idx);g.computeVertexNormals();return g;}
+function strip(points){const g=new T.BufferGeometry(),v=points.flat(),idx=[];for(let i=0;i<points.length/2-1;i++){const a=i*2;idx.push(a,a+1,a+2,a+1,a+3,a+2);}g.setAttribute('position',new T.Float32BufferAttribute(v,3));// Orient each triangle toward the exterior; strip axes and signs differ by slope.
+for(let i=0;i<idx.length;i+=3){const a=points[idx[i]],b=points[idx[i+1]],c=points[idx[i+2]];const ny=(b[2]-a[2])*(c[0]-a[0])-(b[0]-a[0])*(c[2]-a[2]);if(ny<0)[idx[i+1],idx[i+2]]=[idx[i+2],idx[i+1]];}g.setIndex(idx);g.computeVertexNormals();return g;}
 export function buildRoofEnvelope(materials,p=ENVELOPE){
  const root=new T.Group(),records=[],buckets=new Map();root.userData.layer='roof';
  const panShape=new T.Shape();for(let i=0;i<=12;i++){const x=-p.pitch/2+i*p.pitch/12,y=.04*(2*x/p.pitch)**2;i?panShape.lineTo(x,y):panShape.moveTo(x,y);}for(let i=12;i>=0;i--){const x=-p.pitch/2+i*p.pitch/12;panShape.lineTo(x,.04*(2*x/p.pitch)**2-.02);}panShape.closePath();
