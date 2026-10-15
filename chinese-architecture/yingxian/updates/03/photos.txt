@@ -1,0 +1,1 @@
+PASS: 7 photos × desktop/mobile; full decode, zoom, Esc/focus, both model directions, study loading.

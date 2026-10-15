@@ -1,0 +1,18 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+10 !== 4
+
+    at file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/yingxian/tests/comparison.mjs:33:44 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 10,
+  expected: 4,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v26.7.0

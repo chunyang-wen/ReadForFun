@@ -1,0 +1,127 @@
+{
+  "results": [
+    {
+      "device": "desktop",
+      "photo": 0,
+      "decoded": true,
+      "source": "../photos/fallback/yingxian-whole-2025/25621d7b6a6c8811/full.webp",
+      "modelChapter": 0,
+      "focusRestored": true
+    },
+    {
+      "device": "desktop",
+      "photo": 1,
+      "decoded": true,
+      "source": "../photos/fallback/yingxian-aerial-2019/fce0fa255df3ec81/full.webp",
+      "modelChapter": 4,
+      "focusRestored": true
+    },
+    {
+      "device": "desktop",
+      "photo": 2,
+      "decoded": true,
+      "source": "../photos/fallback/yingxian-corner-2007/66df9942fa1923ab/full.webp",
+      "modelChapter": 5,
+      "focusRestored": true
+    },
+    {
+      "device": "desktop",
+      "photo": 3,
+      "decoded": true,
+      "source": "../photos/fallback/yingxian-ang-2007/6fd607a695106b77/full.webp",
+      "modelChapter": 5,
+      "focusRestored": true
+    },
+    {
+      "device": "desktop",
+      "photo": 4,
+      "decoded": true,
+      "source": "../photos/fallback/yingxian-ceiling-2009/161ec33aa8c63137/full.webp",
+      "modelChapter": 3,
+      "focusRestored": true
+    },
+    {
+      "device": "desktop",
+      "photo": 5,
+      "decoded": true,
+      "source": "../photos/fallback/yingxian-statuary/c26f32d5b79b7f2d/full.webp",
+      "modelChapter": 5,
+      "focusRestored": true
+    },
+    {
+      "device": "desktop",
+      "photo": 6,
+      "decoded": true,
+      "source": "../photos/fallback/yingxian-overall-2019/cdcb086a5a135485/full.webp",
+      "modelChapter": 0,
+      "focusRestored": true
+    },
+    {
+      "device": "desktop",
+      "studyBaselineLoads": true
+    },
+    {
+      "device": "mobile",
+      "photo": 0,
+      "decoded": true,
+      "source": "../photos/fallback/yingxian-whole-2025/25621d7b6a6c8811/full.webp",
+      "modelChapter": 0,
+      "focusRestored": true
+    },
+    {
+      "device": "mobile",
+      "photo": 1,
+      "decoded": true,
+      "source": "../photos/fallback/yingxian-aerial-2019/fce0fa255df3ec81/full.webp",
+      "modelChapter": 4,
+      "focusRestored": true
+    },
+    {
+      "device": "mobile",
+      "photo": 2,
+      "decoded": true,
+      "source": "../photos/fallback/yingxian-corner-2007/66df9942fa1923ab/full.webp",
+      "modelChapter": 5,
+      "focusRestored": true
+    },
+    {
+      "device": "mobile",
+      "photo": 3,
+      "decoded": true,
+      "source": "../photos/fallback/yingxian-ang-2007/6fd607a695106b77/full.webp",
+      "modelChapter": 5,
+      "focusRestored": true
+    },
+    {
+      "device": "mobile",
+      "photo": 4,
+      "decoded": true,
+      "source": "../photos/fallback/yingxian-ceiling-2009/161ec33aa8c63137/full.webp",
+      "modelChapter": 3,
+      "focusRestored": true
+    },
+    {
+      "device": "mobile",
+      "photo": 5,
+      "decoded": true,
+      "source": "../photos/fallback/yingxian-statuary/c26f32d5b79b7f2d/full.webp",
+      "modelChapter": 5,
+      "focusRestored": true
+    },
+    {
+      "device": "mobile",
+      "photo": 6,
+      "decoded": true,
+      "source": "../photos/fallback/yingxian-overall-2019/cdcb086a5a135485/full.webp",
+      "modelChapter": 0,
+      "focusRestored": true
+    },
+    {
+      "device": "mobile",
+      "studyBaselineLoads": true
+    }
+  ],
+  "errors": [],
+  "failures": [],
+  "analytics": "blocked; excluded from architecture checks"
+}

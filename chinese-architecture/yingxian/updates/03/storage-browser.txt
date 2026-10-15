@@ -1,0 +1,9 @@
+[
+  { id: 'yingxian-whole-2025', remoteDecoded: false },
+  { id: 'yingxian-corner-2007', remoteDecoded: false },
+  { id: 'yingxian-ang-2007', remoteDecoded: false },
+  { id: 'yingxian-aerial-2019', remoteDecoded: false },
+  { id: 'yingxian-ceiling-2009', remoteDecoded: false },
+  { id: 'yingxian-statuary', remoteDecoded: false },
+  { id: 'yingxian-overall-2019', remoteDecoded: false }
+]

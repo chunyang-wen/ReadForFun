@@ -1,4 +1,4 @@
-import {PHOTO_STORIES} from './catalog.js?v=dule-05';
+import {PHOTO_STORIES} from './catalog.js?v=yingxian-03';
 const assetUrl=new URL('./assets.json',import.meta.url);
 function setPhoto(img,item,kind,onFailure=()=>{}){
  const fallback=new URL(`./fallback/${item.id}/${item.sha256.slice(0,16)}/${kind}.webp`,import.meta.url).href;

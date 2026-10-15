@@ -1,6 +1,6 @@
 import * as T from '../../vendor/three.module.js';
 import {OrbitControls} from '../../vendor/OrbitControls.js';
-import {buildModel} from '../model.js';
+import {buildModel} from '../model.js?v=yingxian-03';
 import {createMaterials} from './materials.js';
 import {refineModel} from './adapter.js';
 import {validateExperiment} from '../../realism-workflow/manifest.js';
@@ -39,7 +39,7 @@ try{
  scene=new T.Scene();camera=new T.PerspectiveCamera(experiment.capture.cameraFov,1,.05,1200);controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=false;controls.minDistance=2;controls.maxDistance=600;controls.addEventListener('change',()=>dirty=true);
  scene.add(new T.HemisphereLight(0xfff9ea,0x6b705f,2.8));sun=new T.DirectionalLight(0xfff1d7,3.5);sun.position.set(-40,90,45);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-33,right:33,top:65,bottom:-65,near:.5,far:240});sun.shadow.normalBias=.04;sun.shadow.bias=-.00008;scene.add(sun);
  const fill=new T.DirectionalLight(0xe5eddf,1.15);fill.position.set(26,14,-30);scene.add(fill);
- materials={a:createMaterials(),b:createMaterials(true)};models={a:buildModel(materials.a),c:buildModel(materials.a)};detail=buildModel(materials.a,{detailOnly:true});enhanced=refineModel(models.c,materials.a,experiment.patch);scene.add(models.a.root,models.c.root,detail.root);
+ materials={a:createMaterials(),b:createMaterials(true)};models={a:buildModel(materials.a,{alignOuterBrackets:false,repairSurfaces:false}),c:buildModel(materials.a,{alignOuterBrackets:false,repairSurfaces:false})};detail=buildModel(materials.a,{detailOnly:true});enhanced=refineModel(models.c,materials.a,experiment.patch);scene.add(models.a.root,models.c.root,detail.root);
  box=new T.Box3Helper(new T.Box3(),0x9e4538);box.material.depthTest=false;box.renderOrder=100;box.visible=false;scene.add(box);
  const ground=new T.Mesh(new T.PlaneGeometry(140,140),new T.ShadowMaterial({opacity:.18,color:0x463f2e}));ground.rotation.x=-Math.PI/2;ground.position.y=-.3;ground.receiveShadow=true;scene.add(ground);
  new ResizeObserver(()=>{const r=viewport.getBoundingClientRect();renderer.setSize(r.width,r.height,false);camera.aspect=r.width/r.height;camera.updateProjectionMatrix();setView(view);}).observe(viewport);

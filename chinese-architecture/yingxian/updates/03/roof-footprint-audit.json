@@ -1,0 +1,7 @@
+{
+  "totalVertices": 1612800,
+  "outsideRoofFootprintOrEdgeTolerance": 61984,
+  "worstNormalDistanceMetres": -0.001680226955151909,
+  "penetratingCoveredVertices": 0,
+  "scope": "Each vertex checked against the roof panel at its own XZ, including adjacent facets. Uncovered vertices at open inner/eave boundaries are reported separately, not asserted to have roof above them."
+}

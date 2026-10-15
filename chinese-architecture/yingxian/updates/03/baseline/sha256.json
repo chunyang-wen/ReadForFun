@@ -1,0 +1,10 @@
+{
+  "model.js": "47ab82d487452d394a2ab5ffeec3cdd149f83e7b052ab682f0474210fba2fe6b",
+  "app.js": "eefaea11dd55c4d4d4f3daed86b7a93adac44c316c7de6e9e66e00a165da7131",
+  "index.html": "a27e92e78b94440a97140600bbe11349fa519602f2547d05fa9fc796b07eb670",
+  "MODEL_NOTES.md": "cffa8322068b67f75f89dcba1586c3b7f099aa7987a4fcdd5c3c884d301c2a6e",
+  "VALIDATION.md": "7aa9b92c4b8f96cf679ed0313eb5c737b866774fbbfa7ed9e89cdc207625ca1a",
+  "tests/model.test.js": "b7246a657809e559bc5b9d2ac590c822a982a943317ca5e5d551213471f8c373",
+  "tests/browser.mjs": "d244e06fdbedee5bbbf1ef6e0c822e986414a21d12e2f2c66d6f24332c714920",
+  "tests/photos.mjs": "02e974d57ed6288d9398ecbc95839ad0015a18c633cddca621c2c27d0443a4c2"
+}

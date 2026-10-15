@@ -1,6 +1,7 @@
+import {mountPhotoGallery} from '../photos/gallery.js?v=yingxian-03';
 import * as THREE from '../vendor/three.module.js';
 import { OrbitControls } from '../vendor/OrbitControls.js';
-import { buildModel, getColumnGrid, STOREYS } from './model.js';
+import { buildModel, getColumnGrid, STOREYS } from './model.js?v=yingxian-03';
 import { LAYERS, CHAPTERS, PARTS, SOURCES } from './data.js';
 
 const $=id=>document.getElementById(id);
@@ -72,7 +73,7 @@ function updateChapterText(i){
  $('prev-chapter').disabled=i===0;$('next-chapter').disabled=i===CHAPTERS.length-1;
 }
 function setChapter(i,animate=true){
- chapterIndex=i;updateChapterText(i);if(!model)return;gridGuide.visible=false;
+ chapterIndex=i;updateChapterText(i);document.dispatchEvent(new CustomEvent('architecture:chapter',{detail:{building:'yingxian',chapter:i}}));if(!model)return;gridGuide.visible=false;
  const c=CHAPTERS[i];const isDetail=c.view==='detail';activeModel=isDetail?detail:model;model.root.visible=!isDetail;detail.root.visible=isDetail;ground.position.y=isDetail?-2.1:-.3;
  for(const l of LAYERS){const shown=isDetail?['columns','ties','brackets'].includes(l.id):c.visible.includes(l.id);activeModel.layers.get(l.id).visible=shown;const input=document.querySelector(`[data-layer="${l.id}"]`);input.checked=shown;input.disabled=activeModel.layers.get(l.id).children.length===0;}
  $('explode').value=c.view==='exploded'?65:0;targetExplode=Number($('explode').value)/100;explode=targetExplode;
@@ -189,4 +190,7 @@ function applyStorey(){if(!activeModel)return;const value=$('storey-select').val
 $('storey-select').addEventListener('change',()=>{applyStorey();setView('iso',false);});
 initialize();
 // Read-only state for reproducible browser validation of fitting and current UI state.
-export function getViewerState(){return {storey:$('storey-select').value,visibleStoreys:[...new Set(activeModel.meshes.filter(m=>m.visible&&m.parent.visible).map(m=>m.userData.storey))],chapter:chapterIndex,detail:activeModel===detail,explode,targetExplode,section:$('section-toggle').checked,layers:[...activeModel.layers].filter(([,g])=>g.visible).map(([id])=>id),bounds:{min:currentBounds().min.toArray(),max:currentBounds().max.toArray()},camera:camera.position.toArray(),target:controls.target.toArray(),projected:(()=>{const b=currentBounds(),ps=[];for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z])ps.push(new THREE.Vector3(x,y,z).project(camera).toArray());return ps;})()};}
+export function getViewerState(){return {architecture:'yingxian',revision:'yingxian-03',selection:selected?{id:selected.record.id,layer:selected.record.layer,box:{min:selectionBox.box.min.toArray(),max:selectionBox.box.max.toArray()}}:null,storey:$('storey-select').value,visibleStoreys:[...new Set(activeModel.meshes.filter(m=>m.visible&&m.parent.visible).map(m=>m.userData.storey))],chapter:chapterIndex,detail:activeModel===detail,explode,targetExplode,section:$('section-toggle').checked,layers:[...activeModel.layers].filter(([,g])=>g.visible).map(([id])=>id),bounds:{min:currentBounds().min.toArray(),max:currentBounds().max.toArray()},camera:camera.position.toArray(),target:controls.target.toArray(),projected:(()=>{const b=currentBounds(),ps=[];for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z])ps.push(new THREE.Vector3(x,y,z).project(camera).toArray());return ps;})()};}
+
+mountPhotoGallery(document.querySelector('[data-photo-gallery]'),'yingxian');
+document.addEventListener('architecture:photo-model',event=>{if(event.detail.building==='yingxian')setChapter(event.detail.chapter);});

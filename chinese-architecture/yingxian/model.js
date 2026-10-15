@@ -20,7 +20,7 @@ export function getColumnGrid(level=0){const l=SPEC.levels[level],outer=ringPoin
 const cache=new Map(),geo=(k,f)=>{if(!cache.has(k))cache.set(k,f());return cache.get(k);};
 function prism(points,depth){const s=new THREE.Shape();points.forEach(([x,y],i)=>i?s.lineTo(x,y):s.moveTo(x,y));s.closePath();const g=new THREE.ExtrudeGeometry(s,{depth,bevelEnabled:false});g.translate(0,0,-depth/2);return g;}
 const arm=()=>geo('arm',()=>prism([[-.5,.5],[-.5,.02],[-.4,-.1],[-.3,-.5],[.3,-.5],[.4,-.1],[.5,.02],[.5,.5]],1));
-export function buildModel(materials,{detailOnly=false}={}){
+export function buildModel(materials,{detailOnly=false,alignOuterBrackets=true,repairSurfaces=true}={}){
  const root=new THREE.Group(),layers=new Map(LAYERS.map(l=>{const g=new THREE.Group();g.userData.layer=l.id;root.add(g);return [l.id,g];})),records=[],buckets=new Map(),seq=new Map();
  const boxGeo=geo('box',()=>new THREE.BoxGeometry(1,1,1)),cyl=geo('cylinder',()=>new THREE.CylinderGeometry(1,1,1,16)),douGeo=geo('dou',()=>{const g=new THREE.CylinderGeometry(.707,.43,1,4);g.rotateY(Math.PI/4);return g;});
  function add(layer,type,g,p,s=[1,1,1],q=new THREE.Quaternion(),mat='wood',extra={}){const prefix=extra.key||`${extra.storey||'site'}/${extra.assembly||layer}/${type}`,n=(seq.get(prefix)||0)+1;seq.set(prefix,n);const r={id:`${prefix}/${n}`,layer,type,position:[...p],scale:[...s],orientation:q.toArray(),status:'比例推定',source:'param:图2–8',...extra};records.push(r);const tier=detailOnly?(r.tier||0):0,k=`${layer}:${g.uuid}:${mat}:${r.storey||'site'}:${tier}`;if(!buckets.has(k))buckets.set(k,{layer,g,mat,tier,storey:r.storey||'site',items:[]});buckets.get(k).items.push({r,m:new THREE.Matrix4().compose(V(p),q,V(s))});return r;}
@@ -28,7 +28,7 @@ export function buildModel(materials,{detailOnly=false}={}){
  function beam(l,t,a,b,w,h,mat='wood',e={}){const d=V(b).sub(V(a));return add(l,t,boxGeo,V(a).add(V(b)).multiplyScalar(.5).toArray(),[w,d.length(),h],beamQ(d),mat,{endpoints:[a,b],...e});}
  function beamQ(d){const dir=d.clone().normalize();if(Math.abs(dir.y)>.999)return new THREE.Quaternion().setFromUnitVectors(V([0,1,0]),dir);const side=dir.clone().cross(V([0,1,0])).normalize(),up=side.clone().cross(dir).normalize();return new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(side,dir,up));}
  function round(l,t,a,b,r,mat='wood',e={}){const d=V(b).sub(V(a));return add(l,t,cyl,V(a).add(V(b)).multiplyScalar(.5).toArray(),[r,d.length(),r],new THREE.Quaternion().setFromUnitVectors(V([0,1,0]),d.normalize()),mat,{endpoints:[a,b],...e});}
- function patch(layer,type,pts,e={},mat='roofBoard'){const g=new THREE.BufferGeometry().setFromPoints(pts.map(V));g.setIndex([0,1,2,0,2,3]);g.computeVertexNormals();return add(layer,type,g,[0,0,0],[1,1,1],new THREE.Quaternion(),mat,e);}
+ function patch(layer,type,pts,e={},mat='roofBoard'){const g=new THREE.BufferGeometry().setFromPoints(pts.map(V));g.setIndex(repairSurfaces&&pts[0].every((v,i)=>v===pts[3][i])?[0,1,2]:[0,1,2,0,2,3]);g.computeVertexNormals();return add(layer,type,g,[0,0,0],[1,1,1],new THREE.Quaternion(),mat,e);}
  function dou(p,w,h,q,e={}){add('brackets','dou',douGeo,[p[0],p[1]-h*.18,p[2]],[w,h*.64,w],q,'endgrain',e);for(const a of [-1,1])for(const b of [-1,1])box('brackets','dou',V([a*w*.36,h*.32,b*w*.36]).applyQuaternion(q).add(V(p)).toArray(),[w*.28,h*.36,w*.28],'wood',e,q);}
  function bracket(p,angle,l,kind='plain',assembly=''){const q=Q(angle),P=a=>V(a).applyQuaternion(q).add(V(p)).toArray(),h=l.bracket,w=.17,reach=l.id==='C1'?1.45:l.dark?.65:1.35-(Number(l.id[1])||2)*.07,meta=tier=>({storey:l.id,assembly,tier,source:'param:图3–8；表2截面参考',note:'层位与出跳分配推定；非逐攒54型复原'});
  dou(P([0,.17,0]),.65,.34,q,meta(0));
@@ -56,7 +56,8 @@ export function buildModel(materials,{detailOnly=false}={}){
  // The low buttress ring is not a duplicated full-height storey.
  for(let i=0;i<24;i++){const a=bottom[i].point,b=top[i].point,col=round(layer,l.dark?'hidden':'column',a,b,l.id==='M1'?.40:l.dark?.29:.31,'column',{...meta,ring:'outer',assembly:`${l.id}/outer-${i}`,note:'外圈柱脚/柱头各独立；柱径、标高拆分推定'});if(l.base===2)add('foundation','base',cyl,[a[0],1.88,a[2]],[.65,.24,.65],new THREE.Quaternion(),'lightstone',{...meta,supports:col.id});
  const next=top[(i+1)%24].point;beam('ties','tie',[b[0],b[1]-.25,b[2]],[next[0],next[1]-.25,next[2]],.24,.36,'darkwood',{...meta,ring:'outer',supports:[col.id]});
- const angle=Math.atan2(b[0],b[2]);bracket(b,angle,l,top[i].corner?'corner':l.id==='M2'?'five':'plain',`${l.id}/outer-${i}`);
+ // Flat-column assemblies follow the facade normal; corner skeletons keep their own radial axis.
+ const angle=alignOuterBrackets&&!top[i].corner?(top[i].side+1)*Math.PI/4:Math.atan2(b[0],b[2]);bracket(b,angle,l,top[i].corner?'corner':l.id==='M2'?'five':'plain',`${l.id}/outer-${i}`);
  }
  if(l.id!=='C1')for(let i=0;i<8;i++){const a=innerB[i],b=innerT[i],n=innerT[(i+1)%8],col=round(layer,l.dark?'hidden':'column',a,b,l.id==='M1'?.46:.34,'column',{...meta,ring:'inner',assembly:`${l.id}/inner-${i}`,note:'内圈坐标随外圈比例推定，非逐层实测'});if(l.base===2)add('foundation','base',cyl,[a[0],1.88,a[2]],[.70,.24,.70],new THREE.Quaternion(),'lightstone',{...meta,supports:col.id});beam('ties','tie',[b[0],b[1]-.25,b[2]],[n[0],n[1]-.25,n[2]],.28,.36,'darkwood',{...meta,ring:'inner'});bracket(b,Math.atan2(b[0],b[2])+Math.PI,l,'plain',`${l.id}/inner-${i}`);}
  if(l.id==='C1')continue;
@@ -91,7 +92,7 @@ export function buildModel(materials,{detailOnly=false}={}){
  // Ring purlins set just below the underside of every sloping rafter.
  for(let k=0;k<=4;k++){const t=k/4;round('purlins','purlin',point(i,t,0,-.21),point(i,t,1,-.21),.14,'wood',meta);}
  const cnt=Math.ceil(rs.outer*Math.tan(Math.PI/8)/.40);
- for(let j=1;j<cnt;j++){const u=j/cnt;for(let k=0;k<12;k++){const t=k/12,tt=(k+1)/12;round('rafters','rafter',point(i,t,u,-.055),point(i,tt,u,-.055),.055,'rafter',meta);round('roof','roof',point(i,t,u,.05),point(i,tt,u,.05),.044,'tile',meta);}}
+ for(let j=1;j<cnt;j++){const u=j/cnt;for(let k=0;k<12;k++){const t=k/12,tt=(k+1)/12;round('rafters','rafter',point(i,t,u,repairSurfaces?-.09:-.055),point(i,tt,u,repairSurfaces?-.09:-.055),.055,'rafter',meta);round('roof','roof',point(i,t,u,.05),point(i,tt,u,.05),.044,'tile',meta);}}
  for(let k=0;k<12;k++)beam('rafters','hip',point(i,k/12,0,-.10),point(i,(k+1)/12,0,-.10),.26,.32,'darkwood',meta);
  // Supporting inclined beams connect inner edge and bracket head; independent from decorative tile ribs.
  for(const u of [0,.5]){for(let k=0;k<4;k++)beam('purlins','frame',point(i,k/4,u,-.4),point(i,(k+1)/4,u,-.4),.24,.30,'wood',meta);}

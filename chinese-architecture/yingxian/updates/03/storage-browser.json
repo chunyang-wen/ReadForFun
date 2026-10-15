@@ -1,0 +1,319 @@
+{
+  "responses": [
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-whole-2025/25621d7b6a6c8811/thumb.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-whole-2025/25621d7b6a6c8811/full.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-corner-2007/66df9942fa1923ab/full.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-corner-2007/66df9942fa1923ab/thumb.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-corner-2007/66df9942fa1923ab/display.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-whole-2025/25621d7b6a6c8811/display.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-ang-2007/6fd607a695106b77/display.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-ceiling-2009/161ec33aa8c63137/display.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-statuary/c26f32d5b79b7f2d/thumb.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-aerial-2019/fce0fa255df3ec81/thumb.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-ang-2007/6fd607a695106b77/thumb.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-aerial-2019/fce0fa255df3ec81/full.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-aerial-2019/fce0fa255df3ec81/display.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-overall-2019/cdcb086a5a135485/display.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-overall-2019/cdcb086a5a135485/thumb.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-statuary/c26f32d5b79b7f2d/display.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-ang-2007/6fd607a695106b77/full.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-ceiling-2009/161ec33aa8c63137/full.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-ceiling-2009/161ec33aa8c63137/thumb.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-overall-2019/cdcb086a5a135485/full.webp",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/yingxian-statuary/c26f32d5b79b7f2d/full.webp",
+      "status": 200
+    }
+  ],
+  "networkFailures": [
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-statuary/c26f32d5b79b7f2d/full.webp",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-overall-2019/cdcb086a5a135485/full.webp",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ceiling-2009/161ec33aa8c63137/full.webp",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ang-2007/6fd607a695106b77/full.webp",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-whole-2025/25621d7b6a6c8811/full.webp",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-corner-2007/66df9942fa1923ab/full.webp",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-aerial-2019/fce0fa255df3ec81/full.webp",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    }
+  ],
+  "decoded": [
+    {
+      "id": "yingxian-whole-2025",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-whole-2025/25621d7b6a6c8811/full.webp",
+      "complete": true,
+      "naturalWidth": 0,
+      "decoded": false
+    },
+    {
+      "id": "yingxian-corner-2007",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-corner-2007/66df9942fa1923ab/full.webp",
+      "complete": true,
+      "naturalWidth": 0,
+      "decoded": false
+    },
+    {
+      "id": "yingxian-ang-2007",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ang-2007/6fd607a695106b77/full.webp",
+      "complete": true,
+      "naturalWidth": 0,
+      "decoded": false
+    },
+    {
+      "id": "yingxian-aerial-2019",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-aerial-2019/fce0fa255df3ec81/full.webp",
+      "complete": true,
+      "naturalWidth": 0,
+      "decoded": false
+    },
+    {
+      "id": "yingxian-ceiling-2009",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ceiling-2009/161ec33aa8c63137/full.webp",
+      "complete": true,
+      "naturalWidth": 0,
+      "decoded": false
+    },
+    {
+      "id": "yingxian-statuary",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-statuary/c26f32d5b79b7f2d/full.webp",
+      "complete": true,
+      "naturalWidth": 0,
+      "decoded": false
+    },
+    {
+      "id": "yingxian-overall-2019",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-overall-2019/cdcb086a5a135485/full.webp",
+      "complete": true,
+      "naturalWidth": 0,
+      "decoded": false
+    }
+  ],
+  "local": [
+    {
+      "id": "yingxian-whole-2025",
+      "kind": "thumb",
+      "naturalWidth": 360,
+      "naturalHeight": 480,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-whole-2025",
+      "kind": "display",
+      "naturalWidth": 1200,
+      "naturalHeight": 1600,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-whole-2025",
+      "kind": "full",
+      "naturalWidth": 3072,
+      "naturalHeight": 4096,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-corner-2007",
+      "kind": "thumb",
+      "naturalWidth": 480,
+      "naturalHeight": 319,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-corner-2007",
+      "kind": "display",
+      "naturalWidth": 1500,
+      "naturalHeight": 998,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-corner-2007",
+      "kind": "full",
+      "naturalWidth": 1500,
+      "naturalHeight": 998,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-ang-2007",
+      "kind": "thumb",
+      "naturalWidth": 480,
+      "naturalHeight": 319,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-ang-2007",
+      "kind": "display",
+      "naturalWidth": 1500,
+      "naturalHeight": 998,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-ang-2007",
+      "kind": "full",
+      "naturalWidth": 1500,
+      "naturalHeight": 998,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-aerial-2019",
+      "kind": "thumb",
+      "naturalWidth": 480,
+      "naturalHeight": 270,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-aerial-2019",
+      "kind": "display",
+      "naturalWidth": 1600,
+      "naturalHeight": 900,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-aerial-2019",
+      "kind": "full",
+      "naturalWidth": 3823,
+      "naturalHeight": 2150,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-ceiling-2009",
+      "kind": "thumb",
+      "naturalWidth": 480,
+      "naturalHeight": 360,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-ceiling-2009",
+      "kind": "display",
+      "naturalWidth": 1600,
+      "naturalHeight": 1200,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-ceiling-2009",
+      "kind": "full",
+      "naturalWidth": 3648,
+      "naturalHeight": 2736,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-statuary",
+      "kind": "thumb",
+      "naturalWidth": 480,
+      "naturalHeight": 319,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-statuary",
+      "kind": "display",
+      "naturalWidth": 1280,
+      "naturalHeight": 851,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-statuary",
+      "kind": "full",
+      "naturalWidth": 1280,
+      "naturalHeight": 851,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-overall-2019",
+      "kind": "thumb",
+      "naturalWidth": 480,
+      "naturalHeight": 270,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-overall-2019",
+      "kind": "display",
+      "naturalWidth": 1600,
+      "naturalHeight": 900,
+      "decoded": true
+    },
+    {
+      "id": "yingxian-overall-2019",
+      "kind": "full",
+      "naturalWidth": 3302,
+      "naturalHeight": 1858,
+      "decoded": true
+    }
+  ],
+  "conclusion": "Remote images did not decode; local primary images tested separately in photos-browser.json"
+}
