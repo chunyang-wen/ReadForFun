@@ -4,13 +4,14 @@ import {buildModel} from '../model.js';
 import {createBaselineMaterials} from './materials.js';
 import {createRoofSample,replaceSampleRibs} from './roof-sample.js';
 import {buildPlaque,plaqueLettering} from './plaque.js';
+import {buildReferenceDetail,addRoundelRelief,projectReference} from './reference-detail.js';
 import {validateExperiment} from '../../realism-workflow/manifest.js';
-let experiment;
+let experiment,referenceData;
 
 const $=id=>document.getElementById(id),viewport=$('viewport');
-const labels={a:'A · 原有模型',b:'B · 材料与光照',c:'C · 增加瓦片搭接',d:'D · 檐口与匾额试件'};
-const descriptions={a:'原卷的几何与材质：连续圆条瓦垄，绝大多数表面粗糙度为 0.92。相机在 A/B/C 间保持不变。',b:'几何与 A 完全相同。区分釉面、朱漆、贴金与石材，降低均匀补光，增加天空反射。只能改善材料感，不能补出真实构件。',c:'沿用 B 的材质与光照，仅替换南面中央瓦口样片。搭接、瓦当轮廓与少量逐瓦色差为试验性表达，尚未按实测参数校准。',d:'沿用 C 的材质和光照，改为槽形底瓦并补滴水、竖匾实体。匾额外形与位置为图像判读/比例推定，字形仍是宋体占位；未声称复原原匾书法或雕纹。'};
-let renderer,scene,camera,controls,models,materials,environment,sun,fill,sky,sample,refinedSample,plaque,mode='a',view='patch',removed=0,dirty=true,lastStats='';
+const labels={a:'A · 原有模型',b:'B · 材料与光照',c:'C · 增加瓦片搭接',d:'D · 旧匾额试件',e:'E · 实景轮廓复原'};
+const descriptions={a:'原卷的几何与材质：连续圆条瓦垄，绝大多数表面粗糙度为 0.92。相机在 A/B/C 间保持不变。',b:'几何与 A 完全相同。区分釉面、朱漆、贴金与石材，降低均匀补光，增加天空反射。只能改善材料感，不能补出真实构件。',c:'沿用 B 的材质与光照，仅替换南面中央瓦口样片。搭接、瓦当轮廓与少量逐瓦色差为试验性表达，尚未按实测参数校准。',d:'沿用 C 的材质和光照，改为槽形底瓦并补滴水、竖匾实体。匾额外形与位置为图像判读/比例推定，字形仍是宋体占位；未声称复原原匾书法或雕纹。',e:'匾字、匾框描金及两侧可见彩画按故宫原照提取矢量轮廓；瓦当增加可见龙纹亮脊。浮雕深度与绝对尺寸为推定。照片对照只校准匾额平面，周边屋面差异单独保留。'};
+let renderer,scene,camera,controls,models,materials,environment,sun,fill,sky,sample,refinedSample,sourceSample,plaque,referenceDetail,mode='a',view='patch',removed=0,dirty=true,lastStats='';
 
 function makeMaterials(){
   const m=createBaselineMaterials();
@@ -30,7 +31,7 @@ function skyEnvironment(){
   const pmrem=new T.PMREMGenerator(renderer),target=pmrem.fromEquirectangular(t);pmrem.dispose();t.dispose();return target;
 }
 function setMode(next){
-  mode=next;const enhanced=['c','d'].includes(mode);models.a.root.visible=!enhanced;models.c.root.visible=enhanced;sample.root.visible=mode==='c';refinedSample.root.visible=mode==='d';plaque.root.visible=mode==='d';
+  mode=next;const enhanced=['c','d','e'].includes(mode);models.a.root.visible=!enhanced;models.c.root.visible=enhanced;sample.root.visible=mode==='c';refinedSample.root.visible=mode==='d';plaque.root.visible=mode==='d';sourceSample.root.visible=referenceDetail.root.visible=mode==='e';
   const active=enhanced?models.c:models.a,mat=materials[mode==='a'?'a':'b'];
   for(const mesh of active.meshes)mesh.material=mat[mesh.userData.materialKey]||mat.wood;
   scene.environment=mode==='a'?null:environment.texture;scene.environmentIntensity=.65;
@@ -41,14 +42,20 @@ function setMode(next){
 }
 function setView(next){
   view=next;
-  const views=experiment.views;
-  const v=views[next];controls.target.fromArray(v.target);
-  const offset=new T.Vector3().fromArray(v.position).sub(controls.target).multiplyScalar(Math.max(1,1.5/camera.aspect));
-  camera.position.copy(controls.target).add(offset);controls.update();
+  const v=experiment.views[next],r=viewport.getBoundingClientRect();
+  camera.aspect=next==='photo'?referenceData.imageSize[0]/referenceData.imageSize[1]:r.width/r.height;
+  camera.updateProjectionMatrix();controls.target.fromArray(v.target);
+  camera.up.fromArray(next==='photo'?referenceData.calibration.up:[0,1,0]);
+  const offset=new T.Vector3().fromArray(v.position).sub(controls.target).multiplyScalar(next==='photo'?1:Math.max(1,1.5/camera.aspect));
+  camera.position.copy(controls.target).add(offset);controls.enabled=next!=='photo';
+  if(next==='photo')camera.lookAt(controls.target);else controls.update();
+  $('photo-controls').hidden=next!=='photo';$('photo-overlay').hidden=next!=='photo';
+  $('photo-overlay').style.opacity=Number($('photo-opacity').value)/100;
   document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));dirty=true;
 }
+
 function stats(){
-  const data={architecture:experiment.id,revision:experiment.revision,mode,view,roofLift:$('explode').checked,alternateLight:$('light').checked,camera:camera.position.toArray(),target:controls.target.toArray(),sampleRecords:(mode==='d'?refinedSample:sample).records.length,plaqueVisible:plaque.root.visible,plaqueWorldY:plaque.root.getWorldPosition(new T.Vector3()).y,removedRibSegments:removed,drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles,geometries:renderer.info.memory.geometries,fov:camera.fov,pixelRatio:renderer.getPixelRatio(),canvasSize:renderer.getSize(new T.Vector2()).toArray(),lightPosition:sun.position.toArray(),patch:experiment.patch};
+  const data={architecture:experiment.id,revision:experiment.revision,mode,view,roofLift:$('explode').checked,alternateLight:$('light').checked,camera:camera.position.toArray(),target:controls.target.toArray(),sampleRecords:(mode==='e'?sourceSample:mode==='d'?refinedSample:sample).records.length,referenceVisible:referenceDetail.root.visible,referenceCount:referenceDetail.records.length,photoOpacity:Number($('photo-opacity').value),calibration:view==='photo'?projectReference(camera,referenceData):null,plaqueVisible:plaque.root.visible,plaqueWorldY:plaque.root.getWorldPosition(new T.Vector3()).y,removedRibSegments:removed,drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles,geometries:renderer.info.memory.geometries,fov:camera.fov,pixelRatio:renderer.getPixelRatio(),canvasSize:renderer.getSize(new T.Vector2()).toArray(),lightPosition:sun.position.toArray(),patch:experiment.patch};
   const value=JSON.stringify(data,null,2);if(value!==lastStats){$('stats').textContent=value;lastStats=value;}
 }
 function initialize(){
@@ -61,6 +68,8 @@ function initialize(){
   environment=skyEnvironment();materials={a:createBaselineMaterials(),b:makeMaterials()};
   models={a:buildModel(materials.a),c:buildModel(materials.b)};removed=replaceSampleRibs(models.c,experiment.patch);sample=createRoofSample(materials.b.tile,{parameters:experiment.patch});refinedSample=createRoofSample(materials.b.tile,{parameters:experiment.patch,refined:true});models.c.layers.get('roof').add(sample.root,refinedSample.root);
   plaque=buildPlaque(materials.b,experiment.plaque,plaqueLettering(experiment.plaque.text));models.c.layers.get(experiment.plaque.supportLayer).add(plaque.root);
+  sourceSample=createRoofSample(materials.b.tile,{parameters:experiment.patch,refined:true});addRoundelRelief(sourceSample,referenceData,materials.b.tile);models.c.layers.get('roof').add(sourceSample.root);
+  referenceDetail=buildReferenceDetail(referenceData);models.c.layers.get(experiment.plaque.supportLayer).add(referenceDetail.root);
   scene.add(models.a.root,models.c.root);
   const ground=new T.Mesh(new T.PlaneGeometry(140,140),new T.ShadowMaterial({color:0x463f2e,opacity:.18}));ground.rotation.x=-Math.PI/2;ground.position.y=-.3;ground.receiveShadow=true;scene.add(ground);
   new ResizeObserver(()=>{const r=viewport.getBoundingClientRect();renderer.setSize(r.width,r.height,false);camera.aspect=r.width/r.height;camera.updateProjectionMatrix();setView(view);dirty=true;}).observe(viewport);
@@ -68,11 +77,19 @@ function initialize(){
   document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>setView(b.dataset.view)));
   $('explode').addEventListener('change',()=>{for(const m of Object.values(models))m.layers.get('roof').position.y=$('explode').checked?2:0;dirty=true;});
   $('light').addEventListener('change',()=>{sun.position.x=$('light').checked?40:-40;dirty=true;});
-  viewport.addEventListener('keydown',e=>{const offset=camera.position.clone().sub(controls.target);if(e.key==='0')setView(view);else if(['ArrowLeft','ArrowRight'].includes(e.key)){offset.applyAxisAngle(new T.Vector3(0,1,0),e.key==='ArrowLeft'?.12:-.12);camera.position.copy(controls.target).add(offset);}else if(['+','=','-'].includes(e.key))camera.position.copy(controls.target).add(offset.multiplyScalar(e.key==='-'?1.1:.9));else return;e.preventDefault();controls.update();dirty=true;});
+  viewport.addEventListener('keydown',e=>{if(view==='photo'&&e.key!=='0')return;const offset=camera.position.clone().sub(controls.target);if(e.key==='0')setView(view);else if(['ArrowLeft','ArrowRight'].includes(e.key)){offset.applyAxisAngle(new T.Vector3(0,1,0),e.key==='ArrowLeft'?.12:-.12);camera.position.copy(controls.target).add(offset);}else if(['+','=','-'].includes(e.key))camera.position.copy(controls.target).add(offset.multiplyScalar(e.key==='-'?1.1:.9));else return;e.preventDefault();controls.update();dirty=true;});
   renderer.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();$('error').hidden=false;});
+  $('photo-opacity').addEventListener('input',()=>{$('photo-overlay').style.opacity=Number($('photo-opacity').value)/100;dirty=true;});
   $('loading').hidden=true;
   const query=new URLSearchParams(location.search);const requestedView=query.get('view'),requestedMode=query.get('mode');
   setView(experiment.views[requestedView]?requestedView:'patch');setMode(experiment.modes.includes(requestedMode)?requestedMode:'a');
-  renderer.setAnimationLoop(()=>{if(dirty){renderer.render(scene,camera);stats();dirty=false;}});
+  renderer.setAnimationLoop(()=>{if(dirty){
+    const size=renderer.getSize(new T.Vector2());renderer.setViewport(0,0,size.x,size.y);renderer.setScissorTest(false);renderer.clear();
+    if(view==='photo'){
+      const w=Math.min(size.x,size.y*camera.aspect),h=w/camera.aspect,x=(size.x-w)/2,y=(size.y-h)/2;
+      renderer.setViewport(x,y,w,h);renderer.setScissor(x,y,w,h);renderer.setScissorTest(true);
+    }
+    renderer.render(scene,camera);renderer.setScissorTest(false);stats();dirty=false;
+  }});
 }
-try{experiment=validateExperiment(await (await fetch('./experiment.json')).json());await document.fonts.ready;initialize();}catch(e){console.error(e);$('loading').hidden=true;$('error').hidden=false;}
+try{experiment=validateExperiment(await (await fetch('./experiment.json')).json());referenceData=await (await fetch('./assets/reference-vectors.json')).json();await document.fonts.ready;initialize();}catch(e){console.error(e);$('loading').hidden=true;$('error').hidden=false;}

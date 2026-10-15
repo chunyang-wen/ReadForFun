@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-15 Asia/Shanghai",
+  "revision": "02e",
+  "testedSourceMismatch": [],
+  "productionMatchesBaseline": {
+    "MODEL_NOTES.md": true,
+    "data.js": true,
+    "model.js": true,
+    "app.js": true
+  },
+  "sameCameraComparison": {
+    "desktop": true,
+    "mobile": true
+  },
+  "browserReports": {
+    "desktop.json": {
+      "captures": 18,
+      "logs": []
+    },
+    "mobile.json": {
+      "captures": 18,
+      "logs": []
+    },
+    "desktop-completion.json": {
+      "captures": 9,
+      "logs": []
+    },
+    "mobile-completion.json": {
+      "captures": 9,
+      "logs": []
+    },
+    "desktop-baselines.json": {
+      "captures": 2,
+      "logs": []
+    },
+    "mobile-baselines.json": {
+      "captures": 2,
+      "logs": []
+    }
+  },
+  "captureTotal": 58,
+  "run": "runs/02e",
+  "sourceFiles": {
+    "chinese-architecture/study/materials.js": "dd02b2d0e649425ffc2b785272c3cb82783ec050fed275c01bcba4ec31042c76",
+    "chinese-architecture/study/roof-envelope.js": "3ff0ce1ded83c2a11a00fa83f7fd607221d179997b91159257656cb1899d0062",
+    "chinese-architecture/study/index.html": "13f265d51391d3a894212a2620160fdc086a4bff68661d7e9065f786d6fc9fb8",
+    "chinese-architecture/study/replay-interactions.mjs": "2bccc741cc92bf0fda8a28b6b5ebddf734f23ca2e4306b917a8907543fa95ec9",
+    "chinese-architecture/study/brackets.js": "8da6e9566cb9af880853dfbd5c3402126f555d94f8a116c305d599057e5dcf60",
+    "chinese-architecture/study/roof-sample.js": "1155a877e2f139b83f0721c0617517ee9b986365430fba5a6bd290f9a7960348",
+    "chinese-architecture/study/adapt-model.js": "18a604f8478f1811ee787b3cb5949c535773bbfad5cf547e110f766077edcbd6",
+    "chinese-architecture/study/enclosure.js": "eb3da597331291a5e66a138f8305e99732c8d32fac0ea66ea3cf2d0b2327a1f6",
+    "chinese-architecture/study/replay-completion.mjs": "529c90e77c53517d029b9553df772c77857da78ebb04a8b9d428048f2dc8a0ae",
+    "chinese-architecture/study/comparison.jpg": "2e1f62821ac65116e8f36c93dd3e4646c578df5ad2c0729c3f06e46efbfe5931",
+    "chinese-architecture/study/comparison.html": "3440a155e36dcd09f18cd91e4fe6b25030bc2b3cdceacfc4553dd9ee7a6c7cfb",
+    "chinese-architecture/study/RESEARCH.md": "063f66394c5cd268ceadd4a342d00f2f9aa9111e1334562fc02de5235fa4a539",
+    "chinese-architecture/study/study.js": "c42ff90d6c977c8be5691317eb6948339afa32217a6226cfcdce33586726744f",
+    "chinese-architecture/study/experiment.json": "bc95cec00ab9ba0038bc22362a61092ac86cf0a46bccf3d79b36c301e106edd7",
+    "chinese-architecture/study/style.css": "bd3ed65088a6949e3f60dade2427f80168037e7b851de2468e540973bb938e60",
+    "chinese-architecture/study/validate.js": "e6d5836e0907fde5bc407c78fd4f595f0045a637a40d064c8d9960516923ae77",
+    "chinese-architecture/study/comparison-provenance.json": "584ae07b1e5a1212e690a3d67895019be9f3c8609e332e8f2b0e8e8f5070b3b4",
+    "chinese-architecture/study/make-comparison.py": "51755cd1a7a475acce542b993c79bb6a01daaa8471e81cc876190fa17629d009",
+    "chinese-architecture/study/replay-original.mjs": "f798a82d658bd402bf910ab7daa8fe2447f2076f62b4635547b3bd0c2356b246"
+  },
+  "notCertified": [
+    "photogrammetry",
+    "hidden joinery",
+    "all bracket types",
+    "true device FPS"
+  ]
+}

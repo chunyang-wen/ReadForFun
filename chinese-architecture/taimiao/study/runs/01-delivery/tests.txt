@@ -1,0 +1,35 @@
+✔ Manifest rejects unsupported evidence, duplicate cases and unknown camera presets (0.892916ms)
+✔ Generic patch replays on a different slope and tile spacing without Taihe imports (7.27925ms)
+✔ Refined pans are concave; drips are separate from disks, with finite transformed geometry (4.419917ms)
+✔ Same patch generator accepts Fengxian roof envelope without copying Taihe heights (2.483125ms)
+✔ Plaque has thickness, evidence metadata, and stays with bracket layer when roof lifts (2.223583ms)
+✔ independent three-row grid: 34 peripheral + 34 body, unique coordinates (0.461333ms)
+✔ each column meets an individual base at floor + base thickness (2.242583ms)
+✔ all geometry, scales and instance transforms finite; no negative dimension (17.606875ms)
+✔ eleven longitudinal purlin lines, unequal bay steps (0.577917ms)
+✔ short columns meet the specified upper and lower beam faces (0.283041ms)
+✔ transverse roof frame tops stay below local four-hip envelope (0.252084ms)
+✔ all upper rafter sampled endpoints below tile envelope (1.340875ms)
+✔ lower ring has no filled centre and upper bearing blocks are positive (0.969583ms)
+✔ all twelve layers populated; four nodes do not invent tenon or caisson (0.988708ms)
+✔ end ridge posts terminate below local hip roof, never extend to central ridge (0.37925ms)
+✔ Sample stays on the southern centre bay; every transformed vertex is finite (11.939834ms)
+✔ Replacing sample ribs preserves all columns, framing, north and side roofs (9.65ms)
+✔ Sample follows the roof layer when lifted and has shared instance batches (0.2785ms)
+✔ Taimiao refined patch has its own IDs, southern envelope and unmoved timber supports (39.605459ms)
+✔ Only the declared patch is removed; source records and every other instance matrix remain unchanged (83.527875ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (1.565666ms)
+✔ every selectable member has a documented type and valid layer (2.904ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (3.711459ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.415625ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.557791ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.075084ms)
+✔ upper frame does not protrude through the hip roof (0.451959ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 259.766292

@@ -1,0 +1,12 @@
+{
+  "gitHead": "b4cd255ea7b10637027c02711c8265cf4bab56fd",
+  "utc": "2026-10-15",
+  "note": "原卷源码快照；导入路径需恢复到原卷相对位置，不是独立站点。起始其他卷未跟踪文件保留。",
+  "sha256": {
+    "MODEL_NOTES.md": "b43ae96cf91fe0cc649042f3c53baa27541b0b13c90a261c02ec1aabfdf5dd38",
+    "VALIDATION.md": "ccbd8e0b244f8f9c5e34e37b6bd518d7bee4edb406f8ef9cb369ba4881558726",
+    "data.js": "c1868d32e10d5374b82db636d4b0a01fd2747451738a8e7b6f7bea870a3befe5",
+    "model.js": "cdeb900eef38011064ebf7cb86513f26095f3467aeb20fbe957bd34e668dca85",
+    "app.js": "24c97c62a71ab0ea9591d0768365b9d617e0c5063f812a672ff938c1ad24e195"
+  }
+}

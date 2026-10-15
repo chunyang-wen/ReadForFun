@@ -1,0 +1,505 @@
+{
+  "schema": "architecture-replay/v1",
+  "architecture": "foguang",
+  "revision": "01",
+  "viewport": "desktop",
+  "utc": "2026-10-14T23:53:23.801Z",
+  "results": [
+    {
+      "id": "front-a",
+      "state": {
+        "architecture": "foguang",
+        "revision": "01",
+        "mode": "a",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          12.7,
+          20.6
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "sampleRecords": 378,
+        "selected": null,
+        "selectionLayer": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "removedRibSegments": 105,
+        "drawCalls": 59,
+        "triangles": 649518,
+        "geometries": 21,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -22,
+          43,
+          29
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "front-b",
+      "state": {
+        "architecture": "foguang",
+        "revision": "01",
+        "mode": "b",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          12.7,
+          20.6
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "sampleRecords": 378,
+        "selected": null,
+        "selectionLayer": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "removedRibSegments": 105,
+        "drawCalls": 59,
+        "triangles": 649518,
+        "geometries": 21,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -22,
+          43,
+          29
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "front-c",
+      "state": {
+        "architecture": "foguang",
+        "revision": "01",
+        "mode": "c",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          12.7,
+          20.6
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "sampleRecords": 378,
+        "selected": null,
+        "selectionLayer": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "removedRibSegments": 105,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "geometries": 21,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -22,
+          43,
+          29
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "front-d",
+      "state": {
+        "architecture": "foguang",
+        "revision": "01",
+        "mode": "d",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          12.7,
+          20.6
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "sampleRecords": 378,
+        "selected": null,
+        "selectionLayer": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "removedRibSegments": 105,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "geometries": 21,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -22,
+          43,
+          29
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "eaves-d",
+      "state": {
+        "architecture": "foguang",
+        "revision": "01",
+        "mode": "d",
+        "view": "eaves",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          6.700000000000002,
+          23
+        ],
+        "target": [
+          0,
+          6.8,
+          9.4
+        ],
+        "sampleRecords": 378,
+        "selected": null,
+        "selectionLayer": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "removedRibSegments": 105,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "geometries": 21,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -22,
+          43,
+          29
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "oblique-d",
+      "state": {
+        "architecture": "foguang",
+        "revision": "01",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          6.8,
+          12.2,
+          19.800000000000004
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "sampleRecords": 378,
+        "selected": null,
+        "selectionLayer": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "removedRibSegments": 105,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "geometries": 21,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -22,
+          43,
+          29
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "light-d",
+      "state": {
+        "architecture": "foguang",
+        "revision": "01",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": true,
+        "camera": [
+          6.8,
+          12.2,
+          19.800000000000004
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "sampleRecords": 378,
+        "selected": null,
+        "selectionLayer": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "removedRibSegments": 105,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "geometries": 21,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          22,
+          43,
+          29
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "lift-d",
+      "state": {
+        "architecture": "foguang",
+        "revision": "01",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": true,
+        "alternateLight": false,
+        "camera": [
+          6.8,
+          12.2,
+          19.800000000000004
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "sampleRecords": 378,
+        "selected": null,
+        "selectionLayer": null,
+        "roofWorldY": 2,
+        "anchorWorldY": 0,
+        "removedRibSegments": 105,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "geometries": 21,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -22,
+          43,
+          29
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "whole-d",
+      "state": {
+        "architecture": "foguang",
+        "revision": "01",
+        "mode": "d",
+        "view": "whole",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          17.999999999999993,
+          79
+        ],
+        "target": [
+          0,
+          6,
+          0
+        ],
+        "sampleRecords": 378,
+        "selected": null,
+        "selectionLayer": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "removedRibSegments": 105,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "geometries": 21,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -22,
+          43,
+          29
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    }
+  ],
+  "logs": []
+}

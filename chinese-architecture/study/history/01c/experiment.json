@@ -1,0 +1,294 @@
+{
+  "schema": "architecture-realism/v1",
+  "id": "foguang",
+  "revision": "01c",
+  "route": "/chinese-architecture/study/",
+  "referenceState": "2024-05-23现场照片所见外观为比较对象；非857年原貌；修缮分期未逐件核定",
+  "sources": [
+    {
+      "id": "zhang-survey",
+      "url": "https://www.kaah.or.kr/download/mailing/kaah_seminar_presentation1_1.pdf",
+      "status": "文献明确",
+      "rights": "仅研究查阅；不分发原图",
+      "supports": [
+        "PDF16-18结构与外檐铺作",
+        "PDF26-28材分统计"
+      ],
+      "limits": "统计均值不是逐件尺寸；未给瓦件尺寸；本轮PDF已下载并目视16/17页"
+    },
+    {
+      "id": "photo-eaves-2024",
+      "url": "https://commons.wikimedia.org/wiki/File:佛光寺东大殿铺作层侧面视角二.jpg",
+      "status": "图像判读",
+      "rights": "Patrick20242023 / CC BY-SA 4.0；只链接与目视，不作为贴图分发",
+      "supports": [
+        "波形瓦口",
+        "木构与围护表面色差"
+      ],
+      "limits": "文件日期2024-05-23，未独立核验；无标尺，不能确定瓦距/隐蔽节点/地理方位"
+    },
+    {
+      "id": "photo-front-2024",
+      "url": "https://commons.wikimedia.org/wiki/File:佛光寺东大殿右侧面.jpg",
+      "status": "图像判读",
+      "rights": "Patrick20242023 / CC BY-SA 4.0；仅链接参考",
+      "supports": [
+        "前檐围护与檐下阴影"
+      ],
+      "limits": "标题不作为朝向依据；未配准；画面屋顶不完整"
+    },
+    {
+      "id": "tsinghua-phase",
+      "url": "https://www.tsinghua.edu.cn/info/1181/57709.htm",
+      "status": "文献明确",
+      "rights": "仅链接与概括研究",
+      "supports": [
+        "门廊与门位置变迁的研究说明"
+      ],
+      "limits": "讲座报道不是完整测绘，不能由此直接设定唐代门位置"
+    },
+    {
+      "id": "hku-drawing",
+      "url": "https://learning.hku.hk/ccch9051/group-13/items/show/1",
+      "status": "文献明确",
+      "rights": "仅元数据参考，不分发扫描",
+      "supports": [
+        "梁思成测绘资料入口"
+      ],
+      "limits": "教学馆藏元数据不是本轮逐柱测绘校准"
+    }
+  ],
+  "patch": {
+    "halfWidth": 2.4,
+    "pitch": 0.32,
+    "start": 9.2,
+    "end": 11.84,
+    "step": 0.24,
+    "length": 0.38,
+    "radius": 0.11
+  },
+  "parameterEvidence": {
+    "tileDimensions": "比例推定；沿原卷0.32m瓦距作为连续性假设，并非实测",
+    "height": "原卷surfaceY；本轮不改变屋面曲线",
+    "ornament": "瓦当面素面占位；不复原莲纹/兽纹；不使用宫殿滴水",
+    "color": "照片图像判读与视觉调参，非色卡测量"
+  },
+  "views": {
+    "patch": {
+      "target": [
+        0,
+        8.7,
+        10.8
+      ],
+      "position": [
+        0,
+        12.7,
+        20.6
+      ]
+    },
+    "eaves": {
+      "target": [
+        0,
+        6.8,
+        9.4
+      ],
+      "position": [
+        0,
+        6.7,
+        23
+      ]
+    },
+    "oblique": {
+      "target": [
+        0,
+        8.7,
+        10.8
+      ],
+      "position": [
+        6.8,
+        12.2,
+        19.8
+      ]
+    },
+    "whole": {
+      "target": [
+        0,
+        6,
+        0
+      ],
+      "position": [
+        0,
+        14,
+        57
+      ]
+    }
+  },
+  "modes": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "conditions": {
+    "a": "原几何/原材质/原照明（统一实验机位背景）",
+    "b": "仅材料改变；照明同A",
+    "c": "仅瓦片几何改变；材质和照明同B；关闭生成器逐瓦色差，未加滴水",
+    "d": "仅照明改变；几何材质同C"
+  },
+  "tests": [
+    "chinese-architecture/tests/model.test.js",
+    "chinese-architecture/tests/surface.test.js",
+    "chinese-architecture/realism-workflow/workflow.test.js"
+  ],
+  "sourceFiles": [
+    "chinese-architecture/model.js",
+    "chinese-architecture/data.js",
+    "chinese-architecture/study/study.js",
+    "chinese-architecture/study/materials.js",
+    "chinese-architecture/study/roof-sample.js",
+    "chinese-architecture/study/index.html",
+    "chinese-architecture/study/style.css",
+    "chinese-architecture/study/replay-interactions.mjs",
+    "chinese-architecture/realism-workflow/roof-patch.js",
+    "chinese-architecture/realism-workflow/manifest.js",
+    "chinese-architecture/realism-workflow/verify.mjs",
+    "chinese-architecture/realism-workflow/replay.mjs",
+    "chinese-architecture/vendor/three.module.js",
+    "chinese-architecture/vendor/three.core.js",
+    "chinese-architecture/vendor/OrbitControls.js",
+    "chinese-architecture/taihe/study/plaque.js",
+    "chinese-architecture/fengxian/model.js",
+    "chinese-architecture/fengxian/data.js",
+    "chinese-architecture/vendor/BufferGeometryUtils.js"
+  ],
+  "checks": [
+    {
+      "id": "front-a",
+      "mode": "a",
+      "view": "patch"
+    },
+    {
+      "id": "front-b",
+      "mode": "b",
+      "view": "patch"
+    },
+    {
+      "id": "front-c",
+      "mode": "c",
+      "view": "patch"
+    },
+    {
+      "id": "front-d",
+      "mode": "d",
+      "view": "patch"
+    },
+    {
+      "id": "eaves-d",
+      "mode": "d",
+      "view": "eaves"
+    },
+    {
+      "id": "oblique-d",
+      "mode": "d",
+      "view": "oblique"
+    },
+    {
+      "id": "light-d",
+      "mode": "d",
+      "view": "oblique",
+      "light": true
+    },
+    {
+      "id": "lift-d",
+      "mode": "d",
+      "view": "oblique",
+      "lift": true
+    },
+    {
+      "id": "whole-d",
+      "mode": "d",
+      "view": "whole"
+    }
+  ],
+  "capture": {
+    "desktop": {
+      "width": 1280,
+      "height": 900
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844
+    },
+    "cameraFov": 35,
+    "pixelRatioMax": 1.7,
+    "screenshot": "fullPage"
+  },
+  "lighting": {
+    "baseline": {
+      "hemisphere": 2.8,
+      "sun": 3.5,
+      "fill": 1.15,
+      "exposure": 1.45
+    },
+    "d": {
+      "hemisphere": 1.65,
+      "sun": 3.5,
+      "fill": 0.42,
+      "exposure": 1.26
+    },
+    "status": "视觉调参；01中檐下过暗，01b提高补光以保持铺作可读"
+  },
+  "materials": {
+    "tile": {
+      "color": "#686764",
+      "roughness": 0.98,
+      "metalness": 0
+    },
+    "ridge": {
+      "color": "#686764",
+      "roughness": 0.98,
+      "metalness": 0
+    },
+    "roofBoard": {
+      "color": "#686764",
+      "roughness": 0.98,
+      "metalness": 0
+    },
+    "wood": {
+      "color": "#82674f",
+      "roughness": 0.92,
+      "metalness": 0
+    },
+    "darkwood": {
+      "color": "#66513f",
+      "roughness": 0.92,
+      "metalness": 0
+    },
+    "endgrain": {
+      "color": "#82674f",
+      "roughness": 0.92,
+      "metalness": 0
+    },
+    "rafter": {
+      "color": "#82674f",
+      "roughness": 0.92,
+      "metalness": 0
+    },
+    "column": {
+      "color": "#916448",
+      "roughness": 0.92,
+      "metalness": 0
+    },
+    "door": {
+      "color": "#97573a",
+      "roughness": 0.92,
+      "metalness": 0
+    },
+    "plaster": {
+      "color": "#c6b99d",
+      "roughness": 0.92,
+      "metalness": 0
+    }
+  },
+  "cameraPolicy": "Perspective FOV35; position offset scaled by max(1,1.5/aspect) on narrow viewport; no photo registration"
+}

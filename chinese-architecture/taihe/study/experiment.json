@@ -1,7 +1,7 @@
 {
   "schema": "architecture-realism/v1",
   "id": "taihe",
-  "revision": "02",
+  "revision": "03",
   "route": "/chinese-architecture/taihe/study/",
   "referenceState": "现状外观；照片拍摄日期与修缮阶段未核定",
   "sources": [
@@ -9,13 +9,18 @@
       "id": "dpm-plaque-closeup",
       "url": "https://img.dpm.org.cn/Uploads/Picture/2020/07/03/s5efefbd5093a9.jpg",
       "status": "图像判读",
-      "rights": "仅链接参考；未作为分发纹理",
+      "rights": "故宫官方原照，本地研究副本用于离线对照；发布前核对影像授权。衍生轮廓保留来源与SHA-256。",
       "supports": [
         "筒瓦搭接",
         "瓦当与滴水轮廓",
-        "竖匾存在与外形"
+        "竖匾存在与外形",
+        "原匾笔画轮廓",
+        "匾框卷草",
+        "两侧可见金龙彩画",
+        "瓦当可见亮脊"
       ],
-      "limits": "URL日期不等于拍摄日期；无测量标尺；字体与雕纹未复原"
+      "limits": "图像判读；字形与可见彩画已描取；浮雕深度及绝对尺度未测量；只完成匾额平面局部配准。",
+      "sha256": "eebdbe096e5aeecc55d08e380775171438c75b635846dc013c452bce55f36c1c"
     }
   ],
   "patch": {
@@ -75,13 +80,26 @@
         20,
         120
       ]
+    },
+    "photo": {
+      "position": [
+        -0.00031686846693937187,
+        12.441609281269912,
+        25.485167644685312
+      ],
+      "target": [
+        -1.2156853340232498e-06,
+        12.849870589205143,
+        15.74169659523846
+      ]
     }
   },
   "modes": [
     "a",
     "b",
     "c",
-    "d"
+    "d",
+    "e"
   ],
   "plaque": {
     "position": [
@@ -102,7 +120,8 @@
     "chinese-architecture/tests/model.test.js",
     "chinese-architecture/taihe/tests/model.test.js",
     "chinese-architecture/taihe/tests/surface.test.js",
-    "chinese-architecture/realism-workflow/workflow.test.js"
+    "chinese-architecture/realism-workflow/workflow.test.js",
+    "chinese-architecture/taihe/tests/reference.test.js"
   ],
   "sourceFiles": [
     "chinese-architecture/taihe/model.js",
@@ -124,7 +143,13 @@
     "chinese-architecture/fengxian/model.js",
     "chinese-architecture/fengxian/data.js",
     "chinese-architecture/model.js",
-    "chinese-architecture/data.js"
+    "chinese-architecture/data.js",
+    "chinese-architecture/taihe/study/reference-detail.js",
+    "chinese-architecture/taihe/study/trace-reference.py",
+    "chinese-architecture/taihe/study/assets/reference-vectors.json",
+    "chinese-architecture/taihe/study/assets/reference-trace.svg",
+    "chinese-architecture/taihe/study/assets/reference-photo.jpg",
+    "chinese-architecture/taihe/study/replay-detail.mjs"
   ],
   "checks": [
     {
@@ -173,6 +198,33 @@
       "id": "whole-d",
       "mode": "d",
       "view": "whole"
+    },
+    {
+      "id": "plaque-e",
+      "mode": "e",
+      "view": "plaque"
+    },
+    {
+      "id": "oblique-e",
+      "mode": "e",
+      "view": "oblique"
+    },
+    {
+      "id": "light-e",
+      "mode": "e",
+      "view": "oblique",
+      "light": true
+    },
+    {
+      "id": "lift-e",
+      "mode": "e",
+      "view": "oblique",
+      "lift": true
+    },
+    {
+      "id": "photo-e",
+      "mode": "e",
+      "view": "photo"
     }
   ],
   "capture": {

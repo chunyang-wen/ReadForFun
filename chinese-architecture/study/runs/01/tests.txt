@@ -1,0 +1,24 @@
+✔ Manifest rejects unsupported evidence, duplicate cases and unknown camera presets (1.030667ms)
+✔ Generic patch replays on a different slope and tile spacing without Taihe imports (7.290209ms)
+✔ Refined pans are concave; drips are separate from disks, with finite transformed geometry (4.689333ms)
+✔ Same patch generator accepts Fengxian roof envelope without copying Taihe heights (2.308875ms)
+✔ Plaque has thickness, evidence metadata, and stays with bracket layer when roof lifts (2.631083ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (1.343125ms)
+✔ every selectable member has a documented type and valid layer (2.689291ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (3.496458ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.408333ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.578708ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.079ms)
+✔ upper frame does not protrude through the hip roof (0.490958ms)
+✔ Foguang replacement preserves all structure and other roof slopes (47.450083ms)
+✔ Foguang patch uses stable IDs, neutral instance color and no unsupported pointed drips (3.7225ms)
+✔ local transforms follow west roof, remain finite and preserve positive overlap (1.951541ms)
+✔ roof lift moves selected sample while column layer stays at original elevation (18.320792ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 134.312084

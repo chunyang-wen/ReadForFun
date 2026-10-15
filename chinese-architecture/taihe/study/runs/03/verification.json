@@ -1,0 +1,296 @@
+{
+  "schema": "architecture-realism/v1",
+  "id": "taihe",
+  "revision": "03",
+  "utc": "2026-10-15T05:21:12.612Z",
+  "node": "v26.7.0",
+  "platform": "darwin",
+  "command": [
+    "/opt/homebrew/Cellar/node/26.7.0/bin/node",
+    "--test",
+    "chinese-architecture/tests/model.test.js",
+    "chinese-architecture/taihe/tests/model.test.js",
+    "chinese-architecture/taihe/tests/surface.test.js",
+    "chinese-architecture/realism-workflow/workflow.test.js",
+    "chinese-architecture/taihe/tests/reference.test.js"
+  ],
+  "exitCode": 0,
+  "hashes": {
+    "chinese-architecture/taihe/study/experiment.json": "4f1a5d8766e6862a619ebad62b900635a3f6f78bc3f0e216aff8609193818097",
+    "chinese-architecture/taihe/model.js": "3298aeb4a32ad9a97ced5f2cf177c4c656a10d18f7672f365467a467ceb40ce0",
+    "chinese-architecture/taihe/data.js": "b9466b149db2e8a5191e08d1e1f10f5777f404c1f40263650ed5408a28401913",
+    "chinese-architecture/taihe/study/study.js": "44a73f05c92ee5e1347443f5dab74dfc83fbdda2acd59039ac7c1d4513a2e02d",
+    "chinese-architecture/taihe/study/materials.js": "c5763aa785caef5f7394433331d59ea553b60b2230abe8fe309a3b36a09fdc71",
+    "chinese-architecture/taihe/study/roof-sample.js": "27fdb564f674ed950593bcf481044d9c900e2a5c8c54eb4cb79ada7e5e839228",
+    "chinese-architecture/taihe/study/plaque.js": "816d129c086fc4a32e79b4c6ad621735c60e4f134526b4525a3a63a3f9926fc0",
+    "chinese-architecture/taihe/study/index.html": "684fe88bd6766c2116a05e4b314e770b93868d9ce4a6a5ec6c6355a48be83942",
+    "chinese-architecture/taihe/study/style.css": "8f72db87e4a75d6efd98e3fdf94b9aae27dffc065ffd52bf4193ee77bbe5dacd",
+    "chinese-architecture/realism-workflow/roof-patch.js": "8872a12db15b176ac81b1f27aadcbed7ea384fd79b1600c39d334c9bdeca7a5c",
+    "chinese-architecture/realism-workflow/replay.mjs": "2ecdb7f7fa1c6d81e54047cdd55d5a44dd27db3c8ae350f5027fb2ba4ae8e91f",
+    "chinese-architecture/realism-workflow/verify.mjs": "09edbf88c2741730c0e8e27ea7b8bb48d515e49b4ea5b54930b4688b0cd1003f",
+    "chinese-architecture/realism-workflow/manifest.js": "22b655d2ea45cad59ab0841ac1985e54ebd59b9356b62bcb857f40c690f37313",
+    "chinese-architecture/vendor/three.module.js": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+    "chinese-architecture/vendor/three.core.js": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6",
+    "chinese-architecture/vendor/OrbitControls.js": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b",
+    "chinese-architecture/vendor/BufferGeometryUtils.js": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797",
+    "chinese-architecture/fengxian/model.js": "fbb7fb83a31e5f5e3e2a883150fc2fc9820ba533de692a7d39a8e50b98b11470",
+    "chinese-architecture/fengxian/data.js": "257318ce9e6d3fe9c31bb3902a37b9be67c30438d62a71df62c72eaa682bc9c5",
+    "chinese-architecture/model.js": "a893d694e1af51e51cee62dee8a59564dd2aa6ef81e0b409effdd5ff3a0741a8",
+    "chinese-architecture/data.js": "31d465ab66f51de88aef9d7b31c228c05d7a0980e7c2bc413214f4cd96b83ecc",
+    "chinese-architecture/taihe/study/reference-detail.js": "2975cc39fa24eb5d8563244c698d6fa3a8819fa7f81ff949ffc8a9beaf2bc19b",
+    "chinese-architecture/taihe/study/trace-reference.py": "a70da9f652d241fe6f2e1d0daec59e7c6bb1166097b74b7de69f0cd72e0bb656",
+    "chinese-architecture/taihe/study/assets/reference-vectors.json": "62ea772e07e7435a75d6a339e2af3b30b623c122ce567654269f400baa7e8260",
+    "chinese-architecture/taihe/study/assets/reference-trace.svg": "723b3ba12d448584f04f49e5dffabf099cf2a8c3562b2d6900be0512cb2d3aff",
+    "chinese-architecture/taihe/study/assets/reference-photo.jpg": "eebdbe096e5aeecc55d08e380775171438c75b635846dc013c452bce55f36c1c",
+    "chinese-architecture/taihe/study/replay-detail.mjs": "aaf509a9bec59be74fa89e57230f08d7cc1434f70e2252c479651b2d03008445",
+    "chinese-architecture/tests/model.test.js": "e25a20589fcfb375e2f6447e2ad995ea3718cd6719903b4a51a48222a8309ee1",
+    "chinese-architecture/taihe/tests/model.test.js": "f07b0348be88e43fec2842c81e234c21cf7174371876d975a0079f3cc54c466b",
+    "chinese-architecture/taihe/tests/surface.test.js": "38767c4e043bd7350c121beb815c6bdfa0c535b01f7ba0d4599b54ce0167d535",
+    "chinese-architecture/realism-workflow/workflow.test.js": "fbea8d524ec54477efd86546f32475f57beb6e902c2980e20bd4ee5e0d38c2ab",
+    "chinese-architecture/taihe/tests/reference.test.js": "a29603b7d9bb740facf48b17c95063cbe0e337f6e9bcb81512153dcee00ac467"
+  },
+  "manifest": {
+    "schema": "architecture-realism/v1",
+    "id": "taihe",
+    "revision": "03",
+    "route": "/chinese-architecture/taihe/study/",
+    "referenceState": "现状外观；照片拍摄日期与修缮阶段未核定",
+    "sources": [
+      {
+        "id": "dpm-plaque-closeup",
+        "url": "https://img.dpm.org.cn/Uploads/Picture/2020/07/03/s5efefbd5093a9.jpg",
+        "status": "图像判读",
+        "rights": "故宫官方原照，本地研究副本用于离线对照；发布前核对影像授权。衍生轮廓保留来源与SHA-256。",
+        "supports": [
+          "筒瓦搭接",
+          "瓦当与滴水轮廓",
+          "竖匾存在与外形",
+          "原匾笔画轮廓",
+          "匾框卷草",
+          "两侧可见金龙彩画",
+          "瓦当可见亮脊"
+        ],
+        "limits": "图像判读；字形与可见彩画已描取；浮雕深度及绝对尺度未测量；只完成匾额平面局部配准。",
+        "sha256": "eebdbe096e5aeecc55d08e380775171438c75b635846dc013c452bce55f36c1c"
+      }
+    ],
+    "patch": {
+      "halfWidth": 4.26,
+      "pitch": 0.34,
+      "start": 11.1,
+      "end": 16.5,
+      "step": 0.3,
+      "length": 0.43,
+      "radius": 0.12
+    },
+    "views": {
+      "patch": {
+        "target": [
+          0,
+          15.1,
+          14.5
+        ],
+        "position": [
+          0,
+          18,
+          26
+        ]
+      },
+      "plaque": {
+        "target": [
+          0,
+          12.7,
+          14.5
+        ],
+        "position": [
+          0,
+          14,
+          29
+        ]
+      },
+      "oblique": {
+        "target": [
+          0,
+          14.3,
+          14.5
+        ],
+        "position": [
+          8,
+          18,
+          25
+        ]
+      },
+      "whole": {
+        "target": [
+          0,
+          12.5,
+          0
+        ],
+        "position": [
+          0,
+          20,
+          120
+        ]
+      },
+      "photo": {
+        "position": [
+          -0.00031686846693937187,
+          12.441609281269912,
+          25.485167644685312
+        ],
+        "target": [
+          -0.0000012156853340232498,
+          12.849870589205143,
+          15.74169659523846
+        ]
+      }
+    },
+    "modes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "plaque": {
+      "position": [
+        0,
+        12.25,
+        15.45
+      ],
+      "width": 1.72,
+      "height": 2.85,
+      "depth": 0.2,
+      "status": "比例推定",
+      "source": "dpm-plaque-closeup",
+      "text": "太和殿",
+      "lettering": "系统宋体占位，非原匾书法",
+      "supportLayer": "upper"
+    },
+    "tests": [
+      "chinese-architecture/tests/model.test.js",
+      "chinese-architecture/taihe/tests/model.test.js",
+      "chinese-architecture/taihe/tests/surface.test.js",
+      "chinese-architecture/realism-workflow/workflow.test.js",
+      "chinese-architecture/taihe/tests/reference.test.js"
+    ],
+    "sourceFiles": [
+      "chinese-architecture/taihe/model.js",
+      "chinese-architecture/taihe/data.js",
+      "chinese-architecture/taihe/study/study.js",
+      "chinese-architecture/taihe/study/materials.js",
+      "chinese-architecture/taihe/study/roof-sample.js",
+      "chinese-architecture/taihe/study/plaque.js",
+      "chinese-architecture/taihe/study/index.html",
+      "chinese-architecture/taihe/study/style.css",
+      "chinese-architecture/realism-workflow/roof-patch.js",
+      "chinese-architecture/realism-workflow/replay.mjs",
+      "chinese-architecture/realism-workflow/verify.mjs",
+      "chinese-architecture/realism-workflow/manifest.js",
+      "chinese-architecture/vendor/three.module.js",
+      "chinese-architecture/vendor/three.core.js",
+      "chinese-architecture/vendor/OrbitControls.js",
+      "chinese-architecture/vendor/BufferGeometryUtils.js",
+      "chinese-architecture/fengxian/model.js",
+      "chinese-architecture/fengxian/data.js",
+      "chinese-architecture/model.js",
+      "chinese-architecture/data.js",
+      "chinese-architecture/taihe/study/reference-detail.js",
+      "chinese-architecture/taihe/study/trace-reference.py",
+      "chinese-architecture/taihe/study/assets/reference-vectors.json",
+      "chinese-architecture/taihe/study/assets/reference-trace.svg",
+      "chinese-architecture/taihe/study/assets/reference-photo.jpg",
+      "chinese-architecture/taihe/study/replay-detail.mjs"
+    ],
+    "checks": [
+      {
+        "id": "front-a",
+        "mode": "a",
+        "view": "patch"
+      },
+      {
+        "id": "front-b",
+        "mode": "b",
+        "view": "patch"
+      },
+      {
+        "id": "front-c",
+        "mode": "c",
+        "view": "patch"
+      },
+      {
+        "id": "front-d",
+        "mode": "d",
+        "view": "patch"
+      },
+      {
+        "id": "plaque-d",
+        "mode": "d",
+        "view": "plaque"
+      },
+      {
+        "id": "oblique-d",
+        "mode": "d",
+        "view": "oblique"
+      },
+      {
+        "id": "light-d",
+        "mode": "d",
+        "view": "oblique",
+        "light": true
+      },
+      {
+        "id": "lift-d",
+        "mode": "d",
+        "view": "oblique",
+        "lift": true
+      },
+      {
+        "id": "whole-d",
+        "mode": "d",
+        "view": "whole"
+      },
+      {
+        "id": "plaque-e",
+        "mode": "e",
+        "view": "plaque"
+      },
+      {
+        "id": "oblique-e",
+        "mode": "e",
+        "view": "oblique"
+      },
+      {
+        "id": "light-e",
+        "mode": "e",
+        "view": "oblique",
+        "light": true
+      },
+      {
+        "id": "lift-e",
+        "mode": "e",
+        "view": "oblique",
+        "lift": true
+      },
+      {
+        "id": "photo-e",
+        "mode": "e",
+        "view": "photo"
+      }
+    ],
+    "capture": {
+      "desktop": {
+        "width": 1280,
+        "height": 900
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844
+      },
+      "cameraFov": 35,
+      "pixelRatioMax": 1.7,
+      "screenshot": "fullPage"
+    }
+  },
+  "browser": "Separate UI replay required; not implied by this report"
+}

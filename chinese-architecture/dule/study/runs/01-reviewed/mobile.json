@@ -1,0 +1,661 @@
+{
+  "schema": "architecture-replay/v1",
+  "architecture": "dule",
+  "revision": "01",
+  "viewport": "mobile",
+  "utc": "2026-10-15T00:20:21.849Z",
+  "results": [
+    {
+      "id": "front-a",
+      "state": {
+        "architecture": "dule",
+        "revision": "01",
+        "mode": "a",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          24.257627118644066,
+          34.447457627118645
+        ],
+        "target": [
+          0,
+          16.8,
+          7.599999999999999
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 2.8,
+          "sun": 3.5,
+          "fill": 1.15,
+          "exposure": 1.45
+        },
+        "drawCalls": 76
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "front-b",
+      "state": {
+        "architecture": "dule",
+        "revision": "01",
+        "mode": "b",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          24.257627118644066,
+          34.447457627118645
+        ],
+        "target": [
+          0,
+          16.8,
+          7.599999999999999
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 2.8,
+          "sun": 3.5,
+          "fill": 1.15,
+          "exposure": 1.45
+        },
+        "drawCalls": 76
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "front-c",
+      "state": {
+        "architecture": "dule",
+        "revision": "01",
+        "mode": "c",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          24.257627118644066,
+          34.447457627118645
+        ],
+        "target": [
+          0,
+          16.8,
+          7.599999999999999
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 76
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "front-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "01",
+        "mode": "d",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          24.257627118644066,
+          34.447457627118645
+        ],
+        "target": [
+          0,
+          16.8,
+          7.599999999999999
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 86
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "oblique-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "01",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          14.915254237288135,
+          24.63050847457627,
+          32.58305084745762
+        ],
+        "target": [
+          0,
+          16.8,
+          7.599999999999999
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 86
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "light-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "01",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": true,
+        "camera": [
+          14.915254237288135,
+          24.63050847457627,
+          32.58305084745762
+        ],
+        "target": [
+          0,
+          16.8,
+          7.599999999999999
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 86
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "lift-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "01",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": true,
+        "alternateLight": false,
+        "camera": [
+          14.915254237288135,
+          24.63050847457627,
+          32.58305084745762
+        ],
+        "target": [
+          0,
+          16.8,
+          7.599999999999999
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 2,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 86
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "whole-a",
+      "state": {
+        "architecture": "dule",
+        "revision": "01",
+        "mode": "a",
+        "view": "whole",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          18.71694915254238,
+          91.35593220338984
+        ],
+        "target": [
+          0,
+          10.7,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 2.8,
+          "sun": 3.5,
+          "fill": 1.15,
+          "exposure": 1.45
+        },
+        "drawCalls": 77
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "whole-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "01",
+        "mode": "d",
+        "view": "whole",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          18.71694915254238,
+          91.35593220338984
+        ],
+        "target": [
+          0,
+          10.7,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 87
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "section-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "01",
+        "mode": "d",
+        "view": "section",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          59.66101694915253,
+          22.44576271186441,
+          55.93220338983049
+        ],
+        "target": [
+          0,
+          10.7,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": true,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 87
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "node-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "01",
+        "mode": "d",
+        "view": "node",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          14.915254237288135,
+          9.111864406779658,
+          22.3728813559322
+        ],
+        "target": [
+          0,
+          2.4,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 43
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "node-lift-d",
+      "state": {
+        "architecture": "dule",
+        "revision": "01",
+        "mode": "d",
+        "view": "node",
+        "roofLift": true,
+        "alternateLight": false,
+        "camera": [
+          14.915254237288135,
+          9.111864406779658,
+          22.3728813559322
+        ],
+        "target": [
+          0,
+          2.4,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 2,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 1.2,
+          "sun": 3.5,
+          "fill": 0.28,
+          "exposure": 1.15
+        },
+        "drawCalls": 43
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "node-a",
+      "state": {
+        "architecture": "dule",
+        "revision": "01",
+        "mode": "a",
+        "view": "node",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          14.915254237288135,
+          9.111864406779658,
+          22.3728813559322
+        ],
+        "target": [
+          0,
+          2.4,
+          0
+        ],
+        "sampleRecords": 363,
+        "removedRibSegments": 318,
+        "fov": 35,
+        "pixelRatio": 1,
+        "patch": {
+          "halfWidth": 2.24,
+          "pitch": 0.28,
+          "start": 5.64,
+          "end": 8.64,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.08
+        },
+        "clipEnabled": false,
+        "sampleWorldY": 0,
+        "columnLayerY": 0,
+        "selected": "选择构件可查看证据",
+        "lighting": {
+          "sky": 2.8,
+          "sun": 3.5,
+          "fill": 1.15,
+          "exposure": 1.45
+        },
+        "drawCalls": 43
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    }
+  ],
+  "logs": [],
+  "selection": "dule/upper-south/cover-tile/0/-7 · 比例推定 · commons-2020:瓦垄及瓦口形态；无标尺；瓦尺寸比例推定 · 灰瓦局部，尺寸推定，无实物纹样"
+}

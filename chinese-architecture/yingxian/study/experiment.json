@@ -1,0 +1,251 @@
+{
+  "schema": "architecture-realism/v1",
+  "id": "yingxian",
+  "revision": "01",
+  "route": "/chinese-architecture/yingxian/study/",
+  "referenceState": "21世纪公开研究及照片可见的现存形制；规整化柱架，不重建辽代原貌、不模拟现状倾斜。照片日期/修缮阶段未知。",
+  "sources": [
+    {
+      "id": "wang2024-fig20",
+      "url": "https://doi.org/10.3390/buildings14082464",
+      "status": "文献明确 / 图像判读",
+      "rights": "出版PDF仅研究；不分发扫描图、照片、作者模型",
+      "limits": "已亲看出版PDF页2图1、页4–8图2–8、页13表1–2、页19图20–21；作者模型不是现状测绘；表1为陈明达数据转录。平柱法向推广到各层是规整化假设。",
+      "supports": [
+        "五明四暗",
+        "双圈柱架",
+        "两种落柱",
+        "平柱/角攒分别组织",
+        "实景全塔照片：图1，Le Liu 2024，出版物获授权转载，不代表本项目获再分发授权"
+      ]
+    },
+    {
+      "id": "li2005",
+      "url": "https://pubs.cstam.org.cn/data/article/em/preview/pdf/em_3335.pdf",
+      "status": "既有卷文献记录，本轮下载尝试超时",
+      "rights": "仅研究引用；不分发图纸",
+      "limits": "本轮未新读PDF；沿用MODEL_NOTES已登记图5与参数，高度基准未解决"
+    },
+    {
+      "id": "unesco2013",
+      "url": "https://whc.unesco.org/en/tentativelists/5803/",
+      "status": "文献明确",
+      "rights": "只链接与释义",
+      "limits": "预备名录；形制背景，不是逐件测绘"
+    },
+    {
+      "id": "cmu-eaves-photo",
+      "url": "https://www.architecture.cmu.edu/sites/default/files/styles/facebook/public/2025-01/S25_48422_image.jpg?h=0d485c9c&itok=Y-aFsjjP",
+      "status": "图像判读，实际浏览器查看",
+      "rights": "CMU课程页展示；摄影者、拍摄日期与再利用许可未知。仅外链参考，不作贴图或本地分发",
+      "limits": "局部仰拍；未配准，无标尺；可见中立不倚匾及灰瓦、露木和朱色，不用于实测瓦径/首层精确装饰"
+    }
+  ],
+  "patch": {
+    "halfWidth": 4.7,
+    "pitch": 0.34,
+    "start": 15.1,
+    "end": 17.2,
+    "step": 0.3,
+    "length": 0.43,
+    "radius": 0.12
+  },
+  "parameters": {
+    "version": "yingxian-01",
+    "units": "m",
+    "coordinates": "Y up; X east; Z south",
+    "galleryProfile": {
+      "outerAcrossSides": 34.4,
+      "innerAcrossSides": 24.2,
+      "low": 8,
+      "high": 11.6,
+      "exponent": 1.35,
+      "status": "基线比例推定，未据照片量测"
+    },
+    "tile": {
+      "status": "比例推定",
+      "pattern": "瓦当无纹、滴水通用轮廓，非木塔实际纹样"
+    },
+    "bracketAlignment": {
+      "flat": "face normal, side angle=(side+1)*pi/4",
+      "corner": "baseline radial skeleton; interlocking unresolved",
+      "status": "图像判读 + 规整化假设"
+    },
+    "height": "沿用64.121m基线控制，不强行缩放到67.31m"
+  },
+  "views": {
+    "patch": {
+      "target": [
+        0,
+        8.9,
+        16.1
+      ],
+      "position": [
+        0,
+        13.5,
+        32
+      ]
+    },
+    "corner": {
+      "target": [
+        6.8,
+        9,
+        16
+      ],
+      "position": [
+        21,
+        15,
+        34
+      ]
+    },
+    "boundary": {
+      "target": [
+        0,
+        16.8,
+        0
+      ],
+      "position": [
+        28,
+        23,
+        40
+      ]
+    },
+    "whole": {
+      "target": [
+        0,
+        31,
+        0
+      ],
+      "position": [
+        0,
+        40,
+        145
+      ]
+    },
+    "node": {
+      "target": [
+        0,
+        1.3,
+        0
+      ],
+      "position": [
+        9,
+        7,
+        17
+      ]
+    }
+  },
+  "modes": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "capture": {
+    "desktop": {
+      "width": 1280,
+      "height": 900
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844
+    },
+    "cameraFov": 35,
+    "pixelRatioMax": 1.7,
+    "screenshot": "fullPage"
+  },
+  "checks": [
+    {
+      "id": "front-a",
+      "mode": "a",
+      "view": "patch"
+    },
+    {
+      "id": "front-b",
+      "mode": "b",
+      "view": "patch"
+    },
+    {
+      "id": "front-c",
+      "mode": "c",
+      "view": "patch"
+    },
+    {
+      "id": "front-d",
+      "mode": "d",
+      "view": "patch"
+    },
+    {
+      "id": "corner-a",
+      "mode": "a",
+      "view": "corner"
+    },
+    {
+      "id": "corner-d",
+      "mode": "d",
+      "view": "corner"
+    },
+    {
+      "id": "light-d",
+      "mode": "d",
+      "view": "corner",
+      "light": true
+    },
+    {
+      "id": "lift-d",
+      "mode": "d",
+      "view": "corner",
+      "lift": true
+    },
+    {
+      "id": "boundary-d",
+      "mode": "d",
+      "view": "boundary"
+    },
+    {
+      "id": "whole-a",
+      "mode": "a",
+      "view": "whole"
+    },
+    {
+      "id": "whole-d",
+      "mode": "d",
+      "view": "whole"
+    },
+    {
+      "id": "node-d",
+      "mode": "d",
+      "view": "node"
+    }
+  ],
+  "tests": [
+    "chinese-architecture/yingxian/tests/model.test.js",
+    "chinese-architecture/yingxian/tests/study.test.js",
+    "chinese-architecture/realism-workflow/workflow.test.js"
+  ],
+  "sourceFiles": [
+    "chinese-architecture/yingxian/model.js",
+    "chinese-architecture/yingxian/data.js",
+    "chinese-architecture/yingxian/app.js",
+    "chinese-architecture/yingxian/index.html",
+    "chinese-architecture/yingxian/style.css",
+    "chinese-architecture/yingxian/study/adapter.js",
+    "chinese-architecture/yingxian/study/materials.js",
+    "chinese-architecture/yingxian/study/study.js",
+    "chinese-architecture/yingxian/study/index.html",
+    "chinese-architecture/yingxian/study/style.css",
+    "chinese-architecture/realism-workflow/roof-patch.js",
+    "chinese-architecture/realism-workflow/manifest.js",
+    "chinese-architecture/realism-workflow/verify.mjs",
+    "chinese-architecture/realism-workflow/replay.mjs",
+    "chinese-architecture/vendor/three.module.js",
+    "chinese-architecture/vendor/three.core.js",
+    "chinese-architecture/vendor/OrbitControls.js",
+    "chinese-architecture/vendor/BufferGeometryUtils.js",
+    "chinese-architecture/yingxian/study/interactions.mjs",
+    "chinese-architecture/yingxian/study/history/baseline/model.js",
+    "chinese-architecture/yingxian/study/history/baseline/data.js",
+    "chinese-architecture/yingxian/study/history/baseline/app.js",
+    "chinese-architecture/yingxian/study/history/baseline/snapshot.json"
+  ]
+}

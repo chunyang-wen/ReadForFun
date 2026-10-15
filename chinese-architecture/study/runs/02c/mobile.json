@@ -1,0 +1,1036 @@
+{
+  "schema": "architecture-replay/v1",
+  "architecture": "foguang",
+  "revision": "02c",
+  "viewport": "mobile",
+  "utc": "2026-10-15T05:21:05.922Z",
+  "results": [
+    {
+      "id": "front-a",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "a",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          16.157627118644065,
+          29.071186440677966
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 13728,
+        "drawCalls": 59,
+        "triangles": 649518,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "front-b",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "b",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          16.157627118644065,
+          29.071186440677966
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 13728,
+        "drawCalls": 59,
+        "triangles": 649518,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "front-c",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "c",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          16.157627118644065,
+          29.071186440677966
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 14001,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "front-d",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "d",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          16.157627118644065,
+          29.071186440677966
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 14001,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "eaves-d",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "d",
+        "view": "eaves",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          6.613559322033901,
+          34.75593220338983
+        ],
+        "target": [
+          0,
+          6.8,
+          9.4
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 14001,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "oblique-d",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          12.677966101694913,
+          15.225423728813556,
+          27.579661016949153
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 14001,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "light-d",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": true,
+        "camera": [
+          12.677966101694913,
+          15.225423728813556,
+          27.579661016949153
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 14001,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "lift-d",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": true,
+        "alternateLight": false,
+        "camera": [
+          12.677966101694913,
+          15.225423728813556,
+          27.579661016949153
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 2,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 14001,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "whole-d",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "d",
+        "view": "whole",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          20.91525423728814,
+          106.27118644067797
+        ],
+        "target": [
+          0,
+          6,
+          0
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 14001,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "facade-d",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "d",
+        "view": "facade",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          9.933898305084742,
+          81.88474576271186
+        ],
+        "target": [
+          0,
+          4.9,
+          8.8
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 14001,
+        "drawCalls": 67,
+        "triangles": 749190,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "facade-e",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "e",
+        "view": "facade",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          9.933898305084742,
+          81.88474576271186
+        ],
+        "target": [
+          0,
+          4.9,
+          8.8
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 14077,
+        "drawCalls": 111,
+        "triangles": 748854,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "facade-f",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "f",
+        "view": "facade",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          9.933898305084742,
+          81.88474576271186
+        ],
+        "target": [
+          0,
+          4.9,
+          8.8
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 13972,
+        "drawCalls": 115,
+        "triangles": 758206,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "facade-g",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "g",
+        "view": "facade",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          9.933898305084742,
+          81.88474576271186
+        ],
+        "target": [
+          0,
+          4.9,
+          8.8
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 33151,
+        "drawCalls": 114,
+        "triangles": 7536094,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "whole-g",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "g",
+        "view": "whole",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          20.91525423728814,
+          106.27118644067797
+        ],
+        "target": [
+          0,
+          6,
+          0
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 33151,
+        "drawCalls": 114,
+        "triangles": 7536094,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "rear-g",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "g",
+        "view": "rear",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          57.79661016949153,
+          30.237288135593214,
+          -78.3050847457627
+        ],
+        "target": [
+          0,
+          6,
+          0
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 33151,
+        "drawCalls": 114,
+        "triangles": 7536094,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "bracket-f",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "f",
+        "view": "bracket",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          5.966101694915254,
+          8.291525423728814,
+          24.41525423728814
+        ],
+        "target": [
+          0,
+          6.8,
+          9.5
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 13972,
+        "drawCalls": 109,
+        "triangles": 757882,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "light-g",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "g",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": true,
+        "camera": [
+          12.677966101694913,
+          15.225423728813556,
+          27.579661016949153
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 0,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 33151,
+        "drawCalls": 112,
+        "triangles": 7535986,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "id": "lift-g",
+      "state": {
+        "architecture": "foguang",
+        "revision": "02c",
+        "mode": "g",
+        "view": "oblique",
+        "roofLift": true,
+        "alternateLight": false,
+        "camera": [
+          12.677966101694913,
+          15.225423728813556,
+          27.579661016949153
+        ],
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "patch": {
+          "halfWidth": 2.4,
+          "pitch": 0.32,
+          "start": 9.2,
+          "end": 11.84,
+          "step": 0.24,
+          "length": 0.38,
+          "radius": 0.11
+        },
+        "fov": 35,
+        "selected": null,
+        "selectionLayer": null,
+        "selectionBounds": null,
+        "roofWorldY": 2,
+        "anchorWorldY": 0,
+        "sampleRecords": 378,
+        "envelopeRecords": 26310,
+        "removedRibSegments": 105,
+        "doorOpen": false,
+        "totalSplit": 0,
+        "section": false,
+        "sectionAxis": "x",
+        "hiddenLayers": [],
+        "activeInstances": 33151,
+        "drawCalls": 112,
+        "triangles": 7535986,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "parameterBoundary": "未完成照片机位配准；厚度/标高/瓦件为推定"
+      },
+      "layout": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    }
+  ],
+  "logs": []
+}

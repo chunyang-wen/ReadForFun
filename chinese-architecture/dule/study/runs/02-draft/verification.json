@@ -1,0 +1,427 @@
+{
+  "schema": "architecture-realism/v1",
+  "id": "dule",
+  "revision": "02",
+  "utc": "2026-10-15T00:37:08.701Z",
+  "node": "v26.7.0",
+  "platform": "darwin",
+  "command": [
+    "/opt/homebrew/Cellar/node/26.7.0/bin/node",
+    "--test",
+    "chinese-architecture/dule/tests/model.test.js",
+    "chinese-architecture/dule/tests/surface.test.js",
+    "chinese-architecture/realism-workflow/workflow.test.js",
+    "chinese-architecture/dule/tests/envelope.test.js"
+  ],
+  "exitCode": 0,
+  "hashes": {
+    "chinese-architecture/dule/study/experiment.json": "55a8a0b8caa4069a79d5edf0a1286084c1e7219bf23443c067c950e28a10d6cb",
+    "chinese-architecture/dule/model.js": "354bc14d9988643c089056359d284a8f2e5d0d0cc5cd3cf9876e27feec9ed6b4",
+    "chinese-architecture/dule/data.js": "151e6866fd1980416b0451ffbc7606a404ef6cf848a60a32c8d8769b219567e2",
+    "chinese-architecture/dule/app.js": "de74e6db24c597f957524498304b2f653cd7ac40c6e63686057a4d779499503d",
+    "chinese-architecture/dule/index.html": "2ab07de51891b64255686ac5e6cf739858395dfc3da98896f342e2c0e227be6b",
+    "chinese-architecture/dule/style.css": "e9f38a803593aed975610e5fe2cd1ebf9c80a7cae958663fa3e7a844d51d8f85",
+    "chinese-architecture/dule/study/study.js": "7e00230ec2ad8d6b7400be3f9430750b58c1557afc02cb94b27022ce4eac29c2",
+    "chinese-architecture/dule/study/materials.js": "37dce677e46bbca6009015850eb2849167fb4ea855f98cc23ef377d41f5d473a",
+    "chinese-architecture/dule/study/roof-sample.js": "3d7896beac10b4830020a9338bd69e707a9ebbc72f21c0f9783e653ff9dd52f5",
+    "chinese-architecture/dule/study/index.html": "e3ad353fe159c2f47f4ea38ceaaab27c1a779b3ad23dfe93f81037aedaa841b8",
+    "chinese-architecture/dule/study/style.css": "7ccf45927e5b732c707ae9932ef07380feefbb39316c91415ea40b8c05b375b3",
+    "chinese-architecture/dule/study/replay.mjs": "141db2ef756a6b7c79dab9c72823ce3722eef9c070b2618be1369e5bf4b5471f",
+    "chinese-architecture/realism-workflow/roof-patch.js": "8872a12db15b176ac81b1f27aadcbed7ea384fd79b1600c39d334c9bdeca7a5c",
+    "chinese-architecture/realism-workflow/manifest.js": "22b655d2ea45cad59ab0841ac1985e54ebd59b9356b62bcb857f40c690f37313",
+    "chinese-architecture/realism-workflow/verify.mjs": "09edbf88c2741730c0e8e27ea7b8bb48d515e49b4ea5b54930b4688b0cd1003f",
+    "chinese-architecture/realism-workflow/replay.mjs": "2ecdb7f7fa1c6d81e54047cdd55d5a44dd27db3c8ae350f5027fb2ba4ae8e91f",
+    "chinese-architecture/vendor/three.module.js": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+    "chinese-architecture/vendor/three.core.js": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6",
+    "chinese-architecture/vendor/OrbitControls.js": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b",
+    "chinese-architecture/dule/study/structure-sample.js": "442d53275648d51e5397d3eb34aaaaad2f8b6fd5b08cd3ee9412f98d59031f4a",
+    "chinese-architecture/dule/study/original-replay.mjs": "ce9a6f43006a88061a52a6882999555c799f046f43b60cccd584fb59e6a94438",
+    "chinese-architecture/dule/study/roof-envelope.js": "53dd329773930f0b4b652f4e2aa80dc525f0d885d2b5a54c80a8bdf02295dde2",
+    "chinese-architecture/dule/study/exterior.js": "c5d65dca9ee45caeb7779679dcb00f414ade2511941205c955dbf97c52574e3c",
+    "chinese-architecture/dule/study/upper-node.js": "2c32ace579858acefbb54550c177ef32acd8bb4fbb9d0654f43abe1e9f591744",
+    "chinese-architecture/dule/tests/model.test.js": "0b7f3bab00a925bdae19ae1522d529a45b13c97611c8424f466966fbb9ba9268",
+    "chinese-architecture/dule/tests/surface.test.js": "9561757bb86e793531d6465a011897d41444e5056cd2c2d5e109bd7d802bff58",
+    "chinese-architecture/realism-workflow/workflow.test.js": "fbea8d524ec54477efd86546f32475f57beb6e902c2980e20bd4ee5e0d38c2ab",
+    "chinese-architecture/dule/tests/envelope.test.js": "59d80d202d00fa8bbb7f8654efa6c0338a39182170aaa40ccbd9052137c24906"
+  },
+  "manifest": {
+    "schema": "architecture-realism/v1",
+    "id": "dule",
+    "revision": "02",
+    "route": "/chinese-architecture/dule/study/",
+    "referenceState": "辽构空间骨架保留；E完整灰瓦/翼角外形试验；F以2014/2020照片可见现状为外观参考，围护、擎檐柱与匾额不得称辽代原貌。无摄影测量配准。",
+    "sources": [
+      {
+        "id": "dpm-scale",
+        "url": "https://www.dpm.org.cn/Uploads/File/2023/12/19/u658143342065c.pdf",
+        "status": "文献明确/图像判读",
+        "rights": "公开论文，仅本地研究缓存，图纸未作为分发贴图",
+        "supports": [
+          "柱头平面表一",
+          "柱高表二",
+          "层间落柱图三",
+          "屋架剖面图六七"
+        ],
+        "limits": "2023论文汇编1998修缮与1960数据；图六七为理想尺度分析；原始逐件测绘未取得"
+      },
+      {
+        "id": "commons-2020",
+        "url": "https://commons.wikimedia.org/wiki/File:独乐寺观音阁2020.jpg",
+        "status": "图像判读",
+        "rights": "ScareCriterion12，CC BY-SA 4.0；仅链接参考，未用作纹理",
+        "supports": [
+          "灰瓦檐口",
+          "围护颜色",
+          "现状支柱与匾额存在"
+        ],
+        "limits": "标注2020-05-04；18mm EXIF并非相机配准；无遮标尺；颜色受曝光影响；只看南面"
+      },
+      {
+        "id": "tj-official",
+        "url": "https://www.tj.gov.cn/sq/yztj/jgtp/202005/t20200520_2468035.html",
+        "status": "文献明确",
+        "rights": "仅链接参考",
+        "supports": [
+          "984年重建与遗存身份"
+        ],
+        "limits": "景点介绍，不提供逐件测绘与修缮材料光学参数"
+      },
+      {
+        "id": "commons-side-2014",
+        "url": "https://commons.wikimedia.org/wiki/File:Guanyin_Pavilion_of_Dule_Temple.JPG",
+        "status": "图像判读",
+        "rights": "Xin / Halazhang，CC BY-SA 4.0；仅链接/本地截图参考，不作纹理",
+        "supports": [
+          "斜侧翼角轮廓",
+          "双层擎檐柱",
+          "正面开口与红围护"
+        ],
+        "limits": "2014-07-16，18mm EXIF；未配准，侧后面遮挡；尺寸不可直接取为实测"
+      },
+      {
+        "id": "sgra-conservation",
+        "url": "https://www.aisf.or.jp/sgrareport/Report103Chinese.pdf",
+        "status": "文献明确",
+        "rights": "SGRA Report103，©2024 SGRA；仅本地研究缓存",
+        "supports": [
+          "1990年代现状保护与局部落架原则",
+          "底层墙体不动而柱子调正"
+        ],
+        "limits": "PDF37页/印刷36页；论坛专家陈述与幻灯片，不是逐件施工测绘"
+      }
+    ],
+    "patch": {
+      "halfWidth": 2.24,
+      "pitch": 0.28,
+      "start": 5.64,
+      "end": 8.64,
+      "step": 0.3,
+      "length": 0.43,
+      "radius": 0.08
+    },
+    "views": {
+      "patch": {
+        "target": [
+          0,
+          16.8,
+          7.6
+        ],
+        "position": [
+          0,
+          20.8,
+          22
+        ]
+      },
+      "oblique": {
+        "target": [
+          0,
+          16.8,
+          7.6
+        ],
+        "position": [
+          8,
+          21,
+          21
+        ]
+      },
+      "whole": {
+        "target": [
+          0,
+          10.7,
+          0
+        ],
+        "position": [
+          0,
+          15,
+          49
+        ]
+      },
+      "section": {
+        "target": [
+          0,
+          10.7,
+          0
+        ],
+        "position": [
+          32,
+          17,
+          30
+        ]
+      },
+      "node": {
+        "target": [
+          0,
+          2.4,
+          0
+        ],
+        "position": [
+          8,
+          6,
+          12
+        ]
+      },
+      "street": {
+        "target": [
+          0,
+          10.7,
+          0
+        ],
+        "position": [
+          0,
+          5.5,
+          53
+        ]
+      },
+      "side": {
+        "target": [
+          0,
+          11,
+          0
+        ],
+        "position": [
+          44,
+          10,
+          34
+        ]
+      },
+      "upperNode": {
+        "target": [
+          0,
+          0.6,
+          0.5
+        ],
+        "position": [
+          5,
+          3.2,
+          8
+        ]
+      }
+    },
+    "modes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "capture": {
+      "desktop": {
+        "width": 1280,
+        "height": 900
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844
+      },
+      "cameraFov": 35,
+      "pixelRatioMax": 1.7,
+      "screenshot": "fullPage"
+    },
+    "checks": [
+      {
+        "id": "front-a",
+        "mode": "a",
+        "view": "patch"
+      },
+      {
+        "id": "front-b",
+        "mode": "b",
+        "view": "patch"
+      },
+      {
+        "id": "front-c",
+        "mode": "c",
+        "view": "patch"
+      },
+      {
+        "id": "front-d",
+        "mode": "d",
+        "view": "patch"
+      },
+      {
+        "id": "oblique-d",
+        "mode": "d",
+        "view": "oblique"
+      },
+      {
+        "id": "light-d",
+        "mode": "d",
+        "view": "oblique",
+        "light": true
+      },
+      {
+        "id": "lift-d",
+        "mode": "d",
+        "view": "oblique",
+        "lift": true
+      },
+      {
+        "id": "whole-a",
+        "mode": "a",
+        "view": "whole"
+      },
+      {
+        "id": "whole-d",
+        "mode": "d",
+        "view": "whole"
+      },
+      {
+        "id": "section-d",
+        "mode": "d",
+        "view": "section"
+      },
+      {
+        "id": "node-d",
+        "mode": "d",
+        "view": "node"
+      },
+      {
+        "id": "node-lift-d",
+        "mode": "d",
+        "view": "node",
+        "lift": true
+      },
+      {
+        "id": "node-a",
+        "mode": "a",
+        "view": "node"
+      },
+      {
+        "id": "whole-e",
+        "mode": "e",
+        "view": "whole"
+      },
+      {
+        "id": "whole-f",
+        "mode": "f",
+        "view": "whole"
+      },
+      {
+        "id": "street-f",
+        "mode": "f",
+        "view": "street"
+      },
+      {
+        "id": "side-f",
+        "mode": "f",
+        "view": "side"
+      },
+      {
+        "id": "side-light-f",
+        "mode": "f",
+        "view": "side",
+        "light": true
+      },
+      {
+        "id": "side-lift-f",
+        "mode": "f",
+        "view": "side",
+        "lift": true
+      },
+      {
+        "id": "section-f",
+        "mode": "f",
+        "view": "section"
+      },
+      {
+        "id": "upper-node-f",
+        "mode": "f",
+        "view": "upperNode"
+      }
+    ],
+    "tests": [
+      "chinese-architecture/dule/tests/model.test.js",
+      "chinese-architecture/dule/tests/surface.test.js",
+      "chinese-architecture/realism-workflow/workflow.test.js",
+      "chinese-architecture/dule/tests/envelope.test.js"
+    ],
+    "sourceFiles": [
+      "chinese-architecture/dule/model.js",
+      "chinese-architecture/dule/data.js",
+      "chinese-architecture/dule/app.js",
+      "chinese-architecture/dule/index.html",
+      "chinese-architecture/dule/style.css",
+      "chinese-architecture/dule/study/study.js",
+      "chinese-architecture/dule/study/materials.js",
+      "chinese-architecture/dule/study/roof-sample.js",
+      "chinese-architecture/dule/study/index.html",
+      "chinese-architecture/dule/study/style.css",
+      "chinese-architecture/dule/study/replay.mjs",
+      "chinese-architecture/realism-workflow/roof-patch.js",
+      "chinese-architecture/realism-workflow/manifest.js",
+      "chinese-architecture/realism-workflow/verify.mjs",
+      "chinese-architecture/realism-workflow/replay.mjs",
+      "chinese-architecture/vendor/three.module.js",
+      "chinese-architecture/vendor/three.core.js",
+      "chinese-architecture/vendor/OrbitControls.js",
+      "chinese-architecture/dule/study/structure-sample.js",
+      "chinese-architecture/dule/study/original-replay.mjs",
+      "chinese-architecture/dule/study/roof-envelope.js",
+      "chinese-architecture/dule/study/exterior.js",
+      "chinese-architecture/dule/study/upper-node.js"
+    ],
+    "structurePatch": {
+      "id": "paired-reach-01",
+      "scope": "独立南檐下层局部，不推广到整栋",
+      "pairTotals": [
+        0.84,
+        0.8
+      ],
+      "individualTrial": [
+        0.42,
+        0.42,
+        0.4,
+        0.4
+      ],
+      "status": "各对内等分为比例推定"
+    },
+    "envelope": {
+      "revision": "roof-envelope-02",
+      "pitch": 0.28,
+      "step": 0.31,
+      "length": 0.43,
+      "radius": 0.085,
+      "upperWing": 0.78,
+      "lowerWing": 0.58,
+      "upperWingStart": 8.1,
+      "lowerWingStart": 8.3,
+      "source": "commons-2020 + commons-side-2014:外形图像判读；翼角参数比例推定"
+    },
+    "exterior": {
+      "revision": "present-envelope-02",
+      "supportX": 11.15,
+      "supportZ": 8.25,
+      "supportRadius": 0.12,
+      "upperPlaque": {
+        "width": 1.65,
+        "height": 2.1,
+        "y": 14.4,
+        "z": 8.13,
+        "text": "观音之阁"
+      },
+      "source": "commons-2020 + commons-side-2014:现状可见轮廓；尺寸、非正面布置为比例推定"
+    }
+  },
+  "browser": "Separate UI replay required; not implied by this report"
+}

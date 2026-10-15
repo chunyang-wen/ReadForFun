@@ -1,0 +1,50 @@
+✔ three independent rings retain central void and retreat at each level (0.43725ms)
+✔ records are stable, documented and transforms finite (12.6565ms)
+✔ floor panels leave central shaft open, and western stair opening exists (0.940458ms)
+✔ upper frames stay below roof surface, including end sections (0.402875ms)
+✔ fork has two feet, a matching seat, and an unobstructed opening (0.16275ms)
+✔ lower local assembly is four horizontal hua arms without imported Foguang ang (0.067458ms)
+✔ each lower column meets its circular stone bearing surface (0.570542ms)
+✔ adapter removes only south upper central ribs, preserves shaft and structure IDs (55.669667ms)
+✔ gray roof patch conforms to Dule own slope and retains neutral constant colors (3.207084ms)
+✔ roof lift carries tile study while retaining column and enclosure levels (32.348958ms)
+✖ paired reach experiment respects published pair totals without presenting individual jumps as measured (4.298833ms)
+✔ eave sample remains outside sacred shaft and does not invent palace ornament (1.286584ms)
+✔ Manifest rejects unsupported evidence, duplicate cases and unknown camera presets (0.908375ms)
+✔ Generic patch replays on a different slope and tile spacing without Taihe imports (7.461958ms)
+✔ Refined pans are concave; drips are separate from disks, with finite transformed geometry (3.706542ms)
+✔ Same patch generator accepts Fengxian roof envelope without copying Taihe heights (2.081583ms)
+✔ Plaque has thickness, evidence metadata, and stays with bracket layer when roof lifts (2.614959ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 16
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 159.692375
+
+✖ failing tests:
+
+test at chinese-architecture/dule/tests/surface.test.js:24:1
+✖ paired reach experiment respects published pair totals without presenting individual jumps as measured (4.298833ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(Math.abs(r.position[2]+r.scale[0]/2-LOWER_REACH.trial[i])<1e-8)
+  
+      at file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/dule/tests/surface.test.js:28:74
+      at Array.forEach (<anonymous>)
+      at TestContext.<anonymous> (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/dule/tests/surface.test.js:28:52)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

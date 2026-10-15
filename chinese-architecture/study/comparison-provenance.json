@@ -1,0 +1,13 @@
+{
+  "operation": "two screenshot crops; no retouching or AI imagery",
+  "crop": [
+    36,
+    214,
+    1244,
+    924
+  ],
+  "sources": {
+    "runs/02e/desktop/facade-a.jpg": "6898e06382ec9c5a8bdf65209add2b672996ec1d1b6a11303d545bc54654eee1",
+    "runs/02e/desktop/facade-g.jpg": "3f6e120542bb434366e0930fdd3df94ebfc922d227dd72574e8ca361d92bcd68"
+  }
+}

@@ -1,0 +1,31 @@
+✔ Manifest rejects unsupported evidence, duplicate cases and unknown camera presets (0.924417ms)
+✔ Generic patch replays on a different slope and tile spacing without Taihe imports (7.576958ms)
+✔ Refined pans are concave; drips are separate from disks, with finite transformed geometry (4.462833ms)
+✔ Same patch generator accepts Fengxian roof envelope without copying Taihe heights (2.229583ms)
+✔ Plaque has thickness, evidence metadata, and stays with bracket layer when roof lifts (1.894208ms)
+✔ visible facade has five paired board doors, only two end lattice windows, and head infill (0.761041ms)
+✔ opening the center door moves only its two leaves and keeps the hinge positions (0.201084ms)
+✔ front bracket replacement does not erase column-head, corner, rear or inner brackets; switching restores exact IDs (30.006833ms)
+✔ four-slope tiles stay in their own roof domains and have upward surface normals (6.475208ms)
+✔ continuous roof replacement keeps ridge silhouettes and all timber, and tile IDs are repeatable (46.565292ms)
+✔ all new facade, bracket and roof instance transforms are finite and positive; no source is unlabeled (4.882959ms)
+✔ study rejects inverted elevations, impossible overlap, unsafe tessellation and invalid material settings (1.014208ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (1.175584ms)
+✔ every selectable member has a documented type and valid layer (2.493708ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (3.773917ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.419458ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.530875ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.075625ms)
+✔ upper frame does not protrude through the hip roof (0.577625ms)
+✔ Foguang replacement preserves all structure and other roof slopes (43.4245ms)
+✔ Foguang patch uses stable IDs, neutral instance color and no unsupported pointed drips (4.37075ms)
+✔ local transforms follow west roof, remain finite and preserve positive overlap (1.993917ms)
+✔ roof lift moves selected sample while column layer stays at original elevation (18.524916ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 208.916833

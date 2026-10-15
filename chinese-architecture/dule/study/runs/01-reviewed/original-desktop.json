@@ -1,0 +1,247 @@
+{
+  "schema": "dule-original-replay/v1",
+  "utc": "2026-10-15T00:21:06.025Z",
+  "steps": [
+    {
+      "id": "chapter-0",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "阁中有阁",
+      "view": "斜向全貌"
+    },
+    {
+      "id": "chapter-1",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "两圈留空",
+      "view": "柱网俯视"
+    },
+    {
+      "id": "chapter-2",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "四跳与叉柱",
+      "view": "四跳与叉柱局部"
+    },
+    {
+      "id": "chapter-3",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "层层相承",
+      "view": "山面 · 东"
+    },
+    {
+      "id": "chapter-4",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "歇山九脊",
+      "view": "斜向全貌"
+    },
+    {
+      "id": "chapter-5",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "装饰有位置",
+      "view": "前檐 · 南"
+    },
+    {
+      "id": "chapter-6",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "拆而复合",
+      "view": "分层观察"
+    },
+    {
+      "id": "view-front",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "阁中有阁",
+      "view": "前檐 · 南"
+    },
+    {
+      "id": "view-back",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "阁中有阁",
+      "view": "后檐 · 北"
+    },
+    {
+      "id": "view-side",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "阁中有阁",
+      "view": "山面 · 东"
+    },
+    {
+      "id": "view-top",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "阁中有阁",
+      "view": "柱网俯视"
+    },
+    {
+      "id": "view-iso",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "阁中有阁",
+      "view": "斜向全貌"
+    },
+    {
+      "id": "section-x-home",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "层层相承",
+      "view": "山面 · 东"
+    },
+    {
+      "id": "section-x-end",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "层层相承",
+      "view": "山面 · 东"
+    },
+    {
+      "id": "section-x-flip",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "层层相承",
+      "view": "山面 · 东"
+    },
+    {
+      "id": "section-z-home",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "层层相承",
+      "view": "山面 · 东"
+    },
+    {
+      "id": "section-z-end",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "层层相承",
+      "view": "山面 · 东"
+    },
+    {
+      "id": "section-z-flip",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "层层相承",
+      "view": "山面 · 东"
+    },
+    {
+      "id": "node-selected",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "四跳与叉柱",
+      "view": "四跳与叉柱局部"
+    },
+    {
+      "id": "node-exploded",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "四跳与叉柱",
+      "view": "四跳与叉柱局部"
+    },
+    {
+      "id": "node-closed",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "四跳与叉柱",
+      "view": "四跳与叉柱局部"
+    },
+    {
+      "id": "whole-exploded",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "拆而复合",
+      "view": "分层观察"
+    },
+    {
+      "id": "reset",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "阁中有阁",
+      "view": "斜向全貌"
+    },
+    {
+      "id": "keyboard-reset",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "heading": "阁中有阁",
+      "view": "斜向全貌"
+    }
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+{
+  "use": "local research only; no distributed photo textures",
+  "source": "https://www.dpm.org.cn/Uploads/File/2023/12/19/u658143342065c.pdf",
+  "license": "copyright retained; no open license assumed",
+  "hashes": {
+    "chinese-architecture/dule/study/references/scale.pdf": "7daa2f8f78d2d184da3e469e2b3325048c11a230122db99b4307dc87b8aeff3a",
+    "chinese-architecture/dule/study/references/page-12.png": "5f0def58483cadd60437cf38f0a08154c0d9eea047e6b330c828165ad1984181",
+    "chinese-architecture/dule/study/references/scale.txt": "8fe315feb83ac9499d4077f433f8ef5db909eb4a0c42fae9d26554f89f843dd7",
+    "chinese-architecture/dule/study/references/page-6.png": "2d1800a29edd54efbbaf619ab54b6767786cb6e694006976ab92bfe623ffa255",
+    "chinese-architecture/dule/study/references/page-7.png": "1425588bf47f15a44c413added72e23aaafff7cb77b129de85c712711fe7a770",
+    "chinese-architecture/dule/study/references/scale-07.png": "129d2a89014d3634b6b1a52ae65ef7f471e9b96f9c1753a80b93d91e95bdd914",
+    "chinese-architecture/dule/study/references/scale-06.png": "03007a6f9b8314abd5615461b6c06b40fb4bb9a1b2a8fd9a30d9cb249eb8ce3b"
+  }
+}

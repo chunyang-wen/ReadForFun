@@ -1,0 +1,226 @@
+{
+  "schema": "architecture-realism/v1",
+  "id": "taimiao",
+  "revision": "01",
+  "utc": "2026-10-14T14:06:54.401Z",
+  "node": "v26.7.0",
+  "platform": "darwin",
+  "command": [
+    "/opt/homebrew/Cellar/node/26.7.0/bin/node",
+    "--test",
+    "chinese-architecture/tests/model.test.js",
+    "chinese-architecture/taimiao/tests/model.test.js",
+    "chinese-architecture/taimiao/tests/surface.test.js",
+    "chinese-architecture/realism-workflow/workflow.test.js"
+  ],
+  "exitCode": 0,
+  "hashes": {
+    "chinese-architecture/taimiao/study/experiment.json": "29338a9d24dd697fd53226845a7347f1f383542813183fc8faee1c991c8a3f1b",
+    "chinese-architecture/taimiao/model.js": "f40624c17992cd82f1379ea7a067f00768576d450145660c4c7544d350984c36",
+    "chinese-architecture/taimiao/data.js": "457dd5e70d019e6297f7bd65402dc6a50f5a018806043b9ec0d542250c1ee8d5",
+    "chinese-architecture/taimiao/study/study.js": "2492c07971c3212afd50e3b75d3beae29a097545d55fc149682d4f9ec4c66a02",
+    "chinese-architecture/taimiao/study/materials.js": "985e33fc3e660e2a9077d9b93dc3a0dd8cb4b05fcce7b364a05828b6364c5a79",
+    "chinese-architecture/taimiao/study/roof-sample.js": "3df69cbcef1634d3b40f54b06f37666d46be6c53da09adeeb107bd338d2ae092",
+    "chinese-architecture/taimiao/study/index.html": "70db219c3930e270b2754d6e1efeb3c973b6d196379aef3b5109ac8312502931",
+    "chinese-architecture/taimiao/study/style.css": "8714a0ca875d2eef7a4a895e1955d69d13e0c394b387a7ce6cd87fedcad5568d",
+    "chinese-architecture/realism-workflow/roof-patch.js": "8872a12db15b176ac81b1f27aadcbed7ea384fd79b1600c39d334c9bdeca7a5c",
+    "chinese-architecture/realism-workflow/replay.mjs": "2ecdb7f7fa1c6d81e54047cdd55d5a44dd27db3c8ae350f5027fb2ba4ae8e91f",
+    "chinese-architecture/realism-workflow/verify.mjs": "09edbf88c2741730c0e8e27ea7b8bb48d515e49b4ea5b54930b4688b0cd1003f",
+    "chinese-architecture/realism-workflow/manifest.js": "22b655d2ea45cad59ab0841ac1985e54ebd59b9356b62bcb857f40c690f37313",
+    "chinese-architecture/vendor/three.module.js": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+    "chinese-architecture/vendor/three.core.js": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6",
+    "chinese-architecture/vendor/OrbitControls.js": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b",
+    "chinese-architecture/vendor/BufferGeometryUtils.js": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797",
+    "chinese-architecture/fengxian/model.js": "fbb7fb83a31e5f5e3e2a883150fc2fc9820ba533de692a7d39a8e50b98b11470",
+    "chinese-architecture/fengxian/data.js": "257318ce9e6d3fe9c31bb3902a37b9be67c30438d62a71df62c72eaa682bc9c5",
+    "chinese-architecture/model.js": "a893d694e1af51e51cee62dee8a59564dd2aa6ef81e0b409effdd5ff3a0741a8",
+    "chinese-architecture/data.js": "31d465ab66f51de88aef9d7b31c228c05d7a0980e7c2bc413214f4cd96b83ecc",
+    "chinese-architecture/taihe/study/plaque.js": "816d129c086fc4a32e79b4c6ad621735c60e4f134526b4525a3a63a3f9926fc0",
+    "chinese-architecture/taihe/model.js": "3298aeb4a32ad9a97ced5f2cf177c4c656a10d18f7672f365467a467ceb40ce0",
+    "chinese-architecture/taihe/data.js": "b9466b149db2e8a5191e08d1e1f10f5777f404c1f40263650ed5408a28401913",
+    "chinese-architecture/taihe/study/roof-sample.js": "27fdb564f674ed950593bcf481044d9c900e2a5c8c54eb4cb79ada7e5e839228",
+    "chinese-architecture/tests/model.test.js": "e25a20589fcfb375e2f6447e2ad995ea3718cd6719903b4a51a48222a8309ee1",
+    "chinese-architecture/taimiao/tests/model.test.js": "70029054cff04d663b6a93ca7189eff5eac433fefbe3893acec690fde90acb12",
+    "chinese-architecture/taimiao/tests/surface.test.js": "c7314cdd93c0ab975e909fb41332eeb57f02e260bdc2a0dcfda5178809c612c3",
+    "chinese-architecture/realism-workflow/workflow.test.js": "fbea8d524ec54477efd86546f32475f57beb6e902c2980e20bd4ee5e0d38c2ab"
+  },
+  "manifest": {
+    "schema": "architecture-realism/v1",
+    "id": "taimiao",
+    "revision": "01",
+    "route": "/chinese-architecture/taimiao/study/",
+    "referenceState": "现状外观；照片拍摄日期与修缮阶段未核定",
+    "sources": [
+      {
+        "id": "vb-eaves",
+        "url": "https://img-rs.visitbeijing.com.cn/imageDir/6d5587be83f6621f242c5eea12fa0476u5.jpg",
+        "status": "图像判读",
+        "rights": "Sipa版权图，仅链接观察；不下载分发，不作贴图",
+        "supports": [
+          "圆瓦当和滴水轮廓",
+          "黄釉与檐下明暗"
+        ],
+        "limits": "照片无标尺、拍摄日期未知；不能确定瓦片尺寸、坡面曲率及历史原色"
+      }
+    ],
+    "patch": {
+      "halfWidth": 3.36,
+      "pitch": 0.32,
+      "start": 11.6,
+      "end": 14.5,
+      "step": 0.29,
+      "length": 0.42,
+      "radius": 0.11
+    },
+    "views": {
+      "patch": {
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "position": [
+          0,
+          22.2,
+          24
+        ]
+      },
+      "eaves": {
+        "target": [
+          0,
+          18.1,
+          14.4
+        ],
+        "position": [
+          0,
+          16.9,
+          25
+        ]
+      },
+      "oblique": {
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "position": [
+          6,
+          22,
+          23
+        ]
+      },
+      "whole": {
+        "target": [
+          0,
+          15,
+          0
+        ],
+        "position": [
+          0,
+          25,
+          130
+        ]
+      }
+    },
+    "modes": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "tests": [
+      "chinese-architecture/tests/model.test.js",
+      "chinese-architecture/taimiao/tests/model.test.js",
+      "chinese-architecture/taimiao/tests/surface.test.js",
+      "chinese-architecture/realism-workflow/workflow.test.js"
+    ],
+    "sourceFiles": [
+      "chinese-architecture/taimiao/model.js",
+      "chinese-architecture/taimiao/data.js",
+      "chinese-architecture/taimiao/study/study.js",
+      "chinese-architecture/taimiao/study/materials.js",
+      "chinese-architecture/taimiao/study/roof-sample.js",
+      "chinese-architecture/taimiao/study/index.html",
+      "chinese-architecture/taimiao/study/style.css",
+      "chinese-architecture/realism-workflow/roof-patch.js",
+      "chinese-architecture/realism-workflow/replay.mjs",
+      "chinese-architecture/realism-workflow/verify.mjs",
+      "chinese-architecture/realism-workflow/manifest.js",
+      "chinese-architecture/vendor/three.module.js",
+      "chinese-architecture/vendor/three.core.js",
+      "chinese-architecture/vendor/OrbitControls.js",
+      "chinese-architecture/vendor/BufferGeometryUtils.js",
+      "chinese-architecture/fengxian/model.js",
+      "chinese-architecture/fengxian/data.js",
+      "chinese-architecture/model.js",
+      "chinese-architecture/data.js",
+      "chinese-architecture/taihe/study/plaque.js",
+      "chinese-architecture/taihe/model.js",
+      "chinese-architecture/taihe/data.js",
+      "chinese-architecture/taihe/study/roof-sample.js"
+    ],
+    "checks": [
+      {
+        "id": "front-a",
+        "mode": "a",
+        "view": "patch"
+      },
+      {
+        "id": "front-b",
+        "mode": "b",
+        "view": "patch"
+      },
+      {
+        "id": "front-c",
+        "mode": "c",
+        "view": "patch"
+      },
+      {
+        "id": "front-d",
+        "mode": "d",
+        "view": "patch"
+      },
+      {
+        "id": "eaves-d",
+        "mode": "d",
+        "view": "eaves"
+      },
+      {
+        "id": "oblique-d",
+        "mode": "d",
+        "view": "oblique"
+      },
+      {
+        "id": "light-d",
+        "mode": "d",
+        "view": "oblique",
+        "light": true
+      },
+      {
+        "id": "lift-d",
+        "mode": "d",
+        "view": "oblique",
+        "lift": true
+      },
+      {
+        "id": "whole-d",
+        "mode": "d",
+        "view": "whole"
+      }
+    ],
+    "capture": {
+      "desktop": {
+        "width": 1280,
+        "height": 900
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844
+      },
+      "cameraFov": 35,
+      "pixelRatioMax": 1.7,
+      "screenshot": "fullPage"
+    }
+  },
+  "browser": "Separate UI replay required; not implied by this report"
+}
