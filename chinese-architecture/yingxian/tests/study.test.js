@@ -1,11 +1,11 @@
 import test from 'node:test';import assert from 'node:assert/strict';
-import {readFileSync} from 'node:fs';
+import {readFileSync} from 'node:fs';import {createHash} from 'node:crypto';
 import * as T from '../../vendor/three.module.js';
 import {buildModel,SPEC,ringPoints} from '../model.js';
 import {refineModel,faceAngle,roofHeight} from '../study/adapter.js';
 import {validateExperiment} from '../../realism-workflow/manifest.js';
 const config=validateExperiment(JSON.parse(readFileSync(new URL('../study/experiment.json',import.meta.url))));
-const mats={wood:new T.MeshBasicMaterial(),tile:new T.MeshBasicMaterial()},base=buildModel(mats),model=buildModel(mats),original=new Map(model.records.map(r=>[r.id,JSON.stringify(r)])),result=refineModel(model,mats,config.patch);
+const mats={wood:new T.MeshBasicMaterial(),tile:new T.MeshBasicMaterial()},base=buildModel(mats,{alignOuterBrackets:false}),model=buildModel(mats,{alignOuterBrackets:false}),original=new Map(model.records.map(r=>[r.id,JSON.stringify(r)])),result=refineModel(model,mats,config.patch);
 const refinedRecords=new Map(model.records.map(r=>[r.id,r]));
 const near=(a,b)=>assert.ok(Math.abs(a-b)<1e-6,`${a} != ${b}`);
 test('independent manifest identifies timber pagoda, separate sources and complete contrasts',()=>{assert.equal(config.id,'yingxian');assert.equal(config.modes.length,4);assert.ok(config.sources.some(s=>s.id==='cmu-eaves-photo'));assert.ok(config.checks.some(c=>c.view==='boundary'));});
@@ -23,4 +23,4 @@ test('eight face patches stay inside octagonal sectors; same local shape rotated
 test('roof derivative is finite at eave and all patch matrices and bounds are finite',()=>{for(const z of [15.09,15.1,17.19,17.2,17.21])assert.ok(Number.isFinite(roofHeight(z)));const matrix=new T.Matrix4();for(const sample of result.samples)sample.root.traverse(m=>{if(!m.isInstancedMesh)return;for(let i=0;i<m.count;i++){m.getMatrixAt(i,matrix);assert.ok(matrix.elements.every(Number.isFinite));}assert.ok(m.boundingBox.min.toArray().every(Number.isFinite));assert.ok(m.boundingBox.max.toArray().every(Number.isFinite));});});
 test('roof lift moves all eight samples exactly 2m and leaves support columns in place',()=>{model.root.updateMatrixWorld(true);const before=result.samples.map(s=>s.root.getWorldPosition(new T.Vector3()).y),column=model.layers.get('columns').getWorldPosition(new T.Vector3()).y;model.layers.get('roof').position.y=2;model.root.updateMatrixWorld(true);result.samples.forEach((s,i)=>near(s.root.getWorldPosition(new T.Vector3()).y-before[i],2));near(model.layers.get('columns').getWorldPosition(new T.Vector3()).y,column);model.layers.get('roof').position.y=0;});
 test('dark/ming support boundaries and raw table retained after adapter',()=>{for(let i=0;i<8;i++){const a=SPEC.levels[i],b=SPEC.levels[i+1];near(a.base+a.height+a.bracket,b.base);const support=model.records.filter(r=>r.supportsStorey===b.id);assert.equal(support.length,32);for(const r of support)near(r.position[1]+.18,b.base);}near(SPEC.levels[1].centralBottom,4.22);});
-test('baseline source snapshot preserved verbatim; adapter never imports another volume',()=>{for(const file of ['model.js','data.js','app.js'])assert.equal(readFileSync(new URL('../'+file,import.meta.url),'utf8'),readFileSync(new URL('../study/history/baseline/'+file,import.meta.url),'utf8'));assert.ok(!readFileSync(new URL('../study/adapter.js',import.meta.url),'utf8').includes('taihe'));});
+test('baseline source snapshot preserved verbatim; adapter never imports another volume',()=>{for(const file of ['model.js','data.js','app.js'])assert.equal(createHash('sha256').update(readFileSync(new URL('../study/history/baseline/'+file,import.meta.url))).digest('hex'),JSON.parse(readFileSync(new URL('../study/history/baseline/snapshot.json',import.meta.url))).sha256[file]);assert.ok(!readFileSync(new URL('../study/adapter.js',import.meta.url),'utf8').includes('taihe'));});

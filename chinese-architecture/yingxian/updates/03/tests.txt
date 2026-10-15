@@ -1,0 +1,36 @@
+✔ each photo has explicit reusable rights, attribution and exact building chapter (1.080666ms)
+✔ every display size has a local fallback, and remote keys are content addressed (0.643583ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.058084ms)
+✔ each photograph appears exactly once in its building story (0.082125ms)
+✔ Dule historic plate pages retain period and subject limits, without claiming modern coverage (0.080584ms)
+✔ Yingxian retains native pixels and local delivery while independently recording verified R2 storage (0.399166ms)
+✔ nine distinct storeys, four hidden, low gallery independent (0.409875ms)
+✔ 24 outer, eight inner unique columns; side centres follow source spacing (0.279417ms)
+✔ diameter is across sides, not vertex circle; raw table retained (0.051375ms)
+✔ every next column base lies on an explicit supporting ring beam (20.591791ms)
+✔ each hidden stage has radial and chord bracing anchored to bottom/top frame (3.619375ms)
+✔ special five-dou arms limited to second main outer side columns (1.691875ms)
+✔ separate insertion and shifted landing, receiving opening admits tongue (0.152083ms)
+✔ five roof skirts leave centre empty; sixth roof converges, top frame stays under roof (5.017917ms)
+✔ all records, transforms and bounds finite with stable ids and source (29.591959ms)
+✔ formal facade alignment equals the study rotation and preserves every unrelated member (313.907166ms)
+✔ all roof and floor triangles have positive area and upward normals; six roofs have paired internal seams (2.489ms)
+✔ every complete rafter cylinder stays below its actual roof panel, including intermediate vertices (80.467541ms)
+✔ rafter chains remain continuous and intersect finite purlin spans after clearance repair (85.764541ms)
+✔ historical study explicitly retains old surface geometry while the formal default repairs it (103.024292ms)
+✔ independent manifest identifies timber pagoda, separate sources and complete contrasts (0.411458ms)
+✔ all flat outer bracket assemblies align to the normal of their own octagon face; corners untouched (43.936666ms)
+✔ gallery replacement deletes only C1 tile ribs and preserves every unrelated record byte for byte (67.842667ms)
+✔ eight face patches stay inside octagonal sectors; same local shape rotated, stable ids unique (2.8685ms)
+✔ roof derivative is finite at eave and all patch matrices and bounds are finite (0.6995ms)
+✔ roof lift moves all eight samples exactly 2m and leaves support columns in place (0.433334ms)
+✔ dark/ming support boundaries and raw table retained after adapter (6.568042ms)
+✔ baseline source snapshot preserved verbatim; adapter never imports another volume (2.848375ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 840.313791

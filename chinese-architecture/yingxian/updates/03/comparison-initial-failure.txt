@@ -1,0 +1,1 @@
+Initial comparison runner: timeout waiting for #stats to be visible. It lives inside a closed <details>; model already loaded. Fixed runner to wait for attached populated stats instead. Geometry and UI source did not change for this repair.

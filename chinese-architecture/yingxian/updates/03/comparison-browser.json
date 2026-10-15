@@ -1,0 +1,475 @@
+{
+  "modelSHA256": {
+    "baseline": "47ab82d487452d394a2ab5ffeec3cdd149f83e7b052ab682f0474210fba2fe6b",
+    "current": "bed7ee74d25570ef8bed04419fc757fa251be0b483f55066abf280738239d4f4"
+  },
+  "views": [
+    {
+      "device": "desktop",
+      "condition": "baseline",
+      "view": "front",
+      "camera": [
+        0,
+        46.08712776108781,
+        140.26628092966484
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "desktop",
+      "condition": "baseline",
+      "view": "side",
+      "camera": [
+        140.65170414972124,
+        48.938704166087874,
+        8.61243296407883e-15
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "desktop",
+      "condition": "baseline",
+      "view": "back",
+      "camera": [
+        1.717766519688175e-14,
+        46.08712776108781,
+        -140.26628092966484
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "desktop",
+      "condition": "baseline",
+      "view": "top",
+      "camera": [
+        0,
+        151.80131361172593,
+        0.11974081394794386
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "desktop",
+      "condition": "baseline",
+      "view": "iso",
+      "camera": [
+        85.89852032484559,
+        50.95817413958738,
+        128.84778048726835
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "desktop",
+      "condition": "current",
+      "view": "front",
+      "camera": [
+        0,
+        46.08712776108781,
+        140.26628092966484
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "desktop",
+      "condition": "current",
+      "view": "side",
+      "camera": [
+        140.65170414972124,
+        48.938704166087874,
+        8.61243296407883e-15
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "desktop",
+      "condition": "current",
+      "view": "back",
+      "camera": [
+        1.717766519688175e-14,
+        46.08712776108781,
+        -140.26628092966484
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "desktop",
+      "condition": "current",
+      "view": "top",
+      "camera": [
+        0,
+        151.80131361172593,
+        0.11974081394794386
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "desktop",
+      "condition": "current",
+      "view": "iso",
+      "camera": [
+        85.89852032484559,
+        50.95817413958738,
+        128.84778048726835
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "desktop",
+      "selectionFollowsExplosion": {
+        "before": {
+          "id": "site/insert/insert/1",
+          "layer": "columns",
+          "box": {
+            "min": [
+              -3.104999953508377,
+              2.1550000667572022,
+              -0.3050000011920929
+            ],
+            "max": [
+              -2.4949999511241914,
+              4.375000143051148,
+              0.3050000011920929
+            ]
+          }
+        },
+        "after": {
+          "id": "site/insert/insert/1",
+          "layer": "columns",
+          "box": {
+            "min": [
+              -3.104999953508377,
+              5.155000066757202,
+              -0.3050000011920929
+            ],
+            "max": [
+              -2.4949999511241914,
+              7.375000143051148,
+              0.3050000011920929
+            ]
+          }
+        }
+      },
+      "actualDeltaY": 3
+    },
+    {
+      "device": "desktop",
+      "sharedPreviewRoutesToYingxian": true
+    },
+    {
+      "device": "mobile",
+      "condition": "baseline",
+      "view": "front",
+      "camera": [
+        0,
+        46.08712776108781,
+        140.26628092966484
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "mobile",
+      "condition": "baseline",
+      "view": "side",
+      "camera": [
+        140.65170414972124,
+        48.938704166087874,
+        8.61243296407883e-15
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "mobile",
+      "condition": "baseline",
+      "view": "back",
+      "camera": [
+        1.717766519688175e-14,
+        46.08712776108781,
+        -140.26628092966484
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "mobile",
+      "condition": "baseline",
+      "view": "top",
+      "camera": [
+        0,
+        169.18658751351774,
+        0.1371260878503657
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "mobile",
+      "condition": "baseline",
+      "view": "iso",
+      "camera": [
+        85.89852032484559,
+        50.95817413958738,
+        128.84778048726835
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "mobile",
+      "condition": "current",
+      "view": "front",
+      "camera": [
+        0,
+        46.08712776108781,
+        140.26628092966484
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "mobile",
+      "condition": "current",
+      "view": "side",
+      "camera": [
+        140.65170414972124,
+        48.938704166087874,
+        8.61243296407883e-15
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "mobile",
+      "condition": "current",
+      "view": "back",
+      "camera": [
+        1.717766519688175e-14,
+        46.08712776108781,
+        -140.26628092966484
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "mobile",
+      "condition": "current",
+      "view": "top",
+      "camera": [
+        0,
+        169.18658751351774,
+        0.1371260878503657
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "mobile",
+      "condition": "current",
+      "view": "iso",
+      "camera": [
+        85.89852032484559,
+        50.95817413958738,
+        128.84778048726835
+      ],
+      "target": [
+        0,
+        32.06049966812134,
+        0
+      ],
+      "matchedCamera": true
+    },
+    {
+      "device": "mobile",
+      "selectionFollowsExplosion": {
+        "before": {
+          "id": "site/insert/insert/1",
+          "layer": "columns",
+          "box": {
+            "min": [
+              -3.104999953508377,
+              2.1550000667572022,
+              -0.3050000011920929
+            ],
+            "max": [
+              -2.4949999511241914,
+              4.375000143051148,
+              0.3050000011920929
+            ]
+          }
+        },
+        "after": {
+          "id": "site/insert/insert/1",
+          "layer": "columns",
+          "box": {
+            "min": [
+              -3.104999953508377,
+              5.155000066757202,
+              -0.3050000011920929
+            ],
+            "max": [
+              -2.4949999511241914,
+              7.375000143051148,
+              0.3050000011920929
+            ]
+          }
+        }
+      },
+      "actualDeltaY": 3
+    },
+    {
+      "device": "mobile",
+      "sharedPreviewRoutesToYingxian": true
+    }
+  ],
+  "errors": [],
+  "resources": [
+    {
+      "device": "desktop",
+      "condition": "baseline",
+      "url": "http://localhost:8765/chinese-architecture/yingxian/model.js?v=yingxian-03",
+      "sha256": "47ab82d487452d394a2ab5ffeec3cdd149f83e7b052ab682f0474210fba2fe6b"
+    },
+    {
+      "device": "desktop",
+      "condition": "current",
+      "url": "http://localhost:8765/chinese-architecture/yingxian/model.js?v=yingxian-03",
+      "sha256": "bed7ee74d25570ef8bed04419fc757fa251be0b483f55066abf280738239d4f4"
+    },
+    {
+      "device": "desktop",
+      "condition": "current",
+      "url": "http://localhost:8765/chinese-architecture/yingxian/model.js?v=yingxian-03",
+      "sha256": "bed7ee74d25570ef8bed04419fc757fa251be0b483f55066abf280738239d4f4"
+    },
+    {
+      "device": "desktop",
+      "condition": "current",
+      "url": "http://localhost:8765/chinese-architecture/yingxian/model.js?v=yingxian-03",
+      "sha256": "bed7ee74d25570ef8bed04419fc757fa251be0b483f55066abf280738239d4f4"
+    },
+    {
+      "device": "desktop",
+      "condition": "current",
+      "url": "http://localhost:8765/chinese-architecture/yingxian/model.js",
+      "sha256": "bed7ee74d25570ef8bed04419fc757fa251be0b483f55066abf280738239d4f4"
+    },
+    {
+      "device": "mobile",
+      "condition": "baseline",
+      "url": "http://localhost:8765/chinese-architecture/yingxian/model.js?v=yingxian-03",
+      "sha256": "47ab82d487452d394a2ab5ffeec3cdd149f83e7b052ab682f0474210fba2fe6b"
+    },
+    {
+      "device": "mobile",
+      "condition": "current",
+      "url": "http://localhost:8765/chinese-architecture/yingxian/model.js?v=yingxian-03",
+      "sha256": "bed7ee74d25570ef8bed04419fc757fa251be0b483f55066abf280738239d4f4"
+    },
+    {
+      "device": "mobile",
+      "condition": "current",
+      "url": "http://localhost:8765/chinese-architecture/yingxian/model.js?v=yingxian-03",
+      "sha256": "bed7ee74d25570ef8bed04419fc757fa251be0b483f55066abf280738239d4f4"
+    },
+    {
+      "device": "mobile",
+      "condition": "current",
+      "url": "http://localhost:8765/chinese-architecture/yingxian/model.js?v=yingxian-03",
+      "sha256": "bed7ee74d25570ef8bed04419fc757fa251be0b483f55066abf280738239d4f4"
+    },
+    {
+      "device": "mobile",
+      "condition": "current",
+      "url": "http://localhost:8765/chinese-architecture/yingxian/model.js",
+      "sha256": "bed7ee74d25570ef8bed04419fc757fa251be0b483f55066abf280738239d4f4"
+    }
+  ]
+}

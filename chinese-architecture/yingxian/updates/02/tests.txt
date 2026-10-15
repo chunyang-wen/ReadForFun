@@ -1,0 +1,32 @@
+✔ each photo has explicit reusable rights, attribution and exact building chapter (0.626834ms)
+✔ every display size has a local fallback, and remote keys are content addressed (0.755125ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.052208ms)
+✔ each photograph appears exactly once in its building story (0.071083ms)
+✔ Dule historic plate pages retain period and subject limits, without claiming modern coverage (0.082167ms)
+✔ Yingxian retains native photo limits and local storage without claiming an R2 upload (0.340333ms)
+✔ nine distinct storeys, four hidden, low gallery independent (0.439792ms)
+✔ 24 outer, eight inner unique columns; side centres follow source spacing (0.302625ms)
+✔ diameter is across sides, not vertex circle; raw table retained (0.053792ms)
+✔ every next column base lies on an explicit supporting ring beam (19.670334ms)
+✔ each hidden stage has radial and chord bracing anchored to bottom/top frame (3.647291ms)
+✔ special five-dou arms limited to second main outer side columns (1.658125ms)
+✔ separate insertion and shifted landing, receiving opening admits tongue (0.131292ms)
+✔ five roof skirts leave centre empty; sixth roof converges, top frame stays under roof (4.912208ms)
+✔ all records, transforms and bounds finite with stable ids and source (28.860459ms)
+✔ formal facade alignment equals the study rotation and preserves every unrelated member (307.498875ms)
+✔ independent manifest identifies timber pagoda, separate sources and complete contrasts (0.405792ms)
+✔ all flat outer bracket assemblies align to the normal of their own octagon face; corners untouched (42.962375ms)
+✔ gallery replacement deletes only C1 tile ribs and preserves every unrelated record byte for byte (67.668417ms)
+✔ eight face patches stay inside octagonal sectors; same local shape rotated, stable ids unique (2.610292ms)
+✔ roof derivative is finite at eave and all patch matrices and bounds are finite (0.729833ms)
+✔ roof lift moves all eight samples exactly 2m and leaves support columns in place (0.429084ms)
+✔ dark/ming support boundaries and raw table retained after adapter (6.737167ms)
+✔ baseline source snapshot preserved verbatim; adapter never imports another volume (2.121417ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 569.999833

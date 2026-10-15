@@ -12,7 +12,7 @@ base=os.environ.get('R2_PUBLIC_URL','https://readforfun-img.chunyangwen.com').rs
 for i,record in enumerate(metadata):
  info=record['info'];m=info['extmetadata'];license=m['LicenseShortName']['value']
  pdf_page=record.get('sourceType')=='commons-pdf-page'
- if license not in ['CC BY-SA 3.0','CC BY-SA 4.0','CC BY 4.0'] and not (pdf_page and license=='Public domain'):raise ValueError('License requires review')
+ if license not in ['CC BY-SA 3.0','CC BY-SA 4.0','CC BY 4.0','CC BY 3.0'] and not (pdf_page and license=='Public domain'):raise ValueError('License requires review')
  original=a.source/record.get('localFile',f'{i}.jpg');original_bytes=original.read_bytes()
  if info.get('sha1') and hashlib.sha1(original_bytes).hexdigest()!=info['sha1']:raise ValueError('Original differs from Commons source SHA1')
  digest=hashlib.sha256(original_bytes).hexdigest();prefix=f'chinese-architecture/photos/{record["id"]}/{digest[:16]}'

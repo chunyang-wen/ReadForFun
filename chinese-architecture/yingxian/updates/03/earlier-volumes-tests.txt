@@ -1,0 +1,22 @@
+✔ three independent rings retain central void and retreat at each level (0.461417ms)
+✔ records are stable, documented and transforms finite (12.554833ms)
+✔ floor panels leave central shaft open, and western stair opening exists (0.793625ms)
+✔ upper frames stay below roof surface, including end sections (0.346792ms)
+✔ fork has two feet, a matching seat, and an unobstructed opening (0.144666ms)
+✔ lower local assembly is four horizontal hua arms without imported Foguang ang (0.061875ms)
+✔ each lower column meets its circular stone bearing surface (0.395708ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (0.948958ms)
+✔ every selectable member has a documented type and valid layer (2.524667ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (3.9465ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.414459ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.432167ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.075334ms)
+✔ upper frame does not protrude through the hip roof (0.471791ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 118.556208

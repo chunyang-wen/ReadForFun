@@ -1,0 +1,21 @@
+✔ nine distinct storeys, four hidden, low gallery independent (0.403625ms)
+✔ 24 outer, eight inner unique columns; side centres follow source spacing (0.292042ms)
+✔ diameter is across sides, not vertex circle; raw table retained (0.049709ms)
+✔ every next column base lies on an explicit supporting ring beam (13.960125ms)
+✔ each hidden stage has radial and chord bracing anchored to bottom/top frame (2.820834ms)
+✔ special five-dou arms limited to second main outer side columns (1.198292ms)
+✔ separate insertion and shifted landing, receiving opening admits tongue (0.144459ms)
+✔ five roof skirts leave centre empty; sixth roof converges, top frame stays under roof (4.474042ms)
+✔ all records, transforms and bounds finite with stable ids and source (27.848166ms)
+✔ formal facade alignment equals the study rotation and preserves every unrelated member (304.069959ms)
+✔ all roof and floor triangles have positive area and upward normals; six roofs have paired internal seams (2.280959ms)
+✔ every complete rafter cylinder stays below its actual roof panel, including intermediate vertices (78.471959ms)
+✔ rafter chains remain continuous and intersect finite purlin spans after clearance repair (81.093459ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 714.45225

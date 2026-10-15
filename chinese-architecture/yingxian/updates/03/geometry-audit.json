@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "degenerateTriangles": 32,
+    "checkedRafterSegments": 16128,
+    "penetratingRafterSegments": 16128,
+    "worstNormalDistanceMetres": 0.02036393772790035,
+    "scope": "actual cylinder vertices against corresponding finite roof panel plane; mathematical teaching geometry, not surveyed timber"
+  },
+  "current": {
+    "degenerateTriangles": 0,
+    "checkedRafterSegments": 16128,
+    "penetratingRafterSegments": 0,
+    "worstNormalDistanceMetres": -0.0016777591946421921,
+    "scope": "actual cylinder vertices against corresponding finite roof panel plane; mathematical teaching geometry, not surveyed timber"
+  }
+}

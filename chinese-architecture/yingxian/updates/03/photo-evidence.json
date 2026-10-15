@@ -1,0 +1,261 @@
+[
+  {
+    "id": "yingxian-whole-2025",
+    "source": "https://commons.wikimedia.org/wiki/File:20250604_Ying_Xian_Muta_(080826).jpg",
+    "author": "Yumeto",
+    "date": "2025-06-04",
+    "license": "CC BY-SA 4.0",
+    "sourceSHA1": "2a08d15e3ebdf825dba9d7d433c785a5710ee278",
+    "originalSHA256": "25621d7b6a6c8811067bc39055cf620ce772cc1ac084187fd43e3c4620a49959",
+    "ICCBytes": 784,
+    "ICCSHA256": "b6132255f2b9868009a829b3c7691aa6fd63885c457b55058d128da75e73b915",
+    "variants": [
+      {
+        "kind": "thumb",
+        "width": 360,
+        "height": 480,
+        "bytes": 42670,
+        "sha256": "d4a90337d9a78b06086e2764a91ab120d4b8116a93355a0452f3340cc9b7e580",
+        "ICCMatchesOriginal": true
+      },
+      {
+        "kind": "display",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 338320,
+        "sha256": "dbc9dbcbb22ebda1997a5e036c8963d56d6c2313ec38a033804fbce17e117cc9",
+        "ICCMatchesOriginal": true
+      },
+      {
+        "kind": "full",
+        "width": 3072,
+        "height": 4096,
+        "bytes": 1123644,
+        "sha256": "db32cbc3fa7c6f217ae20fe789d2e2ece2b443d1b8ab94f6958b098744e62c5f",
+        "ICCMatchesOriginal": true
+      }
+    ]
+  },
+  {
+    "id": "yingxian-corner-2007",
+    "source": "https://commons.wikimedia.org/wiki/File:Fogong_temple_corner_dougong.JPG",
+    "author": "Gisling",
+    "date": "2007-10",
+    "license": "CC BY 3.0",
+    "sourceSHA1": "f6407c32f8593f5bd372ce79a95c5495f441ad76",
+    "originalSHA256": "66df9942fa1923abf39a218600dd6e120d40a4941956e45b72d32c53b5531408",
+    "ICCBytes": 0,
+    "ICCSHA256": null,
+    "variants": [
+      {
+        "kind": "thumb",
+        "width": 480,
+        "height": 319,
+        "bytes": 40174,
+        "sha256": "f228058244d53a8d4bdd63cb47bc1da2a8eee60565b8a1c419f8cd6d0e332961",
+        "ICCMatchesOriginal": true
+      },
+      {
+        "kind": "display",
+        "width": 1500,
+        "height": 998,
+        "bytes": 281196,
+        "sha256": "07b58e5906c33bf588ae16617577d3f090d0ad78f71e8382efe6e8c1a017ae32",
+        "ICCMatchesOriginal": true
+      },
+      {
+        "kind": "full",
+        "width": 1500,
+        "height": 998,
+        "bytes": 281196,
+        "sha256": "07b58e5906c33bf588ae16617577d3f090d0ad78f71e8382efe6e8c1a017ae32",
+        "ICCMatchesOriginal": true
+      }
+    ]
+  },
+  {
+    "id": "yingxian-ang-2007",
+    "source": "https://commons.wikimedia.org/wiki/File:Fogongsi_ang.JPG",
+    "author": "Gisling",
+    "date": "2007-10",
+    "license": "CC BY 3.0",
+    "sourceSHA1": "ebfcb94a663138c63b5334882e43f04ee24c5555",
+    "originalSHA256": "6fd607a695106b77884cf26c277819e995fc6edf85e69c79864731768e08b844",
+    "ICCBytes": 0,
+    "ICCSHA256": null,
+    "variants": [
+      {
+        "kind": "thumb",
+        "width": 480,
+        "height": 319,
+        "bytes": 34910,
+        "sha256": "4667e441f42954a63e893e9c651e19523db4778c5f1afc971a2134b9a46d97eb",
+        "ICCMatchesOriginal": true
+      },
+      {
+        "kind": "display",
+        "width": 1500,
+        "height": 998,
+        "bytes": 191458,
+        "sha256": "fa35c5d58ba76bda3618f8d0a6dc39acf41e0a24853c01fd4eebc92423133a94",
+        "ICCMatchesOriginal": true
+      },
+      {
+        "kind": "full",
+        "width": 1500,
+        "height": 998,
+        "bytes": 191458,
+        "sha256": "fa35c5d58ba76bda3618f8d0a6dc39acf41e0a24853c01fd4eebc92423133a94",
+        "ICCMatchesOriginal": true
+      }
+    ]
+  },
+  {
+    "id": "yingxian-aerial-2019",
+    "source": "https://commons.wikimedia.org/wiki/File:Pagoda_of_Fogong_Temple_from_the_Top.jpg",
+    "author": "Charlie fong",
+    "date": "2019-09-28",
+    "license": "CC BY-SA 4.0",
+    "sourceSHA1": "cb08955583a89cc686cb451366d8f80c6b57428d",
+    "originalSHA256": "fce0fa255df3ec813a66e726b4f6e0023d974c54b6a6f623b726346e5b7f1255",
+    "ICCBytes": 536,
+    "ICCSHA256": "20789fdbea9835251a4f0796c8bf45cbd964896044886540da21ffc7457af0ab",
+    "variants": [
+      {
+        "kind": "thumb",
+        "width": 480,
+        "height": 270,
+        "bytes": 42872,
+        "sha256": "5cf8e7f64955650efebd4486d4488ac20ee63a219822b672dd0a06c0bcf6b642",
+        "ICCMatchesOriginal": true
+      },
+      {
+        "kind": "display",
+        "width": 1600,
+        "height": 900,
+        "bytes": 446194,
+        "sha256": "59c325c48aa97512343bd85e74f029aec094e5a8641431b2b3ec6ebf02776d8e",
+        "ICCMatchesOriginal": true
+      },
+      {
+        "kind": "full",
+        "width": 3823,
+        "height": 2150,
+        "bytes": 1849920,
+        "sha256": "f3c473acc3a62b614103a363a98414b740aedb0f2a98d01f4a1e42d4b988ad86",
+        "ICCMatchesOriginal": true
+      }
+    ]
+  },
+  {
+    "id": "yingxian-ceiling-2009",
+    "source": "https://commons.wikimedia.org/wiki/File:Muta_1.jpg",
+    "author": "Zeus1234",
+    "date": "2009-05-29",
+    "license": "CC BY-SA 3.0",
+    "sourceSHA1": "1dc2500f051d588ec41fdbda319be61d7836f476",
+    "originalSHA256": "161ec33aa8c63137fda897270fae1d2c0109f583dd3f3705a63701103fdb16cb",
+    "ICCBytes": 0,
+    "ICCSHA256": null,
+    "variants": [
+      {
+        "kind": "thumb",
+        "width": 480,
+        "height": 360,
+        "bytes": 36944,
+        "sha256": "9f3a8c33517d13f6dbe39d180dc13a898f5c1e34b8b2a4634cf7572caba8009a",
+        "ICCMatchesOriginal": true
+      },
+      {
+        "kind": "display",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 331460,
+        "sha256": "fbd199701542580939ce5a7e40177fb8eacf44eb532802019a0291fb296484a2",
+        "ICCMatchesOriginal": true
+      },
+      {
+        "kind": "full",
+        "width": 3648,
+        "height": 2736,
+        "bytes": 1332344,
+        "sha256": "37ed61105ae00269a17336b3b0ba5adf098b443348c5a58411e7dde7007db9e3",
+        "ICCMatchesOriginal": true
+      }
+    ]
+  },
+  {
+    "id": "yingxian-statuary",
+    "source": "https://commons.wikimedia.org/wiki/File:TheStatuaryInsideTheWoodenTowerOfYing.jpg",
+    "author": "Peellden",
+    "date": "2007-07-14",
+    "license": "CC BY 3.0",
+    "sourceSHA1": "69409cf07449cc53ed8f03107cbc02d516362556",
+    "originalSHA256": "c26f32d5b79b7f2db6296a0f0abfa43c81d1c1461be3914585428ebb951af96e",
+    "ICCBytes": 3144,
+    "ICCSHA256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+    "variants": [
+      {
+        "kind": "thumb",
+        "width": 480,
+        "height": 319,
+        "bytes": 46422,
+        "sha256": "a48e3cf060f05264487f349dc2285c21cb0774d190cbb674023f95a5dbb9f846",
+        "ICCMatchesOriginal": true
+      },
+      {
+        "kind": "display",
+        "width": 1280,
+        "height": 851,
+        "bytes": 261812,
+        "sha256": "ad115fed6020cf2295159b5c019ff422998a39059c157b81ca9dd78c98b8aafd",
+        "ICCMatchesOriginal": true
+      },
+      {
+        "kind": "full",
+        "width": 1280,
+        "height": 851,
+        "bytes": 261812,
+        "sha256": "ad115fed6020cf2295159b5c019ff422998a39059c157b81ca9dd78c98b8aafd",
+        "ICCMatchesOriginal": true
+      }
+    ]
+  },
+  {
+    "id": "yingxian-overall-2019",
+    "source": "https://commons.wikimedia.org/wiki/File:Pagodaoffogongtemple2019.jpg",
+    "author": "Charlie fong",
+    "date": "2019-09-28",
+    "license": "CC BY-SA 4.0",
+    "sourceSHA1": "30ec4b6d07521e67d971b2c5848f54cbdfb9c5f4",
+    "originalSHA256": "cdcb086a5a135485af555ab6af8a7b384d98ffec44ed810394ee139ec52e3ae6",
+    "ICCBytes": 536,
+    "ICCSHA256": "20789fdbea9835251a4f0796c8bf45cbd964896044886540da21ffc7457af0ab",
+    "variants": [
+      {
+        "kind": "thumb",
+        "width": 480,
+        "height": 270,
+        "bytes": 30446,
+        "sha256": "95ef427684c693e052a9f074cf73835c906c6f2a66a3e136b9ab2498c8d4bf6b",
+        "ICCMatchesOriginal": true
+      },
+      {
+        "kind": "display",
+        "width": 1600,
+        "height": 900,
+        "bytes": 275724,
+        "sha256": "27cab46a43bfc6866149c7de017719c731ae12e40508b6c3ce1ce844b4f40a28",
+        "ICCMatchesOriginal": true
+      },
+      {
+        "kind": "full",
+        "width": 3302,
+        "height": 1858,
+        "bytes": 915388,
+        "sha256": "4e13c7838048b337cdcaa729864a5f34fd9ae7040eed254be704132cf38a29c3",
+        "ICCMatchesOriginal": true
+      }
+    ]
+  }
+]

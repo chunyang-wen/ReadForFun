@@ -1,0 +1,71 @@
+{
+  "results": [
+    {
+      "device": "desktop",
+      "photo": 0,
+      "decoded": true,
+      "modelChapter": 0,
+      "focusRestored": true
+    },
+    {
+      "device": "desktop",
+      "photo": 1,
+      "decoded": true,
+      "modelChapter": 4,
+      "focusRestored": true
+    },
+    {
+      "device": "desktop",
+      "photo": 2,
+      "decoded": true,
+      "modelChapter": 5,
+      "focusRestored": true
+    },
+    {
+      "device": "desktop",
+      "photo": 3,
+      "decoded": true,
+      "modelChapter": 5,
+      "focusRestored": true
+    },
+    {
+      "device": "desktop",
+      "studyBaselineLoads": true
+    },
+    {
+      "device": "mobile",
+      "photo": 0,
+      "decoded": true,
+      "modelChapter": 0,
+      "focusRestored": true
+    },
+    {
+      "device": "mobile",
+      "photo": 1,
+      "decoded": true,
+      "modelChapter": 4,
+      "focusRestored": true
+    },
+    {
+      "device": "mobile",
+      "photo": 2,
+      "decoded": true,
+      "modelChapter": 5,
+      "focusRestored": true
+    },
+    {
+      "device": "mobile",
+      "photo": 3,
+      "decoded": true,
+      "modelChapter": 5,
+      "focusRestored": true
+    },
+    {
+      "device": "mobile",
+      "studyBaselineLoads": true
+    }
+  ],
+  "errors": [],
+  "failures": [],
+  "analytics": "blocked; excluded from architecture checks"
+}
