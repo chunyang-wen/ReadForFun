@@ -1,0 +1,190 @@
+{
+  "selected": {
+    "architecture": "foguang",
+    "revision": "01",
+    "mode": "d",
+    "view": "eaves",
+    "roofLift": false,
+    "alternateLight": false,
+    "camera": [
+      0,
+      6.700000000000002,
+      23
+    ],
+    "target": [
+      0,
+      6.8,
+      9.4
+    ],
+    "sampleRecords": 378,
+    "selected": "foguang/west-eave/v1/eave-disk/0/0",
+    "selectionLayer": "roof",
+    "roofWorldY": 0,
+    "anchorWorldY": 0,
+    "removedRibSegments": 105,
+    "drawCalls": 67,
+    "triangles": 749190,
+    "geometries": 21,
+    "fov": 35,
+    "pixelRatio": 1.7,
+    "canvasSize": [
+      1208,
+      610
+    ],
+    "lightPosition": [
+      -22,
+      43,
+      29
+    ],
+    "patch": {
+      "halfWidth": 2.4,
+      "pitch": 0.32,
+      "start": 9.2,
+      "end": 11.84,
+      "step": 0.24,
+      "length": 0.38,
+      "radius": 0.11
+    }
+  },
+  "lifted": {
+    "architecture": "foguang",
+    "revision": "01",
+    "mode": "d",
+    "view": "eaves",
+    "roofLift": true,
+    "alternateLight": false,
+    "camera": [
+      0,
+      6.700000000000002,
+      23
+    ],
+    "target": [
+      0,
+      6.8,
+      9.4
+    ],
+    "sampleRecords": 378,
+    "selected": "foguang/west-eave/v1/eave-disk/0/0",
+    "selectionLayer": "roof",
+    "roofWorldY": 2,
+    "anchorWorldY": 0,
+    "removedRibSegments": 105,
+    "drawCalls": 67,
+    "triangles": 749190,
+    "geometries": 21,
+    "fov": 35,
+    "pixelRatio": 1.7,
+    "canvasSize": [
+      1208,
+      610
+    ],
+    "lightPosition": [
+      -22,
+      43,
+      29
+    ],
+    "patch": {
+      "halfWidth": 2.4,
+      "pitch": 0.32,
+      "start": 9.2,
+      "end": 11.84,
+      "step": 0.24,
+      "length": 0.38,
+      "radius": 0.11
+    }
+  },
+  "rotated": {
+    "architecture": "foguang",
+    "revision": "01",
+    "mode": "d",
+    "view": "eaves",
+    "roofLift": false,
+    "alternateLight": false,
+    "camera": [
+      1.628086019129303,
+      6.700000000000002,
+      22.90219744761258
+    ],
+    "target": [
+      0,
+      6.8,
+      9.4
+    ],
+    "sampleRecords": 378,
+    "selected": "foguang/west-eave/v1/eave-disk/0/0",
+    "selectionLayer": "roof",
+    "roofWorldY": 0,
+    "anchorWorldY": 0,
+    "removedRibSegments": 105,
+    "drawCalls": 67,
+    "triangles": 749190,
+    "geometries": 21,
+    "fov": 35,
+    "pixelRatio": 1.7,
+    "canvasSize": [
+      1208,
+      610
+    ],
+    "lightPosition": [
+      -22,
+      43,
+      29
+    ],
+    "patch": {
+      "halfWidth": 2.4,
+      "pitch": 0.32,
+      "start": 9.2,
+      "end": 11.84,
+      "step": 0.24,
+      "length": 0.38,
+      "radius": 0.11
+    }
+  },
+  "reset": {
+    "architecture": "foguang",
+    "revision": "01",
+    "mode": "d",
+    "view": "eaves",
+    "roofLift": false,
+    "alternateLight": false,
+    "camera": [
+      0,
+      6.700000000000002,
+      23
+    ],
+    "target": [
+      0,
+      6.8,
+      9.4
+    ],
+    "sampleRecords": 378,
+    "selected": "foguang/west-eave/v1/eave-disk/0/0",
+    "selectionLayer": "roof",
+    "roofWorldY": 0,
+    "anchorWorldY": 0,
+    "removedRibSegments": 105,
+    "drawCalls": 67,
+    "triangles": 749190,
+    "geometries": 21,
+    "fov": 35,
+    "pixelRatio": 1.7,
+    "canvasSize": [
+      1208,
+      610
+    ],
+    "lightPosition": [
+      -22,
+      43,
+      29
+    ],
+    "patch": {
+      "halfWidth": 2.4,
+      "pitch": 0.32,
+      "start": 9.2,
+      "end": 11.84,
+      "step": 0.24,
+      "length": 0.38,
+      "radius": 0.11
+    }
+  }
+}

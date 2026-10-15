@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-15 Asia/Shanghai",
+  "pdf": {
+    "url": "https://www.kaah.or.kr/download/mailing/kaah_seminar_presentation1_1.pdf",
+    "sha256": "26dc883207ce05d48c77018dd11825a33eca670ae60f02dbfbf9f6f4776e069b",
+    "visualPages": [
+      16,
+      17,
+      27
+    ],
+    "textExtractedPages": [
+      1,
+      16,
+      17,
+      18,
+      26,
+      27,
+      28
+    ],
+    "tools": [
+      "pypdf bundled runtime",
+      "pdftoppm bundled override"
+    ],
+    "diagnostic": "pdftotext unavailable; used pypdf. pdftoppm printed fontconfig warning but rendered pages successfully, inspected pixels. Original PDF not redistributed."
+  },
+  "photos": {
+    "method": "CUA in-app browser 960x720 image view",
+    "dateClaim": "2024-05-23",
+    "author": "Patrick20242023",
+    "license": "CC BY-SA 4.0",
+    "use": "visual reference only; not texture, not redistributed",
+    "registered": false
+  },
+  "mdpi": "web open failed this round; not new evidence",
+  "round02": {
+    "edb": {
+      "url": "https://www.edb.gov.hk/attachment/sc/curriculum-development/kla/pshe/references-and-resources/ethics-and-religious-studies/Nan_Lian_Garden/3iii_sc.pdf",
+      "page": 2,
+      "use": "五门两窗及侧后厚墙形制；非隐蔽测绘"
+    },
+    "photoIntermediate": {
+      "url": "https://commons.wikimedia.org/wiki/File:佛光寺东大殿补间铺作正面视角.jpg",
+      "view": "CUA 500x667",
+      "author": "Patrick20242023",
+      "license": "CC BY-SA 4.0",
+      "dateClaim": "2024-05-23",
+      "use": "仅目视链接，代表前檐补间；不复制照片为纹理"
+    },
+    "surveyAdditionalVisualPage": 15,
+    "dpm": {
+      "url": "https://www.dpm.org.cn/Uploads/pdf/5075/T00028_00.pdf",
+      "sha256": "8c041164c03f7b11eeb3d076c61fe6f0de182e4cc8119314301b2f83679557e4",
+      "use": "not used for new conclusions: incomplete single page, font mapping/render errors"
+    }
+  }
+}

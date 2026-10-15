@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "id": "original-front",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "chapter": "观全貌",
+      "status": "前檐 · 面西",
+      "selected": "点选模型中的一件木作每根柱、每道梁与每层铺作，都可以查看名称、作用和建模依据。"
+    },
+    {
+      "id": "original-oblique",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "chapter": "观全貌",
+      "status": "斜向全貌",
+      "selected": "点选模型中的一件木作每根柱、每道梁与每层铺作，都可以查看名称、作用和建模依据。"
+    },
+    {
+      "id": "original-section",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "chapter": "观全貌",
+      "status": "斜向全貌",
+      "selected": "点选模型中的一件木作每根柱、每道梁与每层铺作，都可以查看名称、作用和建模依据。"
+    },
+    {
+      "id": "original-bracket-exploded",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "chapter": "解铺作",
+      "status": "柱头铺作局部",
+      "selected": "点选模型中的一件木作每根柱、每道梁与每层铺作，都可以查看名称、作用和建模依据。"
+    },
+    {
+      "id": "original-picked",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "chapter": "解铺作",
+      "status": "柱头铺作局部",
+      "selected": "铺作 / 小斗散斗 / 交互斗承接上下相交的栱或横木。斗肩留出的槽口显示木件的落座方向；不同部位的真实槽口仍须逐件核对。构件类别有依据；此处使用规则化槽口。前檐柱头铺作"
+    }
+  ],
+  "logs": []
+}

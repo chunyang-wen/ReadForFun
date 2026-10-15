@@ -1,0 +1,517 @@
+{
+  "schema": "architecture-realism/v1",
+  "id": "foguang",
+  "revision": "02d",
+  "utc": "2026-10-15T05:22:35.088Z",
+  "node": "v26.7.0",
+  "platform": "darwin",
+  "command": [
+    "/opt/homebrew/Cellar/node/26.7.0/bin/node",
+    "--test",
+    "chinese-architecture/tests/model.test.js",
+    "chinese-architecture/tests/surface.test.js",
+    "chinese-architecture/realism-workflow/workflow.test.js",
+    "chinese-architecture/tests/completion.test.js"
+  ],
+  "exitCode": 0,
+  "hashes": {
+    "chinese-architecture/study/experiment.json": "69a2f063de47b4873f8b00e6a7c64111d2cf53d552546d03f8878b5a0a8d132c",
+    "chinese-architecture/model.js": "a893d694e1af51e51cee62dee8a59564dd2aa6ef81e0b409effdd5ff3a0741a8",
+    "chinese-architecture/data.js": "31d465ab66f51de88aef9d7b31c228c05d7a0980e7c2bc413214f4cd96b83ecc",
+    "chinese-architecture/study/study.js": "11de8f26be6eba0d7521fa036c23d2996560b1c4f0a12fd2ff7be8b94b99f798",
+    "chinese-architecture/study/materials.js": "dd02b2d0e649425ffc2b785272c3cb82783ec050fed275c01bcba4ec31042c76",
+    "chinese-architecture/study/roof-sample.js": "1155a877e2f139b83f0721c0617517ee9b986365430fba5a6bd290f9a7960348",
+    "chinese-architecture/study/index.html": "cdc6f8c7c2ad4f6231d4e7f03c79405ff7a7d69a9274fa9218d5bfa348d471c2",
+    "chinese-architecture/study/style.css": "bd3ed65088a6949e3f60dade2427f80168037e7b851de2468e540973bb938e60",
+    "chinese-architecture/study/replay-interactions.mjs": "2bccc741cc92bf0fda8a28b6b5ebddf734f23ca2e4306b917a8907543fa95ec9",
+    "chinese-architecture/realism-workflow/roof-patch.js": "8872a12db15b176ac81b1f27aadcbed7ea384fd79b1600c39d334c9bdeca7a5c",
+    "chinese-architecture/realism-workflow/manifest.js": "22b655d2ea45cad59ab0841ac1985e54ebd59b9356b62bcb857f40c690f37313",
+    "chinese-architecture/realism-workflow/verify.mjs": "09edbf88c2741730c0e8e27ea7b8bb48d515e49b4ea5b54930b4688b0cd1003f",
+    "chinese-architecture/realism-workflow/replay.mjs": "2ecdb7f7fa1c6d81e54047cdd55d5a44dd27db3c8ae350f5027fb2ba4ae8e91f",
+    "chinese-architecture/vendor/three.module.js": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+    "chinese-architecture/vendor/three.core.js": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6",
+    "chinese-architecture/vendor/OrbitControls.js": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b",
+    "chinese-architecture/taihe/study/plaque.js": "816d129c086fc4a32e79b4c6ad621735c60e4f134526b4525a3a63a3f9926fc0",
+    "chinese-architecture/fengxian/model.js": "fbb7fb83a31e5f5e3e2a883150fc2fc9820ba533de692a7d39a8e50b98b11470",
+    "chinese-architecture/fengxian/data.js": "257318ce9e6d3fe9c31bb3902a37b9be67c30438d62a71df62c72eaa682bc9c5",
+    "chinese-architecture/vendor/BufferGeometryUtils.js": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797",
+    "chinese-architecture/study/enclosure.js": "eb3da597331291a5e66a138f8305e99732c8d32fac0ea66ea3cf2d0b2327a1f6",
+    "chinese-architecture/study/brackets.js": "8da6e9566cb9af880853dfbd5c3402126f555d94f8a116c305d599057e5dcf60",
+    "chinese-architecture/study/adapt-model.js": "18a604f8478f1811ee787b3cb5949c535773bbfad5cf547e110f766077edcbd6",
+    "chinese-architecture/study/roof-envelope.js": "3ff0ce1ded83c2a11a00fa83f7fd607221d179997b91159257656cb1899d0062",
+    "chinese-architecture/study/replay-completion.mjs": "15d23c727ca3a5109c8396dce1bd5f875b1cead0763b026766a2c0c55fc5905b",
+    "chinese-architecture/study/validate.js": "e6d5836e0907fde5bc407c78fd4f595f0045a637a40d064c8d9960516923ae77",
+    "chinese-architecture/tests/model.test.js": "e25a20589fcfb375e2f6447e2ad995ea3718cd6719903b4a51a48222a8309ee1",
+    "chinese-architecture/tests/surface.test.js": "d85e8e1f09740af83e60df43c42276c8d9702bc5c3c4974e91c8249aa5ac1fcc",
+    "chinese-architecture/realism-workflow/workflow.test.js": "fbea8d524ec54477efd86546f32475f57beb6e902c2980e20bd4ee5e0d38c2ab",
+    "chinese-architecture/tests/completion.test.js": "d94b6b69be4ece8022ea74c59ddd22f154fecf5e42f414db617a92b9f9800782"
+  },
+  "manifest": {
+    "schema": "architecture-realism/v1",
+    "id": "foguang",
+    "revision": "02d",
+    "route": "/chinese-architecture/study/",
+    "referenceState": "2024-05-23现场照片所见外观为比较对象；非857年原貌；修缮分期未逐件核定",
+    "sources": [
+      {
+        "id": "zhang-survey",
+        "url": "https://www.kaah.or.kr/download/mailing/kaah_seminar_presentation1_1.pdf",
+        "status": "文献明确",
+        "rights": "仅研究查阅；不分发原图",
+        "supports": [
+          "PDF16-18结构与外檐铺作",
+          "PDF26-28材分统计"
+        ],
+        "limits": "统计均值不是逐件尺寸；未给瓦件尺寸；本轮PDF已下载并目视16/17页"
+      },
+      {
+        "id": "photo-eaves-2024",
+        "url": "https://commons.wikimedia.org/wiki/File:佛光寺东大殿铺作层侧面视角二.jpg",
+        "status": "图像判读",
+        "rights": "Patrick20242023 / CC BY-SA 4.0；只链接与目视，不作为贴图分发",
+        "supports": [
+          "波形瓦口",
+          "木构与围护表面色差"
+        ],
+        "limits": "文件日期2024-05-23，未独立核验；无标尺，不能确定瓦距/隐蔽节点/地理方位"
+      },
+      {
+        "id": "photo-front-2024",
+        "url": "https://commons.wikimedia.org/wiki/File:佛光寺东大殿右侧面.jpg",
+        "status": "图像判读",
+        "rights": "Patrick20242023 / CC BY-SA 4.0；仅链接参考",
+        "supports": [
+          "前檐围护与檐下阴影"
+        ],
+        "limits": "标题不作为朝向依据；未配准；画面屋顶不完整"
+      },
+      {
+        "id": "tsinghua-phase",
+        "url": "https://www.tsinghua.edu.cn/info/1181/57709.htm",
+        "status": "文献明确",
+        "rights": "仅链接与概括研究",
+        "supports": [
+          "门廊与门位置变迁的研究说明"
+        ],
+        "limits": "讲座报道不是完整测绘，不能由此直接设定唐代门位置"
+      },
+      {
+        "id": "hku-drawing",
+        "url": "https://learning.hku.hk/ccch9051/group-13/items/show/1",
+        "status": "文献明确",
+        "rights": "仅元数据参考，不分发扫描",
+        "supports": [
+          "梁思成测绘资料入口"
+        ],
+        "limits": "教学馆藏元数据不是本轮逐柱测绘校准"
+      },
+      {
+        "id": "edb-facade",
+        "url": "https://www.edb.gov.hk/attachment/sc/curriculum-development/kla/pshe/references-and-resources/ethics-and-religious-studies/Nan_Lian_Garden/3iii_sc.pdf",
+        "status": "文献明确",
+        "rights": "政府教育资料，仅链接与概括，不分发图纸",
+        "supports": [
+          "PDF2：当中五间板门，两端槛墙直棂窗，两山及后壁厚墙"
+        ],
+        "limits": "介绍模型的教育资料；用现场照片交叉核对，不作隐蔽构造或尺寸测绘"
+      },
+      {
+        "id": "photo-intermediate-2024",
+        "url": "https://commons.wikimedia.org/wiki/File:佛光寺东大殿补间铺作正面视角.jpg",
+        "status": "图像判读",
+        "rights": "Patrick20242023 / CC BY-SA 4.0；仅链接参考，不分发像素",
+        "supports": [
+          "前檐补间可见两层出跳与横栱",
+          "其后封闭表面与下方浅色墙带"
+        ],
+        "limits": "单处正面图不能证明全部七处同型；不确定背尾榫卯/尺寸/修缮分期"
+      }
+    ],
+    "patch": {
+      "halfWidth": 2.4,
+      "pitch": 0.32,
+      "start": 9.2,
+      "end": 11.84,
+      "step": 0.24,
+      "length": 0.38,
+      "radius": 0.11
+    },
+    "parameterEvidence": {
+      "tileDimensions": "比例推定；沿原卷0.32m瓦距作为连续性假设，并非实测",
+      "height": "原卷surfaceY；本轮不改变屋面曲线",
+      "ornament": "瓦当面素面占位；不复原莲纹/兽纹；不使用宫殿滴水",
+      "color": "照片图像判读与视觉调参，非色卡测量",
+      "enclosure": "五门两窗文献明确+照片判读；上部封闭形态图像判读；全部厚度/标高比例推定",
+      "frontBracket": "2024前檐补间照片可见形态；重复七攒为代表类型试验，不声称全部同型",
+      "roofEnvelope": "四坡形制有据；瓦距和屋面高度仍沿基线推定；转角排瓦按裁切规则，非实物逐瓦布置"
+    },
+    "views": {
+      "patch": {
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "position": [
+          0,
+          12.7,
+          20.6
+        ]
+      },
+      "eaves": {
+        "target": [
+          0,
+          6.8,
+          9.4
+        ],
+        "position": [
+          0,
+          6.7,
+          23
+        ]
+      },
+      "oblique": {
+        "target": [
+          0,
+          8.7,
+          10.8
+        ],
+        "position": [
+          6.8,
+          12.2,
+          19.8
+        ]
+      },
+      "whole": {
+        "target": [
+          0,
+          6,
+          0
+        ],
+        "position": [
+          0,
+          14,
+          57
+        ]
+      },
+      "facade": {
+        "target": [
+          0,
+          4.9,
+          8.8
+        ],
+        "position": [
+          0,
+          7.6,
+          48
+        ]
+      },
+      "bracket": {
+        "target": [
+          0,
+          6.8,
+          9.5
+        ],
+        "position": [
+          3.2,
+          7.6,
+          17.5
+        ]
+      },
+      "rear": {
+        "target": [
+          0,
+          6,
+          0
+        ],
+        "position": [
+          31,
+          19,
+          -42
+        ]
+      },
+      "section": {
+        "target": [
+          0,
+          6,
+          0
+        ],
+        "position": [
+          49,
+          13,
+          1
+        ]
+      }
+    },
+    "modes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ],
+    "conditions": {
+      "a": "原几何/原材质/原照明（统一实验机位背景）",
+      "b": "仅材料改变；照明同A",
+      "c": "仅瓦片几何改变；材质和照明同B；关闭生成器逐瓦色差，未加滴水",
+      "d": "仅照明改变；几何材质同C",
+      "e": "仅围护改造；材料与照明同D；五门两窗、上部封闭面、侧后墙现状色块",
+      "f": "仅前檐七处补间代表形态；其余同E；不改内槽/转角",
+      "g": "仅四坡瓦片连续化；其余同F；同一屋面曲线，不表示曲率已测绘校准"
+    },
+    "tests": [
+      "chinese-architecture/tests/model.test.js",
+      "chinese-architecture/tests/surface.test.js",
+      "chinese-architecture/realism-workflow/workflow.test.js",
+      "chinese-architecture/tests/completion.test.js"
+    ],
+    "sourceFiles": [
+      "chinese-architecture/model.js",
+      "chinese-architecture/data.js",
+      "chinese-architecture/study/study.js",
+      "chinese-architecture/study/materials.js",
+      "chinese-architecture/study/roof-sample.js",
+      "chinese-architecture/study/index.html",
+      "chinese-architecture/study/style.css",
+      "chinese-architecture/study/replay-interactions.mjs",
+      "chinese-architecture/realism-workflow/roof-patch.js",
+      "chinese-architecture/realism-workflow/manifest.js",
+      "chinese-architecture/realism-workflow/verify.mjs",
+      "chinese-architecture/realism-workflow/replay.mjs",
+      "chinese-architecture/vendor/three.module.js",
+      "chinese-architecture/vendor/three.core.js",
+      "chinese-architecture/vendor/OrbitControls.js",
+      "chinese-architecture/taihe/study/plaque.js",
+      "chinese-architecture/fengxian/model.js",
+      "chinese-architecture/fengxian/data.js",
+      "chinese-architecture/vendor/BufferGeometryUtils.js",
+      "chinese-architecture/study/enclosure.js",
+      "chinese-architecture/study/brackets.js",
+      "chinese-architecture/study/adapt-model.js",
+      "chinese-architecture/study/roof-envelope.js",
+      "chinese-architecture/study/replay-completion.mjs",
+      "chinese-architecture/study/validate.js"
+    ],
+    "checks": [
+      {
+        "id": "front-a",
+        "mode": "a",
+        "view": "patch"
+      },
+      {
+        "id": "front-b",
+        "mode": "b",
+        "view": "patch"
+      },
+      {
+        "id": "front-c",
+        "mode": "c",
+        "view": "patch"
+      },
+      {
+        "id": "front-d",
+        "mode": "d",
+        "view": "patch"
+      },
+      {
+        "id": "eaves-d",
+        "mode": "d",
+        "view": "eaves"
+      },
+      {
+        "id": "oblique-d",
+        "mode": "d",
+        "view": "oblique"
+      },
+      {
+        "id": "light-d",
+        "mode": "d",
+        "view": "oblique",
+        "light": true
+      },
+      {
+        "id": "lift-d",
+        "mode": "d",
+        "view": "oblique",
+        "lift": true
+      },
+      {
+        "id": "whole-d",
+        "mode": "d",
+        "view": "whole"
+      },
+      {
+        "id": "facade-d",
+        "mode": "d",
+        "view": "facade"
+      },
+      {
+        "id": "facade-e",
+        "mode": "e",
+        "view": "facade"
+      },
+      {
+        "id": "facade-f",
+        "mode": "f",
+        "view": "facade"
+      },
+      {
+        "id": "facade-g",
+        "mode": "g",
+        "view": "facade"
+      },
+      {
+        "id": "whole-g",
+        "mode": "g",
+        "view": "whole"
+      },
+      {
+        "id": "rear-g",
+        "mode": "g",
+        "view": "rear"
+      },
+      {
+        "id": "bracket-f",
+        "mode": "f",
+        "view": "bracket"
+      },
+      {
+        "id": "light-g",
+        "mode": "g",
+        "view": "oblique",
+        "light": true
+      },
+      {
+        "id": "lift-g",
+        "mode": "g",
+        "view": "oblique",
+        "lift": true
+      }
+    ],
+    "capture": {
+      "desktop": {
+        "width": 1280,
+        "height": 900
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844
+      },
+      "cameraFov": 35,
+      "pixelRatioMax": 1.7,
+      "screenshot": "fullPage"
+    },
+    "lighting": {
+      "baseline": {
+        "hemisphere": 2.8,
+        "sun": 3.5,
+        "fill": 1.15,
+        "exposure": 1.45
+      },
+      "d": {
+        "hemisphere": 1.65,
+        "sun": 3.5,
+        "fill": 0.42,
+        "exposure": 1.26
+      },
+      "status": "视觉调参；01中檐下过暗，01b提高补光以保持铺作可读"
+    },
+    "materials": {
+      "tile": {
+        "color": "#686764",
+        "roughness": 0.98,
+        "metalness": 0
+      },
+      "ridge": {
+        "color": "#686764",
+        "roughness": 0.98,
+        "metalness": 0
+      },
+      "roofBoard": {
+        "color": "#686764",
+        "roughness": 0.98,
+        "metalness": 0
+      },
+      "wood": {
+        "color": "#82674f",
+        "roughness": 0.92,
+        "metalness": 0
+      },
+      "darkwood": {
+        "color": "#66513f",
+        "roughness": 0.92,
+        "metalness": 0
+      },
+      "endgrain": {
+        "color": "#82674f",
+        "roughness": 0.92,
+        "metalness": 0
+      },
+      "rafter": {
+        "color": "#82674f",
+        "roughness": 0.92,
+        "metalness": 0
+      },
+      "column": {
+        "color": "#916448",
+        "roughness": 0.92,
+        "metalness": 0
+      },
+      "door": {
+        "color": "#97573a",
+        "roughness": 0.92,
+        "metalness": 0
+      },
+      "plaster": {
+        "color": "#c6b99d",
+        "roughness": 0.92,
+        "metalness": 0
+      },
+      "wallRed": {
+        "color": "#9a4b35",
+        "roughness": 0.96,
+        "metalness": 0
+      },
+      "backing": {
+        "color": "#89745c",
+        "roughness": 0.96,
+        "metalness": 0
+      }
+    },
+    "cameraPolicy": "Perspective FOV35; offset scaled by max(1,2/aspect) to retain full eaves at facade presets on narrow screens; full split adds target +9t and distance factor 1+.65t; no photo registration",
+    "enclosure": {
+      "frontZ": 8.78,
+      "backZ": -8.84,
+      "sideX": 17.03,
+      "wallThickness": 0.34,
+      "base": 0.53,
+      "doorTop": 4.65,
+      "lintelTop": 4.96,
+      "headTop": 5.58,
+      "infillTop": 7.62,
+      "plasterInset": 0.16,
+      "doorOpenDegrees": 78
+    },
+    "frontBracket": {
+      "firstOut": 0.54,
+      "secondOut": 1.02,
+      "width": 1.48,
+      "woodWidth": 0.21,
+      "armHeight": 0.315,
+      "baseY": 5.58,
+      "frontZ": 8.83
+    },
+    "roofEnvelope": {
+      "pitch": 0.32,
+      "step": 0.24,
+      "length": 0.38,
+      "radius": 0.11,
+      "start": 0.08,
+      "end": 11.84,
+      "edgeMargin": 0.12
+    }
+  },
+  "browser": "Separate UI replay required; not implied by this report"
+}

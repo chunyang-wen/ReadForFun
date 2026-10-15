@@ -1,0 +1,12 @@
+[
+  {
+    "id": "facade-a",
+    "mode": "a",
+    "view": "facade"
+  },
+  {
+    "id": "whole-a",
+    "mode": "a",
+    "view": "whole"
+  }
+]

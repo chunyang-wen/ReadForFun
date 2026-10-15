@@ -1,0 +1,22 @@
+{
+  "attempts": [
+    {
+      "stage": "initial preview",
+      "result": "ERR_CONNECTION_REFUSED",
+      "resolution": "Started local HTTP server on 127.0.0.1:8765; opened fresh tab"
+    },
+    {
+      "stage": "direct desktop replay",
+      "expected": [
+        1280,
+        900
+      ],
+      "observed": [
+        1280,
+        720
+      ],
+      "result": "Wrong capture viewport: desktop",
+      "resolution": "Used fixed-size same-origin iframe via CUA, preserving shared runner checks"
+    }
+  ]
+}

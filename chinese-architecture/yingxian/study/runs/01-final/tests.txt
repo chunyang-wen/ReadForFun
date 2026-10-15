@@ -1,0 +1,30 @@
+✔ Manifest rejects unsupported evidence, duplicate cases and unknown camera presets (0.820708ms)
+✔ Generic patch replays on a different slope and tile spacing without Taihe imports (6.977708ms)
+✔ Refined pans are concave; drips are separate from disks, with finite transformed geometry (3.614ms)
+✔ Same patch generator accepts Fengxian roof envelope without copying Taihe heights (2.007625ms)
+✔ Plaque has thickness, evidence metadata, and stays with bracket layer when roof lifts (1.742084ms)
+✔ nine distinct storeys, four hidden, low gallery independent (0.403ms)
+✔ 24 outer, eight inner unique columns; side centres follow source spacing (0.282041ms)
+✔ diameter is across sides, not vertex circle; raw table retained (0.052834ms)
+✔ every next column base lies on an explicit supporting ring beam (18.318959ms)
+✔ each hidden stage has radial and chord bracing anchored to bottom/top frame (3.049792ms)
+✔ special five-dou arms limited to second main outer side columns (1.433917ms)
+✔ separate insertion and shifted landing, receiving opening admits tongue (0.13475ms)
+✔ five roof skirts leave centre empty; sixth roof converges, top frame stays under roof (4.966791ms)
+✔ all records, transforms and bounds finite with stable ids and source (25.8365ms)
+✔ independent manifest identifies timber pagoda, separate sources and complete contrasts (0.389083ms)
+✔ all flat outer bracket assemblies align to the normal of their own octagon face; corners untouched (43.305375ms)
+✔ gallery replacement deletes only C1 tile ribs and preserves every unrelated record byte for byte (65.326042ms)
+✔ eight face patches stay inside octagonal sectors; same local shape rotated, stable ids unique (2.6615ms)
+✔ roof derivative is finite at eave and all patch matrices and bounds are finite (0.7745ms)
+✔ roof lift moves all eight samples exactly 2m and leaves support columns in place (0.530959ms)
+✔ dark/ming support boundaries and raw table retained after adapter (5.689709ms)
+✔ baseline source snapshot preserved verbatim; adapter never imports another volume (0.398666ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 571.960875

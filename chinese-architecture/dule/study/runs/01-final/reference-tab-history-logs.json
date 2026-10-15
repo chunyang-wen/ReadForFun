@@ -1,0 +1,14 @@
+[
+  {
+    "level": "warn",
+    "message": "This page is using the deprecated ResourceLoader module \"jquery.ui\".\nPlease use Codex instead.",
+    "timestamp": "2026-10-15T00:12:10.517Z",
+    "url": "https://commons.wikimedia.org/w/load.php?lang=en&modules=startup&only=scripts&raw=1&skin=vector-2022"
+  },
+  {
+    "level": "error",
+    "message": "Error: View mediainfoview does not exist\n    at SELF._getView (https://commons.wikimedia.org/w/load.php?lang=en&modules=%40wikimedia%2Fcodex%2Ccodex-styles%2Cjquery%2Coojs-ui-core%2Cvue%7Cjquery.ui%7Cmw.config.values.wbSiteDetails%7Cwikibase.mediainfo.statements%7Cwikibase.view.ControllerViewFactory&skin=vector-2022&version=6ex9m:810:710)\n    at SELF.getEntityView (https://commons.wikimedia.org/w/load.php?lang=en&modules=%40wikimedia%2Fcodex%2Ccodex-styles%2Cjquery%2Coojs-ui-core%2Cvue%7Cjquery.ui%7Cmw.config.values.wbSiteDetails%7Cwikibase.mediainfo.statements%7Cwikibase.view.ControllerViewFactory&skin=vector-2022&version=6ex9m:802:171)\n    at eval (https://commons.wikimedia.org/w/load.php?lang=en&modules=wikibase.ui.entityViewInit&skin=vector-2022&version=1ia5a:5:506)\n    at mightThrow (https://commons.wikimedia.org/w/load.php?lang=en&modules=%40wikimedia%2Fcodex%2Ccodex-styles%2Cjquery%2Coojs-ui-core%2Cvue%7Cjquery.ui%7Cmw.config.values.wbSiteDetails%7Cwikibase.mediainfo.statements%7Cwikibase.view.ControllerViewFactory&skin=vector-2022&version=6ex9m:47:983)\n    at process (https://commons.wikimedia.org/w/load.php?lang=en&modules=%40wikimedia%2Fcodex%2Ccodex-styles%2Cjquery%2Coojs-ui-core%2Cvue%7Cjquery.ui%7Cmw.config.values.wbSiteDetails%7Cwikibase.mediainfo.statements%7Cwikibase.view.ControllerViewFactory&skin=vector-2022&version=6ex9m:48:643)",
+    "timestamp": "2026-10-15T00:12:11.198Z",
+    "url": "https://commons.wikimedia.org/w/load.php?lang=en&modules=%40wikimedia%2Fcodex%2Ccodex-styles%2Cjquery%2Coojs-ui-core%2Cvue%7Cjquery.ui%7Cmw.config.values.wbSiteDetails%7Cwikibase.mediainfo.statements%7Cwikibase.view.ControllerViewFactory&skin=vector-2022&version=6ex9m"
+  }
+]

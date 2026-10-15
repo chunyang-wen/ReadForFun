@@ -1,0 +1,246 @@
+{
+  "schema": "architecture-realism/v1",
+  "id": "dule",
+  "revision": "01",
+  "route": "/chinese-architecture/dule/study/",
+  "referenceState": "1998修缮测绘汇编支持的辽构空间骨架；外表材料参考2020现状照片，未声称辽代原色或完整1998/2020现状复原",
+  "sources": [
+    {
+      "id": "dpm-scale",
+      "url": "https://www.dpm.org.cn/Uploads/File/2023/12/19/u658143342065c.pdf",
+      "status": "文献明确/图像判读",
+      "rights": "公开论文，仅本地研究缓存，图纸未作为分发贴图",
+      "supports": [
+        "柱头平面表一",
+        "柱高表二",
+        "层间落柱图三",
+        "屋架剖面图六七"
+      ],
+      "limits": "2023论文汇编1998修缮与1960数据；图六七为理想尺度分析；原始逐件测绘未取得"
+    },
+    {
+      "id": "commons-2020",
+      "url": "https://commons.wikimedia.org/wiki/File:独乐寺观音阁2020.jpg",
+      "status": "图像判读",
+      "rights": "ScareCriterion12，CC BY-SA 4.0；仅链接参考，未用作纹理",
+      "supports": [
+        "灰瓦檐口",
+        "围护颜色",
+        "现状支柱与匾额存在"
+      ],
+      "limits": "标注2020-05-04；18mm EXIF并非相机配准；无遮标尺；颜色受曝光影响；只看南面"
+    },
+    {
+      "id": "tj-official",
+      "url": "https://www.tj.gov.cn/sq/yztj/jgtp/202005/t20200520_2468035.html",
+      "status": "文献明确",
+      "rights": "仅链接参考",
+      "supports": [
+        "984年重建与遗存身份"
+      ],
+      "limits": "景点介绍，不提供逐件测绘与修缮材料光学参数"
+    }
+  ],
+  "patch": {
+    "halfWidth": 2.24,
+    "pitch": 0.28,
+    "start": 5.64,
+    "end": 8.64,
+    "step": 0.3,
+    "length": 0.43,
+    "radius": 0.08
+  },
+  "views": {
+    "patch": {
+      "target": [
+        0,
+        16.8,
+        7.6
+      ],
+      "position": [
+        0,
+        20.8,
+        22
+      ]
+    },
+    "oblique": {
+      "target": [
+        0,
+        16.8,
+        7.6
+      ],
+      "position": [
+        8,
+        21,
+        21
+      ]
+    },
+    "whole": {
+      "target": [
+        0,
+        10.7,
+        0
+      ],
+      "position": [
+        0,
+        15,
+        49
+      ]
+    },
+    "section": {
+      "target": [
+        0,
+        10.7,
+        0
+      ],
+      "position": [
+        32,
+        17,
+        30
+      ]
+    },
+    "node": {
+      "target": [
+        0,
+        2.4,
+        0
+      ],
+      "position": [
+        8,
+        6,
+        12
+      ]
+    }
+  },
+  "modes": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "capture": {
+    "desktop": {
+      "width": 1280,
+      "height": 900
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844
+    },
+    "cameraFov": 35,
+    "pixelRatioMax": 1.7,
+    "screenshot": "fullPage"
+  },
+  "checks": [
+    {
+      "id": "front-a",
+      "mode": "a",
+      "view": "patch"
+    },
+    {
+      "id": "front-b",
+      "mode": "b",
+      "view": "patch"
+    },
+    {
+      "id": "front-c",
+      "mode": "c",
+      "view": "patch"
+    },
+    {
+      "id": "front-d",
+      "mode": "d",
+      "view": "patch"
+    },
+    {
+      "id": "oblique-d",
+      "mode": "d",
+      "view": "oblique"
+    },
+    {
+      "id": "light-d",
+      "mode": "d",
+      "view": "oblique",
+      "light": true
+    },
+    {
+      "id": "lift-d",
+      "mode": "d",
+      "view": "oblique",
+      "lift": true
+    },
+    {
+      "id": "whole-a",
+      "mode": "a",
+      "view": "whole"
+    },
+    {
+      "id": "whole-d",
+      "mode": "d",
+      "view": "whole"
+    },
+    {
+      "id": "section-d",
+      "mode": "d",
+      "view": "section"
+    },
+    {
+      "id": "node-d",
+      "mode": "d",
+      "view": "node"
+    },
+    {
+      "id": "node-lift-d",
+      "mode": "d",
+      "view": "node",
+      "lift": true
+    },
+    {
+      "id": "node-a",
+      "mode": "a",
+      "view": "node"
+    }
+  ],
+  "tests": [
+    "chinese-architecture/dule/tests/model.test.js",
+    "chinese-architecture/dule/tests/surface.test.js",
+    "chinese-architecture/realism-workflow/workflow.test.js"
+  ],
+  "sourceFiles": [
+    "chinese-architecture/dule/model.js",
+    "chinese-architecture/dule/data.js",
+    "chinese-architecture/dule/app.js",
+    "chinese-architecture/dule/index.html",
+    "chinese-architecture/dule/style.css",
+    "chinese-architecture/dule/study/study.js",
+    "chinese-architecture/dule/study/materials.js",
+    "chinese-architecture/dule/study/roof-sample.js",
+    "chinese-architecture/dule/study/index.html",
+    "chinese-architecture/dule/study/style.css",
+    "chinese-architecture/dule/study/replay.mjs",
+    "chinese-architecture/realism-workflow/roof-patch.js",
+    "chinese-architecture/realism-workflow/manifest.js",
+    "chinese-architecture/realism-workflow/verify.mjs",
+    "chinese-architecture/realism-workflow/replay.mjs",
+    "chinese-architecture/vendor/three.module.js",
+    "chinese-architecture/vendor/three.core.js",
+    "chinese-architecture/vendor/OrbitControls.js",
+    "chinese-architecture/dule/study/structure-sample.js",
+    "chinese-architecture/dule/study/original-replay.mjs"
+  ],
+  "structurePatch": {
+    "id": "paired-reach-01",
+    "scope": "独立南檐下层局部，不推广到整栋",
+    "pairTotals": [
+      0.84,
+      0.8
+    ],
+    "individualTrial": [
+      0.42,
+      0.42,
+      0.4,
+      0.4
+    ],
+    "status": "各对内等分为比例推定"
+  }
+}

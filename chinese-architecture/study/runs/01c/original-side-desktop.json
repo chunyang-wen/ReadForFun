@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "id": "original-front",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "chapter": "观全貌",
+      "status": "前檐 · 面西",
+      "selected": "点选模型中的一件木作每根柱、每道梁与每层铺作，都可以查看名称、作用和建模依据。"
+    },
+    {
+      "id": "original-oblique",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "chapter": "观全貌",
+      "status": "斜向全貌",
+      "selected": "点选模型中的一件木作每根柱、每道梁与每层铺作，都可以查看名称、作用和建模依据。"
+    },
+    {
+      "id": "original-section",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "chapter": "观全貌",
+      "status": "山面视角",
+      "selected": "点选模型中的一件木作每根柱、每道梁与每层铺作，都可以查看名称、作用和建模依据。"
+    },
+    {
+      "id": "original-bracket-exploded",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "chapter": "解铺作",
+      "status": "柱头铺作局部",
+      "selected": "点选模型中的一件木作每根柱、每道梁与每层铺作，都可以查看名称、作用和建模依据。"
+    },
+    {
+      "id": "original-picked",
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "chapter": "解铺作",
+      "status": "柱头铺作局部",
+      "selected": "铺作 / 斜向构件下昂外端较低，后尾向屋内升高。两道下昂与水平华栱共同组织外檐铺作。局部视图保留后尾，便于看清其斜向延伸。角度采用研究的约 24°；隐蔽端部搭接为推定。前檐柱头铺作"
+    }
+  ],
+  "logs": []
+}

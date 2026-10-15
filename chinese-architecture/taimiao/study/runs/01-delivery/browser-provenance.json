@@ -1,0 +1,36 @@
+{
+  "reports": {
+    "desktop": {
+      "report": "chinese-architecture/taimiao/study/runs/01-final/desktop.json",
+      "sha256": "b5843239b43c6cccd06b725ffdfdaa8d80d27d610a489416990dafd6d25ce7f4",
+      "scenes": 9,
+      "layout": {
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1280
+      }
+    },
+    "mobile": {
+      "report": "chinese-architecture/taimiao/study/runs/01-final/mobile.json",
+      "sha256": "2f458a2b64ac8863c007976784ec51c3544ae2fa690a315dc713b33e90a03aa6",
+      "scenes": 9,
+      "layout": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390
+      }
+    }
+  },
+  "note": "Replay ran after final viewer/capture/adapter edits. Subsequent manifest changes only listed capture adapter sources and documented screenshot format; geometry/cameras/conditions unchanged.",
+  "replayedSourceHashes": {
+    "chinese-architecture/taimiao/study/study.js": "cafd2e36d10f9efdb20300a7a50232aa99ef0cf74f01b5c06bac368260251ef4",
+    "chinese-architecture/taimiao/study/materials.js": "985e33fc3e660e2a9077d9b93dc3a0dd8cb4b05fcce7b364a05828b6364c5a79",
+    "chinese-architecture/taimiao/study/roof-sample.js": "3df69cbcef1634d3b40f54b06f37666d46be6c53da09adeeb107bd338d2ae092",
+    "chinese-architecture/taimiao/study/index.html": "846e170c61eca2ff816aea26e4373b055f28099d7a0bbf75650ff47a2d93cc06",
+    "chinese-architecture/taimiao/study/style.css": "8714a0ca875d2eef7a4a895e1955d69d13e0c394b387a7ce6cd87fedcad5568d",
+    "chinese-architecture/taihe/study/plaque.js": "816d129c086fc4a32e79b4c6ad621735c60e4f134526b4525a3a63a3f9926fc0",
+    "chinese-architecture/taihe/study/roof-sample.js": "27fdb564f674ed950593bcf481044d9c900e2a5c8c54eb4cb79ada7e5e839228",
+    "chinese-architecture/taimiao/study/capture.html": "dc082d7fdb6b2dd65d82ffba2aa231aa5f58f7e53b13c140e45d0b6485e63284",
+    "chinese-architecture/taimiao/study/replay-frame.mjs": "4db47072c7071470c9cb3561c472746d9c6c523298a4e75943b22dc3c81cab4f"
+  }
+}

@@ -1,0 +1,53 @@
+✔ Manifest rejects unsupported evidence, duplicate cases and unknown camera presets (0.870458ms)
+✔ Generic patch replays on a different slope and tile spacing without Taihe imports (7.155458ms)
+✔ Refined pans are concave; drips are separate from disks, with finite transformed geometry (4.344542ms)
+✔ Same patch generator accepts Fengxian roof envelope without copying Taihe heights (2.0155ms)
+✔ Plaque has thickness, evidence metadata, and stays with bracket layer when roof lifts (2.033666ms)
+✔ nine distinct storeys, four hidden, low gallery independent (0.420708ms)
+✔ 24 outer, eight inner unique columns; side centres follow source spacing (0.277292ms)
+✔ diameter is across sides, not vertex circle; raw table retained (0.047208ms)
+✔ every next column base lies on an explicit supporting ring beam (21.945291ms)
+✔ each hidden stage has radial and chord bracing anchored to bottom/top frame (6.0635ms)
+✔ special five-dou arms limited to second main outer side columns (2.318583ms)
+✔ separate insertion and shifted landing, receiving opening admits tongue (0.171666ms)
+✔ five roof skirts leave centre empty; sixth roof converges, top frame stays under roof (6.6215ms)
+✔ all records, transforms and bounds finite with stable ids and source (28.009ms)
+✔ independent manifest identifies timber pagoda, separate sources and complete contrasts (0.39275ms)
+✔ all flat outer bracket assemblies align to the normal of their own octagon face; corners untouched (1596.821625ms)
+✔ gallery replacement deletes only C1 tile ribs and preserves every unrelated record byte for byte (14010.690916ms)
+✔ eight face patches stay inside octagonal sectors; same local shape rotated, stable ids unique (3.371917ms)
+✔ roof derivative is finite at eave and all patch matrices and bounds are finite (0.784584ms)
+✔ roof lift moves all eight samples exactly 2m and leaves support columns in place (0.399375ms)
+✖ dark/ming support boundaries and raw table retained after adapter (7.326792ms)
+✔ baseline source snapshot preserved verbatim; adapter never imports another volume (0.456542ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 21
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 16082.114167
+
+✖ failing tests:
+
+test at chinese-architecture/yingxian/tests/study.test.js:24:1
+✖ dark/ming support boundaries and raw table retained after adapter (7.326792ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(support.every(r=>r.position[1]+.18===b.base))
+  
+      at TestContext.<anonymous> (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/yingxian/tests/study.test.js:24:283)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

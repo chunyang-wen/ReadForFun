@@ -1,0 +1,25 @@
+✔ three independent rings retain central void and retreat at each level (0.482ms)
+✔ records are stable, documented and transforms finite (12.983625ms)
+✔ floor panels leave central shaft open, and western stair opening exists (0.863792ms)
+✔ upper frames stay below roof surface, including end sections (0.347333ms)
+✔ fork has two feet, a matching seat, and an unobstructed opening (0.141167ms)
+✔ lower local assembly is four horizontal hua arms without imported Foguang ang (0.059417ms)
+✔ each lower column meets its circular stone bearing surface (0.39825ms)
+✔ adapter removes only south upper central ribs, preserves shaft and structure IDs (57.003125ms)
+✔ gray roof patch conforms to Dule own slope and retains neutral constant colors (3.289042ms)
+✔ roof lift carries tile study while retaining column and enclosure levels (31.493917ms)
+✔ paired reach experiment respects published pair totals without presenting individual jumps as measured (0.706958ms)
+✔ eave sample remains outside sacred shaft and does not invent palace ornament (1.478833ms)
+✔ Manifest rejects unsupported evidence, duplicate cases and unknown camera presets (0.861792ms)
+✔ Generic patch replays on a different slope and tile spacing without Taihe imports (7.396ms)
+✔ Refined pans are concave; drips are separate from disks, with finite transformed geometry (4.097084ms)
+✔ Same patch generator accepts Fengxian roof envelope without copying Taihe heights (1.947667ms)
+✔ Plaque has thickness, evidence metadata, and stays with bracket layer when roof lifts (2.326125ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 159.789917

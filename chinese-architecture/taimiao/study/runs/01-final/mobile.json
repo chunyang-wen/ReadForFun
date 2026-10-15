@@ -1,0 +1,528 @@
+{
+  "schema": "architecture-replay/v1",
+  "architecture": "taimiao",
+  "revision": "01",
+  "viewport": "mobile",
+  "utc": "2026-10-14T14:12:31.116Z",
+  "results": [
+    {
+      "id": "front-a",
+      "state": {
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "01",
+        "mode": "a",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          25.138983050847457,
+          33.16271186440678
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 279,
+        "triangles": 2478970,
+        "geometries": 148,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "id": "front-b",
+      "state": {
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "01",
+        "mode": "b",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          25.138983050847457,
+          33.16271186440678
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 279,
+        "triangles": 2478970,
+        "geometries": 148,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "id": "front-c",
+      "state": {
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "01",
+        "mode": "c",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          25.138983050847457,
+          33.16271186440678
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 493,
+        "sampleWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 287,
+        "triangles": 2554162,
+        "geometries": 299,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "id": "front-d",
+      "state": {
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "01",
+        "mode": "d",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          25.138983050847457,
+          33.16271186440678
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 513,
+        "sampleWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 289,
+        "triangles": 2619762,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "id": "eaves-d",
+      "state": {
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "01",
+        "mode": "d",
+        "view": "eaves",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          15.862711864406775,
+          34.16271186440678
+        ],
+        "target": [
+          0,
+          18.1,
+          14.4
+        ],
+        "sampleRecords": 513,
+        "sampleWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 289,
+        "triangles": 2619762,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "id": "oblique-d",
+      "state": {
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "01",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          11.1864406779661,
+          24.766101694915253,
+          31.298305084745763
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 513,
+        "sampleWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 322,
+        "triangles": 2619828,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "id": "light-d",
+      "state": {
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "01",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": true,
+        "camera": [
+          11.1864406779661,
+          24.766101694915253,
+          31.298305084745763
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 513,
+        "sampleWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 322,
+        "triangles": 2619828,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "id": "lift-d",
+      "state": {
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "01",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": true,
+        "alternateLight": false,
+        "camera": [
+          11.1864406779661,
+          24.766101694915253,
+          31.298305084745763
+        ],
+        "target": [
+          0,
+          18.8,
+          13.4
+        ],
+        "sampleRecords": 513,
+        "sampleWorldY": 2,
+        "removedRibSegments": 45,
+        "drawCalls": 321,
+        "triangles": 2619826,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "id": "whole-d",
+      "state": {
+        "layout": {
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390
+        },
+        "architecture": "taimiao",
+        "revision": "01",
+        "mode": "d",
+        "view": "whole",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          30.339299776947392,
+          199.41089710031633
+        ],
+        "target": [
+          0,
+          15,
+          0
+        ],
+        "sampleRecords": 513,
+        "sampleWorldY": 0,
+        "removedRibSegments": 45,
+        "drawCalls": 361,
+        "triangles": 2619906,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1.7,
+        "canvasSize": [
+          354,
+          440
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 3.36,
+          "pitch": 0.32,
+          "start": 11.6,
+          "end": 14.5,
+          "step": 0.29,
+          "length": 0.42,
+          "radius": 0.11
+        }
+      },
+      "layout": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390
+      }
+    }
+  ],
+  "logs": [],
+  "captureMethod": "CUA fixed-size same-origin iframe; screenshots include host canvas, not device emulation",
+  "hostLayout": {
+    "height": 720,
+    "width": 1280
+  }
+}

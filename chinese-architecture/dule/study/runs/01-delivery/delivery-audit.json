@@ -1,0 +1,23 @@
+{
+  "hashMismatches": [],
+  "originalRegressionRun": "../01-reviewed/",
+  "originalDesktopSteps": 24,
+  "originalMobileSteps": 24,
+  "studyDesktopScenes": 13,
+  "studyMobileScenes": 13,
+  "humanViewed": [
+    "front-a",
+    "front-d",
+    "whole-d",
+    "section-d",
+    "node-lift-d",
+    "mobile/front-d",
+    "mobile/node-lift-d"
+  ],
+  "notValidated": [
+    "photo camera registration",
+    "as-built joinery",
+    "original decorative patterns",
+    "real mobile GPU and frame rate"
+  ]
+}

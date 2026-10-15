@@ -1,0 +1,286 @@
+{
+  "schema": "architecture-realism/v1",
+  "id": "yingxian",
+  "revision": "01",
+  "utc": "2026-10-15T00:34:39.359Z",
+  "node": "v26.7.0",
+  "platform": "darwin",
+  "command": [
+    "/opt/homebrew/Cellar/node/26.7.0/bin/node",
+    "--test",
+    "chinese-architecture/yingxian/tests/model.test.js",
+    "chinese-architecture/yingxian/tests/study.test.js",
+    "chinese-architecture/realism-workflow/workflow.test.js"
+  ],
+  "exitCode": 0,
+  "hashes": {
+    "chinese-architecture/yingxian/study/experiment.json": "4398f6809f0091189258a091a00ba9eae9e88794068f73c988cc95db7500e085",
+    "chinese-architecture/yingxian/model.js": "cdeb900eef38011064ebf7cb86513f26095f3467aeb20fbe957bd34e668dca85",
+    "chinese-architecture/yingxian/data.js": "c1868d32e10d5374b82db636d4b0a01fd2747451738a8e7b6f7bea870a3befe5",
+    "chinese-architecture/yingxian/app.js": "24c97c62a71ab0ea9591d0768365b9d617e0c5063f812a672ff938c1ad24e195",
+    "chinese-architecture/yingxian/index.html": "dd722b3f27d6a39d449704f55481e831de959dfe3ff97b91a937476959f38475",
+    "chinese-architecture/yingxian/style.css": "e37b3383c8aa2f51a06f2586ff38a9dc62136c65b3570977b18060cf833ac9e3",
+    "chinese-architecture/yingxian/study/adapter.js": "be7347c5091f45677ca500248a22c4dc076fe40f5d8ad705eaddb11532a7b159",
+    "chinese-architecture/yingxian/study/materials.js": "fbca887981e25beb935a9cf9fc91a54be68565bbd026e783d395cc0ed3c494b6",
+    "chinese-architecture/yingxian/study/study.js": "df3a62579448281b2ddac1933c4f7c453bc7e8e3d1d541dfd53c19bb5d1b8205",
+    "chinese-architecture/yingxian/study/index.html": "a7d6e9a6fe0e9d6e841a769a88939dc8188cfb202ef3b0935c692a5b6cc70acc",
+    "chinese-architecture/yingxian/study/style.css": "10264efc0d8034fde44743ce889089e36b64c46dcf23bb08d8c7cdae212500aa",
+    "chinese-architecture/realism-workflow/roof-patch.js": "8872a12db15b176ac81b1f27aadcbed7ea384fd79b1600c39d334c9bdeca7a5c",
+    "chinese-architecture/realism-workflow/manifest.js": "22b655d2ea45cad59ab0841ac1985e54ebd59b9356b62bcb857f40c690f37313",
+    "chinese-architecture/realism-workflow/verify.mjs": "09edbf88c2741730c0e8e27ea7b8bb48d515e49b4ea5b54930b4688b0cd1003f",
+    "chinese-architecture/realism-workflow/replay.mjs": "2ecdb7f7fa1c6d81e54047cdd55d5a44dd27db3c8ae350f5027fb2ba4ae8e91f",
+    "chinese-architecture/vendor/three.module.js": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+    "chinese-architecture/vendor/three.core.js": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6",
+    "chinese-architecture/vendor/OrbitControls.js": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b",
+    "chinese-architecture/vendor/BufferGeometryUtils.js": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797",
+    "chinese-architecture/yingxian/tests/model.test.js": "148a9954b2f8cc034525c95336f7dc6f7e7496993656a9fd708a93bcc526d882",
+    "chinese-architecture/yingxian/tests/study.test.js": "9428d7d328fc622fbbe3c972a47e1f0de3cede82539cc9d590eb36d0a74504f3",
+    "chinese-architecture/realism-workflow/workflow.test.js": "fbea8d524ec54477efd86546f32475f57beb6e902c2980e20bd4ee5e0d38c2ab"
+  },
+  "manifest": {
+    "schema": "architecture-realism/v1",
+    "id": "yingxian",
+    "revision": "01",
+    "route": "/chinese-architecture/yingxian/study/",
+    "referenceState": "21世纪公开研究及照片可见的现存形制；规整化柱架，不重建辽代原貌、不模拟现状倾斜。照片日期/修缮阶段未知。",
+    "sources": [
+      {
+        "id": "wang2024-fig20",
+        "url": "https://doi.org/10.3390/buildings14082464",
+        "status": "文献明确 / 图像判读",
+        "rights": "出版PDF仅研究；不分发扫描图、照片、作者模型",
+        "limits": "正文PDF页4–8与19、13核看；表1转录非直接亲阅陈明达；作者参数模型非现状测绘；平柱法向为理想八角适配",
+        "supports": [
+          "五明四暗",
+          "双圈柱架",
+          "两种落柱",
+          "平柱/角攒分别组织"
+        ]
+      },
+      {
+        "id": "li2005",
+        "url": "https://pubs.cstam.org.cn/data/article/em/preview/pdf/em_3335.pdf",
+        "status": "既有卷文献记录，本轮下载尝试超时",
+        "rights": "仅研究引用；不分发图纸",
+        "limits": "本轮未新读PDF；沿用MODEL_NOTES已登记图5与参数，高度基准未解决"
+      },
+      {
+        "id": "unesco2013",
+        "url": "https://whc.unesco.org/en/tentativelists/5803/",
+        "status": "文献明确",
+        "rights": "只链接与释义",
+        "limits": "预备名录；形制背景，不是逐件测绘"
+      },
+      {
+        "id": "cmu-eaves-photo",
+        "url": "https://www.architecture.cmu.edu/sites/default/files/styles/facebook/public/2025-01/S25_48422_image.jpg?h=0d485c9c&itok=Y-aFsjjP",
+        "status": "图像判读，实际浏览器查看",
+        "rights": "CMU课程页展示；摄影者、拍摄日期与再利用许可未知。仅外链参考，不作贴图或本地分发",
+        "limits": "局部仰拍；未配准，无标尺；可见中立不倚匾及灰瓦、露木和朱色，不用于实测瓦径/首层精确装饰"
+      }
+    ],
+    "patch": {
+      "halfWidth": 4.7,
+      "pitch": 0.34,
+      "start": 15.1,
+      "end": 17.2,
+      "step": 0.3,
+      "length": 0.43,
+      "radius": 0.12
+    },
+    "parameters": {
+      "version": "yingxian-01",
+      "units": "m",
+      "coordinates": "Y up; X east; Z south",
+      "galleryProfile": {
+        "outerAcrossSides": 34.4,
+        "innerAcrossSides": 24.2,
+        "low": 8,
+        "high": 11.6,
+        "exponent": 1.35,
+        "status": "基线比例推定，未据照片量测"
+      },
+      "tile": {
+        "status": "比例推定",
+        "pattern": "瓦当无纹、滴水通用轮廓，非木塔实际纹样"
+      },
+      "bracketAlignment": {
+        "flat": "face normal, side angle=(side+1)*pi/4",
+        "corner": "baseline radial skeleton; interlocking unresolved",
+        "status": "图像判读 + 规整化假设"
+      },
+      "height": "沿用64.121m基线控制，不强行缩放到67.31m"
+    },
+    "views": {
+      "patch": {
+        "target": [
+          0,
+          8.9,
+          16.1
+        ],
+        "position": [
+          0,
+          13.5,
+          32
+        ]
+      },
+      "corner": {
+        "target": [
+          6.8,
+          9,
+          16
+        ],
+        "position": [
+          21,
+          15,
+          34
+        ]
+      },
+      "boundary": {
+        "target": [
+          0,
+          16.8,
+          0
+        ],
+        "position": [
+          28,
+          23,
+          40
+        ]
+      },
+      "whole": {
+        "target": [
+          0,
+          31,
+          0
+        ],
+        "position": [
+          0,
+          40,
+          145
+        ]
+      },
+      "node": {
+        "target": [
+          0,
+          1.3,
+          0
+        ],
+        "position": [
+          9,
+          7,
+          17
+        ]
+      }
+    },
+    "modes": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "capture": {
+      "desktop": {
+        "width": 1280,
+        "height": 900
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844
+      },
+      "cameraFov": 35,
+      "pixelRatioMax": 1.7,
+      "screenshot": "fullPage"
+    },
+    "checks": [
+      {
+        "id": "front-a",
+        "mode": "a",
+        "view": "patch"
+      },
+      {
+        "id": "front-b",
+        "mode": "b",
+        "view": "patch"
+      },
+      {
+        "id": "front-c",
+        "mode": "c",
+        "view": "patch"
+      },
+      {
+        "id": "front-d",
+        "mode": "d",
+        "view": "patch"
+      },
+      {
+        "id": "corner-a",
+        "mode": "a",
+        "view": "corner"
+      },
+      {
+        "id": "corner-d",
+        "mode": "d",
+        "view": "corner"
+      },
+      {
+        "id": "light-d",
+        "mode": "d",
+        "view": "corner",
+        "light": true
+      },
+      {
+        "id": "lift-d",
+        "mode": "d",
+        "view": "corner",
+        "lift": true
+      },
+      {
+        "id": "boundary-d",
+        "mode": "d",
+        "view": "boundary"
+      },
+      {
+        "id": "whole-a",
+        "mode": "a",
+        "view": "whole"
+      },
+      {
+        "id": "whole-d",
+        "mode": "d",
+        "view": "whole"
+      },
+      {
+        "id": "node-d",
+        "mode": "d",
+        "view": "node"
+      }
+    ],
+    "tests": [
+      "chinese-architecture/yingxian/tests/model.test.js",
+      "chinese-architecture/yingxian/tests/study.test.js",
+      "chinese-architecture/realism-workflow/workflow.test.js"
+    ],
+    "sourceFiles": [
+      "chinese-architecture/yingxian/model.js",
+      "chinese-architecture/yingxian/data.js",
+      "chinese-architecture/yingxian/app.js",
+      "chinese-architecture/yingxian/index.html",
+      "chinese-architecture/yingxian/style.css",
+      "chinese-architecture/yingxian/study/adapter.js",
+      "chinese-architecture/yingxian/study/materials.js",
+      "chinese-architecture/yingxian/study/study.js",
+      "chinese-architecture/yingxian/study/index.html",
+      "chinese-architecture/yingxian/study/style.css",
+      "chinese-architecture/realism-workflow/roof-patch.js",
+      "chinese-architecture/realism-workflow/manifest.js",
+      "chinese-architecture/realism-workflow/verify.mjs",
+      "chinese-architecture/realism-workflow/replay.mjs",
+      "chinese-architecture/vendor/three.module.js",
+      "chinese-architecture/vendor/three.core.js",
+      "chinese-architecture/vendor/OrbitControls.js",
+      "chinese-architecture/vendor/BufferGeometryUtils.js"
+    ]
+  },
+  "browser": "Separate UI replay required; not implied by this report"
+}

@@ -1,0 +1,245 @@
+{
+  "schema": "architecture-realism/v1",
+  "id": "taimiao",
+  "revision": "01",
+  "route": "/chinese-architecture/taimiao/study/",
+  "referenceState": "现状外观；照片拍摄日期与修缮阶段未核定",
+  "sources": [
+    {
+      "id": "vb-eaves",
+      "url": "https://img-rs.visitbeijing.com.cn/imageDir/6d5587be83f6621f242c5eea12fa0476u5.jpg",
+      "status": "图像判读",
+      "rights": "Sipa版权图，仅链接观察；不下载分发，不作贴图",
+      "supports": [
+        "圆瓦当和滴水轮廓",
+        "黄釉与檐下明暗"
+      ],
+      "limits": "照片无标尺、拍摄日期未知；不能确定瓦片尺寸、坡面曲率及历史原色"
+    },
+    {
+      "id": "vb-overall",
+      "url": "https://img-rs.visitbeijing.com.cn/imageDir/d82b0284ae87c2372e436367d5995dd6u5.jpg",
+      "status": "图像判读",
+      "rights": "Sipa版权图，仅链接观察",
+      "limits": "远景透视，未做相机配准；不能定出举折和柱网"
+    },
+    {
+      "id": "vb-text",
+      "url": "https://www.visitbeijing.com.cn/article/47QkX4rpymr",
+      "status": "文献明确",
+      "rights": "摘要研究并链接，不复制全文",
+      "limits": "支持十一间重檐庑殿黄琉璃瓦形制；非测绘报告"
+    },
+    {
+      "id": "cg-candidate",
+      "url": "https://www.cgmodel.com/model/119474.html",
+      "status": "待核定",
+      "rights": "商业授权候选，未购买下载或采用",
+      "limits": "混合寺庙标签，不能确认北京前殿；无实测依据"
+    }
+  ],
+  "patch": {
+    "halfWidth": 3.36,
+    "pitch": 0.32,
+    "start": 11.6,
+    "end": 14.5,
+    "step": 0.29,
+    "length": 0.42,
+    "radius": 0.11
+  },
+  "views": {
+    "patch": {
+      "target": [
+        0,
+        18.8,
+        13.4
+      ],
+      "position": [
+        0,
+        22.2,
+        24
+      ]
+    },
+    "eaves": {
+      "target": [
+        0,
+        18.1,
+        14.4
+      ],
+      "position": [
+        0,
+        16.9,
+        25
+      ]
+    },
+    "oblique": {
+      "target": [
+        0,
+        18.8,
+        13.4
+      ],
+      "position": [
+        6,
+        22,
+        23
+      ]
+    },
+    "whole": {
+      "target": [
+        0,
+        15,
+        0
+      ],
+      "position": [
+        0,
+        25,
+        130
+      ]
+    }
+  },
+  "modes": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "tests": [
+    "chinese-architecture/tests/model.test.js",
+    "chinese-architecture/taimiao/tests/model.test.js",
+    "chinese-architecture/taimiao/tests/surface.test.js",
+    "chinese-architecture/realism-workflow/workflow.test.js"
+  ],
+  "sourceFiles": [
+    "chinese-architecture/taimiao/model.js",
+    "chinese-architecture/taimiao/data.js",
+    "chinese-architecture/taimiao/study/study.js",
+    "chinese-architecture/taimiao/study/materials.js",
+    "chinese-architecture/taimiao/study/roof-sample.js",
+    "chinese-architecture/taimiao/study/index.html",
+    "chinese-architecture/taimiao/study/style.css",
+    "chinese-architecture/realism-workflow/roof-patch.js",
+    "chinese-architecture/realism-workflow/replay.mjs",
+    "chinese-architecture/realism-workflow/verify.mjs",
+    "chinese-architecture/realism-workflow/manifest.js",
+    "chinese-architecture/vendor/three.module.js",
+    "chinese-architecture/vendor/three.core.js",
+    "chinese-architecture/vendor/OrbitControls.js",
+    "chinese-architecture/vendor/BufferGeometryUtils.js",
+    "chinese-architecture/fengxian/model.js",
+    "chinese-architecture/fengxian/data.js",
+    "chinese-architecture/model.js",
+    "chinese-architecture/data.js",
+    "chinese-architecture/taihe/study/plaque.js",
+    "chinese-architecture/taihe/model.js",
+    "chinese-architecture/taihe/data.js",
+    "chinese-architecture/taihe/study/roof-sample.js",
+    "chinese-architecture/taimiao/app.js",
+    "chinese-architecture/taimiao/study/capture.html",
+    "chinese-architecture/taimiao/study/replay-frame.mjs"
+  ],
+  "checks": [
+    {
+      "id": "front-a",
+      "mode": "a",
+      "view": "patch"
+    },
+    {
+      "id": "front-b",
+      "mode": "b",
+      "view": "patch"
+    },
+    {
+      "id": "front-c",
+      "mode": "c",
+      "view": "patch"
+    },
+    {
+      "id": "front-d",
+      "mode": "d",
+      "view": "patch"
+    },
+    {
+      "id": "eaves-d",
+      "mode": "d",
+      "view": "eaves"
+    },
+    {
+      "id": "oblique-d",
+      "mode": "d",
+      "view": "oblique"
+    },
+    {
+      "id": "light-d",
+      "mode": "d",
+      "view": "oblique",
+      "light": true
+    },
+    {
+      "id": "lift-d",
+      "mode": "d",
+      "view": "oblique",
+      "lift": true
+    },
+    {
+      "id": "whole-d",
+      "mode": "d",
+      "view": "whole"
+    }
+  ],
+  "capture": {
+    "desktop": {
+      "width": 1280,
+      "height": 900
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844
+    },
+    "cameraFov": 35,
+    "pixelRatioMax": 1.7,
+    "screenshot": "fullPage host; fixed iframe viewport, see captureMethod"
+  },
+  "variables": {
+    "a": "原卷几何和材料；实验统一相机背景",
+    "b": "材料粗糙度、釉面清漆、程序天空及光强组合变化",
+    "c": "B + 独立瓦段、平底瓦、圆瓦当及轻微实例色差",
+    "d": "C平底瓦替换为槽形底瓦，并加滴水；无匾额改动"
+  },
+  "parameterEvidence": {
+    "halfWidth": {
+      "status": "比例推定",
+      "unit": "m",
+      "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
+    },
+    "pitch": {
+      "status": "比例推定",
+      "unit": "m",
+      "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
+    },
+    "start": {
+      "status": "比例推定",
+      "unit": "m",
+      "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
+    },
+    "end": {
+      "status": "比例推定",
+      "unit": "m",
+      "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
+    },
+    "step": {
+      "status": "比例推定",
+      "unit": "m",
+      "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
+    },
+    "length": {
+      "status": "比例推定",
+      "unit": "m",
+      "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
+    },
+    "radius": {
+      "status": "比例推定",
+      "unit": "m",
+      "basis": "太庙模型南面上檐局部试验；非测绘瓦件尺寸"
+    }
+  }
+}

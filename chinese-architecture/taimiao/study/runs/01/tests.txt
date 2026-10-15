@@ -1,0 +1,33 @@
+✔ Manifest rejects unsupported evidence, duplicate cases and unknown camera presets (0.89875ms)
+✔ Generic patch replays on a different slope and tile spacing without Taihe imports (7.667625ms)
+✔ Refined pans are concave; drips are separate from disks, with finite transformed geometry (4.842792ms)
+✔ Same patch generator accepts Fengxian roof envelope without copying Taihe heights (2.6375ms)
+✔ Plaque has thickness, evidence metadata, and stays with bracket layer when roof lifts (2.651166ms)
+✔ independent three-row grid: 34 peripheral + 34 body, unique coordinates (0.47475ms)
+✔ each column meets an individual base at floor + base thickness (2.228917ms)
+✔ all geometry, scales and instance transforms finite; no negative dimension (17.05275ms)
+✔ eleven longitudinal purlin lines, unequal bay steps (0.527541ms)
+✔ short columns meet the specified upper and lower beam faces (0.293833ms)
+✔ transverse roof frame tops stay below local four-hip envelope (0.243291ms)
+✔ all upper rafter sampled endpoints below tile envelope (1.482ms)
+✔ lower ring has no filled centre and upper bearing blocks are positive (1.101959ms)
+✔ all twelve layers populated; four nodes do not invent tenon or caisson (1.028791ms)
+✔ end ridge posts terminate below local hip roof, never extend to central ridge (0.414167ms)
+✔ Sample stays on the southern centre bay; every transformed vertex is finite (12.508042ms)
+✔ Replacing sample ribs preserves all columns, framing, north and side roofs (10.106459ms)
+✔ Sample follows the roof layer when lifted and has shared instance batches (0.517875ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (1.514916ms)
+✔ every selectable member has a documented type and valid layer (2.89925ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (3.707458ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.426334ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.473375ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.073875ms)
+✔ upper frame does not protrude through the hip roof (0.474084ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 140.045959
