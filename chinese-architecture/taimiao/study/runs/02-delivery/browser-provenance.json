@@ -1,0 +1,81 @@
+{
+  "schema": "architecture-evidence-link/v1",
+  "revision": "02",
+  "browserCases": {
+    "desktop": 21,
+    "mobile": 21,
+    "extraDesktop": 2,
+    "actualPicking": true
+  },
+  "reports": {
+    "desktop.json": {
+      "path": "chinese-architecture/taimiao/study/runs/02-accepted/desktop.json",
+      "sha256": "8a77e4beb574a7bee15c206a64295fbb01edb5014cfca5dd8cb14cb7ad63a89c"
+    },
+    "mobile.json": {
+      "path": "chinese-architecture/taimiao/study/runs/02-accepted/mobile.json",
+      "sha256": "7632dbc994534217bc6c7fd712da2a2a0660925a1ef8735d41db27a34ccab392"
+    },
+    "desktop-extra.json": {
+      "path": "chinese-architecture/taimiao/study/runs/02-accepted/desktop-extra.json",
+      "sha256": "ab1e619ca2915478351a49ca74f84ec83ea25fe9d376ffa764274dca1c04b922"
+    },
+    "picking.json": {
+      "path": "chinese-architecture/taimiao/study/runs/02-accepted/picking.json",
+      "sha256": "e2c34c9eba2774fc53bd7b87c697bce9a66cdc67f086b2ec8325702073fa7d3a"
+    },
+    "geometry-audit.json": {
+      "path": "chinese-architecture/taimiao/study/runs/02-accepted/geometry-audit.json",
+      "sha256": "cbb06b354c0c8e7362cae14712571f8c519092cf18dba87637d7f90055b7881b"
+    }
+  },
+  "screenshots": {
+    "runs/02-accepted/picked-lift.jpg": "b31ff78029da124fcf0d196ca77d424247ae8509872bc5948416d4269774238c",
+    "runs/02-accepted/desktop/eaves-d.jpg": "d3f21d152f11b84323fc00d6da4b286a362cfddd1bd6d3d7d8ca566bc0476627",
+    "runs/02-accepted/desktop/section-f.jpg": "265df2fb991c7e272bf79914b9d66d1eeb77bfb1112daab6ce2e3f444b55ebe4",
+    "runs/02-accepted/desktop/whole-lift-f.jpg": "0d0341076f7fc30fe7b6809c83530c4df50967a7d851adf7f6ffb91867d2fa1f",
+    "runs/02-accepted/desktop/eaves-f.jpg": "f91b0fbb73f403a44ecd857d120b58fdba7b23c6f510cf25aaadde990137ab83",
+    "runs/02-accepted/desktop/whole-oblique-f.jpg": "03a02a86c3ee8d64ee04d8410ce9adf64de45fdad0dce6c4c5a260977a06a2dc",
+    "runs/02-accepted/desktop/light-f.jpg": "7cae1354fa06eacf827455e2b773348b09376d0c52c89774983f0679acd925b5",
+    "runs/02-accepted/desktop/light-d.jpg": "fe8400a8df01a0877cfa8f640c0cf10fce39392167ce09fd4a39e40ac594b4a8",
+    "runs/02-accepted/desktop/whole-a.jpg": "398a26b93888e45b8fba489a83e5fe8e9471891ff90ae6a4610e8144304e03a5",
+    "runs/02-accepted/desktop/whole-b.jpg": "70ff31ff13016b3a2e49145ae074ac8aa97d0558723f2a3ce09b2c1f8b9c8d76",
+    "runs/02-accepted/desktop/oblique-d.jpg": "2da37f89c96be185d055b3a30f337d44dbd0e2128fb10290f55e1840d74bf059",
+    "runs/02-accepted/desktop/whole-f.jpg": "a49ff510fb05b850bfc10dfffee10e3d584f5b9ea73c8c9a0d19a3db8e8f6d34",
+    "runs/02-accepted/desktop/whole-d.jpg": "773a6a384a839f4843b0f71b610b24bb5a2b2b80f4df57af63e144b2539ab9a5",
+    "runs/02-accepted/desktop/whole-e.jpg": "024d164ffbd26af6f723edaebc6dc48e7e3342f9fb9589b11cb24b66d1574f0e",
+    "runs/02-accepted/desktop/oblique-f.jpg": "6d1af4fc19287e7491873cb6fadf48a010b784fcf235c1c0d6417c9ed8f6de7c",
+    "runs/02-accepted/desktop/survey-a.jpg": "00e5b4e68de809d7ae47aad6afe45e129dc44da90d06b5017749f77a83bc0370",
+    "runs/02-accepted/desktop/lift-f.jpg": "ac4d768377bb563b5694e776a097bab480343245d32fbc15de7df5b9362b0805",
+    "runs/02-accepted/desktop/survey-f.jpg": "d0ca2eec48cea1387498eceb0bcd2789717c5ed392186d7bc2ea72f29cdd973e",
+    "runs/02-accepted/desktop/lift-d.jpg": "282df2d733ca0e52659e906d0d84e72a431c46b08f0226ceb11b20eb3d4583f6",
+    "runs/02-accepted/desktop/section-lift-f.jpg": "79f819057fd1111197612a52c32a262c64c4526d3a86db7e69a5854de0cb51f0",
+    "runs/02-accepted/desktop/front-d.jpg": "2a0acdb2c85123be83fc9b451f6379faa44a11d58e2f112938326887b31f53d0",
+    "runs/02-accepted/desktop/front-a.jpg": "12ff543e8ff940cfc34b180f292044d6b7259a1838ca6c039e798e9d33325e49",
+    "runs/02-accepted/desktop/front-c.jpg": "355ee6b4b0f2a4a1837cfaa1a6e8e94903f0055b4728a801acb40c3c1bfe2d92",
+    "runs/02-accepted/desktop/front-b.jpg": "38810e0569011c4be34b0c50bfa67f43be475b2f8bf8fe6071c83ea409d4e9f2",
+    "runs/02-accepted/mobile/eaves-d.jpg": "6b941cc6a86842bf0e573c2c14b4d211e34d15909fe8523c0618b1269acbf30b",
+    "runs/02-accepted/mobile/section-f.jpg": "403e0e42b56ffdaa028812b3122790271099fd04e81bf0d9ecada092e1530c9a",
+    "runs/02-accepted/mobile/whole-lift-f.jpg": "d7ffe7efbf251815f9766919d349a4040a314e047dcf2d17d4f74573310c9600",
+    "runs/02-accepted/mobile/eaves-f.jpg": "f922705880207cbac9652372c1d44da6b49b069d64f9df8cce62e112e3a823cd",
+    "runs/02-accepted/mobile/whole-oblique-f.jpg": "0b8fa66869e2e097071082bba8d2862c1dbd1926b2e1614c778355bb96f66284",
+    "runs/02-accepted/mobile/light-f.jpg": "511cb9e7579ff5c89661bb42f309f434ad78ca3ac87a4deaa3146757b6efb9d5",
+    "runs/02-accepted/mobile/light-d.jpg": "105c928e216e1fae785f777c638a18e576ee7799dd3bd1f58d744827b45e3e71",
+    "runs/02-accepted/mobile/oblique-d.jpg": "f06aba63307a0eab056361f94583fc290596bd78bb372e550120c873d45d23cc",
+    "runs/02-accepted/mobile/whole-f.jpg": "a72dd894a1e0469797889e33bf54a523e20dddb26c770e81350214da32bbcd0e",
+    "runs/02-accepted/mobile/whole-d.jpg": "b5065085ad4b79fe94f1301152b7488d47822bc78a0cbeff065fc02a579bac07",
+    "runs/02-accepted/mobile/whole-e.jpg": "aac158642035f6b5737aca5828e06944fceb361735df36d00f77b0a1aa8fecb3",
+    "runs/02-accepted/mobile/oblique-f.jpg": "bbcc6b6ce817d789461103a98742b02f88a7696c6507be0f81a2f9c2cac91965",
+    "runs/02-accepted/mobile/survey-a.jpg": "848b793cc6889320f8d457454efdf8777ce734b914cb6102b2b1d66244a3cd8a",
+    "runs/02-accepted/mobile/lift-f.jpg": "c3c384d181bc33a28d73439585105ab3b28e4f7570f3fef5c086ab99bb482bd9",
+    "runs/02-accepted/mobile/survey-f.jpg": "81dc7d3eb6995f427527ffb376710e1fd6bd5f724133c3ead7702577a331b176",
+    "runs/02-accepted/mobile/lift-d.jpg": "928be7a053a13b6c6c6cf82cff29d358064a489e21338c750bbdcd5c72d80290",
+    "runs/02-accepted/mobile/section-lift-f.jpg": "229dcc788e82f42d47ed5bff7b4870a248d5f73b8068921ece8a203ef7a416af",
+    "runs/02-accepted/mobile/front-d.jpg": "49ea8a2e1f5df0bf2054af807b926a1c55d2263d42adb8ab5de864f62103cae4",
+    "runs/02-accepted/mobile/front-a.jpg": "e30265ae33149830f80ac4bc23cedb7ebab0eb4ddba75482bf2deda62150ed18",
+    "runs/02-accepted/mobile/front-c.jpg": "2fd3c9933e3249ddf3517217fe09a56622ad8d55ecfc09005587d0577b209e9b",
+    "runs/02-accepted/mobile/front-b.jpg": "b002a7eb90396d8dd104d6bc17cb222b1e3e8b4c7fb80e46dceda8f22ea97235"
+  },
+  "runtimeSourceHashesMatch": true,
+  "manifestDifference": "Only sourceFiles expanded to hash audit and research/operation documents after UI replay; all geometry/material/camera/check parameters identical."
+}

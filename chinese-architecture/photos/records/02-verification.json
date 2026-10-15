@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-10-15T10:37:55.196864+00:00",
+  "photos": 18,
+  "newPhotos": 14,
+  "R2Objects": 72,
+  "newR2Objects": 56,
+  "nodeTestsPassed": 58,
+  "publicHttp": {
+    "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-plaque/b3f58e2ef163158c/full.webp",
+    "http": 403
+  },
+  "sources": {
+    "chinese-architecture/photos/.gitignore": "99edded3980e7a39b59eb21ae83673b1d363ed32a347119da007daa4e302f103",
+    "chinese-architecture/photos/assets.json": "4c8afd12602930098285b7e46951e8262f099f1508662cab30265f02e6ef7d89",
+    "chinese-architecture/photos/catalog.js": "91896a1f1dbaaa4db96c21f109c8d9e3283a75c7e4e8e0ca8667bd91ac7f4c2f",
+    "chinese-architecture/photos/gallery.js": "bf9d61f18e549a0a2c8f13309dd940d20f601af2255fc23eb28a9b3884ad6cbb",
+    "chinese-architecture/photos/gallery.css": "1582a4f478ca53bbf393cde9c08db723855e7ed6a7f01a1af0b30e6308e21b04",
+    "chinese-architecture/photos/preview.html": "e838984fefe49c38ea19e0d50017840fba605589104b300cbf936a029a4f66d0",
+    "chinese-architecture/photos/tools/prepare.py": "f055807aa9e503feae0fcfdf550741027861359872ec3b1710c5cdd43e744a7d",
+    "chinese-architecture/photos/catalog.test.js": "0bea02ef64f37cb63888cde8404c193493714fa04e742d55916642a76fb307cb",
+    "chinese-architecture/photos/README.md": "c162fdc809288002b93ae3b80026a86a0b22fc0c8d6e2b8f34fd6268088f2a95",
+    "chinese-architecture/taihe/app.js": "fe8ebdce8387e1cb1726819d29244efd2b6fbe765755cff3c3304c4e3079cd60",
+    "chinese-architecture/taihe/index.html": "004e265e503f1ab2479f787b240890374b8ddf04711935a79d92dbcbeb82f297",
+    "chinese-architecture/taimiao/app.js": "d41b88f9ee94915125c935c737106148efc874259f4af46efa266f38e2ff083c",
+    "chinese-architecture/taimiao/index.html": "9e284cfb30081612738990ea12156f82815d10b37231af3cb5d6d07395373b3e"
+  },
+  "browser": "02-browser.json",
+  "imageAudit": "02-assets.json",
+  "tests": "02-tests.txt",
+  "publication": "R2 photographs uploaded; reading page code remains local and uncommitted"
+}

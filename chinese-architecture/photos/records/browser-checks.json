@@ -1,0 +1,85 @@
+{
+  "method": "CUA actual UI; fixed iframe sizes where stated; local WebP fallback after public CDN HTTP 403",
+  "results": [
+    {
+      "dialog": true,
+      "full": [
+        4000,
+        3000
+      ],
+      "pan": [
+        4908,
+        1227,
+        3681,
+        644
+      ],
+      "scroll": 1280,
+      "width": 1280,
+      "zoom": "400%"
+    },
+    {
+      "case": "desktop-model-link",
+      "chapter": "装饰归架",
+      "photo": "把藻井放回殿内，才读得懂位置"
+    },
+    {
+      "case": "taihe-mobile-dialog",
+      "full": [
+        4000,
+        3000
+      ],
+      "offset": [
+        570,
+        290
+      ],
+      "pan": 1520,
+      "scroll": 390,
+      "width": 390,
+      "zoom": "400%"
+    },
+    {
+      "case": "taimiao-mobile-dialog",
+      "full": [
+        3888,
+        2592
+      ],
+      "scroll": 390,
+      "width": 390,
+      "zoom": "100%"
+    },
+    {
+      "case": "taimiao-model-link",
+      "chapter": "金饰有载体"
+    },
+    {
+      "case": "taimiao-desktop-front",
+      "full": [
+        4500,
+        3000
+      ],
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "case": "taihe-interior-full",
+      "full": [
+        4000,
+        3000
+      ]
+    },
+    {
+      "case": "mobile-focus-return",
+      "focused": "photo-open"
+    },
+    {
+      "case": "final-desktop-centered-zoom",
+      "offset": [
+        1791,
+        1473.5
+      ],
+      "scroll": 1246,
+      "width": 1246,
+      "zoom": "400%"
+    }
+  ]
+}

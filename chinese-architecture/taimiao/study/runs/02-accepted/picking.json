@@ -1,0 +1,28 @@
+{
+  "method": "CUA actual click at observed screen coordinate [650,480]",
+  "before": {
+    "id": "taimiao-roof-v2/upper/front/1/pan/-3/39",
+    "layer": "roof",
+    "kind": "pan",
+    "world": [
+      -0.800000011920929,
+      19.677318572998047,
+      11.362607955932617
+    ],
+    "status": "比例推定",
+    "source": "vb-eaves / T-fig28: 可见瓦垄与檐下层次；尺寸和截面推定"
+  },
+  "after": {
+    "id": "taimiao-roof-v2/upper/front/1/pan/-3/39",
+    "layer": "roof",
+    "kind": "pan",
+    "world": [
+      -0.800000011920929,
+      21.677318572998047,
+      11.362607955932617
+    ],
+    "status": "比例推定",
+    "source": "vb-eaves / T-fig28: 可见瓦垄与檐下层次；尺寸和截面推定"
+  },
+  "passed": true
+}

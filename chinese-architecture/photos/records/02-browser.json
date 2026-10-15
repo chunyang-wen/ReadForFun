@@ -1,0 +1,262 @@
+{
+  "method": "CUA actual UI; desktop 1280x900 iframe and mobile 390x844 iframe; screenshot crop of final real photo section",
+  "desktopPhotos": [
+    {
+      "building": "taihe",
+      "pixels": [
+        4000,
+        3000
+      ],
+      "scroll": 1280,
+      "title": "从中轴线看殿身与三台",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-front/09b7e30014360cba/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taihe",
+      "pixels": [
+        4000,
+        3000
+      ],
+      "scroll": 1280,
+      "title": "从东南看，屋面显出进深",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-southeast/edb8b2543f022809/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taihe",
+      "pixels": [
+        4000,
+        3000
+      ],
+      "scroll": 1280,
+      "title": "换到西南，再看两檐交叠",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-southwest/987dfcdf7e3a7603/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taihe",
+      "pixels": [
+        4000,
+        3000
+      ],
+      "scroll": 1280,
+      "title": "转向西北，看背面与山面相接",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-northwest/7497c8bff38611c8/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taihe",
+      "pixels": [
+        3264,
+        2448
+      ],
+      "scroll": 1280,
+      "title": "北侧回望，辨认后檐轮廓",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-rear/33761a9a14a145fe/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taihe",
+      "pixels": [
+        4000,
+        3000
+      ],
+      "scroll": 1280,
+      "title": "顺着椽头，抬头看屋角",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-corner/de04427895b271a3/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taihe",
+      "pixels": [
+        4000,
+        3000
+      ],
+      "scroll": 1280,
+      "title": "柱头上，层叠木件托起檐口",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-dou/30d6e28e8eb13283/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taihe",
+      "pixels": [
+        4000,
+        3000
+      ],
+      "scroll": 1280,
+      "title": "向上看，脊兽立在角脊之上",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-beasts/c7989f57ffe87545/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taihe",
+      "pixels": [
+        3648,
+        2736
+      ],
+      "scroll": 1280,
+      "title": "梁面彩画，有自己的边界与层次",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-paint/91da44e87a39a1cd/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taihe",
+      "pixels": [
+        4000,
+        3000
+      ],
+      "scroll": 1280,
+      "title": "方、八角与圆，层层收拢",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-caisson/803201b5deaed7b1/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taihe",
+      "pixels": [
+        4000,
+        3000
+      ],
+      "scroll": 1280,
+      "title": "把藻井放回殿内，才读得懂位置",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-interior/c001e76ac3eb0a14/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taimiao",
+      "pixels": [
+        4500,
+        3000
+      ],
+      "scroll": 1280,
+      "title": "重檐之下，读出整殿比例",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-front/5dcd95b2eff8838f/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taimiao",
+      "pixels": [
+        7732,
+        5167
+      ],
+      "scroll": 1280,
+      "title": "正面再近看，分辨屋面与檐下",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-front-hd/4fdece03a993792b/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taimiao",
+      "pixels": [
+        3888,
+        2592
+      ],
+      "scroll": 1280,
+      "title": "从斜向看，长檐逐渐退向远处",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-oblique/16e0c6bebf95187e/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taimiao",
+      "pixels": [
+        3264,
+        2448
+      ],
+      "scroll": 1280,
+      "title": "退回广场，连同台基一起看",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-oblique-wide/68180b7fa8506c97/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taimiao",
+      "pixels": [
+        2592,
+        3888
+      ],
+      "scroll": 1280,
+      "title": "沿丹陛仰看，读出台面的高差",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-stairs/abab26cc5686b613/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taimiao",
+      "pixels": [
+        3264,
+        2448
+      ],
+      "scroll": 1280,
+      "title": "匾额上下，彩画沿檐层铺开",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-plaque/b3f58e2ef163158c/full.webp",
+      "width": 1280
+    },
+    {
+      "building": "taimiao",
+      "pixels": [
+        3888,
+        2592
+      ],
+      "scroll": 1280,
+      "title": "抬头，金饰落在木构之上",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-interior/7b17e1d758f5c1ad/full.webp",
+      "width": 1280
+    }
+  ],
+  "mobile": [
+    {
+      "case": "taimiao-portrait-zoom",
+      "full": [
+        2592,
+        3888
+      ],
+      "pan": [
+        1520,
+        2280
+      ],
+      "scroll": 390,
+      "width": 390,
+      "zoom": "400%"
+    },
+    {
+      "case": "taimiao-plaque-model",
+      "node": "finish",
+      "selectedPhoto": "匾额上下，彩画沿檐层铺开"
+    },
+    {
+      "case": "taihe-corner-model",
+      "node": "corner",
+      "photo": "顺着椽头，抬头看屋角"
+    },
+    {
+      "case": "taihe-mobile-grid",
+      "photos": 11,
+      "script": "app.js?v=photo-atlas-02",
+      "scroll": 390,
+      "tiles": [
+        [
+          15.59375,
+          883.1875,
+          175.40625
+        ],
+        [
+          199,
+          883.1875,
+          175.40625
+        ],
+        [
+          15.59375,
+          1031.1875,
+          175.40625
+        ]
+      ],
+      "width": 390
+    }
+  ],
+  "earlierNotes": [
+    "An earlier iframe reused cached app.js and selected upper instead of corner. Explicit script and module versions were added; final observed node was corner.",
+    "Earlier iframe helper reported MutationObserver errors during reload; final verification used a fresh tab and explicit source version."
+  ],
+  "limits": [
+    "Width-based iframe checks are not physical device or GPU emulation.",
+    "Photo decoding does not certify model geometry.",
+    "Public CDN failures use licensed local WebP fallback."
+  ]
+}

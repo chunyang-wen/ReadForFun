@@ -1,0 +1,873 @@
+{
+  "timestamp": "2026-10-15T10:32:13.494467+00:00",
+  "photos": 18,
+  "objects": 72,
+  "uploadedAndS3ReadBackVerified": 72,
+  "colorProfileChecks": "all display, thumbnail and full WebP ICC bytes equal their source originals",
+  "records": [
+    {
+      "id": "taimiao-front",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-front/5dcd95b2eff8838f/original.jpg",
+      "sha256": "5dcd95b2eff8838f0687a928837e8bde3351768294e7acecea32b643e8461d78",
+      "bytes": 5755135,
+      "pixels": [
+        4500,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-front",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-front/5dcd95b2eff8838f/display.webp",
+      "sha256": "460479afc6e27591cab785499bac646fe15280504e528b1e387e3009a5ac5d41",
+      "bytes": 303838,
+      "pixels": [
+        1600,
+        1067
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-front",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-front/5dcd95b2eff8838f/thumb.webp",
+      "sha256": "dbc4ba9df53876f92cdeaf05844f3781d659b0821b276533fb8ef7d14469853c",
+      "bytes": 28520,
+      "pixels": [
+        480,
+        320
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-front",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-front/5dcd95b2eff8838f/full.webp",
+      "sha256": "46d00eeaf7fa580b416440f911d2a41807ab9a517405e1bc0d88e922966fd2bb",
+      "bytes": 1848660,
+      "pixels": [
+        4500,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-interior",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-interior/7b17e1d758f5c1ad/original.jpg",
+      "sha256": "7b17e1d758f5c1ade8ee4d59f2361e722f29c917d1ec08451c3789d728892308",
+      "bytes": 3968000,
+      "pixels": [
+        3888,
+        2592
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-interior",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-interior/7b17e1d758f5c1ad/display.webp",
+      "sha256": "c061f13954ce90a82951fb4ba430dcca05382b4e27ec1dabe932b12907bc57bb",
+      "bytes": 402710,
+      "pixels": [
+        1600,
+        1067
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-interior",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-interior/7b17e1d758f5c1ad/thumb.webp",
+      "sha256": "8ac0da954f11df1f2e93f8b39116148213b3036879107c25911ce8c2e2a8ee6e",
+      "bytes": 54874,
+      "pixels": [
+        480,
+        320
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-interior",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-interior/7b17e1d758f5c1ad/full.webp",
+      "sha256": "5578c43c0e710c78197f6a153aba8e9eddd1fbbb715bccae5fc051e8c7fc95e4",
+      "bytes": 1489658,
+      "pixels": [
+        3888,
+        2592
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-caisson",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-caisson/803201b5deaed7b1/original.jpg",
+      "sha256": "803201b5deaed7b1846b6951d527698c729d7f14dec3119e85c6a505938a93cb",
+      "bytes": 6053520,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-caisson",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-caisson/803201b5deaed7b1/display.webp",
+      "sha256": "83110c9e655f26045a496e48651bff5ec332d1f68b2bf6fd62db3527ee43df42",
+      "bytes": 383864,
+      "pixels": [
+        1600,
+        1200
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-caisson",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-caisson/803201b5deaed7b1/thumb.webp",
+      "sha256": "8d11a30d913b8e46b7426e3f90e5d2671abefe8bba3c49516709248821bcc09b",
+      "bytes": 49626,
+      "pixels": [
+        480,
+        360
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-caisson",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-caisson/803201b5deaed7b1/full.webp",
+      "sha256": "3212151614c785ece14827a5549275ebf662d72ea21992e4ee790d4930cd8be0",
+      "bytes": 1646578,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-interior",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-interior/c001e76ac3eb0a14/original.jpg",
+      "sha256": "c001e76ac3eb0a14e21cec2f522f1cbf38bb0ed92dedb1669e1080439b344a6b",
+      "bytes": 5846437,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-interior",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-interior/c001e76ac3eb0a14/display.webp",
+      "sha256": "5b8ac843a8b3134bf9f6c567e4b06330845c87e7d46f43cb3ed9881bbb9b1bf9",
+      "bytes": 384748,
+      "pixels": [
+        1600,
+        1200
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-interior",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-interior/c001e76ac3eb0a14/thumb.webp",
+      "sha256": "2a36bd6eeaf061badc0dd9290fbce7fa8f7be8e0b8b85b794919812240c87eeb",
+      "bytes": 45704,
+      "pixels": [
+        480,
+        360
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-interior",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-interior/c001e76ac3eb0a14/full.webp",
+      "sha256": "288d04440d493a908e4e87824e26a0777cb136a4ac56c2a5625363e5dfb0df93",
+      "bytes": 1629790,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-front",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-front/09b7e30014360cba/original.jpg",
+      "sha256": "09b7e30014360cba88fed07eb734c8c4fcc0342bdeae88ce64b3432c2c6f5c59",
+      "bytes": 4270901,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-front",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-front/09b7e30014360cba/display.webp",
+      "sha256": "7ffb65b71591c79eb9a45f024f373ff1690377bd7018b143a179a579c996f3f8",
+      "bytes": 256740,
+      "pixels": [
+        1600,
+        1200
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-front",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-front/09b7e30014360cba/thumb.webp",
+      "sha256": "0816a3ba02c05bdd6035e17172986b7f5ff86a8683092ae77d25c6cd2d863c78",
+      "bytes": 28692,
+      "pixels": [
+        480,
+        360
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-front",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-front/09b7e30014360cba/full.webp",
+      "sha256": "27e097fd7f8d242adf2b633c986c9e88d81953576761985a5fbdb7fb50d839b8",
+      "bytes": 1100388,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-southeast",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-southeast/edb8b2543f022809/original.jpg",
+      "sha256": "edb8b2543f0228098ef356768189f393d870decf37a2a5deae06441ca6960f08",
+      "bytes": 4003712,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-southeast",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-southeast/edb8b2543f022809/display.webp",
+      "sha256": "40cb6a531fc8b40124d232a0ed97b9d4843ecb3db4edb433497cbbe1b84c6e77",
+      "bytes": 212102,
+      "pixels": [
+        1600,
+        1200
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-southeast",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-southeast/edb8b2543f022809/thumb.webp",
+      "sha256": "2c6dd20034e5c92e4aec7901ca610058de4aa1472f591149520fe2eef9390b9c",
+      "bytes": 22902,
+      "pixels": [
+        480,
+        360
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-southeast",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-southeast/edb8b2543f022809/full.webp",
+      "sha256": "6b4ca4f32521b54d22530b8a19169141a46fa09520ed8d0ee18187bf567bcb94",
+      "bytes": 884688,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-southwest",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-southwest/987dfcdf7e3a7603/original.jpg",
+      "sha256": "987dfcdf7e3a760380214bf44023afee5a83d9920c6985527948093beb17d669",
+      "bytes": 3880747,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-southwest",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-southwest/987dfcdf7e3a7603/display.webp",
+      "sha256": "520f264e81301e8fccb19fee594e3dfe7945c5296453edee01de40df36e146be",
+      "bytes": 189272,
+      "pixels": [
+        1600,
+        1200
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-southwest",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-southwest/987dfcdf7e3a7603/thumb.webp",
+      "sha256": "11b7992782b7edf21922408e8e5e3c88e4e0d708c6089cca739ce96332f3e208",
+      "bytes": 18882,
+      "pixels": [
+        480,
+        360
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-southwest",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-southwest/987dfcdf7e3a7603/full.webp",
+      "sha256": "4b095cfc4617b20f6a8f6d4265c4150d72920bef471f8e8487b40638fc6c3db5",
+      "bytes": 854932,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-rear",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-rear/33761a9a14a145fe/original.jpg",
+      "sha256": "33761a9a14a145fe8ecb0a56009df499a495e7a8b5cdef92c4d8075546501786",
+      "bytes": 2402754,
+      "pixels": [
+        3264,
+        2448
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-rear",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-rear/33761a9a14a145fe/display.webp",
+      "sha256": "2aec94d6c70d2059f2b32a640677bb645201571c6c6bf8c37de7237fb29caa46",
+      "bytes": 285784,
+      "pixels": [
+        1600,
+        1200
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-rear",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-rear/33761a9a14a145fe/thumb.webp",
+      "sha256": "a527cee68b7d4814b78c716cee76426b973970af789e297b50e9b4e8e91b3199",
+      "bytes": 35836,
+      "pixels": [
+        480,
+        360
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-rear",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-rear/33761a9a14a145fe/full.webp",
+      "sha256": "84bd98e4c96fcb98f708b348c41d843aae73083abdc5b291b36b782de111bd02",
+      "bytes": 950728,
+      "pixels": [
+        3264,
+        2448
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-corner",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-corner/de04427895b271a3/original.jpg",
+      "sha256": "de04427895b271a320b3b8a5fe5a853089258d7adfaa53c06802581402ce0547",
+      "bytes": 5554472,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-corner",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-corner/de04427895b271a3/display.webp",
+      "sha256": "dbf9aac23de3126be2414b36ff89386c4370964c67a2f5bb13b4c0e129de515d",
+      "bytes": 375368,
+      "pixels": [
+        1600,
+        1200
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-corner",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-corner/de04427895b271a3/thumb.webp",
+      "sha256": "74ccc2504bda79b5d045318766fcd4e475d6f4cbb20a9afdc5cfd0420c697d1b",
+      "bytes": 50644,
+      "pixels": [
+        480,
+        360
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-corner",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-corner/de04427895b271a3/full.webp",
+      "sha256": "7a607cd0bc63052f910f87e6059486ac4a2a8d850ae12e11683de02475ce0be5",
+      "bytes": 1435372,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-paint",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-paint/91da44e87a39a1cd/original.jpg",
+      "sha256": "91da44e87a39a1cdcc349b7e636ec8d39d962e086eea0e947615351c60d46f6d",
+      "bytes": 2979051,
+      "pixels": [
+        3648,
+        2736
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-paint",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-paint/91da44e87a39a1cd/display.webp",
+      "sha256": "da55ecf7cbe8c5f0bdf541d326e274873c1706b66a3c561da40f8ccc7dada7f3",
+      "bytes": 410410,
+      "pixels": [
+        1600,
+        1200
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-paint",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-paint/91da44e87a39a1cd/thumb.webp",
+      "sha256": "cc4e6e48aa9d136baffb3dbae5f0274fb21a7dc688aabbeab5ef3912d6672148",
+      "bytes": 60790,
+      "pixels": [
+        480,
+        360
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-paint",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-paint/91da44e87a39a1cd/full.webp",
+      "sha256": "b3e8fa91ea03d4124ac27825716f6643d32094c06d88107a87d0dfecaba09774",
+      "bytes": 1448518,
+      "pixels": [
+        3648,
+        2736
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-northwest",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-northwest/7497c8bff38611c8/original.jpg",
+      "sha256": "7497c8bff38611c898fa7cc7bcf6213e9e2242e87181389c75b1b31bd817d819",
+      "bytes": 4040899,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-northwest",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-northwest/7497c8bff38611c8/display.webp",
+      "sha256": "d38531faf1e787340c689cedcaedc60f6e6234a00bcef3103fe24ee3607eb544",
+      "bytes": 196202,
+      "pixels": [
+        1600,
+        1200
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-northwest",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-northwest/7497c8bff38611c8/thumb.webp",
+      "sha256": "fa8db88e1477e37c66ebb758f9778d7316326ae1d45db05f23a4d41b865213b0",
+      "bytes": 23294,
+      "pixels": [
+        480,
+        360
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-northwest",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-northwest/7497c8bff38611c8/full.webp",
+      "sha256": "e265b9ff2bb771fadc909b2596898b98ffb274490450f653c87e73360277730c",
+      "bytes": 850768,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-dou",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-dou/30d6e28e8eb13283/original.jpg",
+      "sha256": "30d6e28e8eb132836a28c81ba17fb56f1019cb9e2f17fd224a4164e5b149aef2",
+      "bytes": 8295362,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-dou",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-dou/30d6e28e8eb13283/display.webp",
+      "sha256": "901a63a75c83ab4a86a03dac2139e369cc890d3208b5f1434855a07b37fc85fa",
+      "bytes": 685856,
+      "pixels": [
+        1600,
+        1200
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-dou",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-dou/30d6e28e8eb13283/thumb.webp",
+      "sha256": "47ed76e9e53f263065d222f9dd73b28848ce032f155da8d92365b4df53b66335",
+      "bytes": 76896,
+      "pixels": [
+        480,
+        360
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-dou",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-dou/30d6e28e8eb13283/full.webp",
+      "sha256": "01b140faaa8d01555255da3e9da1fac9bc00591525b953fb5f64d9c85525e185",
+      "bytes": 2680650,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-beasts",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-beasts/c7989f57ffe87545/original.jpg",
+      "sha256": "c7989f57ffe87545c9d404d8315eff0f8bd99cc545bcad8c40df76efe2096a98",
+      "bytes": 4867403,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-beasts",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-beasts/c7989f57ffe87545/display.webp",
+      "sha256": "6d27f78c322f7e3e1f83addf7202769b9b171f0c7acdabc94c33a300b2a6a0ef",
+      "bytes": 257590,
+      "pixels": [
+        1600,
+        1200
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-beasts",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-beasts/c7989f57ffe87545/thumb.webp",
+      "sha256": "c800535928aebfa7de28bd55c60c2d1ddaa3d7edee0f66add7ab8814eb96cd68",
+      "bytes": 33898,
+      "pixels": [
+        480,
+        360
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taihe-beasts",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taihe-beasts/c7989f57ffe87545/full.webp",
+      "sha256": "721fd0a08f72378f07a6a7ede25602c2cc9af01928d8681d0a291ae9c57bb6be",
+      "bytes": 1152828,
+      "pixels": [
+        4000,
+        3000
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-front-hd",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-front-hd/4fdece03a993792b/original.jpg",
+      "sha256": "4fdece03a993792b373360b49d8ae00c01377988453dcca0105b7d9ed0bf624a",
+      "bytes": 21966741,
+      "pixels": [
+        7732,
+        5167
+      ],
+      "iccProfileBytes": 560
+    },
+    {
+      "id": "taimiao-front-hd",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-front-hd/4fdece03a993792b/display.webp",
+      "sha256": "53f05bdc0de02f1d4151cd9e4f4151db41d46f6d0237a7219266d7013959a433",
+      "bytes": 303814,
+      "pixels": [
+        1600,
+        1069
+      ],
+      "iccProfileBytes": 560
+    },
+    {
+      "id": "taimiao-front-hd",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-front-hd/4fdece03a993792b/thumb.webp",
+      "sha256": "90f8c58a127b2152ad972e501d3455c85aaab6a3ae5ce5ffca07300e91c20c57",
+      "bytes": 26946,
+      "pixels": [
+        480,
+        321
+      ],
+      "iccProfileBytes": 560
+    },
+    {
+      "id": "taimiao-front-hd",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-front-hd/4fdece03a993792b/full.webp",
+      "sha256": "9b7d62c8a154d5908733bc7730f5801788d881251885bc1b67c14f1fc6001a83",
+      "bytes": 4863312,
+      "pixels": [
+        7732,
+        5167
+      ],
+      "iccProfileBytes": 560
+    },
+    {
+      "id": "taimiao-oblique",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-oblique/16e0c6bebf95187e/original.jpg",
+      "sha256": "16e0c6bebf95187ec5a74d7f97a317a2d3ddc1479b7cdffc83643e9d0c241a5f",
+      "bytes": 3154944,
+      "pixels": [
+        3888,
+        2592
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-oblique",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-oblique/16e0c6bebf95187e/display.webp",
+      "sha256": "1f4c387686f9698d4dc2731e76008b7a4e4a66b6aaa4f6fc325ef91841d064aa",
+      "bytes": 215632,
+      "pixels": [
+        1600,
+        1067
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-oblique",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-oblique/16e0c6bebf95187e/thumb.webp",
+      "sha256": "10b42384b1449ec0be74c4bc1efeab36e34631ea52228cb4a8305a0ee7df705c",
+      "bytes": 21874,
+      "pixels": [
+        480,
+        320
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-oblique",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-oblique/16e0c6bebf95187e/full.webp",
+      "sha256": "4f8f30120aa88f914433dae923aabeef872ee7ea6928694dbca2329860475dec",
+      "bytes": 1116626,
+      "pixels": [
+        3888,
+        2592
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-stairs",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-stairs/abab26cc5686b613/original.jpg",
+      "sha256": "abab26cc5686b613821644aba6b3a7eb82dba6006b06771a08e8ca46e03cd169",
+      "bytes": 3943936,
+      "pixels": [
+        3888,
+        2592
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-stairs",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-stairs/abab26cc5686b613/display.webp",
+      "sha256": "ffc1bc67e96982f835b625c6081cd46ea1e9e3eea4c423cfc7a2d12a254b961c",
+      "bytes": 333976,
+      "pixels": [
+        1067,
+        1600
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-stairs",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-stairs/abab26cc5686b613/thumb.webp",
+      "sha256": "fa1b629bb08ec7c79b421a0a9dc99753f0a68b3abacee415c0af4fb300c752cd",
+      "bytes": 36544,
+      "pixels": [
+        320,
+        480
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-stairs",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-stairs/abab26cc5686b613/full.webp",
+      "sha256": "287dddf8d98f7d674b7676ef04fb8ad418b46476ec99a1f3532543078f1f03ab",
+      "bytes": 1625480,
+      "pixels": [
+        2592,
+        3888
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-oblique-wide",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-oblique-wide/68180b7fa8506c97/original.jpg",
+      "sha256": "68180b7fa8506c973a4a62d969db8d1e4611f5480befe9565bbe973d8320ad68",
+      "bytes": 2094134,
+      "pixels": [
+        3264,
+        2448
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-oblique-wide",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-oblique-wide/68180b7fa8506c97/display.webp",
+      "sha256": "3980edc43f7d4251f0c5097f7d34ce4ded37579eae806cd07c67073229e30bbe",
+      "bytes": 284734,
+      "pixels": [
+        1600,
+        1200
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-oblique-wide",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-oblique-wide/68180b7fa8506c97/thumb.webp",
+      "sha256": "ae6ef35233715d66da9be3b6e0747a8f39043aac24bb95e3893695779e8b399b",
+      "bytes": 29222,
+      "pixels": [
+        480,
+        360
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-oblique-wide",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-oblique-wide/68180b7fa8506c97/full.webp",
+      "sha256": "1a055bfdc3447912970205ab8eea0c1f79b6e0f65283fa67063608933b499168",
+      "bytes": 1004258,
+      "pixels": [
+        3264,
+        2448
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-plaque",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-plaque/b3f58e2ef163158c/original.jpg",
+      "sha256": "b3f58e2ef163158c8ff9f16f84e314213b5aab38d0e2efd41b2beb6c5c35f2e6",
+      "bytes": 2904772,
+      "pixels": [
+        3264,
+        2448
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-plaque",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-plaque/b3f58e2ef163158c/display.webp",
+      "sha256": "aef2db4f5b318673d9648598492f691d08a166436b9fd3242d4ac196b7af5b93",
+      "bytes": 516102,
+      "pixels": [
+        1600,
+        1200
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-plaque",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-plaque/b3f58e2ef163158c/thumb.webp",
+      "sha256": "127a249ed38fae0eb426e94ec30145e67b464a051918deefc4690cd9b3ac1da2",
+      "bytes": 69394,
+      "pixels": [
+        480,
+        360
+      ],
+      "iccProfileBytes": 0
+    },
+    {
+      "id": "taimiao-plaque",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/taimiao-plaque/b3f58e2ef163158c/full.webp",
+      "sha256": "2a61844c4a1130bad01928aa0407c0d10d0e1457b7f4c385042af6236dd0576c",
+      "bytes": 1561846,
+      "pixels": [
+        3264,
+        2448
+      ],
+      "iccProfileBytes": 0
+    }
+  ]
+}
