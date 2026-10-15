@@ -1,0 +1,36 @@
+{
+  "url": "http://localhost:8765/chinese-architecture/yingxian/study/comparison.html",
+  "images": [
+    {
+      "complete": true,
+      "src": "runs/01-verified/desktop/front-a.jpg",
+      "width": 1280
+    },
+    {
+      "complete": true,
+      "src": "runs/01-verified/desktop/front-d.jpg",
+      "width": 1280
+    },
+    {
+      "complete": true,
+      "src": "runs/01-verified/desktop/corner-a.jpg",
+      "width": 1280
+    },
+    {
+      "complete": true,
+      "src": "runs/01-verified/desktop/corner-d.jpg",
+      "width": 1280
+    },
+    {
+      "complete": true,
+      "src": "runs/01-verified/desktop/whole-a.jpg",
+      "width": 1280
+    },
+    {
+      "complete": true,
+      "src": "runs/01-verified/desktop/whole-d.jpg",
+      "width": 1280
+    }
+  ],
+  "logs": []
+}

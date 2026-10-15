@@ -1,0 +1,1055 @@
+{
+  "schema": "architecture-replay/v1",
+  "architecture": "taihe",
+  "revision": "03",
+  "viewport": "desktop",
+  "utc": "2026-10-15T06:03:13.018Z",
+  "results": [
+    {
+      "id": "front-a",
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "a",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          18,
+          26
+        ],
+        "target": [
+          0,
+          15.1,
+          14.500000000000002
+        ],
+        "sampleRecords": 981,
+        "referenceVisible": false,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": null,
+        "plaqueVisible": false,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 349,
+        "triangles": 2950002,
+        "geometries": 291,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "front-b",
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "b",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          18,
+          26
+        ],
+        "target": [
+          0,
+          15.1,
+          14.500000000000002
+        ],
+        "sampleRecords": 981,
+        "referenceVisible": false,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": null,
+        "plaqueVisible": false,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 349,
+        "triangles": 2950002,
+        "geometries": 291,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "front-c",
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "c",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          18,
+          26
+        ],
+        "target": [
+          0,
+          15.1,
+          14.500000000000002
+        ],
+        "sampleRecords": 981,
+        "referenceVisible": false,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": null,
+        "plaqueVisible": false,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 357,
+        "triangles": 3085066,
+        "geometries": 295,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "front-d",
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "d",
+        "view": "patch",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          18,
+          26
+        ],
+        "target": [
+          0,
+          15.1,
+          14.500000000000002
+        ],
+        "sampleRecords": 1005,
+        "referenceVisible": false,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": null,
+        "plaqueVisible": true,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 367,
+        "triangles": 3212726,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "plaque-d",
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "d",
+        "view": "plaque",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          14,
+          29
+        ],
+        "target": [
+          0,
+          12.7,
+          14.500000000000002
+        ],
+        "sampleRecords": 1005,
+        "referenceVisible": false,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": null,
+        "plaqueVisible": true,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 369,
+        "triangles": 3212730,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "oblique-d",
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          8.000000000000002,
+          18,
+          25.000000000000004
+        ],
+        "target": [
+          0,
+          14.3,
+          14.500000000000002
+        ],
+        "sampleRecords": 1005,
+        "referenceVisible": false,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": null,
+        "plaqueVisible": true,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 337,
+        "triangles": 3212666,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "light-d",
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": true,
+        "camera": [
+          8.000000000000002,
+          18,
+          25.000000000000004
+        ],
+        "target": [
+          0,
+          14.3,
+          14.500000000000002
+        ],
+        "sampleRecords": 1005,
+        "referenceVisible": false,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": null,
+        "plaqueVisible": true,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 337,
+        "triangles": 3212666,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "lift-d",
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "d",
+        "view": "oblique",
+        "roofLift": true,
+        "alternateLight": false,
+        "camera": [
+          8.000000000000002,
+          18,
+          25.000000000000004
+        ],
+        "target": [
+          0,
+          14.3,
+          14.500000000000002
+        ],
+        "sampleRecords": 1005,
+        "referenceVisible": false,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": null,
+        "plaqueVisible": true,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 335,
+        "triangles": 3212662,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "whole-d",
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "d",
+        "view": "whole",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          20,
+          119.99999999999999
+        ],
+        "target": [
+          0,
+          12.5,
+          0
+        ],
+        "sampleRecords": 1005,
+        "referenceVisible": false,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": null,
+        "plaqueVisible": true,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 375,
+        "triangles": 3212742,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "plaque-e",
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "e",
+        "view": "plaque",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          0,
+          14,
+          29
+        ],
+        "target": [
+          0,
+          12.7,
+          14.500000000000002
+        ],
+        "sampleRecords": 1005,
+        "referenceVisible": true,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": null,
+        "plaqueVisible": false,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 379,
+        "triangles": 3370958,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "oblique-e",
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "e",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          8.000000000000002,
+          18,
+          25.000000000000004
+        ],
+        "target": [
+          0,
+          14.3,
+          14.500000000000002
+        ],
+        "sampleRecords": 1005,
+        "referenceVisible": true,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": null,
+        "plaqueVisible": false,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 347,
+        "triangles": 3370894,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "light-e",
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "e",
+        "view": "oblique",
+        "roofLift": false,
+        "alternateLight": true,
+        "camera": [
+          8.000000000000002,
+          18,
+          25.000000000000004
+        ],
+        "target": [
+          0,
+          14.3,
+          14.500000000000002
+        ],
+        "sampleRecords": 1005,
+        "referenceVisible": true,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": null,
+        "plaqueVisible": false,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 347,
+        "triangles": 3370894,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "lift-e",
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "e",
+        "view": "oblique",
+        "roofLift": true,
+        "alternateLight": false,
+        "camera": [
+          8.000000000000002,
+          18,
+          25.000000000000004
+        ],
+        "target": [
+          0,
+          14.3,
+          14.500000000000002
+        ],
+        "sampleRecords": 1005,
+        "referenceVisible": true,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": null,
+        "plaqueVisible": false,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 345,
+        "triangles": 3370890,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "id": "photo-e",
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "e",
+        "view": "photo",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          -0.00031686846693937187,
+          12.441609281269912,
+          25.485167644685312
+        ],
+        "target": [
+          -0.0000012156853340232498,
+          12.849870589205143,
+          15.74169659523846
+        ],
+        "sampleRecords": 1005,
+        "referenceVisible": true,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": {
+          "fitPixels": 0.05104695332173362,
+          "holdoutPixels": 0.031394685587716194,
+          "projected": [
+            [
+              285.95486081432074,
+              520.0349706973287
+            ],
+            [
+              710.0523218171912,
+              520.0276757808841
+            ],
+            [
+              712.0251773151739,
+              1047.9637355567888
+            ],
+            [
+              283.9677022630055,
+              1047.974173700211
+            ]
+          ],
+          "scope": "匾额平面局部，固定FOV；整殿与隐蔽深度未认证"
+        },
+        "plaqueVisible": false,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 317,
+        "triangles": 3370834,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      },
+      "layout": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    }
+  ],
+  "logs": [],
+  "localRegistration": [
+    {
+      "opacity": 0,
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "e",
+        "view": "photo",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          -0.00031686846693937187,
+          12.441609281269912,
+          25.485167644685312
+        ],
+        "target": [
+          -0.0000012156853340232498,
+          12.849870589205143,
+          15.74169659523846
+        ],
+        "sampleRecords": 1005,
+        "referenceVisible": true,
+        "referenceCount": 8,
+        "photoOpacity": 0,
+        "calibration": {
+          "fitPixels": 0.05104695332173362,
+          "holdoutPixels": 0.031394685587716194,
+          "projected": [
+            [
+              285.95486081432074,
+              520.0349706973287
+            ],
+            [
+              710.0523218171912,
+              520.0276757808841
+            ],
+            [
+              712.0251773151739,
+              1047.9637355567888
+            ],
+            [
+              283.9677022630055,
+              1047.974173700211
+            ]
+          ],
+          "scope": "匾额平面局部，固定FOV；整殿与隐蔽深度未认证"
+        },
+        "plaqueVisible": false,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 317,
+        "triangles": 3370834,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      }
+    },
+    {
+      "opacity": 50,
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "e",
+        "view": "photo",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          -0.00031686846693937187,
+          12.441609281269912,
+          25.485167644685312
+        ],
+        "target": [
+          -0.0000012156853340232498,
+          12.849870589205143,
+          15.74169659523846
+        ],
+        "sampleRecords": 1005,
+        "referenceVisible": true,
+        "referenceCount": 8,
+        "photoOpacity": 50,
+        "calibration": {
+          "fitPixels": 0.05104695332173362,
+          "holdoutPixels": 0.031394685587716194,
+          "projected": [
+            [
+              285.95486081432074,
+              520.0349706973287
+            ],
+            [
+              710.0523218171912,
+              520.0276757808841
+            ],
+            [
+              712.0251773151739,
+              1047.9637355567888
+            ],
+            [
+              283.9677022630055,
+              1047.974173700211
+            ]
+          ],
+          "scope": "匾额平面局部，固定FOV；整殿与隐蔽深度未认证"
+        },
+        "plaqueVisible": false,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 317,
+        "triangles": 3370834,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      }
+    },
+    {
+      "opacity": 100,
+      "state": {
+        "architecture": "taihe",
+        "revision": "03",
+        "mode": "e",
+        "view": "photo",
+        "roofLift": false,
+        "alternateLight": false,
+        "camera": [
+          -0.00031686846693937187,
+          12.441609281269912,
+          25.485167644685312
+        ],
+        "target": [
+          -0.0000012156853340232498,
+          12.849870589205143,
+          15.74169659523846
+        ],
+        "sampleRecords": 1005,
+        "referenceVisible": true,
+        "referenceCount": 8,
+        "photoOpacity": 100,
+        "calibration": {
+          "fitPixels": 0.05104695332173362,
+          "holdoutPixels": 0.031394685587716194,
+          "projected": [
+            [
+              285.95486081432074,
+              520.0349706973287
+            ],
+            [
+              710.0523218171912,
+              520.0276757808841
+            ],
+            [
+              712.0251773151739,
+              1047.9637355567888
+            ],
+            [
+              283.9677022630055,
+              1047.974173700211
+            ]
+          ],
+          "scope": "匾额平面局部，固定FOV；整殿与隐蔽深度未认证"
+        },
+        "plaqueVisible": false,
+        "plaqueWorldY": 12.25,
+        "removedRibSegments": 128,
+        "drawCalls": 317,
+        "triangles": 3370834,
+        "geometries": 304,
+        "fov": 35,
+        "pixelRatio": 1,
+        "canvasSize": [
+          1208,
+          610
+        ],
+        "lightPosition": [
+          -40,
+          65,
+          45
+        ],
+        "patch": {
+          "halfWidth": 4.26,
+          "pitch": 0.34,
+          "start": 11.1,
+          "end": 16.5,
+          "step": 0.3,
+          "length": 0.43,
+          "radius": 0.12
+        }
+      }
+    }
+  ],
+  "scope": "Only plaque plane; edge checks share the same plane, not independent camera/survey certification"
+}

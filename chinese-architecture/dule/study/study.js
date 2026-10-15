@@ -4,9 +4,9 @@ import {buildModel} from '../model.js';
 import {createBaselineMaterials,createStudyMaterials} from './materials.js';
 import {createRoofSample,replaceSampleRibs} from './roof-sample.js';
 import {applyPairedReach} from './structure-sample.js';
-import {buildRoofEnvelope,replaceRoofLayer,refitRoofMembers} from './roof-envelope.js';
-import {buildExterior,replaceVisibleEnclosure,addPlaqueLettering} from './exterior.js';
-import {buildUpperNode} from './upper-node.js';
+import {buildRoofEnvelope,replaceRoofLayer,refitRoofMembers} from './roof-envelope.js?build=02b';
+import {buildExterior,replaceVisibleEnclosure,addPlaqueLettering} from './exterior.js?build=02b';
+import {buildUpperNode} from './upper-node.js?build=02b';
 import {validateExperiment} from '../../realism-workflow/manifest.js';
 let experiment;
 
@@ -37,12 +37,12 @@ function setView(next){
   view=next;setMode(mode);
   const views=experiment.views;
   const v=views[next];controls.target.fromArray(v.target);
-  const offset=new T.Vector3().fromArray(v.position).sub(controls.target).multiplyScalar(Math.max(1,1.5/camera.aspect));
+  const offset=new T.Vector3().fromArray(v.position).sub(controls.target).multiplyScalar(Math.max(1,.95/camera.aspect));
   camera.position.copy(controls.target).add(offset);controls.update();
   document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));dirty=true;
 }
 function stats(){
-  const data={architecture:experiment.id,revision:experiment.revision,mode,view,roofLift:$('explode').checked,alternateLight:$('light').checked,camera:camera.position.toArray(),target:controls.target.toArray(),sampleRecords:sample.records.length,removedRibSegments:removed,fov:camera.fov,pixelRatio:renderer.getPixelRatio(),patch:experiment.patch,clipEnabled:view==='section',sampleWorldY:sample.root.getWorldPosition(new T.Vector3()).y,columnLayerY:models.c.layers.get('columns').position.y,selected:$('selected').textContent,lighting:{sky:sky.intensity,sun:sun.intensity,fill:fill.intensity,exposure:renderer.toneMappingExposure},drawCalls:renderer.info.render.calls,envelopeVisible:['e','f'].includes(mode)&&!['node','upperNode'].includes(view),envelope:experiment.envelope,exteriorVisible:mode==='f'&&!['node','upperNode'].includes(view),supportLayerY:models.f.layers.get('columns').position.y,upperAngCount:upperNode.records.filter(r=>r.type==='ang').length};
+  const data={architecture:experiment.id,revision:experiment.revision,viewerBuild:'02b',mode,view,roofLift:$('explode').checked,alternateLight:$('light').checked,camera:camera.position.toArray(),target:controls.target.toArray(),sampleRecords:sample.records.length,removedRibSegments:removed,fov:camera.fov,pixelRatio:renderer.getPixelRatio(),patch:experiment.patch,clipEnabled:view==='section',sampleWorldY:sample.root.getWorldPosition(new T.Vector3()).y,columnLayerY:models.c.layers.get('columns').position.y,selected:$('selected').textContent,lighting:{sky:sky.intensity,sun:sun.intensity,fill:fill.intensity,exposure:renderer.toneMappingExposure},drawCalls:renderer.info.render.calls,envelopeVisible:['e','f'].includes(mode)&&!['node','upperNode'].includes(view),envelope:experiment.envelope,exteriorVisible:mode==='f'&&!['node','upperNode'].includes(view),supportLayerY:models.f.layers.get('columns').position.y,upperAngCount:upperNode.records.filter(r=>r.type==='ang').length};
   const value=JSON.stringify(data,null,2);if(value!==lastStats){$('stats').textContent=value;lastStats=value;}
 }
 function initialize(){

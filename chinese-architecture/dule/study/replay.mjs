@@ -2,6 +2,7 @@ import {replay as sharedReplay} from '../../realism-workflow/replay.mjs';
 export async function replay(tab,config,save,options){
  const report=await sharedReplay(tab,config,save,options);
  for(const r of report.results){
+  if(r.state.viewerBuild!==config.viewerBuild)throw Error('Browser cached a different viewer build');
   if(r.state.columnLayerY!==0||r.state.sampleWorldY!==(r.state.roofLift?2:0))throw Error('Roof ownership regression');
   if(JSON.stringify(r.state.envelope)!==JSON.stringify(config.envelope)||r.state.supportLayerY!==0||r.state.upperAngCount!==2)throw Error('Envelope/upper-node regression');
   if(r.state.clipEnabled!==(r.state.view==='section'))throw Error('Section mismatch');

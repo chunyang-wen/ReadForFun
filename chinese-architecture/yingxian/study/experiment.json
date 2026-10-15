@@ -246,6 +246,7 @@
     "chinese-architecture/yingxian/study/history/baseline/model.js",
     "chinese-architecture/yingxian/study/history/baseline/data.js",
     "chinese-architecture/yingxian/study/history/baseline/app.js",
-    "chinese-architecture/yingxian/study/history/baseline/snapshot.json"
+    "chinese-architecture/yingxian/study/history/baseline/snapshot.json",
+    "chinese-architecture/yingxian/study/run-cua.mjs"
   ]
 }
