@@ -1,4 +1,4 @@
-/** ReadForFun dataset */
+/** wonder dataset */
 window.__TANG_POEMS_DATA__ = [
   {
     "id": "li-shen-min-nong-qi-er",
