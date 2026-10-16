@@ -1,0 +1,49 @@
+✔ front upper row omits four full-height posts; the periphery stays continuous (0.797709ms)
+✔ all ground posts rest on distinct bases and platform meets the base feet (0.279792ms)
+✔ four porch posts bear on the center surface of their dedicated sloped beams (0.64575ms)
+✔ main frame lower faces meet central bracket bearing; ends have separate Ding beams (0.538708ms)
+✔ sloped beams use opposite high faces toward the central bay (0.831291ms)
+✔ hump slopes fit the host beam top at both sides, not just their center (0.105916ms)
+✔ every stacked support has positive height and starts on a hump top (1.059333ms)
+✔ bracket scopes distinguish two/three steps and horizontal outward mouths (0.117292ms)
+✔ all roof-frame vertices are under the modeled roof; end frames do not copy the ridge forks (2.228416ms)
+✔ lower skirt keeps its central opening and upper roof has two gable panels (0.442792ms)
+✔ eight front dragon assemblies stay in the decorative system beside continuous posts (0.369583ms)
+✔ unique traceable records and valid transforms, geometry and bounds in every scope (10.908ms)
+✔ whole-hall hump underside follows each host sloped beam at both contact edges (1.357834ms)
+✔ modeled rafter underside touches purlin crowns at the long-slope stations (0.343333ms)
+✔ internal receiving beam seats on capped internal supports and carries main beam feet (0.423292ms)
+✔ each decorative dragon links to a real continuous host column (0.539375ms)
+✔ three split five-rafter frames have separate front Zha members, unlike the through variant (0.401292ms)
+✔ intermediate outward mouths differ from column-head variants without asserting a full joint taxonomy (0.709833ms)
+✔ Jinci current-state frame preserves the two documented rectangular replacements (1.030875ms)
+✖ all eight covering fields and their ceramic surfaces face upwards with no degenerate triangles (2.207042ms)
+✔ all upper rafter cylinder vertices are below this hall roof covering within its footprint (10.438875ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 20
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 188.602625
+
+✖ failing tests:
+
+test at chinese-architecture/jinci/tests/model.test.js:31:1
+✖ all eight covering fields and their ceramic surfaces face upwards with no degenerate triangles (2.207042ms)
+  AssertionError [ERR_ASSERTION]: ceramic/upper/z/-1/body/1
+      at TestContext.<anonymous> (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/jinci/tests/model.test.js:34:363)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

@@ -1,5 +1,6 @@
 import * as T from '../vendor/three.module.js';
-import {LAYERS} from './data.js';
+import {ceramicField} from './ceramic.js?v=jinci-20261016-02b';
+import {LAYERS} from './data.js?v=jinci-20261016-02d';
 // Metres. Absolute dimensions below are teaching proportions, never surveyed coordinates.
 export const SPEC={bays:[3.0,3.6,3.9,5.7,3.9,3.6,3.0],depths:[3.0,3.3,3.3,3.3,3.3,3.0],base:.8,lowHead:5.6,highHead:9.5,slot:1.8};
 const axes=a=>{let x=-a.reduce((s,v)=>s+v,0)/2;return [x,...a.map(v=>x+=v)];};
@@ -14,7 +15,7 @@ const V=a=>new T.Vector3(...a),Y=a=>new T.Quaternion().setFromAxisAngle(V([0,1,0
 const G=(k,f)=>{if(!cache.has(k))cache.set(k,f());return cache.get(k);};
 function prism(points,depth){const s=new T.Shape();points.forEach(([x,y],i)=>i?s.lineTo(x,y):s.moveTo(x,y));s.closePath();const g=new T.ExtrudeGeometry(s,{depth,bevelEnabled:false});g.translate(0,0,-depth/2);return g;}
 const arm=()=>G('arm',()=>prism([[-.5,.12],[-.5,-.01],[-.38,-.04],[-.24,-.15],[.24,-.15],[.38,-.04],[.5,-.01],[.5,.12]],1));
-function patch(points){const p=points.flat(),idx=[];for(let i=0;i<points.length/2-1;i++){const n=i*2;idx.push(n,n+1,n+2,n+1,n+3,n+2);}const g=new T.BufferGeometry();g.setAttribute('position',new T.Float32BufferAttribute(p,3));g.setIndex(idx);g.computeVertexNormals();return g;}
+function patch(points){const p=points.flat(),idx=[];for(let i=0;i<points.length/2-1;i++){const n=i*2;idx.push(n,n+1,n+2,n+1,n+3,n+2);}const g=new T.BufferGeometry();g.setAttribute('position',new T.Float32BufferAttribute(p,3));for(let i=0;i<idx.length;i+=3){const a=V(points[idx[i]]),b=V(points[idx[i+1]]),c=V(points[idx[i+2]]);if(b.sub(a).cross(c.sub(a)).y<0)[idx[i+1],idx[i+2]]=[idx[i+2],idx[i+1]];}g.setIndex(idx);g.computeVertexNormals();return g;}
 // Beam top falls in X; extruded longitudinally in Z. A high-side direction is metadata.
 function slopeGeo(sign=1){return G('slope'+sign,()=>prism([[-.5,-.5],[.5,-.5],[.5,sign===1?.3:.5],[-.5,sign===1?.5:.3]],1));}
 function humpGeo(sign=1){return G('hump'+sign,()=>prism([[-.5,sign===1?.1:-.1],[.5,sign===1?-.1:.1],[.5,.24],[.32,.48],[-.32,.48],[-.5,.24]],1));}
@@ -25,7 +26,7 @@ export function buildModel(materials,{detailOnly=false,node='lower'}={}){
  const box=(l,t,p,s,mat='wood',e={},q=new T.Quaternion())=>add(l,t,boxGeo,p,s,q,mat,e);
  function beam(l,t,a,b,w,h,mat='wood',e={}){const d=V(b).sub(V(a));return add(l,t,boxGeo,V(a).add(V(b)).multiplyScalar(.5).toArray(),[w,d.length(),h],new T.Quaternion().setFromUnitVectors(V([0,1,0]),d.normalize()),mat,{endpoints:[a,b],...e});}
  function round(l,t,a,b,r,mat='wood',e={}){const d=V(b).sub(V(a));return add(l,t,cyl,V(a).add(V(b)).multiplyScalar(.5).toArray(),[r,d.length(),r],new T.Quaternion().setFromUnitVectors(V([0,1,0]),d.normalize()),mat,{endpoints:[a,b],...e});}
- function sloped(l,t,x,y,a,b,w,h,sign,e={}){return add(l,t,slopeGeo(sign),[x,y,(a+b)/2],[w,h,b-a],new T.Quaternion(),'wood',{endpoints:[[x,y,a],[x,y,b]],highSide:sign===1?'-X':'+X',topAtCenter:y+h*.4,...e});}
+ function sloped(l,t,x,y,a,b,w,h,sign,e={}){const flat=e.section==='rectangular';return add(l,t,flat?boxGeo:slopeGeo(sign),[x,y,(a+b)/2],[w,flat?h*.9:h,b-a],new T.Quaternion(),'wood',{endpoints:[[x,y,a],[x,y,b]],highSide:flat?'none':sign===1?'-X':'+X',topAtCenter:y+h*(flat?.45:.4),...e});}
  function dou(p,w=.48,h=.26,q=new T.Quaternion(),e={}){const dg=G('dou',()=>{const g=new T.CylinderGeometry(.707,.43,1,4);g.rotateY(Math.PI/4);return g;});add('brackets','dou',dg,[p[0],p[1]-h*.15,p[2]],[w,h*.7,w],q,'endgrain',e);for(const a of [-1,1])for(const b of [-1,1])box('brackets','dou',V([a*w*.34,h*.34,b*w*.34]).applyQuaternion(q).add(V(p)).toArray(),[w*.32,h*.32,w*.32],'wood',e,q);}
  function bracket(x,y,z,angle,kind='lower',key='local'){const q=Y(angle),P=a=>V(a).applyQuaternion(q).add(V([x,y,z])).toArray(),upper=kind.startsWith('upper'),flat=kind.endsWith('-flat'),n=upper?3:2;
  const meta=k=>({key:`${key}/${k}`,assembly:key,tier:k,kind,status:'图像判读',source:'故宫103页图十之8；尺度推定'});
@@ -46,7 +47,7 @@ export function buildModel(materials,{detailOnly=false,node='lower'}={}){
  const whisk=[];for(let i=0;i<=12;i++)whisk.push([h[0]+s*(.14+i*.028),h[1]-.05+Math.sin(i/12*Math.PI)*.12,h[2]+.43-i*.014]);for(let i=0;i<12;i++)round('ceiling','dragon',whisk[i],whisk[i+1],.013,'wood',e);}
  for(const k of [14,28,43,57]){const a=k/72*Math.PI*4.3-.7,p=points[k],end=[x+(r+.35)*Math.cos(a+.45),p[1]+.13,z+(r+.35)*Math.sin(a+.45)];round('ceiling','dragon',p,end,.045,'wood',e);for(let f=0;f<3;f++)round('ceiling','dragon',end,[end[0]+.1*Math.cos(a+(f-1)*.6),end[1]-.10,end[2]+.1*Math.sin(a+(f-1)*.6)],.020,'wood',e);}
  }
- function hump(x,base,z,w=.46,h=.48,sign=1,e={}){return add('roofFrame','hump',humpGeo(sign),[x,base,z],[w,h,.65],new T.Quaternion(),'darkwood',{...e,contactCenter:base,top:base+h*.48,status:'图像判读',source:'2018图5及斜底正文；尺寸推定'});}
+ function hump(x,base,z,w=.46,h=.48,sign=1,e={}){return add('roofFrame','hump',sign===0?G('flat-hump',()=>prism([[-.5,0],[.5,0],[.5,.24],[.32,.48],[-.32,.48],[-.5,.24]],1)):humpGeo(sign),[x,base,z],[w,h,.65],new T.Quaternion(),'darkwood',{...e,contactCenter:base,top:base+h*.48,undersideSlope:sign===0?0:-sign*.2*h/w,status:sign===0?'比例推定':'图像判读',source:sign===0?'矩形梁上水平接触教学示意；真实驼峰底面与卯口待核':'2018图5及斜底正文；尺寸推定'});}
  if(detailOnly){
  if(node==='lower'||node==='upper'){col({x:0,z:0,i:0,j:0},-1.8,0);const top=bracket(0,0,0,0,node,'local/'+node);round('purlins','purlin',[-1.2,top+.14,node==='upper'?1.44:.96],[1.2,top+.14,node==='upper'?1.44:.96],.14,'wood',{tier:5});}
  if(node==='seat'){const lower=sloped('roofFrame','frame',0,0,-2,2,.8,.9,1,{key:'seat/lower',tier:0});const hp=hump(0,lower.topAtCenter,0,.8,.9,1,{key:'seat/hump',tier:1});dou([0,hp.top+.13,0],.64,.26,new T.Quaternion(),{tier:2});box('roofFrame','frame',[0,hp.top+.26+.25,0],[.65,.50,2.5],'wood',{tier:3,key:'seat/upper',support:'seat/hump'});}
@@ -77,9 +78,10 @@ export function buildModel(materials,{detailOnly=false,node='lower'}={}){
  sloped('roofFrame','frame',x,baseY,joint,frontHigh,.52,.64,sign,{key:`frame/${x}/milk`,role:'milk',support:'前槽及梁上柱铺作'});
  // Four frame levels, positions constrained below the teaching roof profile.
  for(const [k,d,y,w,h] of [[0,4.8,12.90,.50,.56],[1,3.1,13.95,.46,.50],[2,1.5,15.30,.42,.44]]){
+ const previousFlat=(k===1&&x===xs[5])||(k===2&&x===xs[3]);
  const previousY=k===0?baseY:[12.90,13.95][k-1],prevH=k===0?.64:[.56,.50][k-1],foot=previousY+prevH*.4;
- for(const z of [-d,d]){const hp=hump(x,foot,z,.50,prevH/(k===0?(z>joint?.52:.56):[.50,.46][k-1])*.50,sign,{key:`frame/${x}/hump/${k}/${z}`});const top=y-h*.5;box('roofFrame','hump',[x,(hp.top+top)/2,z],[.28,top-hp.top,.34],'wood',{key:`frame/${x}/seat/${k}/${z}`,foot:hp.top,head:top,support:'驼峰顶',role:'seat'});}
- const variant=k===0&&x===xs[2];sloped('roofFrame','frame',x,y,-d,k===0&&!variant?3.1:d,w,h,sign,{key:`frame/${x}/upper/${k}`,role:variant?'six-through':['five','four','flat'][k],status:'图像判读',source:'2018图5、25；一缝通栿变体；尺寸推定'});
+ for(const z of [-d,d]){const hp=hump(x,foot,z,.50,prevH/(k===0?(z>joint?.52:.56):[.50,.46][k-1])*.50,previousFlat?0:sign,{key:`frame/${x}/hump/${k}/${z}`});const top=y-h*.5;box('roofFrame','hump',[x,(hp.top+top)/2,z],[.28,top-hp.top,.34],'wood',{key:`frame/${x}/seat/${k}/${z}`,foot:hp.top,head:top,support:'驼峰顶',role:'seat'});}
+ const variant=k===0&&x===xs[2],flat=(k===0&&x===xs[5])||(k===1&&x===xs[3]);sloped('roofFrame','frame',x,y-(flat?h*.05:0),-d,k===0&&!variant?3.1:d,w,h,sign,{key:`frame/${x}/upper/${k}`,role:variant?'six-through':['five','four','flat'][k],section:flat?'rectangular':'sloped',status:'图像判读',source:flat?'2018正文：明间南缝四椽栿、北次间北缝五椽栿为矩形断面；尺寸推定':'2018图5、25；一缝通栿变体；尺寸推定'});
  if(k===0&&!variant)sloped('roofFrame','frame',x,y,3.1,d,w,h,sign,{key:`frame/${x}/zha`,role:'zha',status:'图像判读',source:'2018图5：前劄牵与后五椽栿分件；接合细节待核'});
  }
  // Ridge support uses the flat beam top and two diagonal fork arms, no full end-frame copying.
@@ -92,20 +94,39 @@ export function buildModel(materials,{detailOnly=false,node='lower'}={}){
  for(const sx of [-1,1])for(let k=1;k<=5;k++){const t=k/5,x=sx*(8.65+6.25*t),d=3.5+5.6*t;round('purlins','purlin',[x,roofY(d)-.257,-d],[x,roofY(d)-.257,d],.15,'wood',{key:`end/purlin/${sx}/${k}`});}
  function surface(points,key){add('roof','roof',patch(points),[0,0,0],[1,1,1],new T.Quaternion(),'roofBoard',{key,roofKind:key.includes('lower')?'lower':'upper'});}
  for(const s of [-1,1]){const pts=[];for(let k=0;k<=30;k++){const d=9.1*k/30,hx=d<3.5?8.65:8.65+(d-3.5)/5.6*6.25;pts.push([-hx,roofY(d)+.16,s*d],[hx,roofY(d)+.16,s*d]);}surface(pts,'upper/long/'+s);const end=[];for(let k=0;k<=20;k++){const t=k/20,x=s*(8.65+6.25*t),d=3.5+5.6*t;end.push([x,roofY(d)+.16,-d],[x,roofY(d)+.16,d]);}surface(end,'upper/end/'+s);
- const tri=[[s*8.65,roofY(3.5),-3.5],[s*8.65,roofY(3.5),3.5],[s*8.65,17.2,0]];const g=new T.BufferGeometry().setFromPoints(tri.map(V));g.setIndex([0,1,2]);g.computeVertexNormals();add('enclosure','enclosure',g,[0,0,0],[1,1,1],new T.Quaternion(),'plaster',{key:'gable/'+s});
+ const tri=[[s*8.65,roofY(3.5),-3.5],[s*8.65,roofY(3.5),3.5],[s*8.65,17.2,0]];const g=new T.BufferGeometry().setFromPoints(tri.map(V));g.setIndex(s>0?[0,2,1]:[0,1,2]);g.computeVertexNormals();add('enclosure','enclosure',g,[0,0,0],[1,1,1],new T.Quaternion(),'plaster',{key:'gable/'+s});
  for(const zsign of [-1,1])for(let k=0;k<12;k++){const a=3.5*k/12,b=3.5*(k+1)/12;beam('rafters','hip',[s*8.65,roofY(a)+.2,zsign*a],[s*8.65,roofY(b)+.2,zsign*b],.12,.20,'darkwood',{key:'barge/'+s});}
  }
- for(let x=-14.7;x<14.8;x+=.36)for(const s of [-1,1])for(let k=0;k<24;k++){const d=9.1*k/24,d2=9.1*(k+1)/24;if(surfaceY(x,d)<roofY(d)-.001)continue;round('rafters','rafter',[x,roofY(d)-.035,s*d],[x,roofY(d2)-.035,s*d2],.052,'rafter');round('roof','roof',[x,roofY(d)+.21,s*d],[x,roofY(d2)+.21,s*d2],.035,'tile');}
- for(const sx of [-1,1])for(let z=-8.95;z<9;z+=.36)for(let k=0;k<16;k++){const a=8.65+6.25*k/16,b=8.65+6.25*(k+1)/16,d=3.5+5.6*k/16;if(Math.abs(z)>d)continue;round('rafters','rafter',[sx*a,surfaceY(a,z)-.035,z],[sx*b,surfaceY(b,z)-.035,z],.052,'rafter');round('roof','roof',[sx*a,surfaceY(a,z)+.21,z],[sx*b,surfaceY(b,z)+.21,z],.035,'tile');}
+ // Continuous teaching rafter paths split at this roof's profile / purlin stations.
+ // The end slope has its own height function: sampling surfaceY exactly on the gable
+ // previously picked the high long slope and sent a rafter through the mountain cover.
+ const stations=[0,1.5,3.1,3.5,4.8,6.6,8.8,9.1];
+ for(let lane=0;lane<=82;lane++){const x=-14.7+lane*.36,start=Math.max(0,Math.abs(x)>8.65?3.5+(Math.abs(x)-8.65)/6.25*5.6:0),ds=[start,...stations.filter(d=>d>start)];
+  for(const sign of [-1,1])for(let k=0;k<ds.length-1;k++)round('rafters','rafter',[x,roofY(ds[k])-.035,sign*ds[k]],[x,roofY(ds[k+1])-.035,sign*ds[k+1]],.052,'rafter',{key:`rafter/upper/long/${lane}/${sign}/${k}`,roofRegion:'upper-long',path:`long/${lane}/${sign}`,span:k,note:'槫位与曲线折点处分段示意；不表示实物短椽拼接',support:ds[k]>0&&!stations.includes(ds[k])?'角梁方向骨架，实际搭接待核':'教学槫位，末端为檐出'});
+ }
+ for(const sx of [-1,1])for(let lane=0;lane<=49;lane++){const z=-8.82+lane*.36,start=Math.max(3.5,Math.abs(z)),ds=[start,...new Set([...stations.filter(d=>d>start),...Array.from({length:5},(_,k)=>3.5+5.6*(k+1)/5).filter(d=>d>start)])].sort((a,b)=>a-b);
+  for(let k=0;k<ds.length-1;k++){const x=d=>sx*(8.65+(d-3.5)/5.6*6.25);round('rafters','rafter',[x(ds[k]),roofY(ds[k])-.035,z],[x(ds[k+1]),roofY(ds[k+1])-.035,z],.052,'rafter',{key:`rafter/upper/end/${sx}/${lane}/${k}`,roofRegion:'upper-end',path:`end/${sx}/${lane}`,span:k,note:'独立山坡函数；折点分段为教学连续线，非已核短椽接法',support:'山坡短槫与角梁方向骨架；隐蔽承托待核'});}
+ }
  for(const sx of [-1,1])for(const sz of [-1,1])for(let k=0;k<16;k++){const a=k/16,b=(k+1)/16;beam('rafters','hip',[sx*(8.65+6.25*a),roofY(3.5+5.6*a)-.11,sz*(3.5+5.6*a)],[sx*(8.65+6.25*b),roofY(3.5+5.6*b)-.11,sz*(3.5+5.6*b)],.23,.28);round('roof','roof',[sx*(8.65+6.25*a),roofY(3.5+5.6*a)+.26,sz*(3.5+5.6*a)],[sx*(8.65+6.25*b),roofY(3.5+5.6*b)+.26,sz*(3.5+5.6*b)],.13,'ridge');}
  round('roof','roof',[-8.65,17.47,0],[8.65,17.47,0],.17,'ridge');
+ // Reserve the baseline's 3872 upper-rafter IDs: new upper paths are namespaced,
+ // while untouched lower-skirt instances retain their old IDs. This is an ID offset, not a physical census.
+ serial.set('rafters/rafter',3872);
  // Lower annular roof around the actual inner ring; an opening never closes the hall.
  const ix=Math.abs(xs[6]),iz=zs[5],hx=16,hz=11.9,lowY=t=>9.7-(9.7-7.3)*t**.8;
  for(const s of [-1,1]){const long=[],end=[];for(let k=0;k<=18;k++){const t=k/18,x=ix+(hx-ix)*t,z=iz+(hz-iz)*t,y=lowY(t);long.push([-x,y,s*z],[x,y,s*z]);end.push([s*x,y,-z],[s*x,y,z]);}surface(long,'lower/long/'+s);surface(end,'lower/end/'+s);
- for(let x=-15.8;x<16;x+=.38)for(let k=0;k<12;k++){const a=k/12,b=(k+1)/12;if(Math.abs(x)>ix+(hx-ix)*a)continue;round('rafters','rafter',[x,lowY(a)-.13,s*(iz+(hz-iz)*a)],[x,lowY(b)-.13,s*(iz+(hz-iz)*b)],.05,'rafter');round('roof','roof',[x,lowY(a)+.05,s*(iz+(hz-iz)*a)],[x,lowY(b)+.05,s*(iz+(hz-iz)*b)],.036,'tile');}
- for(let z=-11.7;z<11.8;z+=.38)for(let k=0;k<12;k++){const a=k/12,b=(k+1)/12;if(Math.abs(z)>iz+(hz-iz)*a)continue;round('rafters','rafter',[s*(ix+(hx-ix)*a),lowY(a)-.13,z],[s*(ix+(hx-ix)*b),lowY(b)-.13,z],.05,'rafter');round('roof','roof',[s*(ix+(hx-ix)*a),lowY(a)+.05,z],[s*(ix+(hx-ix)*b),lowY(b)+.05,z],.036,'tile');}
+ for(let x=-15.8;x<16;x+=.38)for(let k=0;k<12;k++){const a=k/12,b=(k+1)/12;if(Math.abs(x)>ix+(hx-ix)*a)continue;round('rafters','rafter',[x,lowY(a)-.13,s*(iz+(hz-iz)*a)],[x,lowY(b)-.13,s*(iz+(hz-iz)*b)],.05,'rafter');}
+ for(let z=-11.7;z<11.8;z+=.38)for(let k=0;k<12;k++){const a=k/12,b=(k+1)/12;if(Math.abs(z)>iz+(hz-iz)*a)continue;round('rafters','rafter',[s*(ix+(hx-ix)*a),lowY(a)-.13,z],[s*(ix+(hx-ix)*b),lowY(b)-.13,z],.05,'rafter');}
  for(const [x,z,y] of [[ix,iz,9.35],[hx,hz,6.95]]){round('purlins','purlin',[-x,y,s*z],[x,y,s*z],.17);round('purlins','purlin',[s*x,y,-z],[s*x,y,z],.17);}}
  for(const sx of [-1,1])for(const sz of [-1,1])beam('rafters','hip',[sx*ix,9.35,sz*iz],[sx*hx,6.95,sz*hz],.23,.28);
+ // Eight independent ceramic fields; grey centre and glazed eave border are visible in the licensed site photos.
+ for(const sign of [-1,1])for(const axis of ['z','x'])for(const level of ['upper','lower']){
+  const upper=level==='upper',long=axis==='z',start=upper?(long?0:8.65):(long?iz:ix),end=upper?(long?9.1:14.9):(long?hz:hx);
+  const fields=ceramicField({start,end,axis,sign,lift:upper?.18:.02,pitch:upper?.36:.38,
+   halfWidth:r=>upper?(long?(r<3.5?8.65:8.65+(r-3.5)/5.6*6.25):3.5+(r-8.65)/6.25*5.6):(long?ix+(hx-ix)*(r-iz)/(hz-iz):iz+(hz-iz)*(r-ix)/(hx-ix)),
+   height:r=>upper?roofY(long?r:3.5+(r-8.65)/6.25*5.6):lowY((r-start)/(end-start))});
+  for(const [kind,g] of Object.entries(fields))add('roof','roof',g,[0,0,0],[1,1,1],new T.Quaternion(),kind==='border'?'glazedTile':'tile',{key:`ceramic/${level}/${axis}/${sign}/${kind}`,surfaceRole:'ceramic',status:'图像判读',source:'2024授权实景；灰瓦与绿色琉璃剪边；瓦距、瓦弧、排数比例推定'});
+ }
  for(const x of xs)dragon(x,zs[6],.8,4.8,.34,`front/dragon/${xs.indexOf(x)}`);
  for(let i=1;i<6;i++)for(const j of [1,4]){const x=(xs[i]+xs[i+1])/2,w=xs[i+1]-xs[i]-.68,z=zs[j];if(j===4&&i===3)continue;box('enclosure','enclosure',[x,4.55,z],[w,7.5,.16],'plaster');if(j===4&&i>=2&&i<=4)for(let xx=x-w/2;xx<=x+w/2;xx+=.23)box('enclosure','enclosure',[xx,4.35,z+.13],[.045,5.8,.06],'door');}
  for(const x of [xs[1],xs[6]])box('enclosure','enclosure',[x,4.55,(zs[1]+zs[4])/2],[.16,7.5,zs[4]-zs[1]],'plaster');

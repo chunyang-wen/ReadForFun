@@ -1,9 +1,10 @@
 import * as THREE from '../vendor/three.module.js';
 import { OrbitControls } from '../vendor/OrbitControls.js';
-import { buildModel, SPEC, getColumnGrid } from './model.js';
+import { buildModel, SPEC, getColumnGrid } from './model.js?v=fengxian-02-delivery';
 import { LAYERS, CHAPTERS, PARTS, SOURCES, NODES } from './data.js';
 
 const $=id=>document.getElementById(id);
+const study=new URLSearchParams(location.search),neutralLight=study.get('light')==='reverse',baselineAppearance=study.get('appearance')==='baseline';
 let chapterIndex=0,model,detail,renderer,scene,camera,controls,selectionBox,ground,gridGuide;
 let activeModel,details=new Map(),detailNode="liujin",dirty=true,explode=0,targetExplode=0,animation=null,sectionSign=1;
 let selected=null,pointerStart=null,visible=true;
@@ -36,24 +37,24 @@ function ornamentTexture(kind){
  const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;return t;
 }
 function createMaterials(){
- const wood=woodTexture();const palette={wood:0xbb965e,darkwood:0x8c6c39,column:0x953b2a,endgrain:0xc3a76b,rafter:0xc8ac74,stone:0x9d9e91,lightstone:0xc4c4b0,ceiling:0xc0a363,ceilingPanel:0xb69b68,roofBoard:0xba8c23,tile:0xd1a338,ridge:0xc4a143,plaster:0xa44835,door:0x973f32,metal:0x625944,blue:0x365b75,green:0x41786d,gold:0xc7a45e,paint:0xffffff,lotus:0xffffff,gildedPaint:0xffffff};
+ const wood=woodTexture();const palette={wood:0xbb965e,darkwood:0x8c6c39,column:0x953b2a,innerColumn:baselineAppearance?0x953b2a:0x706037,endgrain:0xc3a76b,rafter:0xc8ac74,stone:0x9d9e91,lightstone:0xc4c4b0,ceiling:0xc0a363,ceilingPanel:0xb69b68,roofBoard:0xba8c23,tile:0xd1a338,ridge:0xc4a143,plaster:0xa44835,door:0x973f32,metal:0x625944,blue:0x365b75,green:0x41786d,gold:0xc7a45e,paint:0xffffff,lotus:0xffffff,gildedPaint:0xffffff};
  for(const [key,color] of Object.entries(palette)){
    const timber=['wood','darkwood','endgrain','rafter'].includes(key);
-   baseMaterials[key]=new THREE.MeshStandardMaterial({color,roughness:key==='metal'?.55:.92,metalness:key==='metal'?.45:0,map:['paint','lotus','gildedPaint'].includes(key)?ornamentTexture(key):timber?wood:null,side:['tile','roofBoard','lotus'].includes(key)?THREE.DoubleSide:THREE.FrontSide});
+   baseMaterials[key]=new THREE.MeshStandardMaterial({color,roughness:baselineAppearance?(key==='metal'?.55:.92):(key==='metal'?.55:['tile','ridge'].includes(key)?.40:.90),metalness:key==='metal'?.45:0,map:['paint','lotus','gildedPaint'].includes(key)?ornamentTexture(key):timber?wood:null,side:key==='lotus'?THREE.DoubleSide:THREE.FrontSide});
  }
 }
 function initialize(){
  try{
   renderer=new THREE.WebGLRenderer({antialias:true,alpha:false,powerPreference:'high-performance'});
   renderer.setPixelRatio(Math.min(devicePixelRatio,1.7));renderer.setClearColor(0xf3eddf,1);renderer.outputColorSpace=THREE.SRGBColorSpace;
-  renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.45;
+  renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=study.get('light')==='baseline'?1.45:1.12;
   renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFShadowMap;renderer.localClippingEnabled=true;
   renderer.domElement.setAttribute('aria-hidden','true');$('viewport').prepend(renderer.domElement);
   scene=new THREE.Scene();camera=new THREE.PerspectiveCamera(35,1,.05,1200);
   controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.dampingFactor=.10;controls.maxPolarAngle=Math.PI*.49;controls.minDistance=2;controls.maxDistance=160;controls.enablePan=true;
   controls.addEventListener('change',()=>dirty=true);controls.addEventListener('start',()=>animation=null);
-  scene.add(new THREE.HemisphereLight(0xfff9ea,0x6b705f,2.8));
-  const sun=new THREE.DirectionalLight(0xfff1d7,3.5);sun.position.set(-40,65,45);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.camera.left=-65;sun.shadow.camera.right=65;sun.shadow.camera.top=65;sun.shadow.camera.bottom=-50;sun.shadow.camera.near=.5;sun.shadow.camera.far=200;sun.shadow.normalBias=.04;sun.shadow.bias=-.00008;scene.add(sun);
+  scene.add(new THREE.HemisphereLight(0xfff9ea,0x6b705f,study.get('light')==='baseline'?2.8:1.8));
+  const sun=new THREE.DirectionalLight(0xfff1d7,3.5);sun.position.set(...(neutralLight?[40,50,-45]:[-40,65,45]));sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.camera.left=-65;sun.shadow.camera.right=65;sun.shadow.camera.top=65;sun.shadow.camera.bottom=-50;sun.shadow.camera.near=.5;sun.shadow.camera.far=200;sun.shadow.normalBias=.04;sun.shadow.bias=-.00008;scene.add(sun);
   const fill=new THREE.DirectionalLight(0xe5eddf,1.15);fill.position.set(26,14,-30);scene.add(fill);
   ground=new THREE.Mesh(new THREE.PlaneGeometry(140,140),new THREE.ShadowMaterial({color:0x463f2e,opacity:.18}));ground.rotation.x=-Math.PI/2;ground.position.y=-.3;ground.receiveShadow=true;scene.add(ground);
   createMaterials();model=buildModel(baseMaterials);for(const n of NODES){const d=buildModel(baseMaterials,{detailOnly:true,node:n.id});details.set(n.id,d);scene.add(d.root);d.root.visible=false;}detail=details.get(detailNode);
@@ -92,6 +93,7 @@ function setChapter(i,animate=true){
  $('section-toggle').checked=c.view==='section';$('section-position').value=c.view==='section'?12:0;$('section-axis').value='x';sectionSign=1;updateClipping();clearSelection();applyExplosion();
  $('model-mode').textContent=isDetail?NODES.find(n=>n.id===detailNode).label:'清初主体 · 现状参考色';
  $('model-stats').textContent=`${isDetail?'局部关系示意 · 加工尺寸为推定':'前殿五排柱 · 两重檐与内檐梁架'} · 米制比例`;
+ document.dispatchEvent(new CustomEvent('architecture:chapter',{detail:{building:'fengxian',chapter:i}}));
  populateMembers();setView(c.view==='detail'?'detail':c.view==='section'?'side':c.view==='exploded'?'exploded':c.view,animate);setLabels();dirty=true;
 }
 function currentBounds(){
@@ -110,7 +112,7 @@ function fittedPosition(direction){
  return {target,destination:target.clone().add(dir.multiplyScalar(distance*1.14))};
 }
 function setView(view,animate=true){
- if(!camera)return;const detailView=activeModel===detail;let direction;
+ if(!camera)return;const detailView=activeModel===detail;controls.minDistance=detailView?1.4:7;controls.maxDistance=detailView?100:800;let direction;
  switch(view){case 'front':direction=new THREE.Vector3(0,.10,1);break;case 'back':direction=new THREE.Vector3(0,.10,-1);break;case 'side':direction=new THREE.Vector3(1,.12,0);break;case 'top':direction=new THREE.Vector3(0,1,.001);break;default:direction=new THREE.Vector3(1,.52,1.2);}
  const {target,destination}=fittedPosition(direction);
  if(animate&&!reduced)animation={from:camera.position.clone(),to:destination,fromTarget:controls.target.clone(),toTarget:target,start:performance.now(),duration:450};
@@ -145,7 +147,7 @@ function updateClipping(){
 }
 function updateColors(){
  for(const m of [...model.meshes,...[...details.values()].flatMap(d=>d.meshes)]){
-  const keyMat=m.userData.materialKey;const base=baseMaterials[$('finish-toggle').checked&&['blue','green','gold','paint','gildedPaint','lotus','column','door'].includes(keyMat)?(keyMat==='column'?'wood':keyMat==='lotus'?'ceilingPanel':'wood'):keyMat];if(!$('color-toggle').checked){m.material=base;continue;}
+  const keyMat=m.userData.materialKey;const base=baseMaterials[$('finish-toggle').checked&&['innerColumn','blue','green','gold','paint','gildedPaint','lotus','column','door'].includes(keyMat)?(keyMat==='column'?'wood':keyMat==='lotus'?'ceilingPanel':'wood'):keyMat];if(!$('color-toggle').checked){m.material=base;continue;}
   const key=`${m.userData.layer}/${m.userData.materialKey}/${$('finish-toggle').checked}`;
   if(!coloredMaterials.has(key)){const mat=base.clone();mat.color.set(layerConfig.get(m.userData.layer).color);mat.map=null;coloredMaterials.set(key,mat);}m.material=coloredMaterials.get(key);
  }updateClipping();dirty=true;
@@ -155,10 +157,10 @@ function selectHit(hit){
  const record=hit.object.userData.records[hit.instanceId];if(!record)return;selected={mesh:hit.object,index:hit.instanceId,record};const info=PARTS[record.type]||PARTS[record.layer];
  $('selection-chip').textContent=info.name;$('selection-chip').hidden=false;
  $('selected-part').innerHTML=`<p class="eyebrow">${info.term}</p><h3 class="part-name">${info.name}</h3><p class="part-text">${info.text}</p><p class="part-evidence">${info.evidence}</p><p class="part-id"></p>`;
- $('selected-part').querySelector('.part-id').textContent=`${record.status} · ${record.source} · 位置(${record.position.map(v=>v.toFixed(2)).join(', ')})m · 承接：${(record.support||record.endSupport||'见构件说明')} · ${record.note||''} · ${record.id}`;updateSelectionBox();dirty=true;
+ $('selected-part').querySelector('.part-id').textContent=`${record.status} · ${record.source} · 原位(${record.position.map(v=>v.toFixed(2)).join(', ')})m · 承接：${(record.support||record.endSupport||'见构件说明')} · ${record.note||''} · ${record.id}`;updateSelectionBox();dirty=true;
 }
 function updateSelectionBox(){
- if(!selected)return;const {mesh,index}=selected;const matrix=new THREE.Matrix4();mesh.getMatrixAt(index,matrix);matrix.premultiply(mesh.matrixWorld);if(!mesh.geometry.boundingBox)mesh.geometry.computeBoundingBox();selectionBox.box.copy(mesh.geometry.boundingBox).applyMatrix4(matrix).expandByScalar(.025);selectionBox.visible=true;
+ if(!selected)return;const {mesh,index}=selected;const matrix=new THREE.Matrix4();mesh.getMatrixAt(index,matrix);matrix.premultiply(mesh.matrixWorld);if(!mesh.geometry.boundingBox)mesh.geometry.computeBoundingBox();selectionBox.box.copy(mesh.geometry.boundingBox).applyMatrix4(matrix).expandByScalar(.025);selectionBox.visible=true;const world=new THREE.Vector3().setFromMatrixPosition(matrix);$('selection-chip').textContent=`${(PARTS[selected.record.type]||PARTS[selected.record.layer]).name} · 当前(${world.toArray().map(v=>v.toFixed(2)).join(', ')})m`;
 }
 function onPick(e){
  if(!pointerStart||Math.hypot(e.clientX-pointerStart.x,e.clientY-pointerStart.y)>5)return;
@@ -184,7 +186,7 @@ for(const button of document.querySelectorAll('[data-chapter]'))button.addEventL
 for(const button of document.querySelectorAll('[data-view]'))button.addEventListener('click',()=>setView(button.dataset.view));
 for(const input of document.querySelectorAll('[data-layer]'))input.addEventListener('change',()=>{if(!activeModel)return;activeModel.layers.get(input.dataset.layer).visible=input.checked;clearSelection();populateMembers();setView('iso',false);dirty=true;});
 $('layers-all').addEventListener('click',()=>{if(!activeModel)return;for(const input of document.querySelectorAll('[data-layer]')){input.checked=!input.disabled;activeModel.layers.get(input.dataset.layer).visible=!input.disabled;}populateMembers();setView('iso',false);dirty=true;});
-function explosionInput(){targetExplode=Number($('explode').value)/100;$('explode-value').value=`${$('explode').value}%`;$('explode-toggle').textContent=targetExplode?'合回':'展开';explode=targetExplode;applyExplosion();if(camera){const direction=camera.position.clone().sub(controls.target);const {target,destination}=fittedPosition(direction);camera.position.copy(destination);controls.target.copy(target);camera.lookAt(target);controls.update();}dirty=true;}
+function explosionInput(){animation=null;targetExplode=Number($('explode').value)/100;$('explode-value').value=`${$('explode').value}%`;$('explode-toggle').textContent=targetExplode?'合回':'展开';explode=targetExplode;applyExplosion();if(camera){const direction=camera.position.clone().sub(controls.target);const {target,destination}=fittedPosition(direction);camera.position.copy(destination);controls.target.copy(target);camera.lookAt(target);controls.update();}dirty=true;}
 $('explode').addEventListener('input',explosionInput);$('explode-toggle').addEventListener('click',()=>{$('explode').value=targetExplode>0?0:100;explosionInput();});
 $('section-toggle').addEventListener('change',updateClipping);$('section-axis').addEventListener('change',updateClipping);$('section-position').addEventListener('input',updateClipping);$('section-flip').addEventListener('click',()=>{sectionSign*=-1;updateClipping();});
 $('finish-toggle').addEventListener('change',updateColors);
@@ -196,6 +198,8 @@ function populateMembers(){if(!activeModel)return;const select=$('member-list');
 $('member-list').addEventListener('change',()=>{const [m,i]=$('member-list').value.split(':').map(Number);if(Number.isFinite(i))selectHit({object:activeModel.meshes[m],instanceId:i});});
 $('node-select').innerHTML=NODES.map(n=>`<option value="${n.id}">${n.label}</option>`).join('');
 $('node-select').addEventListener('change',()=>{const next=$('node-select').value;details.forEach(d=>d.root.visible=false);detailNode=next;detail=details.get(next);activeModel=detail;detail.root.visible=true;for(const l of LAYERS){const g=detail.layers.get(l.id);g.visible=g.children.length>0;const input=document.querySelector(`[data-layer="${l.id}"]`);input.checked=g.visible;input.disabled=!g.visible;} $('explode').value=0;explode=targetExplode=0;$('explode-value').value='0%';$('explode-toggle').textContent='展开';$('model-mode').textContent=NODES.find(n=>n.id===next).label;$('model-stats').textContent='局部关系示意 · 所有加工尺寸为推定';applyExplosion();clearSelection();updateClipping();populateMembers();setView('detail',false);setLabels();});
+document.addEventListener('architecture:photo-model',event=>{const d=event.detail;if(d.building!=='fengxian')return;if(!CHAPTERS[d.chapter])return;setChapter(d.chapter,false);if(d.node&&NODES.some(n=>n.id===d.node)){$('node-select').value=d.node;$('node-select').dispatchEvent(new Event('change'));}});
+import('../photos/gallery.js?v=fengxian-02-gallery-sync').then(m=>m.mountPhotoGallery($('real-photos'),'fengxian')).catch(()=>{$('real-photos').textContent='实景图录暂未载入；建筑模型与文献说明仍可使用。';});
 initialize();
 // Read-only state for reproducible browser validation of fitting and current UI state.
-export function getViewerState(){return {chapter:chapterIndex,detail:activeModel===detail,node:detailNode,explode,targetExplode,section:$('section-toggle').checked,layers:[...activeModel.layers].filter(([,g])=>g.visible).map(([id])=>id),bounds:{min:currentBounds().min.toArray(),max:currentBounds().max.toArray()},camera:camera.position.toArray(),target:controls.target.toArray(),projected:(()=>{const b=currentBounds(),ps=[];for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z])ps.push(new THREE.Vector3(x,y,z).project(camera).toArray());return ps;})()};}
+export function getViewerState(){return {revision:'fengxian-02',appearance:baselineAppearance?'baseline':'current',light:study.get('light')||'standard',selection:selected?{id:selected.record.id,box:selectionBox.box.min.toArray().concat(selectionBox.box.max.toArray())}:null,chapter:chapterIndex,detail:activeModel===detail,node:detailNode,explode,targetExplode,section:$('section-toggle').checked,layers:[...activeModel.layers].filter(([,g])=>g.visible).map(([id])=>id),bounds:{min:currentBounds().min.toArray(),max:currentBounds().max.toArray()},camera:camera.position.toArray(),target:controls.target.toArray(),projected:(()=>{const b=currentBounds(),ps=[];for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z])ps.push(new THREE.Vector3(x,y,z).project(camera).toArray());return ps;})()};}

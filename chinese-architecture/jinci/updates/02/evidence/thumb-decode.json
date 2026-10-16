@@ -1,0 +1,56 @@
+[
+  {
+    "complete": true,
+    "height": 320,
+    "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-front-2011/a5b25c805ae2a84f/thumb.webp",
+    "width": 480
+  },
+  {
+    "complete": true,
+    "height": 360,
+    "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-front-sun/ea19117069055fe1/thumb.webp",
+    "width": 480
+  },
+  {
+    "complete": true,
+    "height": 360,
+    "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-side/48b80ad643f87154/thumb.webp",
+    "width": 480
+  },
+  {
+    "complete": true,
+    "height": 360,
+    "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-oblique/18ca9411278036eb/thumb.webp",
+    "width": 480
+  },
+  {
+    "complete": true,
+    "height": 480,
+    "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-porch/43e7094245dadb33/thumb.webp",
+    "width": 360
+  },
+  {
+    "complete": true,
+    "height": 480,
+    "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-bracket/13edd208b7e44466/thumb.webp",
+    "width": 360
+  },
+  {
+    "complete": true,
+    "height": 480,
+    "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-dragon/a59b04aee025a2ee/thumb.webp",
+    "width": 360
+  },
+  {
+    "complete": true,
+    "height": 480,
+    "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-dragon-detail/5d4380ad7c17dc16/thumb.webp",
+    "width": 360
+  },
+  {
+    "complete": true,
+    "height": 480,
+    "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-dragon-detail-2/42dfe176f5ae7d37/thumb.webp",
+    "width": 360
+  }
+]

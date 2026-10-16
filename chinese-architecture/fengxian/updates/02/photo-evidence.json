@@ -1,0 +1,104 @@
+[
+  {
+    "id": "fengxian-interior-2010",
+    "source": "https://commons.wikimedia.org/wiki/File:Forbidden_City_-_panoramio_(2).jpg",
+    "author": "Martin Wehrle",
+    "date": "2010-12-27",
+    "license": "CC BY-SA 3.0",
+    "sourceSHA1": "b66f7e9877c568dbe8896806eb4f3af5203157ae",
+    "originalSHA256": "d51f841364ba05fc7af66cf123138a2aa3500ba2a59d12851943a965ef6eee65",
+    "ICCBytes": 3144,
+    "ICCSHA256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+    "variants": [
+      {
+        "kind": "thumb",
+        "width": 480,
+        "height": 321,
+        "sha256": "2b299065490eb64d8e92709c413aa67c558709b68eb56a3fb59cfa64d03878c5",
+        "iccMatchesOriginal": true
+      },
+      {
+        "kind": "display",
+        "width": 1600,
+        "height": 1071,
+        "sha256": "2fbc313eba025ba64aa0d6056a64fc86d197ca908d2822dff0fc5715900d47d8",
+        "iccMatchesOriginal": true
+      },
+      {
+        "kind": "full",
+        "width": 3872,
+        "height": 2592,
+        "sha256": "40f80478d4f1236423f81395a75cbc4196ad8465a96abccaa07b12c073c1bac9",
+        "iccMatchesOriginal": true
+      }
+    ]
+  },
+  {
+    "id": "fengxian-ceiling-2010",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC%E6%95%85%E5%AE%AB8.JPG",
+    "author": "蒋亦炯",
+    "date": "2010-07-13",
+    "license": "CC BY-SA 3.0",
+    "sourceSHA1": "82b2a7b41ae5932b4b5637de4023f332f87dd44a",
+    "originalSHA256": "3641211752991ed5fd01b68496717b65c9c9a6e7806983ed6ae412a9005146cd",
+    "ICCBytes": 0,
+    "ICCSHA256": null,
+    "variants": [
+      {
+        "kind": "thumb",
+        "width": 325,
+        "height": 480,
+        "sha256": "027f7ef5fa6240049ef97fb4335368ebb1c72f4cec63b0c5b88270e8ee9ee7e9",
+        "iccMatchesOriginal": true
+      },
+      {
+        "kind": "display",
+        "width": 1085,
+        "height": 1600,
+        "sha256": "2a758b48c87dbf0793e44d08d9f39f87c2e3a6640fe325a183b1b330459ef977",
+        "iccMatchesOriginal": true
+      },
+      {
+        "kind": "full",
+        "width": 2832,
+        "height": 4178,
+        "sha256": "31c039cc2cf6900713b6f57d096f5438a6810c01e9c41fa99e58c9d4e992b423",
+        "iccMatchesOriginal": true
+      }
+    ]
+  },
+  {
+    "id": "fengxian-exhibit-context-2010",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC%E6%95%85%E5%AE%AB9.JPG",
+    "author": "蒋亦炯",
+    "date": "2010-07-13",
+    "license": "CC BY-SA 3.0",
+    "sourceSHA1": "f26b1afe7c84bec2382e5493501e50fd0d1aebaa",
+    "originalSHA256": "b4bede2c03b5371a8411ddcc70175cd1a067548f6c76465b749fc84c2aa24045",
+    "ICCBytes": 0,
+    "ICCSHA256": null,
+    "variants": [
+      {
+        "kind": "thumb",
+        "width": 319,
+        "height": 480,
+        "sha256": "74d73c41e1b0bb311f6bd98d34e6e3426128b57e2b89633753eb179f55128483",
+        "iccMatchesOriginal": true
+      },
+      {
+        "kind": "display",
+        "width": 1065,
+        "height": 1600,
+        "sha256": "649195c3226f479f752b386a801bc7903d26e1d21de339eaa3d7048eb25085fb",
+        "iccMatchesOriginal": true
+      },
+      {
+        "kind": "full",
+        "width": 2832,
+        "height": 4256,
+        "sha256": "ce88a16a4979aab981c916da708bdcfe7a13802e9becbc19f9414e707bd3ae9e",
+        "iccMatchesOriginal": true
+      }
+    ]
+  }
+]

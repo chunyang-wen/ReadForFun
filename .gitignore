@@ -7,3 +7,15 @@
 !apple-touch-icon.png
 *.svg
 *.webp
+# Media is published to Cloudflare R2; local copies are working caches.
+*.jpg
+*.jpeg
+*.gif
+*.avif
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.mp4
+*.webm
+__pycache__/

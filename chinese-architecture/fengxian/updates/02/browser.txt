@@ -1,0 +1,1 @@
+PASS: fixed views; chapters; four nodes 0/50/100; whole 0/50/100; both clipping axes and flip; real picking; selected world bounds; photo decode/navigation/zoom/focus/node; actual 390x844; reverse light; script response hashes.

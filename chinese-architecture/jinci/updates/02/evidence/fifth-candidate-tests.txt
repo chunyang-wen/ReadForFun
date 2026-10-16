@@ -1,0 +1,29 @@
+✔ front upper row omits four full-height posts; the periphery stays continuous (0.69475ms)
+✔ all ground posts rest on distinct bases and platform meets the base feet (0.274584ms)
+✔ four porch posts bear on the center surface of their dedicated sloped beams (0.610667ms)
+✔ main frame lower faces meet central bracket bearing; ends have separate Ding beams (0.455334ms)
+✔ sloped beams use opposite high faces toward the central bay (0.301959ms)
+✔ hump slopes fit the host beam top at both sides, not just their center (0.079708ms)
+✔ every stacked support has positive height and starts on a hump top (1.062959ms)
+✔ bracket scopes distinguish two/three steps and horizontal outward mouths (0.085042ms)
+✔ all roof-frame vertices are under the modeled roof; end frames do not copy the ridge forks (2.191333ms)
+✔ lower skirt keeps its central opening and upper roof has two gable panels (0.399375ms)
+✔ eight front dragon assemblies stay in the decorative system beside continuous posts (0.323958ms)
+✔ unique traceable records and valid transforms, geometry and bounds in every scope (10.643167ms)
+✔ whole-hall hump underside follows each host sloped beam at both contact edges (1.398125ms)
+✔ modeled rafter underside touches purlin crowns at the long-slope stations (0.4335ms)
+✔ internal receiving beam seats on capped internal supports and carries main beam feet (0.454584ms)
+✔ each decorative dragon links to a real continuous host column (0.584958ms)
+✔ three split five-rafter frames have separate front Zha members, unlike the through variant (0.408458ms)
+✔ intermediate outward mouths differ from column-head variants without asserting a full joint taxonomy (1.087833ms)
+✔ Jinci current-state frame preserves the two documented rectangular replacements (0.774625ms)
+✔ all eight covering fields and their ceramic surfaces face upwards with no degenerate triangles (10.621875ms)
+✔ all upper rafter cylinder vertices are below this hall roof covering within its footprint (9.181041ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 187.255708

@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-10-16T00:29:44.412807+00:00",
+  "method": "HTTP GET byte hashes and frozen response copies, paired with browser DOM module URL/state in browser-ui.json; not a browser cache byte dump",
+  "files": [
+    {
+      "file": "chinese-architecture/jinci/index.html",
+      "url": "http://localhost:8765/chinese-architecture/jinci/index.html",
+      "status": 200,
+      "localSHA256": "e142d66fd2f7a18a130dd96a2c013ffd95403420210d6565e432c5063fad3542",
+      "servedSHA256": "e142d66fd2f7a18a130dd96a2c013ffd95403420210d6565e432c5063fad3542",
+      "match": true
+    },
+    {
+      "file": "chinese-architecture/jinci/app.js",
+      "url": "http://localhost:8765/chinese-architecture/jinci/app.js?v=jinci-20261016-02e",
+      "status": 200,
+      "localSHA256": "aa6299d56200c9d6790d66c3ebb219592abd27d9bc9de0fcd66c332ed03503f8",
+      "servedSHA256": "aa6299d56200c9d6790d66c3ebb219592abd27d9bc9de0fcd66c332ed03503f8",
+      "match": true
+    },
+    {
+      "file": "chinese-architecture/jinci/model.js",
+      "url": "http://localhost:8765/chinese-architecture/jinci/model.js?v=jinci-20261016-02e",
+      "status": 200,
+      "localSHA256": "40066600af2c6a0ae7c1e159da2080ad14e6e2c8697d89568cac96ab9c92c9ad",
+      "servedSHA256": "40066600af2c6a0ae7c1e159da2080ad14e6e2c8697d89568cac96ab9c92c9ad",
+      "match": true
+    },
+    {
+      "file": "chinese-architecture/jinci/ceramic.js",
+      "url": "http://localhost:8765/chinese-architecture/jinci/ceramic.js?v=jinci-20261016-02b",
+      "status": 200,
+      "localSHA256": "c3c859c8fcb63d229926fb748488c045c59dbca1a0ca2c9bd2de07eeeb79fbdf",
+      "servedSHA256": "c3c859c8fcb63d229926fb748488c045c59dbca1a0ca2c9bd2de07eeeb79fbdf",
+      "match": true
+    },
+    {
+      "file": "chinese-architecture/jinci/data.js",
+      "url": "http://localhost:8765/chinese-architecture/jinci/data.js?v=jinci-20261016-02d",
+      "status": 200,
+      "localSHA256": "b4a703cacdb6634a89ce42a46f8d947bf9ae9e936c073669ce72730dcc968ded",
+      "servedSHA256": "b4a703cacdb6634a89ce42a46f8d947bf9ae9e936c073669ce72730dcc968ded",
+      "match": true
+    },
+    {
+      "file": "chinese-architecture/jinci/previews/whole.jpg",
+      "url": "http://localhost:8765/chinese-architecture/jinci/previews/whole.jpg",
+      "status": 200,
+      "localSHA256": "a47f4df74fec821e5fde748ada774faf20a37249fd456f84578e41dafe1b86c4",
+      "servedSHA256": "a47f4df74fec821e5fde748ada774faf20a37249fd456f84578e41dafe1b86c4",
+      "match": true
+    },
+    {
+      "file": "chinese-architecture/photos/gallery.js",
+      "url": "http://localhost:8765/chinese-architecture/photos/gallery.js?v=jinci-20261016-02c",
+      "status": 200,
+      "localSHA256": "244b87cd834b500544adf45a9e9881c688ae9f1b4ed17803fd71d1d43796b51a",
+      "servedSHA256": "244b87cd834b500544adf45a9e9881c688ae9f1b4ed17803fd71d1d43796b51a",
+      "match": true
+    },
+    {
+      "file": "chinese-architecture/photos/catalog.js",
+      "url": "http://localhost:8765/chinese-architecture/photos/catalog.js?fengxian=02-delivery&v=jinci-20261016-02b",
+      "status": 200,
+      "localSHA256": "b883b48c3b40cb05412425c2f050d1848f2b10e019bbabb995f1bb6a68a0a5a7",
+      "servedSHA256": "b883b48c3b40cb05412425c2f050d1848f2b10e019bbabb995f1bb6a68a0a5a7",
+      "match": true
+    },
+    {
+      "file": "chinese-architecture/photos/assets.json",
+      "url": "http://localhost:8765/chinese-architecture/photos/assets.json",
+      "status": 200,
+      "localSHA256": "3444e55b48f1ecde64f62d9915829fa9781d455c66f4745f84979550c61a156c",
+      "servedSHA256": "3444e55b48f1ecde64f62d9915829fa9781d455c66f4745f84979550c61a156c",
+      "match": true
+    },
+    {
+      "file": "chinese-architecture/photos/gallery.css",
+      "url": "http://localhost:8765/chinese-architecture/photos/gallery.css",
+      "status": 200,
+      "localSHA256": "1582a4f478ca53bbf393cde9c08db723855e7ed6a7f01a1af0b30e6308e21b04",
+      "servedSHA256": "1582a4f478ca53bbf393cde9c08db723855e7ed6a7f01a1af0b30e6308e21b04",
+      "match": true
+    }
+  ]
+}

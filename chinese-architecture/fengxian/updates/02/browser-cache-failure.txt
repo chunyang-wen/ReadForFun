@@ -1,0 +1,11 @@
+node:internal/process/promises:324
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+response.body: Response body is unavailable for redirect responses
+    at _Page.<anonymous> (/Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/fengxian/updates/02/browser.mjs:8:245) {
+  log: [],
+  name: 'Error'
+}
+
+Node.js v26.7.0

@@ -1,0 +1,3 @@
+# Evidence images are archived on R2 and indexed in /media-assets.json.
+*.png
+*.jpg

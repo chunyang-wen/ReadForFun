@@ -1,0 +1,407 @@
+[
+  {
+    "id": "jinci-front-2011",
+    "sourceSize": [
+      5616,
+      3744
+    ],
+    "exifOrientation": 1,
+    "displaySize": [
+      5616,
+      3744
+    ],
+    "originalSHA1": "3184c01317f58f61a0bbc88cf89bfbbb3e51713a",
+    "originalSHA256": "a5b25c805ae2a84f80091cde2d497de096279c8ef9e07f27b88faf1f833ed65f",
+    "iccBytes": 0,
+    "variants": [
+      {
+        "kind": "thumb",
+        "size": [
+          480,
+          320
+        ],
+        "sha256": "e19dd46daed2e7a0d94e2aafc6de2bfaf53a70ce06182536f8e1b7672e4681d6",
+        "iccMatches": true
+      },
+      {
+        "kind": "display",
+        "size": [
+          1600,
+          1067
+        ],
+        "sha256": "c8e94b8c9a41c5b14d686644aebd2381fbb0181e5b3d9cb3ddd6f940e0b035d0",
+        "iccMatches": true
+      },
+      {
+        "kind": "full",
+        "size": [
+          5616,
+          3744
+        ],
+        "sha256": "3300f544251d0927763e98e4a31211169fe45b17c27797d5ea88622519506d74",
+        "iccMatches": true
+      }
+    ],
+    "iccDescription": null
+  },
+  {
+    "id": "jinci-front-sun",
+    "sourceSize": [
+      5712,
+      4284
+    ],
+    "exifOrientation": 1,
+    "displaySize": [
+      5712,
+      4284
+    ],
+    "originalSHA1": "60746dacc2514133be0af22bfc4bf381828d3bf8",
+    "originalSHA256": "ea19117069055fe185be26fa3e37cc565024b9f2d50e340e84da6e82ea613e36",
+    "iccBytes": 536,
+    "variants": [
+      {
+        "kind": "thumb",
+        "size": [
+          480,
+          360
+        ],
+        "sha256": "85e4f1a91ec2dd13412c6f76ea64caa91f5ebce2b0fbbe081fb4d686357ac039",
+        "iccMatches": true
+      },
+      {
+        "kind": "display",
+        "size": [
+          1600,
+          1200
+        ],
+        "sha256": "48bb51580d81d7514a1368629bd7ebce76969d213523794970c143d0cd5d72a0",
+        "iccMatches": true
+      },
+      {
+        "kind": "full",
+        "size": [
+          5712,
+          4284
+        ],
+        "sha256": "2c30fe1c799c461cc6e40b9896423ffeafd6cb3203faa907dab0d434e980d200",
+        "iccMatches": true
+      }
+    ],
+    "iccDescription": "Display P3"
+  },
+  {
+    "id": "jinci-side",
+    "sourceSize": [
+      4032,
+      3024
+    ],
+    "exifOrientation": 1,
+    "displaySize": [
+      4032,
+      3024
+    ],
+    "originalSHA1": "8a5f3dde403f743a3106e59f4d97acb94a38c3a2",
+    "originalSHA256": "48b80ad643f871545528322b16750fa2c8c1b9d9b807dd5f128afb6027463d25",
+    "iccBytes": 536,
+    "variants": [
+      {
+        "kind": "thumb",
+        "size": [
+          480,
+          360
+        ],
+        "sha256": "d49935d8359b7612c1d2620583770c67d281a47b105624eefbf3315e813b3359",
+        "iccMatches": true
+      },
+      {
+        "kind": "display",
+        "size": [
+          1600,
+          1200
+        ],
+        "sha256": "905603b560e2b48254fdd91b211ecd937c4ea1aad6966d72b0ea4db2b1980032",
+        "iccMatches": true
+      },
+      {
+        "kind": "full",
+        "size": [
+          4032,
+          3024
+        ],
+        "sha256": "c7ebe060dae135c8709a2762dda87bc0c23652393539803aa4377cb48c2689b9",
+        "iccMatches": true
+      }
+    ],
+    "iccDescription": "Display P3"
+  },
+  {
+    "id": "jinci-oblique",
+    "sourceSize": [
+      5712,
+      4284
+    ],
+    "exifOrientation": 1,
+    "displaySize": [
+      5712,
+      4284
+    ],
+    "originalSHA1": "c799f5719908b8810c7bc95d37a6320633ecd2de",
+    "originalSHA256": "18ca9411278036ebbae107dc099a706b2e693765c557d18f193a6327856e565b",
+    "iccBytes": 536,
+    "variants": [
+      {
+        "kind": "thumb",
+        "size": [
+          480,
+          360
+        ],
+        "sha256": "95357e717b1be0376739cc3c087fa2124b670b476dd8eea5ffeff622828d816d",
+        "iccMatches": true
+      },
+      {
+        "kind": "display",
+        "size": [
+          1600,
+          1200
+        ],
+        "sha256": "ceed42b703948c9b83cb21c56880473a576f54570f492be8f7dc0c03e476933e",
+        "iccMatches": true
+      },
+      {
+        "kind": "full",
+        "size": [
+          5712,
+          4284
+        ],
+        "sha256": "1e9248f91794dbd5c7aa1b51113dcba7ada975bf9be0bec6831ef472d185db9a",
+        "iccMatches": true
+      }
+    ],
+    "iccDescription": "Display P3"
+  },
+  {
+    "id": "jinci-porch",
+    "sourceSize": [
+      5712,
+      4284
+    ],
+    "exifOrientation": 8,
+    "displaySize": [
+      4284,
+      5712
+    ],
+    "originalSHA1": "1b448ff5166417a399c3001e0a9a0286c04102c2",
+    "originalSHA256": "43e7094245dadb3350bc3db35c68feda2b76f56a1551ae961a673ea32bb9302a",
+    "iccBytes": 536,
+    "variants": [
+      {
+        "kind": "thumb",
+        "size": [
+          360,
+          480
+        ],
+        "sha256": "aee8300083b6fbd52f5e58239e796cab41a1629b16fec994cd236fedb62df5a1",
+        "iccMatches": true
+      },
+      {
+        "kind": "display",
+        "size": [
+          1200,
+          1600
+        ],
+        "sha256": "c503310f21e9aff5fef0c62e5f077ff1b2b85acb268f897a8cba86f3fcffc6b8",
+        "iccMatches": true
+      },
+      {
+        "kind": "full",
+        "size": [
+          4284,
+          5712
+        ],
+        "sha256": "2a585badd93cbfed9decdf3115a0cc29eb76b6333039e2c57edcc47dd064de79",
+        "iccMatches": true
+      }
+    ],
+    "iccDescription": "Display P3"
+  },
+  {
+    "id": "jinci-bracket",
+    "sourceSize": [
+      4032,
+      3024
+    ],
+    "exifOrientation": 8,
+    "displaySize": [
+      3024,
+      4032
+    ],
+    "originalSHA1": "fe0abbf2dc7b0a54a02cecb90be3a9e093d84355",
+    "originalSHA256": "13edd208b7e4446660fe5c43303e80c862eb7140e52b9f948bf32684c7d5d845",
+    "iccBytes": 536,
+    "variants": [
+      {
+        "kind": "thumb",
+        "size": [
+          360,
+          480
+        ],
+        "sha256": "f937965cdcc1a8d4c697ba090d3f36f45f79e756e4c3d945ea19bd06e63a5dfb",
+        "iccMatches": true
+      },
+      {
+        "kind": "display",
+        "size": [
+          1200,
+          1600
+        ],
+        "sha256": "1adcab88d85db1b15d2a83dcb18a70f0659a6692bf5410337706a14ac077ede1",
+        "iccMatches": true
+      },
+      {
+        "kind": "full",
+        "size": [
+          3024,
+          4032
+        ],
+        "sha256": "a3d41adc15b3db5f498a1d395f181394c917218ae09391a5b8433e7f99047f9f",
+        "iccMatches": true
+      }
+    ],
+    "iccDescription": "Display P3"
+  },
+  {
+    "id": "jinci-dragon",
+    "sourceSize": [
+      5712,
+      4284
+    ],
+    "exifOrientation": 8,
+    "displaySize": [
+      4284,
+      5712
+    ],
+    "originalSHA1": "2d0e36948cb2dffab3149cdc26d517a3da1aef51",
+    "originalSHA256": "a59b04aee025a2eeadb05c90d95ebddfe0c78755152a714e49b907ec7db39476",
+    "iccBytes": 536,
+    "variants": [
+      {
+        "kind": "thumb",
+        "size": [
+          360,
+          480
+        ],
+        "sha256": "7b3636091964e5075f003a7cd35884235764d6521e1227df25bf9d9c9147e815",
+        "iccMatches": true
+      },
+      {
+        "kind": "display",
+        "size": [
+          1200,
+          1600
+        ],
+        "sha256": "f304a021d4f02e4a0d0682867d1036b9a39dba08f7ca6f7ac4eb42ffd2ce509a",
+        "iccMatches": true
+      },
+      {
+        "kind": "full",
+        "size": [
+          4284,
+          5712
+        ],
+        "sha256": "0777d662e750f8597a272991ad6607610376046dd3866aec7a4b49e0f5bcba10",
+        "iccMatches": true
+      }
+    ],
+    "iccDescription": "Display P3"
+  },
+  {
+    "id": "jinci-dragon-detail",
+    "sourceSize": [
+      4032,
+      3024
+    ],
+    "exifOrientation": 8,
+    "displaySize": [
+      3024,
+      4032
+    ],
+    "originalSHA1": "4058650cc8d86f7446a3e5d362051d03b3f4ace5",
+    "originalSHA256": "5d4380ad7c17dc165c624f6ae3de10ed921f669e8d9c4b7cad950a8b2d8b9fcc",
+    "iccBytes": 536,
+    "variants": [
+      {
+        "kind": "thumb",
+        "size": [
+          360,
+          480
+        ],
+        "sha256": "e93ebaf2165ccac45feb0403ab0a07413a7fe58bf8a1eb214418a4f5065c90d6",
+        "iccMatches": true
+      },
+      {
+        "kind": "display",
+        "size": [
+          1200,
+          1600
+        ],
+        "sha256": "9a3d85fd2d15950bd9ab61e0196d3ba211e4fbfc396323017a52cfaa0a71027f",
+        "iccMatches": true
+      },
+      {
+        "kind": "full",
+        "size": [
+          3024,
+          4032
+        ],
+        "sha256": "6855d7a3df922350b7ec2a3a58e508d35ede85874f4dc2684c0fc9be76eb3ecf",
+        "iccMatches": true
+      }
+    ],
+    "iccDescription": "Display P3"
+  },
+  {
+    "id": "jinci-dragon-detail-2",
+    "sourceSize": [
+      4032,
+      3024
+    ],
+    "exifOrientation": 8,
+    "displaySize": [
+      3024,
+      4032
+    ],
+    "originalSHA1": "fb8f1bb011c5c83f9f8b1a92bc8805a10182c72f",
+    "originalSHA256": "42dfe176f5ae7d37733dff47dddd534d8958abc2940b74c470fc6810bbe11272",
+    "iccBytes": 536,
+    "variants": [
+      {
+        "kind": "thumb",
+        "size": [
+          360,
+          480
+        ],
+        "sha256": "ffcc8722e33a36eed2d538209e40f3e13f60a4f2919110d60b9f8eb8fe26c5bd",
+        "iccMatches": true
+      },
+      {
+        "kind": "display",
+        "size": [
+          1200,
+          1600
+        ],
+        "sha256": "184225bc8dd18e8fcf639e3c577f20ddb0bb81231362e1c51e9267cb75ce74e2",
+        "iccMatches": true
+      },
+      {
+        "kind": "full",
+        "size": [
+          3024,
+          4032
+        ],
+        "sha256": "838286867405a46ccf0e78a02646da5e7622ee28ca791d13e7a2b00e68c59031",
+        "iccMatches": true
+      }
+    ],
+    "iccDescription": "Display P3"
+  }
+]
