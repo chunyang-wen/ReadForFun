@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-16T11:55:11.517317+00:00",
+  "objects": {
+    "chinese-architecture/baohe/updates/02/media/ui-bearing-whole.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/0a0ddac1bf6147c0/ui-bearing-whole.png",
+      "key": "chinese-architecture/baohe/updates/02/0a0ddac1bf6147c0/ui-bearing-whole.png",
+      "sha256": "0a0ddac1bf6147c0e09c2f9167489ed278f8550f6ef36ac05d0623760937edab",
+      "bytes": 96893,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/baohe/updates/02/media/ui-bearing-frame.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d4734d7e6805320a/ui-bearing-frame.png",
+      "key": "chinese-architecture/baohe/updates/02/d4734d7e6805320a/ui-bearing-frame.png",
+      "sha256": "d4734d7e6805320af3f5d22e0ca558071fdac3d194db0692d2c9b10cd8f12f83",
+      "bytes": 109866,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    }
+  }
+}

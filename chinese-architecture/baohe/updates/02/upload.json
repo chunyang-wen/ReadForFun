@@ -1,0 +1,252 @@
+{
+  "checkedAt": "2026-10-16T11:29:36.094775+00:00",
+  "objects": {
+    "chinese-architecture/photos/fallback/baohe-front-2012/0d1b7cc0a61f4cef/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-2012/0d1b7cc0a61f4cef/original.jpg",
+      "key": "chinese-architecture/photos/baohe-front-2012/0d1b7cc0a61f4cef/original.jpg",
+      "sha256": "0d1b7cc0a61f4cefdb370fd3558e0dc0db49a7f611b2160a2eb6f4fd57526b94",
+      "bytes": 5024005,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-front-2012/0d1b7cc0a61f4cef/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-2012/0d1b7cc0a61f4cef/display.webp",
+      "key": "chinese-architecture/photos/baohe-front-2012/0d1b7cc0a61f4cef/display.webp",
+      "sha256": "7b7fca5e32a0c69dd4107832f0f4f785699d602126e69fc8dab585f38a8a42ec",
+      "bytes": 425732,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-front-2012/0d1b7cc0a61f4cef/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-2012/0d1b7cc0a61f4cef/thumb.webp",
+      "key": "chinese-architecture/photos/baohe-front-2012/0d1b7cc0a61f4cef/thumb.webp",
+      "sha256": "d6c3a5140723a9a6f1c219d6dc34a3d846b75f842ec147a03f67738974808080",
+      "bytes": 50668,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-front-2012/0d1b7cc0a61f4cef/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-2012/0d1b7cc0a61f4cef/full.webp",
+      "key": "chinese-architecture/photos/baohe-front-2012/0d1b7cc0a61f4cef/full.webp",
+      "sha256": "88d1aeafaefc6a608d5064bb8d86044b678a326a3d857caa70a5bdfb019f2da0",
+      "bytes": 2681748,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-oblique-2012/a2eb540fb2d11f52/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-oblique-2012/a2eb540fb2d11f52/original.jpg",
+      "key": "chinese-architecture/photos/baohe-oblique-2012/a2eb540fb2d11f52/original.jpg",
+      "sha256": "a2eb540fb2d11f52ec440016dfd159e27208de6638a80eb94d1ae300654f3ae4",
+      "bytes": 2991652,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-oblique-2012/a2eb540fb2d11f52/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-oblique-2012/a2eb540fb2d11f52/display.webp",
+      "key": "chinese-architecture/photos/baohe-oblique-2012/a2eb540fb2d11f52/display.webp",
+      "sha256": "1ff255ddd78e5ead870aabb9100ce71582beda186e69b694ecaff421816cabf8",
+      "bytes": 204208,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-oblique-2012/a2eb540fb2d11f52/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-oblique-2012/a2eb540fb2d11f52/thumb.webp",
+      "key": "chinese-architecture/photos/baohe-oblique-2012/a2eb540fb2d11f52/thumb.webp",
+      "sha256": "72766dce0afcfe9b8f66d4d0691f39cd929bcb06e9229f8c0efdc6a775a483e1",
+      "bytes": 27074,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-oblique-2012/a2eb540fb2d11f52/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-oblique-2012/a2eb540fb2d11f52/full.webp",
+      "key": "chinese-architecture/photos/baohe-oblique-2012/a2eb540fb2d11f52/full.webp",
+      "sha256": "259a5f95211003f0a3e69555a4121da75577787c47cbcf49a358e7bb6e7d58e1",
+      "bytes": 1482728,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-north-ramp-up-2012/321c69b7b52cdf27/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-north-ramp-up-2012/321c69b7b52cdf27/original.jpg",
+      "key": "chinese-architecture/photos/baohe-north-ramp-up-2012/321c69b7b52cdf27/original.jpg",
+      "sha256": "321c69b7b52cdf271bacf3f0c004d8cff6ac68d47ac2e08b4b3314d312baf6a0",
+      "bytes": 5006740,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-north-ramp-up-2012/321c69b7b52cdf27/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-north-ramp-up-2012/321c69b7b52cdf27/display.webp",
+      "key": "chinese-architecture/photos/baohe-north-ramp-up-2012/321c69b7b52cdf27/display.webp",
+      "sha256": "aff63f400e186d85491c03e6525952f9be4156d97a184b582c3170c3fce1b30f",
+      "bytes": 486318,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-north-ramp-up-2012/321c69b7b52cdf27/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-north-ramp-up-2012/321c69b7b52cdf27/thumb.webp",
+      "key": "chinese-architecture/photos/baohe-north-ramp-up-2012/321c69b7b52cdf27/thumb.webp",
+      "sha256": "8864a8bae5f36b2de7c419cf3c2360f6ebed66c5150ae16379e4eb01fac444f7",
+      "bytes": 59976,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-north-ramp-up-2012/321c69b7b52cdf27/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-north-ramp-up-2012/321c69b7b52cdf27/full.webp",
+      "key": "chinese-architecture/photos/baohe-north-ramp-up-2012/321c69b7b52cdf27/full.webp",
+      "sha256": "564d8beeefd8525ae7ac8c9cd77df19d8f00bb9fc452419fbf265ec4134ed2ef",
+      "bytes": 2825112,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-front-terraces-2016/d81724efd3bede9a/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-terraces-2016/d81724efd3bede9a/original.jpg",
+      "key": "chinese-architecture/photos/baohe-front-terraces-2016/d81724efd3bede9a/original.jpg",
+      "sha256": "d81724efd3bede9a3a53fcc9e972140130b374e679005e9655eb0adfe08bf604",
+      "bytes": 3347933,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-front-terraces-2016/d81724efd3bede9a/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-terraces-2016/d81724efd3bede9a/display.webp",
+      "key": "chinese-architecture/photos/baohe-front-terraces-2016/d81724efd3bede9a/display.webp",
+      "sha256": "3f871ef0f9f48573833caeefe426f780896768445d4c134273419eb007538578",
+      "bytes": 347978,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-front-terraces-2016/d81724efd3bede9a/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-terraces-2016/d81724efd3bede9a/thumb.webp",
+      "key": "chinese-architecture/photos/baohe-front-terraces-2016/d81724efd3bede9a/thumb.webp",
+      "sha256": "3c58d9863e4e67ab433fa74da8c24b1c43bb9b4d2be14abfc14ef0df764a7142",
+      "bytes": 48426,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/baohe-front-terraces-2016/d81724efd3bede9a/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-terraces-2016/d81724efd3bede9a/full.webp",
+      "key": "chinese-architecture/photos/baohe-front-terraces-2016/d81724efd3bede9a/full.webp",
+      "sha256": "53fda2753c8127f3c2c158050be754b63859e68419ac7a1083437fd277fc034f",
+      "bytes": 1594176,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/baohe/updates/02/media/before-whole.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/19552ef37af6b60c/before-whole.png",
+      "key": "chinese-architecture/baohe/updates/02/19552ef37af6b60c/before-whole.png",
+      "sha256": "19552ef37af6b60caa389cbcc62cb8b5e3b0e0644bbecfd1b756ed42ed56c144",
+      "bytes": 99824,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/baohe/updates/02/media/after-rail-initial.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e8ff2b550bc2c9dd/after-rail-initial.png",
+      "key": "chinese-architecture/baohe/updates/02/e8ff2b550bc2c9dd/after-rail-initial.png",
+      "sha256": "e8ff2b550bc2c9ddf2d6a1c1115e82f81a316517cc0cf3259b40fc79743b33fb",
+      "bytes": 80196,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/baohe/updates/02/media/before-back.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/b50f621e91113df1/before-back.png",
+      "key": "chinese-architecture/baohe/updates/02/b50f621e91113df1/before-back.png",
+      "sha256": "b50f621e91113df1d73baa0a1030d53031bcea344b0745492e6b3b2a8ac186a4",
+      "bytes": 93337,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    }
+  }
+}

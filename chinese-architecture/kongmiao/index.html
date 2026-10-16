@@ -11,9 +11,9 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#eae3d3">
 <title>大成殿 · 木构解剖 | 美轮美奂</title><meta name="description" content="集中研究曲阜孔庙大成殿的柱网、石木转换、重檐斗拱、梁架与龙柱。可旋转、剖切、拆解与逐件查看的三维建筑研究展馆。">
 <link rel="icon" href="../../favicon-32.png"><link rel="stylesheet" href="style.css">
-<script type="importmap">{"imports":{"three":"../vendor/three.module.js"}}</script><script type="module" src="app.js"></script>
+<script type="importmap">{"imports":{"three":"../vendor/three.module.js"}}</script><script type="module" src="app.js?v=kongmiao-20261016-02-final"></script>
 </head><body>
-<header class="topbar"><a href="../collection/">← 美轮美奂 · 合集</a><a class="brand" href="#">美轮美奂 <span>中国传统建筑艺术</span></a><a href="#evidence">资料与复原依据 ↗</a></header>
+<header class="topbar"><a href="../collection/">← 美轮美奂 · 合集</a><a class="brand" href="#">美轮美奂 <span>中国传统建筑艺术</span></a><a href="#real-photos">实景图录 ↗</a><a href="#evidence">资料与复原依据 ↗</a></header>
 <main>
 <section class="intro"><div><p class="eyebrow">第十二卷 · 礼制殿堂 · 石木相接</p><h1>曲阜孔庙<span>大成殿</span><i class="seal">营<br>造</i></h1><p class="english">DACHENG DIAN · THE CONFUCIAN TEMPLE AT QUFU</p></div><div class="intro-note"><span>石下木上，龙有归处。</span><p>三圈柱位 · 七踩九踩 · 龙柱雕刻<br>旋转、剖切、拆合，循着构件读懂殿堂。</p></div></section>
 <nav id="chapters" class="chapters" aria-label="建筑研究步骤"></nav>
@@ -27,7 +27,8 @@
 </div>
 <aside class="inspector"><p id="chapter-number" class="eyebrow"></p><h2 id="chapter-title"></h2><p id="chapter-subtitle" class="chapter-subtitle"></p><p id="chapter-text"></p><dl id="chapter-facts"></dl><div class="observation"><span>观察任务</span><p id="chapter-question"></p></div><label class="micro" for="member-list">键盘 / 触摸选择关键构件</label><select id="member-list" aria-label="选择关键构件"></select><div id="selected-part" aria-live="polite"><p class="eyebrow">点选模型中的一件木石构件</p><p class="selection-placeholder">查看柱身、承托与雕饰各自的位置、作用和证据。</p></div><div class="chapter-paging"><button id="prev-chapter">← 上一步</button><button id="next-chapter">下一步 →</button></div></aside>
 </section>
+<section aria-label="曲阜孔庙大成殿实景图录"><div id="photo-atlas"></div></section>
 <section class="reading-section"><div><p class="eyebrow">礼制殿堂的阅读顺序</p><h2>柱有层次，<br>龙有归处。</h2></div><div class="reading-copy"><p>从周廊进入柱网，从柱顶看两檐承挑，再从剖面找到梁、桁与椽。前檐起突龙体和侧后团龙附于石身；内圈金柱的石木转换，则把材料与构造连成一体。</p><div class="load-path"><span>柱础与柱圈</span><b>→</b><span>枋梁与斗拱</span><b>→</b><span>桁椽与两檐</span></div><p class="micro">参考色概括现状；教学本色与构造分色用于阅读。没有历史色谱复原。剖切不封口，观察拆合非施工或力学模拟。</p></div></section>
 <section id="evidence" class="evidence"><div class="section-heading"><p class="eyebrow">资料与模型之间</p><h2>木石相接，明示边界。</h2></div><p class="evidence-intro">孔庙暂按曲阜孔庙解释。本卷只深入大成殿，采用雍正重建现存形制，1935年测绘作为构造参考；历次维修与现状材料不能无差别视为同一年。</p><div class="evidence-grid"><article><span class="evidence-tag">文献明确</span><h3>重檐、斗拱与材料</h3><p>梁思成原刊页47—51、图版七—十支持三周柱圈、七踩与九踩、石木上下分段，以及横纵梁架。原刊页47记录1730年完成，1724年为火灾及重建起点。</p></article><article><span class="evidence-tag approximate">图像判读 · 比例推定</span><h3>柱位、梁架与雕龙</h3><p>原刊图版判读柱位与承托；模型各开间、截面、标高与屋面曲线为教学推定。地方志记前檐十柱起突双龙，高约6米、径约0.8米，逐柱雕刻原创概括。</p></article><article><span class="evidence-tag unresolved">待核定</span><h3>隐藏接头与年代差异</h3><p>1935文字前面十二柱与地方志十柱口径待核。卯口、石木暗接、修缮铁件、彩画逐幅和真实转角斗科未取得清晰节点证据，不据外观补造。</p></article></div><p class="evidence-intro">原书沿用系列书目：楼庆西《美轮美奂：中国建筑装饰艺术》（2014，ISBN 9787112143085）。正文尚未取得，大成殿是否收录、章节页码和图号映射待补；这是有独立资料支持的补充研究。</p><p class="micro">尺寸基准：原刊高24.8m从殿内砖面至正脊上皮；面阔45.78m与进深24.89m保留原口径。官方网页54×34m、31.89m口径不同，不用于推算柱中心距。模型小数不代表毫米级测绘精度。</p><div id="sources" class="sources"></div><a href="MODEL_NOTES.md" class="text-link">阅读参数、来源与精度边界 ↗</a></section>
 <footer><span>美轮美奂 · 大成殿研究卷</span><a href="../collection/">返回合集 ↗</a><small>原创参数化几何 · Three.js（MIT）· 模型尺度以米计</small></footer>
-</main></body></html>
+<output id="viewer-state" hidden></output></main></body></html>

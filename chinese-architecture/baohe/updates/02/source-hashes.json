@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-10-16T11:54:16.013924+00:00",
+  "files": {
+    "chinese-architecture/baohe/model.js": {
+      "sha256": "33e26053a8f89bf26e44fc0d6db29bbabbc74e085393f064bbb82aec0b94042e",
+      "bytes": 27574
+    },
+    "chinese-architecture/baohe/app.js": {
+      "sha256": "4a7e53957588b96652b31946c7ea232a97f5600daf0ee12cc68c588ba1d2e3ac",
+      "bytes": 28198
+    },
+    "chinese-architecture/baohe/data.js": {
+      "sha256": "823201dbb0a899b761e8bc632852116a4de8de0f7deb566373fcbd77af507556",
+      "bytes": 11229
+    },
+    "chinese-architecture/baohe/index.html": {
+      "sha256": "91d15a11dd56cd14ba7b215be2e9d360d0af56434706b48c760bc6a5764a97bd",
+      "bytes": 8953
+    },
+    "chinese-architecture/baohe/style.css": {
+      "sha256": "f7ae03179b0585f27d063bfcd6b986dcead06c74dbcdc70833759f0e87e881ba",
+      "bytes": 14347
+    },
+    "chinese-architecture/baohe/tests/model.test.js": {
+      "sha256": "047193fcea1407cc7ec0f0c253e4cbedcbf5e5f1c2f7edfa8dfa129fd6d2b844",
+      "bytes": 11406
+    },
+    "chinese-architecture/baohe/tests/browser.mjs": {
+      "sha256": "07addd795494c5124c27eb4109ee84e66c66501436f3648a26652552864d0fde",
+      "bytes": 9875
+    },
+    "chinese-architecture/photos/catalog.js": {
+      "sha256": "b6f0f3a578d51dc16877824c057ccb5d140b22df511b26dc8f8acc011030d571",
+      "bytes": 51326
+    },
+    "chinese-architecture/photos/gallery.js": {
+      "sha256": "b44bb5a0483415f2e1d65677b06705d48f0ad3c1ac74f9ff840ab4b63ccef87f",
+      "bytes": 10060
+    },
+    "chinese-architecture/photos/gallery.css": {
+      "sha256": "1582a4f478ca53bbf393cde9c08db723855e7ed6a7f01a1af0b30e6308e21b04",
+      "bytes": 5684
+    },
+    "chinese-architecture/photos/r2-fallbacks.js": {
+      "sha256": "c900f9b17912d48e2d4d9418d8c73070a03bf050766dc790821451816a9e529c",
+      "bytes": 15071
+    },
+    "chinese-architecture/photos/assets.json": {
+      "sha256": "17ad205ab3fdaa9c27e5d28ed940d1702bb1f6637517a48532f90ca6f01bc891",
+      "bytes": 131609
+    },
+    "chinese-architecture/photos/preview.html": {
+      "sha256": "91a807c802cf94f8dc2e56eaf90e2770473bd37912b00bf83cbb663e45fca886",
+      "bytes": 1026
+    },
+    "chinese-architecture/photos/catalog.test.js": {
+      "sha256": "bbcb8a3aaa3f3e67045ac4deebfc5271837b5274e4e5fe0a00a6bdf40f63984b",
+      "bytes": 11414
+    }
+  },
+  "httpResponses": {
+    "app.js?v=baohe-02bearing": {
+      "sha256": "4a7e53957588b96652b31946c7ea232a97f5600daf0ee12cc68c588ba1d2e3ac",
+      "sameAsWorkspace": true
+    },
+    "model.js?v=baohe-02bearing": {
+      "sha256": "33e26053a8f89bf26e44fc0d6db29bbabbc74e085393f064bbb82aec0b94042e",
+      "sameAsWorkspace": true
+    },
+    "data.js?v=baohe-02bearing": {
+      "sha256": "823201dbb0a899b761e8bc632852116a4de8de0f7deb566373fcbd77af507556",
+      "sameAsWorkspace": true
+    },
+    "index.html": {
+      "sha256": "91d15a11dd56cd14ba7b215be2e9d360d0af56434706b48c760bc6a5764a97bd",
+      "sameAsWorkspace": true
+    }
+  }
+}

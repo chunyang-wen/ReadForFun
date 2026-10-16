@@ -1,0 +1,1 @@
+{ samples: 16, positiveGaps: 6, maxGapLowerBound: 0.31114451427991846 }

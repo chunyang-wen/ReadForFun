@@ -1,0 +1,29 @@
+[
+  {
+    "id": "force-total-height-29.5",
+    "status": "rejected before parameter optimization",
+    "proposedScale": 0.9124426587816958,
+    "reason": "官方29.5m量取基准未明；当前32.3308含教学台基与简化脊吻。不能统一缩放柱、台、御路来匹配一个高度。没有执行数值摄影拟合。"
+  },
+  {
+    "id": "force-column-grid-area-1240",
+    "status": "rejected before parameter optimization",
+    "proposedHorizontalScale": 1.119162746219357,
+    "reason": "官方建筑面积不等于45×22柱中心网格；无可靠带尺控制点和独立北立面，不由面积反推全部开间。没有执行数值摄影拟合。"
+  },
+  {
+    "id": "official-wallpaper-gallery",
+    "status": "rejected for redistribution",
+    "reason": "故宫370924仅作外观研究，无明确转载许可，保留原站链接，不上传R2。"
+  },
+  {
+    "id": "north-stair-hall-of-union",
+    "status": "rejected identity conflict",
+    "reason": "File:North stair of Hall of Union, Forbidden City.jpg 文件名指交泰殿、说明指乾清宫，分类含保和殿；不靠分类消解冲突，未采用作本卷北立面。"
+  },
+  {
+    "id": "snow-front-and-2016-extra",
+    "status": "not adopted for this batch",
+    "reason": "雪景仍是南立面天气上下文，389与已用两张北御路重叠，383/390为说明牌；没有补齐无遮挡背面或北端螭首口专照。"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "firstBatch": [
+    {
+      "height": 3235,
+      "ready": "true",
+      "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-2012/0d1b7cc0a61f4cef/full.webp",
+      "width": 5184
+    },
+    {
+      "height": 2679,
+      "ready": "true",
+      "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-oblique-2012/a2eb540fb2d11f52/full.webp",
+      "width": 4992
+    },
+    {
+      "height": 3000,
+      "ready": "true",
+      "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-terraces-2016/d81724efd3bede9a/full.webp",
+      "width": 4000
+    },
+    {
+      "height": 5054,
+      "ready": "true",
+      "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-north-ramp-up-2012/321c69b7b52cdf27/full.webp",
+      "width": 3456
+    }
+  ],
+  "fifthPhoto": {
+    "height": 5184,
+    "ready": "true",
+    "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-north-ramp-down-2012/88969c750ae2e60b/full.webp",
+    "width": 3456
+  },
+  "mobileZoom": {
+    "clientHeight": 538,
+    "scrollHeight": 2280,
+    "scrollTop": 1099
+  },
+  "sameChapterPhotoRetained": "05 / 05"
+}

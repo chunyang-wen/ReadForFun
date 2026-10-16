@@ -1,0 +1,6470 @@
+[
+  {
+    "id": "rail/lower/west/-27.200000000000003/4",
+    "position": [
+      -34.6,
+      3.55,
+      -25.800000000000004
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      -25.800000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-27.200000000000003/5",
+    "position": [
+      -34.6,
+      4.28,
+      -25.800000000000004
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      -25.800000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-27.200000000000003/6",
+    "position": [
+      -34.6,
+      4.49,
+      -25.800000000000004
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      -25.800000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-27.200000000000003/10",
+    "position": [
+      -34.6,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-27.200000000000003/11",
+    "position": [
+      -34.6,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-27.200000000000003/12",
+    "position": [
+      -34.6,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-24.400000000000002/4",
+    "position": [
+      -34.6,
+      3.55,
+      -23.000000000000004
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      -23.000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-24.400000000000002/5",
+    "position": [
+      -34.6,
+      4.28,
+      -23.000000000000004
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      -23.000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-24.400000000000002/6",
+    "position": [
+      -34.6,
+      4.49,
+      -23.000000000000004
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      -23.000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-21.6/4",
+    "position": [
+      -34.6,
+      3.55,
+      -20.200000000000003
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      -20.200000000000003
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-21.6/5",
+    "position": [
+      -34.6,
+      4.28,
+      -20.200000000000003
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      -20.200000000000003
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-21.6/6",
+    "position": [
+      -34.6,
+      4.49,
+      -20.200000000000003
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      -20.200000000000003
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-18.8/4",
+    "position": [
+      -34.6,
+      3.55,
+      -17.400000000000002
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      -17.400000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-18.8/5",
+    "position": [
+      -34.6,
+      4.28,
+      -17.400000000000002
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      -17.400000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-18.8/6",
+    "position": [
+      -34.6,
+      4.49,
+      -17.400000000000002
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      -17.400000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-16/4",
+    "position": [
+      -34.6,
+      3.55,
+      -14.6
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      -14.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-16/5",
+    "position": [
+      -34.6,
+      4.28,
+      -14.6
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      -14.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-16/6",
+    "position": [
+      -34.6,
+      4.49,
+      -14.6
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      -14.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-13.2/4",
+    "position": [
+      -34.6,
+      3.55,
+      -11.799999999999999
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      -11.799999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-13.2/5",
+    "position": [
+      -34.6,
+      4.28,
+      -11.799999999999999
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      -11.799999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-13.2/6",
+    "position": [
+      -34.6,
+      4.49,
+      -11.799999999999999
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      -11.799999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-10.399999999999999/4",
+    "position": [
+      -34.6,
+      3.55,
+      -8.999999999999998
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      -8.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-10.399999999999999/5",
+    "position": [
+      -34.6,
+      4.28,
+      -8.999999999999998
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      -8.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-10.399999999999999/6",
+    "position": [
+      -34.6,
+      4.49,
+      -8.999999999999998
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      -8.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-7.599999999999999/4",
+    "position": [
+      -34.6,
+      3.55,
+      -6.199999999999999
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      -6.199999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-7.599999999999999/5",
+    "position": [
+      -34.6,
+      4.28,
+      -6.199999999999999
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      -6.199999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-7.599999999999999/6",
+    "position": [
+      -34.6,
+      4.49,
+      -6.199999999999999
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      -6.199999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-4.799999999999999/4",
+    "position": [
+      -34.6,
+      3.55,
+      -3.399999999999999
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      -3.399999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-4.799999999999999/5",
+    "position": [
+      -34.6,
+      4.28,
+      -3.399999999999999
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      -3.399999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-4.799999999999999/6",
+    "position": [
+      -34.6,
+      4.49,
+      -3.399999999999999
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      -3.399999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-1.9999999999999991/4",
+    "position": [
+      -34.6,
+      3.55,
+      -0.5999999999999992
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      -0.5999999999999992
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-1.9999999999999991/5",
+    "position": [
+      -34.6,
+      4.28,
+      -0.5999999999999992
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      -0.5999999999999992
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/-1.9999999999999991/6",
+    "position": [
+      -34.6,
+      4.49,
+      -0.5999999999999992
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      -0.5999999999999992
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/0.8000000000000007/4",
+    "position": [
+      -34.6,
+      3.55,
+      2.2000000000000006
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      2.2000000000000006
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/0.8000000000000007/5",
+    "position": [
+      -34.6,
+      4.28,
+      2.2000000000000006
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      2.2000000000000006
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/0.8000000000000007/6",
+    "position": [
+      -34.6,
+      4.49,
+      2.2000000000000006
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      2.2000000000000006
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/3.6000000000000005/4",
+    "position": [
+      -34.6,
+      3.55,
+      5
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      5
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/3.6000000000000005/5",
+    "position": [
+      -34.6,
+      4.28,
+      5
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      5
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/3.6000000000000005/6",
+    "position": [
+      -34.6,
+      4.49,
+      5
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      5
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/6.4/4",
+    "position": [
+      -34.6,
+      3.55,
+      7.800000000000001
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      7.800000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/6.4/5",
+    "position": [
+      -34.6,
+      4.28,
+      7.800000000000001
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      7.800000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/6.4/6",
+    "position": [
+      -34.6,
+      4.49,
+      7.800000000000001
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      7.800000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/9.2/4",
+    "position": [
+      -34.6,
+      3.55,
+      10.6
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      10.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/9.2/5",
+    "position": [
+      -34.6,
+      4.28,
+      10.6
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      10.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/9.2/6",
+    "position": [
+      -34.6,
+      4.49,
+      10.6
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      10.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/12/4",
+    "position": [
+      -34.6,
+      3.55,
+      13.4
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      13.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/12/5",
+    "position": [
+      -34.6,
+      4.28,
+      13.4
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      13.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/12/6",
+    "position": [
+      -34.6,
+      4.49,
+      13.4
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      13.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/14.8/4",
+    "position": [
+      -34.6,
+      3.55,
+      16.2
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      16.2
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/14.8/5",
+    "position": [
+      -34.6,
+      4.28,
+      16.2
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      16.2
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/14.8/6",
+    "position": [
+      -34.6,
+      4.49,
+      16.2
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      16.2
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/17.6/4",
+    "position": [
+      -34.6,
+      3.55,
+      19
+    ],
+    "baselinePosition": [
+      -34.6,
+      3.55,
+      19
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/17.6/5",
+    "position": [
+      -34.6,
+      4.28,
+      19
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.28,
+      19
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/west/17.6/6",
+    "position": [
+      -34.6,
+      4.49,
+      19
+    ],
+    "baselinePosition": [
+      -34.6,
+      4.49,
+      19
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-33.2/10",
+    "position": [
+      -31.800000000000004,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      -31.800000000000004,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-33.2/11",
+    "position": [
+      -31.800000000000004,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      -31.800000000000004,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-33.2/12",
+    "position": [
+      -31.800000000000004,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      -31.800000000000004,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-30.400000000000002/10",
+    "position": [
+      -29.000000000000004,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      -29.000000000000004,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-30.400000000000002/11",
+    "position": [
+      -29.000000000000004,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      -29.000000000000004,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-30.400000000000002/12",
+    "position": [
+      -29.000000000000004,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      -29.000000000000004,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-27.6/10",
+    "position": [
+      -26.200000000000003,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      -26.200000000000003,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-27.6/11",
+    "position": [
+      -26.200000000000003,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      -26.200000000000003,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-27.6/12",
+    "position": [
+      -26.200000000000003,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      -26.200000000000003,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-24.8/10",
+    "position": [
+      -23.400000000000002,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      -23.400000000000002,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-24.8/11",
+    "position": [
+      -23.400000000000002,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      -23.400000000000002,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-24.8/12",
+    "position": [
+      -23.400000000000002,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      -23.400000000000002,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-22/10",
+    "position": [
+      -20.6,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      -20.6,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-22/11",
+    "position": [
+      -20.6,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      -20.6,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-22/12",
+    "position": [
+      -20.6,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      -20.6,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-19.2/10",
+    "position": [
+      -17.8,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      -17.8,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-19.2/11",
+    "position": [
+      -17.8,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      -17.8,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-19.2/12",
+    "position": [
+      -17.8,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      -17.8,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-16.4/10",
+    "position": [
+      -14.999999999999998,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      -14.999999999999998,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-16.4/11",
+    "position": [
+      -14.999999999999998,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      -14.999999999999998,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-16.4/12",
+    "position": [
+      -14.999999999999998,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      -14.999999999999998,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-13.599999999999998/10",
+    "position": [
+      -12.199999999999998,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      -12.199999999999998,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-13.599999999999998/11",
+    "position": [
+      -12.199999999999998,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      -12.199999999999998,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-13.599999999999998/12",
+    "position": [
+      -12.199999999999998,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      -12.199999999999998,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-10.799999999999997/10",
+    "position": [
+      -9.399999999999997,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      -9.399999999999997,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-10.799999999999997/11",
+    "position": [
+      -9.399999999999997,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      -9.399999999999997,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-10.799999999999997/12",
+    "position": [
+      -9.399999999999997,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      -9.399999999999997,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-7.999999999999997/10",
+    "position": [
+      -6.599999999999998,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      -6.599999999999998,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-7.999999999999997/11",
+    "position": [
+      -6.599999999999998,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      -6.599999999999998,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/-7.999999999999997/12",
+    "position": [
+      -6.599999999999998,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      -6.599999999999998,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/6.000000000000002/4",
+    "position": [
+      4.600000000000001,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      4.600000000000001,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/6.000000000000002/5",
+    "position": [
+      4.600000000000001,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      4.600000000000001,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/6.000000000000002/6",
+    "position": [
+      4.600000000000001,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      4.600000000000001,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/6.000000000000002/10",
+    "position": [
+      7.400000000000002,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      7.400000000000002,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/6.000000000000002/11",
+    "position": [
+      7.400000000000002,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      7.400000000000002,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/6.000000000000002/12",
+    "position": [
+      7.400000000000002,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      7.400000000000002,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/8.8/10",
+    "position": [
+      10.200000000000001,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      10.200000000000001,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/8.8/11",
+    "position": [
+      10.200000000000001,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      10.200000000000001,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/8.8/12",
+    "position": [
+      10.200000000000001,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      10.200000000000001,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/11.600000000000001/10",
+    "position": [
+      13.000000000000002,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      13.000000000000002,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/11.600000000000001/11",
+    "position": [
+      13.000000000000002,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      13.000000000000002,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/11.600000000000001/12",
+    "position": [
+      13.000000000000002,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      13.000000000000002,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/14.400000000000002/10",
+    "position": [
+      15.800000000000002,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      15.800000000000002,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/14.400000000000002/11",
+    "position": [
+      15.800000000000002,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      15.800000000000002,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/14.400000000000002/12",
+    "position": [
+      15.800000000000002,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      15.800000000000002,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/17.200000000000003/10",
+    "position": [
+      18.6,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      18.6,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/17.200000000000003/11",
+    "position": [
+      18.6,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      18.6,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/17.200000000000003/12",
+    "position": [
+      18.6,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      18.6,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/20.000000000000004/10",
+    "position": [
+      21.400000000000002,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      21.400000000000002,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/20.000000000000004/11",
+    "position": [
+      21.400000000000002,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      21.400000000000002,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/20.000000000000004/12",
+    "position": [
+      21.400000000000002,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      21.400000000000002,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/22.800000000000004/10",
+    "position": [
+      24.200000000000003,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      24.200000000000003,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/22.800000000000004/11",
+    "position": [
+      24.200000000000003,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      24.200000000000003,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/22.800000000000004/12",
+    "position": [
+      24.200000000000003,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      24.200000000000003,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/25.600000000000005/10",
+    "position": [
+      27.000000000000004,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      27.000000000000004,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/25.600000000000005/11",
+    "position": [
+      27.000000000000004,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      27.000000000000004,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/25.600000000000005/12",
+    "position": [
+      27.000000000000004,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      27.000000000000004,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/28.400000000000006/10",
+    "position": [
+      29.800000000000004,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      29.800000000000004,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/28.400000000000006/11",
+    "position": [
+      29.800000000000004,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      29.800000000000004,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/28.400000000000006/12",
+    "position": [
+      29.800000000000004,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      29.800000000000004,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/31.200000000000006/10",
+    "position": [
+      32.60000000000001,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      32.60000000000001,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/31.200000000000006/11",
+    "position": [
+      32.60000000000001,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      32.60000000000001,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/north/31.200000000000006/12",
+    "position": [
+      32.60000000000001,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      32.60000000000001,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-27.200000000000003/4",
+    "position": [
+      34.6,
+      3.55,
+      -25.800000000000004
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      -25.800000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-27.200000000000003/5",
+    "position": [
+      34.6,
+      4.28,
+      -25.800000000000004
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      -25.800000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-27.200000000000003/6",
+    "position": [
+      34.6,
+      4.49,
+      -25.800000000000004
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      -25.800000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-27.200000000000003/10",
+    "position": [
+      34.6,
+      3.55,
+      -28.6
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-27.200000000000003/11",
+    "position": [
+      34.6,
+      4.28,
+      -28.6
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-27.200000000000003/12",
+    "position": [
+      34.6,
+      4.49,
+      -28.6
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      -28.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-24.400000000000002/4",
+    "position": [
+      34.6,
+      3.55,
+      -23.000000000000004
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      -23.000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-24.400000000000002/5",
+    "position": [
+      34.6,
+      4.28,
+      -23.000000000000004
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      -23.000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-24.400000000000002/6",
+    "position": [
+      34.6,
+      4.49,
+      -23.000000000000004
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      -23.000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-21.6/4",
+    "position": [
+      34.6,
+      3.55,
+      -20.200000000000003
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      -20.200000000000003
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-21.6/5",
+    "position": [
+      34.6,
+      4.28,
+      -20.200000000000003
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      -20.200000000000003
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-21.6/6",
+    "position": [
+      34.6,
+      4.49,
+      -20.200000000000003
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      -20.200000000000003
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-18.8/4",
+    "position": [
+      34.6,
+      3.55,
+      -17.400000000000002
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      -17.400000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-18.8/5",
+    "position": [
+      34.6,
+      4.28,
+      -17.400000000000002
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      -17.400000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-18.8/6",
+    "position": [
+      34.6,
+      4.49,
+      -17.400000000000002
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      -17.400000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-16/4",
+    "position": [
+      34.6,
+      3.55,
+      -14.6
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      -14.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-16/5",
+    "position": [
+      34.6,
+      4.28,
+      -14.6
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      -14.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-16/6",
+    "position": [
+      34.6,
+      4.49,
+      -14.6
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      -14.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-13.2/4",
+    "position": [
+      34.6,
+      3.55,
+      -11.799999999999999
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      -11.799999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-13.2/5",
+    "position": [
+      34.6,
+      4.28,
+      -11.799999999999999
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      -11.799999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-13.2/6",
+    "position": [
+      34.6,
+      4.49,
+      -11.799999999999999
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      -11.799999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-10.399999999999999/4",
+    "position": [
+      34.6,
+      3.55,
+      -8.999999999999998
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      -8.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-10.399999999999999/5",
+    "position": [
+      34.6,
+      4.28,
+      -8.999999999999998
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      -8.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-10.399999999999999/6",
+    "position": [
+      34.6,
+      4.49,
+      -8.999999999999998
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      -8.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-7.599999999999999/4",
+    "position": [
+      34.6,
+      3.55,
+      -6.199999999999999
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      -6.199999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-7.599999999999999/5",
+    "position": [
+      34.6,
+      4.28,
+      -6.199999999999999
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      -6.199999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-7.599999999999999/6",
+    "position": [
+      34.6,
+      4.49,
+      -6.199999999999999
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      -6.199999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-4.799999999999999/4",
+    "position": [
+      34.6,
+      3.55,
+      -3.399999999999999
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      -3.399999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-4.799999999999999/5",
+    "position": [
+      34.6,
+      4.28,
+      -3.399999999999999
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      -3.399999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-4.799999999999999/6",
+    "position": [
+      34.6,
+      4.49,
+      -3.399999999999999
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      -3.399999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-1.9999999999999991/4",
+    "position": [
+      34.6,
+      3.55,
+      -0.5999999999999992
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      -0.5999999999999992
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-1.9999999999999991/5",
+    "position": [
+      34.6,
+      4.28,
+      -0.5999999999999992
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      -0.5999999999999992
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/-1.9999999999999991/6",
+    "position": [
+      34.6,
+      4.49,
+      -0.5999999999999992
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      -0.5999999999999992
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/0.8000000000000007/4",
+    "position": [
+      34.6,
+      3.55,
+      2.2000000000000006
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      2.2000000000000006
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/0.8000000000000007/5",
+    "position": [
+      34.6,
+      4.28,
+      2.2000000000000006
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      2.2000000000000006
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/0.8000000000000007/6",
+    "position": [
+      34.6,
+      4.49,
+      2.2000000000000006
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      2.2000000000000006
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/3.6000000000000005/4",
+    "position": [
+      34.6,
+      3.55,
+      5
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      5
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/3.6000000000000005/5",
+    "position": [
+      34.6,
+      4.28,
+      5
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      5
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/3.6000000000000005/6",
+    "position": [
+      34.6,
+      4.49,
+      5
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      5
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/6.4/4",
+    "position": [
+      34.6,
+      3.55,
+      7.800000000000001
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      7.800000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/6.4/5",
+    "position": [
+      34.6,
+      4.28,
+      7.800000000000001
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      7.800000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/6.4/6",
+    "position": [
+      34.6,
+      4.49,
+      7.800000000000001
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      7.800000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/9.2/4",
+    "position": [
+      34.6,
+      3.55,
+      10.6
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      10.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/9.2/5",
+    "position": [
+      34.6,
+      4.28,
+      10.6
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      10.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/9.2/6",
+    "position": [
+      34.6,
+      4.49,
+      10.6
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      10.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/12/4",
+    "position": [
+      34.6,
+      3.55,
+      13.4
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      13.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/12/5",
+    "position": [
+      34.6,
+      4.28,
+      13.4
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      13.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/12/6",
+    "position": [
+      34.6,
+      4.49,
+      13.4
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      13.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/14.8/4",
+    "position": [
+      34.6,
+      3.55,
+      16.2
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      16.2
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/14.8/5",
+    "position": [
+      34.6,
+      4.28,
+      16.2
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      16.2
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/14.8/6",
+    "position": [
+      34.6,
+      4.49,
+      16.2
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      16.2
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/17.6/4",
+    "position": [
+      34.6,
+      3.55,
+      19
+    ],
+    "baselinePosition": [
+      34.6,
+      3.55,
+      19
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/17.6/5",
+    "position": [
+      34.6,
+      4.28,
+      19
+    ],
+    "baselinePosition": [
+      34.6,
+      4.28,
+      19
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/lower/east/17.6/6",
+    "position": [
+      34.6,
+      4.49,
+      19
+    ],
+    "baselinePosition": [
+      34.6,
+      4.49,
+      19
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-21.200000000000003/4",
+    "position": [
+      -32.1,
+      6.15,
+      -19.800000000000004
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      -19.800000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-21.200000000000003/5",
+    "position": [
+      -32.1,
+      6.88,
+      -19.800000000000004
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      -19.800000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-21.200000000000003/6",
+    "position": [
+      -32.1,
+      7.09,
+      -19.800000000000004
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      -19.800000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-21.200000000000003/10",
+    "position": [
+      -32.1,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-21.200000000000003/11",
+    "position": [
+      -32.1,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-21.200000000000003/12",
+    "position": [
+      -32.1,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-18.400000000000002/4",
+    "position": [
+      -32.1,
+      6.15,
+      -17.000000000000004
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      -17.000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-18.400000000000002/5",
+    "position": [
+      -32.1,
+      6.88,
+      -17.000000000000004
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      -17.000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-18.400000000000002/6",
+    "position": [
+      -32.1,
+      7.09,
+      -17.000000000000004
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      -17.000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-15.600000000000001/4",
+    "position": [
+      -32.1,
+      6.15,
+      -14.200000000000001
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      -14.200000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-15.600000000000001/5",
+    "position": [
+      -32.1,
+      6.88,
+      -14.200000000000001
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      -14.200000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-15.600000000000001/6",
+    "position": [
+      -32.1,
+      7.09,
+      -14.200000000000001
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      -14.200000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-12.8/4",
+    "position": [
+      -32.1,
+      6.15,
+      -11.4
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      -11.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-12.8/5",
+    "position": [
+      -32.1,
+      6.88,
+      -11.4
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      -11.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-12.8/6",
+    "position": [
+      -32.1,
+      7.09,
+      -11.4
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      -11.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-10/4",
+    "position": [
+      -32.1,
+      6.15,
+      -8.6
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      -8.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-10/5",
+    "position": [
+      -32.1,
+      6.88,
+      -8.6
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      -8.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-10/6",
+    "position": [
+      -32.1,
+      7.09,
+      -8.6
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      -8.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-7.2/4",
+    "position": [
+      -32.1,
+      6.15,
+      -5.800000000000001
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      -5.800000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-7.2/5",
+    "position": [
+      -32.1,
+      6.88,
+      -5.800000000000001
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      -5.800000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-7.2/6",
+    "position": [
+      -32.1,
+      7.09,
+      -5.800000000000001
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      -5.800000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-4.4/4",
+    "position": [
+      -32.1,
+      6.15,
+      -3.0000000000000004
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      -3.0000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-4.4/5",
+    "position": [
+      -32.1,
+      6.88,
+      -3.0000000000000004
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      -3.0000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-4.4/6",
+    "position": [
+      -32.1,
+      7.09,
+      -3.0000000000000004
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      -3.0000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-1.6000000000000005/4",
+    "position": [
+      -32.1,
+      6.15,
+      -0.20000000000000062
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      -0.20000000000000062
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-1.6000000000000005/5",
+    "position": [
+      -32.1,
+      6.88,
+      -0.20000000000000062
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      -0.20000000000000062
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/-1.6000000000000005/6",
+    "position": [
+      -32.1,
+      7.09,
+      -0.20000000000000062
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      -0.20000000000000062
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/1.1999999999999993/4",
+    "position": [
+      -32.1,
+      6.15,
+      2.599999999999999
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      2.599999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/1.1999999999999993/5",
+    "position": [
+      -32.1,
+      6.88,
+      2.599999999999999
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      2.599999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/1.1999999999999993/6",
+    "position": [
+      -32.1,
+      7.09,
+      2.599999999999999
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      2.599999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/3.999999999999999/4",
+    "position": [
+      -32.1,
+      6.15,
+      5.399999999999999
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      5.399999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/3.999999999999999/5",
+    "position": [
+      -32.1,
+      6.88,
+      5.399999999999999
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      5.399999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/3.999999999999999/6",
+    "position": [
+      -32.1,
+      7.09,
+      5.399999999999999
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      5.399999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/6.799999999999999/4",
+    "position": [
+      -32.1,
+      6.15,
+      8.2
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      8.2
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/6.799999999999999/5",
+    "position": [
+      -32.1,
+      6.88,
+      8.2
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      8.2
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/6.799999999999999/6",
+    "position": [
+      -32.1,
+      7.09,
+      8.2
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      8.2
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/9.599999999999998/4",
+    "position": [
+      -32.1,
+      6.15,
+      10.999999999999998
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      10.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/9.599999999999998/5",
+    "position": [
+      -32.1,
+      6.88,
+      10.999999999999998
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      10.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/9.599999999999998/6",
+    "position": [
+      -32.1,
+      7.09,
+      10.999999999999998
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      10.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/12.399999999999999/4",
+    "position": [
+      -32.1,
+      6.15,
+      13.799999999999999
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      13.799999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/12.399999999999999/5",
+    "position": [
+      -32.1,
+      6.88,
+      13.799999999999999
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      13.799999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/12.399999999999999/6",
+    "position": [
+      -32.1,
+      7.09,
+      13.799999999999999
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      13.799999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/15.2/4",
+    "position": [
+      -32.1,
+      6.15,
+      16.599999999999998
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      16.599999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/15.2/5",
+    "position": [
+      -32.1,
+      6.88,
+      16.599999999999998
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      16.599999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/15.2/6",
+    "position": [
+      -32.1,
+      7.09,
+      16.599999999999998
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      16.599999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/18/4",
+    "position": [
+      -32.1,
+      6.15,
+      19.4
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.15,
+      19.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/18/5",
+    "position": [
+      -32.1,
+      6.88,
+      19.4
+    ],
+    "baselinePosition": [
+      -32.1,
+      6.88,
+      19.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/west/18/6",
+    "position": [
+      -32.1,
+      7.09,
+      19.4
+    ],
+    "baselinePosition": [
+      -32.1,
+      7.09,
+      19.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-30.700000000000003/10",
+    "position": [
+      -29.300000000000004,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      -29.300000000000004,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-30.700000000000003/11",
+    "position": [
+      -29.300000000000004,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      -29.300000000000004,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-30.700000000000003/12",
+    "position": [
+      -29.300000000000004,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      -29.300000000000004,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-27.900000000000002/10",
+    "position": [
+      -26.500000000000004,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      -26.500000000000004,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-27.900000000000002/11",
+    "position": [
+      -26.500000000000004,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      -26.500000000000004,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-27.900000000000002/12",
+    "position": [
+      -26.500000000000004,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      -26.500000000000004,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-25.1/10",
+    "position": [
+      -23.700000000000003,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      -23.700000000000003,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-25.1/11",
+    "position": [
+      -23.700000000000003,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      -23.700000000000003,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-25.1/12",
+    "position": [
+      -23.700000000000003,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      -23.700000000000003,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-22.3/10",
+    "position": [
+      -20.900000000000002,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      -20.900000000000002,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-22.3/11",
+    "position": [
+      -20.900000000000002,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      -20.900000000000002,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-22.3/12",
+    "position": [
+      -20.900000000000002,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      -20.900000000000002,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-19.5/10",
+    "position": [
+      -18.1,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      -18.1,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-19.5/11",
+    "position": [
+      -18.1,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      -18.1,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-19.5/12",
+    "position": [
+      -18.1,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      -18.1,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-16.7/10",
+    "position": [
+      -15.299999999999999,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      -15.299999999999999,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-16.7/11",
+    "position": [
+      -15.299999999999999,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      -15.299999999999999,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-16.7/12",
+    "position": [
+      -15.299999999999999,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      -15.299999999999999,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-13.899999999999999/10",
+    "position": [
+      -12.499999999999998,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      -12.499999999999998,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-13.899999999999999/11",
+    "position": [
+      -12.499999999999998,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      -12.499999999999998,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-13.899999999999999/12",
+    "position": [
+      -12.499999999999998,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      -12.499999999999998,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-11.099999999999998/10",
+    "position": [
+      -9.699999999999998,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      -9.699999999999998,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-11.099999999999998/11",
+    "position": [
+      -9.699999999999998,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      -9.699999999999998,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-11.099999999999998/12",
+    "position": [
+      -9.699999999999998,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      -9.699999999999998,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-8.299999999999997/10",
+    "position": [
+      -6.899999999999997,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      -6.899999999999997,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-8.299999999999997/11",
+    "position": [
+      -6.899999999999997,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      -6.899999999999997,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/-8.299999999999997/12",
+    "position": [
+      -6.899999999999997,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      -6.899999999999997,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/5.700000000000002/4",
+    "position": [
+      4.3000000000000025,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      4.3000000000000025,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/5.700000000000002/5",
+    "position": [
+      4.3000000000000025,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      4.3000000000000025,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/5.700000000000002/6",
+    "position": [
+      4.3000000000000025,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      4.3000000000000025,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/5.700000000000002/10",
+    "position": [
+      7.100000000000001,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      7.100000000000001,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/5.700000000000002/11",
+    "position": [
+      7.100000000000001,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      7.100000000000001,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/5.700000000000002/12",
+    "position": [
+      7.100000000000001,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      7.100000000000001,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/8.500000000000002/10",
+    "position": [
+      9.900000000000002,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      9.900000000000002,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/8.500000000000002/11",
+    "position": [
+      9.900000000000002,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      9.900000000000002,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/8.500000000000002/12",
+    "position": [
+      9.900000000000002,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      9.900000000000002,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/11.3/10",
+    "position": [
+      12.700000000000001,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      12.700000000000001,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/11.3/11",
+    "position": [
+      12.700000000000001,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      12.700000000000001,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/11.3/12",
+    "position": [
+      12.700000000000001,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      12.700000000000001,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/14.100000000000001/10",
+    "position": [
+      15.500000000000002,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      15.500000000000002,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/14.100000000000001/11",
+    "position": [
+      15.500000000000002,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      15.500000000000002,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/14.100000000000001/12",
+    "position": [
+      15.500000000000002,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      15.500000000000002,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/16.900000000000002/10",
+    "position": [
+      18.3,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      18.3,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/16.900000000000002/11",
+    "position": [
+      18.3,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      18.3,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/16.900000000000002/12",
+    "position": [
+      18.3,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      18.3,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/19.700000000000003/10",
+    "position": [
+      21.1,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      21.1,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/19.700000000000003/11",
+    "position": [
+      21.1,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      21.1,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/19.700000000000003/12",
+    "position": [
+      21.1,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      21.1,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/22.500000000000004/10",
+    "position": [
+      23.900000000000002,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      23.900000000000002,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/22.500000000000004/11",
+    "position": [
+      23.900000000000002,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      23.900000000000002,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/22.500000000000004/12",
+    "position": [
+      23.900000000000002,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      23.900000000000002,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/25.300000000000004/10",
+    "position": [
+      26.700000000000003,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      26.700000000000003,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/25.300000000000004/11",
+    "position": [
+      26.700000000000003,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      26.700000000000003,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/25.300000000000004/12",
+    "position": [
+      26.700000000000003,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      26.700000000000003,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/28.100000000000005/10",
+    "position": [
+      29.500000000000004,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      29.500000000000004,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/28.100000000000005/11",
+    "position": [
+      29.500000000000004,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      29.500000000000004,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/north/28.100000000000005/12",
+    "position": [
+      29.500000000000004,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      29.500000000000004,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-21.200000000000003/4",
+    "position": [
+      32.1,
+      6.15,
+      -19.800000000000004
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      -19.800000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-21.200000000000003/5",
+    "position": [
+      32.1,
+      6.88,
+      -19.800000000000004
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      -19.800000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-21.200000000000003/6",
+    "position": [
+      32.1,
+      7.09,
+      -19.800000000000004
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      -19.800000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-21.200000000000003/10",
+    "position": [
+      32.1,
+      6.15,
+      -22.6
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-21.200000000000003/11",
+    "position": [
+      32.1,
+      6.88,
+      -22.6
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-21.200000000000003/12",
+    "position": [
+      32.1,
+      7.09,
+      -22.6
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      -22.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-18.400000000000002/4",
+    "position": [
+      32.1,
+      6.15,
+      -17.000000000000004
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      -17.000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-18.400000000000002/5",
+    "position": [
+      32.1,
+      6.88,
+      -17.000000000000004
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      -17.000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-18.400000000000002/6",
+    "position": [
+      32.1,
+      7.09,
+      -17.000000000000004
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      -17.000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-15.600000000000001/4",
+    "position": [
+      32.1,
+      6.15,
+      -14.200000000000001
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      -14.200000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-15.600000000000001/5",
+    "position": [
+      32.1,
+      6.88,
+      -14.200000000000001
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      -14.200000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-15.600000000000001/6",
+    "position": [
+      32.1,
+      7.09,
+      -14.200000000000001
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      -14.200000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-12.8/4",
+    "position": [
+      32.1,
+      6.15,
+      -11.4
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      -11.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-12.8/5",
+    "position": [
+      32.1,
+      6.88,
+      -11.4
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      -11.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-12.8/6",
+    "position": [
+      32.1,
+      7.09,
+      -11.4
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      -11.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-10/4",
+    "position": [
+      32.1,
+      6.15,
+      -8.6
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      -8.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-10/5",
+    "position": [
+      32.1,
+      6.88,
+      -8.6
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      -8.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-10/6",
+    "position": [
+      32.1,
+      7.09,
+      -8.6
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      -8.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-7.2/4",
+    "position": [
+      32.1,
+      6.15,
+      -5.800000000000001
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      -5.800000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-7.2/5",
+    "position": [
+      32.1,
+      6.88,
+      -5.800000000000001
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      -5.800000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-7.2/6",
+    "position": [
+      32.1,
+      7.09,
+      -5.800000000000001
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      -5.800000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-4.4/4",
+    "position": [
+      32.1,
+      6.15,
+      -3.0000000000000004
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      -3.0000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-4.4/5",
+    "position": [
+      32.1,
+      6.88,
+      -3.0000000000000004
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      -3.0000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-4.4/6",
+    "position": [
+      32.1,
+      7.09,
+      -3.0000000000000004
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      -3.0000000000000004
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-1.6000000000000005/4",
+    "position": [
+      32.1,
+      6.15,
+      -0.20000000000000062
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      -0.20000000000000062
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-1.6000000000000005/5",
+    "position": [
+      32.1,
+      6.88,
+      -0.20000000000000062
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      -0.20000000000000062
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/-1.6000000000000005/6",
+    "position": [
+      32.1,
+      7.09,
+      -0.20000000000000062
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      -0.20000000000000062
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/1.1999999999999993/4",
+    "position": [
+      32.1,
+      6.15,
+      2.599999999999999
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      2.599999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/1.1999999999999993/5",
+    "position": [
+      32.1,
+      6.88,
+      2.599999999999999
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      2.599999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/1.1999999999999993/6",
+    "position": [
+      32.1,
+      7.09,
+      2.599999999999999
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      2.599999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/3.999999999999999/4",
+    "position": [
+      32.1,
+      6.15,
+      5.399999999999999
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      5.399999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/3.999999999999999/5",
+    "position": [
+      32.1,
+      6.88,
+      5.399999999999999
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      5.399999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/3.999999999999999/6",
+    "position": [
+      32.1,
+      7.09,
+      5.399999999999999
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      5.399999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/6.799999999999999/4",
+    "position": [
+      32.1,
+      6.15,
+      8.2
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      8.2
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/6.799999999999999/5",
+    "position": [
+      32.1,
+      6.88,
+      8.2
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      8.2
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/6.799999999999999/6",
+    "position": [
+      32.1,
+      7.09,
+      8.2
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      8.2
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/9.599999999999998/4",
+    "position": [
+      32.1,
+      6.15,
+      10.999999999999998
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      10.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/9.599999999999998/5",
+    "position": [
+      32.1,
+      6.88,
+      10.999999999999998
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      10.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/9.599999999999998/6",
+    "position": [
+      32.1,
+      7.09,
+      10.999999999999998
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      10.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/12.399999999999999/4",
+    "position": [
+      32.1,
+      6.15,
+      13.799999999999999
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      13.799999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/12.399999999999999/5",
+    "position": [
+      32.1,
+      6.88,
+      13.799999999999999
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      13.799999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/12.399999999999999/6",
+    "position": [
+      32.1,
+      7.09,
+      13.799999999999999
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      13.799999999999999
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/15.2/4",
+    "position": [
+      32.1,
+      6.15,
+      16.599999999999998
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      16.599999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/15.2/5",
+    "position": [
+      32.1,
+      6.88,
+      16.599999999999998
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      16.599999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/15.2/6",
+    "position": [
+      32.1,
+      7.09,
+      16.599999999999998
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      16.599999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/18/4",
+    "position": [
+      32.1,
+      6.15,
+      19.4
+    ],
+    "baselinePosition": [
+      32.1,
+      6.15,
+      19.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/18/5",
+    "position": [
+      32.1,
+      6.88,
+      19.4
+    ],
+    "baselinePosition": [
+      32.1,
+      6.88,
+      19.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/middle/east/18/6",
+    "position": [
+      32.1,
+      7.09,
+      19.4
+    ],
+    "baselinePosition": [
+      32.1,
+      7.09,
+      19.4
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-15.200000000000001/4",
+    "position": [
+      -29.6,
+      8.75,
+      -13.8
+    ],
+    "baselinePosition": [
+      -29.6,
+      8.75,
+      -13.8
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-15.200000000000001/5",
+    "position": [
+      -29.6,
+      9.48,
+      -13.8
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.48,
+      -13.8
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-15.200000000000001/6",
+    "position": [
+      -29.6,
+      9.69,
+      -13.8
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.69,
+      -13.8
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-15.200000000000001/10",
+    "position": [
+      -29.6,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      -29.6,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-15.200000000000001/11",
+    "position": [
+      -29.6,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-15.200000000000001/12",
+    "position": [
+      -29.6,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-12.400000000000002/4",
+    "position": [
+      -29.6,
+      8.75,
+      -11.000000000000002
+    ],
+    "baselinePosition": [
+      -29.6,
+      8.75,
+      -11.000000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-12.400000000000002/5",
+    "position": [
+      -29.6,
+      9.48,
+      -11.000000000000002
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.48,
+      -11.000000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-12.400000000000002/6",
+    "position": [
+      -29.6,
+      9.69,
+      -11.000000000000002
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.69,
+      -11.000000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-9.600000000000001/4",
+    "position": [
+      -29.6,
+      8.75,
+      -8.200000000000001
+    ],
+    "baselinePosition": [
+      -29.6,
+      8.75,
+      -8.200000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-9.600000000000001/5",
+    "position": [
+      -29.6,
+      9.48,
+      -8.200000000000001
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.48,
+      -8.200000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-9.600000000000001/6",
+    "position": [
+      -29.6,
+      9.69,
+      -8.200000000000001
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.69,
+      -8.200000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-6.800000000000002/4",
+    "position": [
+      -29.6,
+      8.75,
+      -5.400000000000002
+    ],
+    "baselinePosition": [
+      -29.6,
+      8.75,
+      -5.400000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-6.800000000000002/5",
+    "position": [
+      -29.6,
+      9.48,
+      -5.400000000000002
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.48,
+      -5.400000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-6.800000000000002/6",
+    "position": [
+      -29.6,
+      9.69,
+      -5.400000000000002
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.69,
+      -5.400000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-4.000000000000002/4",
+    "position": [
+      -29.6,
+      8.75,
+      -2.600000000000002
+    ],
+    "baselinePosition": [
+      -29.6,
+      8.75,
+      -2.600000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-4.000000000000002/5",
+    "position": [
+      -29.6,
+      9.48,
+      -2.600000000000002
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.48,
+      -2.600000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-4.000000000000002/6",
+    "position": [
+      -29.6,
+      9.69,
+      -2.600000000000002
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.69,
+      -2.600000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-1.200000000000002/4",
+    "position": [
+      -29.6,
+      8.75,
+      0.19999999999999796
+    ],
+    "baselinePosition": [
+      -29.6,
+      8.75,
+      0.19999999999999796
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-1.200000000000002/5",
+    "position": [
+      -29.6,
+      9.48,
+      0.19999999999999796
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.48,
+      0.19999999999999796
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/-1.200000000000002/6",
+    "position": [
+      -29.6,
+      9.69,
+      0.19999999999999796
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.69,
+      0.19999999999999796
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/1.5999999999999979/4",
+    "position": [
+      -29.6,
+      8.75,
+      2.999999999999998
+    ],
+    "baselinePosition": [
+      -29.6,
+      8.75,
+      2.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/1.5999999999999979/5",
+    "position": [
+      -29.6,
+      9.48,
+      2.999999999999998
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.48,
+      2.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/1.5999999999999979/6",
+    "position": [
+      -29.6,
+      9.69,
+      2.999999999999998
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.69,
+      2.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/4.399999999999998/4",
+    "position": [
+      -29.6,
+      8.75,
+      5.799999999999997
+    ],
+    "baselinePosition": [
+      -29.6,
+      8.75,
+      5.799999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/4.399999999999998/5",
+    "position": [
+      -29.6,
+      9.48,
+      5.799999999999997
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.48,
+      5.799999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/4.399999999999998/6",
+    "position": [
+      -29.6,
+      9.69,
+      5.799999999999997
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.69,
+      5.799999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/7.1999999999999975/4",
+    "position": [
+      -29.6,
+      8.75,
+      8.599999999999998
+    ],
+    "baselinePosition": [
+      -29.6,
+      8.75,
+      8.599999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/7.1999999999999975/5",
+    "position": [
+      -29.6,
+      9.48,
+      8.599999999999998
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.48,
+      8.599999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/7.1999999999999975/6",
+    "position": [
+      -29.6,
+      9.69,
+      8.599999999999998
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.69,
+      8.599999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/9.999999999999996/4",
+    "position": [
+      -29.6,
+      8.75,
+      11.399999999999997
+    ],
+    "baselinePosition": [
+      -29.6,
+      8.75,
+      11.399999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/9.999999999999996/5",
+    "position": [
+      -29.6,
+      9.48,
+      11.399999999999997
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.48,
+      11.399999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/9.999999999999996/6",
+    "position": [
+      -29.6,
+      9.69,
+      11.399999999999997
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.69,
+      11.399999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/12.799999999999997/4",
+    "position": [
+      -29.6,
+      8.75,
+      14.199999999999998
+    ],
+    "baselinePosition": [
+      -29.6,
+      8.75,
+      14.199999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/12.799999999999997/5",
+    "position": [
+      -29.6,
+      9.48,
+      14.199999999999998
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.48,
+      14.199999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/12.799999999999997/6",
+    "position": [
+      -29.6,
+      9.69,
+      14.199999999999998
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.69,
+      14.199999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/15.599999999999998/4",
+    "position": [
+      -29.6,
+      8.75,
+      16.999999999999996
+    ],
+    "baselinePosition": [
+      -29.6,
+      8.75,
+      16.999999999999996
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/15.599999999999998/5",
+    "position": [
+      -29.6,
+      9.48,
+      16.999999999999996
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.48,
+      16.999999999999996
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/15.599999999999998/6",
+    "position": [
+      -29.6,
+      9.69,
+      16.999999999999996
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.69,
+      16.999999999999996
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/18.4/4",
+    "position": [
+      -29.6,
+      8.75,
+      19.799999999999997
+    ],
+    "baselinePosition": [
+      -29.6,
+      8.75,
+      19.799999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/18.4/5",
+    "position": [
+      -29.6,
+      9.48,
+      19.799999999999997
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.48,
+      19.799999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/west/18.4/6",
+    "position": [
+      -29.6,
+      9.69,
+      19.799999999999997
+    ],
+    "baselinePosition": [
+      -29.6,
+      9.69,
+      19.799999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-28.200000000000003/10",
+    "position": [
+      -26.800000000000004,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      -26.800000000000004,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-28.200000000000003/11",
+    "position": [
+      -26.800000000000004,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      -26.800000000000004,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-28.200000000000003/12",
+    "position": [
+      -26.800000000000004,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      -26.800000000000004,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-25.400000000000002/10",
+    "position": [
+      -24.000000000000004,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      -24.000000000000004,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-25.400000000000002/11",
+    "position": [
+      -24.000000000000004,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      -24.000000000000004,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-25.400000000000002/12",
+    "position": [
+      -24.000000000000004,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      -24.000000000000004,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-22.6/10",
+    "position": [
+      -21.200000000000003,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      -21.200000000000003,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-22.6/11",
+    "position": [
+      -21.200000000000003,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      -21.200000000000003,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-22.6/12",
+    "position": [
+      -21.200000000000003,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      -21.200000000000003,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-19.8/10",
+    "position": [
+      -18.400000000000002,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      -18.400000000000002,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-19.8/11",
+    "position": [
+      -18.400000000000002,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      -18.400000000000002,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-19.8/12",
+    "position": [
+      -18.400000000000002,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      -18.400000000000002,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-17/10",
+    "position": [
+      -15.6,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      -15.6,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-17/11",
+    "position": [
+      -15.6,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      -15.6,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-17/12",
+    "position": [
+      -15.6,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      -15.6,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-14.2/10",
+    "position": [
+      -12.799999999999999,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      -12.799999999999999,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-14.2/11",
+    "position": [
+      -12.799999999999999,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      -12.799999999999999,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-14.2/12",
+    "position": [
+      -12.799999999999999,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      -12.799999999999999,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-11.399999999999999/10",
+    "position": [
+      -9.999999999999998,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      -9.999999999999998,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-11.399999999999999/11",
+    "position": [
+      -9.999999999999998,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      -9.999999999999998,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-11.399999999999999/12",
+    "position": [
+      -9.999999999999998,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      -9.999999999999998,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-8.599999999999998/10",
+    "position": [
+      -7.1999999999999975,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      -7.1999999999999975,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-8.599999999999998/11",
+    "position": [
+      -7.1999999999999975,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      -7.1999999999999975,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-8.599999999999998/12",
+    "position": [
+      -7.1999999999999975,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      -7.1999999999999975,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-5.799999999999998/10",
+    "position": [
+      -4.399999999999999,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      -4.399999999999999,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-5.799999999999998/11",
+    "position": [
+      -4.399999999999999,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      -4.399999999999999,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/-5.799999999999998/12",
+    "position": [
+      -4.399999999999999,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      -4.399999999999999,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/8.200000000000001/4",
+    "position": [
+      6.800000000000001,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      6.800000000000001,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/8.200000000000001/5",
+    "position": [
+      6.800000000000001,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      6.800000000000001,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/8.200000000000001/6",
+    "position": [
+      6.800000000000001,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      6.800000000000001,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/8.200000000000001/10",
+    "position": [
+      9.600000000000001,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      9.600000000000001,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/8.200000000000001/11",
+    "position": [
+      9.600000000000001,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      9.600000000000001,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/8.200000000000001/12",
+    "position": [
+      9.600000000000001,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      9.600000000000001,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/11/10",
+    "position": [
+      12.4,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      12.4,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/11/11",
+    "position": [
+      12.4,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      12.4,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/11/12",
+    "position": [
+      12.4,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      12.4,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/13.8/10",
+    "position": [
+      15.200000000000001,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      15.200000000000001,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/13.8/11",
+    "position": [
+      15.200000000000001,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      15.200000000000001,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/13.8/12",
+    "position": [
+      15.200000000000001,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      15.200000000000001,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/16.6/10",
+    "position": [
+      18,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      18,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/16.6/11",
+    "position": [
+      18,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      18,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/16.6/12",
+    "position": [
+      18,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      18,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/19.400000000000002/10",
+    "position": [
+      20.8,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      20.8,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/19.400000000000002/11",
+    "position": [
+      20.8,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      20.8,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/19.400000000000002/12",
+    "position": [
+      20.8,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      20.8,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/22.200000000000003/10",
+    "position": [
+      23.6,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      23.6,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/22.200000000000003/11",
+    "position": [
+      23.6,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      23.6,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/22.200000000000003/12",
+    "position": [
+      23.6,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      23.6,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/25.000000000000004/10",
+    "position": [
+      26.400000000000002,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      26.400000000000002,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/25.000000000000004/11",
+    "position": [
+      26.400000000000002,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      26.400000000000002,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/25.000000000000004/12",
+    "position": [
+      26.400000000000002,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      26.400000000000002,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/27.800000000000004/10",
+    "position": [
+      29.200000000000003,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      29.200000000000003,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/27.800000000000004/11",
+    "position": [
+      29.200000000000003,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      29.200000000000003,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/north/27.800000000000004/12",
+    "position": [
+      29.200000000000003,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      29.200000000000003,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-15.200000000000001/4",
+    "position": [
+      29.6,
+      8.75,
+      -13.8
+    ],
+    "baselinePosition": [
+      29.6,
+      8.75,
+      -13.8
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-15.200000000000001/5",
+    "position": [
+      29.6,
+      9.48,
+      -13.8
+    ],
+    "baselinePosition": [
+      29.6,
+      9.48,
+      -13.8
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-15.200000000000001/6",
+    "position": [
+      29.6,
+      9.69,
+      -13.8
+    ],
+    "baselinePosition": [
+      29.6,
+      9.69,
+      -13.8
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-15.200000000000001/10",
+    "position": [
+      29.6,
+      8.75,
+      -16.6
+    ],
+    "baselinePosition": [
+      29.6,
+      8.75,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-15.200000000000001/11",
+    "position": [
+      29.6,
+      9.48,
+      -16.6
+    ],
+    "baselinePosition": [
+      29.6,
+      9.48,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-15.200000000000001/12",
+    "position": [
+      29.6,
+      9.69,
+      -16.6
+    ],
+    "baselinePosition": [
+      29.6,
+      9.69,
+      -16.6
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-12.400000000000002/4",
+    "position": [
+      29.6,
+      8.75,
+      -11.000000000000002
+    ],
+    "baselinePosition": [
+      29.6,
+      8.75,
+      -11.000000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-12.400000000000002/5",
+    "position": [
+      29.6,
+      9.48,
+      -11.000000000000002
+    ],
+    "baselinePosition": [
+      29.6,
+      9.48,
+      -11.000000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-12.400000000000002/6",
+    "position": [
+      29.6,
+      9.69,
+      -11.000000000000002
+    ],
+    "baselinePosition": [
+      29.6,
+      9.69,
+      -11.000000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-9.600000000000001/4",
+    "position": [
+      29.6,
+      8.75,
+      -8.200000000000001
+    ],
+    "baselinePosition": [
+      29.6,
+      8.75,
+      -8.200000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-9.600000000000001/5",
+    "position": [
+      29.6,
+      9.48,
+      -8.200000000000001
+    ],
+    "baselinePosition": [
+      29.6,
+      9.48,
+      -8.200000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-9.600000000000001/6",
+    "position": [
+      29.6,
+      9.69,
+      -8.200000000000001
+    ],
+    "baselinePosition": [
+      29.6,
+      9.69,
+      -8.200000000000001
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-6.800000000000002/4",
+    "position": [
+      29.6,
+      8.75,
+      -5.400000000000002
+    ],
+    "baselinePosition": [
+      29.6,
+      8.75,
+      -5.400000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-6.800000000000002/5",
+    "position": [
+      29.6,
+      9.48,
+      -5.400000000000002
+    ],
+    "baselinePosition": [
+      29.6,
+      9.48,
+      -5.400000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-6.800000000000002/6",
+    "position": [
+      29.6,
+      9.69,
+      -5.400000000000002
+    ],
+    "baselinePosition": [
+      29.6,
+      9.69,
+      -5.400000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-4.000000000000002/4",
+    "position": [
+      29.6,
+      8.75,
+      -2.600000000000002
+    ],
+    "baselinePosition": [
+      29.6,
+      8.75,
+      -2.600000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-4.000000000000002/5",
+    "position": [
+      29.6,
+      9.48,
+      -2.600000000000002
+    ],
+    "baselinePosition": [
+      29.6,
+      9.48,
+      -2.600000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-4.000000000000002/6",
+    "position": [
+      29.6,
+      9.69,
+      -2.600000000000002
+    ],
+    "baselinePosition": [
+      29.6,
+      9.69,
+      -2.600000000000002
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-1.200000000000002/4",
+    "position": [
+      29.6,
+      8.75,
+      0.19999999999999796
+    ],
+    "baselinePosition": [
+      29.6,
+      8.75,
+      0.19999999999999796
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-1.200000000000002/5",
+    "position": [
+      29.6,
+      9.48,
+      0.19999999999999796
+    ],
+    "baselinePosition": [
+      29.6,
+      9.48,
+      0.19999999999999796
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/-1.200000000000002/6",
+    "position": [
+      29.6,
+      9.69,
+      0.19999999999999796
+    ],
+    "baselinePosition": [
+      29.6,
+      9.69,
+      0.19999999999999796
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/1.5999999999999979/4",
+    "position": [
+      29.6,
+      8.75,
+      2.999999999999998
+    ],
+    "baselinePosition": [
+      29.6,
+      8.75,
+      2.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/1.5999999999999979/5",
+    "position": [
+      29.6,
+      9.48,
+      2.999999999999998
+    ],
+    "baselinePosition": [
+      29.6,
+      9.48,
+      2.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/1.5999999999999979/6",
+    "position": [
+      29.6,
+      9.69,
+      2.999999999999998
+    ],
+    "baselinePosition": [
+      29.6,
+      9.69,
+      2.999999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/4.399999999999998/4",
+    "position": [
+      29.6,
+      8.75,
+      5.799999999999997
+    ],
+    "baselinePosition": [
+      29.6,
+      8.75,
+      5.799999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/4.399999999999998/5",
+    "position": [
+      29.6,
+      9.48,
+      5.799999999999997
+    ],
+    "baselinePosition": [
+      29.6,
+      9.48,
+      5.799999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/4.399999999999998/6",
+    "position": [
+      29.6,
+      9.69,
+      5.799999999999997
+    ],
+    "baselinePosition": [
+      29.6,
+      9.69,
+      5.799999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/7.1999999999999975/4",
+    "position": [
+      29.6,
+      8.75,
+      8.599999999999998
+    ],
+    "baselinePosition": [
+      29.6,
+      8.75,
+      8.599999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/7.1999999999999975/5",
+    "position": [
+      29.6,
+      9.48,
+      8.599999999999998
+    ],
+    "baselinePosition": [
+      29.6,
+      9.48,
+      8.599999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/7.1999999999999975/6",
+    "position": [
+      29.6,
+      9.69,
+      8.599999999999998
+    ],
+    "baselinePosition": [
+      29.6,
+      9.69,
+      8.599999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/9.999999999999996/4",
+    "position": [
+      29.6,
+      8.75,
+      11.399999999999997
+    ],
+    "baselinePosition": [
+      29.6,
+      8.75,
+      11.399999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/9.999999999999996/5",
+    "position": [
+      29.6,
+      9.48,
+      11.399999999999997
+    ],
+    "baselinePosition": [
+      29.6,
+      9.48,
+      11.399999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/9.999999999999996/6",
+    "position": [
+      29.6,
+      9.69,
+      11.399999999999997
+    ],
+    "baselinePosition": [
+      29.6,
+      9.69,
+      11.399999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/12.799999999999997/4",
+    "position": [
+      29.6,
+      8.75,
+      14.199999999999998
+    ],
+    "baselinePosition": [
+      29.6,
+      8.75,
+      14.199999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/12.799999999999997/5",
+    "position": [
+      29.6,
+      9.48,
+      14.199999999999998
+    ],
+    "baselinePosition": [
+      29.6,
+      9.48,
+      14.199999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/12.799999999999997/6",
+    "position": [
+      29.6,
+      9.69,
+      14.199999999999998
+    ],
+    "baselinePosition": [
+      29.6,
+      9.69,
+      14.199999999999998
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/15.599999999999998/4",
+    "position": [
+      29.6,
+      8.75,
+      16.999999999999996
+    ],
+    "baselinePosition": [
+      29.6,
+      8.75,
+      16.999999999999996
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/15.599999999999998/5",
+    "position": [
+      29.6,
+      9.48,
+      16.999999999999996
+    ],
+    "baselinePosition": [
+      29.6,
+      9.48,
+      16.999999999999996
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/15.599999999999998/6",
+    "position": [
+      29.6,
+      9.69,
+      16.999999999999996
+    ],
+    "baselinePosition": [
+      29.6,
+      9.69,
+      16.999999999999996
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/18.4/4",
+    "position": [
+      29.6,
+      8.75,
+      19.799999999999997
+    ],
+    "baselinePosition": [
+      29.6,
+      8.75,
+      19.799999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/18.4/5",
+    "position": [
+      29.6,
+      9.48,
+      19.799999999999997
+    ],
+    "baselinePosition": [
+      29.6,
+      9.48,
+      19.799999999999997
+    ],
+    "same": true
+  },
+  {
+    "id": "rail/upper/east/18.4/6",
+    "position": [
+      29.6,
+      9.69,
+      19.799999999999997
+    ],
+    "baselinePosition": [
+      29.6,
+      9.69,
+      19.799999999999997
+    ],
+    "same": true
+  }
+]

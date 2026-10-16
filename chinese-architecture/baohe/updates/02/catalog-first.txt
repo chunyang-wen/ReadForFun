@@ -1,0 +1,22 @@
+✔ each photo has explicit reusable rights, attribution and exact building chapter (0.91925ms)
+✔ every display size has a local or verified R2 fallback, and remote keys are content addressed (0.792375ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.076417ms)
+✔ each photograph appears exactly once in its building story (0.095ms)
+✔ Dule historic plate pages retain period and subject limits, without claiming modern coverage (0.082625ms)
+✔ Yingxian retains native pixels and local delivery while independently recording verified R2 storage (0.394208ms)
+✔ Jinci covers hall, porch, bracket and dragons while preserving uncertain directions (0.133333ms)
+✔ Fengxian interior photos retain front-hall identity limits and real decoration node (0.082167ms)
+✔ Qinian atlas has explicit east-view limits and real decoration node, with R2-only delivery (0.124ms)
+✔ Huazhongyou identifies one gate, links the lotus node and keeps missing rear coverage explicit (0.117292ms)
+✔ Chengzhi front-hall photos retain door/hidden-frame gaps and link actual carving nodes (0.095875ms)
+✔ Dianchunyi shows three verified courtyard/facade contexts, explicit missing north view and preview boundary (0.096375ms)
+✔ Kongmiao photos use this hall, R2 and actual dragon node, preserving missing views (0.099334ms)
+✔ Baohe keeps south terrace and north independent stone distinct, with actual ramp linkage (0.075834ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 56.864833

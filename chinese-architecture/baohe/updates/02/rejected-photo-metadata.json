@@ -1,0 +1,555 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "54085799": {
+        "pageid": 54085799,
+        "ns": 6,
+        "title": "File:Beijing (November 2016) - 383.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3086828,
+            "width": 3000,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Beijing_%28November_2016%29_-_383.jpg/960px-Beijing_%28November_2016%29_-_383.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 600,
+            "thumbheight": 800,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Beijing_%28November_2016%29_-_383.jpg/1280px-Beijing_%28November_2016%29_-_383.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Beijing_%28November_2016%29_-_383.jpg/960px-Beijing_%28November_2016%29_-_383.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 600,
+              "height": 800,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Beijing_%28November_2016%29_-_383.jpg/1280px-Beijing_%28November_2016%29_-_383.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Beijing_%28November_2016%29_-_383.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beijing_(November_2016)_-_383.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54085799",
+            "sha1": "58df5bfd6d7e7181af46c89e05ab8d5a23815d77",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-12-14 17:15:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Beijing (November 2016) - 383",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files of China with bad file names|Hall of Preserving Harmony (Forbidden City)|Self-published work|November 2016 in Beijing|2016 photographs of Beijing by Another Believer",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Beijing (November 2016)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-11-22 06:36:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Another_Believer\" title=\"User:Another Believer\">Another Believer</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "54085808": {
+        "pageid": 54085808,
+        "ns": 6,
+        "title": "File:Beijing (November 2016) - 389.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3167217,
+            "width": 3000,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Beijing_%28November_2016%29_-_389.jpg/960px-Beijing_%28November_2016%29_-_389.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 600,
+            "thumbheight": 800,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Beijing_%28November_2016%29_-_389.jpg/1280px-Beijing_%28November_2016%29_-_389.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Beijing_%28November_2016%29_-_389.jpg/960px-Beijing_%28November_2016%29_-_389.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 600,
+              "height": 800,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Beijing_%28November_2016%29_-_389.jpg/1280px-Beijing_%28November_2016%29_-_389.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Beijing_%28November_2016%29_-_389.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beijing_(November_2016)_-_389.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54085808",
+            "sha1": "596cbd53cc374a332460a20efcf6f2a7fc8ed9c1",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-12-14 17:15:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Beijing (November 2016) - 389",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files of China with bad file names|Hall of Preserving Harmony (Forbidden City)|Self-published work|November 2016 in Beijing|2016 photographs of Beijing by Another Believer",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Beijing (November 2016)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-11-22 06:39:22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Another_Believer\" title=\"User:Another Believer\">Another Believer</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "54085809": {
+        "pageid": 54085809,
+        "ns": 6,
+        "title": "File:Beijing (November 2016) - 390.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2732558,
+            "width": 3000,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Beijing_%28November_2016%29_-_390.jpg/960px-Beijing_%28November_2016%29_-_390.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 600,
+            "thumbheight": 800,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Beijing_%28November_2016%29_-_390.jpg/1280px-Beijing_%28November_2016%29_-_390.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Beijing_%28November_2016%29_-_390.jpg/960px-Beijing_%28November_2016%29_-_390.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 600,
+              "height": 800,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Beijing_%28November_2016%29_-_390.jpg/1280px-Beijing_%28November_2016%29_-_390.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Beijing_%28November_2016%29_-_390.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beijing_(November_2016)_-_390.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54085809",
+            "sha1": "b93a5daa3fc26f2132688c0b42905aa2e0a613af",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-12-14 17:15:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Beijing (November 2016) - 390",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files of China with bad file names|Hall of Preserving Harmony (Forbidden City)|Self-published work|November 2016 in Beijing|2016 photographs of Beijing by Another Believer",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Beijing (November 2016)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-11-22 06:39:29",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Another_Believer\" title=\"User:Another Believer\">Another Believer</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "116183477": {
+        "pageid": 116183477,
+        "ns": 6,
+        "title": "File:Hall of Preserving Harmony in snow (20220318160000).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 16523350,
+            "width": 7141,
+            "height": 4761,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Hall_of_Preserving_Harmony_in_snow_%2820220318160000%29.jpg/960px-Hall_of_Preserving_Harmony_in_snow_%2820220318160000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 600,
+            "thumbheight": 400,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Hall_of_Preserving_Harmony_in_snow_%2820220318160000%29.jpg/1280px-Hall_of_Preserving_Harmony_in_snow_%2820220318160000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Hall_of_Preserving_Harmony_in_snow_%2820220318160000%29.jpg/960px-Hall_of_Preserving_Harmony_in_snow_%2820220318160000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 600,
+              "height": 400,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Hall_of_Preserving_Harmony_in_snow_%2820220318160000%29.jpg/1280px-Hall_of_Preserving_Harmony_in_snow_%2820220318160000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Hall_of_Preserving_Harmony_in_snow_%2820220318160000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hall_of_Preserving_Harmony_in_snow_(20220318160000).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=116183477",
+            "sha1": "d2e70ae6608da5f6b68bb4ac86b4f20a55ee2e7f",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-03-18 15:19:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hall of Preserving Harmony in snow (20220318160000)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Hall of Preserving Harmony (Forbidden City)|Self-published work|Beijing photographs taken on 2022-03-18|Files with coordinates missing SDC location of creation|March 2022 in Beijing|Winter at the Forbidden City",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "39.916500",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "116.390572",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "16:00:00?!",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-03-18 16:00:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:N509FZ\" title=\"User:N509FZ\">N509FZ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "32942278": {
+        "pageid": 32942278,
+        "ns": 6,
+        "title": "File:North stair of Hall of Union, Forbidden City.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 18191598,
+            "width": 4032,
+            "height": 6048,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/North_stair_of_Hall_of_Union%2C_Forbidden_City.jpg/960px-North_stair_of_Hall_of_Union%2C_Forbidden_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 600,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/North_stair_of_Hall_of_Union%2C_Forbidden_City.jpg/1280px-North_stair_of_Hall_of_Union%2C_Forbidden_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/North_stair_of_Hall_of_Union%2C_Forbidden_City.jpg/960px-North_stair_of_Hall_of_Union%2C_Forbidden_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 600,
+              "height": 900,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/North_stair_of_Hall_of_Union%2C_Forbidden_City.jpg/1280px-North_stair_of_Hall_of_Union%2C_Forbidden_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/North_stair_of_Hall_of_Union%2C_Forbidden_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:North_stair_of_Hall_of_Union,_Forbidden_City.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=32942278",
+            "sha1": "0214b71e7ef2557121a355317d91eda0cf94e1dd",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-05-24 00:49:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "North stair of Hall of Union, Forbidden City",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Stone stairs in China|Outside stairs in China|GFDL|Taken with Nikon D3x|Hall of Preserving Harmony (Forbidden City)|License migration redundant|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "North stair with dragon carving on the <a href=\"https://en.wikipedia.org/wiki/Palace_of_Heavenly_Purity\" class=\"extiw\" title=\"w:Palace of Heavenly Purity\">Palace of Heavenly Purity</a> at the <a href=\"https://en.wikipedia.org/wiki/Forbidden_City\" class=\"extiw\" title=\"w:Forbidden City\">Forbidden City</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-03-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Case\" title=\"User:Daniel Case\">Daniel Case</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "You may select the license of your choice.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,9 +1,9 @@
-import {R2_FALLBACKS} from './r2-fallbacks.js';
-import {PHOTO_STORIES} from './catalog.js?v=atlas-20261016-chengzhi-02';
+import {R2_FALLBACKS} from './r2-fallbacks.js?v=atlas-20261016-baohe-02final';
+import {PHOTO_STORIES} from './catalog.js?v=atlas-20261016-baohe-02final';
 const assetUrl=new URL('./assets.json',import.meta.url);
 function setPhoto(img,item,kind,onFailure=()=>{}){
  const localKey=`fallback/${item.id}/${item.sha256.slice(0,16)}/${kind}.webp`;
- const fallback=R2_FALLBACKS[localKey]||new URL('./'+localKey,import.meta.url).href;
+ const fallback=item.r2Only?item[kind]:R2_FALLBACKS[localKey]||new URL('./'+localKey,import.meta.url).href;
  img.onerror=()=>{if(img.src!==fallback){img.src=fallback;}else{onFailure();}};img.src=item[kind];
 }
 const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('./gallery.css?v=photo-atlas-02',import.meta.url);document.head.append(css);

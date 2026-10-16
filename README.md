@@ -8,6 +8,7 @@
 
 - [六张设计样例](travel-in-china/mockups/) · 用于讨论构图、字体与浏览路径。
 - [实现、资料来源与验证说明](travel-in-china/README.md)。
+- [城市制作指南](travel-in-china/PRODUCTION_GUIDE.md) · 新增城市的统一要求、成都经验与工作单模板。
 
 ## 中国传统艺术
 

@@ -1,0 +1,66 @@
+{
+  "roof": [
+    {
+      "key": "roof/false/-1",
+      "triangles": 2912,
+      "down": 0,
+      "degenerate": 0,
+      "minArea": 0.13030719528367027
+    },
+    {
+      "key": "roof/false/1",
+      "triangles": 2912,
+      "down": 2912,
+      "degenerate": 0,
+      "minArea": 0.13030719528367027
+    },
+    {
+      "key": "roof/hip/false/-1",
+      "triangles": 2912,
+      "down": 2912,
+      "degenerate": 0,
+      "minArea": 0.06475264803227167
+    },
+    {
+      "key": "roof/hip/false/1",
+      "triangles": 2912,
+      "down": 0,
+      "degenerate": 0,
+      "minArea": 0.06475264803227167
+    },
+    {
+      "key": "roof/true/-1",
+      "triangles": 2912,
+      "down": 0,
+      "degenerate": 0,
+      "minArea": 0.19742556312747656
+    },
+    {
+      "key": "roof/true/1",
+      "triangles": 2912,
+      "down": 2912,
+      "degenerate": 0,
+      "minArea": 0.19742556312747656
+    },
+    {
+      "key": "roof/hip/true/-1",
+      "triangles": 2912,
+      "down": 2912,
+      "degenerate": 0,
+      "minArea": 0.02027615357207596
+    },
+    {
+      "key": "roof/hip/true/1",
+      "triangles": 2912,
+      "down": 0,
+      "degenerate": 0,
+      "minArea": 0.02027615357207596
+    }
+  ],
+  "duplicatePurlins": [
+    [
+      "purlin/true/-1/0/0",
+      "purlin/true/1/0/0"
+    ]
+  ]
+}

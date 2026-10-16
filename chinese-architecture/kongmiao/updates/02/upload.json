@@ -1,0 +1,993 @@
+{
+  "checkedAt": "2026-10-16T11:38:25.602218+00:00",
+  "objects": {
+    "chinese-architecture/photos/fallback/kongmiao-front/bd9d14907b87bd85/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-front/bd9d14907b87bd85/original.jpg",
+      "key": "chinese-architecture/photos/kongmiao-front/bd9d14907b87bd85/original.jpg",
+      "sha256": "bd9d14907b87bd85bb0bb6ec25dfeae34ecae6dfd8d500f782b369451421c4a6",
+      "bytes": 9639898,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-front/bd9d14907b87bd85/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-front/bd9d14907b87bd85/display.webp",
+      "key": "chinese-architecture/photos/kongmiao-front/bd9d14907b87bd85/display.webp",
+      "sha256": "f26527d4249a8d77334b77e8537eafdad912ae7486ba707e69f1370523052a7f",
+      "bytes": 323638,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-front/bd9d14907b87bd85/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-front/bd9d14907b87bd85/thumb.webp",
+      "key": "chinese-architecture/photos/kongmiao-front/bd9d14907b87bd85/thumb.webp",
+      "sha256": "8eaef9b9c23939878bcd34641286444865d99c2cf442362500d1a20e202922ce",
+      "bytes": 39482,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-front/bd9d14907b87bd85/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-front/bd9d14907b87bd85/full.webp",
+      "key": "chinese-architecture/photos/kongmiao-front/bd9d14907b87bd85/full.webp",
+      "sha256": "819e4abc4262f36e0f58205d247541d520bf75888fd9dfbab38addd61db447dc",
+      "bytes": 2078354,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-oblique/16b8fccefac85458/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-oblique/16b8fccefac85458/original.jpg",
+      "key": "chinese-architecture/photos/kongmiao-oblique/16b8fccefac85458/original.jpg",
+      "sha256": "16b8fccefac85458bab9b75a5137ac79f5051e90fc139bfb1ddb290d58f555f2",
+      "bytes": 10096733,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-oblique/16b8fccefac85458/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-oblique/16b8fccefac85458/display.webp",
+      "key": "chinese-architecture/photos/kongmiao-oblique/16b8fccefac85458/display.webp",
+      "sha256": "1bbed7992ed6a5cd1ec086d4e61ca8be7bc020b68815e98125565609c45f429c",
+      "bytes": 318270,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-oblique/16b8fccefac85458/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-oblique/16b8fccefac85458/thumb.webp",
+      "key": "chinese-architecture/photos/kongmiao-oblique/16b8fccefac85458/thumb.webp",
+      "sha256": "9a41eaafe77b001769f80025685a594b15b572f12d6db96eb6a11453da198ae6",
+      "bytes": 42650,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-oblique/16b8fccefac85458/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-oblique/16b8fccefac85458/full.webp",
+      "key": "chinese-architecture/photos/kongmiao-oblique/16b8fccefac85458/full.webp",
+      "sha256": "3b09b547148b9c472c500cae21611aa3b6a024318b825a021fff9a0f12033acc",
+      "bytes": 2030512,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-dragon/f5e63a05cce08be3/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-dragon/f5e63a05cce08be3/original.jpg",
+      "key": "chinese-architecture/photos/kongmiao-dragon/f5e63a05cce08be3/original.jpg",
+      "sha256": "f5e63a05cce08be318da69585586734198c45dbd8d28f4a20e90bcd7584b2d90",
+      "bytes": 10452436,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-dragon/f5e63a05cce08be3/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-dragon/f5e63a05cce08be3/display.webp",
+      "key": "chinese-architecture/photos/kongmiao-dragon/f5e63a05cce08be3/display.webp",
+      "sha256": "ba4434c2b66fcbefc7ed58a1514e584ab2e78b8eb0438077d0fbea597fc000b0",
+      "bytes": 410690,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-dragon/f5e63a05cce08be3/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-dragon/f5e63a05cce08be3/thumb.webp",
+      "key": "chinese-architecture/photos/kongmiao-dragon/f5e63a05cce08be3/thumb.webp",
+      "sha256": "bb70c3080d08a2014e1149b54b21b34925ed4b75469279aa0cc33dcbbcd03589",
+      "bytes": 52690,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-dragon/f5e63a05cce08be3/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-dragon/f5e63a05cce08be3/full.webp",
+      "key": "chinese-architecture/photos/kongmiao-dragon/f5e63a05cce08be3/full.webp",
+      "sha256": "7c2a1eb2368848503e27a34bcfe22919ac220e741de42c05c4009fcd72a76b42",
+      "bytes": 2096598,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-plan/5093423adfe9afb9/original.pdf": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-plan/5093423adfe9afb9/original.pdf",
+      "key": "chinese-architecture/photos/kongmiao-plan/5093423adfe9afb9/original.pdf",
+      "sha256": "5093423adfe9afb94c2b78d004c7c5293ca288d9511dcb252a1fae2f64b17809",
+      "bytes": 10568280,
+      "contentType": "application/pdf",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-plan/5093423adfe9afb9/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-plan/5093423adfe9afb9/display.webp",
+      "key": "chinese-architecture/photos/kongmiao-plan/5093423adfe9afb9/display.webp",
+      "sha256": "3cc28053773312a1d06d418812ab9f93a4fc05b35b965aa4a5553f27a894dbf5",
+      "bytes": 95194,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-plan/5093423adfe9afb9/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-plan/5093423adfe9afb9/thumb.webp",
+      "key": "chinese-architecture/photos/kongmiao-plan/5093423adfe9afb9/thumb.webp",
+      "sha256": "fc1b532eb1e3e6504ac810d362250c1c35f37e963d0f221aeae527035d02d09b",
+      "bytes": 14156,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-plan/5093423adfe9afb9/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-plan/5093423adfe9afb9/full.webp",
+      "key": "chinese-architecture/photos/kongmiao-plan/5093423adfe9afb9/full.webp",
+      "sha256": "bea0152b3c3af0d03686a769bd18c7f85207587b0e0a49d3d0a81165c4b645d3",
+      "bytes": 178824,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-section/5093423adfe9afb9/original.pdf": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-section/5093423adfe9afb9/original.pdf",
+      "key": "chinese-architecture/photos/kongmiao-section/5093423adfe9afb9/original.pdf",
+      "sha256": "5093423adfe9afb94c2b78d004c7c5293ca288d9511dcb252a1fae2f64b17809",
+      "bytes": 10568280,
+      "contentType": "application/pdf",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-section/5093423adfe9afb9/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-section/5093423adfe9afb9/display.webp",
+      "key": "chinese-architecture/photos/kongmiao-section/5093423adfe9afb9/display.webp",
+      "sha256": "eb59b57cf6b17d37740310e017c6e3bd151d5ea1ab0ccfba003383e608399a57",
+      "bytes": 50816,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-section/5093423adfe9afb9/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-section/5093423adfe9afb9/thumb.webp",
+      "key": "chinese-architecture/photos/kongmiao-section/5093423adfe9afb9/thumb.webp",
+      "sha256": "99b9a4ae4f3460503059553d5b7feea954e96e8e018ba9110462c456259a92ac",
+      "bytes": 7500,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-section/5093423adfe9afb9/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-section/5093423adfe9afb9/full.webp",
+      "key": "chinese-architecture/photos/kongmiao-section/5093423adfe9afb9/full.webp",
+      "sha256": "d09a88d1c7a642ad4f2df07564bd3f3237a0871210144d80275a95c9c1c03f8d",
+      "bytes": 191784,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-historic-eaves/5093423adfe9afb9/original.pdf": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-historic-eaves/5093423adfe9afb9/original.pdf",
+      "key": "chinese-architecture/photos/kongmiao-historic-eaves/5093423adfe9afb9/original.pdf",
+      "sha256": "5093423adfe9afb94c2b78d004c7c5293ca288d9511dcb252a1fae2f64b17809",
+      "bytes": 10568280,
+      "contentType": "application/pdf",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-historic-eaves/5093423adfe9afb9/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-historic-eaves/5093423adfe9afb9/display.webp",
+      "key": "chinese-architecture/photos/kongmiao-historic-eaves/5093423adfe9afb9/display.webp",
+      "sha256": "3112fc132b5ad5ae2f8245dfe1ef687e44890a55c8f4738f44e7812e37df805c",
+      "bytes": 68362,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-historic-eaves/5093423adfe9afb9/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-historic-eaves/5093423adfe9afb9/thumb.webp",
+      "key": "chinese-architecture/photos/kongmiao-historic-eaves/5093423adfe9afb9/thumb.webp",
+      "sha256": "90d21c8a504493fb786c4bcb61ff85027217993e3079117a2f7199a5c9a598b6",
+      "bytes": 10568,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-historic-eaves/5093423adfe9afb9/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-historic-eaves/5093423adfe9afb9/full.webp",
+      "key": "chinese-architecture/photos/kongmiao-historic-eaves/5093423adfe9afb9/full.webp",
+      "sha256": "5db412ff32b8b1964d83969fcf0e94e5d1f35859cb6641d5b062b7d3b9c10496",
+      "bytes": 122544,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-historic-column/5093423adfe9afb9/original.pdf": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-historic-column/5093423adfe9afb9/original.pdf",
+      "key": "chinese-architecture/photos/kongmiao-historic-column/5093423adfe9afb9/original.pdf",
+      "sha256": "5093423adfe9afb94c2b78d004c7c5293ca288d9511dcb252a1fae2f64b17809",
+      "bytes": 10568280,
+      "contentType": "application/pdf",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-historic-column/5093423adfe9afb9/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-historic-column/5093423adfe9afb9/display.webp",
+      "key": "chinese-architecture/photos/kongmiao-historic-column/5093423adfe9afb9/display.webp",
+      "sha256": "2af9c040064869dc867cbeb3a8989e3340aca47005c3e7cb19505afbc83fd872",
+      "bytes": 34720,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-historic-column/5093423adfe9afb9/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-historic-column/5093423adfe9afb9/thumb.webp",
+      "key": "chinese-architecture/photos/kongmiao-historic-column/5093423adfe9afb9/thumb.webp",
+      "sha256": "f07143ccc8d5de682ff87a5a11c6f82027835743e56fccc648226e884ab995f0",
+      "bytes": 5710,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-historic-column/5093423adfe9afb9/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-historic-column/5093423adfe9afb9/full.webp",
+      "key": "chinese-architecture/photos/kongmiao-historic-column/5093423adfe9afb9/full.webp",
+      "sha256": "abb52cbf97f81bdc014b97f49a5752226698b654fa9a3b54fe0ef95beb8e60f7",
+      "bytes": 66538,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-colonnade/e009b1a6e73dee92/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-colonnade/e009b1a6e73dee92/original.jpg",
+      "key": "chinese-architecture/photos/kongmiao-colonnade/e009b1a6e73dee92/original.jpg",
+      "sha256": "e009b1a6e73dee92ae6f3ffe9161ffba16efc113c89e729402714ad8ad51d4dd",
+      "bytes": 9439358,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-colonnade/e009b1a6e73dee92/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-colonnade/e009b1a6e73dee92/display.webp",
+      "key": "chinese-architecture/photos/kongmiao-colonnade/e009b1a6e73dee92/display.webp",
+      "sha256": "dbcd188662ee5fd20836dec4c93b2a5fdbea611d77df69cdcbc4b75dd093e595",
+      "bytes": 306046,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-colonnade/e009b1a6e73dee92/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-colonnade/e009b1a6e73dee92/thumb.webp",
+      "key": "chinese-architecture/photos/kongmiao-colonnade/e009b1a6e73dee92/thumb.webp",
+      "sha256": "9f73762a62afb5bb2b98464fd5716d5e054a4f5a29c3309da90bc22aad8dc6bd",
+      "bytes": 42514,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-colonnade/e009b1a6e73dee92/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-colonnade/e009b1a6e73dee92/full.webp",
+      "key": "chinese-architecture/photos/kongmiao-colonnade/e009b1a6e73dee92/full.webp",
+      "sha256": "404f69e85fd6d45931778d23cf0aa63a8fdebe7479b22d74c63938a86b906342",
+      "bytes": 1824780,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-roof/af4ef53b7f5b61b2/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-roof/af4ef53b7f5b61b2/original.jpg",
+      "key": "chinese-architecture/photos/kongmiao-roof/af4ef53b7f5b61b2/original.jpg",
+      "sha256": "af4ef53b7f5b61b2a782a5cef87b3f676307808766f3fb1961d55f123240d5e5",
+      "bytes": 8164698,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-roof/af4ef53b7f5b61b2/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-roof/af4ef53b7f5b61b2/display.webp",
+      "key": "chinese-architecture/photos/kongmiao-roof/af4ef53b7f5b61b2/display.webp",
+      "sha256": "3d095858cf0dc0ac129d0819edf7e8b2f2b74027fb2c4eb9f03c28e34bbc80a2",
+      "bytes": 196286,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-roof/af4ef53b7f5b61b2/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-roof/af4ef53b7f5b61b2/thumb.webp",
+      "key": "chinese-architecture/photos/kongmiao-roof/af4ef53b7f5b61b2/thumb.webp",
+      "sha256": "ceca2c8a90556fce7b4c0b5f38609664a716345fb86003e281f2db756319f7bf",
+      "bytes": 29024,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-roof/af4ef53b7f5b61b2/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-roof/af4ef53b7f5b61b2/full.webp",
+      "key": "chinese-architecture/photos/kongmiao-roof/af4ef53b7f5b61b2/full.webp",
+      "sha256": "6ee0ff49c54c221c01fa51d66e046a116451b36b464283644f9b290082310a3a",
+      "bytes": 1359880,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-interior/fea651896c343c14/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-interior/fea651896c343c14/original.jpg",
+      "key": "chinese-architecture/photos/kongmiao-interior/fea651896c343c14/original.jpg",
+      "sha256": "fea651896c343c14b74edf92b7af890dc2e4221dc894b08a68f0f1a1b24de9ba",
+      "bytes": 5012151,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-interior/fea651896c343c14/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-interior/fea651896c343c14/display.webp",
+      "key": "chinese-architecture/photos/kongmiao-interior/fea651896c343c14/display.webp",
+      "sha256": "aacb7d393977b1b06d0067ae6fe4aab9c47e8489c39e26ca8aa4b90d0048c569",
+      "bytes": 443492,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-interior/fea651896c343c14/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-interior/fea651896c343c14/thumb.webp",
+      "key": "chinese-architecture/photos/kongmiao-interior/fea651896c343c14/thumb.webp",
+      "sha256": "4da7d7d665da906b0bfa2ef6fc1e517e00ce4924b212ded1ea3bf99f999cfcfc",
+      "bytes": 59560,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-interior/fea651896c343c14/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-interior/fea651896c343c14/full.webp",
+      "key": "chinese-architecture/photos/kongmiao-interior/fea651896c343c14/full.webp",
+      "sha256": "e84b78962e70aeb41229d6dcf23276caf11413aa6ada2ec5c3c9720b804aafd8",
+      "bytes": 2109636,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-base/03e0bcaed234977b/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-base/03e0bcaed234977b/original.jpg",
+      "key": "chinese-architecture/photos/kongmiao-base/03e0bcaed234977b/original.jpg",
+      "sha256": "03e0bcaed234977ba4df773dc4317ae9ac7a1de4fb2e9436158279038fd30df9",
+      "bytes": 6932584,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-base/03e0bcaed234977b/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-base/03e0bcaed234977b/display.webp",
+      "key": "chinese-architecture/photos/kongmiao-base/03e0bcaed234977b/display.webp",
+      "sha256": "ab41bf6aa16b44ff40735f2cd28116bae29d2ac9f9af6a9de4ace0bc4c5c2a68",
+      "bytes": 294418,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-base/03e0bcaed234977b/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-base/03e0bcaed234977b/thumb.webp",
+      "key": "chinese-architecture/photos/kongmiao-base/03e0bcaed234977b/thumb.webp",
+      "sha256": "c7923d6805171a8a1565ebe0c606f002a671ec8fe03f56ecead31e4438161665",
+      "bytes": 35460,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/kongmiao-base/03e0bcaed234977b/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/kongmiao-base/03e0bcaed234977b/full.webp",
+      "key": "chinese-architecture/photos/kongmiao-base/03e0bcaed234977b/full.webp",
+      "sha256": "48d446026dcda505476def5b3b4903c12c0b448a83dd8d7595344bfc316757ca",
+      "bytes": 1694818,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/before-front.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/55b8dcaa7f610e40/before-front.png",
+      "key": "chinese-architecture/kongmiao/updates/02/55b8dcaa7f610e40/before-front.png",
+      "sha256": "55b8dcaa7f610e40f36093f89691201b0dbbf96f39a3519ad496c0ec5adc10e2",
+      "bytes": 182757,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/atlas-dragon.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/7942df2850cf3de4/atlas-dragon.png",
+      "key": "chinese-architecture/kongmiao/updates/02/7942df2850cf3de4/atlas-dragon.png",
+      "sha256": "7942df2850cf3de4a90fb173e58c7972a5e0dfff722b3de9332792dccef813c4",
+      "bytes": 70564,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/atlas-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/aeeec01e2bf8ea1f/atlas-0.png",
+      "key": "chinese-architecture/kongmiao/updates/02/aeeec01e2bf8ea1f/atlas-0.png",
+      "sha256": "aeeec01e2bf8ea1fb4174882e7f7abe4f00e356ad73198ac3b605e4f6c8c3c95",
+      "bytes": 200535,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/atlas-1.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/7411b4f3f316761a/atlas-1.png",
+      "key": "chinese-architecture/kongmiao/updates/02/7411b4f3f316761a/atlas-1.png",
+      "sha256": "7411b4f3f316761a9b88689ab7af4980fa59e0df031ccdd7a2d551b63f907c45",
+      "bytes": 167629,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/atlas-3.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/dcfa2ae848c59064/atlas-3.png",
+      "key": "chinese-architecture/kongmiao/updates/02/dcfa2ae848c59064/atlas-3.png",
+      "sha256": "dcfa2ae848c590642c916f27ac73959739f9ae0384e09d4cc5249abf8fbb6b0c",
+      "bytes": 86321,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/atlas-2.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/16ba2de66bde1bca/atlas-2.png",
+      "key": "chinese-architecture/kongmiao/updates/02/16ba2de66bde1bca/atlas-2.png",
+      "sha256": "16ba2de66bde1bcaa465cefe57879b551e49af1dae9953e10abefacf29fc61b4",
+      "bytes": 115229,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/after-dragon.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/075cc7a403c71d53/after-dragon.png",
+      "key": "chinese-architecture/kongmiao/updates/02/075cc7a403c71d53/after-dragon.png",
+      "sha256": "075cc7a403c71d53ddb73e9fcf7c250d3cf86b5cf112122d4476cda55df0ddda",
+      "bytes": 17616,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/after-transition.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/43ac86a2e42c98ab/after-transition.png",
+      "key": "chinese-architecture/kongmiao/updates/02/43ac86a2e42c98ab/after-transition.png",
+      "sha256": "43ac86a2e42c98ab24e6cd8a16daea760a694d36df56cc5431b61322af972448",
+      "bytes": 20235,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/atlas-6.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/866d9ee0bddea35e/atlas-6.png",
+      "key": "chinese-architecture/kongmiao/updates/02/866d9ee0bddea35e/atlas-6.png",
+      "sha256": "866d9ee0bddea35e4f4778d6d05857e6b1b18194ad34c1b30d8731a56152b1b7",
+      "bytes": 58050,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/after-back.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/a8d218ca03fdd668/after-back.png",
+      "key": "chinese-architecture/kongmiao/updates/02/a8d218ca03fdd668/after-back.png",
+      "sha256": "a8d218ca03fdd6684ae6416a16f4fddf0ff2a3339668d3ed87f679a9d05a3cfa",
+      "bytes": 36723,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/before-side.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/4a176a82321d0a9b/before-side.png",
+      "key": "chinese-architecture/kongmiao/updates/02/4a176a82321d0a9b/before-side.png",
+      "sha256": "4a176a82321d0a9b3a144f2307790a40525cdb44a5350f2b2247eb0b5548936f",
+      "bytes": 136213,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/atlas-5.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/d97979933598aa0a/atlas-5.png",
+      "key": "chinese-architecture/kongmiao/updates/02/d97979933598aa0a/atlas-5.png",
+      "sha256": "d97979933598aa0a152c38c6f836d6d0875795daadc59956637224290858781e",
+      "bytes": 67394,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/before-iso.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/68702bd37e4bb460/before-iso.png",
+      "key": "chinese-architecture/kongmiao/updates/02/68702bd37e4bb460/before-iso.png",
+      "sha256": "68702bd37e4bb46089271c3df568ff8c595e0844a6ec70e4eeadbd151b26a0ad",
+      "bytes": 208210,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/atlas-4.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/615fc5cfa7d8ced8/atlas-4.png",
+      "key": "chinese-architecture/kongmiao/updates/02/615fc5cfa7d8ced8/atlas-4.png",
+      "sha256": "615fc5cfa7d8ced811206f1f8dade45676859dc5ccdeee0e82418458ceda0dad",
+      "bytes": 64140,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/after-bracket.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/a409e893f71d3129/after-bracket.png",
+      "key": "chinese-architecture/kongmiao/updates/02/a409e893f71d3129/after-bracket.png",
+      "sha256": "a409e893f71d3129a45c93a0054f4ba136603f840df957181ae20735d44ad5c1",
+      "bytes": 21370,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/mobile-dragon.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/f2d24eaf561933cc/mobile-dragon.png",
+      "key": "chinese-architecture/kongmiao/updates/02/f2d24eaf561933cc/mobile-dragon.png",
+      "sha256": "f2d24eaf561933cc4c0ecb4ec940d0cb2cfb99ba077f80ef5b22af29ba897c28",
+      "bytes": 8535,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/after-front.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/4d586022c654b4d1/after-front.png",
+      "key": "chinese-architecture/kongmiao/updates/02/4d586022c654b4d1/after-front.png",
+      "sha256": "4d586022c654b4d1c130b6dd2cf2e278df2567598ef5dbd53b0076932915fc52",
+      "bytes": 34842,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/mobile-atlas.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/890b22a043400af9/mobile-atlas.png",
+      "key": "chinese-architecture/kongmiao/updates/02/890b22a043400af9/mobile-atlas.png",
+      "sha256": "890b22a043400af9f9496ebcd3f84cf980b355c8608250b441df01d6efd99dad",
+      "bytes": 43221,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/after-top.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/ab017d147589d15b/after-top.png",
+      "key": "chinese-architecture/kongmiao/updates/02/ab017d147589d15b/after-top.png",
+      "sha256": "ab017d147589d15ba3415f8641c1afc278937d9b78bb6ddc79eb0e21ba135e17",
+      "bytes": 35581,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/after-exploded.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/d7f54b88a8fd4092/after-exploded.png",
+      "key": "chinese-architecture/kongmiao/updates/02/d7f54b88a8fd4092/after-exploded.png",
+      "sha256": "d7f54b88a8fd4092a18d2dd9e071ede930bec7a9876dc792cdafdadda048917a",
+      "bytes": 38894,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/after-side.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/4bcf1744149ae8fa/after-side.png",
+      "key": "chinese-architecture/kongmiao/updates/02/4bcf1744149ae8fa/after-side.png",
+      "sha256": "4bcf1744149ae8fa954a1d5c37848a7ef6fd36cc3c069d6a546c5a5b2f6b4995",
+      "bytes": 29353,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/before-back.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/6223a6ba94dd34ac/before-back.png",
+      "key": "chinese-architecture/kongmiao/updates/02/6223a6ba94dd34ac/before-back.png",
+      "sha256": "6223a6ba94dd34acf4f9d1e6c21b35178702cc8174a3714a4ea8f9c43a703f16",
+      "bytes": 164183,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/atlas-oblique.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/728a055ed3b28076/atlas-oblique.png",
+      "key": "chinese-architecture/kongmiao/updates/02/728a055ed3b28076/atlas-oblique.png",
+      "sha256": "728a055ed3b28076361c6bc002b09f5aa024d482e3de33fbed24734323362a57",
+      "bytes": 98404,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/after-iso.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/694292747bf64563/after-iso.png",
+      "key": "chinese-architecture/kongmiao/updates/02/694292747bf64563/after-iso.png",
+      "sha256": "694292747bf64563e8a67ec29c757c8efb556f4b2f0ffa39b7feae5450a18463",
+      "bytes": 34654,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/mobile-whole.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/8cbf628b73d7e74e/mobile-whole.png",
+      "key": "chinese-architecture/kongmiao/updates/02/8cbf628b73d7e74e/mobile-whole.png",
+      "sha256": "8cbf628b73d7e74e4c3816adf0a0a2a0fddd6f72cfe70dc8433df5a7c0667c86",
+      "bytes": 12787,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/atlas-front.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/36fe657ab65b4169/atlas-front.png",
+      "key": "chinese-architecture/kongmiao/updates/02/36fe657ab65b4169/atlas-front.png",
+      "sha256": "36fe657ab65b4169ef19427c717611b3208e0b80a448f4a48c2609c73e678300",
+      "bytes": 117384,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/after-section.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/3068e72cc216e02b/after-section.png",
+      "key": "chinese-architecture/kongmiao/updates/02/3068e72cc216e02b/after-section.png",
+      "sha256": "3068e72cc216e02bd6f37285dd48900f57ea1e847357781d3ce9461fdbd95248",
+      "bytes": 19767,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/mobile-atlas-final.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/b765fcfe5224d886/mobile-atlas-final.png",
+      "key": "chinese-architecture/kongmiao/updates/02/b765fcfe5224d886/mobile-atlas-final.png",
+      "sha256": "b765fcfe5224d88637d530a2b38d024de12ad54d88ab37fd6a5ecd653cc7abc4",
+      "bytes": 43264,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/atlas-final-6.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/2bd9e7d2e55b865b/atlas-final-6.png",
+      "key": "chinese-architecture/kongmiao/updates/02/2bd9e7d2e55b865b/atlas-final-6.png",
+      "sha256": "2bd9e7d2e55b865b363bf24331ec3103f4dcdd9969595a12e1edccc1fb6b25c0",
+      "bytes": 125371,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/atlas-final-4.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/7e1055dbb12d60c4/atlas-final-4.png",
+      "key": "chinese-architecture/kongmiao/updates/02/7e1055dbb12d60c4/atlas-final-4.png",
+      "sha256": "7e1055dbb12d60c42592bf16c14b26cd4e87abc067e2352a5e14f4004e12bf08",
+      "bytes": 95897,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/atlas-final-5.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/627c1e711824513c/atlas-final-5.png",
+      "key": "chinese-architecture/kongmiao/updates/02/627c1e711824513c/atlas-final-5.png",
+      "sha256": "627c1e711824513c61db9a42e3f2f77171de4fff3f999fd0b903db5d197a23c4",
+      "bytes": 79170,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/kongmiao/updates/02/media/atlas-colonnade-final.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/updates/02/70d5dda9e4f9ff42/atlas-colonnade-final.png",
+      "key": "chinese-architecture/kongmiao/updates/02/70d5dda9e4f9ff42/atlas-colonnade-final.png",
+      "sha256": "70d5dda9e4f9ff4242711c6f1fd63a03d22826935b50cf22fac574f45721b517",
+      "bytes": 102523,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    }
+  }
+}

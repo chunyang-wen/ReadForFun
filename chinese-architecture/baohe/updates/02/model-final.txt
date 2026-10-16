@@ -1,0 +1,26 @@
+✔ nine by five perimeter, distinct front inner six reductions, no duplicated columns (0.591791ms)
+✔ all main columns have bases whose upper faces meet column feet (18.375958ms)
+✔ front transfer abstraction ends on the two retained gold columns (1.292041ms)
+✔ terraces share a teaching south crop; no false closing rail at that edge (2.937584ms)
+✔ great slab uses exposed-face lengths, not full quarry-block dimensions (0.285ms)
+✔ three inclined slabs meet teaching upper and lower terrace levels (5.104334ms)
+✔ nine dragon motifs are relief on one slab, not nine loose stone blocks (1.716791ms)
+✔ one rail bay has sill, two posts, solid panel and visibly open upper struts (0.117583ms)
+✔ mouth is an open ring in front of the head and drainage guide is non-physical (0.739958ms)
+✔ north heads face north and side heads face outward; no duplicate north rails (1.590083ms)
+✔ roof keeps true lower hole and upper ridge while rafters lie below tile faces (5.302833ms)
+✔ every displayed type has inspector evidence and all five scopes have finite transforms (30.482791ms)
+✔ roof support posts meet purlin undersides and upper timber posts meet the next beam (177.652291ms)
+✔ all eight roof slopes face upward and both gable skins face outward with no degenerate Float32 triangles (2.731667ms)
+✔ adjacent bays own one shared post body and end walls close the photographed solid gable silhouette (3.478125ms)
+✔ slope and gable edges use identical Float32 boundary stations instead of competing curves (4.4595ms)
+✔ support tops remain inside finite purlins as well as matching their undersides (150.25775ms)
+✔ nine symbolic beasts occupy every upper and lower corner, following this hall roof instead of a straight floating row (0.956208ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 596.300833

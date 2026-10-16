@@ -1,0 +1,38 @@
+[
+  {
+    "id": "yang",
+    "url": "https://img.dpm.org.cn/Uploads/File/pdf/ab/1a/71/ab1a7121f7d5e0fed2e5bcba4827ec7f.pdf",
+    "cachedSHA256": "64703a9e270e22acf70fe57becbd12b2a288abd4f5609ce61620d40b32cbfbe9",
+    "status": 200,
+    "bytes": 306786,
+    "sha256": "64703a9e270e22acf70fe57becbd12b2a288abd4f5609ce61620d40b32cbfbe9",
+    "sameAsCache": true
+  },
+  {
+    "id": "cao",
+    "url": "https://www.dpm.org.cn/Uploads/pdf/1600/T00094_00.pdf",
+    "cachedSHA256": "a7b20db0c9cc69e411c385a17c9a87ac4a74e09d7c84d730e8341f5cfbfc1701",
+    "status": 200,
+    "bytes": 285743,
+    "sha256": "a7b20db0c9cc69e411c385a17c9a87ac4a74e09d7c84d730e8341f5cfbfc1701",
+    "sameAsCache": true
+  },
+  {
+    "id": "hall",
+    "url": "https://www.dpm.org.cn/explore/building/236434.html",
+    "cachedSHA256": "671a95901bfac73dd03cff4c89bbe0617200f217b6481f5281015684458815a5",
+    "status": 200,
+    "bytes": 117300,
+    "sha256": "671a95901bfac73dd03cff4c89bbe0617200f217b6481f5281015684458815a5",
+    "sameAsCache": true
+  },
+  {
+    "id": "chi",
+    "url": "https://www.dpm.org.cn/light/370924.html",
+    "cachedSHA256": "61d6e38d9e7254fbf9b5ed10e254768be2a9e186c3bee1dddbfd307c97bcec80",
+    "status": 200,
+    "bytes": 26562,
+    "sha256": "9dbaf4e61e62890a29e9713c7a02a3ebe46084a769215d458ebeb5ba78aa4ab2",
+    "sameAsCache": false
+  }
+]

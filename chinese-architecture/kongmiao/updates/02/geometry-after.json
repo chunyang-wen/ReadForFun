@@ -1,0 +1,61 @@
+{
+  "roof": [
+    {
+      "key": "roof/false/-1",
+      "triangles": 2912,
+      "down": 0,
+      "degenerate": 0,
+      "minArea": 0.13030719528367027
+    },
+    {
+      "key": "roof/false/1",
+      "triangles": 2912,
+      "down": 0,
+      "degenerate": 0,
+      "minArea": 0.13030719528367027
+    },
+    {
+      "key": "roof/hip/false/-1",
+      "triangles": 2912,
+      "down": 0,
+      "degenerate": 0,
+      "minArea": 0.06475264803227167
+    },
+    {
+      "key": "roof/hip/false/1",
+      "triangles": 2912,
+      "down": 0,
+      "degenerate": 0,
+      "minArea": 0.06475264803227167
+    },
+    {
+      "key": "roof/true/-1",
+      "triangles": 7280,
+      "down": 0,
+      "degenerate": 0,
+      "minArea": 0.07924976791447418
+    },
+    {
+      "key": "roof/true/1",
+      "triangles": 7280,
+      "down": 0,
+      "degenerate": 0,
+      "minArea": 0.07924976791447418
+    },
+    {
+      "key": "roof/hip/true/-1",
+      "triangles": 4368,
+      "down": 0,
+      "degenerate": 0,
+      "minArea": 0.013533350665066588
+    },
+    {
+      "key": "roof/hip/true/1",
+      "triangles": 4368,
+      "down": 0,
+      "degenerate": 0,
+      "minArea": 0.013533350665066588
+    }
+  ],
+  "duplicatePurlins": []
+}
