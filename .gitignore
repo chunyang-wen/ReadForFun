@@ -18,4 +18,10 @@
 *.ogg
 *.mp4
 *.webm
+*.pdf
+# Research drafts and process images stay on disk. Do not add them to Git.
+chinese-architecture/**/previews/
+chinese-architecture/**/runs/
+chinese-architecture/**/prepared/
+chinese-architecture/photos/fallback/
 __pycache__/
