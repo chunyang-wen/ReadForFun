@@ -1,0 +1,414 @@
+[
+  {
+    "id": "chengzhi-front-up-2022",
+    "file": "File:Cheng Zhi Tang.jpg",
+    "info": {
+      "size": 3632354,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Cheng_Zhi_Tang.jpg/960px-Cheng_Zhi_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 600,
+      "thumbheight": 450,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Cheng_Zhi_Tang.jpg/1280px-Cheng_Zhi_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Cheng_Zhi_Tang.jpg/960px-Cheng_Zhi_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 600,
+        "height": 450,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Cheng_Zhi_Tang.jpg/1280px-Cheng_Zhi_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Cheng_Zhi_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cheng_Zhi_Tang.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128272008",
+      "sha1": "c25c99a4451845459acd2ed8b7c1298b4d5c2655",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-01-31 12:12:07",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Cheng Zhi Tang",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Cheng Zhi Tang",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Cheng Zhi Tang",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-10-22",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "1-original.jpg"
+  },
+  {
+    "id": "chengzhi-ceiling-2022",
+    "file": "File:宏村承志堂 4.jpg",
+    "info": {
+      "size": 3454405,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/%E5%AE%8F%E6%9D%91%E6%89%BF%E5%BF%97%E5%A0%82_4.jpg/960px-%E5%AE%8F%E6%9D%91%E6%89%BF%E5%BF%97%E5%A0%82_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 600,
+      "thumbheight": 450,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/%E5%AE%8F%E6%9D%91%E6%89%BF%E5%BF%97%E5%A0%82_4.jpg/1280px-%E5%AE%8F%E6%9D%91%E6%89%BF%E5%BF%97%E5%A0%82_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/%E5%AE%8F%E6%9D%91%E6%89%BF%E5%BF%97%E5%A0%82_4.jpg/960px-%E5%AE%8F%E6%9D%91%E6%89%BF%E5%BF%97%E5%A0%82_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 600,
+        "height": 450,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/%E5%AE%8F%E6%9D%91%E6%89%BF%E5%BF%97%E5%A0%82_4.jpg/1280px-%E5%AE%8F%E6%9D%91%E6%89%BF%E5%BF%97%E5%A0%82_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/%E5%AE%8F%E6%9D%91%E6%89%BF%E5%BF%97%E5%A0%82_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E5%AE%8F%E6%9D%91%E6%89%BF%E5%BF%97%E5%A0%82_4.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128272002",
+      "sha1": "43c11d38251f82fb49b78a46a30c0709b5af52ae",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-01-31 12:11:58",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "宏村承志堂 4",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Cheng Zhi Tang",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​宏村承志堂",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-10-22",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "13-original.jpg"
+  },
+  {
+    "id": "chengzhi-beam-2022",
+    "file": "File:承志堂 2.jpg",
+    "info": {
+      "size": 3714015,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%E6%89%BF%E5%BF%97%E5%A0%82_2.jpg/960px-%E6%89%BF%E5%BF%97%E5%A0%82_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 600,
+      "thumbheight": 450,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%E6%89%BF%E5%BF%97%E5%A0%82_2.jpg/1280px-%E6%89%BF%E5%BF%97%E5%A0%82_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%E6%89%BF%E5%BF%97%E5%A0%82_2.jpg/960px-%E6%89%BF%E5%BF%97%E5%A0%82_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 600,
+        "height": 450,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%E6%89%BF%E5%BF%97%E5%A0%82_2.jpg/1280px-%E6%89%BF%E5%BF%97%E5%A0%82_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%E6%89%BF%E5%BF%97%E5%A0%82_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E6%89%BF%E5%BF%97%E5%A0%82_2.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128272005",
+      "sha1": "cec278e6871f4acb15631fd0fa43abd72f6ee41c",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-01-31 12:12:01",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "承志堂 2",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Cheng Zhi Tang",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​宏村承志堂",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-10-22",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "16-original.jpg"
+  },
+  {
+    "id": "chengzhi-front-2022",
+    "file": "File:承志堂.jpg",
+    "info": {
+      "size": 3471729,
+      "width": 3000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%E6%89%BF%E5%BF%97%E5%A0%82.jpg/960px-%E6%89%BF%E5%BF%97%E5%A0%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 600,
+      "thumbheight": 800,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%E6%89%BF%E5%BF%97%E5%A0%82.jpg/1280px-%E6%89%BF%E5%BF%97%E5%A0%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%E6%89%BF%E5%BF%97%E5%A0%82.jpg/960px-%E6%89%BF%E5%BF%97%E5%A0%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 600,
+        "height": 800,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%E6%89%BF%E5%BF%97%E5%A0%82.jpg/1280px-%E6%89%BF%E5%BF%97%E5%A0%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/%E6%89%BF%E5%BF%97%E5%A0%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E6%89%BF%E5%BF%97%E5%A0%82.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128272006",
+      "sha1": "d83332aff889454cab4e145093c47b401839d81d",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-01-31 12:12:01",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "承志堂",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Cheng Zhi Tang",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​宏村承志堂",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-10-22",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "17-original.jpg"
+  }
+]

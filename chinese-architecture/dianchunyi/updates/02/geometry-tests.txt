@@ -1,0 +1,22 @@
+✔ grid unique; main columns meet their individual bases and beam underside (0.775625ms)
+✔ each transverse beam has endpoints on front/rear column axes; interior columns meet same beam (0.385542ms)
+✔ upper beam and short posts touch without a vertical gap (0.123916ms)
+✔ each longitudinal purlin rests on all four frame seats; rafter lower surface touches purlin top (0.173958ms)
+✔ roof frame envelope and rafters remain beneath roof; gable wall does not expose purlin ends (0.311334ms)
+✔ rear wall has three open rectangles; no full wall seals the window apertures (0.747042ms)
+✔ door panel opaque below, upper lattice contains real openings (0.661292ms)
+✔ generic opening rotates complete leaves, fixed jamb remains, reset restores matrices (0.902583ms)
+✔ all instances and records finite, stable identifiers unique, positive dimensions, evidence complete (1.894042ms)
+✔ all roof triangles are upward, nondegenerate, lie on their own slope; exact ridge seam (0.30925ms)
+✔ complete transformed frame, posts, purlins and rafter surfaces fit below continuous roof (1.767375ms)
+✔ finite purlins overlap every rafter at all five stations, with bounded teaching contact (0.340958ms)
+✔ rafter axis segments join continuously including eaves and ridge (0.751333ms)
+✔ south facade has four central long leaves and flanking fixed half windows, not twelve long leaves (0.179084ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 80.586125

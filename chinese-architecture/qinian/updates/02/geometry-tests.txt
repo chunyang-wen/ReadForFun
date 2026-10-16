@@ -1,0 +1,25 @@
+✔ 28 unique main columns use four square corners and two twelve-column circles (0.548291ms)
+✔ column feet meet independent bases, dragon height and diameter follow official record (0.932292ms)
+✔ four square beams, four separate quarter arcs, eight short posts form actual conversion (1.00625ms)
+✔ quarter-arc endpoints sit over square corners and arc lower face touches square upper face (0.286333ms)
+✔ roof boards keep two true annular openings and only the upper central cap (3.867542ms)
+✔ all radial roof-frame vertices stay inside the corresponding roof envelope (22.135916ms)
+✔ column-head bearing strips and annular bearing rings have no vertical gap (0.428375ms)
+✔ radial and tangent bracket arms are orthogonal at each circle position (0.091791ms)
+✔ generic joint exposes two receivers with clearance and is explicitly not a measured temple node (0.083083ms)
+✔ top post is suspended; caisson, decoration and ceiling stay separate from load frame (0.839625ms)
+✔ full terrace diameters remain distinct from local crop and exterior column circle (0.313792ms)
+✔ all five scopes have unique IDs, finite transforms, geometry and evidence (8.6595ms)
+✔ intermediate circular purlins have radial post heads exactly at their undersides (9.17575ms)
+✔ upper inner roof distinguishes rafter boards and inner ceiling has 120 explicit wells (0.371542ms)
+✔ all three roof surfaces have upward nondegenerate faces and continuous patch normals (4.628291ms)
+✔ rafters remain under visible roof using their full transformed cylindrical envelope (201.057375ms)
+✔ finite circular purlin seats overlap rafters at all five radial support stations (63.661541ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 436.030292

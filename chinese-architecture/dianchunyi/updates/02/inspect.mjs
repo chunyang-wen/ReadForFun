@@ -1,0 +1,3 @@
+import * as T from '../../../vendor/three.module.js';
+import {buildModel,roofY} from '../../model.js';
+const m=buildModel({wood:new T.MeshStandardMaterial()});let max=-Infinity,above=0,n=0;for(const mesh of m.meshes){for(let i=0;i<mesh.count;i++){const r=mesh.userData.records[i];if(!['rafter','purlin','frame','post'].includes(r.type))continue;const mat=new T.Matrix4();mesh.getMatrixAt(i,mat);const p=mesh.geometry.attributes.position;for(let j=0;j<p.count;j++){const v=new T.Vector3().fromBufferAttribute(p,j).applyMatrix4(mat);const gap=v.y-roofY(v.z)-.04;max=Math.max(max,gap);n++;if(gap>1e-5)above++;}}}console.log({n,above,max});

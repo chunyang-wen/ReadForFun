@@ -1,0 +1,43 @@
+{
+  "chinese-architecture/huazhongyou/app.js": {
+    "sha256": "ae9dd00a597eb2562fdbc1ad9e5b0187607d068b92b7b6630b49382ad0f4a091",
+    "servedSHA256": "ae9dd00a597eb2562fdbc1ad9e5b0187607d068b92b7b6630b49382ad0f4a091",
+    "servedMatches": true
+  },
+  "chinese-architecture/huazhongyou/model.js": {
+    "sha256": "6b973c0ec6d8b017299a2b38a0eac7c8a758b86cfbb1a946523a6d0656845c4a",
+    "servedSHA256": "6b973c0ec6d8b017299a2b38a0eac7c8a758b86cfbb1a946523a6d0656845c4a",
+    "servedMatches": true
+  },
+  "chinese-architecture/huazhongyou/data.js": {
+    "sha256": "8b967350180519fa71b92d138995f5a1987296ced8155ccf2462ff40f0401a80",
+    "servedSHA256": "8b967350180519fa71b92d138995f5a1987296ced8155ccf2462ff40f0401a80",
+    "servedMatches": true
+  },
+  "chinese-architecture/huazhongyou/index.html": {
+    "sha256": "5a4f3d1dc98db436b094aa2a66ab2f922665d2a78dc88e25d64a7b7714ee0542",
+    "servedSHA256": "5a4f3d1dc98db436b094aa2a66ab2f922665d2a78dc88e25d64a7b7714ee0542",
+    "servedMatches": true
+  },
+  "chinese-architecture/huazhongyou/tests/model.test.js": {
+    "sha256": "8be02ab3db1dfd99d0227f669d2008af2e9a4f3db3f829bc1b4b5de783f0fa66",
+    "servedSHA256": "8be02ab3db1dfd99d0227f669d2008af2e9a4f3db3f829bc1b4b5de783f0fa66",
+    "servedMatches": true
+  },
+  "chinese-architecture/photos/gallery.js": {
+    "sha256": "5ba226c9afcf41bddcb926bdf6e0b7f58c3885a15e43313857192a30bcd80384",
+    "servedSHA256": "5ba226c9afcf41bddcb926bdf6e0b7f58c3885a15e43313857192a30bcd80384",
+    "servedMatches": true
+  },
+  "chinese-architecture/photos/catalog.js": {
+    "sha256": "ab3ee3d47246812f8fb32dca385364685c4f4fdf833956104eba8a9333c6299b",
+    "servedSHA256": "ab3ee3d47246812f8fb32dca385364685c4f4fdf833956104eba8a9333c6299b",
+    "servedMatches": true
+  },
+  "chinese-architecture/photos/assets.json": {
+    "sha256": "166fb3940027082154dc06b18cc5bcbb6dbb016f34d31e2aa5b6bb04226a9eb5"
+  },
+  "chinese-architecture/photos/tools/prepare.py": {
+    "sha256": "10391621fa2b86f174d080eb40cadab6669b4695dd6f7baaaf31dab4e68d8529"
+  }
+}

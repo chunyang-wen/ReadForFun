@@ -1,0 +1,121 @@
+{
+  "decoded": [
+    {
+      "height": 4608,
+      "ready": "true",
+      "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-whole-2015/f0c8f79274d0688d/full.webp",
+      "width": 3072
+    },
+    {
+      "height": 3072,
+      "ready": "true",
+      "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-wood-2015/bb073043668d5818/full.webp",
+      "width": 4608
+    },
+    {
+      "height": 3072,
+      "ready": "true",
+      "src": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-stone-2015/07521e3ce9a50cae/full.webp",
+      "width": 4608
+    }
+  ],
+  "linked": {
+    "architecture": "huazhongyou",
+    "revision": "huazhongyou-20261016-02c",
+    "script": "http://localhost:8765/chinese-architecture/huazhongyou/app.js?v=huazhongyou-20261016-02c",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "alternateLight": false,
+    "selectionBounds": null,
+    "chapter": 4,
+    "detail": true,
+    "node": "lotus",
+    "explode": 0,
+    "targetExplode": 0,
+    "section": false,
+    "doors": false,
+    "selected": null,
+    "pickableLayers": [
+      "hangers",
+      "hangers",
+      "hangers",
+      "hangers",
+      "ties",
+      "decoration"
+    ],
+    "layers": [
+      "ties",
+      "hangers",
+      "decoration"
+    ],
+    "bounds": {
+      "min": [
+        -0.4320000236034396,
+        -0.7799999713897705,
+        -0.4320000236034396
+      ],
+      "max": [
+        1.300000011920929,
+        0.9999999701976776,
+        0.4320000236034396
+      ]
+    },
+    "camera": [
+      3.290937046263425,
+      1.5956072664983871,
+      3.428324462525616
+    ],
+    "target": [
+      0.4339999941587447,
+      0.10999999940395355,
+      0
+    ],
+    "projected": [
+      [
+        -0.2550421409066483,
+        -0.30733748484080625,
+        0.9829166256214822
+      ],
+      [
+        -0.6928486437153446,
+        -0.47256291950548035,
+        0.9808358709389935
+      ],
+      [
+        -0.28228574701255255,
+        0.67753773343605,
+        0.9810828772222014
+      ],
+      [
+        -0.7769179046997472,
+        0.626124367541045,
+        0.9785004110287893
+      ],
+      [
+        0.7541401940057147,
+        -0.6077676278957593,
+        0.9791331801235718
+      ],
+      [
+        0.3585568060567176,
+        -0.8606023090246033,
+        0.9759491246679329
+      ],
+      [
+        0.8548221341040507,
+        0.5830382248912656,
+        0.9763362168574755
+      ],
+      [
+        0.41484353242642896,
+        0.49990549563760567,
+        0.9721605038084193
+      ]
+    ]
+  },
+  "visibleChapter": "花落木上",
+  "visibleNode": "lotus",
+  "consoleErrorsFinalModule": []
+}

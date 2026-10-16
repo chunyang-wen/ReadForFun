@@ -1,0 +1,761 @@
+{
+  "checkedAt": "2026-10-16T06:03:06.211840+00:00",
+  "assets": {
+    "chinese-architecture/dianchunyi/updates/02/media/before-back.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/92add4fb34d746da/before-back.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/92add4fb34d746da/before-back.jpg",
+      "sha256": "92add4fb34d746da9884d0fdb1b05bedbd0db32083ff4055aa10f049bcccb5d8",
+      "bytes": 27595,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/before-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/2003f83823dab47c/before-front.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/2003f83823dab47c/before-front.jpg",
+      "sha256": "2003f83823dab47c26e5406553b959a5044ac78ecdb8734854194df039885ef3",
+      "bytes": 58119,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/before-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/cbd43377f31d80ac/before-iso.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/cbd43377f31d80ac/before-iso.jpg",
+      "sha256": "cbd43377f31d80ac92db77f6d42bfda7c3d9cd5b86adf8c3e92b86680a9537ec",
+      "bytes": 42467,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/before-roof-frame.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/eff55e72e1492043/before-roof-frame.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/eff55e72e1492043/before-roof-frame.jpg",
+      "sha256": "eff55e72e1492043d699c93e7bb660b5d17cfc482418944de1ef6c5487dfc3b9",
+      "bytes": 31037,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-after-back.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/df4f8013736ac8a1/desktop-after-back.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/df4f8013736ac8a1/desktop-after-back.jpg",
+      "sha256": "df4f8013736ac8a196214fdaf11f8cf1f90785dae4298bce66f2ba1e85938019",
+      "bytes": 27137,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-after-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/d64fbf3f77213f70/desktop-after-front.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/d64fbf3f77213f70/desktop-after-front.jpg",
+      "sha256": "d64fbf3f77213f7089bdff67747585bb1f99c3cf133b5e9ea08bd3ee3ecc829c",
+      "bytes": 52277,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-after-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/f8aa1fa3ab2772ab/desktop-after-iso.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/f8aa1fa3ab2772ab/desktop-after-iso.jpg",
+      "sha256": "f8aa1fa3ab2772ab98e71c227c1641bc3ae9933e33006c016817206beae3da37",
+      "bytes": 40338,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-after-roof-frame.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/d8ab0b89944a1f0a/desktop-after-roof-frame.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/d8ab0b89944a1f0a/desktop-after-roof-frame.jpg",
+      "sha256": "d8ab0b89944a1f0afea96d7218e1e8dab0d6dda9a71a335890772652342e1ea1",
+      "bytes": 41233,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-atlas.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/12ce5a8158fc11bc/desktop-atlas.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/12ce5a8158fc11bc/desktop-atlas.jpg",
+      "sha256": "12ce5a8158fc11bc53199baab4556832a8d5ca252712f0d9a1bf9ac2714cb8a1",
+      "bytes": 191613,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-chapter-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/f8aa1fa3ab2772ab/desktop-chapter-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/f8aa1fa3ab2772ab/desktop-chapter-0.jpg",
+      "sha256": "f8aa1fa3ab2772ab98e71c227c1641bc3ae9933e33006c016817206beae3da37",
+      "bytes": 40338,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-chapter-1.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/d012adb6a34dfdc3/desktop-chapter-1.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/d012adb6a34dfdc3/desktop-chapter-1.jpg",
+      "sha256": "d012adb6a34dfdc368452cf9d774dd496cdb306f2944ee385077e6c54fd4487f",
+      "bytes": 34976,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-chapter-2.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/9abee14f9b8e2fb2/desktop-chapter-2.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/9abee14f9b8e2fb2/desktop-chapter-2.jpg",
+      "sha256": "9abee14f9b8e2fb213625cc3a241b5542aaf7bbfb3d8dc60a72f48293cda6085",
+      "bytes": 30661,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-chapter-3.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/5ab3cc733a060239/desktop-chapter-3.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/5ab3cc733a060239/desktop-chapter-3.jpg",
+      "sha256": "5ab3cc733a0602395e3b8762db707b938d5fb2a97dc45e231f8b1ec0f1ba1b33",
+      "bytes": 21838,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-chapter-4.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/7ac546041a27fa25/desktop-chapter-4.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/7ac546041a27fa25/desktop-chapter-4.jpg",
+      "sha256": "7ac546041a27fa25018babf90ad8c8115fdcb4a8900d0360f198fc8a8144ff77",
+      "bytes": 32325,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-chapter-5.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/0e1aa301cc83a3f4/desktop-chapter-5.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/0e1aa301cc83a3f4/desktop-chapter-5.jpg",
+      "sha256": "0e1aa301cc83a3f44da5fca8ddf8c2f893d246c210f7f82ac70ca55242c77490",
+      "bytes": 33397,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-chapter-6.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/4bf51ecceb754a6c/desktop-chapter-6.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/4bf51ecceb754a6c/desktop-chapter-6.jpg",
+      "sha256": "4bf51ecceb754a6ca4803c2f2fab254ecca262d8c3764c954aa6c0c3dbeda706",
+      "bytes": 43919,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-clip-x--100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/a58e42009515d6cb/desktop-clip-x--100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/a58e42009515d6cb/desktop-clip-x--100.jpg",
+      "sha256": "a58e42009515d6cb294ca232e9fa4b8bb0372e9b0df190641a97d15328e5592d",
+      "bytes": 8717,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-clip-x-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/eccad36fcaf08167/desktop-clip-x-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/eccad36fcaf08167/desktop-clip-x-0.jpg",
+      "sha256": "eccad36fcaf0816788d8fc6d3872ca4087dd9ba43ee73a110236ada0e5f6440c",
+      "bytes": 26467,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-clip-x-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/1c34ffffdaae0fba/desktop-clip-x-100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/1c34ffffdaae0fba/desktop-clip-x-100.jpg",
+      "sha256": "1c34ffffdaae0fba193bb9d3270bd26e346db38dfe6b966e4fca273309fcf81d",
+      "bytes": 41076,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-clip-z--100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/2377e76dbc54ae63/desktop-clip-z--100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/2377e76dbc54ae63/desktop-clip-z--100.jpg",
+      "sha256": "2377e76dbc54ae63e12174b26e7895e8294c7bf95f0107b26dfed25429a0e23e",
+      "bytes": 41086,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-clip-z-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/9d2890ab8a34d503/desktop-clip-z-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/9d2890ab8a34d503/desktop-clip-z-0.jpg",
+      "sha256": "9d2890ab8a34d503510c5682dd3f3d22224330461ea8471104044bc09c57ca45",
+      "bytes": 23288,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-clip-z-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/94b8592ebde66e72/desktop-clip-z-100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/94b8592ebde66e72/desktop-clip-z-100.jpg",
+      "sha256": "94b8592ebde66e721aca77b3eb9022ebb81394e295902b54235432aab41ee946",
+      "bytes": 8594,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-door-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/5ab3cc733a060239/desktop-door-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/5ab3cc733a060239/desktop-door-0.jpg",
+      "sha256": "5ab3cc733a0602395e3b8762db707b938d5fb2a97dc45e231f8b1ec0f1ba1b33",
+      "bytes": 21838,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-door-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/17604373b9e1ddaa/desktop-door-100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/17604373b9e1ddaa/desktop-door-100.jpg",
+      "sha256": "17604373b9e1ddaaeb86c22ce166e79b2d658d744de9c3ba11115ebaa1f184c4",
+      "bytes": 21637,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-door-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/e23b0a3e45de3eac/desktop-door-50.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/e23b0a3e45de3eac/desktop-door-50.jpg",
+      "sha256": "e23b0a3e45de3eaca027034cad1f72d88ffee75ebf697c12255cea3d6b4964b0",
+      "bytes": 21947,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-local-to-whole.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/f8aa1fa3ab2772ab/desktop-local-to-whole.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/f8aa1fa3ab2772ab/desktop-local-to-whole.jpg",
+      "sha256": "f8aa1fa3ab2772ab98e71c227c1641bc3ae9933e33006c016817206beae3da37",
+      "bytes": 40338,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-opening-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/0e1aa301cc83a3f4/desktop-opening-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/0e1aa301cc83a3f4/desktop-opening-0.jpg",
+      "sha256": "0e1aa301cc83a3f44da5fca8ddf8c2f893d246c210f7f82ac70ca55242c77490",
+      "bytes": 33397,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-opening-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/1978bcee4993e679/desktop-opening-100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/1978bcee4993e679/desktop-opening-100.jpg",
+      "sha256": "1978bcee4993e679ba37a867445cafa25b18980e524b71bbe4f277c406d54b56",
+      "bytes": 32173,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-opening-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/2f7dfe4656451317/desktop-opening-50.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/2f7dfe4656451317/desktop-opening-50.jpg",
+      "sha256": "2f7dfe46564513171460c87c73fcf28353f16bf2a4f0e6771886061e35553bc2",
+      "bytes": 32597,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-opening-75.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/eb4028cdca50b71e/desktop-opening-75.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/eb4028cdca50b71e/desktop-opening-75.jpg",
+      "sha256": "eb4028cdca50b71ebd0c79f8a2fc5339a9c4f27985a7bc355653cc62921c4a7c",
+      "bytes": 22438,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-photo-0-zoom.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/6411711f31f72f58/desktop-photo-0-zoom.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/6411711f31f72f58/desktop-photo-0-zoom.jpg",
+      "sha256": "6411711f31f72f587f0a3c592f625246027d33a0d81416d5c093bcd366e852cf",
+      "bytes": 165954,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-photo-1-zoom.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/83c3b5abd6bdea7a/desktop-photo-1-zoom.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/83c3b5abd6bdea7a/desktop-photo-1-zoom.jpg",
+      "sha256": "83c3b5abd6bdea7a23232636d64cac26e6e96c659056942ae8f45585bb0c5066",
+      "bytes": 90746,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-photo-2-zoom.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/c4ccff7b95602138/desktop-photo-2-zoom.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/c4ccff7b95602138/desktop-photo-2-zoom.jpg",
+      "sha256": "c4ccff7b95602138779bf56102857a706f21e7734c791e2f278f3dc544dcd8e3",
+      "bytes": 190537,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-reverse-light.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/874d6d320574ff9f/desktop-reverse-light.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/874d6d320574ff9f/desktop-reverse-light.jpg",
+      "sha256": "874d6d320574ff9f1b2b24ac6676e0fd0f423660bfe88c769535ebe31ec5fb5c",
+      "bytes": 38823,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-roof-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/b7de8a05b8748c32/desktop-roof-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/b7de8a05b8748c32/desktop-roof-0.jpg",
+      "sha256": "b7de8a05b8748c3270da6b5b97fb2cc53c04e6aff242fe5975224beb3267c7c3",
+      "bytes": 26160,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-roof-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/51394489b81c457c/desktop-roof-100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/51394489b81c457c/desktop-roof-100.jpg",
+      "sha256": "51394489b81c457cf4f22b2cce2e3558bb33449af9323e9d5c2e9133370db6e9",
+      "bytes": 23675,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-roof-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/893b82468eafd6da/desktop-roof-50.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/893b82468eafd6da/desktop-roof-50.jpg",
+      "sha256": "893b82468eafd6da47ec5e3918208b17675db8e4972b07be5d6740fd01960e4d",
+      "bytes": 25366,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-sight.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/4f99af3eb955d789/desktop-sight.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/4f99af3eb955d789/desktop-sight.jpg",
+      "sha256": "4f99af3eb955d789e0e044319ee6d0fefaec57210eb917db0ae953bb8ce55510",
+      "bytes": 44150,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-whole-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/874d6d320574ff9f/desktop-whole-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/874d6d320574ff9f/desktop-whole-0.jpg",
+      "sha256": "874d6d320574ff9f1b2b24ac6676e0fd0f423660bfe88c769535ebe31ec5fb5c",
+      "bytes": 38823,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-whole-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/e19fafaedd3155f4/desktop-whole-100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/e19fafaedd3155f4/desktop-whole-100.jpg",
+      "sha256": "e19fafaedd3155f4e09fef55a89b05eee1e948c8fb2b335c8ec72259436bc2cd",
+      "bytes": 44012,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-whole-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/62cfeda0c2038c00/desktop-whole-50.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/62cfeda0c2038c00/desktop-whole-50.jpg",
+      "sha256": "62cfeda0c2038c005f1f913b99fc8e4a7da348f4e49fe8b81134e4dfd8d732f8",
+      "bytes": 41857,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-window-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/7ac546041a27fa25/desktop-window-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/7ac546041a27fa25/desktop-window-0.jpg",
+      "sha256": "7ac546041a27fa25018babf90ad8c8115fdcb4a8900d0360f198fc8a8144ff77",
+      "bytes": 32325,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-window-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/04aea2469fa9faf0/desktop-window-100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/04aea2469fa9faf0/desktop-window-100.jpg",
+      "sha256": "04aea2469fa9faf032ac08793be3e305b09c7d75e981f561919c13e577e4ddb5",
+      "bytes": 31686,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/desktop-window-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/22daee2051c48412/desktop-window-50.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/22daee2051c48412/desktop-window-50.jpg",
+      "sha256": "22daee2051c484123b197098b0206e05410c09424835422ce6937a8df932103c",
+      "bytes": 32434,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-after-back.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/adda67506786d312/narrow-after-back.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/adda67506786d312/narrow-after-back.jpg",
+      "sha256": "adda67506786d312eebd4ad5b4214d23129b4be6c51eff274562b18b2513f808",
+      "bytes": 12617,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-after-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/005157731e06cec5/narrow-after-front.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/005157731e06cec5/narrow-after-front.jpg",
+      "sha256": "005157731e06cec550685a48deeabbfd1a93858f2852a80d9ba050b167702df3",
+      "bytes": 20101,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-after-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/e1f32e3760b6a618/narrow-after-iso.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/e1f32e3760b6a618/narrow-after-iso.jpg",
+      "sha256": "e1f32e3760b6a618c0ef138e84efbe854b523512c39d8bfc796b77144d37fef1",
+      "bytes": 17740,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-after-roof-frame.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/58132ddf39abfeeb/narrow-after-roof-frame.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/58132ddf39abfeeb/narrow-after-roof-frame.jpg",
+      "sha256": "58132ddf39abfeeb65abc8010a795d55152df97083c6944b1726c77018f5bc4e",
+      "bytes": 17691,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-atlas.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/eef62c35439e6bdd/narrow-atlas.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/eef62c35439e6bdd/narrow-atlas.jpg",
+      "sha256": "eef62c35439e6bddc1b527e0a1ae9e56ac00d502703d47642bc92c95ba4b4687",
+      "bytes": 96150,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-chapter-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/e1f32e3760b6a618/narrow-chapter-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/e1f32e3760b6a618/narrow-chapter-0.jpg",
+      "sha256": "e1f32e3760b6a618c0ef138e84efbe854b523512c39d8bfc796b77144d37fef1",
+      "bytes": 17740,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-chapter-1.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/e39910b3bf02d8a1/narrow-chapter-1.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/e39910b3bf02d8a1/narrow-chapter-1.jpg",
+      "sha256": "e39910b3bf02d8a1f28c3cfd0f9e8f4698ce40a2272fb54cc6336fc73e7cd898",
+      "bytes": 16598,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-chapter-2.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/0b7defd5fc5350d5/narrow-chapter-2.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/0b7defd5fc5350d5/narrow-chapter-2.jpg",
+      "sha256": "0b7defd5fc5350d580f3759da88ba35f4121c5dae1bc2b91d6fd45bdd774c5fa",
+      "bytes": 13752,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-chapter-3.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/a65828ac4570eff1/narrow-chapter-3.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/a65828ac4570eff1/narrow-chapter-3.jpg",
+      "sha256": "a65828ac4570eff1450b02ec618df52b5e1f11eba55a020935cebd53d707715d",
+      "bytes": 13766,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-chapter-4.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/43b68d2915bff970/narrow-chapter-4.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/43b68d2915bff970/narrow-chapter-4.jpg",
+      "sha256": "43b68d2915bff97004e911a6a3566ae51ac8a1c535ceb2984dd04a08d1191740",
+      "bytes": 12175,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-chapter-5.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/8e810afac4ffd4e7/narrow-chapter-5.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/8e810afac4ffd4e7/narrow-chapter-5.jpg",
+      "sha256": "8e810afac4ffd4e730443ad8010a6fe913a42be5b8a55f393c3453de3d6957c7",
+      "bytes": 20212,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-chapter-6.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/e8ee5eb97c65629a/narrow-chapter-6.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/e8ee5eb97c65629a/narrow-chapter-6.jpg",
+      "sha256": "e8ee5eb97c65629a972fe09a26f9c9c4fe74b4a3fe8d2f95c92b7b9a889146cc",
+      "bytes": 22562,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-clip-x--100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/b0e5d5ab9f8951ff/narrow-clip-x--100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/b0e5d5ab9f8951ff/narrow-clip-x--100.jpg",
+      "sha256": "b0e5d5ab9f8951ffb570fa3bbd3f43e283bf5423a9bbd57317795af0fb05b002",
+      "bytes": 6146,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-clip-x-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/363fb2de626d4664/narrow-clip-x-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/363fb2de626d4664/narrow-clip-x-0.jpg",
+      "sha256": "363fb2de626d46649415f7d27788caa6d5db0a62ffe5e11cde87c352fc8aff47",
+      "bytes": 13023,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-clip-x-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/e210576151143689/narrow-clip-x-100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/e210576151143689/narrow-clip-x-100.jpg",
+      "sha256": "e2105761511436895f9bf9ad2d61ec0312d537af648cbae625666679511692ce",
+      "bytes": 17160,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-clip-z--100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/059cb4ac757ab4f9/narrow-clip-z--100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/059cb4ac757ab4f9/narrow-clip-z--100.jpg",
+      "sha256": "059cb4ac757ab4f95592e4ffa023ee36214e396b7ff0adac43ba8b06f89b9b1a",
+      "bytes": 17162,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-clip-z-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/65773294f8cc7e90/narrow-clip-z-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/65773294f8cc7e90/narrow-clip-z-0.jpg",
+      "sha256": "65773294f8cc7e90d653bd8557591c47dfeded319269046c2987cf30594297e1",
+      "bytes": 10837,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-clip-z-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/97734875c5e7a2a7/narrow-clip-z-100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/97734875c5e7a2a7/narrow-clip-z-100.jpg",
+      "sha256": "97734875c5e7a2a7ec819cd381f6471d0e969a7909a5d0e3b6ff40d110cc8170",
+      "bytes": 5966,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-door-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/a65828ac4570eff1/narrow-door-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/a65828ac4570eff1/narrow-door-0.jpg",
+      "sha256": "a65828ac4570eff1450b02ec618df52b5e1f11eba55a020935cebd53d707715d",
+      "bytes": 13766,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-door-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/4702e527cd5644b0/narrow-door-100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/4702e527cd5644b0/narrow-door-100.jpg",
+      "sha256": "4702e527cd5644b024430839975d3883e0b0d795e1954af71bc16ae6c1b340e5",
+      "bytes": 13979,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-door-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/362d12b5ae1926c2/narrow-door-50.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/362d12b5ae1926c2/narrow-door-50.jpg",
+      "sha256": "362d12b5ae1926c2146c1a51c36793cce4ddc817751a8ea72dbe6d87ec5f348f",
+      "bytes": 14030,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-local-to-whole.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/e1f32e3760b6a618/narrow-local-to-whole.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/e1f32e3760b6a618/narrow-local-to-whole.jpg",
+      "sha256": "e1f32e3760b6a618c0ef138e84efbe854b523512c39d8bfc796b77144d37fef1",
+      "bytes": 17740,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-opening-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/8e810afac4ffd4e7/narrow-opening-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/8e810afac4ffd4e7/narrow-opening-0.jpg",
+      "sha256": "8e810afac4ffd4e730443ad8010a6fe913a42be5b8a55f393c3453de3d6957c7",
+      "bytes": 20212,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-opening-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/f8fee5092c470fde/narrow-opening-100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/f8fee5092c470fde/narrow-opening-100.jpg",
+      "sha256": "f8fee5092c470fdeacf4a7b43129591d047ecd108f72bbcf98998f16b7065300",
+      "bytes": 19596,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-opening-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/cfa655b918948898/narrow-opening-50.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/cfa655b918948898/narrow-opening-50.jpg",
+      "sha256": "cfa655b9189488984c157857d4bcdf9614ef7f20328a434d5758ad4579c5ab70",
+      "bytes": 20149,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-opening-75.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/86f12acdf1182900/narrow-opening-75.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/86f12acdf1182900/narrow-opening-75.jpg",
+      "sha256": "86f12acdf11829000bec42e919bf07fdf1d48b4727e9c50b4d674f398dc5cfcd",
+      "bytes": 13920,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-photo-0-zoom.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/09dd3ddbc3100dcf/narrow-photo-0-zoom.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/09dd3ddbc3100dcf/narrow-photo-0-zoom.jpg",
+      "sha256": "09dd3ddbc3100dcfac207d3a5f944e53c6555bb048c6b082add166d1a3519561",
+      "bytes": 71858,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-photo-1-zoom.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/fbc34a56507afcde/narrow-photo-1-zoom.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/fbc34a56507afcde/narrow-photo-1-zoom.jpg",
+      "sha256": "fbc34a56507afcde9915017b307f37ff681f38c774a3927b07ba533775c52da7",
+      "bytes": 44140,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-photo-2-zoom.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/235be11a56754a3b/narrow-photo-2-zoom.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/235be11a56754a3b/narrow-photo-2-zoom.jpg",
+      "sha256": "235be11a56754a3bdb9b84a783516bd52f7004a88eb9d484553b35a2f409b954",
+      "bytes": 82880,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-reverse-light.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/bb7a20683c75518d/narrow-reverse-light.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/bb7a20683c75518d/narrow-reverse-light.jpg",
+      "sha256": "bb7a20683c75518df512ac5ad3bab4e8e088f1eb2b40375a6b81d2888938aca1",
+      "bytes": 17045,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-roof-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/21eda2f16348dadf/narrow-roof-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/21eda2f16348dadf/narrow-roof-0.jpg",
+      "sha256": "21eda2f16348dadf9e5328112f0d5abc7078ce4acb76d147024131a4c27d44bf",
+      "bytes": 14716,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-roof-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/daffe194d9b64d3a/narrow-roof-100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/daffe194d9b64d3a/narrow-roof-100.jpg",
+      "sha256": "daffe194d9b64d3a2ee59a6cdc55d4c6175d26504fa89ec6ff09eca2c55d7fa7",
+      "bytes": 15051,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-roof-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/d164666822289c3b/narrow-roof-50.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/d164666822289c3b/narrow-roof-50.jpg",
+      "sha256": "d164666822289c3bf87565898f89e4804a451f4e5c7b0aedfc04414a19a2fd58",
+      "bytes": 15506,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-sight.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/f8385986d928596c/narrow-sight.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/f8385986d928596c/narrow-sight.jpg",
+      "sha256": "f8385986d928596c17edd33194a22af466ef47e3aac14a8bc69d276f36ade242",
+      "bytes": 14564,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-whole-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/bb7a20683c75518d/narrow-whole-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/bb7a20683c75518d/narrow-whole-0.jpg",
+      "sha256": "bb7a20683c75518df512ac5ad3bab4e8e088f1eb2b40375a6b81d2888938aca1",
+      "bytes": 17045,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-whole-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/5b8f875faa966c61/narrow-whole-100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/5b8f875faa966c61/narrow-whole-100.jpg",
+      "sha256": "5b8f875faa966c618eb522737ead0b1b6d14e1bb365c83c58ed2ba91669d4c7b",
+      "bytes": 24359,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-whole-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/19b8240c8d239346/narrow-whole-50.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/19b8240c8d239346/narrow-whole-50.jpg",
+      "sha256": "19b8240c8d239346db75192adc109370fa5bca5b2fa5e31f6a1670d44a69a768",
+      "bytes": 20662,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-window-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/43b68d2915bff970/narrow-window-0.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/43b68d2915bff970/narrow-window-0.jpg",
+      "sha256": "43b68d2915bff97004e911a6a3566ae51ac8a1c535ceb2984dd04a08d1191740",
+      "bytes": 12175,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-window-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/badfa9b5a4356e96/narrow-window-100.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/badfa9b5a4356e96/narrow-window-100.jpg",
+      "sha256": "badfa9b5a4356e96e58be48b80441e09428cb4038436bcea786f072cdfb3fadb",
+      "bytes": 12486,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/dianchunyi/updates/02/media/narrow-window-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/updates/02/96551d88ab6a6793/narrow-window-50.jpg",
+      "key": "chinese-architecture/dianchunyi/updates/02/96551d88ab6a6793/narrow-window-50.jpg",
+      "sha256": "96551d88ab6a6793e078dccaefa6605dcde5f0dd2a589b53229c9d5e32e0076b",
+      "bytes": 12228,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    }
+  }
+}

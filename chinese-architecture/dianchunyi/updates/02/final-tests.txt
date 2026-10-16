@@ -1,0 +1,34 @@
+✔ grid unique; main columns meet their individual bases and beam underside (0.533375ms)
+✔ each transverse beam has endpoints on front/rear column axes; interior columns meet same beam (0.399792ms)
+✔ upper beam and short posts touch without a vertical gap (0.133333ms)
+✔ each longitudinal purlin rests on all four frame seats; rafter lower surface touches purlin top (0.188375ms)
+✔ roof frame envelope and rafters remain beneath roof; gable wall does not expose purlin ends (0.302334ms)
+✔ rear wall has three open rectangles; no full wall seals the window apertures (0.859209ms)
+✔ door panel opaque below, upper lattice contains real openings (0.8065ms)
+✔ generic opening rotates complete leaves, fixed jamb remains, reset restores matrices (0.945083ms)
+✔ all instances and records finite, stable identifiers unique, positive dimensions, evidence complete (1.727583ms)
+✔ all roof triangles are upward, nondegenerate, lie on their own slope; exact ridge seam (0.271166ms)
+✔ complete transformed frame, posts, purlins and rafter surfaces fit below continuous roof (1.82275ms)
+✔ finite purlins overlap every rafter at all five stations, with bounded teaching contact (0.362917ms)
+✔ rafter axis segments join continuously including eaves and ridge (0.622541ms)
+✔ south facade has four central long leaves and flanking fixed half windows, not twelve long leaves (0.260666ms)
+✔ each photo has explicit reusable rights, attribution and exact building chapter (0.863ms)
+✔ every display size has a local or verified R2 fallback, and remote keys are content addressed (0.766209ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.057333ms)
+✔ each photograph appears exactly once in its building story (0.095708ms)
+✔ Dule historic plate pages retain period and subject limits, without claiming modern coverage (0.085667ms)
+✔ Yingxian retains native pixels and local delivery while independently recording verified R2 storage (0.403084ms)
+✔ Jinci covers hall, porch, bracket and dragons while preserving uncertain directions (0.12825ms)
+✔ Fengxian interior photos retain front-hall identity limits and real decoration node (0.074333ms)
+✔ Qinian atlas has explicit east-view limits and real decoration node, with R2-only delivery (0.135583ms)
+✔ Huazhongyou identifies one gate, links the lotus node and keeps missing rear coverage explicit (0.122208ms)
+✔ Chengzhi front-hall photos retain door/hidden-frame gaps and link actual carving nodes (0.094792ms)
+✔ Dianchunyi shows three verified courtyard/facade contexts, explicit missing north view and preview boundary (0.078458ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 79.241375

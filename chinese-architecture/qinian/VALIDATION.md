@@ -67,3 +67,18 @@ PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs CHROME_EXECUTABLE='/abs
 ## 未验证项与精度边界
 
 带比例尺全套测绘、逐柱变形/侧脚/拼镶、斗科逐层差异与逐踩详图、弧梁拼合和暗榫、斜架端接、顶部十字梁/雷公柱互锁、铁活、板椽真实架道、灰背/瓦作工艺层、格井柱名与天花层数口径、天花吊挂、真实五抹门/三抹窗、藻井雕刻、沥粉与金箔层、历史色谱、台阶/石栏雕刻/排水、原书页码映射、专业人员逐节点校核、跨浏览器与真实移动设备GPU、WebGL上下文恢复实测。具体来源与推定参数见[MODEL_NOTES.md](MODEL_NOTES.md)。
+
+# 第二轮独立验收 · 2026-10-16
+
+本轮为本地修正，未提交、推送或发布；历史验收保留。细节、来源、失败候选与边界见 [本轮研究记录](updates/02/RESEARCH.md)。
+
+- **17项本卷几何测试通过**，见 [原始输出](updates/02/geometry-tests.txt)。新增全三檐向上非退化面、共边法线连续、完整变换圆柱沿轴9站包络、五道圆桁实际有限实例内接触；原有28柱、方梁／弧梁／八短柱、台基、板作与120格井等继续通过。12mm接触交叠为教学参数。
+- **10项共享图录测试通过**，明确导入`qinian`章节与节点；本卷六张照片、东侧斜视限制、装饰节点与R2 URL均受检，见 [原始输出](updates/02/catalog-tests.txt)。同时保留其他会话扩展的花中游及其它卷目录数据。
+- **Chrome实际WebGL页面通过**：1440×1000桌面、390×844实际窄视口；37个模型场景保存状态与原样截图。五预设中的正南、东向、北向、斜向及章节俯视；七步骤连续切换；四局部0/50/100%展开；两轴剖切端点、中点与反向；揭瓦去围护、全圜台、真实画布拾取、选中ID与选框位移；换向光；照片返回真实装饰节点与同一步保留选图。`architecture=qinian`、`revision=qinian-20261016-02`及实际`model.js?v=qinian-02`响应路径受检。
+- 六张高清均等待`decode()`完成后的`data-ready=true`和可见画面，原生宽度4008／4062／3601／3448／4592／3688；横竖幅、弹层前后端点、方向键切图、400%放大后的PageDown滚动、Esc退出和焦点返回、窄屏400%放大可用。当前页面脚本异常0，浏览器HTTP错误0；命令行24个HEAD及一条GET403另记，不混为浏览器结果。见 [浏览器状态](updates/02/browser-state.json)、[运行输出](updates/02/browser-tests.txt)、[公开HEAD](updates/02/public-http.json)。IAB另行逐张查看真实照片与操作联动。
+- **R2存储与交付**：六图×原片/缩略/展示/高清共24对象上传并逐个读回SHA256一致，见 [初批上传](updates/02/photo-upload.json)与[追加上传](updates/02/photo-extra-upload.json)。本轮新增模型对照和UI截图也仅存R2，列表与读回哈希见 [截图清单](updates/02/evidence-media.json)。没有借用旧本地图片证明新公开URL可用，也未改bucket安全设置。
+- `git diff --check`通过；其他卷并行修改保留。此次不替其他卷进行交付验收。
+
+复放：`node --test chinese-architecture/qinian/tests/model.test.js chinese-architecture/photos/catalog.test.js`；静态服务8765下运行`PLAYWRIGHT_MODULE=<playwright/index.mjs绝对路径> node chinese-architecture/qinian/tests/update-02.mjs`。截图默认写临时目录`/tmp/qinian-evidence`，需上传R2再引用；不会覆盖前轮预览。旧浏览器runner也改为导入页面实际加载的app URL并默认输出临时目录，避免查询版本不同导致重复初始化。
+
+尚未验证：文物级尺寸、专业逐节点核验、真实手机GPU和本轮触摸拖动、跨浏览器、WebGL恢复、天花上隐藏梁架与完整暗榫；默认视图和背面仍可见围护、檐下斗科与真实装饰密度差距。软件检查与显示改善均不等同真实还原认证。

@@ -1,0 +1,14 @@
+{
+  "before": {
+    "roofTriangles": 80,
+    "downward": 80,
+    "foldBridges": 2,
+    "longSouthLeaves": 12
+  },
+  "after": {
+    "roofTriangles": 80,
+    "downward": 0,
+    "foldBridges": 0,
+    "longSouthLeaves": 4
+  }
+}

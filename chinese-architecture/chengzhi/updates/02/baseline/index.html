@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KMX9Z6VWBX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-KMX9Z6VWBX');
+  </script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#eae3d3">
+<title>承志堂前厅 · 木构解剖 | 美轮美奂</title><meta name="description" content="集中研究承志堂前厅的梁柱、拱棚、雀替与木雕层次。可旋转、剖切、拆解与逐件查看的三维建筑研究展馆。">
+<link rel="icon" href="../../favicon-32.png"><link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"../vendor/three.module.js"}}</script><script type="module" src="app.js"></script>
+</head><body>
+<header class="topbar"><a href="../collection/">← 美轮美奂 · 合集</a><a href="../qinian/">第六卷 · 祈年殿</a><a class="brand" href="#">美轮美奂 <span>中国传统建筑艺术</span></a><a href="#evidence">资料与复原依据 ↗</a></header>
+<main>
+<section class="intro"><div><p class="eyebrow">第八卷 · 徽州厅堂的梁面与透雕</p><h1>承志堂<span>前厅</span><i class="seal">营<br>造</i></h1><p class="english">CHENGZHI HALL · WOOD CARVING IN PLACE</p></div><div class="intro-note"><span>木有骨，雕有深。</span><p>厅口梁面 · 拱棚 · 厢房隔扇<br>旋转、剖切、拆合，循着构件读懂木构。</p></div></section>
+<nav id="chapters" class="chapters" aria-label="建筑研究步骤"></nav>
+<section id="studio" class="studio" aria-label="承志堂前厅三维研究台">
+<aside class="layer-sidebar"><div class="panel-heading"><span>构造层</span><button id="layers-all">全部显示</button></div><p class="micro">逐层开关，看清前后与上下。</p><div id="layer-list"></div><div class="legend"><span><i class="documented"></i>可见原位与轮廓有据</span><span><i class="inferred"></i>隐蔽屋架与尺寸推定</span></div><button id="evidence-open" class="text-link">查看精度边界 ↘</button></aside>
+<div class="viewer-column"><div class="viewer-toolbar"><div class="view-buttons" role="group" aria-label="相机视角"><button data-view="iso" aria-pressed="true">斜观</button><button data-view="front" aria-pressed="false">天井侧</button><button data-view="side" aria-pressed="false">侧观</button><button data-view="back" aria-pressed="false">厅后</button><button data-view="top" aria-pressed="false">俯视</button></div><button id="reset-view" title="恢复初始模型、构造层与视角">↺ 复位</button><button id="fullscreen" title="展开三维视图">⛶</button></div>
+<div id="viewport" tabindex="0" aria-label="可交互三维建筑。拖动旋转，滚轮缩放；也可用上方视角按钮。"><div id="model-loading" role="status">正在搭建柱网与梁架…</div><div id="model-error" hidden role="alert"><strong>三维视图暂时无法显示</strong><p>请使用支持 WebGL 2 的浏览器，或重新加载。下方构造说明和研究依据仍可阅读。</p><button onclick="location.reload()">重新加载</button></div><div id="model-labels" aria-hidden="true"></div><div class="viewport-corner"><span class="seal">雕</span><span>承志堂前厅<br><small id="model-mode">构造研究模型</small></span></div><div class="viewport-hint">拖动旋转 · 滚轮缩放 · 双指平移 · 点击识别构件</div><div id="selection-chip" hidden></div></div>
+<div id="node-picker" class="node-picker" hidden><label for="node-select">局部观察</label><select id="node-select"></select><button id="back-whole">回到前厅</button><span>+Z为天井侧，+X为右侧；地理北向待核。</span></div><div class="viewer-controls"><div class="explode-control"><label for="explode"><span id="explode-label">分层拆解</span><output id="explode-value">0%</output></label><input id="explode" type="range" min="0" max="100" value="0" aria-label="模型拆解程度"></div><button id="explode-toggle">展开</button><label class="check-control"><input type="checkbox" id="section-toggle">剖切</label><label class="check-control"><input type="checkbox" id="labels-toggle" checked>标注</label><label class="check-control"><input type="checkbox" id="color-toggle">构造分色</label><label class="check-control"><input type="checkbox" id="finish-toggle">淡木色</label></div>
+<div id="section-controls" class="section-controls" hidden><label>剖切方向 <select id="section-axis"><option value="x">沿面阔移动</option><option value="z">沿进深移动</option></select></label><input id="section-position" type="range" min="-100" max="100" value="0" aria-label="剖切位置"><button id="section-flip">反向保留</button></div>
+<div class="viewer-status"><span id="model-stats">构件加载中</span><span id="view-status" aria-live="polite">整体视图</span></div>
+</div>
+<aside class="inspector"><p id="chapter-number" class="eyebrow"></p><h2 id="chapter-title"></h2><p id="chapter-subtitle" class="chapter-subtitle"></p><p id="chapter-text"></p><dl id="chapter-facts"></dl><div class="observation"><span>观察任务</span><p id="chapter-question"></p></div><label class="micro" for="member-list">键盘 / 触摸选择关键构件</label><select id="member-list" aria-label="选择关键构件"></select><div id="selected-part" aria-live="polite"><p class="eyebrow">点选模型中的一件木作</p><p class="selection-placeholder">柱础、厅口梁、雀替与木雕，都可以查看名称、作用和建模依据。</p></div><div class="chapter-paging"><button id="prev-chapter">← 上一步</button><button id="next-chapter">下一步 →</button></div></aside>
+</section>
+<section class="reading-section"><div><p class="eyebrow">本卷的阅读路径</p><h2>雕刻在哪里，<br>木材就在哪里。</h2></div><div class="reading-copy"><p>宴官图在梁的侧面；雀替在梁下与柱旁；隔扇的透雕留出孔隙，下部浮雕却有实板作背景。先找载体，再从侧面读厚度，把不同的雕刻方式放回厅堂。</p><div class="load-path"><span>瓦面 · 椽檩</span><b>↓</b><span>教学梁架</span><b>↓</b><span>梁枋 · 柱</span><b>↓</b><span>石柱础</span></div><p class="micro">隐藏屋架是教学推定；可见拱棚不等同于屋架。展开用于观察位置，不是施工次序或力学模拟。</p></div></section>
+<section id="evidence" class="evidence"><div class="section-heading"><p class="eyebrow">资料与模型之间</p><h2>原位有据，未知仍留白。</h2></div><p class="evidence-intro">本卷采用前厅可见现状的图像关系，不复原1855年的原貌。范围止于开敞厅堂及相邻厢房界面，天井只留地坪语境。2018—2019年的修缮说明现状具有多期木作；完整2016修缮测绘尚未取得。</p><div class="evidence-grid"><article><span class="evidence-tag">文献明确</span><h3>宴官图的范围与厚度</h3><p>2024原论文第15页给出约2米长、0.33米高、5—6厘米厚及7—8层深度；图8e定位在前厅梁面。模型选用0.055米和八个深度站位，各层厚度未实测。</p></article><article><span class="evidence-tag approximate">图像判读 · 比例推定</span><h3>梁柱与雕刻轮廓</h3><p>图11北立面三段1520 / 3220 / 1520毫米作为厅口参照线，不能当作已核逐柱中心距。雕刻用立体轮廓与真透孔表达；人脸、衣纹与细刻不臆造。</p></article><article><span class="evidence-tag unresolved">待核定</span><h3>隐藏屋架与历史颜色</h3><p>完整木构剖面、柱网实测、卯口与雕刻加工关系待核。材料木色与淡木色都是教学外观，构造分色是阅读工具，不提供无据的历史彩色复原。</p></article></div><p class="evidence-intro">原书：楼庆西《美轮美奂：中国建筑装饰艺术》（2014，ISBN 9787112143085）。本卷沿用“雕梁画栋”主题，正文、章节页码与承志堂收录情况待核。当前交付为有出处的独立补充研究。</p><p class="micro">对面仪门的百子图与后厅郭子仪图未移植到前厅。剖切无实体封口；雕刻展开不表示实物可以逐层剥离。模型不用于修缮或加工。</p><div id="sources" class="sources"></div><a href="MODEL_NOTES.md" class="text-link">阅读尺寸表与建模记录 ↗</a></section>
+<footer><span>美轮美奂 · 承志堂前厅研究卷</span><a href="../collection/">返回合集 ↗</a><small>原创参数化几何 · Three.js（MIT）· 模型尺度以米计</small></footer>
+</main></body></html>

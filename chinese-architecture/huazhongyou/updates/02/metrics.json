@@ -1,0 +1,135 @@
+{
+  "description": "Teaching geometry diagnostics; capsule distance is an internal conservative clearance, never a survey or real joint validation.",
+  "baseline": {
+    "roofTriangles": {
+      "up": 0,
+      "down": 864,
+      "degenerate": 0
+    },
+    "contacts": [
+      {
+        "id": "whole/purlin/0",
+        "z": -1.73,
+        "centreY": 3.9098907601274466,
+        "capsuleClearance": -0.0221860127170765
+      },
+      {
+        "id": "whole/purlin/1",
+        "z": -1.42,
+        "centreY": 4.184886185243329,
+        "capsuleClearance": -0.040847092578432956
+      },
+      {
+        "id": "whole/purlin/2",
+        "z": -0.98,
+        "centreY": 4.470000000000001,
+        "capsuleClearance": -0.00378087447406715
+      },
+      {
+        "id": "whole/purlin/3",
+        "z": -0.63,
+        "centreY": 4.325195854290505,
+        "capsuleClearance": 0.0004446124333499779
+      },
+      {
+        "id": "whole/purlin/4",
+        "z": 0,
+        "centreY": 5,
+        "capsuleClearance": -0.02863301846165517
+      },
+      {
+        "id": "whole/purlin/5",
+        "z": 0.63,
+        "centreY": 4.325195854290505,
+        "capsuleClearance": 0.0004446124333499779
+      },
+      {
+        "id": "whole/purlin/6",
+        "z": 0.98,
+        "centreY": 4.470000000000001,
+        "capsuleClearance": -0.00378087447406715
+      },
+      {
+        "id": "whole/purlin/7",
+        "z": 1.42,
+        "centreY": 4.184886185243329,
+        "capsuleClearance": -0.04084709257843308
+      },
+      {
+        "id": "whole/purlin/8",
+        "z": 1.73,
+        "centreY": 3.9098907601274466,
+        "capsuleClearance": -0.02218601271707714
+      }
+    ],
+    "mostOverlap": -0.04084709257843308,
+    "columns": 4,
+    "hangingStems": 12
+  },
+  "final": {
+    "roofTriangles": {
+      "up": 864,
+      "down": 0,
+      "degenerate": 0
+    },
+    "contacts": [
+      {
+        "id": "whole/purlin/0",
+        "z": -1.73,
+        "centreY": 3.8826866340218475,
+        "capsuleClearance": 2.498001805406602e-16
+      },
+      {
+        "id": "whole/purlin/1",
+        "z": -1.42,
+        "centreY": 4.12587023659631,
+        "capsuleClearance": -2.0816681711721685e-16
+      },
+      {
+        "id": "whole/purlin/2",
+        "z": -0.98,
+        "centreY": 4.465972701824442,
+        "capsuleClearance": -3.191891195797325e-16
+      },
+      {
+        "id": "whole/purlin/3",
+        "z": -0.63,
+        "centreY": 4.325640616034732,
+        "capsuleClearance": -9.71445146547012e-17
+      },
+      {
+        "id": "whole/purlin/4",
+        "z": 0,
+        "centreY": 4.94699303555617,
+        "capsuleClearance": -4.579669976578771e-16
+      },
+      {
+        "id": "whole/purlin/5",
+        "z": 0.63,
+        "centreY": 4.325640616034732,
+        "capsuleClearance": -9.71445146547012e-17
+      },
+      {
+        "id": "whole/purlin/6",
+        "z": 0.98,
+        "centreY": 4.465972701824442,
+        "capsuleClearance": -3.191891195797325e-16
+      },
+      {
+        "id": "whole/purlin/7",
+        "z": 1.42,
+        "centreY": 4.125870236596309,
+        "capsuleClearance": -1.8041124150158794e-16
+      },
+      {
+        "id": "whole/purlin/8",
+        "z": 1.73,
+        "centreY": 3.8826866340218475,
+        "capsuleClearance": -4.163336342344337e-17
+      }
+    ],
+    "mostOverlap": -4.579669976578771e-16,
+    "columns": 4,
+    "hangingStems": 12
+  }
+}

@@ -1,11 +1,12 @@
-import {fileURLToPath} from 'node:url';import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';import assert from 'node:assert/strict';
 const {chromium}=await import(process.env.PLAYWRIGHT_MODULE||'playwright');
 const browser=await chromium.launch({headless:true,...(process.env.CHROME_EXECUTABLE?{executablePath:process.env.CHROME_EXECUTABLE}:{})});
-const errors=[],failures=[],path=fileURLToPath(new URL('../previews/',import.meta.url)),base=process.env.PREVIEW_URL||'http://localhost:8765';
+const errors=[],failures=[],path=(process.env.EVIDENCE_DIR||'/tmp/chengzhi-browser')+'/',base=process.env.PREVIEW_URL||'http://localhost:8765';
+await fs.mkdir(path,{recursive:true});
 const monitor=p=>{p.on('pageerror',e=>errors.push(String(e)));p.on('response',r=>{if(r.status()>=400)failures.push(r.url());});};
 const page=await browser.newPage({viewport:{width:1600,height:1150}});monitor(page);
 await page.goto(base+'/chinese-architecture/chengzhi/');await page.waitForTimeout(1100);assert.ok(!(await page.locator('#model-error').isVisible()));
-const state=p=>p.evaluate(async()=>(await import('./app.js')).getViewerState());
+const state=async p=>{await p.locator('#viewport[data-viewer-state]').waitFor();await p.evaluate(()=>new Promise(requestAnimationFrame));return p.locator('#viewport').evaluate(e=>JSON.parse(e.dataset.viewerState));};
 const fit=async(p=page)=>{const s=await state(p);assert.ok(s.projected.every(v=>Math.abs(v[0])<1&&Math.abs(v[1])<1&&v[2]<1),JSON.stringify(s));};
 for(let i=0;i<7;i++){await page.locator(`[data-chapter="${i}"]`).click();await page.waitForTimeout(500);assert.equal((await state(page)).chapter,i);await fit();assert.ok((await page.locator('#chapter-question').innerText()).length>10);}
 await page.locator('#reset-view').click();await page.waitForTimeout(500);await page.locator('#viewport').screenshot({path:path+'whole.jpg'});await page.screenshot({path:path+'desktop.jpg',fullPage:true});

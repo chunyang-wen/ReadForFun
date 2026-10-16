@@ -1,5 +1,5 @@
 import {R2_FALLBACKS} from './r2-fallbacks.js';
-import {PHOTO_STORIES} from './catalog.js?fengxian=02-delivery&v=jinci-20261016-02b';
+import {PHOTO_STORIES} from './catalog.js?v=atlas-20261016-chengzhi-02';
 const assetUrl=new URL('./assets.json',import.meta.url);
 function setPhoto(img,item,kind,onFailure=()=>{}){
  const localKey=`fallback/${item.id}/${item.sha256.slice(0,16)}/${kind}.webp`;

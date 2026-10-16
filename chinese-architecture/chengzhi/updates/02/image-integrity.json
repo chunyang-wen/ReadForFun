@@ -1,0 +1,146 @@
+[
+  {
+    "id": "chengzhi-front-up-2022",
+    "sourceSHA1Matches": true,
+    "originalSHA256": "83e49127c5375f7ebc1a4f1f84149358524422ca7797fe3775eecad4d53a1a00",
+    "originalSize": [
+      4000,
+      3000
+    ],
+    "iccPresent": false,
+    "variants": {
+      "display": {
+        "size": [
+          1600,
+          1200
+        ],
+        "sha256": "de07a0004396cde9af812079b8a9d7ea29ea7cf3c0241d99668544523028e7b8",
+        "iccMatches": true
+      },
+      "thumb": {
+        "size": [
+          480,
+          360
+        ],
+        "sha256": "d4abc617a5778f3baa097304c4832f4dcd22bb85e940f67332be3522006e366e",
+        "iccMatches": true
+      },
+      "full": {
+        "size": [
+          4000,
+          3000
+        ],
+        "sha256": "95959ff31fbb1888e1907dd701bb474d12200155e3f8001c752c279e3a7adca5",
+        "iccMatches": true
+      }
+    }
+  },
+  {
+    "id": "chengzhi-ceiling-2022",
+    "sourceSHA1Matches": true,
+    "originalSHA256": "ddb1b203e06ab703f14875250bec6882332f7b7ddda7dc96ae9a87a779464639",
+    "originalSize": [
+      4000,
+      3000
+    ],
+    "iccPresent": false,
+    "variants": {
+      "display": {
+        "size": [
+          1600,
+          1200
+        ],
+        "sha256": "c1631a22e22a8e7f0e27cac85f78ad6e163a38e6f01a6356338a5687a03f3cfd",
+        "iccMatches": true
+      },
+      "thumb": {
+        "size": [
+          480,
+          360
+        ],
+        "sha256": "d19c81873124956083b1345aaeb85c07c1d7207bfaecbf80fd7af796b7e6dd71",
+        "iccMatches": true
+      },
+      "full": {
+        "size": [
+          4000,
+          3000
+        ],
+        "sha256": "e2513c9d91f65d346e86f8e02f6ec4b3a4c381adb4d552a6bae86833f9dc791b",
+        "iccMatches": true
+      }
+    }
+  },
+  {
+    "id": "chengzhi-beam-2022",
+    "sourceSHA1Matches": true,
+    "originalSHA256": "672cf4b6713d052efe824ba9a39d6ba9fa2298f8c1d7ff11e98a561d1654573a",
+    "originalSize": [
+      4000,
+      3000
+    ],
+    "iccPresent": false,
+    "variants": {
+      "display": {
+        "size": [
+          1600,
+          1200
+        ],
+        "sha256": "56ddee71b638b63f94e24add59bb5bf82cfbb2f81fe78f8eb66bd9617ce8abe5",
+        "iccMatches": true
+      },
+      "thumb": {
+        "size": [
+          480,
+          360
+        ],
+        "sha256": "3a96474050887d7651abfdbfc8a0baaa791512b6d21d2d92fc9fab4095c7b360",
+        "iccMatches": true
+      },
+      "full": {
+        "size": [
+          4000,
+          3000
+        ],
+        "sha256": "910fa02ccea07fb5ca2ada222f34a39290c17b1310bddaf6db68e4823ca5ca3b",
+        "iccMatches": true
+      }
+    }
+  },
+  {
+    "id": "chengzhi-front-2022",
+    "sourceSHA1Matches": true,
+    "originalSHA256": "f3e497a0897207a5cda14d1c704a6b87ea1d510a0d790ffbb7a3d45478161622",
+    "originalSize": [
+      4000,
+      3000
+    ],
+    "iccPresent": false,
+    "variants": {
+      "display": {
+        "size": [
+          1200,
+          1600
+        ],
+        "sha256": "bb7485208eac55c610e14f89d7351e3bddcc4417fdbb8a5ceed75e11f933f968",
+        "iccMatches": true
+      },
+      "thumb": {
+        "size": [
+          360,
+          480
+        ],
+        "sha256": "559f76deb8369b273fbae026e0ca6eeac8012789150bb99c83d0af0cad3f704e",
+        "iccMatches": true
+      },
+      "full": {
+        "size": [
+          3000,
+          4000
+        ],
+        "sha256": "2ff248cc5711d6d350d6bd98bb9040f4effce2d6909ec7eafdc7293939b97801",
+        "iccMatches": true
+      }
+    }
+  }
+]

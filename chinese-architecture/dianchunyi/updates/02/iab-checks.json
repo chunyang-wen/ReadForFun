@@ -1,0 +1,16 @@
+{
+  "architecture": "dianchunyi",
+  "revision": "dianchunyi-20261016-02",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "observations": [
+    "南立面弹层实际绘制，R2 full.webp，ready=true，1280×842",
+    "第三张庭院图R2 full.webp，ready=true，1600×1200",
+    "400%滑杆操作，下一张按钮与键盘Right切图；第三张下一张禁用",
+    "Escape关闭，焦点回展开按钮",
+    "第三张模型按钮进入chapter0整体，并保留第三张照片"
+  ],
+  "limit": "IAB补充观察；完整三张×桌面/窄屏解码见browser-state.json"
+}

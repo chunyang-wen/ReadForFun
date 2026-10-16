@@ -1,0 +1,42 @@
+{
+  "photos": [
+    "qinian-caisson-2014"
+  ],
+  "variants": 4,
+  "uploaded": true,
+  "readBackSHA256Verified": true,
+  "objects": [
+    {
+      "id": "qinian-caisson-2014",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/qinian-caisson-2014/8228fbda808dc482/original.jpg",
+      "sha256": "8228fbda808dc482940d8a7297de047acdb9f9ce170389d813c083f3b5a490f8",
+      "bytes": 22346147,
+      "readBackSHA256Verified": true
+    },
+    {
+      "id": "qinian-caisson-2014",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/qinian-caisson-2014/8228fbda808dc482/thumb.webp",
+      "sha256": "c8224146867e88588146cd1e6f5228fadf98054cd539e5c1f5cd3988207ba80a",
+      "bytes": 59376,
+      "readBackSHA256Verified": true
+    },
+    {
+      "id": "qinian-caisson-2014",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/qinian-caisson-2014/8228fbda808dc482/display.webp",
+      "sha256": "14d21b78acb15b7a6e42f5fb6f972350507476bbc57268a56e078faf12cad928",
+      "bytes": 447258,
+      "readBackSHA256Verified": true
+    },
+    {
+      "id": "qinian-caisson-2014",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/qinian-caisson-2014/8228fbda808dc482/full.webp",
+      "sha256": "4276ae78a965d4f54f516a9a624c55fc586ee95bd34b8b17cd3c7a3cfaac010e",
+      "bytes": 7031078,
+      "readBackSHA256Verified": true
+    }
+  ]
+}

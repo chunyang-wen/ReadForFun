@@ -1,0 +1,48 @@
+[
+  {
+    "file": "chinese-architecture/chengzhi/model.js",
+    "sha256": "1bb30140a07b1716114294c8ffa9d275cd2f2303e4bc50f97ba77fbbf51b9dd2",
+    "url": "http://localhost:8765/chinese-architecture/chengzhi/model.js?v=chengzhi-02",
+    "httpSHA256": "1bb30140a07b1716114294c8ffa9d275cd2f2303e4bc50f97ba77fbbf51b9dd2"
+  },
+  {
+    "file": "chinese-architecture/chengzhi/app.js",
+    "sha256": "01c155de2d64a9b3dc437bdbc63a87e903a77d088bc75fc70b79bafa74657ccd",
+    "url": "http://localhost:8765/chinese-architecture/chengzhi/app.js?v=chengzhi-02",
+    "httpSHA256": "01c155de2d64a9b3dc437bdbc63a87e903a77d088bc75fc70b79bafa74657ccd"
+  },
+  {
+    "file": "chinese-architecture/chengzhi/data.js",
+    "sha256": "8cf74a72077186260657601037388031c856e4e1f98d93ac6689a9b7171dbd12",
+    "url": "http://localhost:8765/chinese-architecture/chengzhi/data.js?v=chengzhi-02",
+    "httpSHA256": "8cf74a72077186260657601037388031c856e4e1f98d93ac6689a9b7171dbd12"
+  },
+  {
+    "file": "chinese-architecture/chengzhi/index.html",
+    "sha256": "3e3fe7d288886be798e844ffac2eb81c633616a56fd54a711946bf967b6c6b84"
+  },
+  {
+    "file": "chinese-architecture/chengzhi/tests/model.test.js",
+    "sha256": "7415e6a3f06637012d04c558118d13f65f6eb359462e48ac2d31bad60881672b"
+  },
+  {
+    "file": "chinese-architecture/chengzhi/tests/browser.mjs",
+    "sha256": "4794aa03bf7dad53a149f31dfe89bcce346b9a7697acef0bd26fcff24cce7b70"
+  },
+  {
+    "file": "chinese-architecture/photos/catalog.js",
+    "sha256": "1e9188a526a2a4ded0966dbd70169002fe44892fa2979f62ce93e92acbc8720d"
+  },
+  {
+    "file": "chinese-architecture/photos/gallery.js",
+    "sha256": "e393da7c832c1e44ffa524b26bccc4bc5dbba5b89ef2fa20ae4f6e895d829af7"
+  },
+  {
+    "file": "chinese-architecture/photos/catalog.test.js",
+    "sha256": "aa37c9b469b39fcf2d3af5044f664fe936d35518a87b6a9e0097f636976ed8d4"
+  },
+  {
+    "file": "chinese-architecture/photos/assets.json",
+    "sha256": "b89aa16951dddb8e249e92a7f7cb0b594c616f1293dd37af269d402b2b236d89"
+  }
+]

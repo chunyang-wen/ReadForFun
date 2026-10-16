@@ -1,0 +1,125 @@
+{
+  "checkedAt": "2026-10-16T06:01:30.202797+00:00",
+  "results": [
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/source-preview.jpg",
+      "method": "HEAD",
+      "error": "URLError"
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/source-preview.jpg",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/full.webp",
+      "method": "HEAD",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/full.webp",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/display.webp",
+      "method": "HEAD",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/display.webp",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/thumb.webp",
+      "method": "HEAD",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/thumb.webp",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/original.jpg",
+      "method": "HEAD",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/original.jpg",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/full.webp",
+      "method": "HEAD",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/full.webp",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/display.webp",
+      "method": "HEAD",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/display.webp",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/thumb.webp",
+      "method": "HEAD",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/thumb.webp",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/original.jpg",
+      "method": "HEAD",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/original.jpg",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/full.webp",
+      "method": "HEAD",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/full.webp",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/display.webp",
+      "method": "HEAD",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/display.webp",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/thumb.webp",
+      "method": "HEAD",
+      "status": 403
+    },
+    {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/thumb.webp",
+      "method": "GET",
+      "status": 403
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "chinese-architecture/qinian/model.js": "c40478434d377419033503583706a68e3bdad1522d4534024afd8a292e6cfb5e",
+    "chinese-architecture/qinian/app.js": "b3c32bca9e2d1cd54a066b9c606e03d2c0e63b50cd2c1d99249021eca27ee7c8",
+    "chinese-architecture/qinian/data.js": "25aac7c52f197edbcf2392228c9f6e3077683d363058483854d4342d74e9cd70",
+    "chinese-architecture/qinian/index.html": "3ef3fcc586dba8791fb63ce76c6e4404ff93d7c57ff746b7b8c22b4188a086c4",
+    "chinese-architecture/qinian/tests/model.test.js": "c462f28849e469708848a31efb38fd32ae150cdd44c4dd243f847b1f924d7013",
+    "chinese-architecture/qinian/tests/update-02.mjs": "eefbb0cd8ad65f299aec117ca8793b4dd52a8016cd2b8e666e7f6754a91cc61e",
+    "chinese-architecture/photos/gallery.js": "f40c7393ceb7fc405390f5bf542f8a51b622accf92c3189c6c31b55faa32fc9a",
+    "chinese-architecture/photos/catalog.js": "940d85e2d7c66ab191795027edf6fbd6de4365740c5e4d1e68be1318ff17d59d",
+    "chinese-architecture/photos/catalog.test.js": "510050baec2eb20c43664f1fb6ad8377a3e54ebba9f35706db4cf421179251db",
+    "chinese-architecture/photos/assets.json": "11429bb6e06315e0600135e0a2e08b1cde954024387e7f6082436a4b8006cb20"
+  },
+  "servedModelSHA256": "c40478434d377419033503583706a68e3bdad1522d4534024afd8a292e6cfb5e"
+}

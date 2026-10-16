@@ -1,0 +1,15 @@
+{
+  "viewport": [
+    1440,
+    1000
+  ],
+  "reducedMotion": true,
+  "shots": [
+    "before-front",
+    "before-back",
+    "before-side",
+    "before-iso",
+    "before-frame"
+  ],
+  "source": "baseline/model.js and baseline/app.js saved before editing; original lights/materials"
+}

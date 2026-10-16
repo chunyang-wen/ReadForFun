@@ -62,3 +62,17 @@ PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs CHROME_EXECUTABLE='/abs
 完整2016测绘未取得，柱网中心距、进深、柱径高、拱棚尺寸、隐藏屋架的实际分类和层位、全部暗榫及加工方式未核。雀替、宴官图、门雕刻为有据轮廓与层次概括，未复制人物面貌、衣褶、刀痕或原件逐层深度。倒立双狮细刻没有充足证据，没有用通用狮子填补。材料色与分色不是已核历史颜色。
 
 原规划冯亭亭原刊未取得；改用直接审读的2024原论文核对本厅雕刻。原书正文、章节页码图号、实例收录映射仍待补。测绘级准确性、专业结构审查、实体手机和其他浏览器GPU未验证。详见[MODEL_NOTES.md](MODEL_NOTES.md)及[来源指纹](research/SOURCES.json)。
+
+
+## 第二轮独立验收 · 2026-10-16
+
+记录与边界见 [updates/02/RESEARCH.md](updates/02/RESEARCH.md)。本节不覆盖上一轮验收，也不沿用其触屏/减少动态和其它卷通过结论。
+
+- `node --test chinese-architecture/chengzhi/tests/model.test.js chinese-architecture/photos/catalog.test.js`：29/29（本卷18，图录11），原始输出 [tests.txt](updates/02/tests.txt)。新检查覆盖双坡及拱棚闭合/非退化/正向表面、脊缝、棚托接触、椽完整顶点包络与有限檩范围、梁冠和宴官图轮廓方向；原支承、透孔、载体与稳定ID检查保留。
+- CUA真实IAB：桌面1246×890与窄屏390×844，五机位、七章节、四节点拆合、整厅最大展开、两轴剖切/反向、图层、反向光、复位、真实画布拾取；窄屏无横溢。照片实际返回spandrel、banquet及拱棚步骤，同一步保留当前图。
+- 选框追踪：`local-banquet/figure/0-3/1` 最大展开保持ID，Z移动0.84m；点选说明引起的画布比例变化已复验不裁梁端。两次初始失败原样保留，原因和复验场景见研究记录。
+- 四张R2高清原像素解码、实际图像绘制、方向键/前后端点、400%放大与滚动、Esc与焦点返回通过；原片与全部12个WebP的哈希/ICC状态核查通过。
+- 照片16对象和82张本轮截图，共98个R2对象防覆盖上传及S3读回SHA256一致；98项命令行公开GET仍403，IAB四张高清成功解码分别登记。没有本轮本地备用图，不把只有本机的副本算交付。
+- [browser.json](updates/02/browser.json)保留73个状态（含失败）；截图及URL/SHA256在 [upload.json](updates/02/upload.json)，[source-hashes.json](updates/02/source-hashes.json)记录受检源码与三个HTTP实际模块字节一致。当前页面模型revision为chengzhi-20261016-02，本轮localhost脚本错误0；Commons页面旧jquery.ui警告保留并按来源区分。
+
+旧browser.mjs改读DOM状态、截图写临时目录，本轮未执行旧runner，避免把历史结果冒充新版全范围测试。未验实体手机GPU/真实触摸、其它浏览器GPU、减少动态；没有可接受摄影测量拟合或测绘级精度。原书、完整柱网/屋架、细雕仍待核。网站未提交、推送或发布。

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "qinian-whole-2014",
+    "sourceSHA1Verified": true,
+    "originalSHA256": "3e0cb50dfb179c85d1322917d879f903bd6cdb38af093a1ae7f929d175124e54",
+    "iccBytes": 0,
+    "variants": {
+      "thumb": {
+        "width": 480,
+        "height": 411,
+        "sha256": "a033ee4f6edacb8d21de53e651dbf3531b73debfd7060ee0e5f895981a344437",
+        "iccMatchesOriginal": true
+      },
+      "display": {
+        "width": 1600,
+        "height": 1370,
+        "sha256": "fc9d6ec89b2a3b38b603a109c630165667802bb14f4152c8b76df9e6a536ec16",
+        "iccMatchesOriginal": true
+      },
+      "full": {
+        "width": 4008,
+        "height": 3432,
+        "sha256": "c8bae5e40be4cbb8ea6dfb1eaf4a2fc6b60f60377650ff9a910a2049dea062b3",
+        "iccMatchesOriginal": true
+      }
+    }
+  },
+  {
+    "id": "qinian-east-2014",
+    "sourceSHA1Verified": true,
+    "originalSHA256": "89f7290f04a3d788ffa0276a1c0d51d9541260a9b3a5162297643a2bb9250f0d",
+    "iccBytes": 560,
+    "variants": {
+      "thumb": {
+        "width": 480,
+        "height": 461,
+        "sha256": "9da0161bcb1b4da45eb4a57bc365f4207cc70266470cd93c7c6f650647370acf",
+        "iccMatchesOriginal": true
+      },
+      "display": {
+        "width": 1600,
+        "height": 1536,
+        "sha256": "1c3b6c2247af4e285277ef359cf4506e57ec2a5fe987e37b558d4989dcbcc35e",
+        "iccMatchesOriginal": true
+      },
+      "full": {
+        "width": 4062,
+        "height": 3900,
+        "sha256": "312d2c28460f1eab3f0baa7132bcceaccebed78c5ac6396b52996fe765491f7d",
+        "iccMatchesOriginal": true
+      }
+    }
+  },
+  {
+    "id": "qinian-roof-2009",
+    "sourceSHA1Verified": true,
+    "originalSHA256": "c1ba9546125c2029459834045ab076d8bb67cd48e8560adc4defffa87fb9b838",
+    "iccBytes": 3144,
+    "variants": {
+      "thumb": {
+        "width": 480,
+        "height": 371,
+        "sha256": "13fbf03964d709dfa8f19e6f9cbfad8a70b26c653bf0d048cddbb96e2053324e",
+        "iccMatchesOriginal": true
+      },
+      "display": {
+        "width": 1600,
+        "height": 1237,
+        "sha256": "5d78e4f33c8a93f145149b88f9c2f67011989bd6d37bd94ff0a402abc2b6bd7d",
+        "iccMatchesOriginal": true
+      },
+      "full": {
+        "width": 3601,
+        "height": 2783,
+        "sha256": "cb27174c4b10c336e35c4958ca96e2512afb9602deb86942fd973a68f944650a",
+        "iccMatchesOriginal": true
+      }
+    }
+  },
+  {
+    "id": "qinian-whole-2016",
+    "sourceSHA1Verified": true,
+    "originalSHA256": "73eeae41e4a96d6ee9cfe0efd8543b9bd58e1f33d9173b81a0f5e45fc144d42a",
+    "iccBytes": 3144,
+    "variants": {
+      "thumb": {
+        "width": 360,
+        "height": 480,
+        "sha256": "fe99264b71f8336743eb32cea84158e85eed1512fdcb856acf7a847f7ebf972a",
+        "iccMatchesOriginal": true
+      },
+      "display": {
+        "width": 1201,
+        "height": 1600,
+        "sha256": "d89774a4a3652be31965db1f1e8494c28afbdba07b36799a1c847810f5b6fffe",
+        "iccMatchesOriginal": true
+      },
+      "full": {
+        "width": 3448,
+        "height": 4592,
+        "sha256": "a7523b3b42b950f50b34f573cadeee0ce4040fea2f2bfea7f733eff83f4ba8c3",
+        "iccMatchesOriginal": true
+      }
+    }
+  },
+  {
+    "id": "qinian-interior-2016",
+    "sourceSHA1Verified": true,
+    "originalSHA256": "20223ba79556ddee07f9fa276d7a1b48f0854f49164c6a4e042be272270a19ba",
+    "iccBytes": 3144,
+    "variants": {
+      "thumb": {
+        "width": 480,
+        "height": 360,
+        "sha256": "3b5a5c8fd67cb5d4385c2b661135558b3b3425750f9c1f71b87618bc9aec2c40",
+        "iccMatchesOriginal": true
+      },
+      "display": {
+        "width": 1600,
+        "height": 1201,
+        "sha256": "7bca7d60f023389b721b31b79545b26692c55bbc1a1396a844b04854685f0fce",
+        "iccMatchesOriginal": true
+      },
+      "full": {
+        "width": 4592,
+        "height": 3448,
+        "sha256": "aee35f81bc5d3d3d40f9eefba716e7f65a9f5ec8258de7c18e2ea94af6b04806",
+        "iccMatchesOriginal": true
+      }
+    }
+  },
+  {
+    "id": "qinian-caisson-2014",
+    "sourceSHA1Verified": true,
+    "originalSHA256": "8228fbda808dc482940d8a7297de047acdb9f9ce170389d813c083f3b5a490f8",
+    "iccBytes": 560,
+    "variants": {
+      "thumb": {
+        "width": 293,
+        "height": 480,
+        "sha256": "c8224146867e88588146cd1e6f5228fadf98054cd539e5c1f5cd3988207ba80a",
+        "iccMatchesOriginal": true
+      },
+      "display": {
+        "width": 976,
+        "height": 1600,
+        "sha256": "14d21b78acb15b7a6e42f5fb6f972350507476bbc57268a56e078faf12cad928",
+        "iccMatchesOriginal": true
+      },
+      "full": {
+        "width": 3688,
+        "height": 6048,
+        "sha256": "4276ae78a965d4f54f516a9a624c55fc586ee95bd34b8b17cd3c7a3cfaac010e",
+        "iccMatchesOriginal": true
+      }
+    }
+  }
+]
