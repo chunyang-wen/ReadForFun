@@ -25,7 +25,7 @@
 ## 重放太和殿
 
 
-从 ReadForFun 仓库根目录运行：
+从 wonder 仓库根目录运行：
 
 ```sh
 node chinese-architecture/realism-workflow/verify.mjs chinese-architecture/taihe/study/experiment.json

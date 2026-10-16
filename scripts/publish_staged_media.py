@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Upload staged media to content-addressed R2 objects; write a verified URL manifest.
 Run with `uv run --with 'boto3>=1.40' python scripts/publish_staged_media.py`.
-Loads the existing Video2Book / ReadForFun local R2 configuration.
+Loads the existing Video2Book / wonder local R2 configuration.
 Does not print credentials, delete local files, or rewrite Git history.
 """
 import concurrent.futures,datetime,hashlib,json,mimetypes,subprocess,urllib.parse,os,re

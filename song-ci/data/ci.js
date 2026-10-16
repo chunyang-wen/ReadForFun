@@ -1,4 +1,4 @@
-/** ReadForFun dataset */
+/** wonder dataset */
 window.__SONG_CI_DATA__ = [
   {
     "id": "su-shi-shui-diao-ge-tou",

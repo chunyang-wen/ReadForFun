@@ -648,7 +648,7 @@
     const it = filteredItems[currentIndex];
     if (!it) return;
 
-    const copyText = `【${it.riddle} —— ${it.answer}】\n【拼音】${it.riddle_pinyin} —— ${it.answer_pinyin}\n【分类】${it.category}\n【释义】${it.meaning}\n【典故】${it.story}\n【例句】${it.example}\n（来源：ReadForFun 中华歇后语·俗语大全）`;
+    const copyText = `【${it.riddle} —— ${it.answer}】\n【拼音】${it.riddle_pinyin} —— ${it.answer_pinyin}\n【分类】${it.category}\n【释义】${it.meaning}\n【典故】${it.story}\n【例句】${it.example}\n（来源：wonder 中华歇后语·俗语大全）`;
 
     navigator.clipboard.writeText(copyText).then(() => {
       showToast("✓ 已复制当前歇后语与典故至剪贴板");

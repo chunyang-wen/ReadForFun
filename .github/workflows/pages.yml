@@ -1,4 +1,4 @@
-name: Deploy ReadForFun to GitHub Pages
+name: Deploy wonder to GitHub Pages
 
 on:
   push:

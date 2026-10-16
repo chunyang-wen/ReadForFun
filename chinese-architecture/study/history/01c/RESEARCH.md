@@ -74,7 +74,7 @@ CUA实际重放：最终桌面与窄屏各9场景，共18场景；条件、相�
 
 ## 重放
 
-从ReadForFun仓库根目录运行：
+从wonder仓库根目录运行：
 
 ```sh
 node chinese-architecture/realism-workflow/verify.mjs chinese-architecture/study/experiment.json
