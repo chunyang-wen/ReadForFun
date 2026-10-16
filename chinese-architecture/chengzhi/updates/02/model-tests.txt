@@ -1,0 +1,26 @@
+✔ IDs, positive scales, geometry and transforms remain finite in all observation scopes (17.718042ms)
+✔ front stations transcribe unfolded facade segments without misusing full-house or 5.2 x 7.8 dimensions (0.249458ms)
+✔ all lower posts meet distinct bases and every base meets the stone floor (0.149916ms)
+✔ cross beams meet lower column heads; their geometric orientation has a vertical section (0.397292ms)
+✔ upper teaching supports sit on caps that sit on cross beams (0.1305ms)
+✔ spandrel has a true opening and its two contact edges meet the host beam and pillar (0.244ms)
+✔ barrel ceiling is independent of roof frame and has explicit supporting seats (0.122792ms)
+✔ purlin undersides match base beams, raised beam tops or dedicated seats without overlapping raised beams (0.600584ms)
+✔ every roof-frame vertex remains below local roofing and inside modeled roof boundaries (0.3515ms)
+✔ rafter directions follow slopes and lower surfaces touch purlin crowns (0.571208ms)
+✔ banquet bed sits on a real front-facing beam surface, with all relief vertices within cited extent (1.738542ms)
+✔ carving hosts are real members; openwork hosts are frames and solid relief hosts are panels (1.585209ms)
+✔ door upper field has real through-openings instead of a textured panel (0.571167ms)
+✔ every roof base beam and purlin has resolvable supporting members in whole and node scopes (0.227041ms)
+✔ both roof slopes and ceiling are closed nondegenerate shells with outward surface normals (1.478041ms)
+✔ continuous barrel bearers meet seats and ceiling underside at sampled shared stations (15.815541ms)
+✔ entire rafter vertex envelopes stay below the roof underside, within finite purlin spans (1.745666ms)
+✔ front beam keeps endpoint seats while crowned carrier and banquet silhouette match source direction (0.214334ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 120.407916

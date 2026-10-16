@@ -77,12 +77,33 @@ export function buildModel(materials,{detailOnly=false,node='door'}={}){
 
   for(const x of SPEC.xs)for(const s of [-1,1])if(x+s*.68>=-3.6&&x+s*.68<=3.6)spandrel(x,3.25,0,s,'front/spandrel/'+x+'/'+s);
   const pzs=[-4.8,-3.75,-2.4,-1.05,0];for(const z of pzs){const y=roofY(z)-.18;round('purlins','purlin',[-3.70,y,z],[3.70,y,z],.10,'wood',{key:'purlin/'+z,support:'four transverse frame seats',status:'比例推定'});}
-  for(let j=0;j<30;j++){const x=-3.67+j*7.34/29;for(const [k,[a,b]] of [[ROOF.minZ,-4.8],[-4.8,-3.75],[-3.75,-2.4],[-2.4,-1.05],[-1.05,0],[0,ROOF.maxZ]].entries())beam('rafters','rafter',[x,roofY(a)-.05,a],[x,roofY(b)-.05,b],.045,.06,'rafter',{key:`rafter/${j}/${k}`});}
-  const g=new T.BufferGeometry(),points=[],idx=[];for(let j=0;j<=40;j++){const z=ROOF.minZ+j*(ROOF.maxZ-ROOF.minZ)/40;points.push(-ROOF.halfX,roofY(z)+.04,z,ROOF.halfX,roofY(z)+.04,z);if(j<40){const i=j*2;idx.push(i,i+1,i+2,i+1,i+3,i+2);}}g.setAttribute('position',new T.Float32BufferAttribute(points,3));g.setIndex(idx);g.computeVertexNormals();add('roof','roof',g,[0,0,0],[1,1,1],Q(),'tile',{key:'roof/surface'});
+  for(let j=0;j<30;j++){const x=-3.67+j*7.34/29;for(const [k,[a,b]] of [[ROOF.minZ+.02,-4.8],[-4.8,-3.75],[-3.75,-2.4],[-2.4,-1.05],[-1.05,0],[0,ROOF.maxZ-.02]].entries())beam('rafters','rafter',[x,roofY(a)-.05,a],[x,roofY(b)-.05,b],.045,.06,'rafter',{key:`rafter/${j}/${k}`});}
+  // Two independent slopes share the exact ridge station. Upward winding,
+  // hard ridge normals; no interpolated strip cuts below the ridge.
+  const g=new T.BufferGeometry(),points=[],idx=[];
+  for(const [a,b] of [[ROOF.minZ,ROOF.ridgeZ],[ROOF.ridgeZ,ROOF.maxZ]]){
+   const start=points.length/3;
+   for(let j=0;j<=20;j++){const z=a+(b-a)*j/20;points.push(-ROOF.halfX,roofY(z)+.04,z,ROOF.halfX,roofY(z)+.04,z);if(j<20){const i=start+j*2;idx.push(i,i+2,i+1,i+1,i+2,i+3);}}
+  }
+  g.setAttribute('position',new T.Float32BufferAttribute(points,3));g.setIndex(idx);g.computeVertexNormals();add('roof','roof',g,[0,0,0],[1,1,1],Q(),'tile',{key:'roof/surface'});
   for(let j=0;j<48;j++){const x=-3.87+j*7.74/47;for(const [a,b] of [[ROOF.minZ,-2.4],[-2.4,ROOF.maxZ]])round('roof','roof',[x,roofY(a)+.065,a],[x,roofY(b)+.065,b],.026,'tile',{key:'roof/rib/'+j+'/'+a});}
   box('roof','roof',[0,5.78,-2.4],[7.97,.18,.18],'ridge',{key:'roof/ridge'});
   const gable=G('gable',()=>prism([[ROOF.minZ,.16],[ROOF.maxZ,.16],[ROOF.maxZ,roofY(ROOF.maxZ)],[-2.4,5.67],[ROOF.minZ,roofY(ROOF.minZ)]],.16));for(const s of [-1,1])add('roof','roof',gable,[s*3.80,0,0],[1,1,1],yaw(-Math.PI/2),'plaster',{key:'gable/'+s,note:'山墙边界概括；西复室不扩建'});
-  for(let bay=0;bay<3;bay++){const cx=-2.4+bay*2.4;for(let j=0;j<4;j++)leaf(cx+(j-1.5)*.555,.18,.035,.535,2.80,`south/bay/${bay}/leaf/${j}`);box('enclosure','enclosure',[cx,3.06,.04],[2.15,.06,.13],'door',{key:'transom/rail/'+bay});for(let j=0;j<14;j++)box('carving','lattice',[cx+(j-6.5)*.155,3.17,.035],[.025,.16,.05],'door',{key:`transom/${bay}/${j}`});}
+  for(let bay=0;bay<3;bay++){const cx=-2.4+bay*2.4;
+   if(bay===1){for(let j=0;j<4;j++)leaf(cx+(j-1.5)*.555,.18,.035,.535,2.80,`south/bay/${bay}/leaf/${j}`);}
+   else{
+    // 2019 south facade: flanking half windows, not twelve floor-length leaves.
+    // Fixed framing only; glass, actual hinges and exact mouldings remain unmodelled.
+    const evidence={status:'图像判读',source:'xiquinhosilva 2019-11-03，53682625815；南立面半窗关系，尺寸推定'};
+    box('enclosure','enclosure',[cx,.58,.035],[2.15,.80,.10],'darkwood',{...evidence,key:`south/bay/${bay}/sill-panel`});
+    for(const [j,dx] of [[0,-.54],[1,.54]]){
+     const x=cx+dx,w=1.02,lo=.98,hi=2.98;
+     for(const sign of [-1,1])box('enclosure','stile',[x+sign*(w/2-.025),(lo+hi)/2,.035],[.05,hi-lo,.065],'door',{...evidence,key:`south/bay/${bay}/half/${j}/stile/${sign}`});
+     for(const [k,y] of [lo,(lo+hi)/2,hi].entries())box('enclosure','rail',[x,y,.035],[w,.05,.065],'door',{...evidence,key:`south/bay/${bay}/half/${j}/rail/${k}`});
+     box('enclosure','stile',[x,(lo+hi)/2,.035],[.035,hi-lo,.05],'door',{...evidence,key:`south/bay/${bay}/half/${j}/mullion`});
+    }
+   }
+   box('enclosure','enclosure',[cx,3.06,.04],[2.15,.06,.13],'door',{key:'transom/rail/'+bay});for(let j=0;j<14;j++)box('carving','lattice',[cx+(j-6.5)*.155,3.17,.035],[.025,.16,.05],'door',{key:`transom/${bay}/${j}`});}
   rearWindows();
   box('enclosure','enclosure',[-4.02,1.6,-2.4],[.13,2.9,4.8],'plaster',{key:'west/annex-boundary',note:'西复室仅提示边界，不建完整复室'});
   // Narrow paving joints improve scale reading without pretending to survey every stone.

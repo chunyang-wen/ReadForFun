@@ -1,0 +1,44 @@
+✔ four main columns are a single row with three unequal bays, not an ordinary four-corner gate (0.716458ms)
+✔ every main column meets its independent base upper face (0.288167ms)
+✔ twelve hanging positions: four on each inner frame and two on each outer frame (0.0745ms)
+✔ continuous cantilever beams cross the column and cover all front/back hanging axes (0.370291ms)
+✔ hanging stems do not touch ground and their carved head shoulders meet stem bottoms (0.867917ms)
+✔ central high crest and two rolled shoulders follow the side drawing without a second rear column row (0.1845ms)
+✔ all transformed frame vertices and edge interiors stay below the roof (6.736833ms)
+✔ roof surface includes both slope domains and independent end gable borders (0.78ms)
+✔ purlin posts start at beam top and finish at corresponding profile-rib underside (0.331667ms)
+✔ purlins along X and rafters along Z are perpendicular, with slope-aware centres (0.701625ms)
+✔ generic joint has an actual open receiver, smaller tenon and specified Z insertion (0.08325ms)
+✔ doors rotate around separate vertical hinge axes and return to original matrices, with no invented screen (3.865459ms)
+✔ all scopes retain finite geometry, unique stable identifiers and evidence fields (10.202458ms)
+✔ door swept slab clears the inner posts through its full teaching opening range (3.342834ms)
+✔ all Float32 roof triangles face upward, have area and share exact strip seams (0.468209ms)
+✔ finite purlins clear every rafter segment and meet at least one sloping rafter envelope (0.468833ms)
+✔ each purlin underside lands on the finite frame top and posts meet the actual polygon underside (4.730583ms)
+✔ all full rafter Float32 vertices remain within roof coverage without top penetration (38.459791ms)
+✔ new curved frame and gable solids have no collapsed Float32 triangle (2.588708ms)
+✔ each photo has explicit reusable rights, attribution and exact building chapter (0.806875ms)
+✔ every display size has a local or verified R2 fallback, and remote keys are content addressed (0.792541ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.065791ms)
+✔ each photograph appears exactly once in its building story (0.096833ms)
+✔ Dule historic plate pages retain period and subject limits, without claiming modern coverage (0.084583ms)
+✔ Yingxian retains native pixels and local delivery while independently recording verified R2 storage (0.44725ms)
+✔ Jinci covers hall, porch, bracket and dragons while preserving uncertain directions (0.135625ms)
+✔ Fengxian interior photos retain front-hall identity limits and real decoration node (0.084834ms)
+✔ Qinian atlas has explicit east-view limits and real decoration node, with R2-only delivery (0.137ms)
+✔ Huazhongyou identifies one gate, links the lotus node and keeps missing rear coverage explicit (0.132041ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (1.021791ms)
+✔ every selectable member has a documented type and valid layer (2.391208ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (3.877541ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.357542ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.423917ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.07ms)
+✔ upper frame does not protrude through the hip roof (0.442834ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 427.78125

@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "up": 0,
+    "down": 864,
+    "degenerate": 0
+  },
+  "final": {
+    "up": 864,
+    "down": 0,
+    "degenerate": 0
+  },
+  "baselineOverlap": -0.04084709257843308,
+  "finalClearance": -4.579669976578771e-16
+}

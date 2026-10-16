@@ -1,0 +1,1279 @@
+{
+  "checkedAt": "2026-10-16T06:03:14.682842+00:00",
+  "objects": {
+    "chinese-architecture/photos/fallback/chengzhi-front-up-2022/83e49127c5375f7e/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-front-up-2022/83e49127c5375f7e/original.jpg",
+      "key": "chinese-architecture/photos/chengzhi-front-up-2022/83e49127c5375f7e/original.jpg",
+      "sha256": "83e49127c5375f7ebc1a4f1f84149358524422ca7797fe3775eecad4d53a1a00",
+      "bytes": 3632354,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-front-up-2022/83e49127c5375f7e/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-front-up-2022/83e49127c5375f7e/display.webp",
+      "key": "chinese-architecture/photos/chengzhi-front-up-2022/83e49127c5375f7e/display.webp",
+      "sha256": "de07a0004396cde9af812079b8a9d7ea29ea7cf3c0241d99668544523028e7b8",
+      "bytes": 455964,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-front-up-2022/83e49127c5375f7e/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-front-up-2022/83e49127c5375f7e/thumb.webp",
+      "key": "chinese-architecture/photos/chengzhi-front-up-2022/83e49127c5375f7e/thumb.webp",
+      "sha256": "d4abc617a5778f3baa097304c4832f4dcd22bb85e940f67332be3522006e366e",
+      "bytes": 54362,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-front-up-2022/83e49127c5375f7e/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-front-up-2022/83e49127c5375f7e/full.webp",
+      "key": "chinese-architecture/photos/chengzhi-front-up-2022/83e49127c5375f7e/full.webp",
+      "sha256": "95959ff31fbb1888e1907dd701bb474d12200155e3f8001c752c279e3a7adca5",
+      "bytes": 1651526,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-ceiling-2022/ddb1b203e06ab703/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-ceiling-2022/ddb1b203e06ab703/original.jpg",
+      "key": "chinese-architecture/photos/chengzhi-ceiling-2022/ddb1b203e06ab703/original.jpg",
+      "sha256": "ddb1b203e06ab703f14875250bec6882332f7b7ddda7dc96ae9a87a779464639",
+      "bytes": 3454405,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-ceiling-2022/ddb1b203e06ab703/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-ceiling-2022/ddb1b203e06ab703/display.webp",
+      "key": "chinese-architecture/photos/chengzhi-ceiling-2022/ddb1b203e06ab703/display.webp",
+      "sha256": "c1631a22e22a8e7f0e27cac85f78ad6e163a38e6f01a6356338a5687a03f3cfd",
+      "bytes": 431014,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-ceiling-2022/ddb1b203e06ab703/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-ceiling-2022/ddb1b203e06ab703/thumb.webp",
+      "key": "chinese-architecture/photos/chengzhi-ceiling-2022/ddb1b203e06ab703/thumb.webp",
+      "sha256": "d19c81873124956083b1345aaeb85c07c1d7207bfaecbf80fd7af796b7e6dd71",
+      "bytes": 50440,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-ceiling-2022/ddb1b203e06ab703/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-ceiling-2022/ddb1b203e06ab703/full.webp",
+      "key": "chinese-architecture/photos/chengzhi-ceiling-2022/ddb1b203e06ab703/full.webp",
+      "sha256": "e2513c9d91f65d346e86f8e02f6ec4b3a4c381adb4d552a6bae86833f9dc791b",
+      "bytes": 1649366,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-beam-2022/672cf4b6713d052e/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-beam-2022/672cf4b6713d052e/original.jpg",
+      "key": "chinese-architecture/photos/chengzhi-beam-2022/672cf4b6713d052e/original.jpg",
+      "sha256": "672cf4b6713d052efe824ba9a39d6ba9fa2298f8c1d7ff11e98a561d1654573a",
+      "bytes": 3714015,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-beam-2022/672cf4b6713d052e/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-beam-2022/672cf4b6713d052e/display.webp",
+      "key": "chinese-architecture/photos/chengzhi-beam-2022/672cf4b6713d052e/display.webp",
+      "sha256": "56ddee71b638b63f94e24add59bb5bf82cfbb2f81fe78f8eb66bd9617ce8abe5",
+      "bytes": 312576,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-beam-2022/672cf4b6713d052e/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-beam-2022/672cf4b6713d052e/thumb.webp",
+      "key": "chinese-architecture/photos/chengzhi-beam-2022/672cf4b6713d052e/thumb.webp",
+      "sha256": "3a96474050887d7651abfdbfc8a0baaa791512b6d21d2d92fc9fab4095c7b360",
+      "bytes": 40406,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-beam-2022/672cf4b6713d052e/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-beam-2022/672cf4b6713d052e/full.webp",
+      "key": "chinese-architecture/photos/chengzhi-beam-2022/672cf4b6713d052e/full.webp",
+      "sha256": "910fa02ccea07fb5ca2ada222f34a39290c17b1310bddaf6db68e4823ca5ca3b",
+      "bytes": 1330888,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-front-2022/f3e497a0897207a5/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-front-2022/f3e497a0897207a5/original.jpg",
+      "key": "chinese-architecture/photos/chengzhi-front-2022/f3e497a0897207a5/original.jpg",
+      "sha256": "f3e497a0897207a5cda14d1c704a6b87ea1d510a0d790ffbb7a3d45478161622",
+      "bytes": 3471729,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-front-2022/f3e497a0897207a5/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-front-2022/f3e497a0897207a5/display.webp",
+      "key": "chinese-architecture/photos/chengzhi-front-2022/f3e497a0897207a5/display.webp",
+      "sha256": "bb7485208eac55c610e14f89d7351e3bddcc4417fdbb8a5ceed75e11f933f968",
+      "bytes": 406044,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-front-2022/f3e497a0897207a5/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-front-2022/f3e497a0897207a5/thumb.webp",
+      "key": "chinese-architecture/photos/chengzhi-front-2022/f3e497a0897207a5/thumb.webp",
+      "sha256": "559f76deb8369b273fbae026e0ca6eeac8012789150bb99c83d0af0cad3f704e",
+      "bytes": 55146,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/chengzhi-front-2022/f3e497a0897207a5/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/chengzhi-front-2022/f3e497a0897207a5/full.webp",
+      "key": "chinese-architecture/photos/chengzhi-front-2022/f3e497a0897207a5/full.webp",
+      "sha256": "2ff248cc5711d6d350d6bd98bb9040f4effce2d6909ec7eafdc7293939b97801",
+      "bytes": 1593814,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-mobile-door-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/d51fe60c9cf670fc/ui-mobile-door-100.png",
+      "key": "chinese-architecture/chengzhi/updates/02/d51fe60c9cf670fc/ui-mobile-door-100.png",
+      "sha256": "d51fe60c9cf670fc140ee135298cf949224f11f9c8e568526de0ca7a40202dbb",
+      "bytes": 33160,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-chapter-3.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/34180ff6b384049b/ui-chapter-3.png",
+      "key": "chinese-architecture/chengzhi/updates/02/34180ff6b384049b/ui-chapter-3.png",
+      "sha256": "34180ff6b384049b03f550ceda96edbe69465d41f94025e7d44789c821b1c29f",
+      "bytes": 86410,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-final-crowned-beam-pick.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/9cd0456972ecc857/ui-final-crowned-beam-pick.png",
+      "key": "chinese-architecture/chengzhi/updates/02/9cd0456972ecc857/ui-final-crowned-beam-pick.png",
+      "sha256": "9cd0456972ecc8574ee267e7de9f9966ca886ec98b0100f6f0eb4ebf3c1b8834",
+      "bytes": 96919,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-chapter-2.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/335c68ec2536551f/ui-chapter-2.png",
+      "key": "chinese-architecture/chengzhi/updates/02/335c68ec2536551f/ui-chapter-2.png",
+      "sha256": "335c68ec2536551fc71504c095b9000c8c7b387577756bd7eba7f638631a555d",
+      "bytes": 77163,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-chapter-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/743921d3d69843c7/ui-chapter-0.png",
+      "key": "chinese-architecture/chengzhi/updates/02/743921d3d69843c7/ui-chapter-0.png",
+      "sha256": "743921d3d69843c7fcc33c8270b3330524d7629c1ef5b3d18a2069a1b90cd27f",
+      "bytes": 93484,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-final-iso.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/743921d3d69843c7/after-final-iso.png",
+      "key": "chinese-architecture/chengzhi/updates/02/743921d3d69843c7/after-final-iso.png",
+      "sha256": "743921d3d69843c7fcc33c8270b3330524d7629c1ef5b3d18a2069a1b90cd27f",
+      "bytes": 93484,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-mobile-photo.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/de92dfbe3d016602/ui-mobile-photo.png",
+      "key": "chinese-architecture/chengzhi/updates/02/de92dfbe3d016602/ui-mobile-photo.png",
+      "sha256": "de92dfbe3d016602c7601f86fe4d1ae263db355bf9240ed677b44fd48d7f56d8",
+      "bytes": 47783,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/before-front.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/6ed30c8429704a7f/before-front.png",
+      "key": "chinese-architecture/chengzhi/updates/02/6ed30c8429704a7f/before-front.png",
+      "sha256": "6ed30c8429704a7fad08b2038684b3b1e564a84e51e20c7491fb6c87adc8cc31",
+      "bytes": 77285,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-chapter-1.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/324b3b2eb5dd78e0/ui-chapter-1.png",
+      "key": "chinese-architecture/chengzhi/updates/02/324b3b2eb5dd78e0/ui-chapter-1.png",
+      "sha256": "324b3b2eb5dd78e066169249a945b78feb5c0d5fccdce2856ff7e25660fdf460",
+      "bytes": 99598,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-mobile-roof-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/ed491375dfea962d/ui-mobile-roof-100.png",
+      "key": "chinese-architecture/chengzhi/updates/02/ed491375dfea962d/ui-mobile-roof-100.png",
+      "sha256": "ed491375dfea962d8a2b3043ffea00c1d0b9aaa75eb3e01568a5f80f4733290c",
+      "bytes": 32836,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-final-banquet.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/8c6cab6ff756f492/ui-final-banquet.png",
+      "key": "chinese-architecture/chengzhi/updates/02/8c6cab6ff756f492/ui-final-banquet.png",
+      "sha256": "8c6cab6ff756f4925129a4b4555ecef00d2f5c2bf0966e2e6fbea5006de2155d",
+      "bytes": 83603,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-chapter-5.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/fc4a66f3fb8e600f/ui-chapter-5.png",
+      "key": "chinese-architecture/chengzhi/updates/02/fc4a66f3fb8e600f/ui-chapter-5.png",
+      "sha256": "fc4a66f3fb8e600fafc44aa9985fc2664043d74a6a63103f0386caac78268a42",
+      "bytes": 88428,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-section-z-max.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/bb52df64ceb0ce4f/ui-section-z-max.png",
+      "key": "chinese-architecture/chengzhi/updates/02/bb52df64ceb0ce4f/ui-section-z-max.png",
+      "sha256": "bb52df64ceb0ce4fe882517867ba7f6df907a601bc4898f62d47f14a33e6074a",
+      "bytes": 112643,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-final-front.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/556cf344415ce8c2/after-final-front.png",
+      "key": "chinese-architecture/chengzhi/updates/02/556cf344415ce8c2/after-final-front.png",
+      "sha256": "556cf344415ce8c2dfe1736429101aed41370413c2182451dc82894b27b9cc17",
+      "bytes": 93855,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-spandrel-return.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/5df2d3214b42cf59/ui-spandrel-return.png",
+      "key": "chinese-architecture/chengzhi/updates/02/5df2d3214b42cf59/ui-spandrel-return.png",
+      "sha256": "5df2d3214b42cf5947a3b8eb17ef404dc13aa926f53804fbf6f01d71d1090d27",
+      "bytes": 83234,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-chapter-4.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/7394954aeafcba5f/ui-chapter-4.png",
+      "key": "chinese-architecture/chengzhi/updates/02/7394954aeafcba5f/ui-chapter-4.png",
+      "sha256": "7394954aeafcba5f1db61dfb91ec5b314e3e876b87e43e272e09667af407c3dc",
+      "bytes": 81793,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-final-side.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/2a14886eb4b923fb/after-final-side.png",
+      "key": "chinese-architecture/chengzhi/updates/02/2a14886eb4b923fb/after-final-side.png",
+      "sha256": "2a14886eb4b923fb5c415fce10bd9541ec9fbaaface8c2ead7d44335c93b0747",
+      "bytes": 80807,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-reset.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/7365732790fe4025/after-reset.png",
+      "key": "chinese-architecture/chengzhi/updates/02/7365732790fe4025/after-reset.png",
+      "sha256": "7365732790fe4025320a1635a5103267834d71cf130289f0d763f2ecba81f18a",
+      "bytes": 93529,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-chapter-6.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/3e834512a7839a27/ui-chapter-6.png",
+      "key": "chinese-architecture/chengzhi/updates/02/3e834512a7839a27/ui-chapter-6.png",
+      "sha256": "3e834512a7839a2724a07ee18a537e49f35af85fe0f95e0271bee4eb3be824cc",
+      "bytes": 99188,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-section-z-reverse.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/6e477c21a5d655f0/ui-section-z-reverse.png",
+      "key": "chinese-architecture/chengzhi/updates/02/6e477c21a5d655f0/ui-section-z-reverse.png",
+      "sha256": "6e477c21a5d655f0e3a2a28df82d825a02c1cf0ed5dbfbfe699a5b33e4a7455e",
+      "bytes": 94292,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-moving-selection-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/cb899e7352d5028f/ui-moving-selection-0.png",
+      "key": "chinese-architecture/chengzhi/updates/02/cb899e7352d5028f/ui-moving-selection-0.png",
+      "sha256": "cb899e7352d5028fb87e59e57f84f472e9e2cb9316182b6aee4caf91d2d0a118",
+      "bytes": 83099,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-door-assembled.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/f23072f442b0f606/ui-door-assembled.png",
+      "key": "chinese-architecture/chengzhi/updates/02/f23072f442b0f606/ui-door-assembled.png",
+      "sha256": "f23072f442b0f606e36c090387827c470b0c97d5ce6a5253e9cf31f8439265ea",
+      "bytes": 93245,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-moving-selection-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/000c70910723258b/ui-moving-selection-100.png",
+      "key": "chinese-architecture/chengzhi/updates/02/000c70910723258b/ui-moving-selection-100.png",
+      "sha256": "000c70910723258b2c1f3a516038af37ce5075ce5d1f6f2c7a1cb18617a0b5da",
+      "bytes": 78423,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-final-top.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/4f2213dc3713b7dc/after-final-top.png",
+      "key": "chinese-architecture/chengzhi/updates/02/4f2213dc3713b7dc/after-final-top.png",
+      "sha256": "4f2213dc3713b7dcd1793327a89e896bf804c9c152b7c7e54f119efe59bdba95",
+      "bytes": 92206,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-section-x-max.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/46680b5610575ebd/ui-section-x-max.png",
+      "key": "chinese-architecture/chengzhi/updates/02/46680b5610575ebd/ui-section-x-max.png",
+      "sha256": "46680b5610575ebd4a9ea27b87aebf992746b743e11737eb495fb60294bafd57",
+      "bytes": 94506,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-final-roof-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/1b2cb1521f1a5cfe/ui-final-roof-100.png",
+      "key": "chinese-architecture/chengzhi/updates/02/1b2cb1521f1a5cfe/ui-final-roof-100.png",
+      "sha256": "1b2cb1521f1a5cfe5927fee2b0f4e79903cb200d10179dd629fc19441ac37d22",
+      "bytes": 93698,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-delivery-iso.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/f1327d4f418136c7/after-delivery-iso.png",
+      "key": "chinese-architecture/chengzhi/updates/02/f1327d4f418136c7/after-delivery-iso.png",
+      "sha256": "f1327d4f418136c781e57b8ef99eec0d63d064b8b07d76d3e6655a33bec04df9",
+      "bytes": 93516,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-final-fullpage.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/9ce73b1ae040c4f9/ui-final-fullpage.png",
+      "key": "chinese-architecture/chengzhi/updates/02/9ce73b1ae040c4f9/ui-final-fullpage.png",
+      "sha256": "9ce73b1ae040c4f950c2cb48dedf44ea81f2edb1f8e0de55c9f8dc4a2cbffa21",
+      "bytes": 361700,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-photo-banquet-link.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/3df11828954f5de7/ui-photo-banquet-link.png",
+      "key": "chinese-architecture/chengzhi/updates/02/3df11828954f5de7/ui-photo-banquet-link.png",
+      "sha256": "3df11828954f5de7efe80c2ca552dccf222f6d68ecbaa18b8a2ec60391743ce7",
+      "bytes": 82085,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-photo-3.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/cc188ef90fc72912/ui-photo-3.png",
+      "key": "chinese-architecture/chengzhi/updates/02/cc188ef90fc72912/ui-photo-3.png",
+      "sha256": "cc188ef90fc7291238de8a502696a4e7f7032857f5493f5f7060f58ff3594b1a",
+      "bytes": 117670,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-photo-2.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/fdf04909243cb265/ui-photo-2.png",
+      "key": "chinese-architecture/chengzhi/updates/02/fdf04909243cb265/ui-photo-2.png",
+      "sha256": "fdf04909243cb265928181fc25644dee34856d8b9c3cbb68c862acb21dcaeca7",
+      "bytes": 139749,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-selection-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/f044c38cb4568bdd/ui-selection-100.png",
+      "key": "chinese-architecture/chengzhi/updates/02/f044c38cb4568bdd/ui-selection-100.png",
+      "sha256": "f044c38cb4568bdd25c722368865288b8ffce0c9c879e79a10623f5f7659e8e8",
+      "bytes": 81419,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/before-section.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/5f2e24d113701e75/before-section.png",
+      "key": "chinese-architecture/chengzhi/updates/02/5f2e24d113701e75/before-section.png",
+      "sha256": "5f2e24d113701e75488f544fc1535ca36999baab2294ac9623f4d31553390ba6",
+      "bytes": 86627,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-selection-0-fixed.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/a0807e9da2ff47d3/ui-selection-0-fixed.png",
+      "key": "chinese-architecture/chengzhi/updates/02/a0807e9da2ff47d3/ui-selection-0-fixed.png",
+      "sha256": "a0807e9da2ff47d38002ff38152e5b8c9ce48c1bdf9b2e0e42cc51699ef34fa8",
+      "bytes": 85562,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-roof-assembled.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/5993a5014abd49cb/ui-roof-assembled.png",
+      "key": "chinese-architecture/chengzhi/updates/02/5993a5014abd49cb/ui-roof-assembled.png",
+      "sha256": "5993a5014abd49cbeedfb4804b4365e965cbcacfffb2ef98409cde4a0587a11c",
+      "bytes": 92850,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-banquet-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/05a2626fce18221f/ui-banquet-100.png",
+      "key": "chinese-architecture/chengzhi/updates/02/05a2626fce18221f/ui-banquet-100.png",
+      "sha256": "05a2626fce18221f51d1a81e7cd47b8fa7732b7dba919101075406101b17f8b9",
+      "bytes": 92113,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-photo-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/1e411a4d9b2488d9/ui-photo-0.png",
+      "key": "chinese-architecture/chengzhi/updates/02/1e411a4d9b2488d9/ui-photo-0.png",
+      "sha256": "1e411a4d9b2488d967e6247acd77b4ac749beb897e2b79ec8dd4b6f5ba294d3c",
+      "bytes": 173725,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-photo-1.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/46e3c2b422cfed33/ui-photo-1.png",
+      "key": "chinese-architecture/chengzhi/updates/02/46e3c2b422cfed33/ui-photo-1.png",
+      "sha256": "46e3c2b422cfed33fce848df00747e056ab8e7a14076dbc13969b46db299c8bc",
+      "bytes": 165405,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-final-door-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/244efcceddc23b38/ui-final-door-100.png",
+      "key": "chinese-architecture/chengzhi/updates/02/244efcceddc23b38/ui-final-door-100.png",
+      "sha256": "244efcceddc23b381a82527fa30b903c057e9589a14dae83b6a290c6b31c2f24",
+      "bytes": 95109,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-delivery-front.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/f426168097e79052/after-delivery-front.png",
+      "key": "chinese-architecture/chengzhi/updates/02/f426168097e79052/after-delivery-front.png",
+      "sha256": "f426168097e7905234e482d7ab93cece919e40c9e67cdddf555e6578a8993904",
+      "bytes": 93838,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-frame-reverse.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/e5883be62fc5ca64/after-frame-reverse.png",
+      "key": "chinese-architecture/chengzhi/updates/02/e5883be62fc5ca64/after-frame-reverse.png",
+      "sha256": "e5883be62fc5ca641fa1dc1dbca2343d2309a22026779b74b8acc866437b9f25",
+      "bytes": 121937,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-back.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/306e51b4822a8f49/after-back.png",
+      "key": "chinese-architecture/chengzhi/updates/02/306e51b4822a8f49/after-back.png",
+      "sha256": "306e51b4822a8f49a81eed93d2ce0a19abfe2919243092d61b1f3c876eb00b5b",
+      "bytes": 84758,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-final-whole-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/c34b1ecba7840844/ui-final-whole-100.png",
+      "key": "chinese-architecture/chengzhi/updates/02/c34b1ecba7840844/ui-final-whole-100.png",
+      "sha256": "c34b1ecba7840844c81ffe9f4887b981401b3f50297d1454aa76eb7ec3811785",
+      "bytes": 100458,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/before-iso.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/a2c02aa77a83c1c9/before-iso.png",
+      "key": "chinese-architecture/chengzhi/updates/02/a2c02aa77a83c1c9/before-iso.png",
+      "sha256": "a2c02aa77a83c1c9da1ffd3c3b32764076d9bae625b9a4aac803bf8bfdaaa9fb",
+      "bytes": 76844,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-mobile-whole.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/707b1f585319bc18/ui-mobile-whole.png",
+      "key": "chinese-architecture/chengzhi/updates/02/707b1f585319bc18/ui-mobile-whole.png",
+      "sha256": "707b1f585319bc18c8e4de6681e9157de42bda373bb6fea19d1d058ba0c6dc9d",
+      "bytes": 36163,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-banquet-assembled.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/b063cf6b93f01cd9/ui-banquet-assembled.png",
+      "key": "chinese-architecture/chengzhi/updates/02/b063cf6b93f01cd9/ui-banquet-assembled.png",
+      "sha256": "b063cf6b93f01cd90632407a1d5eae294130b552bd4185ecd05e7cc75252703e",
+      "bytes": 92815,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-spandrel-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/1cd16f67179c7e51/ui-spandrel-100.png",
+      "key": "chinese-architecture/chengzhi/updates/02/1cd16f67179c7e51/ui-spandrel-100.png",
+      "sha256": "1cd16f67179c7e5139d1e5e15c121c30de4ee604c8948fc74e7fcb723ba0828d",
+      "bytes": 83470,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-door-return.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/f23072f442b0f606/ui-door-return.png",
+      "key": "chinese-architecture/chengzhi/updates/02/f23072f442b0f606/ui-door-return.png",
+      "sha256": "f23072f442b0f606e36c090387827c470b0c97d5ce6a5253e9cf31f8439265ea",
+      "bytes": 93245,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-final-back.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/1f5b00ca82c5b79a/after-final-back.png",
+      "key": "chinese-architecture/chengzhi/updates/02/1f5b00ca82c5b79a/after-final-back.png",
+      "sha256": "1f5b00ca82c5b79ac80249f7022691a4e5b4dba3483f32bf74ee697b70d42455",
+      "bytes": 92603,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-frame-open.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/cc40a32328d48f8f/after-frame-open.png",
+      "key": "chinese-architecture/chengzhi/updates/02/cc40a32328d48f8f/after-frame-open.png",
+      "sha256": "cc40a32328d48f8f5cf4e8ddc136f72d487cd6de2b5eca71b23e8d2d8f440be2",
+      "bytes": 106014,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-section-z-min.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/e54f2888107a5bfa/ui-section-z-min.png",
+      "key": "chinese-architecture/chengzhi/updates/02/e54f2888107a5bfa/ui-section-z-min.png",
+      "sha256": "e54f2888107a5bfa8bc1b777ad9de1fa4d4582144aa7950f84c725d9c7afe7d5",
+      "bytes": 79113,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-ceiling-photo-link.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/19df3d445be3959a/ui-ceiling-photo-link.png",
+      "key": "chinese-architecture/chengzhi/updates/02/19df3d445be3959a/ui-ceiling-photo-link.png",
+      "sha256": "19df3d445be3959a9b57fed1fffeb0f682934a651dcd787b86b36bb5f13c982c",
+      "bytes": 86967,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-final-door-intermediate.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/960443bb01d5f946/ui-final-door-intermediate.png",
+      "key": "chinese-architecture/chengzhi/updates/02/960443bb01d5f946/ui-final-door-intermediate.png",
+      "sha256": "960443bb01d5f9466bc62de3ab10706f816e21cee06046b6498e39e520f3d52e",
+      "bytes": 94414,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-back-stable.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/1f5b00ca82c5b79a/after-back-stable.png",
+      "key": "chinese-architecture/chengzhi/updates/02/1f5b00ca82c5b79a/after-back-stable.png",
+      "sha256": "1f5b00ca82c5b79ac80249f7022691a4e5b4dba3483f32bf74ee697b70d42455",
+      "bytes": 92603,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-front.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/e4183ce381ca1a64/after-front.png",
+      "key": "chinese-architecture/chengzhi/updates/02/e4183ce381ca1a64/after-front.png",
+      "sha256": "e4183ce381ca1a64f9fc00f48b9c04a766e19443d21b7f203c3f68c5582cd808",
+      "bytes": 94160,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-mobile-canvas.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/acdb97446b901ab7/ui-mobile-canvas.png",
+      "key": "chinese-architecture/chengzhi/updates/02/acdb97446b901ab7/ui-mobile-canvas.png",
+      "sha256": "acdb97446b901ab71468c2b2d26a1ca8b0df01b436c5c4d4fe9841085bff856f",
+      "bytes": 28792,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-top.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/4f2213dc3713b7dc/after-top.png",
+      "key": "chinese-architecture/chengzhi/updates/02/4f2213dc3713b7dc/after-top.png",
+      "sha256": "4f2213dc3713b7dcd1793327a89e896bf804c9c152b7c7e54f119efe59bdba95",
+      "bytes": 92206,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-section-x-min.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/6563ad6164b42138/ui-section-x-min.png",
+      "key": "chinese-architecture/chengzhi/updates/02/6563ad6164b42138/ui-section-x-min.png",
+      "sha256": "6563ad6164b421382a0aa5e264e0308f589a56fa291c19e9c6740fb17343e1ed",
+      "bytes": 113796,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-final-chapter-4.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/e552ecf1efb2597b/ui-final-chapter-4.png",
+      "key": "chinese-architecture/chengzhi/updates/02/e552ecf1efb2597b/ui-final-chapter-4.png",
+      "sha256": "e552ecf1efb2597b1f9dbd986fd74acd2f1ea6f54b9c0d675557ab474807bb17",
+      "bytes": 84208,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-section-x.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/8711fbbe3b059ee5/ui-section-x.png",
+      "key": "chinese-architecture/chengzhi/updates/02/8711fbbe3b059ee5/ui-section-x.png",
+      "sha256": "8711fbbe3b059ee5f25ed7bb1ad96c16e35d2e23bff43d4f8f5936984cc56e45",
+      "bytes": 94266,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-selection-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/57a6b43519c4a50f/ui-selection-0.png",
+      "key": "chinese-architecture/chengzhi/updates/02/57a6b43519c4a50f/ui-selection-0.png",
+      "sha256": "57a6b43519c4a50f5d320d32bcb49af28ddda053e38fa1d878a4daf4c187696a",
+      "bytes": 85262,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-final-chapter-5.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/fc4a66f3fb8e600f/ui-final-chapter-5.png",
+      "key": "chinese-architecture/chengzhi/updates/02/fc4a66f3fb8e600f/ui-final-chapter-5.png",
+      "sha256": "fc4a66f3fb8e600fafc44aa9985fc2664043d74a6a63103f0386caac78268a42",
+      "bytes": 88428,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-mobile-spandrel-link.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/230541b6891be733/ui-mobile-spandrel-link.png",
+      "key": "chinese-architecture/chengzhi/updates/02/230541b6891be733/ui-mobile-spandrel-link.png",
+      "sha256": "230541b6891be73357924ecb8258fefef080d340b7b0664b2623358d8e66bbb2",
+      "bytes": 28143,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-roof-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/53cf840fdee96611/ui-roof-100.png",
+      "key": "chinese-architecture/chengzhi/updates/02/53cf840fdee96611/ui-roof-100.png",
+      "sha256": "53cf840fdee9661105a3ed27cf9ae9a53d34a7091e7b91d2098ff9f6d254e577",
+      "bytes": 90322,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-mobile-banquet-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/84585141a2c8295f/ui-mobile-banquet-100.png",
+      "key": "chinese-architecture/chengzhi/updates/02/84585141a2c8295f/ui-mobile-banquet-100.png",
+      "sha256": "84585141a2c8295f9771dfb363092b24d16d6b77d21ab3fe7928005e0abe554b",
+      "bytes": 29021,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-spandrel-assembled.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/335c68ec2536551f/ui-spandrel-assembled.png",
+      "key": "chinese-architecture/chengzhi/updates/02/335c68ec2536551f/ui-spandrel-assembled.png",
+      "sha256": "335c68ec2536551fc71504c095b9000c8c7b387577756bd7eba7f638631a555d",
+      "bytes": 77163,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-side.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/2a14886eb4b923fb/after-side.png",
+      "key": "chinese-architecture/chengzhi/updates/02/2a14886eb4b923fb/after-side.png",
+      "sha256": "2a14886eb4b923fb5c415fce10bd9541ec9fbaaface8c2ead7d44335c93b0747",
+      "bytes": 80807,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-door-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/bcc5a937cbbc978a/ui-door-100.png",
+      "key": "chinese-architecture/chengzhi/updates/02/bcc5a937cbbc978a/ui-door-100.png",
+      "sha256": "bcc5a937cbbc978ac70d9df109c8601f0c539b12bfcced2c1aec629516b336a0",
+      "bytes": 92834,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-roof-return.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/5993a5014abd49cb/ui-roof-return.png",
+      "key": "chinese-architecture/chengzhi/updates/02/5993a5014abd49cb/ui-roof-return.png",
+      "sha256": "5993a5014abd49cbeedfb4804b4365e965cbcacfffb2ef98409cde4a0587a11c",
+      "bytes": 92850,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-section-z.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/22d1299d8c20af94/ui-section-z.png",
+      "key": "chinese-architecture/chengzhi/updates/02/22d1299d8c20af94/ui-section-z.png",
+      "sha256": "22d1299d8c20af944f7149c3c96250b97689e44f75df12c45d8ae67fa8226a30",
+      "bytes": 94662,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-final-chapter-6.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/3bc62767ded8d246/ui-final-chapter-6.png",
+      "key": "chinese-architecture/chengzhi/updates/02/3bc62767ded8d246/ui-final-chapter-6.png",
+      "sha256": "3bc62767ded8d246eb0dfe6cc1cbbfef8e1606d904e86df17e32dca768dc7230",
+      "bytes": 98555,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-mobile-spandrel-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/1ecc9881b328145e/ui-mobile-spandrel-100.png",
+      "key": "chinese-architecture/chengzhi/updates/02/1ecc9881b328145e/ui-mobile-spandrel-100.png",
+      "sha256": "1ecc9881b328145e94a9ca8dedc5d7eefad202065bbe59b074b511f8a395019f",
+      "bytes": 28346,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-final-chapter-2.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/bb8191e63cd9269b/ui-final-chapter-2.png",
+      "key": "chinese-architecture/chengzhi/updates/02/bb8191e63cd9269b/ui-final-chapter-2.png",
+      "sha256": "bb8191e63cd9269be01b4e4aabd13912c2d29d5df0995cfa3545ab3c055e4f60",
+      "bytes": 77487,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-reverse-light.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/66e343607f609de6/after-reverse-light.png",
+      "key": "chinese-architecture/chengzhi/updates/02/66e343607f609de6/after-reverse-light.png",
+      "sha256": "66e343607f609de67173f082da565a7d9f7c4430c2b82de870af18557c6652f0",
+      "bytes": 110318,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-final-chapter-3.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/a79724c5ef264971/ui-final-chapter-3.png",
+      "key": "chinese-architecture/chengzhi/updates/02/a79724c5ef264971/ui-final-chapter-3.png",
+      "sha256": "a79724c5ef26497181cce9f7bae201522122ad8b4548cb1c71e33ac339d633ac",
+      "bytes": 91251,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-iso.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/743921d3d69843c7/after-iso.png",
+      "key": "chinese-architecture/chengzhi/updates/02/743921d3d69843c7/after-iso.png",
+      "sha256": "743921d3d69843c7fcc33c8270b3330524d7629c1ef5b3d18a2069a1b90cd27f",
+      "bytes": 93484,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-mobile-whole-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/b7cdd0d0e0e5de43/ui-mobile-whole-100.png",
+      "key": "chinese-architecture/chengzhi/updates/02/b7cdd0d0e0e5de43/ui-mobile-whole-100.png",
+      "sha256": "b7cdd0d0e0e5de437ec0999198fd6471c49928d36d2841d357d90780d5398ba9",
+      "bytes": 39425,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-final-chapter-1.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/6f7736be85230815/ui-final-chapter-1.png",
+      "key": "chinese-architecture/chengzhi/updates/02/6f7736be85230815/ui-final-chapter-1.png",
+      "sha256": "6f7736be8523081563f9244fef504fe434f6f29f1c34aee0f4d0436ccc767464",
+      "bytes": 100671,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-banquet-return.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/e6fed659ad3ca065/ui-banquet-return.png",
+      "key": "chinese-architecture/chengzhi/updates/02/e6fed659ad3ca065/ui-banquet-return.png",
+      "sha256": "e6fed659ad3ca065ad893faec2267188ff40002793f85a1693fedeb72e3d8f7a",
+      "bytes": 93341,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-final-chapter-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/743921d3d69843c7/ui-final-chapter-0.png",
+      "key": "chinese-architecture/chengzhi/updates/02/743921d3d69843c7/ui-final-chapter-0.png",
+      "sha256": "743921d3d69843c7fcc33c8270b3330524d7629c1ef5b3d18a2069a1b90cd27f",
+      "bytes": 93484,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/after-front-final.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/556cf344415ce8c2/after-front-final.png",
+      "key": "chinese-architecture/chengzhi/updates/02/556cf344415ce8c2/after-front-final.png",
+      "sha256": "556cf344415ce8c2dfe1736429101aed41370413c2182451dc82894b27b9cc17",
+      "bytes": 93855,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/chengzhi/updates/02/media/ui-section-x-reverse.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/updates/02/fc2161b0b77c0ab1/ui-section-x-reverse.png",
+      "key": "chinese-architecture/chengzhi/updates/02/fc2161b0b77c0ab1/ui-section-x-reverse.png",
+      "sha256": "fc2161b0b77c0ab1cfa29e8083dbac604c67d6eb1b0439251a238d537a188d51",
+      "bytes": 111634,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    }
+  }
+}

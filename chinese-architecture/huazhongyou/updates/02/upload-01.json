@@ -1,0 +1,174 @@
+{
+  "checkedAt": "2026-10-16T05:38:12.410395+00:00",
+  "objects": {
+    "chinese-architecture/photos/fallback/huazhongyou-wood-2015/bb073043668d5818/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-wood-2015/bb073043668d5818/original.jpg",
+      "key": "chinese-architecture/photos/huazhongyou-wood-2015/bb073043668d5818/original.jpg",
+      "sha256": "bb073043668d58187d43d09345cf0a29e3571336837827e7a23c33c2e3fc882a",
+      "bytes": 6926738,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/huazhongyou-wood-2015/bb073043668d5818/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-wood-2015/bb073043668d5818/display.webp",
+      "key": "chinese-architecture/photos/huazhongyou-wood-2015/bb073043668d5818/display.webp",
+      "sha256": "37cad0bde70d04591cd56ce2e3f0b68f6ce0919caebd3a07c7dc863eb817c092",
+      "bytes": 318898,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/huazhongyou-wood-2015/bb073043668d5818/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-wood-2015/bb073043668d5818/thumb.webp",
+      "key": "chinese-architecture/photos/huazhongyou-wood-2015/bb073043668d5818/thumb.webp",
+      "sha256": "eb542f3d10dc73c8f490c24cd0407d65aff89b83bfa0fa0ec9bddc217607ffe7",
+      "bytes": 44954,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/huazhongyou-wood-2015/bb073043668d5818/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-wood-2015/bb073043668d5818/full.webp",
+      "key": "chinese-architecture/photos/huazhongyou-wood-2015/bb073043668d5818/full.webp",
+      "sha256": "a279e55ae2444c037f08f214b97d266a4954e663483c9257cb9af1133b2a8b23",
+      "bytes": 1935994,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/huazhongyou-stone-2015/07521e3ce9a50cae/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-stone-2015/07521e3ce9a50cae/original.jpg",
+      "key": "chinese-architecture/photos/huazhongyou-stone-2015/07521e3ce9a50cae/original.jpg",
+      "sha256": "07521e3ce9a50cae94a9991dcba3083858357623b65bafa5548ac2b69976df3d",
+      "bytes": 7620179,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/huazhongyou-stone-2015/07521e3ce9a50cae/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-stone-2015/07521e3ce9a50cae/display.webp",
+      "key": "chinese-architecture/photos/huazhongyou-stone-2015/07521e3ce9a50cae/display.webp",
+      "sha256": "9f89c7ff004bbc37377e46529f1c3a81137fe3fd92e436297541de6ddccd73e6",
+      "bytes": 269406,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/huazhongyou-stone-2015/07521e3ce9a50cae/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-stone-2015/07521e3ce9a50cae/thumb.webp",
+      "key": "chinese-architecture/photos/huazhongyou-stone-2015/07521e3ce9a50cae/thumb.webp",
+      "sha256": "0facc9c942d715a22b995fc8faf64f3a44b6cb491920aad2173ddad8260434d8",
+      "bytes": 32980,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/huazhongyou-stone-2015/07521e3ce9a50cae/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-stone-2015/07521e3ce9a50cae/full.webp",
+      "key": "chinese-architecture/photos/huazhongyou-stone-2015/07521e3ce9a50cae/full.webp",
+      "sha256": "b3e6f8f8dd93dd0d961eed53cfe62aa2ad09af8e758d4b2c7975ddb1c2c72ba3",
+      "bytes": 1479552,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/huazhongyou-whole-2015/f0c8f79274d0688d/original.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-whole-2015/f0c8f79274d0688d/original.jpg",
+      "key": "chinese-architecture/photos/huazhongyou-whole-2015/f0c8f79274d0688d/original.jpg",
+      "sha256": "f0c8f79274d0688d4a1428987e8a771b4c8a24c746d301b87beb77ed2fafa42a",
+      "bytes": 7834212,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/huazhongyou-whole-2015/f0c8f79274d0688d/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-whole-2015/f0c8f79274d0688d/display.webp",
+      "key": "chinese-architecture/photos/huazhongyou-whole-2015/f0c8f79274d0688d/display.webp",
+      "sha256": "d8e53fb63c8793407f3b2d647073aa58bb0e84e5f9061af2484b77a3b0a53fad",
+      "bytes": 320568,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/huazhongyou-whole-2015/f0c8f79274d0688d/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-whole-2015/f0c8f79274d0688d/thumb.webp",
+      "key": "chinese-architecture/photos/huazhongyou-whole-2015/f0c8f79274d0688d/thumb.webp",
+      "sha256": "8ec13cbce45e74d9020bc7c1b05e6236424b2e7382c8667eedc6912334dfad05",
+      "bytes": 43828,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/photos/fallback/huazhongyou-whole-2015/f0c8f79274d0688d/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/huazhongyou-whole-2015/f0c8f79274d0688d/full.webp",
+      "key": "chinese-architecture/photos/huazhongyou-whole-2015/f0c8f79274d0688d/full.webp",
+      "sha256": "a6248249efad0e05d05a91a9be897077f074670dc29f1cd523407865f9439adf",
+      "bytes": 1451918,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/huazhongyou/updates/02/media/baseline-iso.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/huazhongyou/updates/02/b0e72b0a2677a0a5/baseline-iso.png",
+      "key": "chinese-architecture/huazhongyou/updates/02/b0e72b0a2677a0a5/baseline-iso.png",
+      "sha256": "b0e72b0a2677a0a58d5999293369b139c805d5cfa8ccc2a1c22783a9df08a289",
+      "bytes": 76738,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    }
+  }
+}

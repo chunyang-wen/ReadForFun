@@ -16,3 +16,28 @@ test('carving hosts are real members; openwork hosts are frames and solid relief
 test('door upper field has real through-openings instead of a textured panel',()=>{const d=nodes.door,panels=d.records.filter(r=>r.role==='solidPanel');assert.equal(panels.length,2);assert.ok(panels.every(r=>r.position[1]<1));const ray=new T.Raycaster(new T.Vector3(.32,1.77,1),new T.Vector3(0,0,-1));assert.equal(ray.intersectObjects(d.meshes,false).length,0,'clear space between portrait and geometric border');assert.ok(d.records.filter(r=>r.type==='openwork').length>0);});
 
 test('every roof base beam and purlin has resolvable supporting members in whole and node scopes',()=>{for(const m of [whole,nodes.roof]){for(const b of m.records.filter(r=>r.type==='frame'&&r.key.endsWith('/base'))){for(const id of b.support.split(' + ')){const cap=byid(m,id);assert.ok(cap,id);near(cap.top,b.foot);}}for(const p of m.records.filter(r=>r.type==='purlin'))for(const id of p.support.split(' + ')){const host=byid(m,id);assert.ok(host,id);near(host.top??host.head,p.position[1]-p.radius);}}});
+
+test('both roof slopes and ceiling are closed nondegenerate shells with outward surface normals',()=>{
+ for(const mesh of whole.meshes.filter(m=>m.userData.records.some(r=>r.key.startsWith('roof/slope/')||r.key==='ceiling/shell'))){
+  const p=mesh.geometry.attributes.position,n=mesh.geometry.attributes.normal,edges=new Map();
+  const key=v=>v.toArray().map(x=>x.toFixed(5)).join(',');let positive=0,negative=0;
+  for(let i=0;i<p.count;i+=3){const a=new T.Vector3().fromBufferAttribute(p,i),b=new T.Vector3().fromBufferAttribute(p,i+1),c=new T.Vector3().fromBufferAttribute(p,i+2);assert.ok(b.clone().sub(a).cross(c.clone().sub(a)).length()>1e-8);for(const [v,w] of [[a,b],[b,c],[c,a]]){const k=[key(v),key(w)].sort().join('|');edges.set(k,(edges.get(k)||0)+1);}if(n.getY(i)>.5)positive++;if(n.getY(i)<-.5)negative++;}
+  assert.ok(positive>0&&negative>0);assert.ok([...edges.values()].every(n=>n===2),'each shell edge has exactly two incident faces');
+ }
+ const slopes=whole.meshes.filter(m=>m.userData.records.some(r=>r.key.startsWith('roof/slope/')));
+ for(const m of slopes)assert.ok(m.geometry.attributes.normal.getY(0)>.8,'upper surface points upward on each slope');
+ const vv=verts(whole,r=>r.key.startsWith('roof/slope/')).map(v=>v.p);assert.ok(vv.filter(p=>Math.abs(p.z+2.4)<1e-5).every(p=>Math.abs(p.y-(roofY(-2.4)+.06))<1e-5||Math.abs(p.y-(roofY(-2.4)+.025))<1e-5));
+});
+test('continuous barrel bearers meet seats and ceiling underside at sampled shared stations',()=>{
+ const vv=verts(whole,r=>r.key.startsWith('ceiling/curve/'));
+ for(const seat of whole.records.filter(r=>r.key.startsWith('ceiling/seat/'))){const end=vv.filter(v=>Math.abs(v.p.x-seat.position[0])<1e-5&&Math.abs(v.p.z-seat.position[2])<.04);near(Math.min(...end.map(v=>v.p.y)),seat.top,1e-5);}
+ const shell=verts(whole,r=>r.key==='ceiling/shell');
+ for(const {p} of vv.filter(v=>v.p.z>-.3)){const at=shell.filter(v=>Math.abs(v.p.x-p.x)<1e-5);assert.ok(at.length);const bearerTop=Math.max(...vv.filter(v=>Math.abs(v.p.x-p.x)<1e-5).map(v=>v.p.y));near(Math.min(...at.map(v=>v.p.y)),bearerTop,1e-5);}
+});
+test('entire rafter vertex envelopes stay below the roof underside, within finite purlin spans',()=>{
+ for(const {r,p} of verts(whole,r=>r.type==='rafter')){assert.ok(p.y<=roofY(p.z)+.025+1e-5,r.id);assert.ok(Math.abs(p.x)<=SPEC.xs.at(-1)+.16+1e-5,r.id);}
+});
+test('front beam keeps endpoint seats while crowned carrier and banquet silhouette match source direction',()=>{
+ const b=byid(whole,'cross/1/2/1');near(b.crownRise,.09);near(b.top,4.25);const vv=verts(whole,r=>r===b).map(v=>v.p);near(Math.max(...vv.filter(p=>Math.abs(p.x-1.61)<1e-5).map(p=>p.y)),4.16,1e-5);
+ const bed=verts(whole,r=>r.key==='front/banquet/bed').map(v=>v.p);near(Math.min(...bed.map(p=>p.y)),3.815,1e-5);const topCenter=Math.max(...bed.filter(p=>Math.abs(p.x)<.4).map(p=>p.y));assert.ok(topCenter>Math.max(...bed.filter(p=>Math.abs(p.x)>.99).map(p=>p.y))+.3);
+});

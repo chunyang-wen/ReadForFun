@@ -1,0 +1,62 @@
+✔ four main columns are a single row with three unequal bays, not an ordinary four-corner gate (0.635458ms)
+✔ every main column meets its independent base upper face (0.290833ms)
+✔ twelve hanging positions: four on each inner frame and two on each outer frame (0.079625ms)
+✔ continuous cantilever beams cross the column and cover all front/back hanging axes (0.32925ms)
+✔ hanging stems do not touch ground and their carved head shoulders meet stem bottoms (0.735458ms)
+✔ central high crest and two rolled shoulders follow the side drawing without a second rear column row (0.363042ms)
+✔ all profile-frame vertices and longitudinal edge samples remain below the roof (40.863125ms)
+✔ roof surface includes both slope domains and independent end gable borders (0.774542ms)
+✖ purlin posts start at beam top and finish at corresponding profile-rib underside (0.418959ms)
+✖ purlins along X and rafters along Z are perpendicular; each rafter underside meets purlin crowns (0.188542ms)
+✔ generic joint has an actual open receiver, smaller tenon and specified Z insertion (0.072125ms)
+✔ doors rotate around separate vertical hinge axes and return to original matrices, with no invented screen (4.469166ms)
+✔ all scopes retain finite geometry, unique stable identifiers and evidence fields (8.02025ms)
+✔ door swept slab clears the inner posts through its full teaching opening range (3.137458ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 12
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 391.570583
+
+✖ failing tests:
+
+test at chinese-architecture/huazhongyou/tests/model.test.js:11:1
+✖ purlin posts start at beam top and finish at corresponding profile-rib underside (0.418959ms)
+  AssertionError [ERR_ASSERTION]: 3.90587023659631 != 3.964886185243328
+      at near (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/huazhongyou/tests/model.test.js:2:223)
+      at TestContext.<anonymous> (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/huazhongyou/tests/model.test.js:11:182)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at chinese-architecture/huazhongyou/tests/model.test.js:12:1
+✖ purlins along X and rafters along Z are perpendicular; each rafter underside meets purlin crowns (0.188542ms)
+  AssertionError [ERR_ASSERTION]: 3.9726866340218474 != 3.9998907601274465
+      at near (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/huazhongyou/tests/model.test.js:2:223)
+      at TestContext.<anonymous> (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/huazhongyou/tests/model.test.js:12:287)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

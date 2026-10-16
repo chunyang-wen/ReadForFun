@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/qinian-caisson-2014/8228fbda808dc482/original.jpg",
+    "kind": "original",
+    "method": "HEAD",
+    "status": 403
+  },
+  {
+    "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/qinian-caisson-2014/8228fbda808dc482/thumb.webp",
+    "kind": "thumb",
+    "method": "HEAD",
+    "status": 403
+  },
+  {
+    "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/qinian-caisson-2014/8228fbda808dc482/display.webp",
+    "kind": "display",
+    "method": "HEAD",
+    "status": 403
+  },
+  {
+    "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/qinian-caisson-2014/8228fbda808dc482/full.webp",
+    "kind": "full",
+    "method": "HEAD",
+    "status": 403
+  }
+]

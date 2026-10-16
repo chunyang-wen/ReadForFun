@@ -52,3 +52,17 @@ PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs CHROME_EXECUTABLE='/abs
 ## 未验证与精度边界
 
 原书正文、实例收录、比例尺和全部绝对尺寸；本门原始平面、十二垂头分布、隐藏节点、柱身升线、真实梁檩椽加工目录、起伏屋顶谷槽排水与防水层、门扇数量/五金/轴位/实际启闭、真实木材和雕刻刀法/纹样/拼合、历次油饰色谱、完整山地院落；专业逐节点审核、实体手机与跨浏览器GPU、WebGL恢复。见[MODEL_NOTES.md](MODEL_NOTES.md)。本门材料示意不是历史配色，通用穿插口非实例实测，遂初堂对照不冒充主模型。
+
+
+## 第二轮验收 · 2026-10-16
+
+正式本地卷revision `huazhongyou-20261016-02c` 已接入；未提交、推送、发布。保留上文2026-10-13记录，不借本轮替别卷重新验收。
+
+- `node --test chinese-architecture/tests/model.test.js chinese-architecture/huazhongyou/tests/model.test.js chinese-architecture/photos/catalog.test.js`：**36项通过**（7+19+10），原始输出[tests.txt](updates/02/tests.txt)。本门新增向上法线、零退化、接缝法线、斜椽/檩有限接触、有限架顶射线及完整椽身顶点检查。
+- 基线864个屋面三角形朝下→最终864个朝上；椽檩保守胶囊最差重叠约0.04085m→数值零，见[metrics.json](updates/02/metrics.json)。这是教学几何检查，不是实物测绘/受力结论。
+- IAB真实可见控件：最终桌面1246×890，七章节/五视角/四节点0、50、100%，24场景状态；390×844整体和四节点最大展开5场景投影不裁切。隐藏清选中，选中柱展开后世界包围盒Y变化0.20，门叶演示、两轴剖切及反向光/淡木/分色操作。照片实际进入chapter4/lotus；同一步选图保留。窄屏scrollWidth=390。未声称真机触摸GPU已验证。
+- 共享图录三张othree照片、CC BY2.0、2015-05-24，原片SHA1匹配，三张R2高清在IAB解码显示原生像素。高清缩放/适合窗口/Esc/前后切图实际操作；原图与所有衍生图已上传R2并读回SHA256一致。命令行公开访问403仍存在，不把IAB成功扩为CDN在所有网络恢复。没有新提交本地媒体。
+- 基线与最终1280×720初始斜观原始整页截图，以及多角度、剖面、局部、反向光、窄屏、三图弹层均在R2，地址/哈希见[上传记录](updates/02/upload.json)和根media-assets.json。证据JSON见[桌面](updates/02/browser-final-desktop.json)、[拾取等](updates/02/browser-final-extra.json)、[窄屏](updates/02/browser-final-narrow.json)、[图录](updates/02/browser-photos.json)。实际脚本版本与localhost响应字节核对见[source-hashes.json](updates/02/source-hashes.json)。
+- 中间02版本淡木材质错误、Float32退化失败及离屏/读上一帧造成的工具断言均在[研究记录](updates/02/RESEARCH.md)说明，最终02c复验。旧headless全站runner未作为本轮通过依据。
+
+照片尚缺纯侧面、背面、完整挑梁后尾与裸架；现有木石雕刻仍为明显简化。尺寸拟合因无标定、原平面与独立第二立面而未采用。绝对尺寸、十二头分布、隐蔽接头、薄承托补全、谷槽排水、真实门轴和逐纹装饰仍待核，详见[本轮研究](updates/02/RESEARCH.md)。

@@ -5,16 +5,35 @@ export const SPEC={floor:.45,foot:.63,x:[-2.4,-1.2,1.2,2.4],width:6.05,depth:3.6
 export const PROFILE=[[-1.83,4.15],[-1.57,4.34],[-1.22,4.69],[-.98,4.78],[-.74,4.65],[-.47,4.64],[-.25,4.93],[0,5.31],[.25,4.93],[.47,4.64],[.74,4.65],[.98,4.78],[1.22,4.69],[1.57,4.34],[1.83,4.15]];
 // Smooth cubic Hermite interpolation; zero slope at local extrema and centre cusp kept explicit.
 export function roofY(z){z=T.MathUtils.clamp(z,PROFILE[0][0],PROFILE.at(-1)[0]);let i=PROFILE.findIndex((p,j)=>j<PROFILE.length-1&&z>=p[0]&&z<=PROFILE[j+1][0]);if(i<0)i=PROFILE.length-2;const [a,b]=[PROFILE[i],PROFILE[i+1]],h=b[0]-a[0],u=(z-a[0])/h;const slope=j=>{if(j===0)return(PROFILE[1][1]-PROFILE[0][1])/(PROFILE[1][0]-PROFILE[0][0]);if(j===PROFILE.length-1)return(PROFILE[j][1]-PROFILE[j-1][1])/(PROFILE[j][0]-PROFILE[j-1][0]);const d0=(PROFILE[j][1]-PROFILE[j-1][1])/(PROFILE[j][0]-PROFILE[j-1][0]),d1=(PROFILE[j+1][1]-PROFILE[j][1])/(PROFILE[j+1][0]-PROFILE[j][0]);return d0*d1<=0?0:(d0+d1)/2;};return(2*u**3-3*u*u+1)*a[1]+(u**3-2*u*u+u)*h*slope(i)+(-2*u**3+3*u*u)*b[1]+(u**3-u*u)*h*slope(i+1);}
+// Finite 72-segment rafter envelope in the local YZ plane. Conservative capsule
+// endpoints avoid a false contact at a segment seam; dimensions remain teaching values.
+export const PURLIN_Z=[-1.73,-1.42,-.98,-.63,0,.63,.98,1.42,1.73];
+export function purlinY(z){
+ const radius=.09+.035;let y=Infinity;
+ for(let j=0;j<72;j++){
+  const a=-1.83+j*3.66/72,b=-1.83+(j+1)*3.66/72,ya=roofY(a)-.185,yb=roofY(b)-.185,s=(yb-ya)/(b-a);
+  const foot=z-radius*s/Math.sqrt(1+s*s);
+  if(foot>=a&&foot<=b)y=Math.min(y,ya+s*(z-a)-radius*Math.sqrt(1+s*s));
+  for(const [zz,yy] of [[a,ya],[b,yb]])if(Math.abs(z-zz)<=radius)y=Math.min(y,yy-Math.sqrt(Math.max(0,radius*radius-(z-zz)**2)));
+ }
+ return y;
+}
+export const frameTop=z=>purlinY(z)-.09;
 export function getColumnGrid(){return {all:SPEC.x.map((x,i)=>({id:`column/${i}`,x,z:0}))};}
 export function hangerGrid(){return SPEC.x.flatMap((x,i)=>(i===0||i===3?[-1.42,1.42]:[-1.42,-.63,.63,1.42]).map((z,j)=>({x,z,frame:i,id:`hanger/${i}/${j}`})));}
 const V=a=>new T.Vector3(...a),Q=()=>new T.Quaternion(),Y=a=>new T.Quaternion().setFromAxisAngle(V([0,1,0]),a);
-function prism(points){const s=new T.Shape();points.forEach(([x,y],i)=>i?s.lineTo(x,y):s.moveTo(x,y));s.closePath();const g=new T.ExtrudeGeometry(s,{depth:1,bevelEnabled:false});g.translate(0,0,-.5);return g;}
+function prism(points){const s=new T.Shape();points.forEach(([x,y],i)=>i?s.lineTo(x,y):s.moveTo(x,y));s.closePath();const g=new T.ExtrudeGeometry(s,{depth:1,bevelEnabled:false});g.translate(0,0,-.5);
+ // ExtrudeGeometry is Float32: near-coincident section stations may collapse
+ // after quantization. Keep only real faces, retaining component IDs.
+ const p=g.attributes.position,indices=[];
+ for(let i=0;i<p.count;i+=3){const a=new T.Vector3().fromBufferAttribute(p,i),b=new T.Vector3().fromBufferAttribute(p,i+1),c=new T.Vector3().fromBufferAttribute(p,i+2);if(b.sub(a).cross(c.sub(a)).length()>1e-10)indices.push(i,i+1,i+2);}
+ g.setIndex(indices);return g;}
 const cache=new Map(),G=(key,fn)=>{if(!cache.has(key))cache.set(key,fn());return cache.get(key);};
-function strip(z0,z1,x0,x1,delta=0){const g=new T.BufferGeometry(),n=12,p=[],idx=[];for(let i=0;i<=n;i++){const z=z0+(z1-z0)*i/n,y=roofY(z)+delta;p.push(x0,y,z,x1,y,z);}for(let i=0;i<n;i++)idx.push(2*i,2*i+1,2*i+2,2*i+1,2*i+3,2*i+2);g.setAttribute('position',new T.Float32BufferAttribute(p,3));g.setIndex(idx);g.computeVertexNormals();return g;}
+function strip(z0,z1,x0,x1,delta=0){const g=new T.BufferGeometry(),n=12,p=[],idx=[];for(let i=0;i<=n;i++){const z=z0+(z1-z0)*i/n,y=roofY(z)+delta;p.push(x0,y,z,x1,y,z);}for(let i=0;i<n;i++)idx.push(2*i,2*i+2,2*i+1,2*i+1,2*i+2,2*i+3);g.setAttribute('position',new T.Float32BufferAttribute(p,3));g.setIndex(idx);const normals=[];for(let i=0;i<=n;i++){const z=z0+(z1-z0)*i/n,h=.00001,slope=(roofY(z+h)-roofY(z-h))/(Math.min(1.83,z+h)-Math.max(-1.83,z-h)),v=new T.Vector3(0,1,-slope).normalize();normals.push(...v.toArray(),...v.toArray());}g.setAttribute('normal',new T.Float32BufferAttribute(normals,3));return g;}
 export function buildModel(materials,{detailOnly=false,node='beam'}={}){
  const root=new T.Group(),layers=new Map(LAYERS.map(l=>{const g=new T.Group();root.add(g);return[l.id,g];})),records=[],buckets=new Map();
  const boxG=G('box',()=>new T.BoxGeometry(1,1,1)),cyl=G('cylinder',()=>new T.CylinderGeometry(1,1,1,24)),sphere=G('sphere',()=>new T.SphereGeometry(1,16,12)),torus=G('torus',()=>new T.TorusGeometry(1,.08,8,40));
- function add(l,t,g,p,s=[1,1,1],q=Q(),mat='wood',meta={}){const key=meta.key;if(!key)throw Error('stable key required');const r={id:key,key,layer:l,type:t,position:[...p],scale:[...s],orientation:q.toArray(),status:'比例推定',source:'诸葛净图④；尺寸教学推定',support:'见构件说明',...meta};if(records.some(x=>x.id===key))throw Error('Duplicate '+key);records.push(r);const tier=detailOnly?r.tier||0:0,k=[l,g.uuid,mat,tier].join(':');if(!buckets.has(k))buckets.set(k,{l,g,mat,tier,items:[]});buckets.get(k).items.push({r,m:new T.Matrix4().compose(V(p),q,V(s))});return r;}
+ function add(l,t,g,p,s=[1,1,1],q=Q(),mat='wood',meta={}){const key=meta.key;if(!key)throw Error('stable key required');const r={id:key,key,layer:l,type:t,position:[...p],scale:[...s],orientation:q.toArray(),status:'比例推定',source:'诸葛净图④；尺寸教学推定',support:'见构件说明',...meta};if(records.some(x=>x.id===key))throw Error('Duplicate '+key);records.push(r);if(mat==='wood')mat=({columns:'column',ties:'paint',hangers:'lotus',roofFrame:'paint'})[l]||mat;const tier=detailOnly?r.tier||0:0,k=[l,g.uuid,mat,tier].join(':');if(!buckets.has(k))buckets.set(k,{l,g,mat,tier,items:[]});buckets.get(k).items.push({r,m:new T.Matrix4().compose(V(p),q,V(s))});return r;}
  const box=(l,t,p,s,mat,key,meta={},q=Q())=>add(l,t,boxG,p,s,q,mat,{key,...meta});
  function member(l,t,a,b,w,h,mat,key,meta={},round=false){const d=V(b).sub(V(a)),len=d.length(),v=d.normalize();let z=V([0,1,0]).addScaledVector(v,-v.y);if(z.length()<.01)z=V([0,0,1]);z.normalize();const x=new T.Vector3().crossVectors(v,z).normalize(),q=new T.Quaternion().setFromRotationMatrix(new T.Matrix4().makeBasis(x,v,z));return add(l,t,round?cyl:boxG,V(a).add(V(b)).multiplyScalar(.5).toArray(),round?[w,len,w]:[w,len,h],q,mat,{key,endpoints:[a,b],...meta});}
  const rod=(l,t,a,b,r,mat,key,meta={})=>member(l,t,a,b,r,r,mat,key,meta,true);
@@ -36,12 +55,18 @@ export function buildModel(materials,{detailOnly=false,node='beam'}={}){
   const pts=[];for(let k=0;k<=34;k++){const a=k/34*Math.PI*3.5,r=.23*(1-k/42);pts.push([x+flip*(Math.cos(a)*r+.23),y+Math.sin(a)*r,z]);}curve(layer,type,pts,.035,mat,key,{tier,host:key.split('/scroll')[0],note:'卷曲线原创概括'});
  }
  function crossFrame(x,key,dy=0,tier=0){
-  for(let k=0;k<PROFILE.length-1;k++){const z0=PROFILE[k][0],z1=PROFILE[k+1][0];for(let j=0;j<5;j++){const a=z0+(z1-z0)*j/5,b=z0+(z1-z0)*(j+1)/5;beam('roofFrame','frame',[x,roofY(a)-.465+dy,a],[x,roofY(b)-.465+dy,b],.16,.13,'wood',`${key}/rib/${k}/${j}`,{tier,role:'profile-rib',note:'连续曲线离散表示，不是实物接木清单'});}}
-  for(const z of [-1.42,-.63,0,.63,1.42]){const foot=SPEC.beamY+.14+dy,top=roofY(z)-.53+dy;box('roofFrame','frame',[x,(foot+top)/2,z],[.13,top-foot,.13],'wood',`${key}/post/${z}`,{tier,role:'purlin-post',foot,top,support:key+'/beam',note:'内部承檩短柱为教学补全'});}
+  for(let k=0;k<PROFILE.length-1;k++){const z0=PROFILE[k][0],z1=PROFILE[k+1][0];for(let j=0;j<5;j++){
+   const a=z0+(z1-z0)*j/5,b=z0+(z1-z0)*(j+1)/5;
+   const zs=[...new Set([a,b,...Array.from({length:7},(_,i)=>a+(b-a)*(i+1)/8),...PURLIN_Z.filter(z=>z>a&&z<b)])].sort((a,b)=>a-b).filter((z,i,a)=>!i||z-a[i-1]>1e-7);
+   const outline=zs.map(z=>[z,frameTop(z)+dy]).concat([...zs].reverse().map(z=>[z,frameTop(z)-.13+dy]));
+   add('roofFrame','frame',prism(outline),[x,0,0],[1,1,.16],Y(Math.PI/2),'wood',{key:`${key}/rib/${k}/${j}`,tier,role:'profile-rib',note:'连续竖向截面；曲架为教学补全，非实物接木清单'});
+  }}
+  for(const z of [-1.42,-.63,0,.63,1.42]){const foot=SPEC.beamY+.14+dy,top=frameTop(z)-.13+dy;box('roofFrame','frame',[x,(foot+top)/2,z],[.13,top-foot,.13],'wood',`${key}/post/${z}`,{tier,role:'purlin-post',foot,top,support:key.startsWith('frame/')?key.replace('frame/','beam/'):key+'/beam',note:'内部承檩短柱为教学补全'});}
+
  }
  function roofAssembly(x0,x1,key,dy=0,tier=0){
-  const zs=[-1.73,-1.42,-.98,-.63,0,.63,.98,1.42,1.73];
-  zs.forEach((z,j)=>{const yy=roofY(z)-.31+dy;rod('purlins','purlin',[x0,yy,z],[x1,yy,z],.09,'darkwood',`${key}/purlin/${j}`,{tier,role:'purlin',zStation:z,note:'站位按侧面圆端判读后规则化'});});
+  const zs=PURLIN_Z;
+  zs.forEach((z,j)=>{const yy=purlinY(z)+dy;rod('purlins','purlin',[x0,yy,z],[x1,yy,z],.09,'darkwood',`${key}/purlin/${j}`,{tier,role:'purlin',zStation:z,note:'站位按侧面圆端判读后规则化'});});
   const n=detailOnly?7:55;for(let i=0;i<n;i++){const x=x0+(x1-x0)*i/(n-1);for(let j=0;j<72;j++){const z0=-1.83+j*3.66/72,z1=-1.83+(j+1)*3.66/72;rod('purlins','rafter',[x,roofY(z0)-.185+dy,z0],[x,roofY(z1)-.185+dy,z1],.035,'rafter',`${key}/rafter/${i}/${j}`,{tier:tier+1,role:'rafter',direction:'Z',note:'分段为曲线近似；椽数推定'});}}
  }
  function stone(x,key){
@@ -73,7 +98,7 @@ export function buildModel(materials,{detailOnly=false,node='beam'}={}){
   for(let j=0;j<36;j++){const a=-1.83+j*3.66/36,b=-1.83+(j+1)*3.66/36;add('roof','roof',strip(a,b,-3.025,3.025,.04),[0,0,0],[1,1,1],Q(),'tile',{key:'roof/surface/'+j,status:'图像判读',note:'外曲线判读；连续接合与灰背厚度推定'});}
   for(let i=0;i<56;i++){const x=-2.98+5.96*i/55,pts=[];for(let j=0;j<=100;j++){const z=-1.83+3.66*j/100;pts.push([x,roofY(z)+.10,z]);}curve('roof','roof',pts,.032,'tile','roof/tile-rib/'+i);for(const z of [-1.83,1.83]){add('roof','roof',cyl,[x,roofY(z)+.07,z],[.050,.065,.050],new T.Quaternion().setFromAxisAngle(V([1,0,0]),Math.PI/2),'ridge',{key:`roof/end-tile/${i}/${z}`});}}
   for(const z of [-1.83,1.83])beam('purlins','purlin',[-3.025,roofY(z)-.10,z],[3.025,roofY(z)-.10,z],.15,.16,'darkwood','eave/fascia/'+z);
-  for(const x of [-3.025,3.025]){const pts=[];for(let j=0;j<=120;j++){const z=-1.83+j*3.66/120;pts.push([x,roofY(z)+.13,z]);}curve('roof','roof',pts,.075,'ridge','roof/verge/'+x);const outline=PROFILE.map(([z,y])=>[z,y-.01]).concat([...PROFILE].reverse().map(([z,y])=>[z,y-.43]));add('roof','roof',G('gable-board',()=>prism(outline)),[x,0,0],[1,1,.09],Y(Math.PI/2),'darkwood',{key:'roof/gable/'+x,role:'gable-border',note:'端山边缘独立；隐蔽山面填板待核'});}
+  for(const x of [-3.025,3.025]){const pts=[];for(let j=0;j<=120;j++){const z=-1.83+j*3.66/120;pts.push([x,roofY(z)+.13,z]);}curve('roof','roof',pts,.075,'ridge','roof/verge/'+x);const edge=Array.from({length:433},(_,i)=>-1.83+i*3.66/432);const outline=edge.map(z=>[z,roofY(z)-.01]).concat([...edge].reverse().map(z=>[z,roofY(z)-.43]));add('roof','roof',G('gable-board',()=>prism(outline)),[x,0,0],[1,1,.09],Y(Math.PI/2),'darkwood',{key:'roof/gable/'+x,role:'gable-border',note:'端山边缘独立；隐蔽山面填板待核'});}
   const ridge=[];for(let k=0;k<=32;k++){const x=-3.14+6.28*k/32,y=5.39+Math.pow(Math.max(0,(Math.abs(x)-2.5)/.64),2)*.30;ridge.push([x,y,0]);}curve('roof','roof',ridge,.085,'ridge','roof/ridge');
   // Central two leaves are an explicit teaching interpretation of faint drawing seams.
   for(const side of [-1,1]){const hingeX=side*1.035,cx=side*.52,meta={doorSide:side,hinge:[hingeX,0,0],note:'中心两叶与开门角教学假设，不据此核定实物五金'};box('enclosure','enclosure',[cx,1.69,0],[1.00,2.12,.09],'door','door/'+side,{...meta,role:'door-leaf'});for(const y of [.65,1.1,2.28,2.72])box('enclosure','enclosure',[cx,y,.058],[1.0,.045,.035],'darkwood',`door/${side}/rail/${y}`,meta);for(let i=0;i<5;i++)box('enclosure','enclosure',[cx+(i-2)*.19,1.69,.047],[.008,2.0,.015],'darkwood',`door/${side}/board/${i}`,meta);add('enclosure','enclosure',torus,[side*.12,1.59,.088],[.065,.065,.065],Q(),'metal',{key:'door/'+side+'/handle',...meta});}

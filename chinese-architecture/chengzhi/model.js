@@ -1,5 +1,6 @@
 import * as T from '../vendor/three.module.js';
 import {LAYERS} from './data.js';
+export const MODEL_REVISION='chengzhi-20261016-02';
 // Local frame, metres: +Z faces the courtyard; geographic north remains unresolved.
 export const SPEC={xs:[-3.13,-1.61,1.61,3.13],zs:[-4.8,-2.4,0],floor:.18,foot:.42,head:3.8,upperHead:6.2,depth:4.8};
 export const ROOF={halfX:3.4,minZ:-5.05,maxZ:.25,ridgeZ:-2.4};
@@ -8,7 +9,17 @@ export function getColumnGrid(){return {xs:SPEC.xs,zs:SPEC.zs,points:SPEC.xs.fla
 const V=a=>new T.Vector3(...a),Q=()=>new T.Quaternion(),Y=a=>Q().setFromAxisAngle(V([0,1,0]),a),cache=new Map();
 const G=(k,f)=>{if(!cache.has(k))cache.set(k,f());return cache.get(k);};
 function prism(points,depth,holes=[]){const s=new T.Shape();points.forEach(([x,y],i)=>i?s.lineTo(x,y):s.moveTo(x,y));s.closePath();for(const points of holes){const h=new T.Path();points.forEach(([x,y],i)=>i?h.lineTo(x,y):h.moveTo(x,y));h.closePath();s.holes.push(h);}const g=new T.ExtrudeGeometry(s,{depth,bevelEnabled:false});g.translate(0,0,-depth/2);return g;}
-function patch(points){const idx=[];for(let i=0;i<points.length/2-1;i++){const j=i*2;idx.push(j,j+1,j+2,j+1,j+3,j+2);}const g=new T.BufferGeometry();g.setAttribute('position',new T.Float32BufferAttribute(points.flat(),3));g.setIndex(idx);g.computeVertexNormals();return g;}
+// Closed strip shell: consistently upward top, downward underside and outward edges.
+export function patch(points,thickness=.035){
+ const n=points.length,idx=[];for(let k=0;k<n/2-1;k++){const j=k*2;idx.push(j,j+1,j+2,j+1,j+3,j+2);}
+ const va=V(points[idx[0]]),vb=V(points[idx[1]]),vc=V(points[idx[2]]);
+ if(vb.sub(va).cross(vc.sub(va)).y<0)for(let k=0;k<idx.length;k+=3)[idx[k+1],idx[k+2]]=[idx[k+2],idx[k+1]];
+ const top=[...idx],edges=new Map();for(let k=0;k<top.length;k+=3)for(const [a,b] of [[top[k],top[k+1]],[top[k+1],top[k+2]],[top[k+2],top[k]]]){const key=[a,b].sort((a,b)=>a-b).join(':');if(edges.has(key))edges.delete(key);else edges.set(key,[a,b]);}
+ for(let k=0;k<top.length;k+=3)idx.push(top[k]+n,top[k+2]+n,top[k+1]+n);
+ for(const [a,b] of edges.values())idx.push(b,a,a+n,b,a+n,b+n);
+ const g=new T.BufferGeometry();g.setAttribute('position',new T.Float32BufferAttribute([...points,...points.map(([x,y,z])=>[x,y-thickness,z])].flat(),3));g.setIndex(idx);const flat=g.toNonIndexed();flat.computeVertexNormals();return flat;
+}
+export const ceilingY=x=>4.5+.58*(1-(x/1.61)**2);
 export function buildModel(materials,{detailOnly=false,node='spandrel'}={}){
  const root=new T.Group(),layers=new Map(LAYERS.map(l=>{const g=new T.Group();root.add(g);return[l.id,g];})),records=[],buckets=new Map(),serial=new Map();
  const boxGeo=G('box',()=>new T.BoxGeometry(1,1,1)),cyl=G('cyl',()=>new T.CylinderGeometry(1,1,1,20));
@@ -30,9 +41,9 @@ export function buildModel(materials,{detailOnly=false,node='spandrel'}={}){
  }
  function banquet(x,y,z,key,host){
   const h=.33,w=2,depth=.055,back=z;const evidence={host,status:'图像判读',source:'Fang2024 第15页及图8e；轮廓概括、八站位非逐层实测',note:'四桌与人物群为照片可辨的抽象轮廓；不复刻脸部、衣褶、刀痕',tier:0};
-  // The image has a flat upper boundary and bowed lower edge; backside sits on the host face.
+  // Source Fig8e and 2022 front photo: arched upper edge, straight lower edge; backside on host face.
   const outline=[[-1,.165],[1,.165],[.98,.055],[.93,-.02],[.82,-.105],[.63,-.15],[.36,-.165],[-.36,-.165],[-.63,-.15],[-.82,-.105],[-.93,-.02],[-.98,.055]];
-  add('carving','relief',G('banquet/bed',()=>prism(outline,.006)),[x,y,back+.003],[1,1,1],Q(),'darkwood',{...evidence,key:key+'/bed',depthIndex:0,front:back+.006,back,source:'Fang2024 图8e；约2×0.33m，轮廓判读',documentedExtent:[w,h,depth]});
+  add('carving','relief',G('banquet/bed',()=>prism(outline.map(([x,y])=>[x,-y]),.006)),[x,y,back+.003],[1,1,1],Q(),'darkwood',{...evidence,key:key+'/bed',depthIndex:0,front:back+.006,back,source:'Fang2024 图8e；约2×0.33m，轮廓判读',documentedExtent:[w,h,depth]});
   const surface=d=>back+.006+d*((.055-.009)/7);
   // Eight depth stations from background to foreground: architectural silhouettes, tables, people.
   for(const [a,b,c] of [[-.73,-.4,.26],[-.28,.23,.48],[.3,.87,.36]]){
@@ -111,17 +122,26 @@ export function buildModel(materials,{detailOnly=false,node='spandrel'}={}){
   }
   for(const [j,z] of SPEC.zs.entries())for(let i=0;i<3;i++){
    const b=beam('ties','beam',[SPEC.xs[i],3.98,z],[SPEC.xs[i+1],3.98,z],.28,.36,'wood',{key:`cross/${i}/${j}`,foot:3.8,top:4.16,support:`column/${i}/${j}/1 + column/${i+1}/${j}/1`,status:j===2?'图像判读':'比例推定',source:j===2?'Fang2024 图11北立面与8f；截面推定':'后部跨接教学推定'});
-   if(j===2&&i===1){banquet(0,3.98,z+.14,'front/banquet',b.id);for(const s of [-1,1])spandrel(s*1.465,3.8,z,-s,`front/spandrel/${s}`,b.id);}
+   if(j===2&&i===1){
+    const outline=[[-1.61,3.8],[1.61,3.8],...Array.from({length:33},(_,k)=>{const x=1.61-3.22*k/32;return [x,4.16+.09*(1-(x/1.61)**2)];})];
+    // Same ID, same supports; end seats stay at 4.16. Crown rise is a proportion, not survey data.
+    for(const bucket of buckets.values()){const item=bucket.items.find(v=>v.r===b);if(item){bucket.items.splice(bucket.items.indexOf(item),1);break;}}
+    b.top=4.25;b.crownRise=.09;b.position=[0,3.98,z];b.scale=[1,1,1];b.orientation=Q().toArray();b.profileExtent=[3.22,.45,.28];b.source='Fang2024 图8e/f、2022承志堂正向照片；梁冠起拱轮廓判读，起拱量推定';
+    const g=G('front/crowned-beam',()=>prism(outline.map(([x,y])=>[x,y-3.98]),.28)),k='ties:'+g.uuid+':wood:0';buckets.set(k,{l:'ties',g,mat:'wood',tier:0,items:[{r:b,m:new T.Matrix4().makeTranslation(0,3.98,z)}]});
+    banquet(0,3.98,z+.14,'front/banquet',b.id);for(const s of [-1,1])spandrel(s*1.465,3.8,z,-s,`front/spandrel/${s}`,b.id);}
    beam('ties','beam',[SPEC.xs[i],6.05,z],[SPEC.xs[i+1],6.05,z],.17,.22,'wood',{key:`upper-tie/${i}/${j}`});
   }
   for(const [i,x] of SPEC.xs.entries())for(let j=0;j<2;j++)beam('ties','beam',[x,3.98,SPEC.zs[j]],[x,3.98,SPEC.zs[j+1]],.23,.36,'wood',{key:`longitudinal/${i}/${j}`,support:`column/${i}/${j}/1 + column/${i}/${j+1}/1`,foot:3.8,top:4.16});
   // Barrel-shaped visible ceiling and transverse curving bearers, not a fictitious caisson.
-  const curve=x=>4.5+.58*(1-(x/1.61)**2);
+  const curve=ceilingY;
   for(const z of [-.24,-2.4,-4.56])for(const x of [-1.61,1.61])box('ceiling','ceiling',[x,4.305,z],[.13,.29,.14],'wood',{key:'ceiling/seat/'+x+'/'+z,foot:4.16,top:4.45,support:`longitudinal/${x<0?1:2}/${z>=-2.4?1:0}/1`,source:'棚托接触教学补足；非实测节点'});
-  for(const z of [-.24,-2.4,-4.56])for(let k=0;k<16;k++){const a=-1.61+3.22*k/16,b=-1.61+3.22*(k+1)/16;beam('ceiling','ceiling',[a,curve(a),z],[b,curve(b),z],.075,.10,'darkwood',{key:'ceiling/curve/'+z,source:'图11北立面可见曲线棚托；曲率推定',status:'图像判读'});}
-  const shell=[];for(let k=0;k<=32;k++){const x=-1.61+3.22*k/32;shell.push([x,curve(x)+.05,-4.65],[x,curve(x)+.05,-.15]);}
+  for(const z of [-.24,-2.4,-4.56]){
+   const xs=Array.from({length:33},(_,k)=>-1.61+3.22*k/32),outline=[...xs.map(x=>[x,curve(x)+.05]),...xs.toReversed().map(x=>[x,curve(x)-.05])];
+   add('ceiling','ceiling',G('ceiling/bearer',()=>prism(outline,.075)),[0,0,z],[1,1,1],Q(),'darkwood',{key:'ceiling/curve/'+z,source:'图11北立面可见曲线棚托；连续轮廓、曲率和截面推定',status:'图像判读',support:[-1.61,1.61].map(x=>'ceiling/seat/'+x+'/'+z+'/1').join(' + ')});
+  }
+  const shell=[];for(let k=0;k<=32;k++){const x=-1.61+3.22*k/32;shell.push([x,curve(x)+.085,-4.65],[x,curve(x)+.085,-.15]);}
   add('ceiling','ceiling',patch(shell),[0,0,0],[1,1,1],Q(),'ceilingPanel',{key:'ceiling/shell',status:'图像判读',source:'图5b、8f 拱棚；棚板深度推定'});
-  for(let x=-1.5;x<1.61;x+=.15)round('ceiling','ceiling',[x,curve(x)+.05,-4.65],[x,curve(x)+.05,-.15],.008,'darkwood',{key:'ceiling/seam'});
+  for(let x=-1.5;x<1.61;x+=.15)round('ceiling','ceiling',[x,curve(x)+.093,-4.65],[x,curve(x)+.093,-.15],.008,'darkwood',{key:'ceiling/seam'});
   roofAssembly(SPEC.xs);
   for(const s of [-1,1]){const z1=s<0?ROOF.minZ:ROOF.maxZ;add('roof','roof',patch([[-3.4,roofY(-2.4)+.06,-2.4],[3.4,roofY(-2.4)+.06,-2.4],[-3.4,roofY(z1)+.06,z1],[3.4,roofY(z1)+.06,z1]]),[0,0,0],[1,1,1],Q(),'roofBoard',{key:'roof/slope/'+s});for(let x=-3.3;x<=3.3;x+=.2)round('roof','roof',[x,roofY(-2.4)+.10,-2.4],[x,roofY(z1)+.10,z1],.026,'tile',{key:'roof/tile'});}
   round('roof','roof',[-3.4,8.33,-2.4],[3.4,8.33,-2.4],.085,'ridge',{key:'roof/ridge'});
@@ -136,6 +156,13 @@ export function buildModel(materials,{detailOnly=false,node='spandrel'}={}){
   box('enclosure','enclosure',[0,2.02,-4.83],[6.28,3.68,.10],'darkwood',{key:'rear/panel',source:'后边界为教学围护；不建后厅'});
   box('enclosure','enclosure',[0,4.56,-4.74],[1.6,.43,.08],'wood',{key:'plaque/carrier',status:'图像判读',source:'图5b 承志堂匾载体；字形不造'});
   for(const s of [-1,1])box('enclosure','enclosure',[s*2.37,4.84,0],[1.4,.95,.07],'door',{key:'front/upper-side/'+s});
+  // Front upper enclosure is visible in the 2022 photos; no bare invented gallery opening.
+  box('enclosure','enclosure',[0,4.84,0],[2.93,.95,.07],'door',{key:'front/upper-center',status:'图像判读',source:'EditQ2022 Cheng Zhi Tang.jpg 上层木作；范围判读、板宽高推定'});
+  for(const x of [-1.61,0,1.61])box('enclosure','enclosure',[x,5.33,0],[.055,1.8,.085],'wood',{key:'front/upper-stile',source:'2022上层竖框可见；分格与尺寸推定'});
+  for(const yy of [5.35,5.70])box('enclosure','enclosure',[0,yy,0],[3.22,.055,.085],'wood',{key:'front/upper-rail',status:'图像判读',source:'2022上层横向透空带；尺寸推定'});
+  for(let k=0;k<17;k++)box('enclosure','enclosure',[(k-8)*.18,5.525,0],[.025,.30,.026],'wood',{key:'front/upper-lattice',source:'2022上层格心位置；疏格教学概括，非原纹样'});
+  box('enclosure','enclosure',[0,5.93,0],[2.93,.40,.07],'darkwood',{key:'front/upper-board',status:'图像判读',source:'2022上层实板与檐下木作；分格尺寸推定'});
+
  }
- const meshes=[];for(const b of buckets.values()){const m=new T.InstancedMesh(b.g,materials[b.mat]||materials.wood,b.items.length);m.userData={records:b.items.map(v=>v.r),materialKey:b.mat,layer:b.l,tier:b.tier};b.items.forEach((v,i)=>m.setMatrixAt(i,v.m));m.castShadow=true;m.receiveShadow=true;m.computeBoundingBox();m.computeBoundingSphere();layers.get(b.l).add(m);meshes.push(m);}root.updateMatrixWorld(true);return{root,layers,records,meshes,detailOnly,node};
+ const meshes=[];for(const b of buckets.values()){if(!b.items.length)continue;const m=new T.InstancedMesh(b.g,materials[b.mat]||materials.wood,b.items.length);m.userData={records:b.items.map(v=>v.r),materialKey:b.mat,layer:b.l,tier:b.tier};b.items.forEach((v,i)=>m.setMatrixAt(i,v.m));m.castShadow=true;m.receiveShadow=true;m.computeBoundingBox();m.computeBoundingSphere();layers.get(b.l).add(m);meshes.push(m);}root.updateMatrixWorld(true);return{root,layers,records,meshes,detailOnly,node};
 }

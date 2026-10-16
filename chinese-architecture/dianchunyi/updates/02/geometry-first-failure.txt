@@ -1,0 +1,46 @@
+✔ grid unique; main columns meet their individual bases and beam underside (0.525042ms)
+✔ each transverse beam has endpoints on front/rear column axes; interior columns meet same beam (0.380333ms)
+✔ upper beam and short posts touch without a vertical gap (0.133917ms)
+✔ each longitudinal purlin rests on all four frame seats; rafter lower surface touches purlin top (0.227333ms)
+✔ roof frame envelope and rafters remain beneath roof; gable wall does not expose purlin ends (0.518959ms)
+✔ rear wall has three open rectangles; no full wall seals the window apertures (0.674083ms)
+✔ door panel opaque below, upper lattice contains real openings (0.619458ms)
+✔ generic opening rotates complete leaves, fixed jamb remains, reset restores matrices (0.922875ms)
+✔ all instances and records finite, stable identifiers unique, positive dimensions, evidence complete (1.654042ms)
+✔ all roof triangles are upward, nondegenerate, lie on their own slope; exact ridge seam (0.403084ms)
+✖ complete transformed frame, posts, purlins and rafter surfaces fit below continuous roof (4.670416ms)
+✔ finite purlins overlap every rafter at all five stations, with bounded teaching contact (0.359875ms)
+✔ rafter axis segments join continuously including eaves and ridge (0.908292ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 12
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 82.896333
+
+✖ failing tests:
+
+test at chinese-architecture/dianchunyi/tests/model.test.js:20:1
+✖ complete transformed frame, posts, purlins and rafter surfaces fit below continuous roof (4.670416ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(v.z>=ROOF.minZ-1e-6&&v.z<=ROOF.maxZ+1e-6)
+  
+      at file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/dianchunyi/tests/model.test.js:21:230
+      at Array.forEach (<anonymous>)
+      at TestContext.<anonymous> (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/dianchunyi/tests/model.test.js:21:69)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

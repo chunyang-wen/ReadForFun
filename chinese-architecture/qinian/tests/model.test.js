@@ -16,3 +16,32 @@ test('all five scopes have unique IDs, finite transforms, geometry and evidence'
 test('intermediate circular purlins have radial post heads exactly at their undersides',()=>{const posts=m.records.filter(r=>r.role==='radial-post');assert.ok(posts.length>=80);for(const p of posts){const end=p.endpoints[1],r=Math.hypot(end[0],end[2]),roof=ROOFS.find(q=>q.id===p.roofId);near(end[1],roofY(r,roof)-.48);const rings=m.records.filter(q=>q.layer==='purlins'&&q.roofId===p.roofId);assert.ok(rings.some(q=>Math.abs(q.radius-r)<1e-6));}});
 
 test('upper inner roof distinguishes rafter boards and inner ceiling has 120 explicit wells',()=>{const r=m.records.filter(r=>r.role==='rafter-board');assert.equal(r.length,96*8);assert.ok(r.every(r=>r.roofId==='upper'&&r.source.includes('王贵祥')));assert.equal(m.records.filter(r=>r.role==='ceiling-well').length,120);});
+
+// Regression for the downward annular roof winding hidden by DoubleSide in v1.
+test('all three roof surfaces have upward nondegenerate faces and continuous patch normals',()=>{
+ for(const roof of ROOFS){const patches=m.meshes.filter(q=>q.userData.records.some(r=>r.key.startsWith(`${roof.id}/board/`)));
+  for(const mesh of patches){const p=mesh.geometry.attributes.position,n=mesh.geometry.attributes.normal,idx=mesh.geometry.index;
+   for(let i=0;i<idx.count;i+=3){const a=new T.Vector3().fromBufferAttribute(p,idx.getX(i)),b=new T.Vector3().fromBufferAttribute(p,idx.getX(i+1)),c=new T.Vector3().fromBufferAttribute(p,idx.getX(i+2));const normal=b.sub(a).cross(c.sub(a));assert.ok(normal.length()>1e-7);assert.ok(normal.y>0);}
+   for(let i=0;i<n.count;i++)assert.ok(n.getY(i)>0);
+  }
+  for(let k=0;k<19;k++){const a=patches.find(q=>q.userData.records[0].key===`${roof.id}/board/${k}`),b=patches.find(q=>q.userData.records[0].key===`${roof.id}/board/${k+1}`);for(let j=0;j<=128;j++){const pa=new T.Vector3().fromBufferAttribute(a.geometry.attributes.position,j*2+1),pb=new T.Vector3().fromBufferAttribute(b.geometry.attributes.position,j*2);assert.ok(pa.distanceTo(pb)<1e-5);const na=new T.Vector3().fromBufferAttribute(a.geometry.attributes.normal,j*2+1),nb=new T.Vector3().fromBufferAttribute(b.geometry.attributes.normal,j*2);assert.ok(na.distanceTo(nb)<1e-5);}}
+ }
+});
+test('rafters remain under visible roof using their full transformed cylindrical envelope',()=>{
+ let checked=0;for(const mesh of m.meshes)for(let i=0;i<mesh.count;i++){const r=mesh.userData.records[i];if(r.layer!=='rafters'||r.role==='rafter-board')continue;const roof=ROOFS.find(q=>q.id===r.roofId),M=new T.Matrix4();mesh.getMatrixAt(i,M);const p=mesh.geometry.attributes.position;
+  for(let j=0;j<p.count;j++)for(let u=0;u<=8;u++){const v=new T.Vector3().fromBufferAttribute(p,j);v.y*=u/4-1;v.applyMatrix4(M);const rad=Math.hypot(v.x,v.z);if(rad<roof.coverInner||rad>roof.outer)continue;assert.ok(v.y<=roofY(rad,roof)+.08+1e-5,r.id);checked++;}}
+ assert.ok(checked>3000000);
+});
+test('finite circular purlin seats overlap rafters at all five radial support stations',()=>{
+ let checked=0;for(const roof of ROOFS)for(let k=0;k<5;k++){
+  const radius=roof.inner+(roof.outer-roof.inner)*k/4,top=roofY(radius,roof)-.24;
+  const seats=m.records.filter(r=>r.key.startsWith(`${roof.id}/purlin/${k/4}/segment-`)).map(r=>new T.Matrix4().compose(new T.Vector3(...r.position),new T.Quaternion(...r.orientation),new T.Vector3(...r.scale)).invert());assert.equal(seats.length,64);
+  for(const mesh of m.meshes)for(let i=0;i<mesh.count;i++){const r=mesh.userData.records[i];if(r.layer!=='rafters'||r.roofId!==roof.id||r.role==='rafter-board')continue;
+   const e=r.endpoints.find(v=>Math.abs(Math.hypot(v[0],v[2])-radius)<1e-6);if(!e)continue;
+   // Test the actual cylinder vertices against the finite 64-chord purlin strip.
+   const M=new T.Matrix4();mesh.getMatrixAt(i,M);const p=mesh.geometry.attributes.position;let contact=false;
+   for(let j=0;j<p.count;j++){const v=new T.Vector3().fromBufferAttribute(p,j).applyMatrix4(M),rad=Math.hypot(v.x,v.z);if(Math.hypot(v.x-e[0],v.z-e[2])<.10&&Math.abs(rad-radius)<.10&&v.y<=top+.001&&v.y>=top-.24)contact=contact||seats.some(M=>{const local=v.clone().applyMatrix4(M);return Math.max(Math.abs(local.x),Math.abs(local.y),Math.abs(local.z))<=.50001;});}
+   assert.ok(contact,`${r.id} misses finite seat r=${radius}`);checked++;
+  }
+ }assert.ok(checked>1000);
+});

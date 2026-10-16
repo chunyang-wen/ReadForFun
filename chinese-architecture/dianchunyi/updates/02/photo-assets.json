@@ -1,0 +1,106 @@
+[
+  {
+    "id": "dianchunyi-south-2019",
+    "width": 1280,
+    "height": 842,
+    "sha256": "b6e54078666c7e3d2708886288dbc4714f86f26f346e9b8f0af188ed6dbee69d",
+    "sourceSHA1": "975f3e97cf31a2b6de89ae8fef008671b139775b",
+    "downloadedSHA1": "2e02ce8f0df38321b0c67daf62fb7765553d170b",
+    "originalSHA1Verified": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Master_of_the_Nets_Garden_(53682625815).jpg",
+    "sourceFile": "Master of the Nets Garden (53682625815).jpg",
+    "author": "xiquinhosilva",
+    "date": "2019-11-03",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "changes": "等比缩小/转WebP；不裁切、不增细、不改色。原片下载429；使用Commons 1280×842授权预览，未冒称原片或高清原生图。",
+    "iccProfilePreserved": true,
+    "storage": "R2 uploaded and SHA256 read-back verified; R2-only media",
+    "sourceType": "commons-thumbnail",
+    "sourceOriginalSize": [
+      2560,
+      1684
+    ],
+    "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/2/21/Master_of_the_Nets_Garden_%2853682625815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalLabel": "来源预览 JPEG ↗",
+    "downloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Master_of_the_Nets_Garden_%2853682625815%29.jpg/1280px-Master_of_the_Nets_Garden_%2853682625815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "r2": {
+      "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/source-preview.jpg",
+      "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/full.webp",
+      "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/display.webp",
+      "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/thumb.webp"
+    },
+    "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/source-preview.jpg",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/full.webp",
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-south-2019/b6e54078666c7e3d/thumb.webp"
+  },
+  {
+    "id": "dianchunyi-oblique-2009",
+    "width": 2048,
+    "height": 1536,
+    "sha256": "63a930b173dc43c668472615ab946e4d7034860f6a3678469ff2207a78f9a828",
+    "sourceSHA1": "c161cec7bb18d5862c371acce3885c555e950cc4",
+    "downloadedSHA1": "c161cec7bb18d5862c371acce3885c555e950cc4",
+    "originalSHA1Verified": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Peaony_cottage.jpg",
+    "sourceFile": "Peaony cottage.jpg",
+    "author": "Lamassu Design Gurdjieff (talk)",
+    "date": "2009",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "等比缩小/转WebP；不裁切、不增细、不改色。原始JPEG字节和Commons SHA1已核。",
+    "iccProfilePreserved": false,
+    "storage": "R2 uploaded and SHA256 read-back verified; R2-only media",
+    "sourceType": "commons-jpeg",
+    "sourceOriginalSize": [
+      2048,
+      1536
+    ],
+    "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/7/76/Peaony_cottage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "r2": {
+      "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/original.jpg",
+      "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/full.webp",
+      "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/display.webp",
+      "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/thumb.webp"
+    },
+    "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/original.jpg",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/full.webp",
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/thumb.webp"
+  },
+  {
+    "id": "dianchunyi-courtyard-2012",
+    "width": 1600,
+    "height": 1200,
+    "sha256": "8a383cf70c13ac06f15c5765c028b3aff6f1fabee77fdd002b91518837226fb6",
+    "sourceSHA1": "f77e6a2cf662eda275ebbd0bb78ff0dd8efeb980",
+    "downloadedSHA1": "f77e6a2cf662eda275ebbd0bb78ff0dd8efeb980",
+    "originalSHA1Verified": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Garden_of_the_Master_of_the_Nets_%E7%BD%91%E5%B8%88%E5%9B%AD_(7440180708).jpg",
+    "sourceFile": "Garden of the Master of the Nets 网师园 (7440180708).jpg",
+    "author": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+    "date": "2012-06-12",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "changes": "等比缩小/转WebP；不裁切、不增细、不改色。原始JPEG字节和Commons SHA1已核。",
+    "iccProfilePreserved": false,
+    "storage": "R2 uploaded and SHA256 read-back verified; R2-only media",
+    "sourceType": "commons-jpeg",
+    "sourceOriginalSize": [
+      1600,
+      1200
+    ],
+    "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Garden_of_the_Master_of_the_Nets_%E7%BD%91%E5%B8%88%E5%9B%AD_%287440180708%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "r2": {
+      "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/original.jpg",
+      "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/full.webp",
+      "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/display.webp",
+      "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/thumb.webp"
+    },
+    "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/original.jpg",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/full.webp",
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/thumb.webp"
+  }
+]

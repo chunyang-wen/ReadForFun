@@ -1,0 +1,35 @@
+✔ each photo has explicit reusable rights, attribution and exact building chapter (0.841417ms)
+✔ every display size has a local or verified R2 fallback, and remote keys are content addressed (0.729209ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.058459ms)
+✔ each photograph appears exactly once in its building story (0.084458ms)
+✔ Dule historic plate pages retain period and subject limits, without claiming modern coverage (0.078292ms)
+✔ Yingxian retains native pixels and local delivery while independently recording verified R2 storage (0.40825ms)
+✔ Jinci covers hall, porch, bracket and dragons while preserving uncertain directions (0.119666ms)
+✔ Fengxian interior photos retain front-hall identity limits and real decoration node (0.078167ms)
+✔ Qinian atlas has explicit east-view limits and real decoration node, with R2-only delivery (0.149583ms)
+✔ Huazhongyou identifies one gate, links the lotus node and keeps missing rear coverage explicit (0.119458ms)
+✔ 28 unique main columns use four square corners and two twelve-column circles (0.50925ms)
+✔ column feet meet independent bases, dragon height and diameter follow official record (0.958666ms)
+✔ four square beams, four separate quarter arcs, eight short posts form actual conversion (1.0135ms)
+✔ quarter-arc endpoints sit over square corners and arc lower face touches square upper face (0.298125ms)
+✔ roof boards keep two true annular openings and only the upper central cap (3.434917ms)
+✔ all radial roof-frame vertices stay inside the corresponding roof envelope (21.72825ms)
+✔ column-head bearing strips and annular bearing rings have no vertical gap (0.461417ms)
+✔ radial and tangent bracket arms are orthogonal at each circle position (0.112917ms)
+✔ generic joint exposes two receivers with clearance and is explicitly not a measured temple node (0.089333ms)
+✔ top post is suspended; caisson, decoration and ceiling stay separate from load frame (0.667208ms)
+✔ full terrace diameters remain distinct from local crop and exterior column circle (0.222458ms)
+✔ all five scopes have unique IDs, finite transforms, geometry and evidence (8.669125ms)
+✔ intermediate circular purlins have radial post heads exactly at their undersides (8.861459ms)
+✔ upper inner roof distinguishes rafter boards and inner ceiling has 120 explicit wells (0.396833ms)
+✔ all three roof surfaces have upward nondegenerate faces and continuous patch normals (4.603584ms)
+✔ rafters remain under visible roof using their full transformed cylindrical envelope (197.844542ms)
+✔ finite circular purlin seats overlap rafters at all five radial support stations (43.90125ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 407.321458

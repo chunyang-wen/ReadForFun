@@ -1,0 +1,50 @@
+[
+  {
+    "url": "http://localhost:8765/chinese-architecture/dianchunyi/app.js?v=dianchunyi-02",
+    "loadedSHA256": "c54443217f012edae4c2ceba38c1a7d034d56788a3af09fa3461ff073bcd00ea",
+    "finalSHA256": "c54443217f012edae4c2ceba38c1a7d034d56788a3af09fa3461ff073bcd00ea",
+    "matches": true
+  },
+  {
+    "url": "http://localhost:8765/chinese-architecture/photos/gallery.js?v=dianchunyi-02",
+    "loadedSHA256": "e393da7c832c1e44ffa524b26bccc4bc5dbba5b89ef2fa20ae4f6e895d829af7",
+    "finalSHA256": "e393da7c832c1e44ffa524b26bccc4bc5dbba5b89ef2fa20ae4f6e895d829af7",
+    "matches": true
+  },
+  {
+    "url": "http://localhost:8765/chinese-architecture/dianchunyi/data.js?v=dianchunyi-02",
+    "loadedSHA256": "23cdbc0020832cb7c834da97ee25b164c7a56a25d7a359fba7ad20ce2a0c4e92",
+    "finalSHA256": "23cdbc0020832cb7c834da97ee25b164c7a56a25d7a359fba7ad20ce2a0c4e92",
+    "matches": true
+  },
+  {
+    "url": "http://localhost:8765/chinese-architecture/dianchunyi/model.js?v=dianchunyi-02",
+    "loadedSHA256": "6edc782440eeba3783bf44746305a8a0072a3294bef70b78280a70193bf3b003",
+    "finalSHA256": "6edc782440eeba3783bf44746305a8a0072a3294bef70b78280a70193bf3b003",
+    "matches": true
+  },
+  {
+    "url": "http://localhost:8765/chinese-architecture/dianchunyi/data.js",
+    "loadedSHA256": "23cdbc0020832cb7c834da97ee25b164c7a56a25d7a359fba7ad20ce2a0c4e92",
+    "finalSHA256": "23cdbc0020832cb7c834da97ee25b164c7a56a25d7a359fba7ad20ce2a0c4e92",
+    "matches": true
+  },
+  {
+    "url": "http://localhost:8765/chinese-architecture/photos/r2-fallbacks.js",
+    "loadedSHA256": "4d23f7bebe6812f3d320f11aca77ae3e8436e4929fb4ba52915a95dfcd3bcab8",
+    "finalSHA256": "5c6ad1007b48e07ddebdc52ddf2a9331be25dcd2cc19bd70efdf92b61481aa2d",
+    "matches": false
+  },
+  {
+    "url": "http://localhost:8765/chinese-architecture/photos/catalog.js?v=atlas-20261016-chengzhi-02",
+    "loadedSHA256": "1e9188a526a2a4ded0966dbd70169002fe44892fa2979f62ce93e92acbc8720d",
+    "finalSHA256": "1e9188a526a2a4ded0966dbd70169002fe44892fa2979f62ce93e92acbc8720d",
+    "matches": true
+  },
+  {
+    "url": "http://localhost:8765/chinese-architecture/photos/assets.json",
+    "loadedSHA256": "b89aa16951dddb8e249e92a7f7cb0b594c616f1293dd37af269d402b2b236d89",
+    "finalSHA256": "b89aa16951dddb8e249e92a7f7cb0b594c616f1293dd37af269d402b2b236d89",
+    "matches": true
+  }
+]

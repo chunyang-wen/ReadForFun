@@ -1,0 +1,140 @@
+{
+  "baseline": {
+    "records": 968,
+    "roof": {
+      "roof/slope/-1": {
+        "topNormal": [
+          0,
+          0.9015230536460876,
+          -0.432731032371521
+        ],
+        "vertices": 4
+      },
+      "roof/slope/1": {
+        "topNormal": [
+          0,
+          -0.9015230536460876,
+          -0.432731032371521
+        ],
+        "vertices": 4
+      }
+    },
+    "bearers": 48,
+    "frontBeam": {
+      "id": "cross/1/2/1",
+      "key": "cross/1/2",
+      "layer": "ties",
+      "type": "beam",
+      "position": [
+        0,
+        3.98,
+        0
+      ],
+      "scale": [
+        0.28,
+        0.36,
+        3.22
+      ],
+      "orientation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "status": "图像判读",
+      "source": "Fang2024 图11北立面与8f；截面推定",
+      "unit": "m",
+      "basis": "本厅地坪及局部参照线",
+      "endpoints": [
+        [
+          -1.61,
+          3.98,
+          0
+        ],
+        [
+          1.61,
+          3.98,
+          0
+        ]
+      ],
+      "width": 0.28,
+      "height": 0.36,
+      "length": 3.22,
+      "foot": 3.8,
+      "top": 4.16,
+      "support": "column/1/2/1 + column/2/2/1"
+    }
+  },
+  "final": {
+    "records": 947,
+    "roof": {
+      "roof/slope/-1": {
+        "topNormal": [
+          0,
+          0.9015230536460876,
+          -0.432731032371521
+        ],
+        "vertices": 36
+      },
+      "roof/slope/1": {
+        "topNormal": [
+          0,
+          0.9015230536460876,
+          0.432731032371521
+        ],
+        "vertices": 36
+      }
+    },
+    "bearers": 3,
+    "frontBeam": {
+      "id": "cross/1/2/1",
+      "key": "cross/1/2",
+      "layer": "ties",
+      "type": "beam",
+      "position": [
+        0,
+        3.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "orientation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "status": "图像判读",
+      "source": "Fang2024 图8e/f、2022承志堂正向照片；梁冠起拱轮廓判读，起拱量推定",
+      "unit": "m",
+      "basis": "本厅地坪及局部参照线",
+      "endpoints": [
+        [
+          -1.61,
+          3.98,
+          0
+        ],
+        [
+          1.61,
+          3.98,
+          0
+        ]
+      ],
+      "width": 0.28,
+      "height": 0.36,
+      "length": 3.22,
+      "foot": 3.8,
+      "top": 4.25,
+      "support": "column/1/2/1 + column/2/2/1",
+      "crownRise": 0.09,
+      "profileExtent": [
+        3.22,
+        0.45,
+        0.28
+      ]
+    }
+  }
+}

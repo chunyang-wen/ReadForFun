@@ -1,0 +1,38 @@
+✔ IDs, positive scales, geometry and transforms remain finite in all observation scopes (30.066583ms)
+✔ front stations transcribe unfolded facade segments without misusing full-house or 5.2 x 7.8 dimensions (0.75775ms)
+✔ all lower posts meet distinct bases and every base meets the stone floor (0.3145ms)
+✔ cross beams meet lower column heads; their geometric orientation has a vertical section (1.068375ms)
+✔ upper teaching supports sit on caps that sit on cross beams (0.273541ms)
+✔ spandrel has a true opening and its two contact edges meet the host beam and pillar (0.288667ms)
+✔ barrel ceiling is independent of roof frame and has explicit supporting seats (0.135041ms)
+✔ purlin undersides match base beams, raised beam tops or dedicated seats without overlapping raised beams (1.072417ms)
+✔ every roof-frame vertex remains below local roofing and inside modeled roof boundaries (1.1405ms)
+✔ rafter directions follow slopes and lower surfaces touch purlin crowns (1.340584ms)
+✔ banquet bed sits on a real front-facing beam surface, with all relief vertices within cited extent (3.001375ms)
+✔ carving hosts are real members; openwork hosts are frames and solid relief hosts are panels (2.940291ms)
+✔ door upper field has real through-openings instead of a textured panel (0.570625ms)
+✔ every roof base beam and purlin has resolvable supporting members in whole and node scopes (0.254958ms)
+✔ both roof slopes and ceiling are closed nondegenerate shells with outward surface normals (1.437875ms)
+✔ continuous barrel bearers meet seats and ceiling underside at sampled shared stations (19.321458ms)
+✔ entire rafter vertex envelopes stay below the roof underside, within finite purlin spans (3.690458ms)
+✔ front beam keeps endpoint seats while crowned carrier and banquet silhouette match source direction (0.302542ms)
+✔ each photo has explicit reusable rights, attribution and exact building chapter (2.639833ms)
+✔ every display size has a local or verified R2 fallback, and remote keys are content addressed (2.109542ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.177958ms)
+✔ each photograph appears exactly once in its building story (0.290083ms)
+✔ Dule historic plate pages retain period and subject limits, without claiming modern coverage (0.229458ms)
+✔ Yingxian retains native pixels and local delivery while independently recording verified R2 storage (1.034792ms)
+✔ Jinci covers hall, porch, bracket and dragons while preserving uncertain directions (0.347583ms)
+✔ Fengxian interior photos retain front-hall identity limits and real decoration node (0.189417ms)
+✔ Qinian atlas has explicit east-view limits and real decoration node, with R2-only delivery (0.475ms)
+✔ Huazhongyou identifies one gate, links the lotus node and keeps missing rear coverage explicit (0.298292ms)
+✔ Chengzhi front-hall photos retain door/hidden-frame gaps and link actual carving nodes (0.22575ms)
+✔ Dianchunyi shows three verified courtyard/facade contexts, explicit missing north view and preview boundary (0.17025ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 203.204333

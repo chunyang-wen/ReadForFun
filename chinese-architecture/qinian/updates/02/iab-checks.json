@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-16",
+  "page": "http://localhost:8765/chinese-architecture/qinian/?review=qinian-02",
+  "fullPhotos": [
+    {
+      "id": "qinian-whole-2014",
+      "width": 4008,
+      "height": 3432,
+      "complete": true,
+      "visibleScreenshotReviewed": true
+    },
+    {
+      "id": "qinian-east-2014",
+      "width": 4062,
+      "height": 3900,
+      "complete": true,
+      "visibleScreenshotReviewed": true
+    },
+    {
+      "id": "qinian-roof-2009",
+      "width": 3601,
+      "height": 2783,
+      "complete": true,
+      "visibleScreenshotReviewed": true
+    },
+    {
+      "id": "qinian-whole-2016",
+      "width": 3448,
+      "height": 4592,
+      "complete": true,
+      "visibleScreenshotReviewed": true
+    },
+    {
+      "id": "qinian-interior-2016",
+      "width": 4592,
+      "height": 3448,
+      "complete": true,
+      "visibleScreenshotReviewed": true
+    },
+    {
+      "id": "qinian-caisson-2014",
+      "width": 3688,
+      "height": 6048,
+      "complete": true,
+      "visibleScreenshotReviewed": true
+    }
+  ],
+  "maxZoom": 400,
+  "photoModel": {
+    "chapter": 5,
+    "node": "decoration",
+    "preservedCount": "05 / 05"
+  },
+  "supplement": "Sixth photo appended after the initial five-photo linkage and zoom check; final six-photo linkage covered by Chrome runner."
+}
