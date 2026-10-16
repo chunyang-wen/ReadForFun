@@ -1,0 +1,258 @@
+{
+  "timestamp": "2026-10-16T00:07:47.705543+00:00",
+  "client": "command-line curl GET",
+  "results": [
+    {
+      "id": "jinci-front-2011",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-front-2011/a5b25c805ae2a84f/original.jpg",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-front-2011",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-front-2011/a5b25c805ae2a84f/display.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-front-2011",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-front-2011/a5b25c805ae2a84f/thumb.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-front-2011",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-front-2011/a5b25c805ae2a84f/full.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-front-sun",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-front-sun/ea19117069055fe1/original.jpg",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-front-sun",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-front-sun/ea19117069055fe1/display.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-front-sun",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-front-sun/ea19117069055fe1/thumb.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-front-sun",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-front-sun/ea19117069055fe1/full.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-side",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-side/48b80ad643f87154/original.jpg",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-side",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-side/48b80ad643f87154/display.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-side",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-side/48b80ad643f87154/thumb.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-side",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-side/48b80ad643f87154/full.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-oblique",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-oblique/18ca9411278036eb/original.jpg",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-oblique",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-oblique/18ca9411278036eb/display.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-oblique",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-oblique/18ca9411278036eb/thumb.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-oblique",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-oblique/18ca9411278036eb/full.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-porch",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-porch/43e7094245dadb33/original.jpg",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-porch",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-porch/43e7094245dadb33/display.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-porch",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-porch/43e7094245dadb33/thumb.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-porch",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-porch/43e7094245dadb33/full.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-bracket",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-bracket/13edd208b7e44466/original.jpg",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-bracket",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-bracket/13edd208b7e44466/display.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-bracket",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-bracket/13edd208b7e44466/thumb.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-bracket",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-bracket/13edd208b7e44466/full.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-dragon",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-dragon/a59b04aee025a2ee/original.jpg",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-dragon",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-dragon/a59b04aee025a2ee/display.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-dragon",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-dragon/a59b04aee025a2ee/thumb.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-dragon",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-dragon/a59b04aee025a2ee/full.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-dragon-detail",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-dragon-detail/5d4380ad7c17dc16/original.jpg",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-dragon-detail",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-dragon-detail/5d4380ad7c17dc16/display.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-dragon-detail",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-dragon-detail/5d4380ad7c17dc16/thumb.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-dragon-detail",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-dragon-detail/5d4380ad7c17dc16/full.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-dragon-detail-2",
+      "kind": "original",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-dragon-detail-2/42dfe176f5ae7d37/original.jpg",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-dragon-detail-2",
+      "kind": "display",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-dragon-detail-2/42dfe176f5ae7d37/display.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-dragon-detail-2",
+      "kind": "thumb",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-dragon-detail-2/42dfe176f5ae7d37/thumb.webp",
+      "http": "403",
+      "exit": 0
+    },
+    {
+      "id": "jinci-dragon-detail-2",
+      "kind": "full",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/jinci-dragon-detail-2/42dfe176f5ae7d37/full.webp",
+      "http": "403",
+      "exit": 0
+    }
+  ]
+}

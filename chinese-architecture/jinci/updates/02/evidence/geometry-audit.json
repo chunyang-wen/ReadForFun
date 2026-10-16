@@ -1,0 +1,38 @@
+{
+  "architecture": "jinci",
+  "revision": "jinci-02-20261016",
+  "timestamp": "2026-10-16T00:29:15.339Z",
+  "upperRafterEnvelope": {
+    "insideVertices": 173790,
+    "boundaryVertices": 7498,
+    "maximumPenetration": -0.12471633683641756
+  },
+  "supportLimits": "Long-slope purlin finite extents tested separately. End, lower-skirt hidden bearings and actual notch / joinery remain unverified.",
+  "sources": {
+    "model.js": "40066600af2c6a0ae7c1e159da2080ad14e6e2c8697d89568cac96ab9c92c9ad",
+    "ceramic.js": "c3c859c8fcb63d229926fb748488c045c59dbca1a0ca2c9bd2de07eeeb79fbdf",
+    "app.js": "aa6299d56200c9d6790d66c3ebb219592abd27d9bc9de0fcd66c332ed03503f8",
+    "data.js": "b4a703cacdb6634a89ce42a46f8d947bf9ae9e936c073669ce72730dcc968ded",
+    "index.html": "e142d66fd2f7a18a130dd96a2c013ffd95403420210d6565e432c5063fad3542",
+    "tests/model.test.js": "d59c227dff899779aa19cc512d392305d76a40c55e1fbb9cd169a2a4f64ba6cc"
+  },
+  "lowerRafterEnvelope": {
+    "insideVertices": 325988,
+    "boundaryOrOpeningVertices": 18236,
+    "maximumPenetration": -0.05180293487499377
+  },
+  "documentedRectangularMembers": [
+    {
+      "id": "frame/-2.85/upper/1/1",
+      "role": "four",
+      "x": -2.85,
+      "source": "2018正文：明间南缝四椽栿、北次间北缝五椽栿为矩形断面；尺寸推定"
+    },
+    {
+      "id": "frame/6.75/upper/0/1",
+      "role": "five",
+      "x": 6.75,
+      "source": "2018正文：明间南缝四椽栿、北次间北缝五椽栿为矩形断面；尺寸推定"
+    }
+  ]
+}

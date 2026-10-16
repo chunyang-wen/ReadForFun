@@ -1,0 +1,46 @@
+{
+  "architecture": "jinci",
+  "evidenceOnly": true,
+  "checks": [
+    {
+      "name": "Final formal viewer uses jinci and all five views fit",
+      "passed": true
+    },
+    {
+      "name": "All four nodes and three explosion positions fit",
+      "passed": true
+    },
+    {
+      "name": "All whole-model explosion positions fit",
+      "passed": true
+    },
+    {
+      "name": "Both clipping axes and endpoints are the actual input values",
+      "passed": true
+    },
+    {
+      "name": "Visible canvas picking and moving selected instance stay mapped",
+      "passed": true
+    },
+    {
+      "name": "Final controls reset correctly; hidden roof absent",
+      "passed": true
+    },
+    {
+      "name": "Real 390 iframe has no overflow, local fit and final dragon return",
+      "passed": true
+    },
+    {
+      "name": "Nine final high-resolution images and all thumbnail bytes load",
+      "passed": true
+    },
+    {
+      "name": "Public browser direct decode is independent from local fallback",
+      "passed": true
+    },
+    {
+      "name": "Five independent conditions use identical cameras per view and all fit",
+      "passed": true
+    }
+  ]
+}

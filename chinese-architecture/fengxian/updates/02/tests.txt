@@ -1,0 +1,43 @@
+✔ nine unequal bays and five-row front-hall grid use correct baselines (0.517125ms)
+✔ each distinct-height column has a base and the documented height/diameter (2.123791ms)
+✔ seven/nine cai have three/four outward stations and distinct inward tails (0.160875ms)
+✔ flat-body counts follow table three independently from column/corner sets (88.517541ms)
+✔ main beams span 16.89; each post foot is a lower beam top; upper beams carry purlins (82.270291ms)
+✔ end and intermediate roof-frame endpoints stay beneath hip surface (3.332ms)
+✔ lower roof has a rectangular opening; upper four patches share hip boundary (4.43ms)
+✔ receiving opening exceeds tail width and there is no copied fork-column foot (1.194416ms)
+✔ decorations are attached to actual beam faces, ceilings and window joints (0.750291ms)
+✔ stable unique identifiers, finite geometry, transforms and bounds for all scopes (43.5095ms)
+✔ all roof-frame vertices remain beneath the modeled board surface (0.476125ms)
+✔ outer bearing bars sit above the last-row cup shoulders (0.127ms)
+✔ platform top, lotus base and column foot meet without a vertical gap (4.232208ms)
+✔ fengxian all eight roof decks and glazed skins have upward nondegenerate faces (46.116792ms)
+✔ fengxian upper and lower rafter chains start exactly at hips, include finite purlin stations and remain continuous (5.802334ms)
+✔ fengxian complete rafter cylinder vertices stay below local deck, with edge exclusions explicit (59.5605ms)
+✔ fengxian rear middle five bays remain open and remaining bays use correctly oriented sill windows (57.591333ms)
+✔ fengxian lower liujin detail contains a single flower and rafter tie, not overlapping duplicate copies (0.598625ms)
+✔ fengxian purlin station endpoints meet finite support envelopes on all eight slopes (16.664ms)
+✔ fengxian roof decks pair every internal and hip seam; only declared inner/outer boundaries remain (10.205417ms)
+✔ each photo has explicit reusable rights, attribution and exact building chapter (1.961958ms)
+✔ every display size has a local fallback, and remote keys are content addressed (1.12ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.096375ms)
+✔ each photograph appears exactly once in its building story (0.112208ms)
+✔ Dule historic plate pages retain period and subject limits, without claiming modern coverage (0.118542ms)
+✔ Yingxian retains native pixels and local delivery while independently recording verified R2 storage (0.462667ms)
+✔ Jinci covers hall, porch, bracket and dragons while preserving uncertain directions (0.074667ms)
+✔ Fengxian interior photos retain front-hall identity limits and real decoration node (0.07975ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (1.119667ms)
+✔ every selectable member has a documented type and valid layer (2.65225ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (4.544625ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.465041ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.561042ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.082583ms)
+✔ upper frame does not protrude through the hip roof (0.481792ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 766.760042

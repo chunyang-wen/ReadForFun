@@ -1,0 +1,95 @@
+{
+  "photos": [
+    {
+      "src": "http://localhost:8765/chinese-architecture/photos/fallback/fengxian-interior-2010/d51f841364ba05fc/full.webp",
+      "width": 3872,
+      "height": 2592
+    },
+    {
+      "src": "http://localhost:8765/chinese-architecture/photos/fallback/fengxian-ceiling-2010/3641211752991ed5/full.webp",
+      "width": 2832,
+      "height": 4178
+    },
+    {
+      "src": "http://localhost:8765/chinese-architecture/photos/fallback/fengxian-exhibit-context-2010/b4bede2c03b5371a/full.webp",
+      "width": 2832,
+      "height": 4256
+    }
+  ],
+  "remote": [
+    {
+      "id": "fengxian-interior-2010",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fengxian-interior-2010/d51f841364ba05fc/full.webp",
+      "decoded": true,
+      "width": 3872
+    },
+    {
+      "id": "fengxian-ceiling-2010",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fengxian-ceiling-2010/3641211752991ed5/full.webp",
+      "decoded": true,
+      "width": 2832
+    },
+    {
+      "id": "fengxian-exhibit-context-2010",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fengxian-exhibit-context-2010/b4bede2c03b5371a/full.webp",
+      "decoded": true,
+      "width": 2832
+    }
+  ],
+  "local": [
+    {
+      "id": "fengxian-interior-2010",
+      "kind": "thumb",
+      "width": 480,
+      "height": 321
+    },
+    {
+      "id": "fengxian-interior-2010",
+      "kind": "display",
+      "width": 1600,
+      "height": 1071
+    },
+    {
+      "id": "fengxian-interior-2010",
+      "kind": "full",
+      "width": 3872,
+      "height": 2592
+    },
+    {
+      "id": "fengxian-ceiling-2010",
+      "kind": "thumb",
+      "width": 325,
+      "height": 480
+    },
+    {
+      "id": "fengxian-ceiling-2010",
+      "kind": "display",
+      "width": 1085,
+      "height": 1600
+    },
+    {
+      "id": "fengxian-ceiling-2010",
+      "kind": "full",
+      "width": 2832,
+      "height": 4178
+    },
+    {
+      "id": "fengxian-exhibit-context-2010",
+      "kind": "thumb",
+      "width": 319,
+      "height": 480
+    },
+    {
+      "id": "fengxian-exhibit-context-2010",
+      "kind": "display",
+      "width": 1065,
+      "height": 1600
+    },
+    {
+      "id": "fengxian-exhibit-context-2010",
+      "kind": "full",
+      "width": 2832,
+      "height": 4256
+    }
+  ]
+}

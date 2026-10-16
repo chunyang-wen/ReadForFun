@@ -1,0 +1,68 @@
+✔ front upper row omits four full-height posts; the periphery stays continuous (0.68ms)
+✔ all ground posts rest on distinct bases and platform meets the base feet (0.3ms)
+✔ four porch posts bear on the center surface of their dedicated sloped beams (0.622083ms)
+✔ main frame lower faces meet central bracket bearing; ends have separate Ding beams (0.50175ms)
+✖ sloped beams use opposite high faces toward the central bay (0.70575ms)
+✔ hump slopes fit the host beam top at both sides, not just their center (0.078292ms)
+✔ every stacked support has positive height and starts on a hump top (1.120166ms)
+✔ bracket scopes distinguish two/three steps and horizontal outward mouths (0.0805ms)
+✔ all roof-frame vertices are under the modeled roof; end frames do not copy the ridge forks (2.135583ms)
+✔ lower skirt keeps its central opening and upper roof has two gable panels (0.476708ms)
+✔ eight front dragon assemblies stay in the decorative system beside continuous posts (0.375542ms)
+✔ unique traceable records and valid transforms, geometry and bounds in every scope (11.700458ms)
+✖ whole-hall hump underside follows each host sloped beam at both contact edges (0.966542ms)
+✔ modeled rafter underside touches purlin crowns at the long-slope stations (0.296875ms)
+✔ internal receiving beam seats on capped internal supports and carries main beam feet (0.450875ms)
+✔ each decorative dragon links to a real continuous host column (0.59525ms)
+✔ three split five-rafter frames have separate front Zha members, unlike the through variant (0.445875ms)
+✔ intermediate outward mouths differ from column-head variants without asserting a full joint taxonomy (0.705333ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 16
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 152.038625
+
+✖ failing tests:
+
+test at chinese-architecture/jinci/tests/model.test.js:8:1
+✖ sloped beams use opposite high faces toward the central bay (0.70575ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'none' !== '+X'
+  
+      at TestContext.<anonymous> (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/jinci/tests/model.test.js:8:182)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'none',
+    expected: '+X',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at chinese-architecture/jinci/tests/model.test.js:17:1
+✖ whole-hall hump underside follows each host sloped beam at both contact edges (0.966542ms)
+  AssertionError [ERR_ASSERTION]: 1.0869565217391304 != 0.9782608695652174
+      at near (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/jinci/tests/model.test.js:3:225)
+      at TestContext.<anonymous> (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/jinci/tests/model.test.js:17:393)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

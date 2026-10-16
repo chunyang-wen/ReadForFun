@@ -1,0 +1,13 @@
+✔ fengxian all eight roof decks and glazed skins have upward nondegenerate faces (41.751167ms)
+✔ fengxian upper and lower rafter chains start exactly at hips, include finite purlin stations and remain continuous (4.471916ms)
+✔ fengxian complete rafter cylinder vertices stay below local deck, with edge exclusions explicit (57.036708ms)
+✔ fengxian rear middle five bays remain open and remaining bays use correctly oriented sill windows (36.357375ms)
+✔ fengxian lower liujin detail contains a single flower and rafter tie, not overlapping duplicate copies (0.567542ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 562.592292

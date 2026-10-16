@@ -1,0 +1,17 @@
+{
+  "source": "current",
+  "roofTriangles": {
+    "up": 425790,
+    "down": 0,
+    "degenerate": 0
+  },
+  "rafters": {
+    "instances": 20878,
+    "vertices": 2087800,
+    "outside": 21308,
+    "penetrating": 0,
+    "worst": 0,
+    "worstID": null
+  },
+  "chainGaps": 0
+}

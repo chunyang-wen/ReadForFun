@@ -1,0 +1,1969 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-16T01:31:25.174544+00:00",
+  "publicBase": "https://readforfun-img.chunyangwen.com",
+  "assets": {
+    "chinese-architecture/fengxian/previews/whole.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/previews/5088d22f33bc0219/whole.jpg",
+      "key": "chinese-architecture/fengxian/previews/5088d22f33bc0219/whole.jpg",
+      "sha256": "5088d22f33bc0219b08fdc83ac777827422ec402b079208e170f3a231d18206f",
+      "bytes": 72994,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/back.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/fe3881a6158c2a52/back.png",
+      "key": "chinese-architecture/fengxian/updates/02/fe3881a6158c2a52/back.png",
+      "sha256": "fe3881a6158c2a523657e4a7f1aac24a3f29cc25ec196d1f05293a7dc6eed673",
+      "bytes": 264494,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/baseline/back.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/baseline/427e080364db4a3e/back.png",
+      "key": "chinese-architecture/fengxian/updates/02/baseline/427e080364db4a3e/back.png",
+      "sha256": "427e080364db4a3e649866e1eb37bb28ceea3f2dd09bfde0b6488b7d449530c0",
+      "bytes": 191700,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/baseline/front.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/baseline/ffbd487cab9438d5/front.png",
+      "key": "chinese-architecture/fengxian/updates/02/baseline/ffbd487cab9438d5/front.png",
+      "sha256": "ffbd487cab9438d51c2bd8726af8489a94b9c14ea24510b9669467849656fab9",
+      "bytes": 304528,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/baseline/iso.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/baseline/c425d12a285872e4/iso.png",
+      "key": "chinese-architecture/fengxian/updates/02/baseline/c425d12a285872e4/iso.png",
+      "sha256": "c425d12a285872e415c6a66a5e6913ab6bca82cc0d2f5888b45fa74be388daf3",
+      "bytes": 256177,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/baseline/side.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/baseline/96c69407075b03bf/side.png",
+      "key": "chinese-architecture/fengxian/updates/02/baseline/96c69407075b03bf/side.png",
+      "sha256": "96c69407075b03bff9ceabc1d76c0ad4484ae24b72c6e1069837e47d3df86a99",
+      "bytes": 102428,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/baseline/top.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/baseline/0ad36026b248f238/top.png",
+      "key": "chinese-architecture/fengxian/updates/02/baseline/0ad36026b248f238/top.png",
+      "sha256": "0ad36026b248f238d85508e7358f928114f96d343fedeb8bef5ea266f656557f",
+      "bytes": 372474,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/baseline/whole.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/baseline/6219c7a282f2ef1b/whole.jpg",
+      "key": "chinese-architecture/fengxian/updates/02/baseline/6219c7a282f2ef1b/whole.jpg",
+      "sha256": "6219c7a282f2ef1b630faa00829238fe4c0ce97432425d07ef7e0e9ba4356427",
+      "bytes": 48307,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/chapter-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/a1e60e3bb49028c0/chapter-0.png",
+      "key": "chinese-architecture/fengxian/updates/02/a1e60e3bb49028c0/chapter-0.png",
+      "sha256": "a1e60e3bb49028c00b2fed78da06ba814181ad881481239686a4ec9b8e25cc72",
+      "bytes": 242352,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/chapter-1.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/67102e992c16eb22/chapter-1.png",
+      "key": "chinese-architecture/fengxian/updates/02/67102e992c16eb22/chapter-1.png",
+      "sha256": "67102e992c16eb2235783d7464bdba1b2f9c404486e55e9a4f5171d1a0482a90",
+      "bytes": 197276,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/chapter-2.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/3f01ca3a3cef83c8/chapter-2.png",
+      "key": "chinese-architecture/fengxian/updates/02/3f01ca3a3cef83c8/chapter-2.png",
+      "sha256": "3f01ca3a3cef83c81ef457145983bf56b7eb2c66bc5b976cb043434fe5d90a8f",
+      "bytes": 66727,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/chapter-3.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/0923ac615e2494e6/chapter-3.png",
+      "key": "chinese-architecture/fengxian/updates/02/0923ac615e2494e6/chapter-3.png",
+      "sha256": "0923ac615e2494e697c976075586164722a4dd89b10b81c08a67b1ffe1668a99",
+      "bytes": 79872,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/chapter-4.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/7beae7521bdfa910/chapter-4.png",
+      "key": "chinese-architecture/fengxian/updates/02/7beae7521bdfa910/chapter-4.png",
+      "sha256": "7beae7521bdfa91042cc527957cef7243a37e7f02d509d8453ad75cea3fc365b",
+      "bytes": 292344,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/chapter-5.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/8f050b7d2ef73464/chapter-5.png",
+      "key": "chinese-architecture/fengxian/updates/02/8f050b7d2ef73464/chapter-5.png",
+      "sha256": "8f050b7d2ef73464ff752764914c2824c72ad9a3dd7654f155f8d9c5cf42431e",
+      "bytes": 101221,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/chapter-6-limit-failure.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/6d05d300ad04ac44/chapter-6-limit-failure.png",
+      "key": "chinese-architecture/fengxian/updates/02/6d05d300ad04ac44/chapter-6-limit-failure.png",
+      "sha256": "6d05d300ad04ac44499e1a854b9de2708b1d29da6dd641aab6f70c3fda196300",
+      "bytes": 330231,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/chapter-6.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/93f34e1b79c49082/chapter-6.png",
+      "key": "chinese-architecture/fengxian/updates/02/93f34e1b79c49082/chapter-6.png",
+      "sha256": "93f34e1b79c4908291a846eb40368422c197b7459e77a1ac4923b0b1ae0c9105",
+      "bytes": 258491,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/decoration-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/8f050b7d2ef73464/decoration-0.png",
+      "key": "chinese-architecture/fengxian/updates/02/8f050b7d2ef73464/decoration-0.png",
+      "sha256": "8f050b7d2ef73464ff752764914c2824c72ad9a3dd7654f155f8d9c5cf42431e",
+      "bytes": 101221,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/decoration-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/88baf35620812341/decoration-100.png",
+      "key": "chinese-architecture/fengxian/updates/02/88baf35620812341/decoration-100.png",
+      "sha256": "88baf35620812341a755b80f318088c3891a03e234aede962934fe264acde120",
+      "bytes": 84409,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/decoration-50.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/b835c0aa4b8826f5/decoration-50.png",
+      "key": "chinese-architecture/fengxian/updates/02/b835c0aa4b8826f5/decoration-50.png",
+      "sha256": "b835c0aa4b8826f5c5cc0891967b54c138551dfda039d93bbe5f03bd0bf33bdc",
+      "bytes": 92804,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/desktop.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/88f5522dad0b6241/desktop.png",
+      "key": "chinese-architecture/fengxian/updates/02/88f5522dad0b6241/desktop.png",
+      "sha256": "88f5522dad0b6241a69698b74be908fdf68e30c0be1f55ce74676fbb110622fd",
+      "bytes": 1597519,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/front.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/30b31323a1f60256/front.png",
+      "key": "chinese-architecture/fengxian/updates/02/30b31323a1f60256/front.png",
+      "sha256": "30b31323a1f602565d0ecab6bdda64d7cbc984a8de14b35060d665025d673c17",
+      "bytes": 280918,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/geometry-light.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/968dea641e4959f6/geometry-light.png",
+      "key": "chinese-architecture/fengxian/updates/02/968dea641e4959f6/geometry-light.png",
+      "sha256": "968dea641e4959f621776417f027a3c4c78b511f9aba26269c140cf719d34ce4",
+      "bytes": 210633,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/geometry-material.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/95b4a5815cb16aa2/geometry-material.png",
+      "key": "chinese-architecture/fengxian/updates/02/95b4a5815cb16aa2/geometry-material.png",
+      "sha256": "95b4a5815cb16aa2a538f981be882befb08e2a3adaa64c1a21a21b1d8aa0fc08",
+      "bytes": 229911,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/geometry-only.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/aac2b13c23eea078/geometry-only.png",
+      "key": "chinese-architecture/fengxian/updates/02/aac2b13c23eea078/geometry-only.png",
+      "sha256": "aac2b13c23eea078e76668d0f0d28d651bebca8a2bd196afc90258a93851ccab",
+      "bytes": 206089,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/iso.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/a1e60e3bb49028c0/iso.png",
+      "key": "chinese-architecture/fengxian/updates/02/a1e60e3bb49028c0/iso.png",
+      "sha256": "a1e60e3bb49028c00b2fed78da06ba814181ad881481239686a4ec9b8e25cc72",
+      "bytes": 242352,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/joint-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/ce2e1e9d43e51bc4/joint-0.png",
+      "key": "chinese-architecture/fengxian/updates/02/ce2e1e9d43e51bc4/joint-0.png",
+      "sha256": "ce2e1e9d43e51bc49700d502b8e99b1f014fb5a87cc87cd39741c7406a450ac5",
+      "bytes": 42674,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/joint-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/b68d9fd399f5f498/joint-100.png",
+      "key": "chinese-architecture/fengxian/updates/02/b68d9fd399f5f498/joint-100.png",
+      "sha256": "b68d9fd399f5f498d3426fdb70691320bfbc40fbdddea036b9c7defd36c63b8f",
+      "bytes": 45021,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/joint-50.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/abef4e8f6e907a3b/joint-50.png",
+      "key": "chinese-architecture/fengxian/updates/02/abef4e8f6e907a3b/joint-50.png",
+      "sha256": "abef4e8f6e907a3bab5746dcb65182ddbe8e0ad0f5dccc9e02349f016438b3d6",
+      "bytes": 44071,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/liujin-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/3f01ca3a3cef83c8/liujin-0.png",
+      "key": "chinese-architecture/fengxian/updates/02/3f01ca3a3cef83c8/liujin-0.png",
+      "sha256": "3f01ca3a3cef83c81ef457145983bf56b7eb2c66bc5b976cb043434fe5d90a8f",
+      "bytes": 66727,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/liujin-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/20906d3dfa6525bc/liujin-100.png",
+      "key": "chinese-architecture/fengxian/updates/02/20906d3dfa6525bc/liujin-100.png",
+      "sha256": "20906d3dfa6525bcb6b0ad73abc83f821cda6db16f2695b52ee89297a120c66d",
+      "bytes": 68835,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/liujin-50.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/172d75c22e24d12d/liujin-50.png",
+      "key": "chinese-architecture/fengxian/updates/02/172d75c22e24d12d/liujin-50.png",
+      "sha256": "172d75c22e24d12de611b4ba7960fdbf9b9610b688e0363f07285858a86987d7",
+      "bytes": 72833,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/mobile-node.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/de8d8f611de0608f/mobile-node.png",
+      "key": "chinese-architecture/fengxian/updates/02/de8d8f611de0608f/mobile-node.png",
+      "sha256": "de8d8f611de0608f1a80fd53fbe3d8a2547838cc6d8179ca40e05ce919782c50",
+      "bytes": 35616,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/mobile-photo-before-paint.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/e1d617eec24e105f/mobile-photo-before-paint.png",
+      "key": "chinese-architecture/fengxian/updates/02/e1d617eec24e105f/mobile-photo-before-paint.png",
+      "sha256": "e1d617eec24e105f19bb4ae5f9e72964ac93f89491385325cb4a6820f33dc878",
+      "bytes": 32148,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/mobile-photo.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/7b8d8aef1b9e59f4/mobile-photo.png",
+      "key": "chinese-architecture/fengxian/updates/02/7b8d8aef1b9e59f4/mobile-photo.png",
+      "sha256": "7b8d8aef1b9e59f4e0ed73e1e86cd055ee662a59333461ed87c1163fb43c8336",
+      "bytes": 406211,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/mobile.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/f1bde2adeada7e3d/mobile.png",
+      "key": "chinese-architecture/fengxian/updates/02/f1bde2adeada7e3d/mobile.png",
+      "sha256": "f1bde2adeada7e3df3d1f6bc04eec20d9df13f8c349aeb535827772e9a58abeb",
+      "bytes": 682052,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/photo-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/52690a899018773f/photo-0.png",
+      "key": "chinese-architecture/fengxian/updates/02/52690a899018773f/photo-0.png",
+      "sha256": "52690a899018773f43d2bcfab46aa9a0a0723aafb32e646d1d16a66f56394e7b",
+      "bytes": 2048585,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/photo-1.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/ff1d77a5bc943085/photo-1.png",
+      "key": "chinese-architecture/fengxian/updates/02/ff1d77a5bc943085/photo-1.png",
+      "sha256": "ff1d77a5bc943085fd057bbc8ac5fc53a4ae2a5243d2637ca00c084185ccbc40",
+      "bytes": 942386,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/photo-2.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/db9182641d966de4/photo-2.png",
+      "key": "chinese-architecture/fengxian/updates/02/db9182641d966de4/photo-2.png",
+      "sha256": "db9182641d966de449949ec7b881e8a0910d63cdf5104961576465e69f244526",
+      "bytes": 938178,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/reverse-light.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/d2110f2ed43ccef5/reverse-light.png",
+      "key": "chinese-architecture/fengxian/updates/02/d2110f2ed43ccef5/reverse-light.png",
+      "sha256": "d2110f2ed43ccef58300f662bbeee7ecbc110bed3e1c8714cd4ebbef763145a0",
+      "bytes": 249586,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/section-x--100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/5d5ea0e8c35b0f27/section-x--100.png",
+      "key": "chinese-architecture/fengxian/updates/02/5d5ea0e8c35b0f27/section-x--100.png",
+      "sha256": "5d5ea0e8c35b0f27501170d3b8a2dac1d31e8b1564e77458b35ab6562f344e97",
+      "bytes": 12082,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/section-x-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/d13843b9dd3e932d/section-x-0.png",
+      "key": "chinese-architecture/fengxian/updates/02/d13843b9dd3e932d/section-x-0.png",
+      "sha256": "d13843b9dd3e932d50075617397acf158842bd37ecadb6bdecf676ff650c890f",
+      "bytes": 71735,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/section-x-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/aef103452e880078/section-x-100.png",
+      "key": "chinese-architecture/fengxian/updates/02/aef103452e880078/section-x-100.png",
+      "sha256": "aef103452e8800785c5564480926e81cdad1d9b5cbfbf85622c25f7e4ef94f32",
+      "bytes": 123318,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/section-x-flip.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/8adb7a9747b2df14/section-x-flip.png",
+      "key": "chinese-architecture/fengxian/updates/02/8adb7a9747b2df14/section-x-flip.png",
+      "sha256": "8adb7a9747b2df1488ab3a0d9f62d243c33145336333728628ae9b625adaea50",
+      "bytes": 12059,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/section-z--100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/a9a8ba376a838cd5/section-z--100.png",
+      "key": "chinese-architecture/fengxian/updates/02/a9a8ba376a838cd5/section-z--100.png",
+      "sha256": "a9a8ba376a838cd597c08f0c5b67bfa42025b914cb4169c3e97d4a55a8cb0673",
+      "bytes": 123317,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/section-z-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/d52f8447ff202dba/section-z-0.png",
+      "key": "chinese-architecture/fengxian/updates/02/d52f8447ff202dba/section-z-0.png",
+      "sha256": "d52f8447ff202dba8c50e0ec8a645340dc2078ce51c7609c43a9b476da1a5ccf",
+      "bytes": 97029,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/section-z-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/b365d8fdde26f55a/section-z-100.png",
+      "key": "chinese-architecture/fengxian/updates/02/b365d8fdde26f55a/section-z-100.png",
+      "sha256": "b365d8fdde26f55a74e242624a3c52d5f9a758179d1d72bfdcf0034fff452025",
+      "bytes": 12817,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/section-z-flip.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/c4a7773dae2fa890/section-z-flip.png",
+      "key": "chinese-architecture/fengxian/updates/02/c4a7773dae2fa890/section-z-flip.png",
+      "sha256": "c4a7773dae2fa89067ab7e51a1adfb89bd63309b85534475104805bcf77a8159",
+      "bytes": 123129,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/side.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/12b2dadb8bc30716/side.png",
+      "key": "chinese-architecture/fengxian/updates/02/12b2dadb8bc30716/side.png",
+      "sha256": "12b2dadb8bc30716b935679a06b84c07e77f3f014f30d9fbacab32c1b9c09426",
+      "bytes": 152618,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/top.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/a219ee4f9549f0d4/top.png",
+      "key": "chinese-architecture/fengxian/updates/02/a219ee4f9549f0d4/top.png",
+      "sha256": "a219ee4f9549f0d435f34a36f29369754f7da859fef2bc3ac484dc538fc9ee43",
+      "bytes": 261587,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/upper-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/a53602921fb3bafb/upper-0.png",
+      "key": "chinese-architecture/fengxian/updates/02/a53602921fb3bafb/upper-0.png",
+      "sha256": "a53602921fb3bafbf41ce6f1e9b59f9fa996aed63aaeee4eccef59b2f213af14",
+      "bytes": 74818,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/upper-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/5b18217c06ba3edc/upper-100.png",
+      "key": "chinese-architecture/fengxian/updates/02/5b18217c06ba3edc/upper-100.png",
+      "sha256": "5b18217c06ba3edcef60379fea5d7e4987632403711c46bf81a2f68b2f7ded51",
+      "bytes": 63205,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/upper-50.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/e966e3b63a12bc07/upper-50.png",
+      "key": "chinese-architecture/fengxian/updates/02/e966e3b63a12bc07/upper-50.png",
+      "sha256": "e966e3b63a12bc07113661b617439a40f595439860370a2518f9f59b8ba823dc",
+      "bytes": 70950,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/whole-0.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/8532419ecd6348dd/whole-0.png",
+      "key": "chinese-architecture/fengxian/updates/02/8532419ecd6348dd/whole-0.png",
+      "sha256": "8532419ecd6348dd738ca581bafe3ddf7c5f91e30cd291d88706f1041a059c96",
+      "bytes": 319710,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/whole-100.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/806f57073aa68e03/whole-100.png",
+      "key": "chinese-architecture/fengxian/updates/02/806f57073aa68e03/whole-100.png",
+      "sha256": "806f57073aa68e03bf4b4ff3c68294e9d3ced68f66d17facf8a603649c7d749d",
+      "bytes": 387974,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/fengxian/updates/02/whole-50.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/fengxian/updates/02/25bfce910065a574/whole-50.png",
+      "key": "chinese-architecture/fengxian/updates/02/25bfce910065a574/whole-50.png",
+      "sha256": "25bfce910065a574fe76b193aefc3aa8e5e55e2be6436642a09fab5697d21909",
+      "bytes": 370263,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/previews/whole.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/previews/a47f4df74fec821e/whole.jpg",
+      "key": "chinese-architecture/jinci/previews/a47f4df74fec821e/whole.jpg",
+      "sha256": "a47f4df74fec821e5fde748ada774faf20a37249fd456f84578e41dafe1b86c4",
+      "bytes": 43661,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/baseline/whole.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/baseline/6e1f44b4a0a4185c/whole.jpg",
+      "key": "chinese-architecture/jinci/updates/02/baseline/6e1f44b4a0a4185c/whole.jpg",
+      "sha256": "6e1f44b4a0a4185cb4a3af525d9a4bfa2fca6c277f8a636fe1e4a83bdce27718",
+      "bytes": 50241,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/actual-ray-pick.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/6493c289f6010d3c/actual-ray-pick.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/6493c289f6010d3c/actual-ray-pick.jpg",
+      "sha256": "6493c289f6010d3c88bdacf2c801739a7c7bc7315c47753e36127f4a1bf19152",
+      "bytes": 115222,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/back.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/b25adb3bdcafbd86/back.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/b25adb3bdcafbd86/back.jpg",
+      "sha256": "b25adb3bdcafbd868e64f43c1ff2e53942769c1896df30d502837f22e3f7c436",
+      "bytes": 142673,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/chapter-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/2bd6a3dab96e2371/chapter-0.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/2bd6a3dab96e2371/chapter-0.jpg",
+      "sha256": "2bd6a3dab96e237137e0e2cb1ad87e3ecca47da0fad145ce607f9f141ba516dc",
+      "bytes": 127797,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/chapter-1.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/b80af09afe9ce98e/chapter-1.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/b80af09afe9ce98e/chapter-1.jpg",
+      "sha256": "b80af09afe9ce98e423791991920814a7b454a848413736a1cc156f756b7b64f",
+      "bytes": 136060,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/chapter-2.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/2490ddd3272a4088/chapter-2.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/2490ddd3272a4088/chapter-2.jpg",
+      "sha256": "2490ddd3272a40885251c1e9250e886a41e1a9d40b0f16be50c09ca67b8e179a",
+      "bytes": 110789,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/chapter-3.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/c8d389d977cf49ef/chapter-3.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/c8d389d977cf49ef/chapter-3.jpg",
+      "sha256": "c8d389d977cf49ef822bc4fcd69dfd44d556929a5d10d1b231329bdfc7d2bab8",
+      "bytes": 126793,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/chapter-4.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/7c45224dedff3537/chapter-4.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/7c45224dedff3537/chapter-4.jpg",
+      "sha256": "7c45224dedff353720162e192b0d1b84a310d37c801e73d738a71d34cb329621",
+      "bytes": 138687,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/chapter-5.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/6251b71f66f3f682/chapter-5.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/6251b71f66f3f682/chapter-5.jpg",
+      "sha256": "6251b71f66f3f682bf7c6c7be1775efb002751cd7a5c74dd3ea825e257f03127",
+      "bytes": 107807,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/chapter-6.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/d61998d3e810343d/chapter-6.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/d61998d3e810343d/chapter-6.jpg",
+      "sha256": "d61998d3e810343ded45f6f64d58eeab9e8110fb24b4a2a0d87aa706f9d1b49e",
+      "bytes": 136810,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-A-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/d4dec991c66b0428/condition-A-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/d4dec991c66b0428/condition-A-front.jpg",
+      "sha256": "d4dec991c66b04281a1c8e282637b9ec9b6d7fa01d0249024ca27ecfce1ff034",
+      "bytes": 40052,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-A-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/bc5e82f856b6d26a/condition-A-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/bc5e82f856b6d26a/condition-A-iso.jpg",
+      "sha256": "bc5e82f856b6d26a3c627caa17d1c5fb2b851564eec6bfffa67094a5f18a4a64",
+      "bytes": 46742,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-A-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/2bfabfc0e753fcd9/condition-A-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/2bfabfc0e753fcd9/condition-A-side.jpg",
+      "sha256": "2bfabfc0e753fcd94d9e528ac1ba1fff7c2593cb7c326d36d2029b82e44e69a4",
+      "bytes": 31710,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-B-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/39f1275d430cebf4/condition-B-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/39f1275d430cebf4/condition-B-front.jpg",
+      "sha256": "39f1275d430cebf4da6a7ff30e83d8fc287886898dff5525b8d6219f06a9c5ed",
+      "bytes": 37657,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-B-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/cbc78588cf1e9b57/condition-B-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/cbc78588cf1e9b57/condition-B-iso.jpg",
+      "sha256": "cbc78588cf1e9b57febf7617b7df6cd9745c5ad6cd70a5d65d122d6afbf21ecc",
+      "bytes": 43457,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-B-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/262c095cd5fec43b/condition-B-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/262c095cd5fec43b/condition-B-side.jpg",
+      "sha256": "262c095cd5fec43b7e6e80db4e0761d5bc0825d0a98b8eb03ab7b960184235ec",
+      "bytes": 30283,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-C-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/0fe7b86848736a08/condition-C-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/0fe7b86848736a08/condition-C-front.jpg",
+      "sha256": "0fe7b86848736a08339e805a46a491f5a02237a476aa227d2de539db005e816f",
+      "bytes": 40572,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-C-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/f168e89597aed926/condition-C-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/f168e89597aed926/condition-C-iso.jpg",
+      "sha256": "f168e89597aed92684050dd5a530789524dd4ed5876283c6484e47824e064a0c",
+      "bytes": 48601,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-C-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/ea92cb1f6fc4c612/condition-C-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/ea92cb1f6fc4c612/condition-C-side.jpg",
+      "sha256": "ea92cb1f6fc4c612ae2426064e2fdb732c1ced57fc61acfb085e9613b8e74337",
+      "bytes": 32263,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-D-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/f184486c3afb1b5d/condition-D-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/f184486c3afb1b5d/condition-D-front.jpg",
+      "sha256": "f184486c3afb1b5d8d4c06b1e382f014391eae86dfae6ab016de209393da79f6",
+      "bytes": 39754,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-D-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/7ecfdb484820ed8c/condition-D-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/7ecfdb484820ed8c/condition-D-iso.jpg",
+      "sha256": "7ecfdb484820ed8c91fa66d9dd103bb1dbb65e40c34db12546b1cdadc46a95e7",
+      "bytes": 46593,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-D-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/58c723c8e078c9b4/condition-D-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/58c723c8e078c9b4/condition-D-side.jpg",
+      "sha256": "58c723c8e078c9b4ea865ec2630af2ca45e63f08d1991bf928ed527752a52382",
+      "bytes": 31660,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-E-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/62dfd07894ef6f17/condition-E-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/62dfd07894ef6f17/condition-E-front.jpg",
+      "sha256": "62dfd07894ef6f1719af22843116d717cb8ed2c480ec405cfbc514a58a88ddcf",
+      "bytes": 38016,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-E-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/88c8bce979312e9f/condition-E-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/88c8bce979312e9f/condition-E-iso.jpg",
+      "sha256": "88c8bce979312e9ff7d3e3ca95f144f54712a7696cf4f34cbb2e0973549c43b1",
+      "bytes": 44300,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-E-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/e1f145450209222a/condition-E-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/e1f145450209222a/condition-E-side.jpg",
+      "sha256": "e1f145450209222ab58be71dcc75124311a69de12dd7185374ee47d2bc4ce1f8",
+      "bytes": 30612,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-clip-corrected-test.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/a5b5d080b89eb326/condition-clip-corrected-test.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/a5b5d080b89eb326/condition-clip-corrected-test.jpg",
+      "sha256": "a5b5d080b89eb3268f42fffb16151a1d2f50026c2d8975df3eb076eaa4a1a1af",
+      "bytes": 38309,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-A-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/b3cb85cfb5ddb3cb/condition-final-A-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/b3cb85cfb5ddb3cb/condition-final-A-front.jpg",
+      "sha256": "b3cb85cfb5ddb3cb75cc134201eca197321bf8574f4497721f5edd9b55cc3151",
+      "bytes": 86636,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-A-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/a439eba9cd759552/condition-final-A-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/a439eba9cd759552/condition-final-A-iso.jpg",
+      "sha256": "a439eba9cd7595525aea2f5da22d55020ebcd7dc62e471d80fe0f7c90f21b1b0",
+      "bytes": 79403,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-A-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/e7f9a060e74eea08/condition-final-A-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/e7f9a060e74eea08/condition-final-A-side.jpg",
+      "sha256": "e7f9a060e74eea084838e61852c126d6e70628fdad2d12e269598b49181049e9",
+      "bytes": 78928,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-B-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/a49e932a538f9dc2/condition-final-B-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/a49e932a538f9dc2/condition-final-B-front.jpg",
+      "sha256": "a49e932a538f9dc203bb6d6b378198b71a239b8fb05e06a8363ef19835908ab0",
+      "bytes": 80619,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-B-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/4a9eed249badfc96/condition-final-B-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/4a9eed249badfc96/condition-final-B-iso.jpg",
+      "sha256": "4a9eed249badfc96f6f74c8521657de91e52af8958bbd49432efd9c9390b50b3",
+      "bytes": 74054,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-B-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/5aafab93f7108787/condition-final-B-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/5aafab93f7108787/condition-final-B-side.jpg",
+      "sha256": "5aafab93f7108787289c3a7c878dbd5337e4d803f6979aa71a02324401b35e74",
+      "bytes": 77544,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-C-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/5a573e05501b85e4/condition-final-C-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/5a573e05501b85e4/condition-final-C-front.jpg",
+      "sha256": "5a573e05501b85e47535ae3fd2f35f314ad3f0f501a36739fff0f9847bca8079",
+      "bytes": 90786,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-C-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/37181519462c65c9/condition-final-C-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/37181519462c65c9/condition-final-C-iso.jpg",
+      "sha256": "37181519462c65c90ecd7eca650d370b6be2c15b1096354ecef826689ad057ae",
+      "bytes": 80915,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-C-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/29430a9629d5db3f/condition-final-C-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/29430a9629d5db3f/condition-final-C-side.jpg",
+      "sha256": "29430a9629d5db3f70cdf1d620694cef35d1b4dc9e8378f692c78ecee2e235a8",
+      "bytes": 79390,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-D-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/b0c3d6ba7d883f41/condition-final-D-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/b0c3d6ba7d883f41/condition-final-D-front.jpg",
+      "sha256": "b0c3d6ba7d883f41b6bb0b839824c09ff47f3e452264f6933c3df8359c12746a",
+      "bytes": 88485,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-D-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/b8eaa475ec0c54d7/condition-final-D-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/b8eaa475ec0c54d7/condition-final-D-iso.jpg",
+      "sha256": "b8eaa475ec0c54d784cdc01800fdcb5b6b791deab354d25a9e38e69f8502a59b",
+      "bytes": 79230,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-D-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/6d09d8a3b0870875/condition-final-D-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/6d09d8a3b0870875/condition-final-D-side.jpg",
+      "sha256": "6d09d8a3b0870875bd81d5fa9cd10bd8791981fb394cd54295ac97135bcce5d4",
+      "bytes": 76791,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-E-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/950579a93dd7d5a9/condition-final-E-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/950579a93dd7d5a9/condition-final-E-front.jpg",
+      "sha256": "950579a93dd7d5a944eb5be325c9b5210c9a3e91ef97237ce3406ddf3ff446a7",
+      "bytes": 81208,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-E-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/bea361c883d9d18d/condition-final-E-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/bea361c883d9d18d/condition-final-E-iso.jpg",
+      "sha256": "bea361c883d9d18dbb780db46215cd74df8c1e330ca544124da21a8ada10b3c9",
+      "bytes": 74890,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-final-E-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/2e9973902c4276a8/condition-final-E-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/2e9973902c4276a8/condition-final-E-side.jpg",
+      "sha256": "2e9973902c4276a8be0220527585c44d5c95044924883275588abe10b3aabf34",
+      "bytes": 79623,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-A-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/7a4b82b110f157c1/condition-native-A-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/7a4b82b110f157c1/condition-native-A-front.jpg",
+      "sha256": "7a4b82b110f157c12f386a4a79e346ce00599092a1ed56436a6a42e56cecb369",
+      "bytes": 94490,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-A-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/e2ca889cdb001bf2/condition-native-A-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/e2ca889cdb001bf2/condition-native-A-iso.jpg",
+      "sha256": "e2ca889cdb001bf2b9f4b76ad90e7ff0e6569471f08ea35d81a4874028c469e2",
+      "bytes": 89327,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-A-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/777c695d2a82114c/condition-native-A-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/777c695d2a82114c/condition-native-A-side.jpg",
+      "sha256": "777c695d2a82114c15de90caf8268744e6c34dc5d7df1271a2841de191820f2c",
+      "bytes": 88710,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-B-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/6af0983da87cc629/condition-native-B-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/6af0983da87cc629/condition-native-B-front.jpg",
+      "sha256": "6af0983da87cc629a5a1598acfaf06a240f7e1e305515a39dbf3a6d5f7d87468",
+      "bytes": 90727,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-B-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/895fbf91bd9b312c/condition-native-B-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/895fbf91bd9b312c/condition-native-B-iso.jpg",
+      "sha256": "895fbf91bd9b312c6feb11edb5f6a473de3db9165c28e9e14427df0e077c36ab",
+      "bytes": 87698,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-B-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/3bba83940f6f4fbe/condition-native-B-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/3bba83940f6f4fbe/condition-native-B-side.jpg",
+      "sha256": "3bba83940f6f4fbe06e3ea0165c933b2af8af5221fc91069aed278d496666c5d",
+      "bytes": 90289,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-C-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/695351ac90f6dd36/condition-native-C-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/695351ac90f6dd36/condition-native-C-front.jpg",
+      "sha256": "695351ac90f6dd366b65884969a76e32f59315039d062d4f23597d4b58dad536",
+      "bytes": 95093,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-C-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/07cb5cb4ee692f73/condition-native-C-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/07cb5cb4ee692f73/condition-native-C-iso.jpg",
+      "sha256": "07cb5cb4ee692f73d5f470d037f56e2b3f9ad34b3719874af4b3fc853c7b21d0",
+      "bytes": 91020,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-C-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/9e5e2aff9911be0e/condition-native-C-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/9e5e2aff9911be0e/condition-native-C-side.jpg",
+      "sha256": "9e5e2aff9911be0e7332d43c2c58b70ce7d116a84bd01d823fb4ab1cedebbe2e",
+      "bytes": 88457,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-D-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/692a88a5102a94e2/condition-native-D-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/692a88a5102a94e2/condition-native-D-front.jpg",
+      "sha256": "692a88a5102a94e25583bf15b05d4c535763b5f5923c85b5cb89780edee9122b",
+      "bytes": 94408,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-D-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/2b34d6d79cc8fd62/condition-native-D-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/2b34d6d79cc8fd62/condition-native-D-iso.jpg",
+      "sha256": "2b34d6d79cc8fd623bdacc4daec183441b2af5a1b0fbe93a0ec3d8bf019791cd",
+      "bytes": 89827,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-D-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/986747d3f9e478e1/condition-native-D-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/986747d3f9e478e1/condition-native-D-side.jpg",
+      "sha256": "986747d3f9e478e190a266a63ef97ed40de3908037bd5fe8cd7ef729a45432b8",
+      "bytes": 88753,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-E-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/aead46a9c6247180/condition-native-E-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/aead46a9c6247180/condition-native-E-front.jpg",
+      "sha256": "aead46a9c6247180c82403f302c1e55feada0de59f987c1685bafff79cf08d2f",
+      "bytes": 92024,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-E-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/e2f963baa6ab41ed/condition-native-E-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/e2f963baa6ab41ed/condition-native-E-iso.jpg",
+      "sha256": "e2f963baa6ab41ed20230ad309194e67124c3e038009b0431412b397915675e7",
+      "bytes": 88733,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/condition-native-E-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/51e9e71e4167a339/condition-native-E-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/51e9e71e4167a339/condition-native-E-side.jpg",
+      "sha256": "51e9e71e4167a339b15818f6ad0852db5438d9fbc9ca67947d12850dd81d3968",
+      "bytes": 89166,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/desktop-final.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/7939ac462cda0884/desktop-final.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/7939ac462cda0884/desktop-final.jpg",
+      "sha256": "7939ac462cda088486d41e1e9d083e5d3373b64cbb4eed042c4ba48b29d8784c",
+      "bytes": 81004,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/final-back.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/2cd2097ebc706e16/final-back.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/2cd2097ebc706e16/final-back.jpg",
+      "sha256": "2cd2097ebc706e168006ef3635b38b214f2b616506485be0f381478b9e97e71f",
+      "bytes": 58969,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/final-front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/ea802e4d0728d44e/final-front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/ea802e4d0728d44e/final-front.jpg",
+      "sha256": "ea802e4d0728d44e9a110b0267a7a7584249b621a95157b735088b1b31555e19",
+      "bytes": 64279,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/final-iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/a47f4df74fec821e/final-iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/a47f4df74fec821e/final-iso.jpg",
+      "sha256": "a47f4df74fec821e5fde748ada774faf20a37249fd456f84578e41dafe1b86c4",
+      "bytes": 43661,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/final-side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/a84d3b95860efb00/final-side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/a84d3b95860efb00/final-side.jpg",
+      "sha256": "a84d3b95860efb00d41a4269dd27482f062abc4f2670e3713f7691de09c5e4c9",
+      "bytes": 44098,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/final-top.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/416251e040801c2c/final-top.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/416251e040801c2c/final-top.jpg",
+      "sha256": "416251e040801c2cceae13a741b099885f67e3736dd1b21287e45858ab94679b",
+      "bytes": 51048,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/final-whole.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/a47f4df74fec821e/final-whole.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/a47f4df74fec821e/final-whole.jpg",
+      "sha256": "a47f4df74fec821e5fde748ada774faf20a37249fd456f84578e41dafe1b86c4",
+      "bytes": 43661,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/front.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/d9025c16daeecd9c/front.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/d9025c16daeecd9c/front.jpg",
+      "sha256": "d9025c16daeecd9c899088ad13c7a43aa9bdf1c494c568a1cb3811f5f3a3e4ef",
+      "bytes": 147979,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/iso.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/56b8a9ed6c99f1a0/iso.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/56b8a9ed6c99f1a0/iso.jpg",
+      "sha256": "56b8a9ed6c99f1a0e18f15f4ddfcca6e941165e5d8e34c86a0d226ec683d0ff6",
+      "bytes": 129464,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/lower-picked-reverse-light.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/1446096173044986/lower-picked-reverse-light.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/1446096173044986/lower-picked-reverse-light.jpg",
+      "sha256": "14460961730449867775b0c195cd4ae0048a6f99d2a17dec6b810fc5c021e0d7",
+      "bytes": 130001,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/narrow-final-whole.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/ff7f178a41e2c3b0/narrow-final-whole.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/ff7f178a41e2c3b0/narrow-final-whole.jpg",
+      "sha256": "ff7f178a41e2c3b0f86a1f5428271fb7c366ce6073bc66748f643cc1aa21f4c3",
+      "bytes": 37841,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/narrow-local-max.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/d67bb43fd4d0f0e7/narrow-local-max.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/d67bb43fd4d0f0e7/narrow-local-max.jpg",
+      "sha256": "d67bb43fd4d0f0e734e0c0599f5635a832d352beaf25322bb21faf358b61840b",
+      "bytes": 33214,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/narrow-photo-400.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/8a25cf33f2beda2c/narrow-photo-400.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/8a25cf33f2beda2c/narrow-photo-400.jpg",
+      "sha256": "8a25cf33f2beda2cebf8ffc2e4d214e6dfc952cad2c1b940a5ded48ae72451d1",
+      "bytes": 73325,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/narrow-photo-final-400.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/bc3db6694b085824/narrow-photo-final-400.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/bc3db6694b085824/narrow-photo-final-400.jpg",
+      "sha256": "bc3db6694b085824eeb3f607f50f6cc5aab3910bfccfd45f42feb301c0e5471b",
+      "bytes": 69752,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/narrow-photo-model-final.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/14d1984d040ed04a/narrow-photo-model-final.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/14d1984d040ed04a/narrow-photo-model-final.jpg",
+      "sha256": "14d1984d040ed04a3b275999610dcde098bf4171f09b407eb2f6fdcb17e7d85d",
+      "bytes": 27848,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/narrow-whole.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/c883cbe5b3303b08/narrow-whole.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/c883cbe5b3303b08/narrow-whole.jpg",
+      "sha256": "c883cbe5b3303b085a7137215e4ce8e2533880ab25a6653ca7e6a0c611cf4911",
+      "bytes": 36218,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/node-dragon-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/a5c541692fd2847a/node-dragon-0.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/a5c541692fd2847a/node-dragon-0.jpg",
+      "sha256": "a5c541692fd2847a06325f577044cee7b42cb756505e6fc00fbff874ceb82781",
+      "bytes": 131460,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/node-dragon-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/691efa593b609eec/node-dragon-100.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/691efa593b609eec/node-dragon-100.jpg",
+      "sha256": "691efa593b609eec088734a57eaa27a8a00edc67f521f902c0e60c4f926d4c22",
+      "bytes": 131705,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/node-dragon-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/a00b30d59aad5b85/node-dragon-50.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/a00b30d59aad5b85/node-dragon-50.jpg",
+      "sha256": "a00b30d59aad5b851b6585b7a1fe56fece72f339e1cbc35efba63cbff0e59a80",
+      "bytes": 131936,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/node-lower-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/3a0ab4c5cb58fe0b/node-lower-0.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/3a0ab4c5cb58fe0b/node-lower-0.jpg",
+      "sha256": "3a0ab4c5cb58fe0bc6c26488944290168dc0b948b8b0ba48fa61b139461a4ac6",
+      "bytes": 122187,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/node-lower-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/fd09118917bc4ffc/node-lower-100.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/fd09118917bc4ffc/node-lower-100.jpg",
+      "sha256": "fd09118917bc4ffc6e1ac9f8d72909596cf6019ce47724272bf3f475cf2fce7e",
+      "bytes": 135192,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/node-lower-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/965020a238cc2e46/node-lower-50.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/965020a238cc2e46/node-lower-50.jpg",
+      "sha256": "965020a238cc2e466df32114d87cdcafd211eb26e236906cd6253eb4f6c24a86",
+      "bytes": 133663,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/node-seat-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/e789651258def447/node-seat-0.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/e789651258def447/node-seat-0.jpg",
+      "sha256": "e789651258def447b90717f461d69426a1e062fff0eed1721a84c6c895057172",
+      "bytes": 141959,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/node-seat-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/276cecd8a5b72ac7/node-seat-100.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/276cecd8a5b72ac7/node-seat-100.jpg",
+      "sha256": "276cecd8a5b72ac7ba82e81143f713cebeb1bcfb97d045f267f4e2aac422b4ec",
+      "bytes": 136277,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/node-seat-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/b4476899988a5458/node-seat-50.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/b4476899988a5458/node-seat-50.jpg",
+      "sha256": "b4476899988a545812878fda40cb560718c839ab09b9b593d121b5d0348ac69e",
+      "bytes": 138947,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/node-upper-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/f8c8b2aa54ff7947/node-upper-0.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/f8c8b2aa54ff7947/node-upper-0.jpg",
+      "sha256": "f8c8b2aa54ff79474e8cc6dcab37eacb2c2befeb645099674112e68b368486bb",
+      "bytes": 135982,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/node-upper-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/a2c9e0fdd7904d48/node-upper-100.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/a2c9e0fdd7904d48/node-upper-100.jpg",
+      "sha256": "a2c9e0fdd7904d489e9fc29035d6d9b8a70631cca2e2cac59735048c5d0d4a0f",
+      "bytes": 136186,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/node-upper-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/a272b0579d65b7ef/node-upper-50.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/a272b0579d65b7ef/node-upper-50.jpg",
+      "sha256": "a272b0579d65b7ef6dd3c87ca896cb043ec9e239cbe2a8fdd8ac310550014dfe",
+      "bytes": 136389,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/a9e5ca694125eafa/photo-0.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/a9e5ca694125eafa/photo-0.jpg",
+      "sha256": "a9e5ca694125eafa896aeb231266f690a6a0ff7553cad727f75414fecd2b33ca",
+      "bytes": 40534,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-1.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/5771276a5c52a1cd/photo-1.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/5771276a5c52a1cd/photo-1.jpg",
+      "sha256": "5771276a5c52a1cdeb10037ad552a4a9f384b8142211c711c01b330c527598cb",
+      "bytes": 41354,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-2.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/092c48238e7b25ce/photo-2.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/092c48238e7b25ce/photo-2.jpg",
+      "sha256": "092c48238e7b25ce32d187d56799df5ad5139d493d8407d9f613764a846a4ad8",
+      "bytes": 315737,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-3.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/b62a13d9e55840fa/photo-3.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/b62a13d9e55840fa/photo-3.jpg",
+      "sha256": "b62a13d9e55840fa756ef3ac3d351530f5cf3e147a23181b9e8d23991e5c23b0",
+      "bytes": 41357,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-4.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/0f1d28fc79c3f45d/photo-4.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/0f1d28fc79c3f45d/photo-4.jpg",
+      "sha256": "0f1d28fc79c3f45d77c415abc138f625709ebb4ef609bc2c4423e2b8c544175d",
+      "bytes": 41135,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-5.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/6842092c26cdd1ec/photo-5.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/6842092c26cdd1ec/photo-5.jpg",
+      "sha256": "6842092c26cdd1ecb099f661729da39048abb944c1eec1c0365f31cf8fb45a93",
+      "bytes": 189255,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-6.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/6e265f9030993806/photo-6.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/6e265f9030993806/photo-6.jpg",
+      "sha256": "6e265f903099380681f4590e9fe1b9e1354a1d971392c06f0ace96f59bc67f97",
+      "bytes": 41344,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-7.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/0d644a0b6c65a57f/photo-7.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/0d644a0b6c65a57f/photo-7.jpg",
+      "sha256": "0d644a0b6c65a57f728d3b1ed5dd4d419688a9eeb84aeb01d11757d75ff99769",
+      "bytes": 160425,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-8.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/c46d36f3be506aca/photo-8.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/c46d36f3be506aca/photo-8.jpg",
+      "sha256": "c46d36f3be506aca156ebf5c9cdc535880fb013f3b4a6735d90f2effc2e82d25",
+      "bytes": 175223,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-link-before-fix.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/286251b78734ab20/photo-link-before-fix.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/286251b78734ab20/photo-link-before-fix.jpg",
+      "sha256": "286251b78734ab20916f04acc1363efe3c0d1fa3aab2f5ce6aa75c026cdbe84c",
+      "bytes": 109959,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-link-corrected.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/f004332f5e1ca9ff/photo-link-corrected.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/f004332f5e1ca9ff/photo-link-corrected.jpg",
+      "sha256": "f004332f5e1ca9ff528d96f8ca2fabe87fa0f4b31ff96dc1253878dd79652d92",
+      "bytes": 114258,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-painted-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/3a9b91dde5372b33/photo-painted-0.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/3a9b91dde5372b33/photo-painted-0.jpg",
+      "sha256": "3a9b91dde5372b33583b4e140dde5173a922868407675f08950405066543fe24",
+      "bytes": 321559,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-painted-1.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/9ca588964e8097a3/photo-painted-1.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/9ca588964e8097a3/photo-painted-1.jpg",
+      "sha256": "9ca588964e8097a388f5972eea17478d1397d94c49bf30f246e55f682a905b4f",
+      "bytes": 299080,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-painted-2.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/c40abee31c157e27/photo-painted-2.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/c40abee31c157e27/photo-painted-2.jpg",
+      "sha256": "c40abee31c157e270e8b56bc8a9e48505de77fc03b764e450f0acb421ed48df8",
+      "bytes": 315652,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-painted-3.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/dfefd04051e93dec/photo-painted-3.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/dfefd04051e93dec/photo-painted-3.jpg",
+      "sha256": "dfefd04051e93decbed3a05a0bd677c416fc6e2d9382e951f250764d55276642",
+      "bytes": 255187,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-painted-4.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/7b43171920e8db6c/photo-painted-4.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/7b43171920e8db6c/photo-painted-4.jpg",
+      "sha256": "7b43171920e8db6c525a6e43e4c010584f39e535669eeb2743aab5c416b1892b",
+      "bytes": 178280,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-painted-5.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/57c43177fa3d946c/photo-painted-5.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/57c43177fa3d946c/photo-painted-5.jpg",
+      "sha256": "57c43177fa3d946c53bc15300f50a3e91bfe846f6e109e0704f67ea6aaf959dd",
+      "bytes": 191022,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-painted-6.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/7a65234aaac4ffdf/photo-painted-6.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/7a65234aaac4ffdf/photo-painted-6.jpg",
+      "sha256": "7a65234aaac4ffdfa3d563647fca4d240be26722b86132ddb57f92b839ecde06",
+      "bytes": 209389,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-painted-7.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/890bc5bffae816bc/photo-painted-7.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/890bc5bffae816bc/photo-painted-7.jpg",
+      "sha256": "890bc5bffae816bcd8a8b03c5fd24004000a44a6f28c658ca0327c38cc1bf6ba",
+      "bytes": 161616,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/photo-painted-8.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/c88e3e5d959d6253/photo-painted-8.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/c88e3e5d959d6253/photo-painted-8.jpg",
+      "sha256": "c88e3e5d959d6253e2ea35a5dff1835c6fc53b13ce2b596bf547cff6f5dee1e1",
+      "bytes": 176713,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/public-browser-final.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/76d43bc895d0dc43/public-browser-final.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/76d43bc895d0dc43/public-browser-final.jpg",
+      "sha256": "76d43bc895d0dc43f47ee607094383782823789056e14ae5229a35e306970944",
+      "bytes": 169169,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/public-browser.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/40f27eb50ccb6e2d/public-browser.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/40f27eb50ccb6e2d/public-browser.jpg",
+      "sha256": "40f27eb50ccb6e2d7ffdb77f7a906f811b2d6c0fd2df4961052744035d1806ff",
+      "bytes": 279601,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/section-x.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/82b3af215196a91c/section-x.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/82b3af215196a91c/section-x.jpg",
+      "sha256": "82b3af215196a91c4f65b94fae4298f92d343de216bdd7bd076f7954e98de192",
+      "bytes": 140190,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/section-z.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/f1c4040d35d76435/section-z.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/f1c4040d35d76435/section-z.jpg",
+      "sha256": "f1c4040d35d764358c2b6f51b3f6712f168e3007db218ec21a67c49f9fe15630",
+      "bytes": 126231,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/side.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/527786c2ec525567/side.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/527786c2ec525567/side.jpg",
+      "sha256": "527786c2ec52556760bef07010f2702ded4442251c294be391f7584c0683778b",
+      "bytes": 130069,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/source-snapshot/chinese-architecture/jinci/previews/whole.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/source-snapshot/chinese-architecture/jinci/previews/a47f4df74fec821e/whole.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/source-snapshot/chinese-architecture/jinci/previews/a47f4df74fec821e/whole.jpg",
+      "sha256": "a47f4df74fec821e5fde748ada774faf20a37249fd456f84578e41dafe1b86c4",
+      "bytes": 43661,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/top.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/53d5c7fcdbf896d8/top.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/53d5c7fcdbf896d8/top.jpg",
+      "sha256": "53d5c7fcdbf896d871f013705c5730ed222bb1023a21dabf76273f7e11b1e525",
+      "bytes": 136518,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/viewport-override-rejected-local.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/a4095eca637144fb/viewport-override-rejected-local.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/a4095eca637144fb/viewport-override-rejected-local.jpg",
+      "sha256": "a4095eca637144fb7b30c0641ebbc50a9d2c2780492f441ca5a641ea0f2aeb3a",
+      "bytes": 114515,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/viewport-override-rejected-whole.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/133cea6efe17c83c/viewport-override-rejected-whole.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/133cea6efe17c83c/viewport-override-rejected-whole.jpg",
+      "sha256": "133cea6efe17c83cd1b2b264605e836fcb1409aa9f622d31f98ef30311756a88",
+      "bytes": 111219,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/whole-explode-0.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/9b62a04cc6327384/whole-explode-0.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/9b62a04cc6327384/whole-explode-0.jpg",
+      "sha256": "9b62a04cc6327384d9c2246a45bf6a032d51cb3ff15b348a03b692454985b48a",
+      "bytes": 137791,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/whole-explode-100.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/afb04ad6273b5e8b/whole-explode-100.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/afb04ad6273b5e8b/whole-explode-100.jpg",
+      "sha256": "afb04ad6273b5e8b55999044f9c28bcb2a06059c1cb3487615ba5e2d892db12a",
+      "bytes": 161416,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/whole-explode-50.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/1f2612cf0b84d5a6/whole-explode-50.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/1f2612cf0b84d5a6/whole-explode-50.jpg",
+      "sha256": "1f2612cf0b84d5a6b8be5a3500b39b0fcaca11d9f6daeb0d6b87f03d0cec38ac",
+      "bytes": 151554,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/jinci/updates/02/evidence/whole-reverse-light.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/jinci/updates/02/evidence/e68f353b6ccc9a64/whole-reverse-light.jpg",
+      "key": "chinese-architecture/jinci/updates/02/evidence/e68f353b6ccc9a64/whole-reverse-light.jpg",
+      "sha256": "e68f353b6ccc9a64b5c34452e75525f95352f91239b5e40f26bf610d9d800ce7",
+      "bytes": 56918,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/fengxian-ceiling-2010/3641211752991ed5/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/fengxian-ceiling-2010/3641211752991ed5/2a758b48c87dbf07/display.webp",
+      "key": "chinese-architecture/photos/fallback/fengxian-ceiling-2010/3641211752991ed5/2a758b48c87dbf07/display.webp",
+      "sha256": "2a758b48c87dbf0793e44d08d9f39f87c2e3a6640fe325a183b1b330459ef977",
+      "bytes": 284952,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/fengxian-ceiling-2010/3641211752991ed5/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/fengxian-ceiling-2010/3641211752991ed5/31c039cc2cf69007/full.webp",
+      "key": "chinese-architecture/photos/fallback/fengxian-ceiling-2010/3641211752991ed5/31c039cc2cf69007/full.webp",
+      "sha256": "31c039cc2cf6900713b6f57d096f5438a6810c01e9c41fa99e58c9d4e992b423",
+      "bytes": 1454254,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/fengxian-ceiling-2010/3641211752991ed5/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/fengxian-ceiling-2010/3641211752991ed5/027f7ef5fa624004/thumb.webp",
+      "key": "chinese-architecture/photos/fallback/fengxian-ceiling-2010/3641211752991ed5/027f7ef5fa624004/thumb.webp",
+      "sha256": "027f7ef5fa6240049ef97fb4335368ebb1c72f4cec63b0c5b88270e8ee9ee7e9",
+      "bytes": 48656,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/fengxian-exhibit-context-2010/b4bede2c03b5371a/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/fengxian-exhibit-context-2010/b4bede2c03b5371a/649195c3226f479f/display.webp",
+      "key": "chinese-architecture/photos/fallback/fengxian-exhibit-context-2010/b4bede2c03b5371a/649195c3226f479f/display.webp",
+      "sha256": "649195c3226f479f752b386a801bc7903d26e1d21de339eaa3d7048eb25085fb",
+      "bytes": 263010,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/fengxian-exhibit-context-2010/b4bede2c03b5371a/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/fengxian-exhibit-context-2010/b4bede2c03b5371a/ce88a16a4979aab9/full.webp",
+      "key": "chinese-architecture/photos/fallback/fengxian-exhibit-context-2010/b4bede2c03b5371a/ce88a16a4979aab9/full.webp",
+      "sha256": "ce88a16a4979aab981c916da708bdcfe7a13802e9becbc19f9414e707bd3ae9e",
+      "bytes": 1169526,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/fengxian-exhibit-context-2010/b4bede2c03b5371a/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/fengxian-exhibit-context-2010/b4bede2c03b5371a/74d73c41e1b0bb31/thumb.webp",
+      "key": "chinese-architecture/photos/fallback/fengxian-exhibit-context-2010/b4bede2c03b5371a/74d73c41e1b0bb31/thumb.webp",
+      "sha256": "74d73c41e1b0bb311f6bd98d34e6e3426128b57e2b89633753eb179f55128483",
+      "bytes": 41514,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/fengxian-interior-2010/d51f841364ba05fc/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/fengxian-interior-2010/d51f841364ba05fc/2fbc313eba025ba6/display.webp",
+      "key": "chinese-architecture/photos/fallback/fengxian-interior-2010/d51f841364ba05fc/2fbc313eba025ba6/display.webp",
+      "sha256": "2fbc313eba025ba64aa0d6056a64fc86d197ca908d2822dff0fc5715900d47d8",
+      "bytes": 356522,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/fengxian-interior-2010/d51f841364ba05fc/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/fengxian-interior-2010/d51f841364ba05fc/40f80478d4f12364/full.webp",
+      "key": "chinese-architecture/photos/fallback/fengxian-interior-2010/d51f841364ba05fc/40f80478d4f12364/full.webp",
+      "sha256": "40f80478d4f1236423f81395a75cbc4196ad8465a96abccaa07b12c073c1bac9",
+      "bytes": 1572714,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/fengxian-interior-2010/d51f841364ba05fc/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/fengxian-interior-2010/d51f841364ba05fc/2b299065490eb64d/thumb.webp",
+      "key": "chinese-architecture/photos/fallback/fengxian-interior-2010/d51f841364ba05fc/2b299065490eb64d/thumb.webp",
+      "sha256": "2b299065490eb64d8e92709c413aa67c558709b68eb56a3fb59cfa64d03878c5",
+      "bytes": 48524,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-bracket/13edd208b7e44466/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-bracket/13edd208b7e44466/1adcab88d85db1b1/display.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-bracket/13edd208b7e44466/1adcab88d85db1b1/display.webp",
+      "sha256": "1adcab88d85db1b15d2a83dcb18a70f0659a6692bf5410337706a14ac077ede1",
+      "bytes": 538136,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-bracket/13edd208b7e44466/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-bracket/13edd208b7e44466/a3d41adc15b3db5f/full.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-bracket/13edd208b7e44466/a3d41adc15b3db5f/full.webp",
+      "sha256": "a3d41adc15b3db5f498a1d395f181394c917218ae09391a5b8433e7f99047f9f",
+      "bytes": 1785476,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-bracket/13edd208b7e44466/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-bracket/13edd208b7e44466/f937965cdcc1a8d4/thumb.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-bracket/13edd208b7e44466/f937965cdcc1a8d4/thumb.webp",
+      "sha256": "f937965cdcc1a8d4c697ba090d3f36f45f79e756e4c3d945ea19bd06e63a5dfb",
+      "bytes": 56804,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-dragon-detail-2/42dfe176f5ae7d37/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-dragon-detail-2/42dfe176f5ae7d37/184225bc8dd18e8f/display.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-dragon-detail-2/42dfe176f5ae7d37/184225bc8dd18e8f/display.webp",
+      "sha256": "184225bc8dd18e8fcf639e3c577f20ddb0bb81231362e1c51e9267cb75ce74e2",
+      "bytes": 430364,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-dragon-detail-2/42dfe176f5ae7d37/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-dragon-detail-2/42dfe176f5ae7d37/838286867405a46c/full.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-dragon-detail-2/42dfe176f5ae7d37/838286867405a46c/full.webp",
+      "sha256": "838286867405a46ccf0e78a02646da5e7622ee28ca791d13e7a2b00e68c59031",
+      "bytes": 1354224,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-dragon-detail-2/42dfe176f5ae7d37/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-dragon-detail-2/42dfe176f5ae7d37/ffcc8722e33a36ee/thumb.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-dragon-detail-2/42dfe176f5ae7d37/ffcc8722e33a36ee/thumb.webp",
+      "sha256": "ffcc8722e33a36eed2d538209e40f3e13f60a4f2919110d60b9f8eb8fe26c5bd",
+      "bytes": 51982,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-dragon-detail/5d4380ad7c17dc16/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-dragon-detail/5d4380ad7c17dc16/9a3d85fd2d15950b/display.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-dragon-detail/5d4380ad7c17dc16/9a3d85fd2d15950b/display.webp",
+      "sha256": "9a3d85fd2d15950bd9ab61e0196d3ba211e4fbfc396323017a52cfaa0a71027f",
+      "bytes": 378790,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-dragon-detail/5d4380ad7c17dc16/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-dragon-detail/5d4380ad7c17dc16/6855d7a3df922350/full.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-dragon-detail/5d4380ad7c17dc16/6855d7a3df922350/full.webp",
+      "sha256": "6855d7a3df922350b7ec2a3a58e508d35ede85874f4dc2684c0fc9be76eb3ecf",
+      "bytes": 1193642,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-dragon-detail/5d4380ad7c17dc16/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-dragon-detail/5d4380ad7c17dc16/e93ebaf2165ccac4/thumb.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-dragon-detail/5d4380ad7c17dc16/e93ebaf2165ccac4/thumb.webp",
+      "sha256": "e93ebaf2165ccac45feb0403ab0a07413a7fe58bf8a1eb214418a4f5065c90d6",
+      "bytes": 46052,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-dragon/a59b04aee025a2ee/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-dragon/a59b04aee025a2ee/f304a021d4f02e4a/display.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-dragon/a59b04aee025a2ee/f304a021d4f02e4a/display.webp",
+      "sha256": "f304a021d4f02e4a0d0682867d1036b9a39dba08f7ca6f7ac4eb42ffd2ce509a",
+      "bytes": 610500,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-dragon/a59b04aee025a2ee/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-dragon/a59b04aee025a2ee/0777d662e750f859/full.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-dragon/a59b04aee025a2ee/0777d662e750f859/full.webp",
+      "sha256": "0777d662e750f8597a272991ad6607610376046dd3866aec7a4b49e0f5bcba10",
+      "bytes": 3332956,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-dragon/a59b04aee025a2ee/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-dragon/a59b04aee025a2ee/7b3636091964e507/thumb.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-dragon/a59b04aee025a2ee/7b3636091964e507/thumb.webp",
+      "sha256": "7b3636091964e5075f003a7cd35884235764d6521e1227df25bf9d9c9147e815",
+      "bytes": 64218,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-front-2011/a5b25c805ae2a84f/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-front-2011/a5b25c805ae2a84f/c8e94b8c9a41c5b1/display.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-front-2011/a5b25c805ae2a84f/c8e94b8c9a41c5b1/display.webp",
+      "sha256": "c8e94b8c9a41c5b14d686644aebd2381fbb0181e5b3d9cb3ddd6f940e0b035d0",
+      "bytes": 510932,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-front-2011/a5b25c805ae2a84f/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-front-2011/a5b25c805ae2a84f/3300f544251d0927/full.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-front-2011/a5b25c805ae2a84f/3300f544251d0927/full.webp",
+      "sha256": "3300f544251d0927763e98e4a31211169fe45b17c27797d5ea88622519506d74",
+      "bytes": 3785104,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-front-2011/a5b25c805ae2a84f/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-front-2011/a5b25c805ae2a84f/e19dd46daed2e7a0/thumb.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-front-2011/a5b25c805ae2a84f/e19dd46daed2e7a0/thumb.webp",
+      "sha256": "e19dd46daed2e7a0d94e2aafc6de2bfaf53a70ce06182536f8e1b7672e4681d6",
+      "bytes": 53412,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-front-sun/ea19117069055fe1/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-front-sun/ea19117069055fe1/48bb51580d81d751/display.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-front-sun/ea19117069055fe1/48bb51580d81d751/display.webp",
+      "sha256": "48bb51580d81d7514a1368629bd7ebce76969d213523794970c143d0cd5d72a0",
+      "bytes": 541212,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-front-sun/ea19117069055fe1/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-front-sun/ea19117069055fe1/2c30fe1c799c461c/full.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-front-sun/ea19117069055fe1/2c30fe1c799c461c/full.webp",
+      "sha256": "2c30fe1c799c461cc6e40b9896423ffeafd6cb3203faa907dab0d434e980d200",
+      "bytes": 3357970,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-front-sun/ea19117069055fe1/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-front-sun/ea19117069055fe1/85e4f1a91ec2dd13/thumb.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-front-sun/ea19117069055fe1/85e4f1a91ec2dd13/thumb.webp",
+      "sha256": "85e4f1a91ec2dd13412c6f76ea64caa91f5ebce2b0fbbe081fb4d686357ac039",
+      "bytes": 55114,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-oblique/18ca9411278036eb/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-oblique/18ca9411278036eb/ceed42b703948c9b/display.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-oblique/18ca9411278036eb/ceed42b703948c9b/display.webp",
+      "sha256": "ceed42b703948c9b83cb21c56880473a576f54570f492be8f7dc0c03e476933e",
+      "bytes": 441766,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-oblique/18ca9411278036eb/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-oblique/18ca9411278036eb/1e9248f91794dbd5/full.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-oblique/18ca9411278036eb/1e9248f91794dbd5/full.webp",
+      "sha256": "1e9248f91794dbd5c7aa1b51113dcba7ada975bf9be0bec6831ef472d185db9a",
+      "bytes": 3045528,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-oblique/18ca9411278036eb/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-oblique/18ca9411278036eb/95357e717b1be037/thumb.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-oblique/18ca9411278036eb/95357e717b1be037/thumb.webp",
+      "sha256": "95357e717b1be0376739cc3c087fa2124b670b476dd8eea5ffeff622828d816d",
+      "bytes": 47796,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-porch/43e7094245dadb33/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-porch/43e7094245dadb33/c503310f21e9aff5/display.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-porch/43e7094245dadb33/c503310f21e9aff5/display.webp",
+      "sha256": "c503310f21e9aff5fef0c62e5f077ff1b2b85acb268f897a8cba86f3fcffc6b8",
+      "bytes": 492160,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-porch/43e7094245dadb33/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-porch/43e7094245dadb33/2a585badd93cbfed/full.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-porch/43e7094245dadb33/2a585badd93cbfed/full.webp",
+      "sha256": "2a585badd93cbfed9decdf3115a0cc29eb76b6333039e2c57edcc47dd064de79",
+      "bytes": 3521942,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-porch/43e7094245dadb33/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-porch/43e7094245dadb33/aee8300083b6fbd5/thumb.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-porch/43e7094245dadb33/aee8300083b6fbd5/thumb.webp",
+      "sha256": "aee8300083b6fbd52f5e58239e796cab41a1629b16fec994cd236fedb62df5a1",
+      "bytes": 52810,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-side/48b80ad643f87154/display.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-side/48b80ad643f87154/905603b560e2b482/display.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-side/48b80ad643f87154/905603b560e2b482/display.webp",
+      "sha256": "905603b560e2b48254fdd91b211ecd937c4ea1aad6966d72b0ea4db2b1980032",
+      "bytes": 547560,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-side/48b80ad643f87154/full.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-side/48b80ad643f87154/c7ebe060dae135c8/full.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-side/48b80ad643f87154/c7ebe060dae135c8/full.webp",
+      "sha256": "c7ebe060dae135c8709a2762dda87bc0c23652393539803aa4377cb48c2689b9",
+      "bytes": 1828080,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "chinese-architecture/photos/fallback/jinci-side/48b80ad643f87154/thumb.webp": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/jinci-side/48b80ad643f87154/d49935d8359b7612/thumb.webp",
+      "key": "chinese-architecture/photos/fallback/jinci-side/48b80ad643f87154/d49935d8359b7612/thumb.webp",
+      "sha256": "d49935d8359b7612c1d2620583770c67d281a47b105624eefbf3315e813b3359",
+      "bytes": 60454,
+      "contentType": "image/webp",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "travel-in-china/assets/chengdu-culture.png": {
+      "url": "https://readforfun-img.chunyangwen.com/travel-in-china/assets/56a99d4f2af00cab/chengdu-culture.png",
+      "key": "travel-in-china/assets/56a99d4f2af00cab/chengdu-culture.png",
+      "sha256": "56a99d4f2af00cab9cd0b9f2b6ac85b402f517939bc784d543e75c1d2545ce6b",
+      "bytes": 4052765,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "travel-in-china/assets/chengdu-scenes.png": {
+      "url": "https://readforfun-img.chunyangwen.com/travel-in-china/assets/692246137f50a03d/chengdu-scenes.png",
+      "key": "travel-in-china/assets/692246137f50a03d/chengdu-scenes.png",
+      "sha256": "692246137f50a03d73a4fcad1f69845323ec79188ffd0abba861d2b6f2fec22e",
+      "bytes": 3906880,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "travel-in-china/assets/sources/nbs-divisions-2024.jpg": {
+      "url": "https://readforfun-img.chunyangwen.com/travel-in-china/assets/sources/002f3ad6683b4bea/nbs-divisions-2024.jpg",
+      "key": "travel-in-china/assets/sources/002f3ad6683b4bea/nbs-divisions-2024.jpg",
+      "sha256": "002f3ad6683b4bea72272497fe155eebdffb4ca606bd205beee14ed904693407",
+      "bytes": 209997,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "travel-in-china/mockups/01-atlas.png": {
+      "url": "https://readforfun-img.chunyangwen.com/travel-in-china/mockups/89e10081b070b8a3/01-atlas.png",
+      "key": "travel-in-china/mockups/89e10081b070b8a3/01-atlas.png",
+      "sha256": "89e10081b070b8a38688f909f026783c6fb1eb778905ff393fcf7701ef58ccba",
+      "bytes": 2639808,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "travel-in-china/mockups/02-selected-chengdu.png": {
+      "url": "https://readforfun-img.chunyangwen.com/travel-in-china/mockups/51f8b309227f13dc/02-selected-chengdu.png",
+      "key": "travel-in-china/mockups/51f8b309227f13dc/02-selected-chengdu.png",
+      "sha256": "51f8b309227f13dc796b78f3a07f87d0f0fb0f20445a6c17b1e0cc9dc1d268f9",
+      "bytes": 2543630,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "travel-in-china/mockups/03-chengdu.png": {
+      "url": "https://readforfun-img.chunyangwen.com/travel-in-china/mockups/2d891ad40c4a56fd/03-chengdu.png",
+      "key": "travel-in-china/mockups/2d891ad40c4a56fd/03-chengdu.png",
+      "sha256": "2d891ad40c4a56fd5bcaf31a1ca80c877fbf1ee0f2a417981b08151e5506d77b",
+      "bytes": 2850356,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "travel-in-china/mockups/04-food.png": {
+      "url": "https://readforfun-img.chunyangwen.com/travel-in-china/mockups/06efaa3a02090c8e/04-food.png",
+      "key": "travel-in-china/mockups/06efaa3a02090c8e/04-food.png",
+      "sha256": "06efaa3a02090c8e460212692b9cb60288db354483bcc5055e5c4e29335efa20",
+      "bytes": 2657175,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "travel-in-china/mockups/05-teahouse.png": {
+      "url": "https://readforfun-img.chunyangwen.com/travel-in-china/mockups/62734e1d1a211cae/05-teahouse.png",
+      "key": "travel-in-china/mockups/62734e1d1a211cae/05-teahouse.png",
+      "sha256": "62734e1d1a211cae3c24228e75ec27516b65ae31064596da9efe1c4bfcb6d670",
+      "bytes": 2506282,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "travel-in-china/mockups/06-mobile.png": {
+      "url": "https://readforfun-img.chunyangwen.com/travel-in-china/mockups/b410a5171186ca8a/06-mobile.png",
+      "key": "travel-in-china/mockups/b410a5171186ca8a/06-mobile.png",
+      "sha256": "b410a5171186ca8a3aa56f19cb87b440cc8f58f8927e52a982f43d4cdd13cee5",
+      "bytes": 2576284,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    }
+  }
+}

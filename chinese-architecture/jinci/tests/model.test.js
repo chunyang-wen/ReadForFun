@@ -5,7 +5,7 @@ test('front upper row omits four full-height posts; the periphery stays continuo
 test('all ground posts rest on distinct bases and platform meets the base feet',()=>{for(const c of m.records.filter(r=>r.type==='column')){const b=m.records.find(r=>r.id===c.support+'/1');assert.ok(b,c.id);near(c.foot,b.endpoints[1][1]);near(b.endpoints[0][1],.64);}near(m.records.find(r=>r.id==='platform/1').position[1]+.32,.64);});
 test('four porch posts bear on the center surface of their dedicated sloped beams',()=>{for(const c of m.records.filter(r=>r.type==='short')){const b=m.records.find(r=>r.id===c.support+'/1');assert.ok(b);near(c.foot,b.topAtCenter);assert.ok(c.position[2]>=b.endpoints[0][2]&&c.position[2]<=b.endpoints[1][2]);assert.ok(c.foot>.8);}assert.ok(!m.records.some(r=>r.type==='fork'||r.type==='caisson'));});
 test('main frame lower faces meet central bracket bearing; ends have separate Ding beams',()=>{const main=m.records.filter(r=>r.role==='six'||r.role==='milk');for(const r of main)near(r.position[1]-r.scale[1]/2,11.55);assert.equal(m.records.filter(r=>r.role==='ding').length,6);assert.equal(m.records.filter(r=>r.role==='six-through').length,1);});
-test('sloped beams use opposite high faces toward the central bay',()=>{for(const b of m.records.filter(r=>r.role==='six'||r.role==='milk'||r.role==='four'||r.role==='flat'))assert.equal(b.highSide,b.position[0]<0?'+X':'-X');});
+test('sloped beams use opposite high faces toward the central bay',()=>{for(const b of m.records.filter(r=>r.role==='six'||r.role==='milk'||r.role==='four'||r.role==='flat'))assert.equal(b.highSide,b.section==='rectangular'?'none':b.position[0]<0?'+X':'-X');});
 test('hump slopes fit the host beam top at both sides, not just their center',()=>{const d=nodes.seat,lower=d.records.find(r=>r.id==='seat/lower/1'),h=d.records.find(r=>r.id==='seat/hump/1');near(h.position[1],lower.topAtCenter);const beamMesh=d.meshes.find(v=>v.userData.records.includes(lower)),humpMesh=d.meshes.find(v=>v.userData.records.includes(h));const bm=new T.Matrix4(),hm=new T.Matrix4();beamMesh.getMatrixAt(0,bm);humpMesh.getMatrixAt(0,hm);for(const x of [-.4,.4]){const expected=lower.position[1]+lower.scale[1]*(.4-x/lower.scale[0]*.2);const bottom=h.position[1]-x/h.scale[0]*.2*h.scale[1];near(expected,bottom);}assert.ok(beamMesh&&humpMesh);});
 test('every stacked support has positive height and starts on a hump top',()=>{for(const p of m.records.filter(r=>r.role==='seat')){const h=m.records.find(r=>r.type==='hump'&&r.position[0]===p.position[0]&&r.position[2]===p.position[2]&&Math.abs(r.top-p.foot)<1e-6);assert.ok(h,p.id);near(p.position[1]-p.scale[1]/2,h.top);assert.ok(p.head>p.foot);}});
 test('bracket scopes distinguish two/three steps and horizontal outward mouths',()=>{for(const [node,n] of [['lower',2],['upper',3]]){const r=nodes[node].records;assert.equal(new Set(r.filter(r=>r.step).map(r=>r.step)).size,n);assert.ok(r.filter(r=>r.type==='ang').every(r=>r.horizontal));const b=r.find(r=>r.bearing);near(b.position[1]-.09,b.seatY);}});
@@ -14,7 +14,7 @@ test('lower skirt keeps its central opening and upper roof has two gable panels'
 test('eight front dragon assemblies stay in the decorative system beside continuous posts',()=>{const rs=m.records.filter(r=>r.type==='dragon');assert.equal(new Set(rs.map(r=>r.key)).size,8);assert.ok(rs.every(r=>r.layer==='ceiling'));assert.equal(nodes.dragon.records.filter(r=>r.type==='column').length,1);assert.ok(nodes.dragon.records.filter(r=>r.type==='dragon').length>100);assert.ok(!m.records.some(r=>r.type==='paint'));});
 test('unique traceable records and valid transforms, geometry and bounds in every scope',()=>{for(const model of [m,...Object.values(nodes)]){assert.equal(new Set(model.records.map(r=>r.id)).size,model.records.length);for(const r of model.records){assert.ok(r.position.every(Number.isFinite));assert.ok(r.scale.every(v=>Number.isFinite(v)&&v>0));assert.ok(r.source&&r.status);}for(const mesh of model.meshes){assert.ok(mesh.geometry.attributes.position.array.every(Number.isFinite));assert.ok(mesh.boundingBox.min.toArray().every(Number.isFinite));const mat=new T.Matrix4();for(let i=0;i<mesh.count;i++){mesh.getMatrixAt(i,mat);assert.ok(mat.elements.every(Number.isFinite));}}}});
 
-test('whole-hall hump underside follows each host sloped beam at both contact edges',()=>{for(const hp of m.records.filter(r=>r.type==='hump'&&r.contactCenter)){const host=m.records.find(b=>b.type==='frame'&&b.endpoints&&b.position[0]===hp.position[0]&&Math.abs(b.topAtCenter-hp.contactCenter)<1e-6&&hp.position[2]>=b.endpoints[0][2]&&hp.position[2]<=b.endpoints[1][2]);assert.ok(host,hp.id);near(hp.scale[1]/hp.scale[0],host.scale[1]/host.scale[0]);}});
+test('whole-hall hump underside follows each host sloped beam at both contact edges',()=>{for(const hp of m.records.filter(r=>r.type==='hump'&&r.contactCenter)){const host=m.records.find(b=>b.type==='frame'&&b.endpoints&&b.position[0]===hp.position[0]&&Math.abs(b.topAtCenter-hp.contactCenter)<1e-6&&hp.position[2]>=b.endpoints[0][2]&&hp.position[2]<=b.endpoints[1][2]);assert.ok(host,hp.id);if(host.section==='rectangular')assert.equal(hp.undersideSlope,0);else near(hp.scale[1]/hp.scale[0],host.scale[1]/host.scale[0]);}});
 test('modeled rafter underside touches purlin crowns at the long-slope stations',()=>{for(const p of m.records.filter(r=>r.id.startsWith('purlin/'))){near(p.position[1]+p.scale[0],surfaceY(0,p.position[2])-.035-.052);}});
 
 test('internal receiving beam seats on capped internal supports and carries main beam feet',()=>{const b=m.records.find(r=>r.id==='slot/upper-receiving/1');for(const p of m.records.filter(r=>r.id.startsWith('slot/inner-bearing/'))){near(p.position[1]+p.scale[1]/2,b.position[1]-b.scale[2]/2);}for(const r of m.records.filter(r=>r.role==='six'||r.role==='milk'))near(r.position[1]-r.scale[1]/2,b.position[1]+b.scale[2]/2);});
@@ -23,3 +23,38 @@ test('each decorative dragon links to a real continuous host column',()=>{for(co
 test('three split five-rafter frames have separate front Zha members, unlike the through variant',()=>{const through=m.records.filter(r=>r.role==='six-through'),five=m.records.filter(r=>r.role==='five'),zha=m.records.filter(r=>r.role==='zha');assert.equal(through.length,1);assert.equal(five.length,3);assert.equal(zha.length,3);for(const r of five){const f=zha.find(v=>v.position[0]===r.position[0]);near(r.endpoints[1][2],f.endpoints[0][2]);assert.ok(r.scale[2]<through[0].scale[2]);near(f.endpoints[1][2],through[0].endpoints[1][2]);}});
 
 test('intermediate outward mouths differ from column-head variants without asserting a full joint taxonomy',()=>{for(const kind of ['lower','upper']){const head=m.records.filter(r=>r.kind===kind&&r.type==='ang'),flat=m.records.filter(r=>r.kind===kind+'-flat'&&r.type==='ang');assert.ok(head.length&&flat.length);const headSteps=new Set(head.map(r=>r.step)),flatSteps=new Set(flat.map(r=>r.step));assert.equal(headSteps.size,kind==='lower'?2:1);assert.equal(flatSteps.size,kind==='lower'?1:2);}});
+
+test('Jinci current-state frame preserves the two documented rectangular replacements',()=>{
+ const rs=m.records.filter(r=>r.section==='rectangular');assert.deepEqual(rs.map(r=>[r.position[0],r.role]).sort((a,b)=>a[0]-b[0]),[[-2.85,'four'],[6.75,'five']]);
+ for(const host of rs){const hp=m.records.filter(r=>r.type==='hump'&&r.contactCenter&&r.position[0]===host.position[0]&&Math.abs(r.contactCenter-host.topAtCenter)<1e-6);assert.ok(hp.length);for(const h of hp){assert.equal(h.undersideSlope,0);near(h.position[1],host.position[1]+host.scale[1]/2);}}
+});
+test('all eight covering fields and their ceramic surfaces face upwards with no degenerate triangles',()=>{
+ const panels=m.meshes.filter(v=>v.userData.records.some(r=>r.roofKind||r.surfaceRole==='ceramic'));
+ assert.equal(panels.length,24); // 8 substrate patches + body / border for each of 8 slopes.
+ for(const mesh of panels){const p=mesh.geometry.attributes.position,ix=mesh.geometry.index;for(let k=0;k<(ix?ix.count:p.count);k+=3){const vertices=[0,1,2].map(n=>new T.Vector3().fromBufferAttribute(p,ix?ix.getX(k+n):k+n));const n=vertices[1].sub(vertices[0]).cross(vertices[2].sub(vertices[0]));assert.ok(n.lengthSq()>1e-14,mesh.userData.records[0].id);assert.ok(n.y>0,mesh.userData.records[0].id);}}
+ assert.equal(m.records.filter(r=>r.surfaceRole==='ceramic').length,16);
+});
+test('all upper rafter cylinder vertices are below this hall roof covering within its footprint',()=>{
+ let covered=0,outside=0,max=-Infinity;
+ for(const mesh of m.meshes.filter(v=>v.userData.layer==='rafters')){const p=mesh.geometry.attributes.position,matrix=new T.Matrix4();for(let i=0;i<mesh.count;i++){
+  const r=mesh.userData.records[i];if(r.type!=='rafter'||!r.endpoints||r.endpoints[0][1]<11)continue;
+  mesh.getMatrixAt(i,matrix);for(let j=0;j<p.count;j++){const v=new T.Vector3().fromBufferAttribute(p,j).applyMatrix4(matrix);if(Math.abs(v.x)>ROOF.halfX||Math.abs(v.z)>ROOF.halfZ){outside++;continue;}covered++;max=Math.max(max,v.y-(surfaceY(v.x,v.z)+.16));}
+ }}assert.ok(covered>10000);assert.ok(max<=1e-5,`rafter envelope penetrates by ${max}; boundary vertices ${outside}`);
+});
+
+test('upper rafter paths remain continuous at every profile and support station',()=>{
+ assert.equal(m.records.find(r=>r.type==='rafter'&&!r.roofRegion).id,'rafters/rafter/3873'); // untouched lower ID from frozen baseline
+
+ const paths=new Map();for(const r of m.records.filter(r=>r.path)){if(!paths.has(r.path))paths.set(r.path,[]);paths.get(r.path).push(r);}assert.ok(paths.size>200);
+ for(const rs of paths.values()){rs.sort((a,b)=>a.span-b.span);for(let i=1;i<rs.length;i++)for(let axis=0;axis<3;axis++)near(rs[i-1].endpoints[1][axis],rs[i].endpoints[0][axis]);}
+});
+test('finite long-slope purlins meet only rafters crossing their actual horizontal extent',()=>{
+ let contacts=0;for(const p of m.records.filter(r=>r.id.startsWith('purlin/'))){const z=p.position[2];for(const r of m.records.filter(r=>r.roofRegion==='upper-long')){const [a,b]=r.endpoints;if(z<Math.min(a[2],b[2])-1e-7||z>Math.max(a[2],b[2])+1e-7||a[0]<p.endpoints[0][0]||a[0]>p.endpoints[1][0])continue;const t=(z-a[2])/(b[2]-a[2]),yy=a[1]+(b[1]-a[1])*t;assert.ok(Math.abs(yy-p.position[1])<p.scale[0]+r.scale[0]+1e-6);contacts++;}}
+ assert.ok(contacts>1000); // Contact envelope only; no claim of a measured notch or engineering analysis.
+});
+
+test('the two gable faces point outward and ceramic covers stay in the roof explosion layer',()=>{
+ for(const mesh of m.meshes.filter(v=>v.userData.records.some(r=>r.id.startsWith('gable/')))){const p=mesh.geometry.attributes.position,ix=mesh.geometry.index,a=new T.Vector3().fromBufferAttribute(p,ix.getX(0)),b=new T.Vector3().fromBufferAttribute(p,ix.getX(1)),c=new T.Vector3().fromBufferAttribute(p,ix.getX(2));assert.ok(b.sub(a).cross(c.sub(a)).x*p.getX(0)>0);}
+ for(const mesh of m.meshes.filter(v=>v.userData.records.some(r=>r.surfaceRole==='ceramic'))){assert.equal(mesh.parent,m.layers.get('roof'));assert.ok(mesh.userData.records.every(r=>r.layer==='roof'));}
+ assert.ok(m.records.filter(r=>r.roofRegion).every(r=>r.layer==='rafters'));
+});

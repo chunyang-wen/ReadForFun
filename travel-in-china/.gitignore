@@ -1,0 +1,5 @@
+# Media lives on R2. Keep local generation and QA copies out of Git.
+assets/*.png
+assets/sources/*.jpg
+mockups/*.png
+previews/

@@ -1,0 +1,17 @@
+{
+  "baseline/side.png": "7f1e201c62d1b7af6fbe467059f903b7757242dbabcff0bcc15e1cea2b28d88e",
+  "baseline/top.png": "05e08d03a208ca7e218cdd77b2ab1d6d49db758e654e7da4aaca3d2111b80550",
+  "baseline/data.js": "3c65e48175634ea4f96cabf67dd288afdb9aa9671ccd0048ba6570441e962ca4",
+  "baseline/iso.png": "4fb07eb093ec0da2a9503fa46ba20959a622915c1f9f1bd23249a0db3e178849",
+  "baseline/model.js": "6ea882d4f3a6c6ef9f3cd37899f4545ea27675bd58929d18e21d2d493fb49923",
+  "baseline/whole.jpg": "6e1f44b4a0a4185cb4a3af525d9a4bfa2fca6c277f8a636fe1e4a83bdce27718",
+  "baseline/back.png": "e257095bab5247f47b593394339e58d27f8aa12323c83ffb238e66250507269a",
+  "baseline/app.js": "603e968d3b3dbb36f9f6f7598d0fb1478c62a301a6c418279559b0d87efa7566",
+  "baseline/front.png": "f17be8ac0cee7f2759eb6945e01ab735eab79bd66cebb0afc607c7cc7cd7d2ce",
+  "replay/index.html": "ae377cb5beba9408a9cceb943e53a9f60f0d4e10dde03c5cfe7d11909d6e1b01",
+  "replay/baseline-model.js": "b5f904ccdedda29d55b95eee0a46c7c040f667857581f820cf0a8b1b17510f01",
+  "replay/adopted-data.js": "90329e1b05fe7e610d69f7d15886092eca193b0f4c96eee7fcad5ebbbd959952",
+  "replay/adopted-model.js": "00c2b0b2cab72c8267964bd71e44666d56a45a6a1ca7d0fb8ca6c422b79d4592",
+  "replay/adopted-ceramic.js": "2c756da3fee4f63d57b4f6d3e59cb2675cb41a664483372380cf669f08ca0f85",
+  "replay/app.js": "79e526ffb65d65bceaa3ce91d7313402cbf37e0e46ae2fd42c7b9cc1f2f1f36e"
+}

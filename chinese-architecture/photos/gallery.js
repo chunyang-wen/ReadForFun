@@ -1,7 +1,9 @@
-import {PHOTO_STORIES} from './catalog.js?v=yingxian-03';
+import {R2_FALLBACKS} from './r2-fallbacks.js';
+import {PHOTO_STORIES} from './catalog.js?fengxian=02-delivery&v=jinci-20261016-02b';
 const assetUrl=new URL('./assets.json',import.meta.url);
 function setPhoto(img,item,kind,onFailure=()=>{}){
- const fallback=new URL(`./fallback/${item.id}/${item.sha256.slice(0,16)}/${kind}.webp`,import.meta.url).href;
+ const localKey=`fallback/${item.id}/${item.sha256.slice(0,16)}/${kind}.webp`;
+ const fallback=R2_FALLBACKS[localKey]||new URL('./'+localKey,import.meta.url).href;
  img.onerror=()=>{if(img.src!==fallback){img.src=fallback;}else{onFailure();}};img.src=item[kind];
 }
 const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('./gallery.css?v=photo-atlas-02',import.meta.url);document.head.append(css);
@@ -15,7 +17,7 @@ export async function mountPhotoGallery(host,building){
   const response=await fetch(assetUrl,{cache:'no-cache'});if(!response.ok)throw Error('catalog unavailable');
   const assets=await response.json();const items=story.items.map(s=>({...s,...assets.find(a=>a.id===s.id)}));
   if(items.some(i=>!i.original))throw Error('asset unavailable');
-  let current=0,zoom=1,lastFocus,previousOverflow;
+  let current=0,zoom=1,lastFocus,previousOverflow,highGeneration=0;
   const body=el('div','photo-body'),figure=el('figure','photo-figure'),open=el('button','photo-open'),image=el('img');image.loading='lazy';image.decoding='async';
   const badge=el('span','photo-enlarge','展开高清 ↗');open.append(image,badge);figure.append(open);
   const caption=el('figcaption','photo-credit');figure.append(caption);
@@ -32,9 +34,9 @@ export async function mountPhotoGallery(host,building){
   dialog.append(toolbar,zoomBar,status,scroller,credits);const attribution=el('details','photo-attribution'),summary=el('summary','',`全部照片出处与许可（${items.length} 张）`),licenseList=el('div','photo-licenses');attribution.append(summary,el('p','','实景照片与历史扫描分别标明年代；图片仅等比缩小、格式转换或提取原刊整页，原始素材未改动。'),licenseList);for(const item of items){const entry=el('article','photo-credit');entry.append(el('p','',item.sourceFile));const line=el('div');credit(line,item);entry.append(line);licenseList.append(entry);}host.append(body,thumbs,attribution,dialog);if(story.relatedSources?.length){const sources=el('div','photo-related-sources');sources.append(el('h3','','补充影像来源'));for(const source of story.relatedSources){const article=el('article');article.append(link(source.title+' ↗',source.url),el('p','photo-limit',source.note));sources.append(article);}host.append(sources);}
   function credit(node,item,full=false){node.replaceChildren(document.createTextNode(`${item.author} · ${item.date} · ${item.width} × ${item.height}　`),link('出处',item.source),document.createTextNode(' · '),link(item.license,item.licenseUrl));if(full)node.append(document.createTextNode(`。原作：${item.sourceFile}。${item.changes} `),link(item.originalLabel||'原始 JPEG ↗',item.original));}
   function scale(value){zoom=value;range.value=String(value*100);output.textContent=`${Math.round(value*100)}%`;high.style.width=value===1?'100%':`${scroller.clientWidth*value}px`;high.style.height=value===1?'100%':'auto';high.style.maxWidth='none';high.style.objectFit='contain';scroller.scrollTop=Math.max(0,(scroller.scrollHeight-scroller.clientHeight)/2);scroller.scrollLeft=Math.max(0,(scroller.scrollWidth-scroller.clientWidth)/2);}
-  function loadHigh(){const item=items[current];dialogTitle.textContent=`${current+1} / ${items.length} · ${story.name} · ${item.title}`;high.alt=`${story.name}：${item.title}`;status.textContent='高清图加载中…';high.hidden=true;setPhoto(high,item,'full',()=>{status.textContent='高清图暂未加载，请使用下方出处或原始 JPEG 链接。';high.hidden=true;});credit(credits,item,true);scale(1);prev.disabled=current===0;next.disabled=current===items.length-1;}
+  function loadHigh(){highGeneration++;high.dataset.ready='false';const item=items[current];dialogTitle.textContent=`${current+1} / ${items.length} · ${story.name} · ${item.title}`;high.alt=`${story.name}：${item.title}`;status.textContent='高清图加载中…';high.hidden=true;setPhoto(high,item,'full',()=>{status.textContent='高清图暂未加载，请使用下方出处或原始 JPEG 链接。';high.hidden=true;});credit(credits,item,true);scale(1);prev.disabled=current===0;next.disabled=current===items.length-1;}
   function select(i){if(i<0||i>=items.length)return;current=i;before.disabled=i===0;after.disabled=i===items.length-1;const item=items[i];setPhoto(image,item,'display',()=>{caption.replaceChildren(document.createTextNode('照片暂未加载，可查看原始出处：'),link('打开来源页',item.source));});badge.textContent=item.sourceType==='commons-pdf-page'?'查看原扫描 ↗':'展开高清 ↗';image.alt=`${story.name}：${item.title}`;image.width=item.width;image.height=item.height;open.setAttribute('aria-label',`展开高清：${item.title}`);tag.textContent=item.tag;title.textContent=item.title;look.textContent=item.look;limit.textContent=item.limit;model.textContent=`${item.modelLabel} ↑`;count.textContent=`${String(i+1).padStart(2,'0')} / ${String(items.length).padStart(2,'0')}`;credit(caption,item);buttons.forEach((b,j)=>b.setAttribute('aria-pressed',String(j===i)));if(dialog.open)loadHigh();}
-  high.addEventListener('load',()=>{high.hidden=false;status.textContent='高清图已载入；放大后可滚动或轻扫查看局部。';});
+  high.addEventListener('load',async()=>{const generation=highGeneration;try{await high.decode();}catch{return;}if(generation!==highGeneration)return;high.hidden=false;scale(zoom);requestAnimationFrame(()=>requestAnimationFrame(()=>{if(generation!==highGeneration)return;scale(zoom);high.dataset.ready='true';status.textContent='高清图已载入；放大后可滚动或轻扫查看局部。';}));});
   open.addEventListener('click',()=>{lastFocus=document.activeElement;dialog.showModal();previousOverflow=document.body.style.overflow;document.body.style.overflow='hidden';loadHigh();});
   close.addEventListener('click',()=>dialog.close());dialog.addEventListener('close',()=>{document.body.style.overflow=previousOverflow;lastFocus?.focus();});
   range.addEventListener('input',()=>scale(Number(range.value)/100));fit.addEventListener('click',()=>scale(1));prev.addEventListener('click',()=>select(current-1));next.addEventListener('click',()=>select(current+1));

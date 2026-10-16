@@ -1,0 +1,47 @@
+✔ front upper row omits four full-height posts; the periphery stays continuous (0.66675ms)
+✔ all ground posts rest on distinct bases and platform meets the base feet (0.274625ms)
+✔ four porch posts bear on the center surface of their dedicated sloped beams (0.580833ms)
+✔ main frame lower faces meet central bracket bearing; ends have separate Ding beams (0.433875ms)
+✔ sloped beams use opposite high faces toward the central bay (0.300625ms)
+✔ hump slopes fit the host beam top at both sides, not just their center (0.082625ms)
+✔ every stacked support has positive height and starts on a hump top (1.074084ms)
+✔ bracket scopes distinguish two/three steps and horizontal outward mouths (0.086291ms)
+✔ all roof-frame vertices are under the modeled roof; end frames do not copy the ridge forks (2.102209ms)
+✔ lower skirt keeps its central opening and upper roof has two gable panels (0.409708ms)
+✔ eight front dragon assemblies stay in the decorative system beside continuous posts (0.3255ms)
+✔ unique traceable records and valid transforms, geometry and bounds in every scope (10.722583ms)
+✔ whole-hall hump underside follows each host sloped beam at both contact edges (1.392375ms)
+✔ modeled rafter underside touches purlin crowns at the long-slope stations (0.331375ms)
+✔ internal receiving beam seats on capped internal supports and carries main beam feet (0.41125ms)
+✔ each decorative dragon links to a real continuous host column (0.540208ms)
+✔ three split five-rafter frames have separate front Zha members, unlike the through variant (0.3905ms)
+✔ intermediate outward mouths differ from column-head variants without asserting a full joint taxonomy (0.686834ms)
+✔ Jinci current-state frame preserves the two documented rectangular replacements (0.750042ms)
+✔ all eight covering fields and their ceramic surfaces face upwards with no degenerate triangles (10.579708ms)
+✔ all upper rafter cylinder vertices are below this hall roof covering within its footprint (8.904458ms)
+✔ upper rafter paths remain continuous at every profile and support station (0.915834ms)
+✔ finite long-slope purlins meet only rafters crossing their actual horizontal extent (2.093625ms)
+✔ the two gable faces point outward and ceramic covers stay in the roof explosion layer (0.65075ms)
+✔ each photo has explicit reusable rights, attribution and exact building chapter (1.184667ms)
+✔ every display size has a local fallback, and remote keys are content addressed (0.76875ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.062791ms)
+✔ each photograph appears exactly once in its building story (0.080417ms)
+✔ Dule historic plate pages retain period and subject limits, without claiming modern coverage (0.085458ms)
+✔ Yingxian retains native pixels and local delivery while independently recording verified R2 storage (0.4315ms)
+✔ Jinci covers hall, porch, bracket and dragons while preserving uncertain directions (0.120833ms)
+✔ Fengxian interior photos retain front-hall identity limits and real decoration node (0.0785ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (1.090375ms)
+✔ every selectable member has a documented type and valid layer (2.525875ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (4.23425ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.431292ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.419125ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.075334ms)
+✔ upper frame does not protrude through the hip roof (0.470875ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 196.7425

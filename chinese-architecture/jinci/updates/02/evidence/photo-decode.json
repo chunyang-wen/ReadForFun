@@ -1,0 +1,137 @@
+[
+  {
+    "index": 0,
+    "display": {
+      "complete": true,
+      "height": 1067,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-front-2011/a5b25c805ae2a84f/display.webp",
+      "width": 1600
+    },
+    "full": {
+      "complete": true,
+      "height": 3744,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-front-2011/a5b25c805ae2a84f/full.webp",
+      "width": 5616
+    }
+  },
+  {
+    "index": 1,
+    "display": {
+      "complete": true,
+      "height": 1200,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-front-sun/ea19117069055fe1/display.webp",
+      "width": 1600
+    },
+    "full": {
+      "complete": true,
+      "height": 4284,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-front-sun/ea19117069055fe1/full.webp",
+      "width": 5712
+    }
+  },
+  {
+    "index": 2,
+    "display": {
+      "complete": true,
+      "height": 1200,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-side/48b80ad643f87154/display.webp",
+      "width": 1600
+    },
+    "full": {
+      "complete": true,
+      "height": 3024,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-side/48b80ad643f87154/full.webp",
+      "width": 4032
+    }
+  },
+  {
+    "index": 3,
+    "display": {
+      "complete": true,
+      "height": 1200,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-oblique/18ca9411278036eb/display.webp",
+      "width": 1600
+    },
+    "full": {
+      "complete": true,
+      "height": 4284,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-oblique/18ca9411278036eb/full.webp",
+      "width": 5712
+    }
+  },
+  {
+    "index": 4,
+    "display": {
+      "complete": true,
+      "height": 1600,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-porch/43e7094245dadb33/display.webp",
+      "width": 1200
+    },
+    "full": {
+      "complete": true,
+      "height": 5712,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-porch/43e7094245dadb33/full.webp",
+      "width": 4284
+    }
+  },
+  {
+    "index": 5,
+    "display": {
+      "complete": true,
+      "height": 1600,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-bracket/13edd208b7e44466/display.webp",
+      "width": 1200
+    },
+    "full": {
+      "complete": true,
+      "height": 4032,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-bracket/13edd208b7e44466/full.webp",
+      "width": 3024
+    }
+  },
+  {
+    "index": 6,
+    "display": {
+      "complete": true,
+      "height": 1600,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-dragon/a59b04aee025a2ee/display.webp",
+      "width": 1200
+    },
+    "full": {
+      "complete": true,
+      "height": 5712,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-dragon/a59b04aee025a2ee/full.webp",
+      "width": 4284
+    }
+  },
+  {
+    "index": 7,
+    "display": {
+      "complete": true,
+      "height": 1600,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-dragon-detail/5d4380ad7c17dc16/display.webp",
+      "width": 1200
+    },
+    "full": {
+      "complete": true,
+      "height": 4032,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-dragon-detail/5d4380ad7c17dc16/full.webp",
+      "width": 3024
+    }
+  },
+  {
+    "index": 8,
+    "display": {
+      "complete": true,
+      "height": 1600,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-dragon-detail-2/42dfe176f5ae7d37/display.webp",
+      "width": 1200
+    },
+    "full": {
+      "complete": true,
+      "height": 4032,
+      "url": "http://localhost:8765/chinese-architecture/photos/fallback/jinci-dragon-detail-2/42dfe176f5ae7d37/full.webp",
+      "width": 3024
+    }
+  }
+]
