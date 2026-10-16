@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-16T12:00:03.298764+00:00",
+  "objects": {
+    "chinese-architecture/baohe/updates/02/media/ui-cover-verified.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/20d6f8a9ddab0b21/ui-cover-verified.jpg",
+      "key": "chinese-architecture/baohe/updates/02/20d6f8a9ddab0b21/ui-cover-verified.jpg",
+      "sha256": "20d6f8a9ddab0b21a24b3f10b5ec38f9ac076283bcec133b74794cbf3132b6f8",
+      "bytes": 34166,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    }
+  }
+}

@@ -21,7 +21,7 @@ for a in assets:
   jobs.append((file,key,path,'image/jpeg' if kind=='original' else 'image/webp'))
 # Research/render screenshots are published too; never add local image bytes to Git.
 for file in ([] if args.photos_only else [f for f in pathlib.Path('/tmp/baohe-02').glob('*.png') if f.name.startswith(args.screenshot_prefix or ('before-','after-','ui-'))]):
- digest=hashlib.sha256(file.read_bytes()).hexdigest();key=f'chinese-architecture/baohe/updates/02/{digest[:16]}/{file.name}';jobs.append((file,key,'chinese-architecture/baohe/updates/02/media/'+file.name,'image/png'))
+ data=file.read_bytes();digest=hashlib.sha256(data).hexdigest();jpeg=data.startswith(b'\xff\xd8');publishedName=file.with_suffix('.jpg').name if jpeg else file.name;key=f'chinese-architecture/baohe/updates/02/{digest[:16]}/{publishedName}';jobs.append((file,key,'chinese-architecture/baohe/updates/02/media/'+file.name,'image/jpeg' if jpeg else 'image/png'))
 def upload(job):
  file,key,path,mime=job;data=file.read_bytes();digest=hashlib.sha256(data).hexdigest()
  try:c.put_object(Bucket=env['R2_BUCKET_NAME'],Key=key,Body=data,ContentType=mime,CacheControl='public,max-age=31536000,immutable',IfNoneMatch='*')
