@@ -67,7 +67,7 @@
 
 IAB请求390视口后实际仍1280，失败尝试及原截图保留。成功窄屏使用 `photos/preview.html?book=baohe&device=mobile` 的同源iframe，内部**真实390×844、scrollWidth390**，实际建筑baohe、revision及脚本均核对。整体、四类局部最大展开、回整体、竖图高清与节点联动通过；见 [mobile-browser.json](mobile-browser.json)。此为真实窄宽度布局与UI操作，不是真机触屏/GPU仿真。
 
-旧Playwright runner只改为读DOM状态，避免再次import有初始化副作用的app，并把新输出默认放`/tmp`；本轮未执行该runner，实际UI验收使用CUA。新源码与本地HTTP响应字节核验见 [source-hashes.json](source-hashes.json)。
+旧Playwright runner改为读DOM状态，避免再次import有初始化副作用的app，并把新输出默认放`/tmp`、适配根书架的建筑合集入口；本轮未执行该runner，实际UI验收使用CUA。新源码与本地HTTP响应字节核验见 [source-hashes.json](source-hashes.json)。
 
 优先待补：北端带尺平面/抄平及清晰北立面；本殿减柱转承与梁架测绘；逐石/逐攒、石榫铁件与内沟探测；雕刻拓片和许可明确的专属细部摄影。当前屋角、斗科、山花、隔扇、天花和彩画仍是部分或教学表达，不因配图高清而升级。
 
@@ -80,3 +80,16 @@ IAB请求390视口后实际仍1280，失败尝试及原截图保留。成功窄�
 保留ID复验见 `browser-closeout.json` / `mobile-closeout.json`；承托半厚与资料缓存修正后的最终复验见 `browser-bearing-closeout.json` / `mobile-bearing-closeout.json`。模型最终revision为 `baohe-02-20261016-final-bearing`，脚本 `app.js?v=baohe-02bearing`；较早截图/状态按其原revision保留。
 
 资料缓存失败也原样保留：`browser-bearing-stale-data.json`当时新模型已加载，但未版本化的data.js仍显示旧“有支承”文字；对app/model的资料导入和图录备用模块加明确版本后，最终DOM确实显示“桁椽接触尚未全面闭合”。不能只看模型revision就认定讲解模块也更新。
+
+截图存储补正：CUA返回真实JPEG字节，早期临时文件误用.png后缀；旧上传记录保留，当前上传按魔数发布.jpg及image/jpeg，字节不重编码，活跃映射由 `upload-screenshots-mime-corrected.json` 及根media-assets.json取代。最早封面裁切/场景不对应的候选未采用；最终独立页核对chapter0/detailfalse后截取完整画布，见 `cover-capture.json`。
+
+## R2预览与对照
+
+- [ui-bearing-whole.png](https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/0a0ddac1bf6147c0/ui-bearing-whole.jpg)
+- [ui-bearing-frame.png](https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d4734d7e6805320a/ui-bearing-frame.jpg)
+- [before-fixed-side.png](https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/72b77b521978f63e/before-fixed-side.jpg)
+- [after-final-side.png](https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/4c415706997aa725/after-final-side.jpg)
+- [before-fixed-terrace.png](https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d58506fc5e9409e8/before-fixed-terrace.jpg)
+- [after-final-terrace.png](https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/f8331c3481f642e6/after-final-terrace.jpg)
+- [ui-mobile-actual-ramp-exploded.png](https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/fa6073c00483ddd9/ui-mobile-actual-ramp-exploded.jpg)
+- [ui-photo-0.png](https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/25b63104e429de8b/ui-photo-0.jpg)

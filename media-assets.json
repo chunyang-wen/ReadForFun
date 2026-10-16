@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-16T11:56:17.275996+00:00",
+  "checkedAt": "2026-10-16T12:00:03.298764+00:00",
   "publicBase": "https://readforfun-img.chunyangwen.com",
   "assets": {
     "chinese-architecture/fengxian/previews/whole.jpg": {
@@ -5371,11 +5371,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-whole.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/19552ef37af6b60c/before-whole.png",
-      "key": "chinese-architecture/baohe/updates/02/19552ef37af6b60c/before-whole.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/19552ef37af6b60c/before-whole.jpg",
+      "key": "chinese-architecture/baohe/updates/02/19552ef37af6b60c/before-whole.jpg",
       "sha256": "19552ef37af6b60caa389cbcc62cb8b5e3b0e0644bbecfd1b756ed42ed56c144",
       "bytes": 99824,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -5384,11 +5384,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-rail-initial.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e8ff2b550bc2c9dd/after-rail-initial.png",
-      "key": "chinese-architecture/baohe/updates/02/e8ff2b550bc2c9dd/after-rail-initial.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e8ff2b550bc2c9dd/after-rail-initial.jpg",
+      "key": "chinese-architecture/baohe/updates/02/e8ff2b550bc2c9dd/after-rail-initial.jpg",
       "sha256": "e8ff2b550bc2c9ddf2d6a1c1115e82f81a316517cc0cf3259b40fc79743b33fb",
       "bytes": 80196,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -5397,11 +5397,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-back.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/b50f621e91113df1/before-back.png",
-      "key": "chinese-architecture/baohe/updates/02/b50f621e91113df1/before-back.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/b50f621e91113df1/before-back.jpg",
+      "key": "chinese-architecture/baohe/updates/02/b50f621e91113df1/before-back.jpg",
       "sha256": "b50f621e91113df1d73baa0a1030d53031bcea344b0745492e6b3b2a8ac186a4",
       "bytes": 93337,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -5995,11 +5995,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-verified-top.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/a51c6673eb39825c/before-verified-top.png",
-      "key": "chinese-architecture/baohe/updates/02/a51c6673eb39825c/before-verified-top.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/a51c6673eb39825c/before-verified-top.jpg",
+      "key": "chinese-architecture/baohe/updates/02/a51c6673eb39825c/before-verified-top.jpg",
       "sha256": "a51c6673eb39825cf065db18f1bb2708986399c0f595a5aec4c50ad0c47df7b2",
       "bytes": 81003,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6008,11 +6008,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-delivery-front.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e162599422875eff/ui-delivery-front.png",
-      "key": "chinese-architecture/baohe/updates/02/e162599422875eff/ui-delivery-front.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e162599422875eff/ui-delivery-front.jpg",
+      "key": "chinese-architecture/baohe/updates/02/e162599422875eff/ui-delivery-front.jpg",
       "sha256": "e162599422875effdd1a2e8a74e98a011638faa0450afc3f141107961bef3c75",
       "bytes": 97797,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6021,11 +6021,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-terrace.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/3806b0aba2f90fba/after-terrace.png",
-      "key": "chinese-architecture/baohe/updates/02/3806b0aba2f90fba/after-terrace.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/3806b0aba2f90fba/after-terrace.jpg",
+      "key": "chinese-architecture/baohe/updates/02/3806b0aba2f90fba/after-terrace.jpg",
       "sha256": "3806b0aba2f90fba9128a03b9ad93a1566cfa28a445aeb72949fe6b9b1d07712",
       "bytes": 89527,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6034,11 +6034,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-fixed-terrace.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d58506fc5e9409e8/before-fixed-terrace.png",
-      "key": "chinese-architecture/baohe/updates/02/d58506fc5e9409e8/before-fixed-terrace.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d58506fc5e9409e8/before-fixed-terrace.jpg",
+      "key": "chinese-architecture/baohe/updates/02/d58506fc5e9409e8/before-fixed-terrace.jpg",
       "sha256": "d58506fc5e9409e89e182ded1b3daf259df9286fd20eef8ef9da151ae2f32d09",
       "bytes": 67560,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6047,11 +6047,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-final-section-z-end.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/6406b3e261fe229a/ui-final-section-z-end.png",
-      "key": "chinese-architecture/baohe/updates/02/6406b3e261fe229a/ui-final-section-z-end.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/6406b3e261fe229a/ui-final-section-z-end.jpg",
+      "key": "chinese-architecture/baohe/updates/02/6406b3e261fe229a/ui-final-section-z-end.jpg",
       "sha256": "6406b3e261fe229ae1cb689d79dd985a811f496b4bc3107b62de974219170c4e",
       "bytes": 65448,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6060,11 +6060,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-final-iso.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/2b0f2399956797cf/after-final-iso.png",
-      "key": "chinese-architecture/baohe/updates/02/2b0f2399956797cf/after-final-iso.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/2b0f2399956797cf/after-final-iso.jpg",
+      "key": "chinese-architecture/baohe/updates/02/2b0f2399956797cf/after-final-iso.jpg",
       "sha256": "2b0f2399956797cf5cc93f94c60da14a63308079eefef1e9d57eede50425aa80",
       "bytes": 96884,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6073,11 +6073,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-mobile-photo-fifth.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/5eb47a3c2e4b8232/ui-mobile-photo-fifth.png",
-      "key": "chinese-architecture/baohe/updates/02/5eb47a3c2e4b8232/ui-mobile-photo-fifth.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/5eb47a3c2e4b8232/ui-mobile-photo-fifth.jpg",
+      "key": "chinese-architecture/baohe/updates/02/5eb47a3c2e4b8232/ui-mobile-photo-fifth.jpg",
       "sha256": "5eb47a3c2e4b8232e76a1d367202f79fa2aefa7ca70c43f618937fa51a24f422",
       "bytes": 72938,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6086,11 +6086,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-final-frame.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/4d4b8ab308b3666a/after-final-frame.png",
-      "key": "chinese-architecture/baohe/updates/02/4d4b8ab308b3666a/after-final-frame.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/4d4b8ab308b3666a/after-final-frame.jpg",
+      "key": "chinese-architecture/baohe/updates/02/4d4b8ab308b3666a/after-final-frame.jpg",
       "sha256": "4d4b8ab308b3666ae0ec4a2fb25ce51421625b9ff8ae48f2147e6bf2e9f3b443",
       "bytes": 109745,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6099,11 +6099,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-final-exploded-alt-light.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/3219085eb45f0d19/ui-final-exploded-alt-light.png",
-      "key": "chinese-architecture/baohe/updates/02/3219085eb45f0d19/ui-final-exploded-alt-light.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/3219085eb45f0d19/ui-final-exploded-alt-light.jpg",
+      "key": "chinese-architecture/baohe/updates/02/3219085eb45f0d19/ui-final-exploded-alt-light.jpg",
       "sha256": "3219085eb45f0d1967804ba5292ace2b15e22386d1f602bd7807e8e2d97fa430",
       "bytes": 86024,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6112,11 +6112,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-delivery-whole.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/2b0f2399956797cf/ui-delivery-whole.png",
-      "key": "chinese-architecture/baohe/updates/02/2b0f2399956797cf/ui-delivery-whole.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/2b0f2399956797cf/ui-delivery-whole.jpg",
+      "key": "chinese-architecture/baohe/updates/02/2b0f2399956797cf/ui-delivery-whole.jpg",
       "sha256": "2b0f2399956797cf5cc93f94c60da14a63308079eefef1e9d57eede50425aa80",
       "bytes": 96884,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6125,11 +6125,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-fixed-top.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/429e203bc81cd7fa/before-fixed-top.png",
-      "key": "chinese-architecture/baohe/updates/02/429e203bc81cd7fa/before-fixed-top.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/429e203bc81cd7fa/before-fixed-top.jpg",
+      "key": "chinese-architecture/baohe/updates/02/429e203bc81cd7fa/before-fixed-top.jpg",
       "sha256": "429e203bc81cd7fa762d1a65a9b727dc1d50cd3c05f028ac63c3136f654326ce",
       "bytes": 72201,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6138,11 +6138,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-fixed-side.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/72b77b521978f63e/before-fixed-side.png",
-      "key": "chinese-architecture/baohe/updates/02/72b77b521978f63e/before-fixed-side.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/72b77b521978f63e/before-fixed-side.jpg",
+      "key": "chinese-architecture/baohe/updates/02/72b77b521978f63e/before-fixed-side.jpg",
       "sha256": "72b77b521978f63e7d0e8b4555a05b5fd5fa0094405479eb431008286db0402e",
       "bytes": 69270,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6151,11 +6151,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-delivery-back.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/f030adc600478768/ui-delivery-back.png",
-      "key": "chinese-architecture/baohe/updates/02/f030adc600478768/ui-delivery-back.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/f030adc600478768/ui-delivery-back.jpg",
+      "key": "chinese-architecture/baohe/updates/02/f030adc600478768/ui-delivery-back.jpg",
       "sha256": "f030adc6004787688a05c3c9f6354f256004d296b496ddd138fe608d7d3333e0",
       "bytes": 92599,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6164,11 +6164,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-mobile-actual-return-whole.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/f972681d88a63926/ui-mobile-actual-return-whole.png",
-      "key": "chinese-architecture/baohe/updates/02/f972681d88a63926/ui-mobile-actual-return-whole.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/f972681d88a63926/ui-mobile-actual-return-whole.jpg",
+      "key": "chinese-architecture/baohe/updates/02/f972681d88a63926/ui-mobile-actual-return-whole.jpg",
       "sha256": "f972681d88a63926d229e70bae087014624c66ce45eddca7f9c08628f33b2436",
       "bytes": 35279,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6177,11 +6177,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-final-section-x.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e7332695e9016941/ui-final-section-x.png",
-      "key": "chinese-architecture/baohe/updates/02/e7332695e9016941/ui-final-section-x.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e7332695e9016941/ui-final-section-x.jpg",
+      "key": "chinese-architecture/baohe/updates/02/e7332695e9016941/ui-final-section-x.jpg",
       "sha256": "e7332695e901694142304e8bcea3e2209edc9db359bea31518d23d285647d5ec",
       "bytes": 83563,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6190,11 +6190,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-final-front.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e162599422875eff/after-final-front.png",
-      "key": "chinese-architecture/baohe/updates/02/e162599422875eff/after-final-front.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e162599422875eff/after-final-front.jpg",
+      "key": "chinese-architecture/baohe/updates/02/e162599422875eff/after-final-front.jpg",
       "sha256": "e162599422875effdd1a2e8a74e98a011638faa0450afc3f141107961bef3c75",
       "bytes": 97797,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6203,11 +6203,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-geometry-old-material.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d09bb3f34e9069af/after-geometry-old-material.png",
-      "key": "chinese-architecture/baohe/updates/02/d09bb3f34e9069af/after-geometry-old-material.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d09bb3f34e9069af/after-geometry-old-material.jpg",
+      "key": "chinese-architecture/baohe/updates/02/d09bb3f34e9069af/after-geometry-old-material.jpg",
       "sha256": "d09bb3f34e9069af3c206d03922b1e19cdedaec9df32840110a70dcab8962831",
       "bytes": 65442,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6216,11 +6216,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-delivery-rail.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/b3745a14904aa4f1/ui-delivery-rail.png",
-      "key": "chinese-architecture/baohe/updates/02/b3745a14904aa4f1/ui-delivery-rail.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/b3745a14904aa4f1/ui-delivery-rail.jpg",
+      "key": "chinese-architecture/baohe/updates/02/b3745a14904aa4f1/ui-delivery-rail.jpg",
       "sha256": "b3745a14904aa4f1e69bea24aa5831ee93816e9a530a337d2b12619bda8c230c",
       "bytes": 76021,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6229,11 +6229,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-final-side.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/4c415706997aa725/after-final-side.png",
-      "key": "chinese-architecture/baohe/updates/02/4c415706997aa725/after-final-side.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/4c415706997aa725/after-final-side.jpg",
+      "key": "chinese-architecture/baohe/updates/02/4c415706997aa725/after-final-side.jpg",
       "sha256": "4c415706997aa725910b1c9e75afa3fef99250820be15f1cb9b93720c373a7b1",
       "bytes": 90368,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6242,11 +6242,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-first-photo-ready.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/25b63104e429de8b/ui-first-photo-ready.png",
-      "key": "chinese-architecture/baohe/updates/02/25b63104e429de8b/ui-first-photo-ready.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/25b63104e429de8b/ui-first-photo-ready.jpg",
+      "key": "chinese-architecture/baohe/updates/02/25b63104e429de8b/ui-first-photo-ready.jpg",
       "sha256": "25b63104e429de8b44a89a3bcf9e67ec3e8d1e31bdb088237daf4f964e77564e",
       "bytes": 192610,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6255,11 +6255,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-delivery-frame.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/9fa86d8523dfd0b2/ui-delivery-frame.png",
-      "key": "chinese-architecture/baohe/updates/02/9fa86d8523dfd0b2/ui-delivery-frame.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/9fa86d8523dfd0b2/ui-delivery-frame.jpg",
+      "key": "chinese-architecture/baohe/updates/02/9fa86d8523dfd0b2/ui-delivery-frame.jpg",
       "sha256": "9fa86d8523dfd0b2f5762213d020efdaff1070c0e68d3bfe35d61488ba867ea6",
       "bytes": 102637,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6268,11 +6268,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-mobile-actual-rail-exploded.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/be16d082de33e0e7/ui-mobile-actual-rail-exploded.png",
-      "key": "chinese-architecture/baohe/updates/02/be16d082de33e0e7/ui-mobile-actual-rail-exploded.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/be16d082de33e0e7/ui-mobile-actual-rail-exploded.jpg",
+      "key": "chinese-architecture/baohe/updates/02/be16d082de33e0e7/ui-mobile-actual-rail-exploded.jpg",
       "sha256": "be16d082de33e0e76048e854b7358ac9c9f4db5db502f2f8d95c16778e388715",
       "bytes": 28483,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6281,11 +6281,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-verified-back.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/cdfb8d4efdff7ca7/before-verified-back.png",
-      "key": "chinese-architecture/baohe/updates/02/cdfb8d4efdff7ca7/before-verified-back.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/cdfb8d4efdff7ca7/before-verified-back.jpg",
+      "key": "chinese-architecture/baohe/updates/02/cdfb8d4efdff7ca7/before-verified-back.jpg",
       "sha256": "cdfb8d4efdff7ca7572b060f6d2499d2f7f93d258e55bf84486711e4b2c469d4",
       "bytes": 72858,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6294,11 +6294,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-final-top.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/2ad962c1e5d529e2/after-final-top.png",
-      "key": "chinese-architecture/baohe/updates/02/2ad962c1e5d529e2/after-final-top.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/2ad962c1e5d529e2/after-final-top.jpg",
+      "key": "chinese-architecture/baohe/updates/02/2ad962c1e5d529e2/after-final-top.jpg",
       "sha256": "2ad962c1e5d529e2d5bfc8fa7626a5d871826cacd8d28f46baa1462c10a9179f",
       "bytes": 98422,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6307,11 +6307,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-photo-ramp-node.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/6c521a48e7f2fa66/ui-photo-ramp-node.png",
-      "key": "chinese-architecture/baohe/updates/02/6c521a48e7f2fa66/ui-photo-ramp-node.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/6c521a48e7f2fa66/ui-photo-ramp-node.jpg",
+      "key": "chinese-architecture/baohe/updates/02/6c521a48e7f2fa66/ui-photo-ramp-node.jpg",
       "sha256": "6c521a48e7f2fa661a1ad90eb485ed81961300490a1cc36bc0f379d67eef91eb",
       "bytes": 77342,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6320,11 +6320,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-photo-3.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/ecbbc8e2894c6479/ui-photo-3.png",
-      "key": "chinese-architecture/baohe/updates/02/ecbbc8e2894c6479/ui-photo-3.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/ecbbc8e2894c6479/ui-photo-3.jpg",
+      "key": "chinese-architecture/baohe/updates/02/ecbbc8e2894c6479/ui-photo-3.jpg",
       "sha256": "ecbbc8e2894c6479f5a2cfcb81925d51ec827ec2768adc46135372e04c0eaa2e",
       "bytes": 115481,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6333,11 +6333,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-photo-2.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/399bd2571b57aea2/ui-photo-2.png",
-      "key": "chinese-architecture/baohe/updates/02/399bd2571b57aea2/ui-photo-2.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/399bd2571b57aea2/ui-photo-2.jpg",
+      "key": "chinese-architecture/baohe/updates/02/399bd2571b57aea2/ui-photo-2.jpg",
       "sha256": "399bd2571b57aea2dbb63eefe162ed90314a836cb3216dcbf1bb9f4d8337c743",
       "bytes": 153024,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6346,11 +6346,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-fixed-iso.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/11fbfc4a7908c057/before-fixed-iso.png",
-      "key": "chinese-architecture/baohe/updates/02/11fbfc4a7908c057/before-fixed-iso.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/11fbfc4a7908c057/before-fixed-iso.jpg",
+      "key": "chinese-architecture/baohe/updates/02/11fbfc4a7908c057/before-fixed-iso.jpg",
       "sha256": "11fbfc4a7908c057fa72952dd766cf3dc74ce958dffc7a11b24a9cbfbd746c52",
       "bytes": 73634,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6359,11 +6359,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-verified-rail.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/ea89512194e06b8a/before-verified-rail.png",
-      "key": "chinese-architecture/baohe/updates/02/ea89512194e06b8a/before-verified-rail.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/ea89512194e06b8a/before-verified-rail.jpg",
+      "key": "chinese-architecture/baohe/updates/02/ea89512194e06b8a/before-verified-rail.jpg",
       "sha256": "ea89512194e06b8afdadc7e168b69d37bf70c24b9abdd1a7aec068cb4277fb4e",
       "bytes": 66249,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6372,11 +6372,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-final-exploded.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/77b3ca57365e51f4/ui-final-exploded.png",
-      "key": "chinese-architecture/baohe/updates/02/77b3ca57365e51f4/ui-final-exploded.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/77b3ca57365e51f4/ui-final-exploded.jpg",
+      "key": "chinese-architecture/baohe/updates/02/77b3ca57365e51f4/ui-final-exploded.jpg",
       "sha256": "77b3ca57365e51f43228a57562b17c600a8aef4fdb508906df9d57677319195b",
       "bytes": 103016,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6385,11 +6385,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-verified-terrace.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/bdb2d222b5b3343a/before-verified-terrace.png",
-      "key": "chinese-architecture/baohe/updates/02/bdb2d222b5b3343a/before-verified-terrace.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/bdb2d222b5b3343a/before-verified-terrace.jpg",
+      "key": "chinese-architecture/baohe/updates/02/bdb2d222b5b3343a/before-verified-terrace.jpg",
       "sha256": "bdb2d222b5b3343a01e9d4bcc96e66a2ee05f159cba207e9bb4a8b26a803823a",
       "bytes": 61396,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6398,11 +6398,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-mobile-photo-linked-final.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e85d4c4e57392344/ui-mobile-photo-linked-final.png",
-      "key": "chinese-architecture/baohe/updates/02/e85d4c4e57392344/ui-mobile-photo-linked-final.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e85d4c4e57392344/ui-mobile-photo-linked-final.jpg",
+      "key": "chinese-architecture/baohe/updates/02/e85d4c4e57392344/ui-mobile-photo-linked-final.jpg",
       "sha256": "e85d4c4e57392344b96a582f207208b9bb57446884ad0c0171472f7ad7af9e27",
       "bytes": 26158,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6411,11 +6411,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-verified-iso.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/11fbfc4a7908c057/before-verified-iso.png",
-      "key": "chinese-architecture/baohe/updates/02/11fbfc4a7908c057/before-verified-iso.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/11fbfc4a7908c057/before-verified-iso.jpg",
+      "key": "chinese-architecture/baohe/updates/02/11fbfc4a7908c057/before-verified-iso.jpg",
       "sha256": "11fbfc4a7908c057fa72952dd766cf3dc74ce958dffc7a11b24a9cbfbd746c52",
       "bytes": 73634,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6424,11 +6424,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-photo-0.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/25b63104e429de8b/ui-photo-0.png",
-      "key": "chinese-architecture/baohe/updates/02/25b63104e429de8b/ui-photo-0.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/25b63104e429de8b/ui-photo-0.jpg",
+      "key": "chinese-architecture/baohe/updates/02/25b63104e429de8b/ui-photo-0.jpg",
       "sha256": "25b63104e429de8b44a89a3bcf9e67ec3e8d1e31bdb088237daf4f964e77564e",
       "bytes": 192610,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6437,11 +6437,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-photo-1.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/2d97e3150b35be3c/ui-photo-1.png",
-      "key": "chinese-architecture/baohe/updates/02/2d97e3150b35be3c/ui-photo-1.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/2d97e3150b35be3c/ui-photo-1.jpg",
+      "key": "chinese-architecture/baohe/updates/02/2d97e3150b35be3c/ui-photo-1.jpg",
       "sha256": "2d97e3150b35be3c44efb0ec95c9562a9772a8bdcf870b1ca2304812e0dad1d3",
       "bytes": 142258,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6450,11 +6450,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-geometry-reference-material-alt.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/5d93150e360ee15f/after-geometry-reference-material-alt.png",
-      "key": "chinese-architecture/baohe/updates/02/5d93150e360ee15f/after-geometry-reference-material-alt.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/5d93150e360ee15f/after-geometry-reference-material-alt.jpg",
+      "key": "chinese-architecture/baohe/updates/02/5d93150e360ee15f/after-geometry-reference-material-alt.jpg",
       "sha256": "5d93150e360ee15fbb70121bf17e663c5302b37f097f39a6724a54b96196c4a6",
       "bytes": 70416,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6463,11 +6463,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-rail.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e8ff2b550bc2c9dd/after-rail.png",
-      "key": "chinese-architecture/baohe/updates/02/e8ff2b550bc2c9dd/after-rail.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e8ff2b550bc2c9dd/after-rail.jpg",
+      "key": "chinese-architecture/baohe/updates/02/e8ff2b550bc2c9dd/after-rail.jpg",
       "sha256": "e8ff2b550bc2c9ddf2d6a1c1115e82f81a316517cc0cf3259b40fc79743b33fb",
       "bytes": 80196,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6476,11 +6476,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-photo-zoom.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/aa2d285c7729018c/ui-photo-zoom.png",
-      "key": "chinese-architecture/baohe/updates/02/aa2d285c7729018c/ui-photo-zoom.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/aa2d285c7729018c/ui-photo-zoom.jpg",
+      "key": "chinese-architecture/baohe/updates/02/aa2d285c7729018c/ui-photo-zoom.jpg",
       "sha256": "aa2d285c7729018c0fcc87a535a74b89e80db66caf045f616dc737fb05e001ad",
       "bytes": 121816,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6489,11 +6489,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-back.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d6bcf88eda411ebc/after-back.png",
-      "key": "chinese-architecture/baohe/updates/02/d6bcf88eda411ebc/after-back.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d6bcf88eda411ebc/after-back.jpg",
+      "key": "chinese-architecture/baohe/updates/02/d6bcf88eda411ebc/after-back.jpg",
       "sha256": "d6bcf88eda411ebcc79745114f1d194a7cb4e96318286e86341925cdd0683808",
       "bytes": 92942,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6502,11 +6502,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-mobile-actual-photo-ramp-link.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e85d4c4e57392344/ui-mobile-actual-photo-ramp-link.png",
-      "key": "chinese-architecture/baohe/updates/02/e85d4c4e57392344/ui-mobile-actual-photo-ramp-link.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e85d4c4e57392344/ui-mobile-actual-photo-ramp-link.jpg",
+      "key": "chinese-architecture/baohe/updates/02/e85d4c4e57392344/ui-mobile-actual-photo-ramp-link.jpg",
       "sha256": "e85d4c4e57392344b96a582f207208b9bb57446884ad0c0171472f7ad7af9e27",
       "bytes": 26158,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6515,11 +6515,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-geometry-reference-material.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/77b8b99b930d65c0/after-geometry-reference-material.png",
-      "key": "chinese-architecture/baohe/updates/02/77b8b99b930d65c0/after-geometry-reference-material.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/77b8b99b930d65c0/after-geometry-reference-material.jpg",
+      "key": "chinese-architecture/baohe/updates/02/77b8b99b930d65c0/after-geometry-reference-material.jpg",
       "sha256": "77b8b99b930d65c093832dbcfc3ba9d65556a4942012e837f666326c9c90c2ac",
       "bytes": 76251,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6528,11 +6528,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-side.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/75a9c345fc84ee06/before-side.png",
-      "key": "chinese-architecture/baohe/updates/02/75a9c345fc84ee06/before-side.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/75a9c345fc84ee06/before-side.jpg",
+      "key": "chinese-architecture/baohe/updates/02/75a9c345fc84ee06/before-side.jpg",
       "sha256": "75a9c345fc84ee067117797d6cd6ed6e48851896f9ee5369e88094fcd410a6f9",
       "bytes": 69809,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6541,11 +6541,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-mobile-whole.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/64137367335b2062/ui-mobile-whole.png",
-      "key": "chinese-architecture/baohe/updates/02/64137367335b2062/ui-mobile-whole.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/64137367335b2062/ui-mobile-whole.jpg",
+      "key": "chinese-architecture/baohe/updates/02/64137367335b2062/ui-mobile-whole.jpg",
       "sha256": "64137367335b206270ac723aad7a096fbffd77899d6bd43213000847e16c78e2",
       "bytes": 99715,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6554,11 +6554,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-final-terrace.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/f8331c3481f642e6/after-final-terrace.png",
-      "key": "chinese-architecture/baohe/updates/02/f8331c3481f642e6/after-final-terrace.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/f8331c3481f642e6/after-final-terrace.jpg",
+      "key": "chinese-architecture/baohe/updates/02/f8331c3481f642e6/after-final-terrace.jpg",
       "sha256": "f8331c3481f642e64152c3a418b0c949796bf87bb4c39d1a459dd0fbb354b076",
       "bytes": 88691,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6567,11 +6567,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-frame.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/5dd0fd6191e3603c/after-frame.png",
-      "key": "chinese-architecture/baohe/updates/02/5dd0fd6191e3603c/after-frame.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/5dd0fd6191e3603c/after-frame.jpg",
+      "key": "chinese-architecture/baohe/updates/02/5dd0fd6191e3603c/after-frame.jpg",
       "sha256": "5dd0fd6191e3603c289020e98ff1bb8ed1570aae4b8afb4d2c9933c359f61925",
       "bytes": 110588,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6580,11 +6580,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-final-return-whole.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/27d079f5b4e63e1c/ui-final-return-whole.png",
-      "key": "chinese-architecture/baohe/updates/02/27d079f5b4e63e1c/ui-final-return-whole.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/27d079f5b4e63e1c/ui-final-return-whole.jpg",
+      "key": "chinese-architecture/baohe/updates/02/27d079f5b4e63e1c/ui-final-return-whole.jpg",
       "sha256": "27d079f5b4e63e1c93a84d37ca87903dbab6001be4417c2768d2eb2863c36315",
       "bytes": 97874,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6593,11 +6593,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-fixed-frame.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/f2345161ff84e86b/before-fixed-frame.png",
-      "key": "chinese-architecture/baohe/updates/02/f2345161ff84e86b/before-fixed-frame.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/f2345161ff84e86b/before-fixed-frame.jpg",
+      "key": "chinese-architecture/baohe/updates/02/f2345161ff84e86b/before-fixed-frame.jpg",
       "sha256": "f2345161ff84e86b5f858b98be996da2a768e27722d8a0b821194d3c561f8d04",
       "bytes": 99456,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6606,11 +6606,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-mobile-actual-terrace-exploded.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/884dccebb07a28cb/ui-mobile-actual-terrace-exploded.png",
-      "key": "chinese-architecture/baohe/updates/02/884dccebb07a28cb/ui-mobile-actual-terrace-exploded.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/884dccebb07a28cb/ui-mobile-actual-terrace-exploded.jpg",
+      "key": "chinese-architecture/baohe/updates/02/884dccebb07a28cb/ui-mobile-actual-terrace-exploded.jpg",
       "sha256": "884dccebb07a28cbd7fbcfe96f004cc32cb08b7e7775d8e1aa1383a896f79435",
       "bytes": 32076,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6619,11 +6619,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-delivery-iso.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/2b0f2399956797cf/ui-delivery-iso.png",
-      "key": "chinese-architecture/baohe/updates/02/2b0f2399956797cf/ui-delivery-iso.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/2b0f2399956797cf/ui-delivery-iso.jpg",
+      "key": "chinese-architecture/baohe/updates/02/2b0f2399956797cf/ui-delivery-iso.jpg",
       "sha256": "2b0f2399956797cf5cc93f94c60da14a63308079eefef1e9d57eede50425aa80",
       "bytes": 96884,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6632,11 +6632,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-first-photo.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/24792c026808469a/ui-first-photo.png",
-      "key": "chinese-architecture/baohe/updates/02/24792c026808469a/ui-first-photo.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/24792c026808469a/ui-first-photo.jpg",
+      "key": "chinese-architecture/baohe/updates/02/24792c026808469a/ui-first-photo.jpg",
       "sha256": "24792c026808469afdb767e49571b56253ba88ee34c994fa3b3bafda495fa66d",
       "bytes": 38720,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6645,11 +6645,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-mobile-actual-chi-exploded.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/dba3ed838107605c/ui-mobile-actual-chi-exploded.png",
-      "key": "chinese-architecture/baohe/updates/02/dba3ed838107605c/ui-mobile-actual-chi-exploded.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/dba3ed838107605c/ui-mobile-actual-chi-exploded.jpg",
+      "key": "chinese-architecture/baohe/updates/02/dba3ed838107605c/ui-mobile-actual-chi-exploded.jpg",
       "sha256": "dba3ed838107605cc30017549a5407b3e62f69e824267933e86b2e8b31255e8e",
       "bytes": 28649,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6658,11 +6658,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-final-back.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/f030adc600478768/after-final-back.png",
-      "key": "chinese-architecture/baohe/updates/02/f030adc600478768/after-final-back.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/f030adc600478768/after-final-back.jpg",
+      "key": "chinese-architecture/baohe/updates/02/f030adc600478768/after-final-back.jpg",
       "sha256": "f030adc6004787688a05c3c9f6354f256004d296b496ddd138fe608d7d3333e0",
       "bytes": 92599,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6671,11 +6671,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-delivery-side.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/4c415706997aa725/ui-delivery-side.png",
-      "key": "chinese-architecture/baohe/updates/02/4c415706997aa725/ui-delivery-side.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/4c415706997aa725/ui-delivery-side.jpg",
+      "key": "chinese-architecture/baohe/updates/02/4c415706997aa725/ui-delivery-side.jpg",
       "sha256": "4c415706997aa725910b1c9e75afa3fef99250820be15f1cb9b93720c373a7b1",
       "bytes": 90368,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6684,11 +6684,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-final-section-z-start.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/4f86ddd88ceec837/ui-final-section-z-start.png",
-      "key": "chinese-architecture/baohe/updates/02/4f86ddd88ceec837/ui-final-section-z-start.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/4f86ddd88ceec837/ui-final-section-z-start.jpg",
+      "key": "chinese-architecture/baohe/updates/02/4f86ddd88ceec837/ui-final-section-z-start.jpg",
       "sha256": "4f86ddd88ceec837cedbe765b05fc934196b2622da23d154243f178f2c41c1a2",
       "bytes": 83580,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6697,11 +6697,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-verified-frame.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/29f50f703fecf1b8/before-verified-frame.png",
-      "key": "chinese-architecture/baohe/updates/02/29f50f703fecf1b8/before-verified-frame.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/29f50f703fecf1b8/before-verified-frame.jpg",
+      "key": "chinese-architecture/baohe/updates/02/29f50f703fecf1b8/before-verified-frame.jpg",
       "sha256": "29f50f703fecf1b8f0102f924bdd2fddbe1002fe6f1aadd1c55dd0d2284718eb",
       "bytes": 84582,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6710,11 +6710,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-final-rail.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/fb453c680302c8da/after-final-rail.png",
-      "key": "chinese-architecture/baohe/updates/02/fb453c680302c8da/after-final-rail.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/fb453c680302c8da/after-final-rail.jpg",
+      "key": "chinese-architecture/baohe/updates/02/fb453c680302c8da/after-final-rail.jpg",
       "sha256": "fb453c680302c8dabc849a86939d841f2b1d946918e6da096a6a300d795d5e95",
       "bytes": 79303,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6723,11 +6723,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-terrace.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e72ea97d52ca87f1/before-terrace.png",
-      "key": "chinese-architecture/baohe/updates/02/e72ea97d52ca87f1/before-terrace.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e72ea97d52ca87f1/before-terrace.jpg",
+      "key": "chinese-architecture/baohe/updates/02/e72ea97d52ca87f1/before-terrace.jpg",
       "sha256": "e72ea97d52ca87f14b99ad587a2602cedfafc0e1155d4615da96425200caee3c",
       "bytes": 61782,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6736,11 +6736,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-fixed-back.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d2db9a5a4e72802d/before-fixed-back.png",
-      "key": "chinese-architecture/baohe/updates/02/d2db9a5a4e72802d/before-fixed-back.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d2db9a5a4e72802d/before-fixed-back.jpg",
+      "key": "chinese-architecture/baohe/updates/02/d2db9a5a4e72802d/before-fixed-back.jpg",
       "sha256": "d2db9a5a4e72802daee7d2a5106c42095d508900b1a828cca80400c6ab81ed67",
       "bytes": 72783,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6749,11 +6749,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-verified-front.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/cde829008141e16b/before-verified-front.png",
-      "key": "chinese-architecture/baohe/updates/02/cde829008141e16b/before-verified-front.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/cde829008141e16b/before-verified-front.jpg",
+      "key": "chinese-architecture/baohe/updates/02/cde829008141e16b/before-verified-front.jpg",
       "sha256": "cde829008141e16bd6304bd271965b532d71717dab189c7f60884fc89baedc20",
       "bytes": 76583,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6762,11 +6762,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-final-reset.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d57e23e34c5e263f/ui-final-reset.png",
-      "key": "chinese-architecture/baohe/updates/02/d57e23e34c5e263f/ui-final-reset.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d57e23e34c5e263f/ui-final-reset.jpg",
+      "key": "chinese-architecture/baohe/updates/02/d57e23e34c5e263f/ui-final-reset.jpg",
       "sha256": "d57e23e34c5e263fd3f063aab716de57aa27192408fdcf59a8491effd60cd679",
       "bytes": 97606,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6775,11 +6775,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-fixed-rail.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/33e758aa72f7f520/before-fixed-rail.png",
-      "key": "chinese-architecture/baohe/updates/02/33e758aa72f7f520/before-fixed-rail.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/33e758aa72f7f520/before-fixed-rail.jpg",
+      "key": "chinese-architecture/baohe/updates/02/33e758aa72f7f520/before-fixed-rail.jpg",
       "sha256": "33e758aa72f7f520e038ae1314a88a49f8bd4fcf0b79a82b04fe20560682d600",
       "bytes": 66373,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6788,11 +6788,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-final-picked-exploded.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/86fc43af357f275f/ui-final-picked-exploded.png",
-      "key": "chinese-architecture/baohe/updates/02/86fc43af357f275f/ui-final-picked-exploded.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/86fc43af357f275f/ui-final-picked-exploded.jpg",
+      "key": "chinese-architecture/baohe/updates/02/86fc43af357f275f/ui-final-picked-exploded.jpg",
       "sha256": "86fc43af357f275f00687232f569e65a32226d89242f0401a1a8b2aca32a8fd4",
       "bytes": 78529,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6801,11 +6801,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-front.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/0dd9609f2c30c33f/after-front.png",
-      "key": "chinese-architecture/baohe/updates/02/0dd9609f2c30c33f/after-front.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/0dd9609f2c30c33f/after-front.jpg",
+      "key": "chinese-architecture/baohe/updates/02/0dd9609f2c30c33f/after-front.jpg",
       "sha256": "0dd9609f2c30c33f7ebe8f79cbb3a7d1cbd3a2feae312ce144efc41957acf8bf",
       "bytes": 98140,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6814,11 +6814,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-fixed-front.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/cf0ea4edb20f4725/before-fixed-front.png",
-      "key": "chinese-architecture/baohe/updates/02/cf0ea4edb20f4725/before-fixed-front.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/cf0ea4edb20f4725/before-fixed-front.jpg",
+      "key": "chinese-architecture/baohe/updates/02/cf0ea4edb20f4725/before-fixed-front.jpg",
       "sha256": "cf0ea4edb20f472571fe5287f80adcda4bb501e73a6f99cf6210a04971e64695",
       "bytes": 75705,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6827,11 +6827,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-top.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/22f57223f2e2b048/after-top.png",
-      "key": "chinese-architecture/baohe/updates/02/22f57223f2e2b048/after-top.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/22f57223f2e2b048/after-top.jpg",
+      "key": "chinese-architecture/baohe/updates/02/22f57223f2e2b048/after-top.jpg",
       "sha256": "22f57223f2e2b0483cddce2c8eb1550044f33f2802cb5521b21656a405dab2b3",
       "bytes": 98999,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6840,11 +6840,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-mobile-actual-whole.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/b577a0bd274785dd/ui-mobile-actual-whole.png",
-      "key": "chinese-architecture/baohe/updates/02/b577a0bd274785dd/ui-mobile-actual-whole.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/b577a0bd274785dd/ui-mobile-actual-whole.jpg",
+      "key": "chinese-architecture/baohe/updates/02/b577a0bd274785dd/ui-mobile-actual-whole.jpg",
       "sha256": "b577a0bd274785ddf8c92591533fcd8bdfcea8e38aa419da98a20ccc0816b1eb",
       "bytes": 34366,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6853,11 +6853,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-side.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/4251a9b2846e87bd/after-side.png",
-      "key": "chinese-architecture/baohe/updates/02/4251a9b2846e87bd/after-side.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/4251a9b2846e87bd/after-side.jpg",
+      "key": "chinese-architecture/baohe/updates/02/4251a9b2846e87bd/after-side.jpg",
       "sha256": "4251a9b2846e87bd1f5a2bbf17691d3548a4a28ddf6ee77632ec78efcea78faa",
       "bytes": 90840,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6866,11 +6866,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-delivery-top.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/2ad962c1e5d529e2/ui-delivery-top.png",
-      "key": "chinese-architecture/baohe/updates/02/2ad962c1e5d529e2/ui-delivery-top.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/2ad962c1e5d529e2/ui-delivery-top.jpg",
+      "key": "chinese-architecture/baohe/updates/02/2ad962c1e5d529e2/ui-delivery-top.jpg",
       "sha256": "2ad962c1e5d529e2d5bfc8fa7626a5d871826cacd8d28f46baa1462c10a9179f",
       "bytes": 98422,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6879,11 +6879,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-rail.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/6b883d9f5b8c0e29/before-rail.png",
-      "key": "chinese-architecture/baohe/updates/02/6b883d9f5b8c0e29/before-rail.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/6b883d9f5b8c0e29/before-rail.jpg",
+      "key": "chinese-architecture/baohe/updates/02/6b883d9f5b8c0e29/before-rail.jpg",
       "sha256": "6b883d9f5b8c0e2922fd5f31605d67364e3c1062a8339529e323f77bf16904a6",
       "bytes": 64781,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6892,11 +6892,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-final-canvas-pick.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e49439a6f8b2c1f1/ui-final-canvas-pick.png",
-      "key": "chinese-architecture/baohe/updates/02/e49439a6f8b2c1f1/ui-final-canvas-pick.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/e49439a6f8b2c1f1/ui-final-canvas-pick.jpg",
+      "key": "chinese-architecture/baohe/updates/02/e49439a6f8b2c1f1/ui-final-canvas-pick.jpg",
       "sha256": "e49439a6f8b2c1f1f7c90dd41344fd89d45f90a7dc8423b4daeeef01165eddbe",
       "bytes": 82499,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6905,11 +6905,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-delivery-terrace.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/f8331c3481f642e6/ui-delivery-terrace.png",
-      "key": "chinese-architecture/baohe/updates/02/f8331c3481f642e6/ui-delivery-terrace.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/f8331c3481f642e6/ui-delivery-terrace.jpg",
+      "key": "chinese-architecture/baohe/updates/02/f8331c3481f642e6/ui-delivery-terrace.jpg",
       "sha256": "f8331c3481f642e64152c3a418b0c949796bf87bb4c39d1a459dd0fbb354b076",
       "bytes": 88691,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6918,11 +6918,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-mobile-actual-ramp-exploded.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/fa6073c00483ddd9/ui-mobile-actual-ramp-exploded.png",
-      "key": "chinese-architecture/baohe/updates/02/fa6073c00483ddd9/ui-mobile-actual-ramp-exploded.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/fa6073c00483ddd9/ui-mobile-actual-ramp-exploded.jpg",
+      "key": "chinese-architecture/baohe/updates/02/fa6073c00483ddd9/ui-mobile-actual-ramp-exploded.jpg",
       "sha256": "fa6073c00483ddd91a514efc2785bab5985bc68a9435032cc39d87ea4ba9f190",
       "bytes": 27128,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6931,11 +6931,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/after-iso.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/aaf3172bceecfc79/after-iso.png",
-      "key": "chinese-architecture/baohe/updates/02/aaf3172bceecfc79/after-iso.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/aaf3172bceecfc79/after-iso.jpg",
+      "key": "chinese-architecture/baohe/updates/02/aaf3172bceecfc79/after-iso.jpg",
       "sha256": "aaf3172bceecfc793c53038a36c9a94b5e3ebf80bed10fef78e7d78c61c28a54",
       "bytes": 97369,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6944,11 +6944,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-mobile-ramp-exploded.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/7e1f9c9aa3b69cdf/ui-mobile-ramp-exploded.png",
-      "key": "chinese-architecture/baohe/updates/02/7e1f9c9aa3b69cdf/ui-mobile-ramp-exploded.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/7e1f9c9aa3b69cdf/ui-mobile-ramp-exploded.jpg",
+      "key": "chinese-architecture/baohe/updates/02/7e1f9c9aa3b69cdf/ui-mobile-ramp-exploded.jpg",
       "sha256": "7e1f9c9aa3b69cdfdb1f4837cceb49f9607a85e55a663542a9accb983900da03",
       "bytes": 80215,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6957,11 +6957,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-final-frame-colors.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/c22573eddc8a035e/ui-final-frame-colors.png",
-      "key": "chinese-architecture/baohe/updates/02/c22573eddc8a035e/ui-final-frame-colors.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/c22573eddc8a035e/ui-final-frame-colors.jpg",
+      "key": "chinese-architecture/baohe/updates/02/c22573eddc8a035e/ui-final-frame-colors.jpg",
       "sha256": "c22573eddc8a035e5e1909dbce3604675b43e3e7dcf3da129028527188af4712",
       "bytes": 96389,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6970,11 +6970,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/before-verified-side.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d49b8e947716c83d/before-verified-side.png",
-      "key": "chinese-architecture/baohe/updates/02/d49b8e947716c83d/before-verified-side.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d49b8e947716c83d/before-verified-side.jpg",
+      "key": "chinese-architecture/baohe/updates/02/d49b8e947716c83d/before-verified-side.jpg",
       "sha256": "d49b8e947716c83de292e4c99fe7fa9b800cea719c55a2dd6f2aa8fdd4cbe561",
       "bytes": 69453,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6983,11 +6983,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-stable-id-whole.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/2b0f2399956797cf/ui-stable-id-whole.png",
-      "key": "chinese-architecture/baohe/updates/02/2b0f2399956797cf/ui-stable-id-whole.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/2b0f2399956797cf/ui-stable-id-whole.jpg",
+      "key": "chinese-architecture/baohe/updates/02/2b0f2399956797cf/ui-stable-id-whole.jpg",
       "sha256": "2b0f2399956797cf5cc93f94c60da14a63308079eefef1e9d57eede50425aa80",
       "bytes": 96884,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -6996,11 +6996,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-stable-id-rail.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/4f5d9a6c12707ea8/ui-stable-id-rail.png",
-      "key": "chinese-architecture/baohe/updates/02/4f5d9a6c12707ea8/ui-stable-id-rail.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/4f5d9a6c12707ea8/ui-stable-id-rail.jpg",
+      "key": "chinese-architecture/baohe/updates/02/4f5d9a6c12707ea8/ui-stable-id-rail.jpg",
       "sha256": "4f5d9a6c12707ea8ae020bb87396fd5d7eba84ff9df9fd5bbfe5ab257aa9bda0",
       "bytes": 76249,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -7009,11 +7009,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-bearing-whole.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/0a0ddac1bf6147c0/ui-bearing-whole.png",
-      "key": "chinese-architecture/baohe/updates/02/0a0ddac1bf6147c0/ui-bearing-whole.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/0a0ddac1bf6147c0/ui-bearing-whole.jpg",
+      "key": "chinese-architecture/baohe/updates/02/0a0ddac1bf6147c0/ui-bearing-whole.jpg",
       "sha256": "0a0ddac1bf6147c0e09c2f9167489ed278f8550f6ef36ac05d0623760937edab",
       "bytes": 96893,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -7022,11 +7022,11 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-bearing-frame.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d4734d7e6805320a/ui-bearing-frame.png",
-      "key": "chinese-architecture/baohe/updates/02/d4734d7e6805320a/ui-bearing-frame.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/d4734d7e6805320a/ui-bearing-frame.jpg",
+      "key": "chinese-architecture/baohe/updates/02/d4734d7e6805320a/ui-bearing-frame.jpg",
       "sha256": "d4734d7e6805320af3f5d22e0ca558071fdac3d194db0692d2c9b10cd8f12f83",
       "bytes": 109866,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
@@ -7035,11 +7035,37 @@
       }
     },
     "chinese-architecture/baohe/updates/02/media/ui-cover-whole.png": {
-      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/232f5544fdfd53a0/ui-cover-whole.png",
-      "key": "chinese-architecture/baohe/updates/02/232f5544fdfd53a0/ui-cover-whole.png",
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/232f5544fdfd53a0/ui-cover-whole.jpg",
+      "key": "chinese-architecture/baohe/updates/02/232f5544fdfd53a0/ui-cover-whole.jpg",
       "sha256": "232f5544fdfd53a0d131a936708fd2b9fc454be6be6240f72577a854bc5b19c9",
       "bytes": 35737,
-      "contentType": "image/png",
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/baohe/updates/02/media/ui-cover-canvas.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/c69fc33ec3824787/ui-cover-canvas.jpg",
+      "key": "chinese-architecture/baohe/updates/02/c69fc33ec3824787/ui-cover-canvas.jpg",
+      "sha256": "c69fc33ec3824787c0818d7c2781925850ceb8ecaa3572638e8d43d3595ede1c",
+      "bytes": 16087,
+      "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true,
+      "publicHTTP": {
+        "status": 403,
+        "error": "HTTPError"
+      }
+    },
+    "chinese-architecture/baohe/updates/02/media/ui-cover-verified.png": {
+      "url": "https://readforfun-img.chunyangwen.com/chinese-architecture/baohe/updates/02/20d6f8a9ddab0b21/ui-cover-verified.jpg",
+      "key": "chinese-architecture/baohe/updates/02/20d6f8a9ddab0b21/ui-cover-verified.jpg",
+      "sha256": "20d6f8a9ddab0b21a24b3f10b5ec38f9ac076283bcec133b74794cbf3132b6f8",
+      "bytes": 34166,
+      "contentType": "image/jpeg",
       "uploaded": true,
       "readBackSHA256Verified": true,
       "publicHTTP": {
