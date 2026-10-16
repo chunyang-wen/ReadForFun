@@ -1,0 +1,570 @@
+{
+  "roof": [
+    {
+      "key": "roof/lower/-1",
+      "up": 1600,
+      "down": 0,
+      "zero": 0
+    },
+    {
+      "key": "roof/lower/1",
+      "up": 1600,
+      "down": 0,
+      "zero": 0
+    },
+    {
+      "key": "roof/hip/false/-1",
+      "up": 960,
+      "down": 0,
+      "zero": 0
+    },
+    {
+      "key": "roof/hip/false/1",
+      "up": 960,
+      "down": 0,
+      "zero": 0
+    },
+    {
+      "key": "roof/upper/-1",
+      "up": 1680,
+      "down": 0,
+      "zero": 0
+    },
+    {
+      "key": "roof/upper/1",
+      "up": 1680,
+      "down": 0,
+      "zero": 0
+    },
+    {
+      "key": "roof/hip/true/-1",
+      "up": 672,
+      "down": 0,
+      "zero": 0
+    },
+    {
+      "key": "roof/hip/true/1",
+      "up": 672,
+      "down": 0,
+      "zero": 0
+    }
+  ],
+  "duplicatePosts": 0,
+  "mould": [
+    {
+      "key": "terrace/lower/mould/band/0/z/-1",
+      "zero": 0,
+      "volume": 5.039987382888299,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/0/x/-1",
+      "zero": 0,
+      "volume": 3.5280360288634336,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/0/z/1",
+      "zero": 0,
+      "volume": 5.039987382888299,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/0/x/1",
+      "zero": 0,
+      "volume": 3.5280360288634336,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/1/z/-1",
+      "zero": 0,
+      "volume": 4.1856118743743425,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/1/x/-1",
+      "zero": 0,
+      "volume": 2.9255897834850444,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/1/z/1",
+      "zero": 0,
+      "volume": 4.1856118743743425,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/1/x/1",
+      "zero": 0,
+      "volume": 2.9255897834850444,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/2/z/-1",
+      "zero": 0,
+      "volume": 5.836348183675761,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/2/x/-1",
+      "zero": 0,
+      "volume": 4.0723459208085595,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/2/z/1",
+      "zero": 0,
+      "volume": 5.836348183675761,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/2/x/1",
+      "zero": 0,
+      "volume": 4.0723459208085595,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/3/z/-1",
+      "zero": 0,
+      "volume": 6.6547041376661085,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/3/x/-1",
+      "zero": 0,
+      "volume": 4.638767918556127,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/3/z/1",
+      "zero": 0,
+      "volume": 6.6547041376661085,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/3/x/1",
+      "zero": 0,
+      "volume": 4.638767918556127,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/4/z/-1",
+      "zero": 0,
+      "volume": 5.846377412556635,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/4/x/-1",
+      "zero": 0,
+      "volume": 4.082380180197305,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/4/z/1",
+      "zero": 0,
+      "volume": 5.846377412556635,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/4/x/1",
+      "zero": 0,
+      "volume": 4.082380180197305,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/5/z/-1",
+      "zero": 0,
+      "volume": 4.185614369195646,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/5/x/-1",
+      "zero": 0,
+      "volume": 2.9255915272739674,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/5/z/1",
+      "zero": 0,
+      "volume": 4.185614369195646,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/5/x/1",
+      "zero": 0,
+      "volume": 2.9255915272739674,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/6/z/-1",
+      "zero": 0,
+      "volume": 4.619988851545713,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/6/x/-1",
+      "zero": 0,
+      "volume": 3.2340333185238688,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/6/z/1",
+      "zero": 0,
+      "volume": 4.619988851545713,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/lower/mould/band/6/x/1",
+      "zero": 0,
+      "volume": 3.2340333185238688,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/0/z/-1",
+      "zero": 0,
+      "volume": 4.679983634960088,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/0/x/-1",
+      "zero": 0,
+      "volume": 3.09602854153491,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/0/z/1",
+      "zero": 0,
+      "volume": 4.679983634960088,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/0/x/1",
+      "zero": 0,
+      "volume": 3.09602854153491,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/1/z/-1",
+      "zero": 0,
+      "volume": 3.8856110160684683,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/1/x/-1",
+      "zero": 0,
+      "volume": 2.5655910423340114,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/1/z/1",
+      "zero": 0,
+      "volume": 3.8856110160684683,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/1/x/1",
+      "zero": 0,
+      "volume": 2.5655910423340114,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/2/z/-1",
+      "zero": 0,
+      "volume": 5.416350209147518,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/2/x/-1",
+      "zero": 0,
+      "volume": 3.5683472347164127,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/2/z/1",
+      "zero": 0,
+      "volume": 5.416350209147518,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/2/x/1",
+      "zero": 0,
+      "volume": 3.5683472347164127,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/3/z/-1",
+      "zero": 0,
+      "volume": 6.174707579947887,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/3/x/-1",
+      "zero": 0,
+      "volume": 4.062763478263024,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/3/z/1",
+      "zero": 0,
+      "volume": 6.174707579947887,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/3/x/1",
+      "zero": 0,
+      "volume": 4.062763478263024,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/4/z/-1",
+      "zero": 0,
+      "volume": 5.426372684550545,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/4/x/-1",
+      "zero": 0,
+      "volume": 3.578376602642452,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/4/z/1",
+      "zero": 0,
+      "volume": 5.426372684550545,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/4/x/1",
+      "zero": 0,
+      "volume": 3.578376602642452,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/5/z/-1",
+      "zero": 0,
+      "volume": 3.8856156480817177,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/5/x/-1",
+      "zero": 0,
+      "volume": 2.565594100759686,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/5/z/1",
+      "zero": 0,
+      "volume": 3.8856156480817177,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/5/x/1",
+      "zero": 0,
+      "volume": 2.565594100759686,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/6/z/-1",
+      "zero": 0,
+      "volume": 4.289989647863873,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/6/x/-1",
+      "zero": 0,
+      "volume": 2.838029238704615,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/6/z/1",
+      "zero": 0,
+      "volume": 4.289989647863873,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/middle/mould/band/6/x/1",
+      "zero": 0,
+      "volume": 2.838029238704615,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/0/z/-1",
+      "zero": 0,
+      "volume": 4.319993476856627,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/0/x/-1",
+      "zero": 0,
+      "volume": 2.6639959773948743,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/0/z/1",
+      "zero": 0,
+      "volume": 4.319993476856627,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/0/x/1",
+      "zero": 0,
+      "volume": 2.6639959773948743,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/1/z/-1",
+      "zero": 0,
+      "volume": 3.585610272204889,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/1/x/-1",
+      "zero": 0,
+      "volume": 2.205606323997605,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/1/z/1",
+      "zero": 0,
+      "volume": 3.585610272204889,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/1/x/1",
+      "zero": 0,
+      "volume": 2.205606323997605,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/2/z/-1",
+      "zero": 0,
+      "volume": 4.99634977034793,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/2/x/-1",
+      "zero": 0,
+      "volume": 3.0643476061463506,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/2/z/1",
+      "zero": 0,
+      "volume": 4.99634977034793,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/2/x/1",
+      "zero": 0,
+      "volume": 3.0643476061463506,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/3/z/-1",
+      "zero": 0,
+      "volume": 5.6947000573865445,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/3/x/-1",
+      "zero": 0,
+      "volume": 3.4867077783283698,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/3/z/1",
+      "zero": 0,
+      "volume": 5.6947000573865445,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/3/x/1",
+      "zero": 0,
+      "volume": 3.4867077783283698,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/4/z/-1",
+      "zero": 0,
+      "volume": 5.006381443884479,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/4/x/-1",
+      "zero": 0,
+      "volume": 3.074379279672744,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/4/z/1",
+      "zero": 0,
+      "volume": 5.006381443884479,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/4/x/1",
+      "zero": 0,
+      "volume": 3.074379279672744,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/5/z/-1",
+      "zero": 0,
+      "volume": 3.5856102722041214,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/5/x/-1",
+      "zero": 0,
+      "volume": 2.2056063239976478,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/5/z/1",
+      "zero": 0,
+      "volume": 3.5856102722041214,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/5/x/1",
+      "zero": 0,
+      "volume": 2.2056063239976478,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/6/z/-1",
+      "zero": 0,
+      "volume": 3.9599947357055427,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/6/x/-1",
+      "zero": 0,
+      "volume": 2.441996753685082,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/6/z/1",
+      "zero": 0,
+      "volume": 3.9599947357055427,
+      "nonManifoldEdges": 0
+    },
+    {
+      "key": "terrace/upper/mould/band/6/x/1",
+      "zero": 0,
+      "volume": 2.441996753685082,
+      "nonManifoldEdges": 0
+    }
+  ],
+  "rafter": {
+    "vertices": 443520,
+    "outside": 0,
+    "penetrations": 0,
+    "maxPenetration": 0,
+    "worst": null
+  },
+  "support": {
+    "checked": 128,
+    "outside": 0
+  }
+}

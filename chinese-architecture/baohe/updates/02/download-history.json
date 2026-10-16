@@ -1,0 +1,21 @@
+{
+  "firstAttempt": [
+    {
+      "id": "baohe-north-ramp-down-2012",
+      "status": 429,
+      "retryAfter": "600"
+    }
+  ],
+  "secondAttempt": {
+    "id": "baohe-north-ramp-down-2012",
+    "status": 429,
+    "retryAfterSeconds": 600,
+    "atOrBeforeUTC": "2026-10-16T11:24:18Z"
+  },
+  "afterCooldown": {
+    "id": "baohe-north-ramp-down-2012",
+    "bytes": 4694581,
+    "sourceSHA1Verified": true,
+    "completedBeforeUTC": "2026-10-16T11:35:09Z"
+  }
+}

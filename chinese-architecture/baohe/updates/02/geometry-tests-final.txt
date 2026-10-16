@@ -1,0 +1,22 @@
+{
+  roof: [
+    { key: 'roof/lower/-1', up: 1600, down: 0, zero: 0 },
+    { key: 'roof/lower/1', up: 1600, down: 0, zero: 0 },
+    { key: 'roof/hip/false/-1', up: 960, down: 0, zero: 0 },
+    { key: 'roof/hip/false/1', up: 960, down: 0, zero: 0 },
+    { key: 'roof/upper/-1', up: 1680, down: 0, zero: 0 },
+    { key: 'roof/upper/1', up: 1680, down: 0, zero: 0 },
+    { key: 'roof/hip/true/-1', up: 672, down: 0, zero: 0 },
+    { key: 'roof/hip/true/1', up: 672, down: 0, zero: 0 }
+  ],
+  duplicatePosts: 0,
+  mould: { count: 84, bad: [] },
+  rafter: {
+    vertices: 443520,
+    outside: 0,
+    penetrations: 0,
+    maxPenetration: 0,
+    worst: null
+  },
+  support: { checked: 128, outside: 0 }
+}

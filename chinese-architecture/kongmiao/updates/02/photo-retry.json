@@ -1,0 +1,393 @@
+{
+  "time": "2026-10-16T11:34:40.995800+00:00",
+  "waitedRetryAfterSeconds": 600,
+  "records": [
+    {
+      "id": "kongmiao-colonnade",
+      "status": 200,
+      "file": "File:曲阜孔庙大成殿盘龙柱群.jpg",
+      "info": {
+        "size": 9439358,
+        "width": 5349,
+        "height": 3561,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF%E7%9B%98%E9%BE%99%E6%9F%B1%E7%BE%A4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF%E7%9B%98%E9%BE%99%E6%9F%B1%E7%BE%A4.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56878153",
+        "sha1": "7766e49f86d21731ed7d1aa4bac4deedb86662ba",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2017-03-07 13:19:03",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "曲阜孔庙大成殿盘龙柱群",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Self-published work|Dragon columns of the Dacheng Hall (Qufu Confucian Temple)",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "​曲阜孔庙大成殿盘龙柱群。",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2017-03-04 12:39:56",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E4%B8%89%E7%8C%8E\" title=\"User:三猎\">三猎</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "kongmiao-roof",
+      "status": 200,
+      "file": "File:曲阜孔庙大成殿仙人走兽.jpg",
+      "info": {
+        "size": 8164698,
+        "width": 5168,
+        "height": 3440,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF%E4%BB%99%E4%BA%BA%E8%B5%B0%E5%85%BD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF%E4%BB%99%E4%BA%BA%E8%B5%B0%E5%85%BD.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56878154",
+        "sha1": "c31e8be8e3cf95747d7affbb4c872e4bdb236584",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2017-03-07 13:19:04",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "曲阜孔庙大成殿仙人走兽",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Self-published work|Dacheng Hall (Qufu Confucian Temple)",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "​曲阜孔庙大成殿仙人走兽。",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2017-03-04 12:36:13",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E4%B8%89%E7%8C%8E\" title=\"User:三猎\">三猎</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "kongmiao-interior",
+      "status": 200,
+      "file": "File:大成殿内景.jpg",
+      "info": {
+        "size": 5012151,
+        "width": 3872,
+        "height": 2592,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/%E5%A4%A7%E6%88%90%E6%AE%BF%E5%86%85%E6%99%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%88%90%E6%AE%BF%E5%86%85%E6%99%AF.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=28499857",
+        "sha1": "e2e67e9b663dbb71c804d15b4dc38035453a696c",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2013-09-23 13:53:21",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "大成殿内景",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Cultural heritage monuments in China with known IDs|Taken with Nikon D80|Statues of Confucius in China|Images from Wiki Loves Monuments 2013 in China|Self-published work|Images from Wiki Loves Monuments 2013|Uploaded via Campaign:wlm-cn|Files with coordinates missing SDC location of creation|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Interior of Dacheng Hall (Qufu Confucian Temple)|Sitting statues of Confucius",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "35.595697",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "116.984495",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "​曲阜孔庙大成殿内景",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2012-02-18 09:32:30",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Shizhao\" title=\"User:Shizhao\">Shizhao</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "kongmiao-eaves",
+      "status": 200,
+      "file": "File:Qufu Kong Miao 2015.08.15 14-26-24.jpg",
+      "info": {
+        "size": 6932584,
+        "width": 5472,
+        "height": 3648,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Qufu_Kong_Miao_2015.08.15_14-26-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Qufu_Kong_Miao_2015.08.15_14-26-24.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=43268850",
+        "sha1": "ce1e260aba87a5f82b6fc2b3da12ef4cc5cb0d08",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2015-09-15 13:28:41",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Qufu Kong Miao 2015.08.15 14-26-24",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "GFDL|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Files with coordinates missing SDC location of creation|Dacheng Hall (Qufu Confucian Temple)",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "35.597147",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "116.984310",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "<p>曲阜孔庙——\n</p>\n大成殿",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2015-08-15 14:26:24",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Zhangzhugang\" title=\"User:Zhangzhugang\">Zhangzhugang</a>",
+            "source": "commons-desc-page"
+          },
+          "Permission": {
+            "value": "You may select the license of your choice.",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    }
+  ]
+}

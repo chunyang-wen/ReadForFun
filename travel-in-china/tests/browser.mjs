@@ -11,6 +11,17 @@ const errors=[];const badResponses=[];page.on('pageerror',e=>errors.push(e.messa
 await fs.mkdir(new URL('../previews/',import.meta.url),{recursive:true});
 await page.goto(base);await page.locator('.province').first().waitFor();
 assert.equal(await page.locator('.province').count(),34);
+assert.equal(await page.locator('.map-city').count(),34);
+assert.equal(await page.locator('.province-name').count(),28);
+assert.equal(await page.locator('select#province-select').count(),0);
+assert.equal(await page.locator('#discovery-pause').getAttribute('aria-pressed'),'true','reduced motion pauses automatic letters');
+const firstLetter=await page.locator('.discovery-bubble').getAttribute('href');
+await page.locator('#discovery-next').click();
+assert.notEqual(await page.locator('.discovery-bubble').getAttribute('href'),firstLetter);
+while((await page.locator('.discovery-bubble').getAttribute('href')).startsWith('#/chengdu'))await page.locator('#discovery-next').click();
+await page.locator('.discovery-bubble').click();
+await page.locator('.province.selected').waitFor();
+await page.locator('#reset-region').click();
 assert((await page.locator('.fact-numbers').textContent()).includes('34'));
 await page.locator('[data-province="110000"]').focus();await page.keyboard.press('Enter');assert((await page.locator('.fact-explanation').textContent()).includes('直接下辖'));
 await page.locator('#reset-region').click();
@@ -35,8 +46,8 @@ await page.getByRole('link',{name:'← 返回成都图志'}).click();await page.
 assert(Math.abs(await page.evaluate(()=>scrollY)-cityScroll)<10,'city scroll restores');
 await page.goBack();await page.locator('h1').filter({hasText:'在一盏茶里'}).waitFor();
 await page.goto(base+'#/atlas');await page.locator('.province').first().waitFor();
-assert.equal(await page.locator('#province-select').inputValue(),'510000');
-await page.locator('#province-select').selectOption('320000');await page.locator('.empty h3').filter({hasText:'江苏省'}).waitFor();
+assert.equal(await page.locator('.province.selected').getAttribute('data-province'),'510000');
+await page.locator('.discovery-close').click();await page.locator('[data-waypoint="320000"] .city-target').click();await page.locator('.empty h3').filter({hasText:'江苏省'}).waitFor();
 await page.getByRole('button',{name:'返回全部目的地'}).click();await page.locator('#destination-search').fill('<script>');await page.getByRole('heading',{name:'还没有找到'}).waitFor();
 await page.getByRole('button',{name:'清除搜索与筛选'}).click();await page.locator('[data-category="culture"]').click();
 await page.locator('#destination-search').fill('蜀锦');await page.locator('.destination-card').waitFor();await page.locator('.destination-card').click();
@@ -57,7 +68,8 @@ const mobile=await browser.newContext({viewport:{width:390,height:844},isMobile:
 const mp=await mobile.newPage();await mp.goto(base);await mp.locator('.province').first().waitFor({state:'attached'});
 assert.equal(await mp.locator('.map-panel').isVisible(),false);
 await mp.getByRole('button',{name:'地图探索',exact:true}).click();assert.equal(await mp.locator('.map-panel').isVisible(),true);
-await mp.locator('#province-select').selectOption('510000');await mp.locator('.city-pin').click();await mp.getByRole('link',{name:'探索这里'}).waitFor();
+await mp.locator('.discovery-close').click();await mp.locator('[data-region="510000"] .province-target').click();await mp.locator('.city-pin').click();await mp.getByRole('link',{name:'探索这里'}).waitFor();
+assert.equal(await mp.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,'map is contained on mobile');
 await mp.screenshot({path:new URL('../previews/mobile-map.png',import.meta.url).pathname,fullPage:true});
 await mp.getByRole('link',{name:'探索这里'}).click();await mp.locator('h1').filter({hasText:'成都'}).waitFor();
 assert.equal(await mp.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,'no city overflow');

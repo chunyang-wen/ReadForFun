@@ -62,5 +62,20 @@ export const R2_FALLBACKS = {
   "fallback/dianchunyi-oblique-2009/63a930b173dc43c6/full.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-oblique-2009/63a930b173dc43c6/full.webp",
   "fallback/dianchunyi-courtyard-2012/8a383cf70c13ac06/thumb.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/thumb.webp",
   "fallback/dianchunyi-courtyard-2012/8a383cf70c13ac06/display.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/display.webp",
-  "fallback/dianchunyi-courtyard-2012/8a383cf70c13ac06/full.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/full.webp"
+  "fallback/dianchunyi-courtyard-2012/8a383cf70c13ac06/full.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/dianchunyi-courtyard-2012/8a383cf70c13ac06/full.webp",
+  "fallback/baohe-front-2012/0d1b7cc0a61f4cef/display.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-2012/0d1b7cc0a61f4cef/display.webp",
+  "fallback/baohe-front-2012/0d1b7cc0a61f4cef/thumb.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-2012/0d1b7cc0a61f4cef/thumb.webp",
+  "fallback/baohe-front-2012/0d1b7cc0a61f4cef/full.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-2012/0d1b7cc0a61f4cef/full.webp",
+  "fallback/baohe-oblique-2012/a2eb540fb2d11f52/display.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-oblique-2012/a2eb540fb2d11f52/display.webp",
+  "fallback/baohe-oblique-2012/a2eb540fb2d11f52/thumb.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-oblique-2012/a2eb540fb2d11f52/thumb.webp",
+  "fallback/baohe-oblique-2012/a2eb540fb2d11f52/full.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-oblique-2012/a2eb540fb2d11f52/full.webp",
+  "fallback/baohe-north-ramp-up-2012/321c69b7b52cdf27/display.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-north-ramp-up-2012/321c69b7b52cdf27/display.webp",
+  "fallback/baohe-north-ramp-up-2012/321c69b7b52cdf27/thumb.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-north-ramp-up-2012/321c69b7b52cdf27/thumb.webp",
+  "fallback/baohe-north-ramp-up-2012/321c69b7b52cdf27/full.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-north-ramp-up-2012/321c69b7b52cdf27/full.webp",
+  "fallback/baohe-front-terraces-2016/d81724efd3bede9a/display.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-terraces-2016/d81724efd3bede9a/display.webp",
+  "fallback/baohe-front-terraces-2016/d81724efd3bede9a/thumb.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-terraces-2016/d81724efd3bede9a/thumb.webp",
+  "fallback/baohe-front-terraces-2016/d81724efd3bede9a/full.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-front-terraces-2016/d81724efd3bede9a/full.webp",
+  "fallback/baohe-north-ramp-down-2012/88969c750ae2e60b/display.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-north-ramp-down-2012/88969c750ae2e60b/display.webp",
+  "fallback/baohe-north-ramp-down-2012/88969c750ae2e60b/thumb.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-north-ramp-down-2012/88969c750ae2e60b/thumb.webp",
+  "fallback/baohe-north-ramp-down-2012/88969c750ae2e60b/full.webp": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/baohe-north-ramp-down-2012/88969c750ae2e60b/full.webp"
 };

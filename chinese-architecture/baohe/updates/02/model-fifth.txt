@@ -1,0 +1,45 @@
+✔ nine by five perimeter, distinct front inner six reductions, no duplicated columns (0.441375ms)
+✔ all main columns have bases whose upper faces meet column feet (19.425917ms)
+✔ front transfer abstraction ends on the two retained gold columns (1.426834ms)
+✔ terraces share a teaching south crop; no false closing rail at that edge (2.613209ms)
+✔ great slab uses exposed-face lengths, not full quarry-block dimensions (0.217458ms)
+✔ three inclined slabs meet teaching upper and lower terrace levels (4.821042ms)
+✔ nine dragon motifs are relief on one slab, not nine loose stone blocks (1.018708ms)
+✔ one rail bay has sill, two posts, solid panel and visibly open upper struts (0.092959ms)
+✔ mouth is an open ring in front of the head and drainage guide is non-physical (0.635292ms)
+✔ north heads face north and side heads face outward; no duplicate north rails (1.511542ms)
+✔ roof keeps true lower hole and upper ridge while rafters lie below tile faces (5.054417ms)
+✔ every displayed type has inspector evidence and all five scopes have finite transforms (28.598375ms)
+✔ roof support posts meet purlin undersides and upper timber posts meet the next beam (164.868166ms)
+✖ all eight roof slopes face upward and both gable skins face outward with no degenerate Float32 triangles (1.907334ms)
+✔ adjacent bays own one shared post body and end walls close the photographed solid gable silhouette (2.568917ms)
+✔ slope and gable edges use identical Float32 boundary stations instead of competing curves (6.556125ms)
+✔ support tops remain inside finite purlins as well as matching their undersides (141.885542ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 16
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 536.909416
+
+✖ failing tests:
+
+test at chinese-architecture/baohe/tests/model.test.js:17:1
+✖ all eight roof slopes face upward and both gable skins face outward with no degenerate Float32 triangles (1.907334ms)
+  AssertionError [ERR_ASSERTION]: gable/-1
+      at TestContext.<anonymous> (file:///Users/chunyangwen/Documents/Ideas/Video2Book/ReadForFun/chinese-architecture/baohe/tests/model.test.js:18:495)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1397:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:969:18)
+      at Test.postRun (node:internal/test_runner/test:1537:19)
+      at Test.run (node:internal/test_runner/test:1462:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:969:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

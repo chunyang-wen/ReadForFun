@@ -1,0 +1,120 @@
+{
+  "method": "Middle-row actual axis segments versus actual finite purlin AABBs, expanded by .045m rafter capsule radius. Positive gap is a conservative software gap; zero does not prove finite cylinder contact. No physical measurement is implied.",
+  "samples": 16,
+  "positiveGaps": 6,
+  "maxGapLowerBound": 0.31114451427991846,
+  "rows": [
+    {
+      "purlin": "purlin/false/-1/0/0",
+      "rafter": "rafter/false/-1/17/0/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0,
+      "possibleContact": true
+    },
+    {
+      "purlin": "purlin/false/-1/0.45/0",
+      "rafter": "rafter/false/-1/17/5/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0,
+      "possibleContact": true
+    },
+    {
+      "purlin": "purlin/false/-1/1/0",
+      "rafter": "rafter/false/-1/17/11/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0.31114451427991846,
+      "possibleContact": false
+    },
+    {
+      "purlin": "purlin/false/1/0/0",
+      "rafter": "rafter/false/1/17/0/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0,
+      "possibleContact": true
+    },
+    {
+      "purlin": "purlin/false/1/0.45/0",
+      "rafter": "rafter/false/1/17/5/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0,
+      "possibleContact": true
+    },
+    {
+      "purlin": "purlin/false/1/1/0",
+      "rafter": "rafter/false/1/17/11/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0.3111445142799182,
+      "possibleContact": false
+    },
+    {
+      "purlin": "purlin/true/-1/0.18/0",
+      "rafter": "rafter/true/-1/17/2/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0,
+      "possibleContact": true
+    },
+    {
+      "purlin": "purlin/true/-1/0.38/0",
+      "rafter": "rafter/true/-1/17/4/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0,
+      "possibleContact": true
+    },
+    {
+      "purlin": "purlin/true/-1/0.6/0",
+      "rafter": "rafter/true/-1/17/7/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0,
+      "possibleContact": true
+    },
+    {
+      "purlin": "purlin/true/-1/0.8/0",
+      "rafter": "rafter/true/-1/17/9/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0.04872092062503543,
+      "possibleContact": false
+    },
+    {
+      "purlin": "purlin/true/-1/1/0",
+      "rafter": "rafter/true/-1/17/11/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0.30354850969498826,
+      "possibleContact": false
+    },
+    {
+      "purlin": "purlin/true/1/0.18/0",
+      "rafter": "rafter/true/1/17/2/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0,
+      "possibleContact": true
+    },
+    {
+      "purlin": "purlin/true/1/0.38/0",
+      "rafter": "rafter/true/1/17/4/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0,
+      "possibleContact": true
+    },
+    {
+      "purlin": "purlin/true/1/0.6/0",
+      "rafter": "rafter/true/1/17/7/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0,
+      "possibleContact": true
+    },
+    {
+      "purlin": "purlin/true/1/0.8/0",
+      "rafter": "rafter/true/1/17/9/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0.04872092062503543,
+      "possibleContact": false
+    },
+    {
+      "purlin": "purlin/true/1/1/0",
+      "rafter": "rafter/true/1/17/11/0",
+      "sampledRafterRow": 17,
+      "conservativeGapLowerBound": 0.30354850969498826,
+      "possibleContact": false
+    }
+  ]
+}

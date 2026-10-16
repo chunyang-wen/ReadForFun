@@ -1,0 +1,2 @@
+{ upper: false, maxMeshSeamGap: 0 }
+{ upper: true, maxMeshSeamGap: 0 }

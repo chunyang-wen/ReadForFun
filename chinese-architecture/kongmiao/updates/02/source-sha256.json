@@ -1,0 +1,54 @@
+{
+  "chinese-architecture/kongmiao/model.js": {
+    "sha256": "f56231e630a192c07436fbe9fc4948ba124ade05364f04b7b0e56f2e693d62fe",
+    "bytes": 17847,
+    "servedSHA256": "f56231e630a192c07436fbe9fc4948ba124ade05364f04b7b0e56f2e693d62fe",
+    "servedMatches": true
+  },
+  "chinese-architecture/kongmiao/app.js": {
+    "sha256": "ecb7c9e16f0fc8011f55590c7b8486a978e7d204bdb502267d536080476c2a97",
+    "bytes": 27271,
+    "servedSHA256": "ecb7c9e16f0fc8011f55590c7b8486a978e7d204bdb502267d536080476c2a97",
+    "servedMatches": true
+  },
+  "chinese-architecture/kongmiao/index.html": {
+    "sha256": "ff11668d700226f374322806bb70a6e3c264826fbdb147ba75fe9436e3bcead1",
+    "bytes": 8893,
+    "servedSHA256": "ff11668d700226f374322806bb70a6e3c264826fbdb147ba75fe9436e3bcead1",
+    "servedMatches": true
+  },
+  "chinese-architecture/kongmiao/tests/model.test.js": {
+    "sha256": "6d41b513194cd976c95d208c800290c2c52b39ac52b303337d2fe4f92f46af0d",
+    "bytes": 5226,
+    "servedSHA256": "6d41b513194cd976c95d208c800290c2c52b39ac52b303337d2fe4f92f46af0d",
+    "servedMatches": true
+  },
+  "chinese-architecture/kongmiao/tests/browser.mjs": {
+    "sha256": "c0046cbef6751cdd5b4faab7606e20fbbca946c30be4f53ad91aa2cdb2fba0c2",
+    "bytes": 6981
+  },
+  "chinese-architecture/photos/gallery.js": {
+    "sha256": "2d810b472d1786ffd5f463beeefe54a7f1db547276f791be293a6b2dbfc8f53d",
+    "bytes": 10029,
+    "servedSHA256": "2d810b472d1786ffd5f463beeefe54a7f1db547276f791be293a6b2dbfc8f53d",
+    "servedMatches": true
+  },
+  "chinese-architecture/photos/catalog.js": {
+    "sha256": "b6f0f3a578d51dc16877824c057ccb5d140b22df511b26dc8f8acc011030d571",
+    "bytes": 51326,
+    "servedSHA256": "b6f0f3a578d51dc16877824c057ccb5d140b22df511b26dc8f8acc011030d571",
+    "servedMatches": true
+  },
+  "chinese-architecture/photos/assets.json": {
+    "sha256": "17ad205ab3fdaa9c27e5d28ed940d1702bb1f6637517a48532f90ca6f01bc891",
+    "bytes": 131609,
+    "servedSHA256": "17ad205ab3fdaa9c27e5d28ed940d1702bb1f6637517a48532f90ca6f01bc891",
+    "servedMatches": true
+  },
+  "chinese-architecture/photos/catalog.test.js": {
+    "sha256": "bbcb8a3aaa3f3e67045ac4deebfc5271837b5274e4e5fe0a00a6bdf40f63984b",
+    "bytes": 11414,
+    "servedSHA256": "bbcb8a3aaa3f3e67045ac4deebfc5271837b5274e4e5fe0a00a6bdf40f63984b",
+    "servedMatches": true
+  }
+}

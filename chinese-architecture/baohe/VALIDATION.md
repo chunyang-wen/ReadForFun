@@ -58,3 +58,22 @@ PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs CHROME_EXECUTABLE='/abs
 ## 精度边界
 
 原书正文及保和殿实例页码映射待补；官方高29.5m与1240㎡的基准不直接用于推算本模型各尺寸；北端各层抄平、真实柱位/移柱/减柱转承、逐科昂尾、石分件、石榫铁件、地下基础、台内暗沟、大石雕埋入部分、精确雕刻/石种、历史颜色、转角大螭、跨浏览器及真机GPU未核。模型仅表达可追溯的形制、可见载体及明确标记的教学推定。详情见[MODEL_NOTES.md](MODEL_NOTES.md)。
+
+
+## 第二轮独立验收 · 2026-10-16
+
+本地正式卷已接入，旧记录保留。完整依据、前后变化、拒绝方案、图片覆盖与边界见 [updates/02/RESEARCH.md](updates/02/RESEARCH.md)。未提交、推送或发布网站。
+
+- [最终40项Node检查](updates/02/tests-final.txt)：本卷19、图录14、共享第一卷7。
+- [几何检查](updates/02/geometry-report.json)：443520个完整椽顶点/轴向采样无越边或穿瓦；128个有限桁段支承通过；8坡/2山花绕序与共边测试通过；84外皮片闭合正体积；[462件旧望柱ID/位置](updates/02/stable-post-ids.json)一致。软件通过不代表测绘真实性成立。
+- 桌面1280×900实际七步、五视角、X/Z剖切端点/反向、展开、换光/材质、复位、实际画布拾取与移动选框；原版局部→木架裁切失败保留，新版同路径通过。状态、脚本与相机见 [browser-checks.json](updates/02/browser-checks.json)，首次失败见 [browser-baseline-failure.json](updates/02/browser-baseline-failure.json)。
+- 390视口命令未生效（实际1280），没有记通过。改用同源iframe，内部实际390×844、scrollWidth390，四类局部最大展开与回整体、竖幅高清及节点联动通过；[mobile-browser.json](updates/02/mobile-browser.json)。不是手机真机/GPU验收。
+- 5张照片20个对象全部R2上传与S3读回SHA256一致；命令行公开GET20项403，浏览器5张公开高清均成功解码/显示，网络上下文分别记录：[上传](updates/02/upload-photos-final.json)、[浏览器](updates/02/photo-browser.json)、[原片与ICC](updates/02/image-integrity.json)。页面与R2备用映射不依赖新增本地副本。
+- 高清400%窗口放大/滚动、切图端点、左右键、Esc/焦点、实际ramp节点、同章保留第5张通过。当前控制台error/warn为空；未捕获全量HTTP，不宣称所有网络资源无误。
+- [源码与实际HTTP字节核验](updates/02/source-hashes.json)，实际模块 `app.js?v=baohe-02bearing`、模型 `baohe-02-20261016-final-bearing`。旧Playwright runner已改DOM读取及临时输出，本轮未运行该runner。
+
+新截图全部存R2，逐张URL/SHA256在根media-assets.json及第二轮上传清单；本地图片只是忽略的工作缓存。北立面、纯侧背正射、北端螭首口/逐石雕刻高清、原书合法页图映射、真实减柱转承、石分件、暗榫铁件、台内水路仍未解决。
+
+收尾增加实际实例桁底接触检查，修正.01m半厚基准错误。另有[桁椽接触已知失败](updates/02/timber-contact-unresolved.json)：中排16处抽查6处确定间隙，最大保守下界约.311m。`check-timber-contact.mjs`有意返回非零，原始输出保留；40项通过不含此项，也不能作为全木架通过。页面与MODEL_NOTES已明示，待本殿梁架/角部支承证据进一步修正。
+
+最终承托与资料缓存修正复验见[桌面](updates/02/browser-bearing-closeout.json)与[真实390视口](updates/02/mobile-bearing-closeout.json)。曾出现模型已新、data.js文字仍旧的缓存差异；失败保留并通过资料导入版本解决，最终DOM已显示桁椽接触未闭合。较早记录保留各自revision。

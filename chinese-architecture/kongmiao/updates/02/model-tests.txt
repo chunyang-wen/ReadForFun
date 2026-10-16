@@ -1,0 +1,30 @@
+✔ nine by five gallery stations and twelve high inner columns (0.534458ms)
+✔ each floor column sits on its own base top (10.518916ms)
+✔ stone and timber upper segments share interfaces (4.760542ms)
+✔ front relief ten supports differ from side and rear surface motifs (31.943625ms)
+✔ upper nine-cai courses have four reaches versus lower three (2.75925ms)
+✔ short posts meet upper beams at their undersides (7.584292ms)
+✔ main transverse beams stay below roof at ends (1.312792ms)
+✔ all sampled rafters stay beneath their own roof (2.172458ms)
+✔ lower roof is an annulus and upper hips begin beneath gable (1.758083ms)
+✔ stable records and finite geometry in each observation scale (27.535417ms)
+✔ local stone-wood interface has no invented hidden mortises (0.446333ms)
+✔ all layers represent actual available objects in whole model (0.053292ms)
+✔ roof faces point outward with no final Float32 degeneracy (1.484125ms)
+✔ ridge purlin is a single stable instance (1.379792ms)
+✔ upper long and hip slopes share every actual seam station (0.562084ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (1.159084ms)
+✔ every selectable member has a documented type and valid layer (3.199167ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (3.671125ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.474875ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.613166ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.087459ms)
+✔ upper frame does not protrude through the hip roof (0.484958ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 248.173458

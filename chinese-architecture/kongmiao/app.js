@@ -1,8 +1,10 @@
 import * as THREE from '../vendor/three.module.js';
 import { OrbitControls } from '../vendor/OrbitControls.js';
-import { buildModel, SPEC, getColumnGrid } from './model.js';
+import { buildModel, SPEC, getColumnGrid, MODEL_REVISION, MODEL_SCRIPT } from './model.js?v=kongmiao-20261016-02-final';
 import { LAYERS, CHAPTERS, PARTS, SOURCES, NODES } from './data.js';
 
+import {mountPhotoGallery} from '../photos/gallery.js?v=kongmiao-20261016-02';
+const REVISION='kongmiao-20261016-02-final';
 const $=id=>document.getElementById(id);
 let chapterIndex=0,model,detail,renderer,scene,camera,controls,selectionBox,ground,gridGuide;
 let activeModel,details=new Map(),detailNode="dragon",dirty=true,explode=0,targetExplode=0,animation=null,sectionSign=1;
@@ -42,7 +44,7 @@ function createMaterials(){
  const wood=woodTexture(),stone=stoneTexture();const palette={wood:0xbb965e,darkwood:0x8c6c39,column:0x953b2a,endgrain:0xc3a76b,rafter:0xc8ac74,stone:0xa6a395,lightstone:0xc2bdaf,ceiling:0xc0a363,ceilingPanel:0xb69b68,roofBoard:0x8c563c,tile:0xc7a445,ridge:0xb59b43,plaster:0xa44835,door:0x973f32,metal:0x625944,blue:0x365b75,green:0x41786d,gold:0xc7a45e,paint:0xffffff,lotus:0xffffff,gildedPaint:0xffffff,plaque:0xffffff};
  for(const [key,color] of Object.entries(palette)){
    const timber=['wood','darkwood','endgrain','rafter'].includes(key);
-   baseMaterials[key]=new THREE.MeshStandardMaterial({color,roughness:key==='metal'?.55:.92,metalness:key==='metal'?.45:0,map:['stone','lightstone'].includes(key)?stone:key==='plaque'?plaqueTexture():['paint','lotus','gildedPaint'].includes(key)?ornamentTexture(key):timber?wood:null,side:['tile','roofBoard','lotus'].includes(key)?THREE.DoubleSide:THREE.FrontSide});
+   baseMaterials[key]=new THREE.MeshStandardMaterial({color,roughness:key==='metal'?.55:.92,metalness:key==='metal'?.45:0,map:['stone','lightstone'].includes(key)?stone:key==='plaque'?plaqueTexture():['paint','lotus','gildedPaint'].includes(key)?ornamentTexture(key):timber?wood:null,side:['roofBoard','lotus'].includes(key)?THREE.DoubleSide:THREE.FrontSide,shadowSide:key==='tile'?THREE.DoubleSide:null});
  }
 }
 function initialize(){
@@ -78,7 +80,7 @@ function initialize(){
   renderer.setAnimationLoop(tick);
  }catch(error){console.error('Architecture viewer initialization failed',error);$('model-loading').hidden=true;$('model-error').hidden=false;updateChapterText(0);document.querySelectorAll('.viewer-controls input,.viewer-controls button,.viewer-toolbar button').forEach(el=>el.disabled=true);}
 }
-function resize(){if(!renderer)return;const {width,height}=$('viewport').getBoundingClientRect();if(!width||!height)return;renderer.setSize(width,height,false);camera.aspect=width/height;camera.updateProjectionMatrix();dirty=true;}
+function resize(){if(!renderer)return;const {width,height}=$('viewport').getBoundingClientRect();if(!width||!height)return;renderer.setSize(width,height,false);camera.aspect=width/height;camera.updateProjectionMatrix();if(activeModel){animation=null;const d=camera.position.clone().sub(controls.target),fit=fittedPosition(d);camera.position.copy(fit.destination);controls.target.copy(fit.target);camera.lookAt(fit.target);controls.update();}dirty=true;}
 function updateChapterText(i){
  const c=CHAPTERS[i];document.querySelectorAll('[data-chapter]').forEach(el=>el.setAttribute('aria-pressed',String(Number(el.dataset.chapter)===i)));
  $('chapter-number').textContent=`${c.n} / 大成殿构造研究`;$('chapter-title').textContent=c.title;$('chapter-subtitle').textContent=c.subtitle;
@@ -86,7 +88,7 @@ function updateChapterText(i){
  $('prev-chapter').disabled=i===0;$('next-chapter').disabled=i===CHAPTERS.length-1;
 }
 function setChapter(i,animate=true){
- chapterIndex=i;updateChapterText(i);if(!model)return;gridGuide.visible=i===1;
+ chapterIndex=i;updateChapterText(i);document.dispatchEvent(new CustomEvent('architecture:chapter',{detail:{building:'kongmiao',chapter:i}}));if(!model)return;gridGuide.visible=i===1;
  const c=CHAPTERS[i];const isDetail=c.view==='detail';for(const d of details.values())d.root.visible=false;if(isDetail){detailNode=c.node||detailNode;detail=details.get(detailNode);} $('node-picker').hidden=!isDetail;$('node-select').value=detailNode;activeModel=isDetail?detail:model;model.root.visible=!isDetail;detail.root.visible=isDetail;ground.position.y=isDetail?-2.1:-.3;
  for(const l of LAYERS){const shown=isDetail?activeModel.layers.get(l.id).children.length>0:c.visible.includes(l.id);activeModel.layers.get(l.id).visible=shown;const input=document.querySelector(`[data-layer="${l.id}"]`);input.checked=shown;input.disabled=activeModel.layers.get(l.id).children.length===0;}
  $('explode').value=c.view==='exploded'?65:0;targetExplode=Number($('explode').value)/100;explode=targetExplode;
@@ -112,12 +114,12 @@ function fittedPosition(direction){
  return {target,destination:target.clone().add(dir.multiplyScalar(distance*1.14))};
 }
 function setView(view,animate=true){
- if(!camera)return;const detailView=activeModel===detail;let direction;
+ if(!camera)return;animation=null;const detailView=activeModel===detail;let direction;
  switch(view){case 'front':direction=new THREE.Vector3(0,.10,1);break;case 'back':direction=new THREE.Vector3(0,.10,-1);break;case 'side':direction=new THREE.Vector3(1,.12,0);break;case 'top':direction=new THREE.Vector3(0,1,.001);break;default:direction=new THREE.Vector3(1,detailView&&detailNode==='dragon'?.30:.52,1.2);}
+ controls.minDistance=detailView?1.4:7;controls.maxDistance=detailView?100:800;
  const {target,destination}=fittedPosition(direction);
  if(animate&&!reduced)animation={from:camera.position.clone(),to:destination,fromTarget:controls.target.clone(),toTarget:target,start:performance.now(),duration:450};
  else{camera.position.copy(destination);controls.target.copy(target);camera.lookAt(target);controls.update();}
- controls.minDistance=detailView?1.4:7;controls.maxDistance=detailView?100:800;
  document.querySelectorAll('[data-view]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.view===view||el.dataset.view==='iso'&&['detail','exploded'].includes(view))));
  $('view-status').textContent=({front:'正南',back:'北向',side:'东向剖观',top:'柱网俯视',detail:'节点与装饰局部',exploded:'分层观察',iso:'斜向全貌'})[view]||'自由视角';dirty=true;
 }
@@ -182,13 +184,13 @@ function tick(now){
  if(document.hidden||!visible)return;
  if(animation){const a=animation,t=Math.min(1,(now-a.start)/a.duration),ease=1-Math.pow(1-t,3);camera.position.lerpVectors(a.from,a.to,ease);controls.target.lerpVectors(a.fromTarget,a.toTarget,ease);dirty=true;if(t===1)animation=null;}
  if(Math.abs(explode-targetExplode)>.001){explode=reduced?targetExplode:THREE.MathUtils.lerp(explode,targetExplode,.16);if(Math.abs(explode-targetExplode)<.002)explode=targetExplode;applyExplosion();}
- const changed=controls.update();if(dirty||changed){renderer.render(scene,camera);updateLabels();dirty=false;}
+ const changed=controls.update();if(dirty||changed){renderer.render(scene,camera);updateLabels();$('viewer-state').textContent=JSON.stringify(getViewerState());dirty=false;}
 }
 for(const button of document.querySelectorAll('[data-chapter]'))button.addEventListener('click',()=>setChapter(Number(button.dataset.chapter)));
 for(const button of document.querySelectorAll('[data-view]'))button.addEventListener('click',()=>setView(button.dataset.view));
 for(const input of document.querySelectorAll('[data-layer]'))input.addEventListener('change',()=>{if(!activeModel)return;activeModel.layers.get(input.dataset.layer).visible=input.checked;syncTerrace();clearSelection();populateMembers();setView('iso',false);dirty=true;});
 $('layers-all').addEventListener('click',()=>{if(!activeModel)return;for(const input of document.querySelectorAll('[data-layer]')){input.checked=!input.disabled;activeModel.layers.get(input.dataset.layer).visible=!input.disabled;}syncTerrace();populateMembers();setView('iso',false);dirty=true;});
-function explosionInput(){targetExplode=Number($('explode').value)/100;$('explode-value').value=`${$('explode').value}%`;$('explode-toggle').textContent=targetExplode?'合回':'展开';explode=targetExplode;applyExplosion();if(camera){const direction=camera.position.clone().sub(controls.target);const {target,destination}=fittedPosition(direction);camera.position.copy(destination);controls.target.copy(target);camera.lookAt(target);controls.update();}dirty=true;}
+function explosionInput(){animation=null;targetExplode=Number($('explode').value)/100;$('explode-value').value=`${$('explode').value}%`;$('explode-toggle').textContent=targetExplode?'合回':'展开';explode=targetExplode;applyExplosion();if(camera){const direction=camera.position.clone().sub(controls.target);const {target,destination}=fittedPosition(direction);camera.position.copy(destination);controls.target.copy(target);camera.lookAt(target);controls.update();}dirty=true;}
 $('explode').addEventListener('input',explosionInput);$('explode-toggle').addEventListener('click',()=>{$('explode').value=targetExplode>0?0:100;explosionInput();});
 $('section-toggle').addEventListener('change',updateClipping);$('section-axis').addEventListener('change',updateClipping);$('section-position').addEventListener('input',updateClipping);$('section-flip').addEventListener('click',()=>{sectionSign*=-1;updateClipping();});
 $('finish-toggle').addEventListener('change',updateColors);
@@ -200,6 +202,10 @@ function populateMembers(){if(!activeModel)return;const select=$('member-list');
 $('member-list').addEventListener('change',()=>{const [m,i]=$('member-list').value.split(':').map(Number);if(Number.isFinite(i))selectHit({object:activeModel.meshes[m],instanceId:i});});
 $('node-select').innerHTML=NODES.map(n=>`<option value="${n.id}">${n.label}</option>`).join('');
 $('node-select').addEventListener('change',()=>{const next=$('node-select').value;details.forEach(d=>d.root.visible=false);detailNode=next;detail=details.get(next);activeModel=detail;detail.root.visible=true;for(const l of LAYERS){const g=detail.layers.get(l.id);g.visible=g.children.length>0;const input=document.querySelector(`[data-layer="${l.id}"]`);input.checked=g.visible;input.disabled=!g.visible;} $('explode').value=0;explode=targetExplode=0;$('explode-value').value='0%';$('explode-toggle').textContent='展开';$('model-mode').textContent=NODES.find(n=>n.id===next).label;$('model-stats').textContent='局部外观研究 · 加工与隐蔽连接未核定';applyExplosion();clearSelection();updateClipping();populateMembers();setView('detail',false);setLabels();});
+document.addEventListener('architecture:photo-model',event=>{const d=event.detail;if(d.building!=='kongmiao'||!CHAPTERS[d.chapter])return;setChapter(d.chapter,false);if(d.node&&NODES.some(n=>n.id===d.node)){$('node-select').value=d.node;$('node-select').dispatchEvent(new Event('change'));}});
 initialize();
+mountPhotoGallery($('photo-atlas'),'kongmiao');
 // Read-only state for reproducible browser validation of fitting and current UI state.
-export function getViewerState(){return {chapter:chapterIndex,detail:activeModel===detail,node:detailNode,explode,targetExplode,section:$('section-toggle').checked,layers:[...activeModel.layers].filter(([,g])=>g.visible).map(([id])=>id),bounds:{min:currentBounds().min.toArray(),max:currentBounds().max.toArray()},camera:camera.position.toArray(),target:controls.target.toArray(),projected:(()=>{const b=currentBounds(),ps=[];for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z])ps.push(new THREE.Vector3(x,y,z).project(camera).toArray());return ps;})()};}
+export function getViewerState(){return {architecture:'kongmiao',revision:REVISION,modelRevision:MODEL_REVISION,modelScript:MODEL_SCRIPT,script:import.meta.url,viewport:{width:innerWidth,height:innerHeight},selected:selected?.record.id||null,animating:!!animation,chapter:chapterIndex,detail:activeModel===detail,node:detailNode,explode,targetExplode,section:$('section-toggle').checked,layers:[...activeModel.layers].filter(([,g])=>g.visible).map(([id])=>id),bounds:{min:currentBounds().min.toArray(),max:currentBounds().max.toArray()},camera:camera.position.toArray(),target:controls.target.toArray(),projected:(()=>{const b=currentBounds(),ps=[];for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z])ps.push(new THREE.Vector3(x,y,z).project(camera).toArray());return ps;})()};}
+
+Object.defineProperty(window,'architectureState',{get:getViewerState});

@@ -1,0 +1,53 @@
+{
+  "roof": [
+    {
+      "key": "roof/lower/-1",
+      "up": 1600,
+      "down": 0,
+      "zero": 0
+    },
+    {
+      "key": "roof/lower/1",
+      "up": 0,
+      "down": 1600,
+      "zero": 0
+    },
+    {
+      "key": "roof/hip/false/-1",
+      "up": 0,
+      "down": 960,
+      "zero": 0
+    },
+    {
+      "key": "roof/hip/false/1",
+      "up": 960,
+      "down": 0,
+      "zero": 0
+    },
+    {
+      "key": "roof/upper/-1",
+      "up": 1600,
+      "down": 0,
+      "zero": 0
+    },
+    {
+      "key": "roof/upper/1",
+      "up": 0,
+      "down": 1600,
+      "zero": 0
+    },
+    {
+      "key": "roof/hip/true/-1",
+      "up": 0,
+      "down": 960,
+      "zero": 0
+    },
+    {
+      "key": "roof/hip/true/1",
+      "up": 960,
+      "down": 0,
+      "zero": 0
+    }
+  ],
+  "duplicatePosts": 408
+}

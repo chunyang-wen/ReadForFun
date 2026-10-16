@@ -1,0 +1,47 @@
+✔ nine by five perimeter, distinct front inner six reductions, no duplicated columns (0.503667ms)
+✔ all main columns have bases whose upper faces meet column feet (22.405083ms)
+✔ front transfer abstraction ends on the two retained gold columns (1.426792ms)
+✔ terraces share a teaching south crop; no false closing rail at that edge (2.950416ms)
+✔ great slab uses exposed-face lengths, not full quarry-block dimensions (0.476542ms)
+✔ three inclined slabs meet teaching upper and lower terrace levels (6.209875ms)
+✔ nine dragon motifs are relief on one slab, not nine loose stone blocks (1.607875ms)
+✔ one rail bay has sill, two posts, solid panel and visibly open upper struts (0.117ms)
+✔ mouth is an open ring in front of the head and drainage guide is non-physical (1.770416ms)
+✔ north heads face north and side heads face outward; no duplicate north rails (2.474375ms)
+✔ roof keeps true lower hole and upper ridge while rafters lie below tile faces (6.048375ms)
+✔ every displayed type has inspector evidence and all five scopes have finite transforms (33.721042ms)
+✔ roof support posts meet purlin undersides and upper timber posts meet the next beam (244.809083ms)
+✔ all eight roof slopes face upward and both gable skins face outward with no degenerate Float32 triangles (1.904791ms)
+✔ adjacent bays own one shared post body and end walls close the photographed solid gable silhouette (3.688875ms)
+✔ slope and gable edges use identical Float32 boundary stations instead of competing curves (4.869542ms)
+✔ support tops remain inside finite purlins as well as matching their undersides (203.690125ms)
+✔ nine symbolic beasts occupy every upper and lower corner, following this hall roof instead of a straight floating row (1.1975ms)
+✔ each photo has explicit reusable rights, attribution and exact building chapter (0.965375ms)
+✔ every display size has a local or verified R2 fallback, and remote keys are content addressed (0.938416ms)
+✔ caisson photograph returns to the actual Taihe caisson chapter (0.068417ms)
+✔ each photograph appears exactly once in its building story (0.100541ms)
+✔ Dule historic plate pages retain period and subject limits, without claiming modern coverage (0.097084ms)
+✔ Yingxian retains native pixels and local delivery while independently recording verified R2 storage (0.656583ms)
+✔ Jinci covers hall, porch, bracket and dragons while preserving uncertain directions (0.164625ms)
+✔ Fengxian interior photos retain front-hall identity limits and real decoration node (0.098125ms)
+✔ Qinian atlas has explicit east-view limits and real decoration node, with R2-only delivery (0.167458ms)
+✔ Huazhongyou identifies one gate, links the lotus node and keeps missing rear coverage explicit (0.133875ms)
+✔ Chengzhi front-hall photos retain door/hidden-frame gaps and link actual carving nodes (0.145083ms)
+✔ Dianchunyi shows three verified courtyard/facade contexts, explicit missing north view and preview boundary (0.140292ms)
+✔ Kongmiao photos use this hall, R2 and actual dragon node, preserving missing views (0.1035ms)
+✔ Baohe keeps south terrace and north independent stone distinct, with actual ramp linkage (0.083958ms)
+✔ column topology is 22 outer + 14 inner, with seven unequal bays (0.908916ms)
+✔ every selectable member has a documented type and valid layer (2.791333ms)
+✔ all rendered geometry and instance transforms are finite and nondegenerate (4.004917ms)
+✔ structural layers remain independently inspectable and whole model fits metre bounds (0.389583ms)
+✔ roof members and fork struts are explicit, not a single solid shell (0.425667ms)
+✔ local bracket has two sloped ang timbers and two outward hua arms (0.079958ms)
+✔ upper frame does not protrude through the hip roof (0.457416ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 713.093916

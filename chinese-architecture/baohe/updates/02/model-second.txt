@@ -1,0 +1,21 @@
+✔ nine by five perimeter, distinct front inner six reductions, no duplicated columns (0.418041ms)
+✔ all main columns have bases whose upper faces meet column feet (17.525666ms)
+✔ front transfer abstraction ends on the two retained gold columns (1.277083ms)
+✔ terraces share a teaching south crop; no false closing rail at that edge (2.688459ms)
+✔ great slab uses exposed-face lengths, not full quarry-block dimensions (0.218666ms)
+✔ three inclined slabs meet teaching upper and lower terrace levels (4.107ms)
+✔ nine dragon motifs are relief on one slab, not nine loose stone blocks (0.92875ms)
+✔ one rail bay has sill, two posts, solid panel and visibly open upper struts (0.111917ms)
+✔ mouth is an open ring in front of the head and drainage guide is non-physical (0.615375ms)
+✔ north heads face north and side heads face outward; no duplicate north rails (1.337708ms)
+✔ roof keeps true lower hole and upper ridge while rafters lie below tile faces (4.709416ms)
+✔ every displayed type has inspector evidence and all five scopes have finite transforms (27.280792ms)
+✔ roof support posts meet purlin undersides and upper timber posts meet the next beam (149.584458ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 372.8275

@@ -6443,5 +6443,1523 @@
     },
     "downloadURL": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Garden_of_the_Master_of_the_Nets_%E7%BD%91%E5%B8%88%E5%9B%AD_%287440180708%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "originalDownloaded": true
+  },
+  {
+    "id": "kongmiao-front",
+    "file": "File:曲阜孔庙大成殿.jpg",
+    "info": {
+      "size": 9639898,
+      "width": 5328,
+      "height": 2992,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56878145",
+      "sha1": "cbfb59cb3337dc9db777608b69537377d6d1c974",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-03-07 13:18:55",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "曲阜孔庙大成殿",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Dacheng Hall (Qufu Confucian Temple)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​曲阜孔庙大成殿。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-04 12:30:05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E4%B8%89%E7%8C%8E\" title=\"User:三猎\">三猎</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "0.jpg"
+  },
+  {
+    "id": "kongmiao-oblique",
+    "file": "File:曲阜孔庙大成殿2.jpg",
+    "info": {
+      "size": 10096733,
+      "width": 5360,
+      "height": 3568,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF2.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56878143",
+      "sha1": "3808ef22318b4c3a2949b2f98a40cb30ba4327e8",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-03-07 13:18:54",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "曲阜孔庙大成殿2",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Dacheng Hall (Qufu Confucian Temple)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​曲阜孔庙大成殿。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-04 12:30:59",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E4%B8%89%E7%8C%8E\" title=\"User:三猎\">三猎</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "1.jpg"
+  },
+  {
+    "id": "kongmiao-dragon",
+    "file": "File:曲阜孔庙大成殿盘龙柱1.jpg",
+    "info": {
+      "size": 10452436,
+      "width": 3504,
+      "height": 5263,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF%E7%9B%98%E9%BE%99%E6%9F%B11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF%E7%9B%98%E9%BE%99%E6%9F%B11.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56878148",
+      "sha1": "885c82632b0382455ea7a2b251d192f9ede4ee71",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-03-07 13:18:59",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "曲阜孔庙大成殿盘龙柱1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Dragon columns of the Dacheng Hall (Qufu Confucian Temple)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​曲阜孔庙大成殿盘龙柱。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-04 12:32:54",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E4%B8%89%E7%8C%8E\" title=\"User:三猎\">三猎</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "2.jpg"
+  },
+  {
+    "id": "kongmiao-plan",
+    "file": "File:NLC416-13jh008080-63886_曲阜孔廟建築及其修葺計劃.pdf",
+    "info": {
+      "size": 10568280,
+      "width": 850,
+      "height": 1379,
+      "pagecount": 252,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/NLC416-13jh008080-63886_%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BB%9F%E5%BB%BA%E7%AF%89%E5%8F%8A%E5%85%B6%E4%BF%AE%E8%91%BA%E8%A8%88%E5%8A%83.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:NLC416-13jh008080-63886_%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BB%9F%E5%BB%BA%E7%AF%89%E5%8F%8A%E5%85%B6%E4%BF%AE%E8%91%BA%E8%A8%88%E5%8A%83.pdf",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132930525",
+      "sha1": "317a9de63e6d6ba86281f547c5496b63275a2019",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-06-11 05:52:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "<div class=\"fn\">\n曲阜孔廟建築及其修葺計劃</div>",
+          "source": "commons-desc-page"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD China|Images with watermarks|PD-scan (PD-China)|Books without Wikidata item|Republican Era Books in the National Library of China|PD-old missing SDC copyright status|曲阜孔廟建築及其修葺計劃",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Artist": {
+          "value": "<div class=\"fn value\">\n梁思成著</div>",
+          "source": "commons-desc-page"
+        },
+        "ImageDescription": {
+          "value": "<div class=\"description\">\n<p>本書分上下篇。包括孔廟建築史略、孔廟建築物之各個研究、曲阜孔廟建築年譜、孔廟以外工程等7章。附錄：大成門前碑亭各碑年代及撰書人名表，明弘治十七年尺與公尺比較表，曲阜孔子廟林修葺費概算，插圖索引。書前有山東省曲阜聖廟平面圖等圖照100餘頁\n</p>\n                     <p>\n目錄 <br>\n緒言 <br>\n上篇 孔廟建築之研究 <br>\n第一章 孔廟建築史略 <br>\n第二章 孔廟建築物之各個研究 <br>\n一 總平面 <br>\n二 廟前諸坊 <br>\n三 聖時門 <br>\n四 仰高門 快覩門 <br>\n五 弘道門及碧水橋 <br>\n六 大中門 <br>\n七 角樓 <br>\n八 同文門 <br>\n九 駐蹕 <br>\n十 奎文閣並掖門及值房 <br>\n十一 毓粹門 觀德門 <br>\n十二 碑亭 <br>\n十三 大成門 <br>\n十四 杏壇 <br>\n十五 大成殿 <br>\n十六 大成殿寢殿 <br>\n十七 金聲門 玉振門 東西廡 寢殿左右掖門 <br>\n十八 聖跡殿 <br>\n十九 承聖門 啟聖門 <br>\n二十 詩禮堂 禮器庫 魯壁 碑亭 <br>\n二十一 崇聖祠 家廟 <br>\n二十二 金絲堂 樂器庫 <br>\n二十三 啟聖殿 寢殿 <br>\n二十四 神庖 神廚 <br>\n二十五 後士祠 燎所 <br>\n二十六 孔子故宅 <br>\n第三章 曲阜孔廟建築年譜 <br>\n下篇 修葺計劃 <br>\n第四章 通常破壞情形——其原因及修補原則 <br>\n一 梁 <br>\n二 柱身傾斜 <br>\n三 桁椽及飛椽之朽壞 <br>\n四 斗拱外傾 <br>\n五 額枋彎下 <br>\n六 承椽枋彎擰 <br>\n七 斗拱毀壞 <br>\n八 角梁毀壞 <br>\n九 磚牆傾斜 <br>\n十 階基或月台傾斜 <br>\n十一 踏道走動 <br>\n十二 石欄杆走動 <br>\n十三 屋蓋滲漏 <br>\n十四 磚墩門過木彎朽 <br>\n十五 地面磚裂 <br>\n十六 油漆彩畫 <br>\n十七 裝修 <br>\n十八 拉扯 <br>\n第五章 各殿宇修葺概要表 <br>\n一 大成殿 <br>\n二 奎文閣並掖門及值房 <br>\n三 極星門 <br>\n四 聖時門 <br>\n五 仰高門 快覩門 <br>\n六 碧水橋 <br>\n七 弘道門 <br>\n八 弘道門東西掖門 <br>\n九 大中門 <br>\n十 大中門東西掖門 <br>\n十一 東南角樓 <br>\n十二 同文門 <br>\n十三 駐蹕 <br>\n十四 院牆 <br>\n十五 奎文閣東西掖門 <br>\n十六 觀德門 毓粹門 <br>\n十七 碑亭 捌 玖 拾 拾壹 <br>\n十八 碑亭 壹 柒 拾貳 拾叄 <br>\n十九 大成門 <br>\n二十 金聲門（玉振門及寢殿東西掖門同） <br>\n二十一 東廡 <br>\n二十二 杏壇 <br>\n二十三 寢殿後院門 <br>\n二十四 聖跡殿 <br>\n二十五 聖跡殿院門 <br>\n二十六 聖跡殿院牆 <br>\n二十七 燎所 <br>\n二十八 啟聖門 <br>\n二十九 啟聖殿東西碑廊 <br>\n三十 金絲堂 <br>\n三十一 樂器庫 <br>\n三十二 啟聖殿前三座門 <br>\n三十三 啟聖殿 <br>\n三十四 啟聖殿寢殿 <br>\n三十五 承聖門 <br>\n三十六 詩禮堂 <br>\n三十七 禮器庫 <br>\n三十八 詩禮堂後影壁（即魯壁） <br>\n三十九 孔宅故井 <br>\n四十 井志碑亭 <br>\n四十一 崇聖祠前三座門 <br>\n四十二 崇聖祠 <br>\n四十三 家廟前三座門（與崇聖祠前三座門同） <br>\n四十四 家廟 <br>\n四十五 孔子故宅門 <br>\n四十六 孔子故宅門贊碑 碑亭 <br>\n四十七 后土祠 <br>\n四十八 神庖北房 <br>\n四十九 神庖東房 <br>\n五十 神庖西房 <br>\n五十一 神庖院門 <br>\n五十二 神廚北房 <br>\n五十三 神廚東房 <br>\n五十四 神廚西房 <br>\n第六章 施工說明書 <br>\n第一節 拆舊 <br>\n（一） 安全 <br>\n（二） 分別舊料 <br>\n（三） 原位 <br>\n第二節 木工 <br>\n（一） 選材 <br>\n（二） 熏烤 <br>\n（三） 斗拱 <br>\n（四） 梁架 <br>\n（五） 柱 <br>\n（六） 檁枋 <br>\n（七） 椽子 <br>\n（八） 飛椽 <br>\n（九） 望板 <br>\n（十） 角梁 <br>\n（十一） 墊拱板棋枋板 <br>\n（十二） 博脊版 <br>\n（十三） 天花 <br>\n（十四） 門窗 <br>\n（十五） 雕刻 <br>\n（十六） 其他 <br>\n（十七） 防腐 <br>\n第三節 屋頂 <br>\n（一） 揭頂 <br>\n（二） 橫條 <br>\n（三） 苫背 <br>\n（四） 瓦 <br>\n（五） 〓瓦 <br>\n第四節 磚作 <br>\n（一） 牆基 <br>\n（二） 壘牆 <br>\n（三） 磚牆抹灰 <br>\n（四） 墁地方磚 <br>\n（五） 磚鋪甬路 <br>\n第五節 石作 <br>\n（一） 石料 <br>\n（二） 安砌 <br>\n（三） 添補 <br>\n（四） 色澤 <br>\n第六節 鐵工 <br>\n（一） 原則 <br>\n（二） 額枋彎下 <br>\n（三） 斗拱凳子 <br>\n（四） 正心枋箍子 <br>\n（五） 鋼椽 <br>\n（六） 鋼角替 <br>\n（七） 柱箍 <br>\n（八） 門楹轉軸 <br>\n（九） 門窗角葉 <br>\n（十） 陳列櫃 <br>\n（十一） 拉扯 <br>\n第七節 油漆 <br>\n（一） 範圍 <br>\n（二） 除舊 <br>\n（三） 膩縫 <br>\n（四） 批麻 <br>\n（五） 油漆 <br>\n第八節 彩畫 <br>\n（一） 保存 <br>\n（二） 除舊 <br>\n（三） 備底 <br>\n（四） 油色 <br>\n（五） 瀝粉貼金 <br>\n（六） 塑像 <br>\n（七） 工匠 <br>\n第九節 鋼骨水泥 <br>\n（一） 部位 <br>\n（二） 成分 <br>\n（三） 木模 <br>\n（四） 鐵筋 <br>\n（五） 拌和 <br>\n（六） 填打 <br>\n（七） 保潮 <br>\n（八） 濕度 <br>\n（九） 油漆水泥 <br>\n第七章 孔廟以外工程 <br>\n第一節 顏廟 <br>\n（一） 復聖門 <br>\n（二） 博文門約禮門 <br>\n（三） 陋巷井亭 <br>\n（四） 克己門 <br>\n（五） 復禮門 <br>\n（六） 歸仁門 <br>\n（七） 碑亭 <br>\n（八） 仰聖門 <br>\n（九） 復聖殿 <br>\n（十） 復聖殿寢殿 <br>\n（十一） 正殿東西廡 <br>\n（十二） 顏樂亭 <br>\n（十三） 退省堂 <br>\n（十四） 家廟 <br>\n（十五） 神廚 <br>\n（十六） 杞國公殿 <br>\n（十七） 杞國公殿寢殿 <br>\n（十八） 牆垣 <br>\n第二節 孔林 <br>\n（一） 建築物 <br>\n（二） 林木 <br>\n第三節 其他 <br>\n（一） 公路 <br>\n（二） 旅舍 <br>\n附錄 <br>\n一 大成門前碑亭各碑年代及撰書人名表 <br>\n二 明弘治十七年尺與公尺比較表 <br>\n三 曲阜孔子廟林修葺費概算 <br>\n插圖索隱\n</p></div>",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:National_Library_of_China\" class=\"extiw\" title=\"w:en:National Library of China\"><span title=\"library in Beijing, China\">National Library of China</span></a>\n</bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "liang.pdf",
+    "sourceType": "commons-pdf-page",
+    "pdfPage": 20,
+    "author": "梁思成／中国营造学社（原刊；摄影未逐幅署名），国家图书馆扫描",
+    "date": "1935年出版（拍摄日期未逐图注明）"
+  },
+  {
+    "id": "kongmiao-section",
+    "file": "File:NLC416-13jh008080-63886_曲阜孔廟建築及其修葺計劃.pdf",
+    "info": {
+      "size": 10568280,
+      "width": 850,
+      "height": 1379,
+      "pagecount": 252,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/NLC416-13jh008080-63886_%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BB%9F%E5%BB%BA%E7%AF%89%E5%8F%8A%E5%85%B6%E4%BF%AE%E8%91%BA%E8%A8%88%E5%8A%83.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:NLC416-13jh008080-63886_%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BB%9F%E5%BB%BA%E7%AF%89%E5%8F%8A%E5%85%B6%E4%BF%AE%E8%91%BA%E8%A8%88%E5%8A%83.pdf",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132930525",
+      "sha1": "317a9de63e6d6ba86281f547c5496b63275a2019",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-06-11 05:52:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "<div class=\"fn\">\n曲阜孔廟建築及其修葺計劃</div>",
+          "source": "commons-desc-page"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD China|Images with watermarks|PD-scan (PD-China)|Books without Wikidata item|Republican Era Books in the National Library of China|PD-old missing SDC copyright status|曲阜孔廟建築及其修葺計劃",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Artist": {
+          "value": "<div class=\"fn value\">\n梁思成著</div>",
+          "source": "commons-desc-page"
+        },
+        "ImageDescription": {
+          "value": "<div class=\"description\">\n<p>本書分上下篇。包括孔廟建築史略、孔廟建築物之各個研究、曲阜孔廟建築年譜、孔廟以外工程等7章。附錄：大成門前碑亭各碑年代及撰書人名表，明弘治十七年尺與公尺比較表，曲阜孔子廟林修葺費概算，插圖索引。書前有山東省曲阜聖廟平面圖等圖照100餘頁\n</p>\n                     <p>\n目錄 <br>\n緒言 <br>\n上篇 孔廟建築之研究 <br>\n第一章 孔廟建築史略 <br>\n第二章 孔廟建築物之各個研究 <br>\n一 總平面 <br>\n二 廟前諸坊 <br>\n三 聖時門 <br>\n四 仰高門 快覩門 <br>\n五 弘道門及碧水橋 <br>\n六 大中門 <br>\n七 角樓 <br>\n八 同文門 <br>\n九 駐蹕 <br>\n十 奎文閣並掖門及值房 <br>\n十一 毓粹門 觀德門 <br>\n十二 碑亭 <br>\n十三 大成門 <br>\n十四 杏壇 <br>\n十五 大成殿 <br>\n十六 大成殿寢殿 <br>\n十七 金聲門 玉振門 東西廡 寢殿左右掖門 <br>\n十八 聖跡殿 <br>\n十九 承聖門 啟聖門 <br>\n二十 詩禮堂 禮器庫 魯壁 碑亭 <br>\n二十一 崇聖祠 家廟 <br>\n二十二 金絲堂 樂器庫 <br>\n二十三 啟聖殿 寢殿 <br>\n二十四 神庖 神廚 <br>\n二十五 後士祠 燎所 <br>\n二十六 孔子故宅 <br>\n第三章 曲阜孔廟建築年譜 <br>\n下篇 修葺計劃 <br>\n第四章 通常破壞情形——其原因及修補原則 <br>\n一 梁 <br>\n二 柱身傾斜 <br>\n三 桁椽及飛椽之朽壞 <br>\n四 斗拱外傾 <br>\n五 額枋彎下 <br>\n六 承椽枋彎擰 <br>\n七 斗拱毀壞 <br>\n八 角梁毀壞 <br>\n九 磚牆傾斜 <br>\n十 階基或月台傾斜 <br>\n十一 踏道走動 <br>\n十二 石欄杆走動 <br>\n十三 屋蓋滲漏 <br>\n十四 磚墩門過木彎朽 <br>\n十五 地面磚裂 <br>\n十六 油漆彩畫 <br>\n十七 裝修 <br>\n十八 拉扯 <br>\n第五章 各殿宇修葺概要表 <br>\n一 大成殿 <br>\n二 奎文閣並掖門及值房 <br>\n三 極星門 <br>\n四 聖時門 <br>\n五 仰高門 快覩門 <br>\n六 碧水橋 <br>\n七 弘道門 <br>\n八 弘道門東西掖門 <br>\n九 大中門 <br>\n十 大中門東西掖門 <br>\n十一 東南角樓 <br>\n十二 同文門 <br>\n十三 駐蹕 <br>\n十四 院牆 <br>\n十五 奎文閣東西掖門 <br>\n十六 觀德門 毓粹門 <br>\n十七 碑亭 捌 玖 拾 拾壹 <br>\n十八 碑亭 壹 柒 拾貳 拾叄 <br>\n十九 大成門 <br>\n二十 金聲門（玉振門及寢殿東西掖門同） <br>\n二十一 東廡 <br>\n二十二 杏壇 <br>\n二十三 寢殿後院門 <br>\n二十四 聖跡殿 <br>\n二十五 聖跡殿院門 <br>\n二十六 聖跡殿院牆 <br>\n二十七 燎所 <br>\n二十八 啟聖門 <br>\n二十九 啟聖殿東西碑廊 <br>\n三十 金絲堂 <br>\n三十一 樂器庫 <br>\n三十二 啟聖殿前三座門 <br>\n三十三 啟聖殿 <br>\n三十四 啟聖殿寢殿 <br>\n三十五 承聖門 <br>\n三十六 詩禮堂 <br>\n三十七 禮器庫 <br>\n三十八 詩禮堂後影壁（即魯壁） <br>\n三十九 孔宅故井 <br>\n四十 井志碑亭 <br>\n四十一 崇聖祠前三座門 <br>\n四十二 崇聖祠 <br>\n四十三 家廟前三座門（與崇聖祠前三座門同） <br>\n四十四 家廟 <br>\n四十五 孔子故宅門 <br>\n四十六 孔子故宅門贊碑 碑亭 <br>\n四十七 后土祠 <br>\n四十八 神庖北房 <br>\n四十九 神庖東房 <br>\n五十 神庖西房 <br>\n五十一 神庖院門 <br>\n五十二 神廚北房 <br>\n五十三 神廚東房 <br>\n五十四 神廚西房 <br>\n第六章 施工說明書 <br>\n第一節 拆舊 <br>\n（一） 安全 <br>\n（二） 分別舊料 <br>\n（三） 原位 <br>\n第二節 木工 <br>\n（一） 選材 <br>\n（二） 熏烤 <br>\n（三） 斗拱 <br>\n（四） 梁架 <br>\n（五） 柱 <br>\n（六） 檁枋 <br>\n（七） 椽子 <br>\n（八） 飛椽 <br>\n（九） 望板 <br>\n（十） 角梁 <br>\n（十一） 墊拱板棋枋板 <br>\n（十二） 博脊版 <br>\n（十三） 天花 <br>\n（十四） 門窗 <br>\n（十五） 雕刻 <br>\n（十六） 其他 <br>\n（十七） 防腐 <br>\n第三節 屋頂 <br>\n（一） 揭頂 <br>\n（二） 橫條 <br>\n（三） 苫背 <br>\n（四） 瓦 <br>\n（五） 〓瓦 <br>\n第四節 磚作 <br>\n（一） 牆基 <br>\n（二） 壘牆 <br>\n（三） 磚牆抹灰 <br>\n（四） 墁地方磚 <br>\n（五） 磚鋪甬路 <br>\n第五節 石作 <br>\n（一） 石料 <br>\n（二） 安砌 <br>\n（三） 添補 <br>\n（四） 色澤 <br>\n第六節 鐵工 <br>\n（一） 原則 <br>\n（二） 額枋彎下 <br>\n（三） 斗拱凳子 <br>\n（四） 正心枋箍子 <br>\n（五） 鋼椽 <br>\n（六） 鋼角替 <br>\n（七） 柱箍 <br>\n（八） 門楹轉軸 <br>\n（九） 門窗角葉 <br>\n（十） 陳列櫃 <br>\n（十一） 拉扯 <br>\n第七節 油漆 <br>\n（一） 範圍 <br>\n（二） 除舊 <br>\n（三） 膩縫 <br>\n（四） 批麻 <br>\n（五） 油漆 <br>\n第八節 彩畫 <br>\n（一） 保存 <br>\n（二） 除舊 <br>\n（三） 備底 <br>\n（四） 油色 <br>\n（五） 瀝粉貼金 <br>\n（六） 塑像 <br>\n（七） 工匠 <br>\n第九節 鋼骨水泥 <br>\n（一） 部位 <br>\n（二） 成分 <br>\n（三） 木模 <br>\n（四） 鐵筋 <br>\n（五） 拌和 <br>\n（六） 填打 <br>\n（七） 保潮 <br>\n（八） 濕度 <br>\n（九） 油漆水泥 <br>\n第七章 孔廟以外工程 <br>\n第一節 顏廟 <br>\n（一） 復聖門 <br>\n（二） 博文門約禮門 <br>\n（三） 陋巷井亭 <br>\n（四） 克己門 <br>\n（五） 復禮門 <br>\n（六） 歸仁門 <br>\n（七） 碑亭 <br>\n（八） 仰聖門 <br>\n（九） 復聖殿 <br>\n（十） 復聖殿寢殿 <br>\n（十一） 正殿東西廡 <br>\n（十二） 顏樂亭 <br>\n（十三） 退省堂 <br>\n（十四） 家廟 <br>\n（十五） 神廚 <br>\n（十六） 杞國公殿 <br>\n（十七） 杞國公殿寢殿 <br>\n（十八） 牆垣 <br>\n第二節 孔林 <br>\n（一） 建築物 <br>\n（二） 林木 <br>\n第三節 其他 <br>\n（一） 公路 <br>\n（二） 旅舍 <br>\n附錄 <br>\n一 大成門前碑亭各碑年代及撰書人名表 <br>\n二 明弘治十七年尺與公尺比較表 <br>\n三 曲阜孔子廟林修葺費概算 <br>\n插圖索隱\n</p></div>",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:National_Library_of_China\" class=\"extiw\" title=\"w:en:National Library of China\"><span title=\"library in Beijing, China\">National Library of China</span></a>\n</bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "liang.pdf",
+    "sourceType": "commons-pdf-page",
+    "pdfPage": 21,
+    "author": "梁思成／中国营造学社（原刊；摄影未逐幅署名），国家图书馆扫描",
+    "date": "1935年出版（拍摄日期未逐图注明）"
+  },
+  {
+    "id": "kongmiao-historic-eaves",
+    "file": "File:NLC416-13jh008080-63886_曲阜孔廟建築及其修葺計劃.pdf",
+    "info": {
+      "size": 10568280,
+      "width": 850,
+      "height": 1379,
+      "pagecount": 252,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/NLC416-13jh008080-63886_%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BB%9F%E5%BB%BA%E7%AF%89%E5%8F%8A%E5%85%B6%E4%BF%AE%E8%91%BA%E8%A8%88%E5%8A%83.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:NLC416-13jh008080-63886_%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BB%9F%E5%BB%BA%E7%AF%89%E5%8F%8A%E5%85%B6%E4%BF%AE%E8%91%BA%E8%A8%88%E5%8A%83.pdf",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132930525",
+      "sha1": "317a9de63e6d6ba86281f547c5496b63275a2019",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-06-11 05:52:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "<div class=\"fn\">\n曲阜孔廟建築及其修葺計劃</div>",
+          "source": "commons-desc-page"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD China|Images with watermarks|PD-scan (PD-China)|Books without Wikidata item|Republican Era Books in the National Library of China|PD-old missing SDC copyright status|曲阜孔廟建築及其修葺計劃",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Artist": {
+          "value": "<div class=\"fn value\">\n梁思成著</div>",
+          "source": "commons-desc-page"
+        },
+        "ImageDescription": {
+          "value": "<div class=\"description\">\n<p>本書分上下篇。包括孔廟建築史略、孔廟建築物之各個研究、曲阜孔廟建築年譜、孔廟以外工程等7章。附錄：大成門前碑亭各碑年代及撰書人名表，明弘治十七年尺與公尺比較表，曲阜孔子廟林修葺費概算，插圖索引。書前有山東省曲阜聖廟平面圖等圖照100餘頁\n</p>\n                     <p>\n目錄 <br>\n緒言 <br>\n上篇 孔廟建築之研究 <br>\n第一章 孔廟建築史略 <br>\n第二章 孔廟建築物之各個研究 <br>\n一 總平面 <br>\n二 廟前諸坊 <br>\n三 聖時門 <br>\n四 仰高門 快覩門 <br>\n五 弘道門及碧水橋 <br>\n六 大中門 <br>\n七 角樓 <br>\n八 同文門 <br>\n九 駐蹕 <br>\n十 奎文閣並掖門及值房 <br>\n十一 毓粹門 觀德門 <br>\n十二 碑亭 <br>\n十三 大成門 <br>\n十四 杏壇 <br>\n十五 大成殿 <br>\n十六 大成殿寢殿 <br>\n十七 金聲門 玉振門 東西廡 寢殿左右掖門 <br>\n十八 聖跡殿 <br>\n十九 承聖門 啟聖門 <br>\n二十 詩禮堂 禮器庫 魯壁 碑亭 <br>\n二十一 崇聖祠 家廟 <br>\n二十二 金絲堂 樂器庫 <br>\n二十三 啟聖殿 寢殿 <br>\n二十四 神庖 神廚 <br>\n二十五 後士祠 燎所 <br>\n二十六 孔子故宅 <br>\n第三章 曲阜孔廟建築年譜 <br>\n下篇 修葺計劃 <br>\n第四章 通常破壞情形——其原因及修補原則 <br>\n一 梁 <br>\n二 柱身傾斜 <br>\n三 桁椽及飛椽之朽壞 <br>\n四 斗拱外傾 <br>\n五 額枋彎下 <br>\n六 承椽枋彎擰 <br>\n七 斗拱毀壞 <br>\n八 角梁毀壞 <br>\n九 磚牆傾斜 <br>\n十 階基或月台傾斜 <br>\n十一 踏道走動 <br>\n十二 石欄杆走動 <br>\n十三 屋蓋滲漏 <br>\n十四 磚墩門過木彎朽 <br>\n十五 地面磚裂 <br>\n十六 油漆彩畫 <br>\n十七 裝修 <br>\n十八 拉扯 <br>\n第五章 各殿宇修葺概要表 <br>\n一 大成殿 <br>\n二 奎文閣並掖門及值房 <br>\n三 極星門 <br>\n四 聖時門 <br>\n五 仰高門 快覩門 <br>\n六 碧水橋 <br>\n七 弘道門 <br>\n八 弘道門東西掖門 <br>\n九 大中門 <br>\n十 大中門東西掖門 <br>\n十一 東南角樓 <br>\n十二 同文門 <br>\n十三 駐蹕 <br>\n十四 院牆 <br>\n十五 奎文閣東西掖門 <br>\n十六 觀德門 毓粹門 <br>\n十七 碑亭 捌 玖 拾 拾壹 <br>\n十八 碑亭 壹 柒 拾貳 拾叄 <br>\n十九 大成門 <br>\n二十 金聲門（玉振門及寢殿東西掖門同） <br>\n二十一 東廡 <br>\n二十二 杏壇 <br>\n二十三 寢殿後院門 <br>\n二十四 聖跡殿 <br>\n二十五 聖跡殿院門 <br>\n二十六 聖跡殿院牆 <br>\n二十七 燎所 <br>\n二十八 啟聖門 <br>\n二十九 啟聖殿東西碑廊 <br>\n三十 金絲堂 <br>\n三十一 樂器庫 <br>\n三十二 啟聖殿前三座門 <br>\n三十三 啟聖殿 <br>\n三十四 啟聖殿寢殿 <br>\n三十五 承聖門 <br>\n三十六 詩禮堂 <br>\n三十七 禮器庫 <br>\n三十八 詩禮堂後影壁（即魯壁） <br>\n三十九 孔宅故井 <br>\n四十 井志碑亭 <br>\n四十一 崇聖祠前三座門 <br>\n四十二 崇聖祠 <br>\n四十三 家廟前三座門（與崇聖祠前三座門同） <br>\n四十四 家廟 <br>\n四十五 孔子故宅門 <br>\n四十六 孔子故宅門贊碑 碑亭 <br>\n四十七 后土祠 <br>\n四十八 神庖北房 <br>\n四十九 神庖東房 <br>\n五十 神庖西房 <br>\n五十一 神庖院門 <br>\n五十二 神廚北房 <br>\n五十三 神廚東房 <br>\n五十四 神廚西房 <br>\n第六章 施工說明書 <br>\n第一節 拆舊 <br>\n（一） 安全 <br>\n（二） 分別舊料 <br>\n（三） 原位 <br>\n第二節 木工 <br>\n（一） 選材 <br>\n（二） 熏烤 <br>\n（三） 斗拱 <br>\n（四） 梁架 <br>\n（五） 柱 <br>\n（六） 檁枋 <br>\n（七） 椽子 <br>\n（八） 飛椽 <br>\n（九） 望板 <br>\n（十） 角梁 <br>\n（十一） 墊拱板棋枋板 <br>\n（十二） 博脊版 <br>\n（十三） 天花 <br>\n（十四） 門窗 <br>\n（十五） 雕刻 <br>\n（十六） 其他 <br>\n（十七） 防腐 <br>\n第三節 屋頂 <br>\n（一） 揭頂 <br>\n（二） 橫條 <br>\n（三） 苫背 <br>\n（四） 瓦 <br>\n（五） 〓瓦 <br>\n第四節 磚作 <br>\n（一） 牆基 <br>\n（二） 壘牆 <br>\n（三） 磚牆抹灰 <br>\n（四） 墁地方磚 <br>\n（五） 磚鋪甬路 <br>\n第五節 石作 <br>\n（一） 石料 <br>\n（二） 安砌 <br>\n（三） 添補 <br>\n（四） 色澤 <br>\n第六節 鐵工 <br>\n（一） 原則 <br>\n（二） 額枋彎下 <br>\n（三） 斗拱凳子 <br>\n（四） 正心枋箍子 <br>\n（五） 鋼椽 <br>\n（六） 鋼角替 <br>\n（七） 柱箍 <br>\n（八） 門楹轉軸 <br>\n（九） 門窗角葉 <br>\n（十） 陳列櫃 <br>\n（十一） 拉扯 <br>\n第七節 油漆 <br>\n（一） 範圍 <br>\n（二） 除舊 <br>\n（三） 膩縫 <br>\n（四） 批麻 <br>\n（五） 油漆 <br>\n第八節 彩畫 <br>\n（一） 保存 <br>\n（二） 除舊 <br>\n（三） 備底 <br>\n（四） 油色 <br>\n（五） 瀝粉貼金 <br>\n（六） 塑像 <br>\n（七） 工匠 <br>\n第九節 鋼骨水泥 <br>\n（一） 部位 <br>\n（二） 成分 <br>\n（三） 木模 <br>\n（四） 鐵筋 <br>\n（五） 拌和 <br>\n（六） 填打 <br>\n（七） 保潮 <br>\n（八） 濕度 <br>\n（九） 油漆水泥 <br>\n第七章 孔廟以外工程 <br>\n第一節 顏廟 <br>\n（一） 復聖門 <br>\n（二） 博文門約禮門 <br>\n（三） 陋巷井亭 <br>\n（四） 克己門 <br>\n（五） 復禮門 <br>\n（六） 歸仁門 <br>\n（七） 碑亭 <br>\n（八） 仰聖門 <br>\n（九） 復聖殿 <br>\n（十） 復聖殿寢殿 <br>\n（十一） 正殿東西廡 <br>\n（十二） 顏樂亭 <br>\n（十三） 退省堂 <br>\n（十四） 家廟 <br>\n（十五） 神廚 <br>\n（十六） 杞國公殿 <br>\n（十七） 杞國公殿寢殿 <br>\n（十八） 牆垣 <br>\n第二節 孔林 <br>\n（一） 建築物 <br>\n（二） 林木 <br>\n第三節 其他 <br>\n（一） 公路 <br>\n（二） 旅舍 <br>\n附錄 <br>\n一 大成門前碑亭各碑年代及撰書人名表 <br>\n二 明弘治十七年尺與公尺比較表 <br>\n三 曲阜孔子廟林修葺費概算 <br>\n插圖索隱\n</p></div>",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:National_Library_of_China\" class=\"extiw\" title=\"w:en:National Library of China\"><span title=\"library in Beijing, China\">National Library of China</span></a>\n</bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "liang.pdf",
+    "sourceType": "commons-pdf-page",
+    "pdfPage": 61,
+    "author": "梁思成／中国营造学社（原刊；摄影未逐幅署名），国家图书馆扫描",
+    "date": "1935年出版（拍摄日期未逐图注明）"
+  },
+  {
+    "id": "kongmiao-historic-column",
+    "file": "File:NLC416-13jh008080-63886_曲阜孔廟建築及其修葺計劃.pdf",
+    "info": {
+      "size": 10568280,
+      "width": 850,
+      "height": 1379,
+      "pagecount": 252,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/NLC416-13jh008080-63886_%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BB%9F%E5%BB%BA%E7%AF%89%E5%8F%8A%E5%85%B6%E4%BF%AE%E8%91%BA%E8%A8%88%E5%8A%83.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:NLC416-13jh008080-63886_%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BB%9F%E5%BB%BA%E7%AF%89%E5%8F%8A%E5%85%B6%E4%BF%AE%E8%91%BA%E8%A8%88%E5%8A%83.pdf",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132930525",
+      "sha1": "317a9de63e6d6ba86281f547c5496b63275a2019",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-06-11 05:52:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "<div class=\"fn\">\n曲阜孔廟建築及其修葺計劃</div>",
+          "source": "commons-desc-page"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD China|Images with watermarks|PD-scan (PD-China)|Books without Wikidata item|Republican Era Books in the National Library of China|PD-old missing SDC copyright status|曲阜孔廟建築及其修葺計劃",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Artist": {
+          "value": "<div class=\"fn value\">\n梁思成著</div>",
+          "source": "commons-desc-page"
+        },
+        "ImageDescription": {
+          "value": "<div class=\"description\">\n<p>本書分上下篇。包括孔廟建築史略、孔廟建築物之各個研究、曲阜孔廟建築年譜、孔廟以外工程等7章。附錄：大成門前碑亭各碑年代及撰書人名表，明弘治十七年尺與公尺比較表，曲阜孔子廟林修葺費概算，插圖索引。書前有山東省曲阜聖廟平面圖等圖照100餘頁\n</p>\n                     <p>\n目錄 <br>\n緒言 <br>\n上篇 孔廟建築之研究 <br>\n第一章 孔廟建築史略 <br>\n第二章 孔廟建築物之各個研究 <br>\n一 總平面 <br>\n二 廟前諸坊 <br>\n三 聖時門 <br>\n四 仰高門 快覩門 <br>\n五 弘道門及碧水橋 <br>\n六 大中門 <br>\n七 角樓 <br>\n八 同文門 <br>\n九 駐蹕 <br>\n十 奎文閣並掖門及值房 <br>\n十一 毓粹門 觀德門 <br>\n十二 碑亭 <br>\n十三 大成門 <br>\n十四 杏壇 <br>\n十五 大成殿 <br>\n十六 大成殿寢殿 <br>\n十七 金聲門 玉振門 東西廡 寢殿左右掖門 <br>\n十八 聖跡殿 <br>\n十九 承聖門 啟聖門 <br>\n二十 詩禮堂 禮器庫 魯壁 碑亭 <br>\n二十一 崇聖祠 家廟 <br>\n二十二 金絲堂 樂器庫 <br>\n二十三 啟聖殿 寢殿 <br>\n二十四 神庖 神廚 <br>\n二十五 後士祠 燎所 <br>\n二十六 孔子故宅 <br>\n第三章 曲阜孔廟建築年譜 <br>\n下篇 修葺計劃 <br>\n第四章 通常破壞情形——其原因及修補原則 <br>\n一 梁 <br>\n二 柱身傾斜 <br>\n三 桁椽及飛椽之朽壞 <br>\n四 斗拱外傾 <br>\n五 額枋彎下 <br>\n六 承椽枋彎擰 <br>\n七 斗拱毀壞 <br>\n八 角梁毀壞 <br>\n九 磚牆傾斜 <br>\n十 階基或月台傾斜 <br>\n十一 踏道走動 <br>\n十二 石欄杆走動 <br>\n十三 屋蓋滲漏 <br>\n十四 磚墩門過木彎朽 <br>\n十五 地面磚裂 <br>\n十六 油漆彩畫 <br>\n十七 裝修 <br>\n十八 拉扯 <br>\n第五章 各殿宇修葺概要表 <br>\n一 大成殿 <br>\n二 奎文閣並掖門及值房 <br>\n三 極星門 <br>\n四 聖時門 <br>\n五 仰高門 快覩門 <br>\n六 碧水橋 <br>\n七 弘道門 <br>\n八 弘道門東西掖門 <br>\n九 大中門 <br>\n十 大中門東西掖門 <br>\n十一 東南角樓 <br>\n十二 同文門 <br>\n十三 駐蹕 <br>\n十四 院牆 <br>\n十五 奎文閣東西掖門 <br>\n十六 觀德門 毓粹門 <br>\n十七 碑亭 捌 玖 拾 拾壹 <br>\n十八 碑亭 壹 柒 拾貳 拾叄 <br>\n十九 大成門 <br>\n二十 金聲門（玉振門及寢殿東西掖門同） <br>\n二十一 東廡 <br>\n二十二 杏壇 <br>\n二十三 寢殿後院門 <br>\n二十四 聖跡殿 <br>\n二十五 聖跡殿院門 <br>\n二十六 聖跡殿院牆 <br>\n二十七 燎所 <br>\n二十八 啟聖門 <br>\n二十九 啟聖殿東西碑廊 <br>\n三十 金絲堂 <br>\n三十一 樂器庫 <br>\n三十二 啟聖殿前三座門 <br>\n三十三 啟聖殿 <br>\n三十四 啟聖殿寢殿 <br>\n三十五 承聖門 <br>\n三十六 詩禮堂 <br>\n三十七 禮器庫 <br>\n三十八 詩禮堂後影壁（即魯壁） <br>\n三十九 孔宅故井 <br>\n四十 井志碑亭 <br>\n四十一 崇聖祠前三座門 <br>\n四十二 崇聖祠 <br>\n四十三 家廟前三座門（與崇聖祠前三座門同） <br>\n四十四 家廟 <br>\n四十五 孔子故宅門 <br>\n四十六 孔子故宅門贊碑 碑亭 <br>\n四十七 后土祠 <br>\n四十八 神庖北房 <br>\n四十九 神庖東房 <br>\n五十 神庖西房 <br>\n五十一 神庖院門 <br>\n五十二 神廚北房 <br>\n五十三 神廚東房 <br>\n五十四 神廚西房 <br>\n第六章 施工說明書 <br>\n第一節 拆舊 <br>\n（一） 安全 <br>\n（二） 分別舊料 <br>\n（三） 原位 <br>\n第二節 木工 <br>\n（一） 選材 <br>\n（二） 熏烤 <br>\n（三） 斗拱 <br>\n（四） 梁架 <br>\n（五） 柱 <br>\n（六） 檁枋 <br>\n（七） 椽子 <br>\n（八） 飛椽 <br>\n（九） 望板 <br>\n（十） 角梁 <br>\n（十一） 墊拱板棋枋板 <br>\n（十二） 博脊版 <br>\n（十三） 天花 <br>\n（十四） 門窗 <br>\n（十五） 雕刻 <br>\n（十六） 其他 <br>\n（十七） 防腐 <br>\n第三節 屋頂 <br>\n（一） 揭頂 <br>\n（二） 橫條 <br>\n（三） 苫背 <br>\n（四） 瓦 <br>\n（五） 〓瓦 <br>\n第四節 磚作 <br>\n（一） 牆基 <br>\n（二） 壘牆 <br>\n（三） 磚牆抹灰 <br>\n（四） 墁地方磚 <br>\n（五） 磚鋪甬路 <br>\n第五節 石作 <br>\n（一） 石料 <br>\n（二） 安砌 <br>\n（三） 添補 <br>\n（四） 色澤 <br>\n第六節 鐵工 <br>\n（一） 原則 <br>\n（二） 額枋彎下 <br>\n（三） 斗拱凳子 <br>\n（四） 正心枋箍子 <br>\n（五） 鋼椽 <br>\n（六） 鋼角替 <br>\n（七） 柱箍 <br>\n（八） 門楹轉軸 <br>\n（九） 門窗角葉 <br>\n（十） 陳列櫃 <br>\n（十一） 拉扯 <br>\n第七節 油漆 <br>\n（一） 範圍 <br>\n（二） 除舊 <br>\n（三） 膩縫 <br>\n（四） 批麻 <br>\n（五） 油漆 <br>\n第八節 彩畫 <br>\n（一） 保存 <br>\n（二） 除舊 <br>\n（三） 備底 <br>\n（四） 油色 <br>\n（五） 瀝粉貼金 <br>\n（六） 塑像 <br>\n（七） 工匠 <br>\n第九節 鋼骨水泥 <br>\n（一） 部位 <br>\n（二） 成分 <br>\n（三） 木模 <br>\n（四） 鐵筋 <br>\n（五） 拌和 <br>\n（六） 填打 <br>\n（七） 保潮 <br>\n（八） 濕度 <br>\n（九） 油漆水泥 <br>\n第七章 孔廟以外工程 <br>\n第一節 顏廟 <br>\n（一） 復聖門 <br>\n（二） 博文門約禮門 <br>\n（三） 陋巷井亭 <br>\n（四） 克己門 <br>\n（五） 復禮門 <br>\n（六） 歸仁門 <br>\n（七） 碑亭 <br>\n（八） 仰聖門 <br>\n（九） 復聖殿 <br>\n（十） 復聖殿寢殿 <br>\n（十一） 正殿東西廡 <br>\n（十二） 顏樂亭 <br>\n（十三） 退省堂 <br>\n（十四） 家廟 <br>\n（十五） 神廚 <br>\n（十六） 杞國公殿 <br>\n（十七） 杞國公殿寢殿 <br>\n（十八） 牆垣 <br>\n第二節 孔林 <br>\n（一） 建築物 <br>\n（二） 林木 <br>\n第三節 其他 <br>\n（一） 公路 <br>\n（二） 旅舍 <br>\n附錄 <br>\n一 大成門前碑亭各碑年代及撰書人名表 <br>\n二 明弘治十七年尺與公尺比較表 <br>\n三 曲阜孔子廟林修葺費概算 <br>\n插圖索隱\n</p></div>",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:National_Library_of_China\" class=\"extiw\" title=\"w:en:National Library of China\"><span title=\"library in Beijing, China\">National Library of China</span></a>\n</bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "liang.pdf",
+    "sourceType": "commons-pdf-page",
+    "pdfPage": 65,
+    "author": "梁思成／中国营造学社（原刊；摄影未逐幅署名），国家图书馆扫描",
+    "date": "1935年出版（拍摄日期未逐图注明）"
+  },
+  {
+    "id": "baohe-front-2012",
+    "file": "File:Beijing-Verbotene Stadt-Halle der Wahrung der Harmonie-04-gje.jpg",
+    "info": {
+      "size": 5024005,
+      "width": 5184,
+      "height": 3235,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-04-gje.jpg/960px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-04-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 600,
+      "thumbheight": 374,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-04-gje.jpg/1280px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-04-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-04-gje.jpg/960px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-04-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 600,
+        "height": 374,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-04-gje.jpg/1280px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-04-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-04-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-04-gje.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64823014",
+      "sha1": "e146b19adba25061c03a4d0fef236f95a8e51a31",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-12-15 04:14:33",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Beijing-Verbotene Stadt-Halle der Wahrung der Harmonie-04-gje",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Hall of Preserving Harmony (Forbidden City)|Self-published work|Images by Gerd Eichmann|Images by Gerd Eichmann/NEW.Wikipedia|Images by Gerd Eichmann/UDM.Wikipedia|Images by Gerd Eichmann/China/Beijing-Verbotene Stadt",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Beijing - Forbidden City - Hall of Preserving Harmony",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-10-28 15:02:06",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Gerd_Eichmann\" title=\"User:Gerd Eichmann\">Gerd Eichmann</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "date": "2012-10-28",
+    "localFile": "2.jpg"
+  },
+  {
+    "id": "baohe-oblique-2012",
+    "file": "File:Beijing-Verbotene Stadt-Halle der Wahrung der Harmonie-06-gje.jpg",
+    "info": {
+      "size": 2991652,
+      "width": 4992,
+      "height": 2679,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-06-gje.jpg/960px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-06-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 600,
+      "thumbheight": 322,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-06-gje.jpg/1280px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-06-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-06-gje.jpg/960px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-06-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 600,
+        "height": 322,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-06-gje.jpg/1280px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-06-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-06-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-06-gje.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64823012",
+      "sha1": "b5059acc15a5bd6067e4b69420d82f8e1527cd21",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-12-15 04:14:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Beijing-Verbotene Stadt-Halle der Wahrung der Harmonie-06-gje",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Hall of Preserving Harmony (Forbidden City)|Self-published work|Images by Gerd Eichmann|Images by Gerd Eichmann/MI.Wikipedia|Images by Gerd Eichmann/TN.Wikipedia|Images by Gerd Eichmann/NRM.Wikipedia|Images by Gerd Eichmann/China/Beijing-Verbotene Stadt|Images by Gerd Eichmann/MDF.Wikipedia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Beijing - Forbidden City - Hall of Preserving Harmony",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-10-28 15:20:58",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Gerd_Eichmann\" title=\"User:Gerd Eichmann\">Gerd Eichmann</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "date": "2012-10-28",
+    "localFile": "3.jpg"
+  },
+  {
+    "id": "baohe-north-ramp-up-2012",
+    "file": "File:Beijing-Verbotene Stadt-Halle der Wahrung der Harmonie-08-gje.jpg",
+    "info": {
+      "size": 5006740,
+      "width": 3456,
+      "height": 5054,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-08-gje.jpg/960px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-08-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 600,
+      "thumbheight": 877,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-08-gje.jpg/1280px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-08-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-08-gje.jpg/960px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-08-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 600,
+        "height": 877,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-08-gje.jpg/1280px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-08-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-08-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-08-gje.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64823013",
+      "sha1": "e437fc415ed4f0469830705a31097ee2b6046457",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-12-15 04:14:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Beijing-Verbotene Stadt-Halle der Wahrung der Harmonie-08-gje",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Hall of Preserving Harmony (Forbidden City)|Self-published work|Images by Gerd Eichmann|Images by Gerd Eichmann/TN.Wikipedia|Images by Gerd Eichmann/China/Beijing-Verbotene Stadt",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Beijing - Forbidden City - Hall of Preserving Harmony",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-10-28 15:34:06",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Gerd_Eichmann\" title=\"User:Gerd Eichmann\">Gerd Eichmann</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "date": "2012-10-28",
+    "localFile": "4.jpg"
+  },
+  {
+    "id": "baohe-front-terraces-2016",
+    "file": "File:Beijing (November 2016) - 377.jpg",
+    "info": {
+      "size": 3347933,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Beijing_%28November_2016%29_-_377.jpg/960px-Beijing_%28November_2016%29_-_377.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 600,
+      "thumbheight": 450,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Beijing_%28November_2016%29_-_377.jpg/1280px-Beijing_%28November_2016%29_-_377.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Beijing_%28November_2016%29_-_377.jpg/960px-Beijing_%28November_2016%29_-_377.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 600,
+        "height": 450,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Beijing_%28November_2016%29_-_377.jpg/1280px-Beijing_%28November_2016%29_-_377.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Beijing_%28November_2016%29_-_377.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beijing_(November_2016)_-_377.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=53670931",
+      "sha1": "9a5a73ffe73828b27721d17be6d9e40f39d2c637",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-11-30 22:57:38",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Beijing (November 2016) - 377",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Files of China with bad file names|Hall of Preserving Harmony (Forbidden City)|Self-published work|November 2016 in Beijing|2016 photographs of Beijing by Another Believer",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Beijing (November 2016)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-11-22 06:33:03",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Another_Believer\" title=\"User:Another Believer\">Another Believer</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "date": "2016-11-22",
+    "localFile": "9.jpg"
+  },
+  {
+    "id": "kongmiao-colonnade",
+    "file": "File:曲阜孔庙大成殿盘龙柱群.jpg",
+    "info": {
+      "size": 9439358,
+      "width": 5349,
+      "height": 3561,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF%E7%9B%98%E9%BE%99%E6%9F%B1%E7%BE%A4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF%E7%9B%98%E9%BE%99%E6%9F%B1%E7%BE%A4.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56878153",
+      "sha1": "7766e49f86d21731ed7d1aa4bac4deedb86662ba",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-03-07 13:19:03",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "曲阜孔庙大成殿盘龙柱群",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Dragon columns of the Dacheng Hall (Qufu Confucian Temple)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​曲阜孔庙大成殿盘龙柱群。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-04 12:39:56",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E4%B8%89%E7%8C%8E\" title=\"User:三猎\">三猎</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "3.jpg"
+  },
+  {
+    "id": "kongmiao-roof",
+    "file": "File:曲阜孔庙大成殿仙人走兽.jpg",
+    "info": {
+      "size": 8164698,
+      "width": 5168,
+      "height": 3440,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF%E4%BB%99%E4%BA%BA%E8%B5%B0%E5%85%BD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E6%9B%B2%E9%98%9C%E5%AD%94%E5%BA%99%E5%A4%A7%E6%88%90%E6%AE%BF%E4%BB%99%E4%BA%BA%E8%B5%B0%E5%85%BD.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56878154",
+      "sha1": "c31e8be8e3cf95747d7affbb4c872e4bdb236584",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-03-07 13:19:04",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "曲阜孔庙大成殿仙人走兽",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Dacheng Hall (Qufu Confucian Temple)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​曲阜孔庙大成殿仙人走兽。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-04 12:36:13",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E4%B8%89%E7%8C%8E\" title=\"User:三猎\">三猎</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "4.jpg"
+  },
+  {
+    "id": "kongmiao-interior",
+    "file": "File:大成殿内景.jpg",
+    "info": {
+      "size": 5012151,
+      "width": 3872,
+      "height": 2592,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/%E5%A4%A7%E6%88%90%E6%AE%BF%E5%86%85%E6%99%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%88%90%E6%AE%BF%E5%86%85%E6%99%AF.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=28499857",
+      "sha1": "e2e67e9b663dbb71c804d15b4dc38035453a696c",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-09-23 13:53:21",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "大成殿内景",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Cultural heritage monuments in China with known IDs|Taken with Nikon D80|Statues of Confucius in China|Images from Wiki Loves Monuments 2013 in China|Self-published work|Images from Wiki Loves Monuments 2013|Uploaded via Campaign:wlm-cn|Files with coordinates missing SDC location of creation|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Interior of Dacheng Hall (Qufu Confucian Temple)|Sitting statues of Confucius",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "35.595697",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "116.984495",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​曲阜孔庙大成殿内景",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-02-18 09:32:30",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Shizhao\" title=\"User:Shizhao\">Shizhao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "5.jpg"
+  },
+  {
+    "id": "kongmiao-base",
+    "file": "File:Qufu Kong Miao 2015.08.15 14-26-24.jpg",
+    "info": {
+      "size": 6932584,
+      "width": 5472,
+      "height": 3648,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Qufu_Kong_Miao_2015.08.15_14-26-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Qufu_Kong_Miao_2015.08.15_14-26-24.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=43268850",
+      "sha1": "ce1e260aba87a5f82b6fc2b3da12ef4cc5cb0d08",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-09-15 13:28:41",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Qufu Kong Miao 2015.08.15 14-26-24",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Files with coordinates missing SDC location of creation|Dacheng Hall (Qufu Confucian Temple)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "35.597147",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "116.984310",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<p>曲阜孔庙——\n</p>\n大成殿",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-08-15 14:26:24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Zhangzhugang\" title=\"User:Zhangzhugang\">Zhangzhugang</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "You may select the license of your choice.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "localFile": "6.jpg"
+  },
+  {
+    "id": "baohe-north-ramp-down-2012",
+    "file": "File:Beijing-Verbotene Stadt-Halle der Wahrung der Harmonie-12-gje.jpg",
+    "info": {
+      "size": 4694581,
+      "width": 3456,
+      "height": 5184,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-12-gje.jpg/960px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-12-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 600,
+      "thumbheight": 900,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-12-gje.jpg/1280px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-12-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-12-gje.jpg/960px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-12-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 600,
+        "height": 900,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-12-gje.jpg/1280px-Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-12-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-12-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beijing-Verbotene_Stadt-Halle_der_Wahrung_der_Harmonie-12-gje.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64823015",
+      "sha1": "3e88ede1feab49ad93c5beb85997a2d28173790d",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-12-15 04:14:36",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Beijing-Verbotene Stadt-Halle der Wahrung der Harmonie-12-gje",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Hall of Preserving Harmony (Forbidden City)|Self-published work|Images by Gerd Eichmann|Images by Gerd Eichmann/UDM.Wikipedia|Images by Gerd Eichmann/China/Beijing-Verbotene Stadt",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Beijing - Forbidden City - Hall of Preserving Harmony",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-10-28 15:01:26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Gerd_Eichmann\" title=\"User:Gerd Eichmann\">Gerd Eichmann</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    "date": "2012-10-28",
+    "localFile": "5.jpg"
   }
 ]
