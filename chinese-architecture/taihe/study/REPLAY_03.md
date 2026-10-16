@@ -4,7 +4,7 @@
 
 ## 1. 原图和区域
 
-来源：故宫官方太和殿近照，URL与SHA-256已写入 `assets/reference-vectors.json`。原图尺寸1000×1500；`assets/reference-photo.jpg`是原始字节研究副本，没有裁剪或修图。位于原图上的点位都采用左上角为原点、像素为单位。
+来源：故宫官方太和殿近照，URL与SHA-256已写入 `assets/reference-vectors.json`。原图尺寸1000×1500；`https://readforfun-img.chunyangwen.com/chinese-architecture/taihe/study/assets/eebdbe096e5aeecc/reference-photo.jpg`是原始字节研究副本，没有裁剪或修图。位于原图上的点位都采用左上角为原点、像素为单位。
 
 脚本明确保存以下选择，其他建筑应重新选取，不能沿用太和殿像素坐标：
 

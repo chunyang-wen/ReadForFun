@@ -60,7 +60,7 @@ PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs CHROME_EXECUTABLE='/abs
 
 ## 最终截图
 
-`previews/whole.jpg`为书架实际封面；`desktop.jpg`为完整桌面页面；`front.jpg`为南向；`section.jpg`为骨架剖切；`roof-frame.jpg`为揭瓦后圆桁、放射椽与排椽板；`exploded.jpg`为最大系统展开；`terrace.jpg`为完整圜台/全部层开启的展开状态；`mobile-whole.jpg`为手机主殿画幅；`mobile.jpg`为手机最大局部展开长图。
+`https://readforfun-img.chunyangwen.com/chinese-architecture/qinian/previews/505b90f6a78f8659/whole.jpg`为书架实际封面；`desktop.jpg`为完整桌面页面；`front.jpg`为南向；`section.jpg`为骨架剖切；`roof-frame.jpg`为揭瓦后圆桁、放射椽与排椽板；`exploded.jpg`为最大系统展开；`terrace.jpg`为完整圜台/全部层开启的展开状态；`mobile-whole.jpg`为手机主殿画幅；`mobile.jpg`为手机最大局部展开长图。
 
 另有四组局部合拢/展开：`square-*`、`bracket-*`、`joint-*`、`decoration-*`；`node-exploded.jpg`为方圆转换最大展开。实际查看桌面、全貌、正南、剖面、屋架、系统展开、完整台域、方圆局部合拢/展开、通用节点与装饰、手机主殿及长图。截图只证明此次显示状态，不是建筑证据。
 

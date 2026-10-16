@@ -45,7 +45,7 @@ PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs CHROME_EXECUTABLE='/abs
 
 ## 最终截图
 
-`previews/whole.jpg`书架封面；`desktop.jpg`完整桌面；`front.jpg`看面；`back.jpg`背面；`side.jpg`侧面；`top.jpg`单排柱网俯视；`section.jpg`剖面；`roof-frame.jpg`揭瓦骨架；`exploded.jpg`最大展开；`doors-open.jpg`门叶演示；`mobile-whole.jpg`手机整体画幅；`mobile.jpg`手机局部最大展开长图。
+`https://readforfun-img.chunyangwen.com/chinese-architecture/huazhongyou/previews/71ab3dc0e3778405/whole.jpg`书架封面；`desktop.jpg`完整桌面；`front.jpg`看面；`back.jpg`背面；`side.jpg`侧面；`top.jpg`单排柱网俯视；`section.jpg`剖面；`roof-frame.jpg`揭瓦骨架；`exploded.jpg`最大展开；`doors-open.jpg`门叶演示；`mobile-whole.jpg`手机整体画幅；`mobile.jpg`手机局部最大展开长图。
 
 四局部各有 `beam-*`、`lotus-*`、`roof-*`、`joint-*` 合拢与最大展开。最终实际查看桌面、整体、剖面、手机整体和局部长图、最大展开、门扇开启、雕刻/挑梁/屋架局部。截图证明本次显示结果，不是文物证据。
 

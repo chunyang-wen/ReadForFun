@@ -25,7 +25,7 @@ Chrome headless + Playwright，WebGL 实际渲染，1600×1150 桌面、390×844
 - 三维加载失败区域未出现；两卷本次页面脚本错误为零，HTTP 资源失败为零。
 - 第一卷仍加载佛光寺东大殿，测试与页面未受破坏。
 
-保存最终预览：`previews/whole.jpg`、`section.jpg`、`exploded.jpg`、`node-exploded.jpg`、`mobile.jpg`。已人工查看全貌、最大整体展开、节点展开和手机长图；模型端部屋架另由顶点约束验证。
+保存最终预览：`https://readforfun-img.chunyangwen.com/chinese-architecture/dule/previews/8d50bf7f0efdad95/whole.jpg`、`section.jpg`、`exploded.jpg`、`node-exploded.jpg`、`mobile.jpg`。已人工查看全貌、最大整体展开、节点展开和手机长图；模型端部屋架另由顶点约束验证。
 
 执行脚本 `tests/browser.mjs`，需可用的 Playwright 和 Chromium/Chrome。设置 `PLAYWRIGHT_MODULE`、`CHROME_EXECUTABLE`、`PREVIEW_URL` 可覆盖本机依赖和预览地址。先从仓库根目录 `python3 -m http.server 8765`。
 

@@ -29,7 +29,7 @@ test('each photo has explicit reusable rights, attribution and exact building ch
 });
 test('every display size has a local or verified R2 fallback, and remote keys are content addressed',()=>{
  for(const a of assets){assert.ok(a.width>0&&a.height>0);if(a.sourceType!=='commons-pdf-page'&&!a.id.startsWith('dule-plaque-')&&!a.id.startsWith('yingxian-')&&!a.id.startsWith('fengxian-')&&!a.id.startsWith('dianchunyi-'))assert.ok(Math.max(a.width,a.height)>=3000&&Math.min(a.width,a.height)>=2400);assert.match(a.sha256,/^[0-9a-f]{64}$/);
-  for(const kind of ['display','thumb','full']){assert.ok(a[kind].includes(a.id+'/'+a.sha256.slice(0,16)+'/'));if(a.id.startsWith('foguang-'))assert.equal(a.storage,'local licensed derivatives; original remains at Commons; not uploaded to R2');const path=`chinese-architecture/photos/fallback/${a.id}/${a.sha256.slice(0,16)}/${kind}.webp`;const remote=r2Media[path];if(remote){assert.equal(remote.readBackSHA256Verified,true);assert.match(remote.sha256,/^[0-9a-f]{64}$/);assert.equal(a[kind],remote.url)}else assert.ok(existsSync(new URL(`./fallback/${a.id}/${a.sha256.slice(0,16)}/${kind}.webp`,import.meta.url)));}
+  for(const kind of ['display','thumb','full']){assert.ok(a[kind].includes(a.id+'/'+a.sha256.slice(0,16)+'/'));if(a.id.startsWith('foguang-'))assert.equal(a.storage,'R2 uploaded and SHA256 read-back verified; original remains at Commons');const path=`chinese-architecture/photos/fallback/${a.id}/${a.sha256.slice(0,16)}/${kind}.webp`;const remote=r2Media[path];if(remote){assert.equal(remote.readBackSHA256Verified,true);assert.match(remote.sha256,/^[0-9a-f]{64}$/);assert.equal(a[kind],remote.url)}else assert.ok(existsSync(new URL(`./fallback/${a.id}/${a.sha256.slice(0,16)}/${kind}.webp`,import.meta.url)));}
  }
 });
 test('caisson photograph returns to the actual Taihe caisson chapter',()=>{
@@ -45,10 +45,10 @@ test('each photograph appears exactly once in its building story',()=>{
 test('Dule historic plate pages retain period and subject limits, without claiming modern coverage',()=>{const historic=PHOTO_STORIES.dule.items.filter(i=>i.id.endsWith('-1932'));assert.equal(historic.length,5);for(const item of historic){assert.match(item.limit,/1932/);assert.ok(assets.find(a=>a.id===item.id).sourceType==='commons-pdf-page');}assert.equal(PHOTO_STORIES.dule.relatedSources.length,2);assert.ok(PHOTO_STORIES.dule.items.some(i=>i.angle==='side'));assert.ok(PHOTO_STORIES.dule.items.some(i=>i.id==='dule-interior-2023'));});
 
 
-test('Yingxian retains native pixels and local delivery while independently recording verified R2 storage',()=>{
+test('Yingxian retains native pixels and serves verified R2 derivatives',()=>{
  const ids=['yingxian-whole-2025','yingxian-aerial-2019','yingxian-corner-2007','yingxian-ang-2007','yingxian-ceiling-2009','yingxian-statuary','yingxian-overall-2019'];
  assert.deepEqual(PHOTO_STORIES.yingxian.items.map(i=>i.id),ids);
- for(const id of ids){const a=assets.find(a=>a.id===id);assert.match(a.storage,/R2 uploaded and SHA256 read-back verified/);assert.ok(a.r2.full.includes(a.sha256.slice(0,16)));assert.match(a.original,/^https:\/\/upload.wikimedia.org\//);for(const kind of ['display','thumb','full'])assert.match(a[kind],/^\.\.\/photos\/fallback\//);}
+ for(const id of ids){const a=assets.find(a=>a.id===id);assert.match(a.storage,/R2 uploaded and SHA256 read-back verified/);assert.ok(a.r2.full.includes(a.sha256.slice(0,16)));assert.match(a.original,/^https:\/\/upload.wikimedia.org\//);for(const kind of ['display','thumb','full']){assert.match(a[kind],/^https:\/\/readforfun-img\.chunyangwen\.com\//);assert.equal(a[kind],a.r2[kind]);}}
  for(const id of ids.slice(2,4)){const a=assets.find(a=>a.id===id);assert.equal(a.width,1500);assert.equal(a.height,998);assert.equal(a.license,'CC BY 3.0');const item=PHOTO_STORIES.yingxian.items.find(i=>i.id===id);assert.equal(item.chapter,5);assert.match(item.limit,/1500×998/);assert.equal(item.node,undefined);}
  assert.match(PHOTO_STORIES.yingxian.intro,/尚缺/);
 });

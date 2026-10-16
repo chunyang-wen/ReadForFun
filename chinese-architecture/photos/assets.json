@@ -327,10 +327,10 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
     "original": "https://upload.wikimedia.org/wikipedia/commons/7/73/%E4%BD%9B%E5%85%89%E5%AF%BA%E4%B8%9C%E5%A4%A7%E6%AE%BF%E5%8F%B3%E4%BE%A7%E9%9D%A2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "display": "./photos/fallback/foguang-facade/df6ed362fb4bd008/display.webp",
-    "thumb": "./photos/fallback/foguang-facade/df6ed362fb4bd008/thumb.webp",
-    "full": "./photos/fallback/foguang-facade/df6ed362fb4bd008/full.webp",
-    "storage": "local licensed derivatives; original remains at Commons; not uploaded to R2"
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/foguang-facade/df6ed362fb4bd008/7117d89339498a09/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/foguang-facade/df6ed362fb4bd008/5a5837a043e49306/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/foguang-facade/df6ed362fb4bd008/fa66f8a39fc7f8a8/full.webp",
+    "storage": "R2 uploaded and SHA256 read-back verified; original remains at Commons"
   },
   {
     "id": "foguang-intermediate",
@@ -346,10 +346,10 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e9/%E4%BD%9B%E5%85%89%E5%AF%BA%E4%B8%9C%E5%A4%A7%E6%AE%BF%E8%A1%A5%E9%97%B4%E9%93%BA%E4%BD%9C%E6%AD%A3%E9%9D%A2%E8%A7%86%E8%A7%92.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "display": "./photos/fallback/foguang-intermediate/453d5e0fc32ff289/display.webp",
-    "thumb": "./photos/fallback/foguang-intermediate/453d5e0fc32ff289/thumb.webp",
-    "full": "./photos/fallback/foguang-intermediate/453d5e0fc32ff289/full.webp",
-    "storage": "local licensed derivatives; original remains at Commons; not uploaded to R2"
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/fbfb08db8bb57f4e/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/5140b271f9eb737d/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/foguang-intermediate/453d5e0fc32ff289/1513329a7b0108bc/full.webp",
+    "storage": "R2 uploaded and SHA256 read-back verified; original remains at Commons"
   },
   {
     "id": "foguang-eaves",
@@ -365,10 +365,10 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
     "original": "https://upload.wikimedia.org/wikipedia/commons/3/30/%E4%BD%9B%E5%85%89%E5%AF%BA%E4%B8%9C%E5%A4%A7%E6%AE%BF%E9%93%BA%E4%BD%9C%E5%B1%82%E4%BE%A7%E9%9D%A2%E8%A7%86%E8%A7%92%E4%BA%8C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "display": "./photos/fallback/foguang-eaves/2abe646d240a03d3/display.webp",
-    "thumb": "./photos/fallback/foguang-eaves/2abe646d240a03d3/thumb.webp",
-    "full": "./photos/fallback/foguang-eaves/2abe646d240a03d3/full.webp",
-    "storage": "local licensed derivatives; original remains at Commons; not uploaded to R2"
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/3e069dc9be9cbd56/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/9f61f68425681dc9/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/foguang-eaves/2abe646d240a03d3/5a841a8a5d81c4a5/full.webp",
+    "storage": "R2 uploaded and SHA256 read-back verified; original remains at Commons"
   },
   {
     "id": "foguang-corner-context",
@@ -384,10 +384,10 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
     "original": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Wutai_Foguang_Si_2013.08.28_10-55-51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "display": "./photos/fallback/foguang-corner-context/bf336a82f80ad875/display.webp",
-    "thumb": "./photos/fallback/foguang-corner-context/bf336a82f80ad875/thumb.webp",
-    "full": "./photos/fallback/foguang-corner-context/bf336a82f80ad875/full.webp",
-    "storage": "local licensed derivatives; original remains at Commons; not uploaded to R2"
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/foguang-corner-context/bf336a82f80ad875/f8df6184f8d2f33d/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/foguang-corner-context/bf336a82f80ad875/d8737075865cbe97/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/fallback/foguang-corner-context/bf336a82f80ad875/84cec8e6043a9ba3/full.webp",
+    "storage": "R2 uploaded and SHA256 read-back verified; original remains at Commons"
   },
   {
     "id": "dule-oblique-2014",
@@ -613,16 +613,16 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
     "original": "https://upload.wikimedia.org/wikipedia/commons/2/2c/20250604_Ying_Xian_Muta_%28080826%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "display": "../photos/fallback/yingxian-whole-2025/25621d7b6a6c8811/display.webp",
-    "thumb": "../photos/fallback/yingxian-whole-2025/25621d7b6a6c8811/thumb.webp",
-    "full": "../photos/fallback/yingxian-whole-2025/25621d7b6a6c8811/full.webp",
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-whole-2025/25621d7b6a6c8811/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-whole-2025/25621d7b6a6c8811/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-whole-2025/25621d7b6a6c8811/full.webp",
     "r2": {
       "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-whole-2025/25621d7b6a6c8811/original.jpg",
       "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-whole-2025/25621d7b6a6c8811/display.webp",
       "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-whole-2025/25621d7b6a6c8811/thumb.webp",
       "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-whole-2025/25621d7b6a6c8811/full.webp"
     },
-    "storage": "R2 uploaded and SHA256 read-back verified; public domain HTTP 403; local derivatives primary"
+    "storage": "R2 uploaded and SHA256 read-back verified; public derivatives served from R2"
   },
   {
     "id": "yingxian-corner-2007",
@@ -638,16 +638,16 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
     "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Fogong_temple_corner_dougong.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "display": "../photos/fallback/yingxian-corner-2007/66df9942fa1923ab/display.webp",
-    "thumb": "../photos/fallback/yingxian-corner-2007/66df9942fa1923ab/thumb.webp",
-    "full": "../photos/fallback/yingxian-corner-2007/66df9942fa1923ab/full.webp",
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-corner-2007/66df9942fa1923ab/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-corner-2007/66df9942fa1923ab/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-corner-2007/66df9942fa1923ab/full.webp",
     "r2": {
       "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-corner-2007/66df9942fa1923ab/original.jpg",
       "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-corner-2007/66df9942fa1923ab/display.webp",
       "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-corner-2007/66df9942fa1923ab/thumb.webp",
       "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-corner-2007/66df9942fa1923ab/full.webp"
     },
-    "storage": "R2 uploaded and SHA256 read-back verified; public domain HTTP 403; local derivatives primary"
+    "storage": "R2 uploaded and SHA256 read-back verified; public derivatives served from R2"
   },
   {
     "id": "yingxian-ang-2007",
@@ -663,16 +663,16 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Fogongsi_ang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "display": "../photos/fallback/yingxian-ang-2007/6fd607a695106b77/display.webp",
-    "thumb": "../photos/fallback/yingxian-ang-2007/6fd607a695106b77/thumb.webp",
-    "full": "../photos/fallback/yingxian-ang-2007/6fd607a695106b77/full.webp",
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ang-2007/6fd607a695106b77/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ang-2007/6fd607a695106b77/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ang-2007/6fd607a695106b77/full.webp",
     "r2": {
       "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ang-2007/6fd607a695106b77/original.jpg",
       "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ang-2007/6fd607a695106b77/display.webp",
       "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ang-2007/6fd607a695106b77/thumb.webp",
       "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ang-2007/6fd607a695106b77/full.webp"
     },
-    "storage": "R2 uploaded and SHA256 read-back verified; public domain HTTP 403; local derivatives primary"
+    "storage": "R2 uploaded and SHA256 read-back verified; public derivatives served from R2"
   },
   {
     "id": "yingxian-aerial-2019",
@@ -688,16 +688,16 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
     "original": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Pagoda_of_Fogong_Temple_from_the_Top.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "display": "../photos/fallback/yingxian-aerial-2019/fce0fa255df3ec81/display.webp",
-    "thumb": "../photos/fallback/yingxian-aerial-2019/fce0fa255df3ec81/thumb.webp",
-    "full": "../photos/fallback/yingxian-aerial-2019/fce0fa255df3ec81/full.webp",
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-aerial-2019/fce0fa255df3ec81/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-aerial-2019/fce0fa255df3ec81/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-aerial-2019/fce0fa255df3ec81/full.webp",
     "r2": {
       "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-aerial-2019/fce0fa255df3ec81/original.jpg",
       "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-aerial-2019/fce0fa255df3ec81/display.webp",
       "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-aerial-2019/fce0fa255df3ec81/thumb.webp",
       "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-aerial-2019/fce0fa255df3ec81/full.webp"
     },
-    "storage": "R2 uploaded and SHA256 read-back verified; public domain HTTP 403; local derivatives primary"
+    "storage": "R2 uploaded and SHA256 read-back verified; public derivatives served from R2"
   },
   {
     "id": "yingxian-ceiling-2009",
@@ -713,16 +713,16 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Muta_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "display": "../photos/fallback/yingxian-ceiling-2009/161ec33aa8c63137/display.webp",
-    "thumb": "../photos/fallback/yingxian-ceiling-2009/161ec33aa8c63137/thumb.webp",
-    "full": "../photos/fallback/yingxian-ceiling-2009/161ec33aa8c63137/full.webp",
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ceiling-2009/161ec33aa8c63137/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ceiling-2009/161ec33aa8c63137/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ceiling-2009/161ec33aa8c63137/full.webp",
     "r2": {
       "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ceiling-2009/161ec33aa8c63137/original.jpg",
       "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ceiling-2009/161ec33aa8c63137/display.webp",
       "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ceiling-2009/161ec33aa8c63137/thumb.webp",
       "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-ceiling-2009/161ec33aa8c63137/full.webp"
     },
-    "storage": "R2 uploaded and SHA256 read-back verified; public domain HTTP 403; local derivatives primary"
+    "storage": "R2 uploaded and SHA256 read-back verified; public derivatives served from R2"
   },
   {
     "id": "yingxian-statuary",
@@ -738,16 +738,16 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
     "original": "https://upload.wikimedia.org/wikipedia/commons/7/73/TheStatuaryInsideTheWoodenTowerOfYing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "display": "../photos/fallback/yingxian-statuary/c26f32d5b79b7f2d/display.webp",
-    "thumb": "../photos/fallback/yingxian-statuary/c26f32d5b79b7f2d/thumb.webp",
-    "full": "../photos/fallback/yingxian-statuary/c26f32d5b79b7f2d/full.webp",
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-statuary/c26f32d5b79b7f2d/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-statuary/c26f32d5b79b7f2d/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-statuary/c26f32d5b79b7f2d/full.webp",
     "r2": {
       "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-statuary/c26f32d5b79b7f2d/original.jpg",
       "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-statuary/c26f32d5b79b7f2d/display.webp",
       "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-statuary/c26f32d5b79b7f2d/thumb.webp",
       "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-statuary/c26f32d5b79b7f2d/full.webp"
     },
-    "storage": "R2 uploaded and SHA256 read-back verified; public domain HTTP 403; local derivatives primary"
+    "storage": "R2 uploaded and SHA256 read-back verified; public derivatives served from R2"
   },
   {
     "id": "yingxian-overall-2019",
@@ -763,16 +763,16 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "changes": "原始 JPEG 未改动；展示图与缩略图等比缩小并转为 WebP；高清 WebP 保留像素尺寸，均沿用原图许可。",
     "original": "https://upload.wikimedia.org/wikipedia/commons/2/26/Pagodaoffogongtemple2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "display": "../photos/fallback/yingxian-overall-2019/cdcb086a5a135485/display.webp",
-    "thumb": "../photos/fallback/yingxian-overall-2019/cdcb086a5a135485/thumb.webp",
-    "full": "../photos/fallback/yingxian-overall-2019/cdcb086a5a135485/full.webp",
+    "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-overall-2019/cdcb086a5a135485/display.webp",
+    "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-overall-2019/cdcb086a5a135485/thumb.webp",
+    "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-overall-2019/cdcb086a5a135485/full.webp",
     "r2": {
       "original": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-overall-2019/cdcb086a5a135485/original.jpg",
       "display": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-overall-2019/cdcb086a5a135485/display.webp",
       "thumb": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-overall-2019/cdcb086a5a135485/thumb.webp",
       "full": "https://readforfun-img.chunyangwen.com/chinese-architecture/photos/yingxian-overall-2019/cdcb086a5a135485/full.webp"
     },
-    "storage": "R2 uploaded and SHA256 read-back verified; public domain HTTP 403; local derivatives primary"
+    "storage": "R2 uploaded and SHA256 read-back verified; public derivatives served from R2"
   },
   {
     "id": "jinci-front-2011",

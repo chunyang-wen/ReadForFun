@@ -53,7 +53,7 @@ PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs CHROME_EXECUTABLE='/abs
 
 ## 最终预览
 
-`previews/whole.jpg`书架全貌；`desktop.jpg`桌面完整页面；`front.jpg`厅口；`section.jpg`侧向剖切；`roof-frame.jpg`揭去拱棚与瓦面的骨架；`exploded.jpg`整体最大展开；`mobile-whole.jpg`手机整体；`mobile.jpg`手机尺寸完整页面。
+`https://readforfun-img.chunyangwen.com/chinese-architecture/chengzhi/previews/c38988ffae172483/whole.jpg`书架全貌；`desktop.jpg`桌面完整页面；`front.jpg`厅口；`section.jpg`侧向剖切；`roof-frame.jpg`揭去拱棚与瓦面的骨架；`exploded.jpg`整体最大展开；`mobile-whole.jpg`手机整体；`mobile.jpg`手机尺寸完整页面。
 
 四局部各有`spandrel/banquet/door/roof-assembled.jpg`和`-exploded.jpg`；另存`door-back.jpg`观察真实透空。人工查看最终全貌、手机整体、节点、剖面、屋架和最大展开截图；图片只证明渲染结果，不作为历史证据。
 

@@ -41,7 +41,7 @@ PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs CHROME_EXECUTABLE='/App
 
 ## 预览与检查范围
 
-`previews/whole.jpg`用于封面；`desktop.jpg`全页面；`front.jpg`南向；`section.jpg`构架剖切；`roof-frame.jpg`揭瓦骨架；`exploded.jpg`整体最大展开。四局部各有`*-assembled.jpg`与`*-exploded.jpg`，另有`door-back.jpg`、`opening.jpg`、`opening-exploded.jpg`、`sight.jpg`；`mobile-whole.jpg`手机主体，`mobile.jpg`手机局部长图。
+`https://readforfun-img.chunyangwen.com/chinese-architecture/dianchunyi/previews/cbd43377f31d80ac/whole.jpg`用于封面；`desktop.jpg`全页面；`front.jpg`南向；`section.jpg`构架剖切；`roof-frame.jpg`揭瓦骨架；`exploded.jpg`整体最大展开。四局部各有`*-assembled.jpg`与`*-exploded.jpg`，另有`door-back.jpg`、`opening.jpg`、`opening-exploded.jpg`、`sight.jpg`；`mobile-whole.jpg`手机主体，`mobile.jpg`手机局部长图。
 
 已目视检查全貌、正面、骨架、三个后窗、长窗局部、通用开启及其展开、桌面全页和手机主体/长图，未见加载空白或控件覆盖主要对象。布局沿用系列，源码使用本卷新数据与新几何。
 

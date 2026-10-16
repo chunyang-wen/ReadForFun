@@ -51,7 +51,7 @@ PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs CHROME_EXECUTABLE='/abs
 
 ## 最终预览
 
-- `previews/whole.jpg`：完整六檐与塔刹；书架封面。
+- `https://readforfun-img.chunyangwen.com/chinese-architecture/yingxian/previews/671a24a45b9e4c80/whole.jpg`：完整六檐与塔刹；书架封面。
 - `previews/desktop.jpg`：桌面完整页面。
 - `previews/section.jpg`：九段主骨架剖切。
 - `previews/hidden-storey.jpg`：三层暗层隔离与半剖，双向撑。

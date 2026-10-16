@@ -1,7 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {createHash} from 'node:crypto';
 import * as T from '../../vendor/three.module.js';
 import {buildReferenceDetail,addRoundelRelief,projectReference} from '../study/reference-detail.js';
 import {createRoofSample} from '../study/roof-sample.js';
@@ -10,8 +9,9 @@ const detail=buildReferenceDetail(data);
 const area=ring=>Math.abs(ring.reduce((s,p,i)=>{const n=ring[(i+1)%ring.length];return s+p[0]*n[1]-n[0]*p[1];},0)/2);
 
 test('Reference is hash-pinned and each original character is a separate vector region',()=>{
-  const bytes=readFileSync(new URL('../study/assets/reference-photo.jpg',import.meta.url));
-  assert.equal(createHash('sha256').update(bytes).digest('hex'),data.sha256);
+  const remote=JSON.parse(readFileSync(new URL('../../../media-assets.json',import.meta.url))).assets['chinese-architecture/taihe/study/assets/reference-photo.jpg'];
+  assert.equal(remote.readBackSHA256Verified,true);
+  assert.equal(remote.sha256,data.sha256);
   assert.equal(data.glyphs.length,3);
   const centres=data.glyphs.map(s=>s.outer.reduce((sum,p)=>sum+p[1],0)/s.outer.length).sort((a,b)=>a-b);
   assert.ok(centres[0]<700&&centres[1]>700&&centres[1]<880&&centres[2]>880);

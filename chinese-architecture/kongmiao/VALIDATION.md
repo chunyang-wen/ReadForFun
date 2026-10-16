@@ -28,7 +28,7 @@ Chrome headless + Playwright，WebGL实际渲染，1600×1150桌面、390×844�
 
 ## 视觉复核
 
-`previews/whole.jpg`（合集封面）、`desktop.jpg`、`front.jpg`、`side.jpg`、`top.jpg`、`section.jpg`、`roof-frame.jpg`、`exploded.jpg`；`dragon-*`、`bracket-*`、`transition-*`为三局部合拢/展开；`mobile-whole.jpg`与`mobile.jpg`保存手机视图。
+`https://readforfun-img.chunyangwen.com/chinese-architecture/kongmiao/previews/6f4036b4f9c4184e/whole.jpg`（合集封面）、`desktop.jpg`、`front.jpg`、`side.jpg`、`top.jpg`、`section.jpg`、`roof-frame.jpg`、`exploded.jpg`；`dragon-*`、`bracket-*`、`transition-*`为三局部合拢/展开；`mobile-whole.jpg`与`mobile.jpg`保存手机视图。
 
 首轮空间测试查出中层横梁端高过教学屋面，修正标高后加入约束。视觉检查修正下檐山面与前后坡的宽度接缝、上檐戗坡起点、侧坡瓦垄与椽线；端部横梁与桁下承托补齐。最后几何版本重新生成浏览器截图。栱底曲线与斗身收进仅有据轮廓概括，仍非逐件尺寸/卯口复原。
 
