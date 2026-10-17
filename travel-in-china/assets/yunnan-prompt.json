@@ -1,0 +1,18 @@
+{
+  "useCase": "illustration-story",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: illustration-story. Asset type: six-panel illustration sheet for a Chinese family cultural travel atlas about Yunnan. Create exactly 3 columns by 2 rows, six equal SQUARE panels, total canvas landscape 3:2. Each panel fills its square edge to edge; NO gutters, NO borders, NO text, NO typography, NO map, NO watermark. Consistent sophisticated Chinese travel sketchbook illustration: soft watercolor washes on warm ivory paper, fine ink outlines, muted jade, indigo and warm ochre, natural daylight, quiet observational detail, generous breathing space. Panel top-left: Mengzi crossing-the-bridge rice noodles, close view ceramic bowl of golden broth, a separate small bowl of white rice noodles and several little ingredient dishes on wooden table; no chopsticks held by people, no steam obscuring food. Panel top-middle: Shilin stone forest, tall narrow gray limestone pinnacles, small winding stone path between them, green shrubs and distant hills, geological not fantasy. Panel top-right: Honghe Hani rice terraces, layered curved water-filled rice terraces stepping down hills with reflected sky, village between terraces and forested upper slopes, panoramic contemplative landscape. Panel bottom-left: Lijiang old town, narrow clear water canal, modest wooden and plaster tiled-roof houses and small stone bridge, cobbled lane, plants, no crowd, no snow mountains. Panel bottom-middle: Dali Bai tie dye, indigo and white circular floral resist-dyed cotton cloth hanging in sunlit modest courtyard, hands tying a small piece of white cotton on table, no costumes or caricatures, no loom. Panel bottom-right: Kunming Daguan pavilion at Dianchi lake, three-storey traditional Chinese pavilion with ochre walls, dark tiled upturned roofs, willow branches and broad calm lake behind, no readable calligraphy, no inscriptions. These are artistic interpretations, not technical reconstructions. Keep all central subjects within inner 75 percent of each square so responsive crops work. Unify palette and ink detail.",
+  "width": 1536,
+  "height": 1024,
+  "layout": "3 columns × 2 rows; each panel 512 × 512",
+  "panels": [
+    "noodles",
+    "shilin",
+    "terraces",
+    "lijiang",
+    "tiedye",
+    "daguan"
+  ],
+  "checked": "2026-10-17",
+  "note": "AI artistic interpretation; pavilion not a measured or historical reconstruction."
+}

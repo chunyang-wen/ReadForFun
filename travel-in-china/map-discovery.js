@@ -41,6 +41,7 @@ export const cityLetters={
  '440000':{tag:'广府日常',title:'到广州，饮茶去',text:'一壶茶，几样点心，慢慢认识广府饮茶习俗。',source:'https://sfj.gz.gov.cn/gkmlpt/content/10/10663/post_10663066.html',sourceTitle:'广州市司法局 · 广州早茶传承保护规定介绍'}
 };
 export function discoveryFor(city,turn=0){
+ if(city.code==='530000')return {tag:'云南 · 省级图志',title:'从昆明出发，沿山水读云南',text:'米线、梯田与靛蓝，把不同州、市的生活连起来。',href:'#/atlas?province=530000',action:'先看云南预览'};
  if(city.code==='510000')return [
   {tag:'街头风味',title:'一碗担担面，尝尝成都',text:'从一碗川味，读一段街头故事。',href:'#/chengdu/noodles',action:'尝一口成都'},
   {tag:'人与诗',title:'跟着杜甫，读一场春雨',text:'“晓看红湿处，花重锦官城。”',href:'#/chengdu/dufu',action:'读杜甫与成都'},

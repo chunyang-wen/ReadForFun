@@ -34,3 +34,31 @@ h1[tabindex="-1"]:focus,main[tabindex="-1"]:focus{outline:none}
 @media(prefers-reduced-transparency:reduce){.discovery-bubble{background:#fcfaf3;backdrop-filter:none}}
 .discovery-close{position:absolute;right:7px;top:6px;background:transparent;width:26px;height:26px;padding:0;border-radius:50%;pointer-events:auto;color:var(--muted);font:18px var(--sans)}.discovery-close:hover{background:#e7ecdf}.discovery-meta{padding-right:15px}.region-letter{padding:18px 0;margin-bottom:20px;border-bottom:1px solid var(--line)}.region-letter h4{font:24px/1.5 var(--display);margin:12px 0}.region-letter a{font:11px/1.7 var(--sans)}
 .province-target{fill:transparent}.province-leader{fill:none;stroke:#7c8f79;stroke-width:.5;stroke-dasharray:2 3;opacity:.55;pointer-events:none}.province-name:hover .province-target,.province-name:focus-visible .province-target{fill:#fcfaf3;stroke:#64897d;stroke-width:1}
+/* Explicit per-asset layout: new destinations do not inherit Chengdu's scenes. */
+.art-sheet{background-image:none;background-position:var(--scene-position)}
+.art-sheet:before{background-image:var(--scene-url);background-position:var(--scene-position);background-size:var(--scene-size);aspect-ratio:var(--scene-ratio)}
+.destination-card+.destination-card,.preview-actions+.destination-card{margin-top:28px}
+.region-directory{border-bottom:1px solid var(--line);padding:0 0 24px;margin-bottom:28px}
+.region-directory h2{font-size:28px;margin:8px 0 14px}
+.region-directory>p:not(.eyebrow){font-size:15px;color:var(--muted);max-width:860px}
+@media(max-width:720px){.region-directory h2{font-size:25px}.region-directory>p:not(.eyebrow){font-size:14px}}
+.province-directory{margin:38px 0 65px;padding-top:24px;border-top:1px solid var(--line)}
+.directory-heading{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:18px}
+.directory-heading h2{font-size:38px;margin-top:8px}.directory-heading>p{font:12px/1.9 var(--sans);text-align:right;color:var(--muted)}
+.directory-intro{max-width:850px;font-size:15px;color:var(--muted)}
+.prefecture-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:25px}
+.prefecture-card{padding:24px;border:1px solid var(--line);background:#faf8ef77;min-width:0}
+.prefecture-card.is-expanded{border-top:3px solid var(--jade);background:#e6ece266}
+.prefecture-meta{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.prefecture-meta .eyebrow{font-size:10px;letter-spacing:1px}.coverage-badge{font:10px/1.6 var(--sans);color:#71563c;background:#eee5d5;padding:3px 7px}
+.prefecture-card h3{font-size:35px;margin:15px 0 1px}.prefecture-type{font:11px/1.8 var(--sans);letter-spacing:.04em}
+.prefecture-card p,.prefecture-card li{font-size:14px;line-height:1.9;color:var(--muted)}.prefecture-card ul{padding-left:18px;margin:15px 0 24px}
+.prefecture-card .prefecture-places{font:11px/1.9 var(--sans)}.prefecture-card .read-link{font:13px var(--sans);display:inline-block;margin-bottom:10px}
+.coverage-wait{font:12px var(--sans)}.directory-next{border-top:1px solid var(--line);margin-top:18px;padding-top:10px;font:12px/1.8 var(--sans)}.directory-next summary{cursor:pointer}.directory-next p{font-size:12px;margin:12px 0 0}
+.city-reading-guide{margin:38px 0 55px;border-top:1px solid var(--line);padding-top:30px}.city-reading-guide>h2{font-size:34px;margin:8px 0 25px}
+.reading-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.reading-guide-grid>article{padding:20px 0;border-top:1px solid var(--line)}
+.reading-guide-grid h3{font-size:27px;margin:7px 0 12px}.reading-guide-grid p{font-size:15px;color:var(--muted)}.reading-guide-grid article>div{display:flex;gap:12px 20px;flex-wrap:wrap;font:12px/1.8 var(--sans)}
+.city-remaining{font:13px/1.9 var(--sans);color:var(--muted);border-block:1px solid var(--line);padding:14px 0;margin-top:22px}.city-remaining summary{cursor:pointer}.city-remaining p{margin:13px 0 0}
+.story-section>p{line-height:2.1;margin-bottom:28px}.breadcrumbs{flex-wrap:wrap}
+@media(max-width:1050px){.prefecture-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.directory-heading{display:block}.directory-heading h2{font-size:31px}.directory-heading>p{text-align:left;margin-top:13px}.prefecture-grid,.reading-guide-grid{grid-template-columns:1fr}.prefecture-card{padding:21px}.directory-intro{font-size:14px}.city-reading-guide>h2{font-size:29px}.province-directory{margin-bottom:38px}.story-section h2{font-size:27px}}

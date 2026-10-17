@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-16T13:26:14.019669+00:00",
+  "checkedAt": "2026-10-17T01:05:41.131773+00:00",
   "publicBase": "https://readforfun-img.chunyangwen.com",
   "assets": {
     "audio/bgm-reading.mp3": {
@@ -7817,6 +7817,24 @@
       "sha256": "828138c7fceeb1fa5712278bdfc5597b12d3b3793287653f26d40043428f7c1e",
       "bytes": 124745,
       "contentType": "image/jpeg",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "travel-in-china/.work/kunming/kunming-scenes-v2.png": {
+      "url": "https://readforfun-img.chunyangwen.com/travel-in-china/.work/kunming/3680ca786db62519/kunming-scenes-v2.png",
+      "key": "travel-in-china/.work/kunming/3680ca786db62519/kunming-scenes-v2.png",
+      "sha256": "3680ca786db625190e775246dfb6ae66d9cc08a7e341296b5c53f1c2c9230941",
+      "bytes": 3498185,
+      "contentType": "image/png",
+      "uploaded": true,
+      "readBackSHA256Verified": true
+    },
+    "travel-in-china/.work/yunnan/yunnan-scenes.png": {
+      "url": "https://readforfun-img.chunyangwen.com/travel-in-china/.work/yunnan/4979a22632f7f79d/yunnan-scenes.png",
+      "key": "travel-in-china/.work/yunnan/4979a22632f7f79d/yunnan-scenes.png",
+      "sha256": "4979a22632f7f79d653f59e84dbb404607a7491467ff8614a1b2cbd0a7e858bb",
+      "bytes": 3922124,
+      "contentType": "image/png",
       "uploaded": true,
       "readBackSHA256Verified": true
     },

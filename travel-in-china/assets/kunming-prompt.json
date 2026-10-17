@@ -1,0 +1,19 @@
+{
+  "useCase": "illustration-story",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: illustration-story. Asset type: nine-panel subject illustration sheet for Kunming cultural travel atlas, Chinese family readership. Exactly THREE columns by THREE rows of equal SQUARE panels, total SQUARE canvas 1536 by 1536 if possible. NO gutters, no borders, no typography, no letters, no logos, no map. Fill each panel edge to edge with a different scene. Cohesive watercolor and delicate ink travel sketchbook style, warm ivory paper, muted jade greens and ochre with natural plant colors, tranquil light, realistic recognizable objects, not photoreal. Keep central subjects inside each panel inner 80 percent for responsive horizontal cropping. Reading order: top row left: a small copper cooking pot of white rice noodles simmering with minced meat and green chives on a modest kitchen stove, a small ceramic serving bowl beside it, no flames touching person. Top row middle: Guandu grilled erkuai rice cake, two thin WHITE oval rice cakes lightly toasted with browned spots on a small wire grill, one folded over with a little savory filling on a ceramic plate, do not draw wheat bread, no hands near grill. Top row right: Dianchi lakeshore wetland, broad quiet blue lake, reed beds and low boardwalk seen from shore, green mountains far away, no landmarks, no people. Middle row left: Cuihu city park, green lake with lotus leaves, willow trees, modest small Chinese pavilion and curved walking bridge, a few ordinary distant walkers, no giant temple, no geese. Middle row center: Dounan wholesale flower market, colorful bunches of roses and chrysanthemums in plain buckets, a worker bundling flowers at an unbranded market stand, paper wrapping and transport crates, no sign text. Middle row right: Yunnan Military Academy historical museum thematic courtyard, two-storey ochre yellow arcaded buildings enclosing a broad courtyard, long tiled roof and restrained architectural details, viewed at eye level, no soldiers, weapons, flags or text; artistic atmosphere not measured reconstruction. Bottom row left: a contemplative museum display about Zheng He's maritime journeys, a small historical wooden sailing ship MODEL on an indoor table with warm light and a green Kunming garden seen through the window, no ocean, no portrait, no map, no readable exhibit label. Bottom row middle: a quiet historic Kunming wood-fronted shop lane with an open notebook with abstract blank stave lines and a violin in its case in the foreground, suggesting musician Nie Er's urban memory without inventing his portrait or showing readable musical score; no text. Bottom row right: Kunming hero landscape, wide blue Dianchi with green shoreline wetland and softly rising distant hills beneath luminous highland clouds, some willow leaves framing the edge, no pagodas, no map, city skyline understated in the distant haze. These are artistic interpretations, not precise depictions of buildings or historical artifacts. All nine scenes equal in visual weight and square panel size.",
+  "revision": "Only the top-middle rice cake panel was edited to remove bread-like thickness and stuffing; other eight panels preserved.",
+  "layout": "3 columns × 3 rows, nine equal square panels",
+  "panels": [
+    "smallpot",
+    "erkuai",
+    "dianchi",
+    "cuihu",
+    "dounan",
+    "jiangwu",
+    "zhenghe",
+    "nieer",
+    "kunming-cover"
+  ],
+  "note": "All scenes are artistic interpretations, not exact buildings, real exhibit layouts, historical portraits or artifact reconstructions."
+}

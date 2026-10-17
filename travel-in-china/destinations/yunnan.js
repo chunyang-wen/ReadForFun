@@ -1,0 +1,40 @@
+import {kunmingArticles,kunmingSources,kunmingPeople,makeKunming} from './kunming.js';
+import {yunnanDirectory} from './yunnan-directory.js';
+// Provincial reading atlas; prefecture codes are not city/county substitutes.
+// Source pages checked 2026-10-17. Historical figures are explicitly dated.
+const sheet='https://readforfun-img.chunyangwen.com/travel-in-china/.work/yunnan/4979a22632f7f79d/yunnan-scenes.png';
+const scene=index=>({url:sheet,position:`${index%3*50}% ${index<3?0:100}%`,size:'300% 200%',ratio:'1'});
+const source=(title,url,asOf,claims)=>({title,url,asOf,checked:'2026-10-17',claims});
+export const sources={
+ noodles:source('云南省应急管理厅 · 总要来云南吃一碗过桥米线吧','https://yjglt.yn.gov.cn/html/2024/youyizhongjiaoyunnandeshenghuo_0828/4029929.html','2024-08-28','蒙自与过桥米线的联系；2014 年列入国家级非遗名录。'),
+ shilin:source('联合国教科文组织 · 中国南方喀斯特','https://whc.unesco.org/en/list/1248/','世界遗产名录条目','石林属于中国南方喀斯特系列遗产，具有剑状喀斯特景观。'),
+ terraces:source('联合国教科文组织 · 红河哈尼梯田文化景观','https://whc.unesco.org/en/list/1111/','2013 年列入名录','森林、水系、村寨和梯田共同构成活态农业景观。'),
+ lijiang:source('联合国教科文组织 · 丽江古城','https://whc.unesco.org/en/list/811/','1997 年列入名录','古城的水系、街巷与多种文化传统相互交织。'),
+ tiedye:source('中国非物质文化遗产网 · 大理周城白族的扎染工艺','https://www.ihchina.cn/news_1_details/11139.html','2009-04-14','周城位于大理市喜洲镇；扎花、浸染、漂晾及蓝白纹样。'),
+ daguan:source('云南省水利厅 · 载瞻载止，风日池滨，题咏的长联蕴新','https://wcb.yn.gov.cn/html/2024/yewuzhuanlan_0229/58292.html','2024-02-29','孙髯翁长联的开篇；后世书写、重修与原作的区别。'),
+ daguanAuthor:source('昆明信息港 · 大观楼专题','https://www.kunming.cn/zhuanti/xwzt/mlmldgl/','专题未标注统一发布日期','清代孙髯翁撰写大观楼一百八十字长联。'),
+ divisions:source('云南地级区划名称与代码 · 阿里云 DataV','https://geo.datav.aliyun.com/areas_v3/bound/530000_full.json','数据源未注明生效年份','16 个地级行政区名称与代码；数量时点另见统计卡。')
+};
+export const divisions=[
+ ['530100','昆明市'],['530300','曲靖市'],['530400','玉溪市'],['530500','保山市'],['530600','昭通市'],['530700','丽江市'],['530800','普洱市'],['530900','临沧市'],
+ ['532300','楚雄彝族自治州'],['532500','红河哈尼族彝族自治州'],['532600','文山壮族苗族自治州'],['532800','西双版纳傣族自治州'],['532900','大理白族自治州'],['533100','德宏傣族景颇族自治州'],['533300','怒江傈僳族自治州'],['533400','迪庆藏族自治州']
+].map(([code,name])=>({code,name,type:name.endsWith('自治州')?'autonomous':'city'}));
+export const people=[{id:'sunranweng',name:'孙髯翁',era:'清代',place:'昆明 · 大观楼',region:'530100',relation:'楹联作者与题咏地',summary:'用一副长联，把滇池风光与云南历史放在同一处观看。原作、后世书写与今天的楼阁，应分开理解。',article:'daguan',source:'daguanAuthor'}];
+export const poems=[{id:'daguan-couplet',kind:'楹联',title:'大观楼长联 · 上联开篇节选',author:'孙髯翁',era:'清代',place:'昆明 · 滇池',region:'530100',relation:'楹联题咏湖山，并非格律诗',lines:['五百里滇池奔来眼底，','披襟岸帻，喜茫茫空阔无边！'],explanation:'湖面在眼前展开。作者写出迎向开阔天地时舒展的心情，让静止的远景仿佛向人走来。',note:'这里只节选上联开篇，标点为便于阅读所加。“五百里”保留作品的历史表达，不当作今天湖泊周长的测量数据。现存楼阁与联刻经历后世重修和重制。',article:'daguan',source:'daguan'}];
+export const articles=[
+ {id:'noodles',region:'532500',place:'红河州 · 蒙自市',title:'一碗米线，从蒙自读起',short:'过桥米线',en:'MENGZI · A BOWL OF YUNNAN',tags:['eat','culture'],scene:scene(0),minutes:3,dek:'汤、米线与一碟碟配料，把地方风味摆成一张小小的桌景。',intro:'云南的米线有许多吃法，过桥米线是其中广为人知的一种。认识它，可以先从红河州的蒙自开始：当地的制作技艺在 2014 年列入国家级非物质文化遗产代表性项目名录。一碗食物背后，也有人在学习与传承的手艺。',details:[['看分工','先看看桌上哪些是汤、哪些是米线，哪些是分开摆放的配料。'],['看变化','请店员介绍这一份的吃法，再比较食材放入前后的颜色与香气。'],['辨口感','用软、滑、鲜、香等自己的词语描述，不急着给食物排名。']],story:'名字常让人先想到“为什么要过桥”。地方流传的故事可以为食物增添想象，却不能代替有据可查的历史。更容易看见的，是眼前这份食物如何准备、怎样上桌，以及今天的人怎样延续和改变它。云南很大，不能用一碗米线代表所有地方的餐桌。',observe:'先问清配料与过敏原。热汤交由店员或大人协助，不以“看不见热气”判断温度，也不要自行用余温处理生肉。按店家的熟制要求食用。',question:'如果把这一餐画下来，你会把哪些食材分开画？',answer:'可以先画汤碗，再画米线和配料小碟。画出上桌顺序或香气的变化，便有了一份自己的食物笔记。',refs:['noodles']},
+ {id:'shilin',region:'530100',place:'昆明市 · 石林彝族自治县',title:'石头，也能长成一片森林',short:'石林',en:'SHILIN · A LANDSCAPE IN STONE',tags:['play'],scene:scene(1),minutes:3,dek:'沿着石峰间的小路，学会从形状里提出地理问题。',intro:'石林的“林”，由高低不一的石峰组成。它是“中国南方喀斯特”系列世界自然遗产的一部分。喀斯特常与可溶性岩石、水和漫长的地质作用相连；旅行时不必先记下一串术语，可以先看石峰的尖、缝隙的深，以及小路怎样穿过它们。',details:[['看轮廓','把目光从峰顶移到石峰之间的空隙，比较尖、窄与高低。'],['找纹理','在步道上观察岩面线条，想一想水与岩石如何长期相遇。'],['换角度','同一组石峰，走过一个转弯就可能出现不同的轮廓。']],story:'人会给石头起名字，也会把轮廓看成动物或人物。这样的联想让景物变得亲切；解释地貌时，还需要回到岩石与水的长期作用。可以在笔记里把“我看起来像什么”和“资料解释了什么”分成两栏，让想象和观察一起留下来。',observe:'只沿开放步道行走，比较两处岩面的纹理与阴影，不攀爬石峰、不刻画岩壁。图中的路径为艺术化示意，不能用作现场导航。',question:'一块石头，从两个方向看，会像同一样东西吗？',answer:'选一处安全的转角，各画一张轮廓。把画并排放，看看哪些地方改变了，哪些仍能对应。',refs:['shilin']},
+ {id:'terraces',region:'532500',place:'红河州 · 元阳县',title:'顺着一滴水，读懂哈尼梯田',short:'哈尼梯田',en:'HONGHE · WATER CONNECTS THE HILLS',tags:['play','culture'],scene:scene(2),minutes:3,dek:'森林、村寨、水系与田地，共同写在山坡上。',intro:'从远处看，红河哈尼梯田像层层展开的曲线。走近它的文化景观，会发现田地并不是独立的风景：山上的森林、村寨与分配灌溉水的沟渠，一起支持着山地耕作。这是一处仍有人生活和劳动的地方。',details:[['往上看','留意山坡上方的森林，它与涵养水源紧密相关。'],['看联系','寻找村寨、沟渠与田块在山坡上的相对位置。'],['看季节','水面、秧苗和成熟稻田会呈现不同颜色，插画只表现一种景象。']],story:'田埂的曲线顺应山坡，水又把分散的田块联系起来。理解梯田，可以从“水从哪里来、怎样分给田地”开始，再想到共同维护沟渠的人。亮丽的倒影只是观看的一个时刻，耕作和协作才让这片景观持续。',observe:'在开放观景处画一条从山上到田地的水路。不要踩田埂或进入耕地取景；拍摄村民前征求同意，尊重劳动与日常生活。',question:'如果只画田地，遗漏了哪些让稻子生长的线索？',answer:'还可以补上森林、沟渠、村寨与维护水路的人。用箭头把它们连接起来，试着说明水怎样抵达田地。',refs:['terraces']},
+ {id:'lijiang',region:'530700',place:'丽江市 · 丽江古城',title:'跟着流水，走进丽江的街巷',short:'丽江古城',en:'LIJIANG · STREETS BESIDE WATER',tags:['play','culture'],scene:scene(3),minutes:3,dek:'从小桥与水渠，看街巷、房屋和人的生活怎样相遇。',intro:'丽江古城的魅力，不只在一座漂亮的院子。水系与街巷交错，桥连接两岸的通行，房屋又围合出不同的生活空间。联合国教科文组织的遗产介绍，也强调这里多种文化传统交汇的特点。',details:[['看水渠','在开放街巷留意水流方向，不必把所有水渠都想成一条河。'],['看小桥','桥除了构成画面，也在连接门前、街道与对岸。'],['看门窗','比较院落入口与临街界面，想一想公共与私人的边界。']],story:'认识一座古城，可以把注意力从单个景点移向相互联系的部分。水、路、桥、院落，让地方有了可以行走的节奏。今天的商铺与游客也是眼前的一层，但不能据此概括纳西族或云南所有民族的生活；遇见展览与讲解时，再去读具体的人与历史。',observe:'选择一小段开放街巷，画出一条水渠、一道桥和一处转角。不进入私人院落，不把水渠当作饮水处，也不在狭窄桥面停留阻挡通行。',question:'如果拿走画里的桥，两岸的人会怎样走？',answer:'沿着画中的街道寻找另一个连接点。再想一想，桥的位置会怎样影响门口与街道上的活动。',refs:['lijiang']},
+ {id:'tiedye',region:'532900',place:'大理州 · 大理市喜洲镇周城',title:'把一朵白花，留在靛蓝里',short:'白族扎染',en:'DALI · PATTERNS HELD BY THREAD',tags:['play','culture'],scene:scene(4),minutes:3,dek:'从扎线到拆线，在一块布上看见手的安排。',intro:'在大理周城，蓝白相间的扎染布是一条认识手艺的线索。先把布的一些部分扎紧，再浸染、漂晾，拆开后便能看到不同深浅的花纹。白色的花形，常来自染色时受到阻隔的部位。',details:[['先扎花','折叠与缝扎改变布的形状，也影响后来图案的位置。'],['再浸染','扎紧和展开的地方接触染液的程度不同，便留下颜色差别。'],['后拆线','展开后的纹样有重复，也有边缘自然变化的色晕。']],story:'扎染并非只把图案画到布面上。线结先安排了染色的边界，拆线才揭开结果。手的松紧与折叠会留下细小差异，观察这些边缘，往往比寻找完全一样的花纹更有意思。不同工坊的染料和工序会有差别，蓝白外观本身不能证明一定使用植物染料。',observe:'在允许的展示中先看一块扎好的布，再看展开后的成品。体验前询问染料与防护要求，使用针具、染缸时由老师或大人指导，不擅自触碰工作中的工具。',question:'扎得紧的地方，为什么可能留下更浅的颜色？',answer:'可以用纸的折叠先作想象：哪些部分被遮住，哪些露在外面？再对照工坊讲解，看看线结怎样阻挡染液进入。',refs:['tiedye']},
+ {id:'daguan',region:'530100',place:'昆明市 · 大观楼与滇池',title:'在大观楼，把湖山读成一副长联',short:'孙髯翁与大观楼',en:'KUNMING · A LAKE IN LITERATURE',tags:['play','culture'],scene:scene(5),minutes:4,people:['sunranweng'],poems:['daguan-couplet'],dek:'从“奔来眼底”四个字，走向一位清代作者眼中的滇池。',intro:'昆明大观楼与孙髯翁的长联紧密相连。读湖景时，可以借这副楹联开一扇窗：眼前有水与山，文字又把视线带向历史。楹联有上下联，这里展示的是上联开篇的一小段，不把它称作一首诗。',details:[['人物','孙髯翁是清代长联作者，人物与地方通过作品联系。'],['作品','上联从滇池风物展开，下联转向往事；本页只节选开篇。'],['后世','联文、后世书写与今天的楼阁有各自的时间，不能视为同一件原物。']],story:'“奔来”让湖面仿佛有了动作。读者站在今天的湖边，却能借这个词走近古人的观看方式。现存建筑与联刻经历重修、书写和重制，读题记时要把作者和书写者分开。这些后续的保存与纪念，也构成地方的文化记忆。',observe:'先找作者与书写者的说明，再看看文字指向的湖山。读到“五百里”，把它放回文学语境，不拿来计算今天滇池的周长。插画不是大观楼建筑测绘或历史原貌。',question:'把“奔来眼底”换成“出现在眼前”，感觉有什么变化？',answer:'前者像景物迎面而来，更有动势；后者较平静。可以各画一条线，表现这两种不同的观看感受。',refs:['daguan','daguanAuthor']}
+];
+// Add the detailed city without duplicating its original two provincial stories.
+Object.assign(sources,kunmingSources);articles.push(...kunmingArticles);people.push(...kunmingPeople);
+articles.find(a=>a.id==='shilin').county='530126';articles.find(a=>a.id==='daguan').county='530112';
+people.find(p=>p.id==='sunranweng').county='530112';poems.find(p=>p.id==='daguan-couplet').county='530112';
+export const yunnan={id:'yunnan',name:'云南',en:'YUNNAN',province:'530000',provinceName:'云南省',provinceEn:'YUNNAN',kind:'province',directory:yunnanDirectory,label:'云南 · 省级图志',coordinates:[102.712251,25.040609],lede:'沿着山水，读见不同的生活。',intro:'从蒙自的一碗米线，到大理的一抹靛蓝。\n在昆明、丽江与红河，读懂山水和人的联系。',cover:scene(2),coverAlt:'森林、村寨与层层展开的哈尼梯田',articles,sources,people,poems,divisions,divisionParam:'region',divisionLabel:'州、市',literatureLabel:'诗文',date:'2026 年 10 月 17 日',chapterLabels:['一碗米香','山水之间','手艺与文字']};
+
+for(const a of articles.filter(a=>a.region==='530100'))a.destination='kunming';
+for(const p of [...people,...poems].filter(p=>p.region==='530100'))p.destination='kunming';
+export const kunming=makeKunming({articles,sources,people,poems});

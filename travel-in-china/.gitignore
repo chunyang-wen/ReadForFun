@@ -3,3 +3,6 @@ assets/*.png
 assets/sources/*.jpg
 mockups/*.png
 previews/
+
+# Local research, media preparation, and browser QA (never published as source).
+.work/
